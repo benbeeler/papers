@@ -1,0 +1,105 @@
+\documentclass[review]{elsarticle}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{gensymb}
+\usepackage{lineno}
+
+
+\journal{Journal of Nuclear Materials}
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Atomistic calculations of the surface energy as a function of composition and temperature in $\gamma$U-Zr}
+
+
+\author[inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{benjamin.beeler@inl.gov}
+\author[inl]{Yongfeng Zhang}
+\author[inl]{Stephen Novascone}
+\author[inl]{Larry Aageson}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+
+
+\begin{abstract}
+
+
+
+A monolithic fuel design based on a U-Mo alloy has been selected as the fuel type for conversion of the United States High-Performance Research Reactors (HPRRs). A 2015 post-irradiation examination (PIE) report showed accelerated swelling in U-10Mo fuels at fission densities much lower than previously observed. This PIE report showed a large amount of compositional banding, or regions of low Mo content adjacent to regions of high Mo content, with low Mo content typically along grain boundaries. Lower Mo content can lead to phase decomposition from the gamma U-Mo body-centered cubic phase to the alpha U phase as well as an earlier onset of recrystallization. Thus, the phenomenon of Mo depletion at grain boundaries is an important factor in the accelerated swelling behavior of U-Mo fuel. However, the physical origin of Mo depletion at grain boundaries is still unclear. In this work, molecular dynamics simulations have been performed to calculate the grain boundary and surface energies of body-centered cubic (bcc) U, bcc Mo and alloys of U-Mo from 600 K to 1200 K. It is observed that the lower grain boundary energy of bcc U, compared to bcc Mo, provides the driving force for Mo depletion at grain boundaries. This driving force diminishes with increasing temperature, but is not eliminated. This information can be utilized as inputs to higher length scale modeling methodologies and provide specification guidance to fabricators.
+
+
+\end{abstract}
+\end{frontmatter}
+
+\linenumbers
+\modulolinenumbers[5]
+
+\section{Introduction}
+
+There has been a renewed effort in recent decades to replace current highly enriched uranium (HEU) fuel in high power research reactors with low enriched uranium (LEU) fuel \cite{snelgrove1997}. In the United States, this program is the United States High-Performance Research Reactor (USHPRR) program. Research reactors require fuel that operates at high power and reaches high fission density, but at relatively low temperatures. As such, UO$_{2}$ fuel utilized in commercial nuclear reactors is non-viable for research reactor use. Typical research reactor fuel consists of aluminum (Al) cladding surrounding a fuel meat composed of fuel particles dispersed in an Al matrix \cite{meyer2014}. In order to achieve a reduced enrichment in these fuel types, there is the requirement for increased uranium density. One way this is achieved is by utilizing $\gamma$ stabilized uranium alloys with 10 wt.\% or less alloy content. The fuel design being pursued under the USHPRR program is a uranium-molybdenum (U-Mo) monolithic foil, with a zirconium (Zr) diffusion barrier in Al clad.
+
+One issue with metallic fuels, including U-Mo, is the large amount of swelling that takes place during operation\cite{hofman1997}. Such swelling can be accounted for in the fuel design, however the swelling needs to be stable and predictable up to high fission densities. Research reactor fuel types based on U-Mo are unique in their ability to stably retain fission gases to high fission densities, and as such there is a relatively high content of fission gas and of fission gas bubbles within the fuel matrix. The importance of swelling in addition to the unique fuel environment has led to a variety of studies attempting to characterize the swelling behavior in U-Mo fuels \cite{rest2009, kim_anl08, meyer2002, kim2013} which has led to the development of a swelling correlation as a function of fission density from Argonne National Labortory (ANL correlation) \cite{kim2011} and Idaho National Laboratory \cite{umo_prelim_report2017}. The ANL correlation was intended to be applicable for low temperature (less than 250$^{\circ}$C) U-Mo alloys in the 7-10 wt.\% composition range. 
+
+A 2015 post-irradiation examination (PIE) report \cite{afip6report} from Williams, et al. showed higher swelling in U-10Mo fuels at fission densities much lower than previously observed. This accelerated fuel swelling behavior could lead to early fuel failure and was not captured by the ANL correlation. Understanding the cause of this anomalous swelling behavior is a critical step in qualifying U-Mo fuel for use in research reactors. This PIE report showed a large amount of compositional banding, or regions of low Mo content adjacent to regions of higher Mo content, with low Mo content typically along grain boundaries. An increased amount of swelling was also observed in lower Mo content alloys (U-7Mo) \cite{vandenberghe2014} at lower fission densities. Lower Mo content can lead to phase decomposition from the $\gamma$U-Mo body-centered cubic (bcc) phase to the face-centered orthorhombic $\alpha$U phase \cite{janfong2014}. This is evident along grain boundaries as well as in the region involving the interaction of the U-Mo fuel foil and the Zr diffusion barrier \cite{park2015}. Finally, in alloys with either lower Mo content or increased banding, it has been observed an earlier onset of irradiation-induced recrystallization\cite{kim2013A}, where new nano-sized grains are being formed primarily along grain boundaries. Recrystallization is the suggested culprit behind accelerated swelling, as the recrystallized grains are destroying the fission gas superlattice \cite{vandenberghe2008}. 
+
+This experimental history suggests that the phenomenon of Mo depletion at grain boundaries is an important factor in the accelerated swelling behavior of U-Mo fuel. In order to understand this phenomenon, we need to discover the driving force explaining why it occurs. This driving force must then be studied to determine its variance as a function of a variety of properties in order to determine if there is a way to diminish the driving force behind Mo depletion, aiding in the fuel fabrication processes, with the goal of improving the swelling behavior of U-Mo fuel.
+
+Previous computational investigations have been performed investigating grain boundary energies in bcc Mo by Morita \cite{morita1997} and Wolf \cite{wolf1989bcc1, wolf1990bcc2} utilizing a Finnis-Sinclair potential \cite{finnis}. Yesilleten and Arias \cite{yesilleten2001} utilized a model generalized pseudopotential theory (MGPT) \cite{moriarty1988} potential to investigate bcc Mo grain boundaries and their interactions with vacancies. Ratanaphan \cite{ratanaphan2015} also utilized the Finnis-Sinclair potential \cite{finnis} to comprehensively study Mo grain boundaries within a molecular statics framework. Novoselov \cite{novoselov2014} studied the interactions of vacancies and interstitials with grain boundaries in bcc Mo using an Embedded-Atom Method (EAM) \cite{daw1984, daw1993} potential \cite{starikov2011}. A recent first principles study investigated surface energies in U-Mo \cite{zhigang2018}. To the best of our knowledge, in the literature there are not any high temperature computational studies on bcc Mo grain boundaries nor any computational studies whatsoever of bcc U or U-Mo alloy grain boundaries.
+
+In this paper, molecular dynamics simulations have been performed to calculate the grain boundary and surface energies of bcc U, bcc Mo and alloys of bcc U-Mo from 600 K to 1200 K. 
+
+\section{Computational Details}
+\subsection{Interfacial energy calculations}
+Molecular dynamics simulations are performed utilizing the LAMMPS \cite{plimpton1995} software package 
+
+
+and the U-Mo angular dependent potential (ADP) \cite{smirnovaADP}. A supercell with periodic boundaries is generated that contains two grain boundaries or two free surfaces. The size of the supercell depends on the nature of the interfaces (grain boundaries/surfaces) investigated. Eleven grain boundaries (ten symmetric and one asymmetric) are constructed with respect to the $\langle$100$\rangle$ tilt axis. The asymmetric tilt grain boundary is constructed by only tilting half of the supercell, while holding the rest of the supercell fixed. Grain boundary system size is dependent upon the interface orientation, ranging from between 3000 and 6500 atoms. Three unit cells are included along the tilt axis. Seven unique surfaces are investigated, including three high symmetry surfaces and four lower symmetry surfaces. The low symmetry surfaces are constructed in the same manner as grain boundaries, however only half of the system is constructed as to generate two surfaces instead of two grain boundaries. An example system for the U-10Mo \{120\} symmetric tilt grain boundary is shown in Fig. \ref{fig:gbex} (U-10Mo refers to 10 weight percent Mo, approximately 22 atomic percent).
+
+
+
+These systems were verified to be large enough to obtain accurate surface energies by investigating a single representative larger system and comparing respective interfacial energies. Relaxation is performed in an NPT-ensemble, relaxing each x, y, and z component individually, with a damping parameter of 0.1. A Langevin thermostat in the Gronbech-Jensen-Farago \cite{gjf2014} formalism is utilized with the damping parameter set to 0.01 ps. Systems are investigated over a range of temperatures, from 600 K up to 1200 K. This temperature range was chosen due to the inherent properties of the potential, in that below 600 K $\gamma$U becomes mechanically unstable and above 1200 K the crystal structure is approaching the melting point. Systems are relaxed for 100 ps, with energies averaged over the final 50 ps. Five unique simulations are performed for each system to ensure statistical significance of the results. The interfacial energy is calculated via equation \ref{eq:surface},
+
+\begin{equation}
+\label{eq:surface}
+E_{nf}= \frac{(E^{*} - E)}{A} \times N
+\end{equation}
+
+where $\it{E^{*}}$ is the potential energy per atom of the system with two interfaces, $\it{E}$ is the potential energy per atom of the perfect crystal U, Mo or U-Mo, $\it{A}$ is the total area of the interface (there are two in the system) and $\textit{N}$ is the number of atoms in the system with two interfaces. 
+
+Alloys of U-Mo are generated by constructing a bcc U grain boundary system, with a prescribed number of U atoms replaced by Mo. Thus, both the bulk and the grain boundary should be of the same alloy concentration. Unique systems are developed for each interfacial configuration by generating five different U-Mo configurations at the prescribed alloy concentrations. For pure U and pure Mo, unique systems are developed by initializing velocities with different random number seeds. 
+
+
+\section{Results}
+\subsection{Equilibrium calculation of $\gamma$-UZr}
+
+
+\subsection{Investigation of void surface energy}
+
+
+\subsection{Atomistically refined fuel performance simulations}
+
+
+
+\FloatBarrier
+
+\section{Conclusions}
+
+In this study, the grain boundary energy and surface energy for bcc U, bcc Mo and U-Mo alloys were calculated as a function of temperature and at various orientations. It is observed that bcc U and bcc Mo display similar grain boundary energy landscapes with respect to the $\langle$100$\rangle$ tilt axis, with the most prominent minima occurring at the \{130\} and \{120\} symmetric tilt grain boundary planes. In both systems, the \{110\} surface energy is the lowest in energy of all surfaces investigated. Grain boundary and surface energies of bcc Mo show minimal variation with increasing temperature while bcc U interfaces show a significant increase in energy with increasing temperature. The bcc Mo interfacial energies are substantially higher than those of bcc U. This is the driving force behind the phenomenon of Mo depletion at grain boundaries that has been observed in U-Mo fuels. The magnitude of the difference in interfacial energies between bcc Mo and bcc U decreases with increasing temperature. Grain boundaries in U-Mo are not expected to completely deplete Mo, as there is a competition between decreasing the energy of the grain boundary (by depleting Mo) and increasing the energy of the bulk (by subsequently increasing Mo content). Finally, active depletion of Mo at grain boundaries was performed via a series of hybrid MC/MD simulations. These simulations confirmed that the Mo concentration is reduced at grain boundaries, but that Mo is not fully depleted. These simulations also showed that the degree of Mo depletion is reduced as a function of increasing temperature. 
+
+
+
+\section{Acknowledgement}
+This work was supported by the U.S. Department of Energy, Office of Material Management and Minimization, National Nuclear Security Administration, under DOE-NE Idaho Operations Office Contract DE-AC07-05ID14517. This manuscript has been authored by Battelle Energy Alliance, LLC with the U.S. Department of Energy. The publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for U.S. Government purposes. This research made use of the resources of the High Performance Computing Center at Idaho National Laboratory, which is supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear Science User Facilities.
+
+\section{References}
+
+\bibliography{MARMOTbib}
+
+
+\end{document} 

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: diff.aux
+The style file: elsarticle-num.bst
+Database file #1: MARMOTbib.bib
+You've used 30 entries,
+            2937 wiz_defined-function locations,
+            848 strings with 9600 characters,
+and the built_in function-call counts, 7765 in all, are:
+= -- 684
+> -- 348
+< -- 2
++ -- 136
+- -- 106
+* -- 529
+:= -- 1182
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 236
+empty$ -- 816
+format.name$ -- 131
+if$ -- 1983
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 27
+newline$ -- 98
+num.names$ -- 30
+pop$ -- 150
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 513
+stack$ -- 0
+substring$ -- 273
+swap$ -- 31
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 57
+width$ -- 32
+write$ -- 248

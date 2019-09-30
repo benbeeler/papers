@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{odette2008}
+G.~Odette, M.~Alinger, B.~Wirth, Recent developments in irradiation-resistant
+  steels, Ann. Rev. of Mat. Res. 38 (2008) 471.
+
+\bibitem{olander}
+D.~Olander, Fundamental Aspects of Nuclear Reactor Fuel Elements, National
+  Technical Information Service, 1976.
+
+\bibitem{stiegler1979}
+J.~Stiegler, L.~Mansur, Ann. Rev. of Mat. Res. 9 (1979) 405.
+
+\bibitem{was2007}
+G.~Was, Fundamentals of Radiation Materials Science, Springer, 2007.
+
+\bibitem{decker1988}
+R.~Decker, S.~Floreen, R.~Wilson, Maraging steels: recent developments and
+  applications, maraging steels-the first 30 years, TMS (198) 1.
+
+\bibitem{stiller2008}
+K.~Stiller, H.~Andren, M.~Anderson, Precipitation in maraging and martensitic
+  chromium steels-what can we learn using 3-dap and eftem, Mat. Sci. and Tech.
+  (2008) 633.
+
+\bibitem{schnitzer2010}
+R.~Schnitzer, M.~Schober, S.~Zinner, H.~Leitner, Effect of cu on the evolution
+  of precipitation in an fe-cr-ni-al-ti maraging steel, Acta Mat. 58 (2010)
+  3733.
+
+\bibitem{daw1984}
+M.~Daw, M.~Baskes, Embedded-atom method - derivation and application to
+  impurities, surfaces, and other defects in metals, Phys. Rev. B 29 (1984)
+  6443.
+
+\bibitem{mendelev2003}
+M.~Mendelev, S.~Han, D.~Srolovitz, G.~Ackland, D.~Sun, M.~Asta, Development of
+  new interatomic potentials appropriate for crystalline and liquid iron, Phil.
+  Mag. 83 (2003) 3977--3994.
+
+\bibitem{pun2009}
+G.~Pun, M.~Mishin, Development of an interatomic potential for the ni-al
+  system, Phil. Mag. 89 (2009) 3245.
+
+\bibitem{plimpton1995}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
+  Comp. Phys. 117 (1995) 1--19.
+
+\bibitem{mishin2005}
+Y.~Mishin, M.~Mehl, D.~Papaconstantopoulos, Phase stability in the fe–ni
+  system: Investigation by first-principles calculations and atomistic
+  simulations, Acta Mat. 53 (2005) 4029.
+
+\bibitem{gjf2013}
+N.~Gronbech-Jensen, O.~Farago, A simple and effective verlet-type algorithm for
+  simulating langevin dynamics, Mol. Phys. 111 (2013) 983.
+
+\bibitem{gjf2014}
+N.~Gronbech-Jensen, N.~Hayre, O.~Farago, Application of the g-jf discrete-time
+  thermostat for fast and accurate molecular simulations, Comp. Phys. Comm. 185
+  (2014) 524.
+
+\bibitem{bai2010}
+X.-M. Bai, A.~Voter, R.~Hoagland, M.~Nastasi, B.~Uberuaga, Efficient annealing
+  of radiation damage near grain boundaries via interstitial emission, Science
+  327 (2010) 1631.
+
+\end{thebibliography}

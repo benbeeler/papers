@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: usixe.aux
+The style file: elsarticle-num.bst
+Database file #1: MARMOTbib.bib.bib
+You've used 46 entries,
+            2937 wiz_defined-function locations,
+            920 strings with 11471 characters,
+and the built_in function-call counts, 12092 in all, are:
+= -- 1064
+> -- 550
+< -- 4
++ -- 214
+- -- 168
+* -- 833
+:= -- 1830
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 45
+chr.to.int$ -- 0
+cite$ -- 46
+duplicate$ -- 364
+empty$ -- 1267
+format.name$ -- 208
+if$ -- 3084
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 43
+newline$ -- 146
+num.names$ -- 46
+pop$ -- 237
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 785
+stack$ -- 0
+substring$ -- 456
+swap$ -- 48
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 86
+width$ -- 48
+write$ -- 377

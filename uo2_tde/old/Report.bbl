@@ -1,0 +1,106 @@
+\begin{thebibliography}{10}
+
+\bibitem{Norg}
+M.~Norgett, M.~Robinson, and I.~Torrens, ``A proposed method of calculating
+  displacement dose rates,'' {\em Nuclear Engineering and Design}, vol.~33,
+  no.~1, pp.~50 -- 54, 1975.
+
+\bibitem{Meis}
+C.~Meis and A.~Chartier, ``Calculation of the threshold displacement energies
+  in uo2 using ionic potentials,'' {\em Journal of Nuclear Materials},
+  vol.~341, no.~1, pp.~25 -- 30, 2005.
+
+\bibitem{Devanathan}
+R.~Devanathan, T.~D. de~la Rubia, and W.~Weber, ``Displacement threshold
+  energies in β-sic,'' {\em Journal of Nuclear Materials}, vol.~253, no.~1,
+  pp.~47 -- 52, 1998.
+
+\bibitem{Motta}
+A.~T. Motta, D.~R. Olander, and B.~Wirth, {\em Light water reactor materials}.
+\newblock American Nuclear Society, 2017.
+
+\bibitem{Soul1}
+J.~Soullard and E.~A. Alamo, ``Etude du ralentissement des ions dans une cible
+  diatomique,'' {\em Radiation Effects}, vol.~38, no.~3-4, pp.~133--139, 1978.
+
+\bibitem{Soul2}
+J.~Soullard, ``High voltage electron microscope observations of uo2,'' {\em
+  Journal of Nuclear Materials}, vol.~135, no.~2, pp.~190 -- 196, 1985.
+
+\bibitem{Soul3}
+J.~Soullard, ``Contribution to the study of structural defects in uranium
+  dioxyde,'' 1977.
+
+\bibitem{Van}
+L.~V. Brutzel, J.-M. Delaye, D.~Ghaleb, and M.~Rarivomanantsoa, ``Molecular
+  dynamics studies of displacement cascades in the uranium dioxide matrix,''
+  {\em Philosophical Magazine}, vol.~83, no.~36, pp.~4083--4101, 2003.
+
+\bibitem{More}
+N.-D. Morelon, D.~Ghaleb, J.-M. Delaye, and L.~V. Brutzel, ``A new empirical
+  potential for simulating the formation of defects and their mobility in
+  uranium dioxide,'' {\em Philosophical Magazine}, vol.~83, no.~13,
+  pp.~1533--1555, 2003.
+
+\bibitem{Litt}
+N.~F. Mott and M.~J. Littleton, ``Conduction in polar crystals. i. electrolytic
+  conduction in solid salts,'' {\em Trans. Faraday Soc.}, vol.~34,
+  pp.~485--499, 1938.
+
+\bibitem{Martin}
+G.~Martin, P.~Garcia, L.~V. Brutzel, B.~Dorado, and S.~Maillard, ``Effect of
+  the cascade energy on defect production in uranium dioxide,'' {\em Nuclear
+  Instruments and Methods in Physics Research Section B: Beam Interactions with
+  Materials and Atoms}, vol.~269, no.~14, pp.~1727 -- 1730, 2011.
+\newblock Computer Simulations of Radiation Effects in Solids.
+
+\bibitem{Lammps}
+S.~J. Plimpton, ``Fast parallel algorithms for short-range molecular
+  dynamics,'' {\em J Comp Phys}, vol.~117, no.~1, pp.~1--19, 1995.
+
+\bibitem{Basak}
+C.~Basak, A.~Sengupta, and H.~Kamath, ``Classical molecular dynamics simulation
+  of uo2 to predict thermophysical properties,'' {\em Journal of Alloys and
+  Compounds}, vol.~360, no.~1, pp.~210 -- 216, 2003.
+
+\bibitem{Yamada}
+K.~Yamada, K.~Kurosaki, M.~Uno, and S.~Yamanaka, ``Evaluation of thermal
+  properties of uranium dioxide by molecular dynamics,'' {\em Journal of Alloys
+  and Compounds}, vol.~307, no.~1, pp.~10 -- 16, 2000.
+
+\bibitem{Yakub}
+E.~Yakub, C.~Ronchi, and D.~Staicu, ``Computer simulation of defects formation
+  and equilibrium in non-stoichiometric uranium dioxide,'' {\em Journal of
+  Nuclear Materials}, vol.~389, no.~1, pp.~119 -- 126, 2009.
+\newblock Thermochemistry and Thermophysics of Nuclear Materials.
+
+\bibitem{Govers1}
+K.~Govers, S.~Lemehov, M.~Hou, and M.~Verwerft, ``Comparison of interatomic
+  potentials for uo2. part i: Static calculations,'' {\em Journal of Nuclear
+  Materials}, vol.~366, no.~1, pp.~161 -- 177, 2007.
+
+\bibitem{Govers2}
+K.~Govers, S.~Lemehov, M.~Hou, and M.~Verwerft, ``Comparison of interatomic
+  potentials for uo2,'' {\em Journal of Nuclear Materials}, vol.~376, no.~1,
+  pp.~66 -- 77, 2008.
+
+\bibitem{Pot}
+S.~I. Potashnikov, A.~S. Boyarchenkov, K.~A. Nekrasov, and A.~Y. Kupryazhkin,
+  ``High-precision molecular dynamics simulation of uo2-puo2: pair potentials
+  comparison in uo2,'' {\em Journal of Nuclear Materials}, 2011.
+
+\bibitem{ZBL}
+J.~P.~B. J.F.~Ziegler and U.~Littmark, ``The stopping and range of ions in
+  matter,'' {\em Journal of Nuclear Materials}, vol.~1, no.~1, 1985.
+
+\bibitem{Voro}
+C.~H. Rycroft, ``Voro++: A three-dimensional voronoi cell library in c++,''
+  {\em Chaos: An Interdisciplinary Journal of Nonlinear Science}, vol.~19,
+  no.~4, p.~041111, 2009.
+
+\bibitem{Ajay}
+A.~Annamareddy and J.~Eapen, ``Fast anion defect recovery through
+  superionic-type hopping displacements in uo 2 following radiation.,'' in {\em
+  Defect \& Diffusion Forum}, vol.~375, 2017.
+
+\end{thebibliography}

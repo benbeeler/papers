@@ -1,0 +1,162 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{bacon1993}
+D.~Bacon, A.~Calder, J.~Harder, S.~Wooding, Computer simulation of low-energy
+  displacement events in pure bcc and hcp metals, J. Nucl. Mater. 205 (1993)
+  52--58.
+
+\bibitem{stoller1996}
+R.~Stoller, Point defect survival and clustering fractions obtained from
+  molecular dynamics simulations of high energy cascades, J. Nucl. Mater. 233
+  (1996) 999--1003.
+
+\bibitem{gao1996}
+F.~Gao, D.~Bacon, A.~Calder, P.~Flewitt, T.~Lewis, Computer simulation study of
+  cascade overlap effects in alpha-iron, J. Nucl. Mater. 230 (1996) 47--56.
+
+\bibitem{gao1997}
+F.~Gao, D.~Bacon, P.~Flewitt, T.~Lewis, A molecular dynamics study of
+  temperature effects on defect production by displacement cascades in
+  alpha-iron, J. Nucl. Mater. 249 (1997) 77--86.
+
+\bibitem{becquart1997}
+C.~Becquart, K.~Decker, C.~Domain, J.~Ruste, Y.~Souffez, J.~Turbatte, J.~V.
+  Duysen, Massively parallel molecular dynamics simulations with eam
+  potentials, Rad. Eff. Def. Sol. 142 (1997) 9--21.
+
+\bibitem{stoller1999}
+R.~Stoller, L.~Greenwood, Subcascade formation in displacement cascade
+  simulations: Implications for fusion reactor materials, J. Nucl. Mater. 271
+  (1999) 57--62.
+
+\bibitem{malerba2006}
+L.~Malerba, Molecular dynamics simulation of displacement cascades in alpha-fe:
+  A critical review, J. Nucl. Mater. 351 (2006) 28--38.
+
+\bibitem{averback1998}
+R.~Averback, T.~de~la Rubia, Displacement damage in irradiated metals and
+  semiconductors, Solid State Physics 51 (1998) 281.
+
+\bibitem{phythian1995}
+W.~Phythian, R.~Stoller, A.~Foreman, A.~Calder, D.~Bacon, A comparison of
+  displacement cascades in copper and iron by molecular-dynamics and its
+  application to microstructural evolution, J. Nucl. Mater. 223 (1995) 245.
+
+\bibitem{bacon1994}
+D.~Bacon, T.~de~la Rubia, Molecular-dynamics computer-simulations of
+  displacement cascades in metals, J. Nucl. Mater. 216 (1994) 275.
+
+\bibitem{caturla2000}
+M.~Caturla, N.~Soneda, E.~Alonso, B.~Wirth, T.~de~la Rubia, Comparative study
+  of radiation damage accumulation in cu and fe, J. Nucl. Mater. 276 (2000) 13.
+
+\bibitem{zinkle1993}
+S.~Zinkle, B.~Singh, Analysis of displacement damage and defect production
+  under cascade damage conditions, J. Nucl. Mater. 199 (1993) 173.
+
+\bibitem{soneda1998}
+N.~Soneda, T.~de~la Rubia, Defect production, annealing kinetics and damage
+  evolution in alpha-fe: an atomic-scale computer simulation, Phil. Mag. A 78
+  (1998) 995.
+
+\bibitem{bacon2004}
+D.~Bacon, Y.~Osetsky, Multiscale modelling of radiation damage in metals: from
+  defect generation to material properties, Mat. Sci. Eng. A 365 (2004) 46.
+
+\bibitem{hayward2010}
+E.~Hayward, C.~Deo, A molecular dynamics study of irradiation induced cascades
+  in iron containing hydrogen, Comp., Mater. and Cont. 16 (2010) 101--115.
+
+\bibitem{ackland2004}
+G.~Ackland, M.~Mendelev, D.~Srolovitz, S.~Han, A.~Barashev, Development of an
+  interatomic potential for phosphorus impurities in α-iron, J. Phys.: Cond.
+  Mat. 16 (2004) S2629.
+
+\bibitem{terentyev2006}
+D.~Terentyev, L.~Malerba, R.~Chakarova, Displacement cascades in fe-cr: A
+  molecular dynamics study, J. Nucl. Mater. 349 (2006) 119.
+
+\bibitem{beeler2015}
+B.~Beeler, M.~Asta, P.~Hosemann, N.~Gronbech-Jensen, Effects of applied strain
+  on radiation damage generation in body-centered cubic iron, J. Nucl. Mater.
+  459 (2015) 159.
+
+\bibitem{miyashiro2011}
+S.~Miyashiro, S.~Fujita, T.~Okita, Md simulations to evaluate the influence of
+  applied normal stress or deformation on defect production rate and size
+  distribution of clusters in cascade process for pure cu, J. Nucl. Mater. 415
+  (2011) 1--4.
+
+\bibitem{di2013}
+S.~Di, Z.~Yao, M.~Daymond, F.~Gao, Molecular dynamics simulations of
+  irradiation cascades in alpha-zirconium under macroscopic strain, Nucl.
+  Instr. Meth. B 303 (2013) 95--99.
+
+\bibitem{kinchinpease}
+G.~Kinchin, R.~Pease, The displacement of atoms in solids by radiation, Rep.
+  Prog. Phys. 18 (1955) 1.
+
+\bibitem{norgett1975}
+M.~Norgett, M.~Robinson, L.~Torrens, A proposed method of calculating
+  displacement dose rates, Nucl. Eng. Design 33 (1975) 50--54.
+
+\bibitem{nordlund2006}
+K.~Nordlund, J.~Wallenius, L.~Malerba, Molecular dynamics simulation of
+  threshold displacement energies in fe, Nucl. Instr. Meth. B 246 (2006)
+  322--332.
+
+\bibitem{ackland1997}
+G.~Ackland, D.~Bacon, A.~Calder, T.~Harry, Computer simulation of point defect
+  properties in dilute fe-cu alloy using a many-body interatomic potential,
+  Phil. Mag. 75 (1997) 713.
+
+\bibitem{zolnikov2015}
+K.~Zolnikov, A.~Korchuganov, D.~Kryzhevich, V.~Chernov, S.~Psakhie, Structural
+  change in elastically stressed crystallites under irradiation, Nucl. Instr.
+  Meth. B doi:10.1016/j.nimb.2015.01.029.
+
+\bibitem{abraham1986}
+F.~Abraham, Computational statistical mechanics: Methodology, apllications and
+  supercomputing, Adv. in Phys. 35 (1986) 1.
+
+\bibitem{allen1987}
+M.~Allen, D.~Tildesley, Computer Simulation of Liquids, Clarendon Press,
+  Oxford, 1987.
+
+\bibitem{plimpton1995}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
+  Comp. Phys. 117 (1995) 1--19.
+
+\bibitem{daw1984}
+M.~Daw, M.~Baskes, Embedded-atom method - derivation and application to
+  impurities, surfaces, and other defects in metals, Phys. Rev. B 29 (1984)
+  6443.
+
+\bibitem{mendelev2003}
+M.~Mendelev, S.~Han, D.~Srolovitz, G.~Ackland, D.~Sun, M.~Asta, Development of
+  new interatomic potentials appropriate for crystalline and liquid iron, Phil.
+  Mag. 83 (2003) 3977--3994.
+
+\bibitem{gjf2013}
+N.~Gronbech-Jensen, O.~Farago, Application of the g-jf discrete-time thermostat
+  for fast and accurate molecular simulations, Mol. Phys. 111 (2013) 983.
+
+\bibitem{gjf2014}
+N.~Gronbech-Jensen, N.~Hayre, O.~Farago, Application of the g-jf discrete-time
+  thermostat for fast and accurate molecular simulations, Comp. Phys. Comm. 185
+  (2014) 524.
+
+\bibitem{malerba2002}
+L.~Malerba, J.~Perlado, Basic mechanisms of atomic displacement production in
+  cubic silicon carbide: A molecular dynamics study, Phys. Rev. B 65 (2002)
+  045202.
+
+\bibitem{was2007}
+G.~Was, Fundamentals of Radiation Materials Science, Springer, 2007.
+
+\end{thebibliography}

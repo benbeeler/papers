@@ -1,0 +1,219 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{zinkle2016}
+S.~Zinkle, K.~Terrani, L.~Snead, Motivation for utilizing new high-performance
+  advanced materials in nuclear energy systems, COSSMS 20 (2016) 401.
+
+\bibitem{zinkle2014}
+S.~Zinkle, K.~Terrani, J.~Gehin, L.~Ott, L.~Snead, Accident tolerant fuels for
+  lwrs: A perspective, J. Nucl. Mater. 448 (2014) 374.
+
+\bibitem{zachariasen1949}
+W.~Zachariasen, Crystal chemical studies of the 5f-series of elements. viii.
+  crystal structure studies of uranium silicides and of cesi2, npsi2 and pusi2,
+  Acta Cryst. 2 (1949) 94.
+
+\bibitem{remschnig1992}
+K.~Remschnig, T.~L. Bihan, H.~Noel, P.~Rogl, Structural chemistry and magnetic
+  behavior of binary uranium silicides, J. Solid. St. Chem. 97 (1992) 391.
+
+\bibitem{massalski1990}
+B.~Massalski, Binary Alloy Phase Diagrams, second Ed., Materials Park, 1990, p.
+  3374.
+
+\bibitem{white2015}
+J.~White, A.~Nelson, J.~Dunwoody, D.~Byler, D.~Safarik, K.~McClellan,
+  Thermophysical properties of u3si2 to 1773 k, J. Nucl. Mater. (2015) 275.
+
+\bibitem{shimizu1965}
+H.~Shimizu, The properties and irradiation behavior of u3si2, Tech. Rep.
+  NAA-SR-10621, Atomics International (1965).
+
+\bibitem{yagoubi2013}
+S.~Yagoubi, S.~Heathman, A.~Svane, G.~Vaitheeswaran, P.~Heines, J.-C. Griveau,
+  T.~L. Bihan, M.~Idiri, F.~Wastin, R.~Caciuffo, High pressure studies on
+  uranium and thorium silicide compounds: Experiment and theory, J. Alloys and
+  Compounds 546 (2013) 63.
+
+\bibitem{gross1962}
+P.~Gross, C.~Hayman, H.~Clayton, Thermodynamics of nuclear materials, IAEA
+  (1962) 653.
+
+\bibitem{ohare1975}
+P.~O'Hare, et. al., Thermodynamics of nuclear materials, IAE Vienne 2~(439).
+
+\bibitem{alcock1962}
+C.~Alcock, P.~Grieveson, A thermodynamic study of the compounds of uranium with
+  silicon, germanium, tin, and lead, J. Inst. Metals 90 (1962) 304.
+
+\bibitem{rand1963}
+M.~Rand, O.~Kubaschewski, The Thermochemical Properties of Uranium Compounds,
+  Oliver and Boyd, 1963, p.~46.
+
+\bibitem{berche2009}
+A.~Berche, C.~Rado, O.~Rapaud, C.~Gueneau, J.~Rogez, Thermodynamic study of the
+  u-si system, J. Nucl. Mater. 389 (2009) 101.
+
+\bibitem{finlay2002}
+M.~Finlay, G.~Hofman, J.~Rest, J.~Snelgrove, Behavior of irradiated uranium
+  silicide fuel revisited, Tech. rep., International Meeting on RERTRs (2002).
+
+\bibitem{noordhoek2016}
+M.~Noordhoek, T.~Besman, D.~Andersson, S.~Middleburgh, A.~Chernatynskiy, Phase
+  equilibria in the u-si system from first-principles calculations, J. Nucl.
+  Mater. 479 (2016) 216--223.
+
+\bibitem{beeler_meam}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic properties of gamma
+  uranium, J. Phys.: Cond. Mat. 24 (2012) 075401.
+
+\bibitem{beelerASTM}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic investigations of
+  intrinsic and extrinsic point defects in bcc uranium, Effects of Radiation on
+  Nuclear Materials: STP 1547 25 (2012) 231.
+
+\bibitem{fernandez2014}
+J.~Fernandez, M.~Pascuet, On the accurate description of uranium metallic
+  phases: a meam interatomic potential approach, Modelling Simul. Mater. Sci.
+  Eng. 22 (2014) 055019.
+
+\bibitem{li2011}
+R.-S. Li, B.~He, Q.-H. Zhang, Atomistic model of uranium, Chin. J. Chem. Phys.
+  24 (2011) 405.
+
+\bibitem{smirnova2012}
+D.~Smirnova, S.~Starikov, V.~Stegailov, Interatomic potential for uranium in a
+  wide range of pressures and temperatures, J. Phys.: Cond. Mat. 24 (2012)
+  149501.
+
+\bibitem{li2012}
+Y.~Li, T.~Shan, T.~Liang, S.~Sinnott, S.~Phillpot, Classical interatomic
+  potential for orthorhomic uranium, J. Phys.: Cond. Mat. 24 (2012) 235403.
+
+\bibitem{moore2015}
+A.~Moore, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic modeling of
+  high temperature uranium-zirconium alloy structure and thermodynamics, J.
+  Nucl. Mater. 467 (2015) 802.
+
+\bibitem{pascuet2012}
+M.~Pascuet, G.~Bonny, J.~Fernandez, Many-body interatomic u and al-u
+  potentials, J. Nucl. Mater. 424 (2012) 158.
+
+\bibitem{smirnovaUMo}
+D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Z.~Insepov, J.~Rest,
+  A.~Yacout, A ternary eam interatomic potential for u-mo alloys with xenon,
+  Modelling Simul. Mater. Sci. Eng. 21 (2013) 035011.
+
+\bibitem{daw1984}
+M.~Daw, M.~Baskes, Embedded-atom method - derivation and application to
+  impurities, surfaces, and other defects in metals, Phys. Rev. B 29 (1984)
+  6443.
+
+\bibitem{daw1993}
+M.~Daw, S.~Foiles, M.~Baskes, The embedded-atom method: a review of theory and
+  applications, Mat. Sci. Rep. 9 (1993) 251--310.
+
+\bibitem{daw1983}
+M.~Daw, M.~Baskes, Semiempirical, quantum mechanical calculation of hydrogen
+  embrittlement in metals, Phys. Rev. Lett. 50 (1983) 1285.
+
+\bibitem{olsson2009}
+P.~Olsson, Semi-empirical atomistic study of point defect properties in bcc
+  transition metals, Comp. Mat. Sci. 47 (2009) 135.
+
+\bibitem{belaschenko2011}
+D.~Belaschenko, D.~Smirnova, Modeling the molecular dynamics of liquid metals
+  at high pressures: Liquid potassium, Russ. J. Phys. Chem. 85 (2011) 1908.
+
+\bibitem{liu1999}
+X.~Liu, H.~Liu, J.~Dong, X.~Xie, Molecular dynamics simulation on phosphorus
+  behavior at ni grain boundary, Scripta Materialia 42 (1999) 189.
+
+\bibitem{chassange2011}
+M.~Chassange, M.~Legros, D.~Rodney, Atomic-scale simulation of screw
+  dislocation/coherent twin boundary interaction in al, au, cu and ni, Acta
+  mater. 59 (2011) 1456.
+
+\bibitem{li2009MatChem}
+G.~Li, Q.~Wang, D.~Li, J.~He, Size and composition effects on the melting of
+  bimetallic cu-ni clusters studied via molecular dynamics simulation, Mater.
+  Chem. Phys. 114 (2009) 746.
+
+\bibitem{vatne2011}
+I.~Vatne, E.~Ostby, C.~Thaulow, D.~Farkas, Multiscale simulations of mixed-mode
+  fracture in bcc-fe, Mat. Sci. Eng. A 528 (2011) 5122.
+
+\bibitem{rose1984}
+J.~Rose, J.~Smith, F.~Guinea, J.~Ferrante, Universal features of the equation
+  of state of metals, Phys. Rev. B 29 (1984) 2963.
+
+\bibitem{baskes1992}
+M.~Baskes, Modified embedded-atom potentials for cubic materials and
+  impurities, Phys. Rev. B 46 (1992) 2727.
+
+\bibitem{baskes2000}
+M.~Baskes, Atomistic model of plutonium, Phys. Rev. B 62 (2000) 15532.
+
+\bibitem{baskes1987}
+M.~Baskes, Application of the embedded-atom method to covalent materials: A
+  semiempirical potential for silicon, Phys. Rev. Lett. 59 (1987) 2666.
+
+\bibitem{baskes1989}
+M.~Baskes, J.~Nelson, A.~Wright, Semiempirical modified embedded-atom
+  potentials for silicon and germanium, Phys. Rev. B 40 (1989) 6085.
+
+\bibitem{valone2006}
+S.~Valone, M.~Baskes, R.~Martin, Atomistic model of helium bubbles in
+  gallium-stabilized plutonium, Phys. Rev. B 73 (2006) 214209.
+
+\bibitem{baskes1997}
+R.~Ravelo, M.~Baskes, Equilibrium and thermodynamic properties of grey, white,
+  and liquid tin, Phys. Rev. Lett. 79 (1997) 2482.
+
+\bibitem{baskes2014}
+S.~Nouraniuan, M.~Tschopp, S.~Gwaltney, M.~Baskes, M.~Horstemeyer, An
+  interatomic potential for saturated hydrocarbons based on the modified
+  embedded-atom method, Phys. Chem. Chem. Phys. 16 (2014) 6233.
+
+\bibitem{huber1979}
+K.~Huber, G.~Herzberg, Constants of Diatomic Molecules, Van Nostrand, 1979.
+
+\bibitem{plimpton1995}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
+  Comp. Phys. 117 (1995) 1--19.
+
+\bibitem{cohen85}
+M.~Cohen, Calculation of bulk moduli of diamond and zinc-blend solids, Phys.
+  Rev. B 32 (1985) 7988.
+
+\bibitem{birch47}
+F.~Birch, Finite elastic strain of cubic crystals, Phys. Rev. 71 (1947) 809.
+
+\bibitem{middleburgh2016}
+S.~Middleburgh, R.~Grimes, E.~Lahoda, C.~Stanek, D.~Andersson,
+  Non-stoichiometry in u3si2, J. Nucl. Mater. 482 (2016) 300.
+
+\bibitem{gjf2013}
+N.~Gronbech-Jensen, O.~Farago, A simple and effective verlet-type algorithm for
+  simulating langevin dynamics, Mol. Phys. 111 (2013) 983.
+
+\bibitem{zbl}
+J.~Ziegler, J.~Biersack, U.~Littmark, Stopping and Ranges of Ions in Matter,
+  Pergamon Press, 1985.
+
+\bibitem{ovito}
+A.~Stukowski, Visualization and analysis of atomis simulation data with ovito -
+  the open visulaization tool, Modeling and Simulation of Materials Science and
+  Engineering 18 (2010) 015012.
+
+\bibitem{anl_report}
+Y.~Miao, B.~Ye, G.~Hofman, A.~Yacout, K.~Gamble, Z.-G. Mei, Rate theory
+  modeling and simulation of silicide fuel at lwr conditions, Tech. rep.,
+  ANL/NE--16/13 130024 (2016).
+
+\end{thebibliography}

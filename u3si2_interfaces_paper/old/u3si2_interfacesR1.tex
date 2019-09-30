@@ -1,0 +1,414 @@
+\documentclass[review]{elsarticle}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{gensymb}
+\usepackage{lineno}
+\usepackage{color}
+
+\journal{Journal of Nuclear Materials}
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Molecular dynamics investigation of grain boundaries and surfaces in U$_{3}$Si$_{2}$}
+
+\author[inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{benjamin.beeler@inl.gov}
+\author[lanl,ucsd,msu]{Michael Baskes}
+\author[lanl]{David Andersson}
+\author[lanl]{Michael WD Cooper}
+\author[inl]{Yongfeng Zhang}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+\address[lanl]{Los Alamos National Laboratory, Los Alamos, NM 87545}
+\address[ucsd]{University of California-San Diego, San Diego, CA 92093}
+\address[msu]{Mississippi State University, MS 39762}
+
+\begin{abstract}
+
+Uranium-silicide (U-Si) fuels are being pursued as a possible accident tolerant fuel (ATF). This uranium alloy benefits from higher thermal conductivity and higher fissile density compared to uranium dioxide (UO$_{2}$). In order to perform engineering scale nuclear fuel performance simulations, the material properties of the fuel must be known. Currently, the experimental data available for U-Si fuels is rather limited. Thus, multi-scale modeling efforts are underway to address this gap in knowledge. Interfaces play a critical role in the microstructural evolution of nuclear fuel under irradiation, acting both as sinks for point defects and as preferential nucleation sites for fission gas bubbles. In this study, a semi-empirical modified Embedded-Atom Method (MEAM) potential is utilized to investigate grain boundaries and free surfaces in U$_{3}$Si$_{2}$. The interfacial energy as a function of temperature is investigated for ten symmetric tilt grain boundaries, eight unique free surfaces and voids of radius up to 35 {\AA}. The point defect segregation energy for both U and Si interstitials and vacancies is also determined for two grain boundary orientations. Finally, the entropy change and free energy change for grain boundaries is calculated as a function of temperature. This is the first study into grain boundary properties of U-Si nuclear fuel. 
+
+\end{abstract}
+\end{frontmatter}
+
+\section{Introduction}
+
+\textit{\color{blue}Comment to all: Sorry for the delay on this. Mike Baskes raised some key concerns and it led me down rabbit holes and I needed to regenerate some data and do more work. So it took some time, but I have it polished up now and I feel like I have addressed all of your concerns. Where I have specific comments in return, I have left blue notes throughout the text like this one addressing a specific point. }
+
+U$_{3}$Si$_{2}$ is being considered as a candidate for accident tolerant fuels (ATFs) for future and existing light-water reactors (LWRs) \cite{zinkle2014, zinkle2016}. ATFs aim to provide additional coping time in the event of an accident (such as a loss of coolant accident) due to the inherent properties of the fuel, while maintaining good operational characteristics. U$_{3}$Si$_{2}$ exhibits higher uranium density than traditional UO$_{2}$ LWR fuel, thus allowing for the possibility of reduced enrichments, fewer assemblies and/or an extended lifetime in the core. U$_{3}$Si$_{2}$ also possesses a higher thermal conductivity than UO$_{2}$ \cite{antonio2018}, allowing for a lower fuel centerline temperature and more rapid heat removal during off-normal conditions. 
+
+Subjecting U$_{3}$Si$_{2}$ to the in-reactor environment leads to microstructural changes due to the evolution of radiation produced defects, segregation and precipitation of fission products, and mechanical deformation. Additional difficulties arise from the tetragonal crystal structure of U$_{3}$Si$_{2}$, leading to non-isotropic elastic and diffusive properties. These changes in fuel microstructure change fuel properties, directly impacting fuel performance and safety. The ability to understand and model microstructural changes throughout the lifetime of the fuel is critical in developing fuel performance modeling codes. In order to perform continuum scale descriptive and predictive nuclear fuel performance simulations, the material properties of the fuel must be known, however, the current experimental data available for U-Si fuels is incomplete. Information that has not yet been investigated via experimentation includes diffusion coefficients, displacement energy, variation of thermal conductivity with porosity, fission product properties within various USi phases and interfacial properties, to name a few. Thus, multi-scale modeling efforts are underway to address this gap in knowledge.
+
+Internal interfaces play a critical role in the determination of mechanical and thermal properties of polycrystalline materials. Specifically in irradiation environments, interfaces act both as sinks for point defects and as preferential nucleation sites for fission gas bubbles. Additionally, interfacial energies are a critical set of properties for the correct implementation of mesoscale modeling. Both the grain boundary and surface energy are utilized within phase-field methods to determine grain growth, void nucleation and bubble evolution. Phase-field models can then incorporate these phenomena to generate swelling predictions for the fuel. Given that fuel swelling is likely a critical aspect governing the operational lifetime of U$_{3}$Si$_{2}$ fuel, incorporation of accurate interfacial properties into phase-field models is an essential step in the multi-scale modeling process.
+
+Because grain boundaries have a significant influence on the physical properties of polycrystalline solids \cite{brandon2010, harmer2010}, their properties, including energy, have been the subject of extensive experimental and computational study. Interatomic potentials have been successfully employed to study grain boundaries in a variety of systems \cite{morita1997, wolf1989bcc1, wolf1990bcc2, ratanaphan2015, novoselov2014, tschopp2012probing, hahn2016}. This manuscript leverages a recently developed MEAM interatomic potential describing the U-Si system in order to investigate the nature of interfaces in U$_{3}$Si$_{2}$. The interfacial energy as a function of temperature is investigated for ten symmetric tilt grain boundaries, eight unique free surfaces and voids of radius up to 35 {\AA}. The point defect segregation energy for U and Si interstitials and vacancies is also determined for two grain boundary orientations. Finally, the entropy and free energy change for a grain boundary is calculated as a function of temperature. This is the first fundamental investigation of the nature, character and energy of interfaces in U$_{3}$Si$_{2}$. 
+
+\section{Computational Details}
+Molecular dynamics simulations are performed utilizing the LAMMPS \cite{plimpton1995} software package and the recently published U-Si MEAM potential \cite{beelerUSi}. A supercell with periodic boundaries is generated that contains either two grain boundaries or two free surfaces. Ten symmetric tilt grain boundaries are constructed with respect to the [100] tilt axis. An example system for the U$_{3}$Si$_{2}$ (210) symmetric tilt grain boundary is shown in Fig. \ref{fig:gbex}, where grain boundaries exist in the center of the supercell (denoted by a dashed black line) and on the y-edges of the supercell. Grain boundary system size is dependent upon the interface orientation, ranging from 600 to 3280 atoms. One unit cell is included in the z-direction in Fig. \ref{fig:gbex}. Eight unique surfaces are investigated, including three different terminations of the [100] direction, a single termination of the [001] direction and a selection of four low symmetry surfaces. The low symmetry surfaces are constructed in the same manner as grain boundaries, however only half of the system is constructed in order to generate two surfaces instead of two grain boundaries. All grain boundaries and free surfaces are stoichiometric. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1.0\textwidth]{gbexA.png} 
+ \caption{The U$_{3}$Si$_{2}$ (210) symmetric tilt grain boundary with respect to the [100] tilt axis at 400 K. The (210) plane normal is in the y-direction. Grain boundaries exist in the middle (black dashed line) and on the y-edges of the supercell. }
+ \label{fig:gbex}
+\end{figure}
+
+These systems were verified to be large enough to obtain accurate surface energies by investigating a single representative larger system and comparing respective interfacial energies. Relaxation is performed in an NPT-ensemble, relaxing each x, y, and z component individually, with a target pressure of 0 GPa and a damping parameter (analogous to relaxation time) of 0.1. A Langevin thermostat in the Gronbech-Jensen-Farago \cite{gjf2014} formalism is utilized with the damping parameter set to 0.1 ps. Systems are initialized at a temperature of 1600 K, then cooled over 100 ps to the target temperature, allowing the grain boundary to reconfigure to the lowest energy structure. The default timestep for metals in LAMMPS of 1 fs is utilized. The systems are then relaxed for 100 ps, with energies averaged over the final 50 ps. Five unique simulations are performed for each system to ensure statistical significance of the results. The interfacial energy is calculated via equation \ref{eq:surface},
+
+\begin{equation}
+\label{eq:surface}
+E_{nf}= \frac{(E^{*} - E)}{SA} * N
+\end{equation}
+
+\textit{\color{blue}David: I state in the text that the energies are averaged over the final 50ps of the simulation. This is stated in the above paragraph, as well as the paragraph regarding voids. If this needs to be emphasized or expanded upon, I can do it. }
+
+where $\it{E^{*}}$ is the energy per atom of the system with two interfaces, $\it{E}$ is the energy per atom of the perfect crystal U$_{3}$Si$_{2}$, $\it{SA}$ is the total surface area of the interface (two interfaces are present in the system) and $\textit{N}$ is the number of atoms in the system with two interfaces. Five unique target temperatures are analyzed - 0 K, 400 K, 800 K, 1200 K and 1600 K - in order to fully investigate the entire regime of phase stability for U$_{3}$Si$_{2}$. 
+
+Voids are constructed by relaxing a 15x15x25 unit cell system consisting of 56,250 atoms for 20 ps at a prescribed temperature, then removing a sphere of atoms from the center of the supercell. The system with a void is then relaxed for a further 50 ps, averaging the energy over the final 25 ps. Equation \ref{eq:surface} is utilized to calculate the void surface energy, where $\it{E^{*}}$ is the energy per atom of the system with a void and SA is the surface area of the void, calculated from the initial radius of the sphere of atoms removed to generate the void. The stoichiometry of the system is maintained as close to ideal as possible, with an average deviation from ideal stoichiometry of 0.006 {\%}. Systems sizes are sufficiently large that such deviations from stoichiometry produce only statistically insignificant errors. Thus, this deviation from stoichiometry is neglected. After the initial relaxation of the void, the size of the void is progressively increased in 1 {\AA} increments, starting from a void radius of 5 {\AA} and moving up to a void radius of 35 {\AA}. After each void radius increase, the system is equilibrated for 50 ps and the energy averaged over the last 25 ps. Thus, within a single simulation, the entire span of void radii is sampled. Three unique simulations are performed with different void origins in order to sample different void surfaces. This data is then averaged across the three unique simulations to derive an average void surface energy as a function of void radius for a given temperature. 
+
+Point defect grain boundary segregation energies are determined by generating a defect (vacancy or interstitial) at a prescribed distance from the grain boundary and analyzing the energy of the system as a function of defect distance from the grain boundary. Two grain boundary orientations were chosen (the (210) and (730) symmetric tilt with respect to the [100] tilt axis). These two grain boundaries were specifically chosen to sample a low energy and a high energy grain boundary, which will be shown later in this manuscript. The simulation setup is identical to the calculations of grain boundary energy described above, with the one exception being three unit cells in the z-direction, instead of a single unit cell. This is to ensure there are no defect-defect interactions across periodic boundaries present within the system. The defect segregation energy is defined by equation \ref{eq:seg},
+
+\begin{equation}
+\label{eq:seg}
+E^{seg}(r)= E^{def}(r) - E^{bulk}
+\end{equation}
+
+where E$^{def}$ is the energy of the system with a defect at a given distance \textit{r} from the grain boundary and E$^{bulk}$ is defined as the energy of the system with a defect in the bulk (far away from the grain boundary). The bulk is defined as a defect that is 30 {\AA} from the grain boundary, which is sufficiently far from the grain boundary such that no defect-grain boundary interaction is observable. In order to obtain statistical significance of the results, 40 unique simulations were performed for each defect type at each temperature and distance. Initially, the system is equilibrated at 1600 K for 50 ps. The temperature of the system is then reduced over 50 ps to the target temperature. An atom of a given type, either U or Si, is then randomly deleted (vacancy) or inserted (interstitial) from a 4 {\AA} thick slice of the supercell. The system is then equilibrated for another 100 ps with the energy of the system averaged over the final 50 ps. The 4 {\AA} slice is then translated along the direction normal (the y-direction in Fig. \ref{fig:gbex}) to the grain boundary in order sample the supercell. Visual examination was performed to ensure that defects remain in the 4 {\AA} slice of interest. It should be emphasized that a specific defect configuration is not investigated, only specific defect types. Thus, it is critical to utilize a sufficient sample in order to obtain appropriately averaged defect properties.
+
+The reduction of the free energy of the system determines the manner in which the microstructure of a given system evolves. Thus, in addition to obtaining interfacial energies, it is valuable to investigate the entropy of systems containing grain boundaries as well. The change in entropy of the system is determined by equation \ref{eq:entropy},
+
+\begin{equation}
+\label{eq:entropy}
+\Delta S = \int_{T_{1}}^{T_{2}} \frac{C_{p}}{T} dT
+\end{equation}
+
+where C$_{p}$ is the constant pressure heat capacity in the temperature range T$_{1}$ to T$_{2}$. By integrating, the change in entropy can be evaluated as:
+
+\begin{equation}
+\label{eq:entropy2}
+\Delta S = C_{p} \times (ln(T_{2}) - ln(T_{1})) 
+\end{equation}
+
+The heat capacity is determined by the centered-finite difference approach in equation \ref{eq:cp},
+
+\begin{equation}
+\label{eq:cp}
+C_{p} = \frac{(E_{2} - E_{1})}{(T_{2} - T_{1})} / N
+\end{equation}
+
+where \textit{E} is the total energy (potential + kinetic) of the system at a given temperature T, and N is the total number of atoms in that system. This formalism makes use of the assumption that C$_{p}$ is constant over the T$_{1}$ to T$_{2}$ temperature range. The change in C$_{p}$ from one temperature range to the subsequent temperature range is found to be approximately 3$\%$. Thus, the assumption of constant C$_{p}$ over the temperature ranges of interest is considered valid for this system and these temperature ranges. 
+
+\textit{\color{blue}Mike and David: This cannot simply be taken from Eqn 1 because eqn 1 utilizes potential energy, whereas Cp is utilizing potential + kinetic. Thus, the values are different and would all need to be adjusted correspondingly. I could calculate an interfacial energy utilizing total energy, that would have less meaning, and utilize THAT value in the subsequent equations 4,5,6. I feel like this would not add to the paper. I am not sure if I need to add a clarification along these lines within the details section... }
+
+To ensure that only the grain boundary contribution to the entropy change is being evaluated, the entropy change induced by the bulk is subtracted from the total entropy change of the system with grain boundaries. Additionally, given that grain boundaries are characterized by their specific area, the entropy change of the grain boundary is divided by the grain boundary area, in order to have a normalized system capable of comparing different grain boundary orientations that possess different grain boundary areas within these simulations. 
+
+Finally, the free energy change is determined by equation \ref{eq:free}:
+
+\begin{equation}
+\label{eq:free}
+\Delta G = \Delta U - T \Delta S
+\end{equation}
+
+where $\Delta S$ is taken from equation \ref{eq:entropy} and $\Delta U$ is the change in internal energy (identical to enthalpy when P=0, as is the case in these systems) of the system. Similar to entropy, to ensure that only the grain boundary contribution to the enthalpy change is being evaluated, the enthalpy change induced by the bulk is subtracted from the total enthalpy change of the system with grain boundaries.
+
+\section{Results}
+\subsection{Grain boundary energy of U$_{3}$Si$_{2}$}
+
+The U$_{3}$Si$_{2}$ grain boundary energy at 0 K as a function of misorientation angle is shown in Fig. \ref{fig:translate}. Grain boundary planes studied within this work are labeled. Data points are connected with straight lines as a means to guide the eye. In Fig. \ref{fig:translate}, both an initial and a post-translation set of data are shown. To ensure that the lowest energy configuration for each grain boundary was obtained, a grain-grain translation was performed prior to relaxation in the direction parallel to the tilt axis. Thus, one grain was held fixed while the other grain was moved. Translation in the x-direction (as denoted in Fig. \ref{fig:gbex}) was performed in increments of 2 {\AA}, sampling the entire grain boundary unit cell. For example, for the (210) grain boundary shown in Fig. \ref{fig:gbex}), the length of the system in the x-direction is approximately 32 {\AA}, thus 16 unique configurations are sampled. In addition, translation is performed for the y- and z-directions. For these directions, a single translation was performed of one half unit cell. The y-direction translation generates a unique surface termination. Thus, four sets of translations are performed: x-direction, x- and y-directions, x- and z-directions, and finally x-, y- and z-directions. This results in a total of 852 unique grain boundary configurations for the 10 symmetric tilt grain boundary planes. The minimum number of grain boundary configurations for a given misorientation angle is 52. 
+
+\textit{\color{blue}Mike: There are y-translations because this creates new grain boundary configurations, based on the crystal structure. When I create a grain boundary, one grain has both A and B terminations. Thus, when creating grain boundaries, I can have two AB grain boundaries, or an AA and a BB. Both are stoichiometric. Thus, by translating one grain a half unit cell in the y, I can sample both of these configurations. } 
+
+The minimum energy configuration found from the translation process is selected as the new configuration for a given misorientation angle. In Fig. \ref{fig:translate}, the initial grain boundary configuration is provided as the blue square data points, while the minimum energy grain boundary found in the translation process is provided as the orange diamond data points. A significant reduction in the grain boundary energy is achievable via grain-grain translation, with an average reduction in the grain boundary energy of approximately 0.3 J/m$^{2}$. The most significant reductions are observed for the (410), (210) and (320) grain boundary planes. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{translation0k.png} 
+ \caption{The U$_{3}$Si$_{2}$ grain boundary energy as a function of misorientation angle with respect to the [100] tilt axis at 0 K. Data in blue squares is the initial configuration. Data in orange diamonds is the minimum energy configuration for a given misorientation angle after grain-grain translation. Because of the tetragonal symmetry of U$_{3}$Si$_{2}$ a 90{\degree} misorientation angle yields a perfect crystal. }
+ \label{fig:translate}
+\end{figure}
+
+\FloatBarrier
+
+Analyzing the post-translation data, the most prominent minima observed are at the (310) and (210) planes, whereas maxima are observed at the (730) and (530) planes, with a difference between the maximum and minimum of 0.57 J/m$^{2}$.  The data from Fig. \ref{fig:translate} is displayed in Table \ref{tab:200k}, listing the ten unique symmetric tilt grain boundaries that were investigated for the U$_{3}$Si$_{2}$ system. Given that five unique simulations are performed for each grain boundary plane, the standard deviation can be determined. Averaging over all ten grain boundary planes, the average standard deviation for each of these data points is 0.06 J/m$^{2}$. Therefore, the grain translation produces statistically significant reductions in the grain boundary energy. 
+
+\begin{table}[h]
+\caption{The U$_{3}$Si$_{2}$ grain boundary energy as a function of misorientation angle with respect to the [100] tilt axis at 0 K.} \label{tab:200k}
+\begin{center}
+\begin{tabular}{|c|c|}
+	\hline
+	Grain Boundary Plane & Energy (J/m$^{2}$) \\
+	 \hline
+	 (910) & 0.94 \\
+	 (710) & 0.80 \\
+	 (510) & 0.78 \\
+	 (410) & 0.74 \\
+	 (310) & 0.50 \\	 
+	 (730) & 0.95 \\
+	 (210) & 0.49 \\
+	 (530) & 1.06 \\
+	 (320) & 0.84 \\
+	 (430) & 0.93 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\FloatBarrier
+
+The grain boundary energy as a function of misorientation angle at five temperatures is displayed in Fig. \ref{fig:gbtemp}. It is observed that the general trend of grain boundary energy as a function of misorientation angle is maintained with increasing temperature. The primary minima remain at the (210) and (310) planes and the most prominent maximum remains at the (730) plane. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{gb_vs_Ta.png} 
+ \caption{The U$_{3}$Si$_{2}$ grain boundary energy as a function of misorientation angle with respect to the [100] tilt axis at 0 K, 400 K, 800 K, 1200 K and 1600 K.}
+ \label{fig:gbtemp}
+\end{figure}
+
+\FloatBarrier
+
+To discern a more clear dependence of grain boundary energy as a function of temperature, the difference in grain boundary energy with increasing temperature is plotted in Fig. \ref{fig:gbdeltaT} for all ten symmetric tilt grain boundaries. The grain boundary energy for each plane is compared to a reference state of 0 K (the grain boundary energy at a given temperature minus the grain boundary energy at 0 K for each specific plane). There is a clear general trend of increasing grain boundary energy with increasing temperature. The average over the data set is also shown in Fig. \ref{fig:gbdeltaT} as a bold black line. The data is most readily fit to a second order polynomial function. There is an average increase in grain boundary energy of 0.05 J/m$^{2}$ per 100 K. The average grain boundary energy at 0 K is 0.80 J/m$^{2}$, at 400 K is 0.89 J/m$^{2}$, at 800 K is 1.03 J/m$^{2}$, at 1200 K is 1.26 J/m$^{2}$ and the average grain boundary energy at 1600 K is 1.55 J/m$^{2}$. The average standard deviation at 1600 K is approximately 0.06 J/m$^{2}$. Thus, this trend of increasing grain boundary energy with increasing temperature is statistically significant. Similar trends of increasing grain boundary energy with increasing temperature have been observed by Frolov and Mishin \cite{frolov2012}. 
+ 
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{deltaGB_vs_Ta.png} 
+ \caption{The difference in the U$_{3}$Si$_{2}$ grain boundary energy at a given temperature with respect to the grain boundary energy at 0 K for each plane. The average of the data set is shown as a bold black line. }
+ \label{fig:gbdeltaT}
+\end{figure}
+
+
+\FloatBarrier
+
+\subsection{Surface energy of U$_{3}$Si$_{2}$}
+
+The U$_{3}$Si$_{2}$ surface energy for eight unique surfaces is shown in Fig. \ref{fig:surfT}. Three different terminations of the (100) surface are denoted Xa, Xb and Xc, while the (001) termination is denoted as Z. The nature of the X- and Z- surfaces is shown in Fig. \ref{fig:surfXZ}. The low symmetry surfaces are denoted by their planar orientation in Fig. \ref{fig:surfT}. It should be emphasized that all investigated surfaces are stoichiometric. As such, there typically exist two different surface terminations for a given system, and the surface energy for a respective surface orientation is actually an average surface energy over the two different surfaces. The relative magnitudes of the surface energies for each orientation generally maintain the same sequence with increasing temperature. The data from Fig. \ref{fig:surfT} is displayed in Table \ref{tab:surfT}.
+
+It is observed that the Xc surface has the lowest energy across the entire temperature range investigated, followed by the (310) surface, while the Xb and (210) surfaces are consistently the highest in energy over the temperature range. Visual inspection of free surfaces showed that higher energy surfaces are those that are primarily one species, where one surface is U-rich and the other surface is Si-rich. The lowest energy surfaces are those with a mixed U-Si character. This can be seen from Fig. \ref{fig:surfXZ}, for example. The Xc surface possesses two surface terminations that are of mixed character, while the Xb surface possesses one surface termination that contains only U atoms, and one surface termination that is only Si atoms. 
+
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{surf_vs_Ta.png} 
+ \caption{The U$_{3}$Si$_{2}$ surface energy as a function of temperature for eight unique surface terminations. }
+ \label{fig:surfT}
+\end{figure}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{surfX.png} 
+ \caption{The unique U$_{3}$Si$_{2}$ surface terminations in the X- and Z- directions. The entire supercell is not shown, but the // represents the removed portion of the supercell in order to show both surface terminations. }
+ \label{fig:surfXZ}
+\end{figure}
+
+\begin{table}[h]
+\caption{The U$_{3}$Si$_{2}$ surface energy as a function of temperature for eight unique surface terminations. Units in J/m$^{2}$.} \label{tab:surfT}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	Orientation & 0 K & 400 K & 800 K & 1200 K & 1600 K\\
+	 \hline
+	 Xa & 1.74	 & 1.71 & 1.72 & 1.76 & 1.90 \\
+	 Xb & 1.87 & 1.85 & 1.80 & 1.81 & 1.94 \\
+	 Xc & 1.59	 & 1.59 & 1.58 & 1.67 & 1.92 \\
+	 Z & 1.74 & 1.74 & 1.74 & 1.77 & 1.86 \\
+	 (210) & 1.83 & 	1.80 & 1.74 & 1.77 & 1.92 \\
+	 (310) & 1.63 & 1.63 & 1.63 & 1.64 & 1.81 \\	 
+	 (410) & 1.70 & 1.71 & 1.71 & 1.71 & 1.87 \\
+	 (510) & 1.68 & 1.68 & 1.68 & 1.68 & 1.88 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\FloatBarrier
+
+To further investigate the effects of a Si or U rich free surface, the individual surface energies were ascertained. The average energy for each atom was calculated in the systems with free surfaces and the average energy for a U atom or a Si atom in bulk U$_3$Si$_2$ was subtracted from either the U or Si atoms, respectively. A summation over these excess energies allows for the calculation of individual surface energies. This was verified by summing over all atoms and calculating surface energies, which found identical surface energies to the procedure in equation \ref{eq:surface} and the data in Table \ref{tab:surfT}. The U/Si ratio was determined by counting the number of atoms of each species within 2 {\AA} of the surface terminal. The resultant surface energy as a function of U/Si ratio is shown in Fig. \ref{fig:surfusi}. It is found that increasing U content in the surface termination leads to increasing surface energy, in a loosely linear dependence. Given that surfaces are enforced to be stoichiometric in this work, systems with Si rich surfaces also exhibit U rich surfaces. The systems with the most stoichiometric individual surfaces are the Xc and (310) surfaces, which also show the lowest average surface energy. Thus, provided with rigidly stoichiometric systems, the surfaces will likely be stoichiometric as well. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{surf_usi.png} 
+ \caption{The surface energy as a function of U/Si ratio within the surface termination. }
+ \label{fig:surfusi}
+\end{figure}
+
+\FloatBarrier
+
+\textit{\color{blue}Comment to Mike: I didnt include all of the individual surface energies, but I did include a figure that shows some surface energy vs U/Si ratio and relevant discussion within the manuscript. } 
+
+
+
+To more clearly ascertain the influence of temperature on surface energy, the difference in surface energy with increasing temperature is plotted in Fig. \ref{fig:deltasurf} for all eight surface orientations. The surface energy for each orientation is compared to a reference state of 0 K. This data is averaged, shown as a bold black line in Fig. \ref{fig:deltasurf}. There is negligible variation in the average surface energy with increasing temperature up to 1200 K. Some surface orientations show positive or negative variation in surface energy with increasing temperature below 1200 K, but this is within the statistical error of the dataset. From 1200 K to 1600K, there is a statistically significant increase in average surface energy. The average surface energy as a function of temperature for all surface orientations is given in Table \ref{tab:surf}. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{deltasurfvsTa.png} 
+ \caption{The difference in the U$_{3}$Si$_{2}$ surface energy at a given temperature with respect to the surface energy at 0 K for each orientation. The average over all eight orientations is shown as a bold black line. }
+ \label{fig:deltasurf}
+\end{figure}
+
+\begin{table}[h]
+\caption{The U$_{3}$Si$_{2}$ average surface energy as a function of temperature.} \label{tab:surf}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	Temperature (K) & Surface energy (J/m$^{2}$)\\
+	 \hline
+	 0 & 1.72	 \\
+	 400 & 1.71 \\
+	 800 & 1.70	 \\
+	 1200 & 1.72 \\
+	 1600 & 1.88 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+
+
+
+\FloatBarrier
+
+\subsection{Void surface energy of U$_{3}$Si$_{2}$}
+
+One methodology for determining an average surface energy is to investigate the surface energy of a void. The surface energy of a void was calculated as a function of radius and temperature, with the results shown in Fig. \ref{fig:void}. For all temperatures, the void surface energy converges above a void radius of approximately 20 {\AA}, whereafter an increase in the radius does not change the magnitude of the surface energy. At void sizes above 20 {\AA} in radius, there is no statistically significant difference in the void surface energy as a function of temperature for systems at 0 K, 400 K, 800 K and 1200 K. These temperatures converge to a void surface energy of approximately 1.72 J/m$^{2}$. The converged void surface energy across all temperatures is presented in Table \ref{tab:void}. The value for void surface energy is essentially identical to the values observed for free surfaces in section 3.2, and as such these two results can be viewed as self-consistent. Increasing from 1200 K to 1600 K, the void surface energy increases substantially. This is also consistent with the findings from free surface simulations in section 3.2. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{void_vs_rc.png} 
+ \caption{The U$_{3}$Si$_{2}$ void surface energy as a function of radius at five distinct temperatures. }
+ \label{fig:void}
+\end{figure}
+
+\begin{table}[h]
+\caption{The U$_{3}$Si$_{2}$ void surface energy as a function of temperature.} \label{tab:void}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	Temperature (K) & Surface energy (J/m$^{2}$)\\
+	 \hline
+	 0 & 1.74	 \\
+	 400 & 1.72 \\
+	 800 & 1.71	 \\
+	 1200 & 1.74 \\
+	 1600 & 1.83 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+Visual inspection of large voids was conducted to determine the nature of the difference in void surface energy at very high temperatures. As would be expected, at higher temperatures there exists a greater degree of surface roughening and surface reorientation. The thermal motion of the system near the melting point (previously calculated as approximately 1775 K \cite{beelerUSi}) leads to bond breaking and local deviation from crystallinity, resulting in higher surface energies. This also explains the variability in surface energy with increasing temperature shown in Table \ref{tab:surf}. Additional variance is observed in the small void regime (r $<$ 20 {\AA}), where a higher temperature generally yields a lower void surface energy. 
+
+It should be emphasized that for small voids, local void structure can dramatically impact the void surface energy. Thus, it is important to sample different void locations with the same void radius in order to sample a variety of void surface structures. This structure-dependent surface energy variance is mitigated by investigating large voids that inherently possess a wide variety of surfaces. This is also why the void surface energy converges with increasing void radius. 
+
+\textit{\color{blue}Comment to Mike: I played with a lot of different voids centered on different locations in order to generate different void surfaces. This allowed dramatically different energies for small voids. So what I was seeing before was an artifact of a very particular void surface. Now, I have revamped the way I am doing stuff and have modified the computational details section, in addition to the results here. The results now more correspond to my initial results. Large R voids showed negligible difference from before to now. } 
+
+\FloatBarrier
+
+\subsection{Point defect grain boundary segregation energies}
+
+The defect segregation energy for four defect types at both a (730) and (210) symmetric tilt grain boundary as a function of distance from the grain boundary is calculated at 0 K, 400 K, 800 K, and 1200 K. The four defect types are the U vacancy, U interstitial, Si vacancy and Si interstitial. Although there are two unique uranium sites in the U$_{3}$Si$_{2}$ crystal structure, an averaged U vacancy defect formation energy is utilized in this work, as outlined in the computational details. For a given defect at a given distance from the grain boundary, the segregation energy over all temperatures is analyzed and averaged. This average segregation energy for a given defect type is shown in Fig. \ref{fig:seg}. There is some noticeable scatter in the data points, even for defects residing far away from the grain boundary. This is due to different possible defect sites and thermal fluctuations in the simulations. However, a large enough sample set of data is generated to have statistical confidence in the results. It should be noted that the average of twice the standard error for each data point is approximately 0.5 eV. 
+
+% The error bars denote one standard deviation of the averaged data set.
+
+It can be observed that for each defect type investigated, except the U interstitial near a (210) grain boundary, there is a general attraction near the grain boundary, which manifests as a negative segregation energy per equation \ref{eq:seg}. This affinity for defects to reside in or near grain boundaries is very short range for all defects analyzed, in that beyond approximately 5 {\AA} there is no statistically significant attraction. Comparing grain boundary types, vacancies generally exhibit similar segregation energies, regardless of the type of grain boundary that they reside near. However, for interstitials there is a statistically significant decrease in the segregation energy (stronger attraction) for the (730) symmetric tilt grain boundary, which possesses a higher energy grain boundary energy. Comparing defect types, U vacancies exhibit a slightly stronger attraction to grain boundaries than Si vacancies, however, Si interstitials exhibit a much stronger segregation energy than U interstitials. A summary of segregation energies (at 0 {\AA} from the grain boundary) is shown in Table \ref{tab:seg}. 
+ 
+\begin{comment}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{defectsB730.png} 
+ \caption{Point defect segregation energy as a function of distance from the (730) symmetric tilt grain boundary. Each defect is investigated at four different temperatures. Defects shown are a) U vacancy, b) U interstitial, c) Si vacancy and d) Si interstitial. }
+ \label{fig:defects730}
+\end{figure}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{defectsB210.png} 
+ \caption{Point defect segregation energy as a function of distance from the grain boundary. Each defect is investigated at four different temperatures. Defects shown are U vacancy, U interstitial, Si vacancy and Si interstitial. }
+ \label{fig:defects210}
+\end{figure}
+
+\end{comment}
+
+\textit{\color{blue}Comment to David: I am unclear on what you mean by a thermodynamic average in this context. This is a straight average of the segregation energy at a given distance, over all temperatures.} 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{gbdefs_segA.png} 
+ \caption{Average point defect segregation energy as a function of distance from the grain boundary for four defect types and two grain boundary planes. Defects shown are a) U vacancy, b) U interstitial, c) Si vacancy and d) Si interstitial. }
+ \label{fig:seg}
+\end{figure}
+
+\FloatBarrier
+
+
+
+\begin{table}[h]
+\caption{The U$_{3}$Si$_{2}$ average point defect segregation energy. Units in eV.} \label{tab:seg}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	Defect Type & (210) & (730)\\
+	 \hline
+	 U vac & -1.38 & -1.18	 \\
+	 U int & 0.25 & -1.23 \\
+	 Si vac & -0.82 & -1.01	 \\
+	 Si int & -1.20 & -2.07 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+This study on point defects was extended to systems at 1600 K. However, the temperature was sufficiently high, and the segregation energy sufficiently large, that defects near the grain boundaries occasionally diffused into the grain boundaries. Thus, the systems did not allow for the calculation of a segregation energy as a function of distance from the grain boundary. However, these simulations did provide additional verification that defects will preferentially reside near or in the grain boundary. 
+
+\FloatBarrier
+
+\subsection{Grain boundary thermodynamics}
+
+Utilizing the variation of total energy with temperature from simulations in section 3.1, the constant-pressure heat capacity (C$_{p}$), entropy change and free energy change can be calculated via equations \ref{eq:entropy}~-~\ref{eq:free}. The calculation of heat capacity is based on the central finite difference of total energy over temperature. In Fig. \ref{fig:entropy}, the change in entropy for ten symmetric tilt grain boundary orientations is shown relative to 400 K, with an average overlaid as a bold black line. The entropy change increases with increasing temperature. The average total entropy change from 400 K to 1600 K is approximately 3.3x10$^{-3}$ J/mol-K-{\AA}$^{2}$. It should be noted that the entropy change is given on a per area basis. The bulk entropy change over this temperature range is 35 J/mol-K, which is similar in magnitude to previous studies determining entropy changes \cite{mcnutt2014, peter2004}. The change in entropy is lowest for the (910) and (710) low angle grain boundaries, which is qualitatively coherent.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{entropy.png} 
+ \caption{Change in entropy as a function of temperature for ten symmetric tilt grain boundaries.}
+ \label{fig:entropy}
+\end{figure}
+
+\textit{\color{blue}Comment to David: It is difficult to know if the relative stability of grain boundaries will change. I do not know the actual value of the entropy or of the free energy, only the change. It is not possible to make a conclusion without knowing the relative starting values of the free energy. } 
+
+The change in free energy as a function of temperature is shown In Fig. \ref{fig:free} for ten symmetric tilt grain boundary orientations relative to 400 K. An average is overlaid as a bold black line. The free energy change decreases with increasing temperature, resulting in lower free energies at higher temperatures due to the increasing entropy of the system. This is qualitatively consistent with previous work on thermodynamic integration of grain boundaries in Cu \cite{frolov2012} and Ni \cite{foiles2010}. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{free.png} 
+ \caption{Change in free energy as a function of temperature for ten symmetric tilt grain boundaries.}
+ \label{fig:free}
+\end{figure}
+
+\FloatBarrier
+
+\section{Conclusions}
+
+In this study a recently developed MEAM interatomic potential was utilized to investigate the nature of interfaces in U$_{3}$Si$_{2}$. This was the first fundamental investigation of the nature, character and energy of interfaces in U$_{3}$Si$_{2}$. The interfacial energy as a function of temperature was investigated for ten symmetric tilt grain boundaries. The (210) and (310) grain boundary planes exhibited the lowest grain boundary energy and the average grain boundary energy for U$_{3}$Si$_{2}$ increased from 0.80 J/m$^{2}$ at 0 K to 1.55 J/m$^{2}$ at 1600 K. Eight unique free surfaces were investigated, with the finding that one termination of the (100) surface and the (310) surface are the lowest in energy over the temperature range of interest. The free surfaces in U$_{3}$Si${_2}$ exhibit a trend towards increasing surface energy with increasing temperature above 1200 K. Voids in U$_{3}$Si$_{2}$ of radius up to 35 {\AA} were also investigated. The void surface energy converges to a value of 1.72 J/m$^{2}$ once a void reaches a radius of 20 {\AA}. The void surface energy displays similar variance with increasing temperature as that observed in free surfaces. The point defect segregation energy was also determined for two grain boundary orientations, showing that U and Si vacancies and interstitials typically display a preference to reside near the grain boundary. This energetic preference diminishes once the defect is more than 5 {\AA} from the grain boundary. Additionally, the segregation energy was greater in magnitude for the higher energy grain boundary. Finally, the entropy and free energy change for grain boundaries was calculated as a function of temperature. The entropy change increases with increasing temperature, leading to a decrease in the free energy with increasing temperature. 
+
+The information within this manuscript can be utilized by mesoscale methodologies to study a variety of phenomena. The inclusion of realistic grain boundary, surface energies and free energy changes allows for the investigation of grain growth, void formation, void morphology and swelling in U$_{3}$Si$_{2}$. Realistic segregation energies can be incorporated to parametrize sink strengths utilized in phase-field defect evolution models. The ability to accurately describe each of these phenomena is critical in understanding microstructural evolution of nuclear fuel in-reactor. 
+
+\section{Acknowledgement}
+This work is supported by the U.S. Department of Energy, Office of Nuclear Energy, Nuclear Energy Advanced Modeling and Simulation (NEAMS) Program. This work is also supported by U.S. Department of Energy, Office of Nuclear Energy, Nuclear Energy University Partnerships, under contract no. DE-NE0008564. This manuscript has been authored by Battelle Energy Alliance, LLC under Contract No. DEAC07-05ID14517 with the U.S. Department of Energy. The United States Government retains and the publisher, by accepting the article for publication, acknowledges that the United States Government retains a nonexclusive, paid-up, irrevocable, world-wide license to publish or reproduce the published form of this manuscript, or allow others to do so, for United States Government purposes. Los Alamos National Laboratory, an affirmative action/equal opportunity employer, is operated by Los Alamos National Security, LLC, for the National Nuclear Security Administration of the U.S. Department of Energy under Contract No. DE-AC52-06NA25396. This research made use of the resources of the High Performance Computing Center at Idaho National Laboratory, which is supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear Science User Facilities under Contract No. DE-AC07-05ID14517.
+
+\section{References}
+
+\bibliography{MARMOTbib}
+
+
+\end{document} 
