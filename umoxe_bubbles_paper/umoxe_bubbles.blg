@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: umoxe_bubbles.aux
 The style file: elsarticle-num.bst
 Database file #1: MARMOTbib.bib
-You've used 28 entries,
+You've used 30 entries,
             2952 wiz_defined-function locations,
-            836 strings with 9690 characters,
-and the built_in function-call counts, 7673 in all, are:
-= -- 643
-> -- 409
+            851 strings with 10072 characters,
+and the built_in function-call counts, 8260 in all, are:
+= -- 692
+> -- 441
 < -- 3
-+ -- 155
-- -- 127
-* -- 549
-:= -- 1191
-add.period$ -- 28
-call.type$ -- 28
-change.case$ -- 28
++ -- 167
+- -- 137
+* -- 594
+:= -- 1280
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 225
-empty$ -- 778
-format.name$ -- 153
-if$ -- 1928
+cite$ -- 30
+duplicate$ -- 241
+empty$ -- 837
+format.name$ -- 165
+if$ -- 2074
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 25
-newline$ -- 92
-num.names$ -- 28
-pop$ -- 141
+int.to.str$ -- 30
+missing$ -- 27
+newline$ -- 98
+num.names$ -- 30
+pop$ -- 151
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 503
+skip$ -- 539
 stack$ -- 0
-substring$ -- 231
-swap$ -- 31
+substring$ -- 258
+swap$ -- 33
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 53
-width$ -- 30
-write$ -- 234
+while$ -- 57
+width$ -- 32
+write$ -- 250
