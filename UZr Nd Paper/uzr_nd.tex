@@ -10,14 +10,13 @@
 
 \begin{document}
 \begin{frontmatter}
-\title{First principles study of Nd energetics and diffusion in $\alpha$ U}
+\title{First principles study of fission product and fuel-cladding chemical interaction mitigating dopant energetics in $\alpha$ U}
 
 \author[inl]{Benjamin Beeler\corref{qwe}}
 \cortext[qwe]{Corresponding author}
 \ead{benjamin.beeler@inl.gov}
 \author[inl]{Yongfeng Zhang}
 \address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
-
 
 \begin{abstract}
 
@@ -46,7 +45,7 @@ In order to obtain migration barriers for the various pathways investigated, we 
 
 \section{Results}
 
-\subsection{Defect formation energies in $\alpha$U}
+\subsection{Self-defect formation energies in $\alpha$U-(Zr)}
 
 To verify the methodologies presented in this study, the formation energy of a single vacancy and a single interstitial in $\alpha$U were calculated utilizing equation \ref{eqn:vac} and \ref{eqn:int}, respectively,
 
@@ -64,44 +63,63 @@ where E$_{vac}$ is the total energy of the system with a vacancy, E$_{int}$ is t
 
 Nd interstitial 7.8 eV.  A Nd substitutional of 2.106 eV and U interstitial of 4.31 eV \cite{wirth2012} have a lower combined energy than the Nd interstitial.  Thus it would be expected that if a Nd interstitial is created, it would transform into a substitutional Nd atom and create a U SIA.  Therefore, only vacancy-mediated diffusion of Nd atoms is investigated.  Also, vacancy migration in the corrugated plane in four time as likely (migration barriers of 1.24 eV out of corrugated plane, 0.36 eV and 0.34 eV in corrugated plane \cite{wirth2011}, thus only vacancy migration in the corrugated plane is investigated.  
 
+Pure U defects
+
 \begin{table}[h!]
-\caption{Formation energies for vacancy-Nd defects in alpha U.}
+\caption{Formation energies for self-defects in alpha U.}
 \label{tab:Eforms}
 \begin{center}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|c|c|c|}
      \hline
-      Defect & E$_{form}$  \\
+      Defect & E$_{form}$ & E$_{bind}$ \\
      \hline
-     vacancy & 1.701  \\
-     Nd sub & 2.106 \\
-     Nd Vac X & 2.886 \\
-     Nd Vac Z & 2.627 \\
+     vacancy & 1.67 & - \\
+     interstitial & 4.20 & - \\
+     divacancy X & 3.81 & 0.47 \\
+     divacancy Z & 3.62 & 0.27 \\
+     divacancy Y & 3.30 & -0.05 \\
        \hline
 \end{tabular}
 \end{center}
 \label{default}
 \end{table}%
 
-Needs Nd-vac binding energies??
+Zr defects
 
 \begin{table}[h!]
-\caption{Formation energies of multi-vacancy defect complexes in alpha U}
+\caption{Formation energies for Zr and Zr-vacancy defects in alpha U.}
 \label{tab:Eforms}
 \begin{center}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|c|c|c|}
      \hline
-      Defect & E$_{form}$  \\
+      Defect & E$_{form}$ & E$_{bind}$ \\
      \hline
-     Divac X & 3.835 \\
-     Divac Z & 3.638 \\
-     Divac 2nn X & 3.377 \\
-     Divac 2nn Z & 3.616 \\
-     Nd Divac X & 4.845 \\
-     Nd Divac Z & 4.161 \\
-     Nd Divac XZ & 4.081 \\
-     Trivac X & 5.858\\
-     Trivac Z & 5.553 \\
-     Trivac XZ & 5.549 \\
+     Zr sub & 0.81 & - \\
+     Zr int & 5.60 & - \\
+     Zr Vac X & 2.30 & -0.18 \\
+     Zr Vac Z & 1.97 & -0.52 \\
+     Zr Vac Y & 2.54 & 0.05 \\
+       \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\subsection{Fission product and dopant defect formation energies in $\alpha$U}
+
+\begin{table}[h!]
+\caption{Formation energies for Nd and Nd-vacancy defects in alpha U.}
+\label{tab:Eforms}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+     \hline
+      Defect & E$_{form}$ & E$_{bind}$ \\
+     \hline
+     Nd sub & -0.16 & - \\
+     Nd int & 3.43 & - \\
+     Nd Vac X & 1.55 & 0.04 \\
+     Nd Vac Z & 1.46 & -0.05 \\
+     Nd Vac Y & 1.47 & -0.04 \\
        \hline
 \end{tabular}
 \end{center}
@@ -109,18 +127,18 @@ Needs Nd-vac binding energies??
 \end{table}%
 
 \begin{table}[h!]
-\caption{Formation energies of Nd and Pd point defects in alpha U.}
+\caption{Formation energies for Pd and Pd-vacancy defects in alpha U.}
 \label{tab:Eforms}
 \begin{center}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|c|c|c|}
      \hline
-      Defect & E$_{form}$  \\
+      Defect & E$_{form}$ & E$_{bind}$ \\
      \hline
-     Pd sub & 0.218 \\
-     NdPd X &  -1.709 \\
-     NdPd Z & -1.705 \\
-     Pd Vac X & 1.693 \\
-     Pd Vac Z & 1.627 \\
+     Pd sub & 0.19 & - \\
+     Pd int & 3.26 & - \\
+     Pd Vac X & 1.67 & -0.20 \\
+     Pd Vac Z & 1.59 & -0.27 \\
+     Pd Vac Y & 1.82 & -0.05 \\
        \hline
 \end{tabular}
 \end{center}
@@ -128,27 +146,48 @@ Needs Nd-vac binding energies??
 \end{table}%
 
 
-Nd with vac Z -  sits slightly off of lattice site, as shown in Figure \ref{fig:ndvacz}.
+\begin{table}[h!]
+\caption{Formation energies for Sn and Sn-vacancy defects in alpha U.}
+\label{tab:Eforms}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+     \hline
+      Defect & E$_{form}$ & E$_{bind}$ \\
+     \hline
+     Sn sub & 0.70 & - \\
+     Sn int & 4.66 & - \\
+     Sn Vac X & 2.01 & -0.36 \\
+     Sn Vac Z & 1.55 & -0.82 \\
+     Sn Vac Y & 2.27 & -0.11 \\
+       \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=0.8\textwidth]{ndvacz.png}
-    \caption{2D projection of a slice of the relaxed structure of Nd atom inserted into $\alpha$ U as a substitutional with a nearest-neighbor vacancy (positive z axis) in the corrugated plane.  View is (100) plane.}\label{fig:ndvacz}
-\end{figure}  
 
-Nd with vac X - sits in middle of two lattice sites, as shown in Figure \ref{fig:ndvacx}.
+\begin{table}[h!]
+\caption{Formation energies for Ce and Ce-vacancy defects in alpha U.}
+\label{tab:Eforms}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+     \hline
+      Defect & E$_{form}$ & E$_{bind}$ \\
+     \hline
+     Ce sub & 1.25 & - \\
+     Ce int & - & - \\
+     Ce Vac X & 1.90 & -1.03 \\
+     Ce Vac Z & 1.75 & -1.18 \\
+     Ce Vac Y & 2.09 & -0.84 \\
+       \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=0.8\textwidth]{ndvacx.png}
-    \caption{2D projection of a slice of the relaxed structure of Nd atom inserted into $\alpha$ U as a substitutional with a nearest-neighbor vacancy (positive x axis) in the corrugated plane.  View is (010) plane.}\label{fig:ndvacx}
-\end{figure}  
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=0.3\textwidth]{nd_divac_mig.png}
-    \caption{Schematic of Nd atom diffusion within a Nd-divacancy complex.}\label{fig:nd_divac_mig}
-\end{figure}  
+\subsection{Formation energies of point defects of, and binding energies between, fission products, dopants and Zr in $\alpha$U}
+
 
 
 \FloatBarrier
