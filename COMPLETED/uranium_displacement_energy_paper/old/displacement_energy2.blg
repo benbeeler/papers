@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: displacement_energy2.aux
+The style file: elsarticle-num.bst
+Database file #1: MARMOTbib.bib
+You've used 56 entries,
+            2937 wiz_defined-function locations,
+            983 strings with 13150 characters,
+and the built_in function-call counts, 14713 in all, are:
+= -- 1282
+> -- 677
+< -- 5
++ -- 263
+- -- 207
+* -- 1006
+:= -- 2207
+add.period$ -- 56
+call.type$ -- 56
+change.case$ -- 52
+chr.to.int$ -- 0
+cite$ -- 56
+duplicate$ -- 448
+empty$ -- 1563
+format.name$ -- 258
+if$ -- 3771
+int.to.chr$ -- 0
+int.to.str$ -- 56
+missing$ -- 55
+newline$ -- 176
+num.names$ -- 56
+pop$ -- 308
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 956
+stack$ -- 0
+substring$ -- 519
+swap$ -- 57
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 103
+width$ -- 58
+write$ -- 456

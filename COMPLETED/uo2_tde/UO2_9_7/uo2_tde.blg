@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: uo2_tde.aux
+The style file: ieeetr.bst
+Database file #1: ref.bib
+Warning--empty institution in falcon04
+You've used 33 entries,
+            1876 wiz_defined-function locations,
+            681 strings with 9052 characters,
+and the built_in function-call counts, 9402 in all, are:
+= -- 925
+> -- 369
+< -- 2
++ -- 136
+- -- 103
+* -- 676
+:= -- 1318
+add.period$ -- 36
+call.type$ -- 33
+change.case$ -- 32
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 516
+empty$ -- 853
+format.name$ -- 103
+if$ -- 2341
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 32
+newline$ -- 105
+num.names$ -- 33
+pop$ -- 85
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 370
+stack$ -- 0
+substring$ -- 571
+swap$ -- 241
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 75
+width$ -- 35
+write$ -- 341
+(There was 1 warning)

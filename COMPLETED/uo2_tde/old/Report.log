@@ -1,0 +1,555 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 OCT 2017 15:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Report.tex
+(./Report.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen113
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen114
+\subfiglabelskip=\skip46
+\c@subfigure=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@lotdepth=\count94
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+
+LaTeX Warning: Unused global option(s):
+    [8pt].
+
+(./Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen115
+\scratchbox=\box28
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen116
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+
+]
+Underfull \hbox (badness 1635) in paragraph at lines 43--44
+[]\OT1/cmr/m/n/10 With com-mon MD sim-u-la-tions, thresh-old
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 43--44
+\OT1/cmr/m/n/10 dis-place-ment en-er-gies are typ-i-cally ob-served
+ []
+
+
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+<ETN.png, id=29, 641.39626pt x 454.69875pt>
+File: ETN.png Graphic file (type png)
+ <use ETN.png>
+Package pdftex.def Info: ETN.png used on input line 70.
+(pdftex.def)             Requested size: 210.0023pt x 148.87157pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./ETN.png>] <defO_bas.png, id=37, 898.557pt x 538.6524pt>
+File: defO_bas.png Graphic file (type png)
+ <use defO_bas.png>
+Package pdftex.def Info: defO_bas.png used on input line 83.
+(pdftex.def)             Requested size: 134.77773pt x 80.79437pt.
+
+<defO_yak.png, id=38, 898.0752pt x 539.1342pt>
+File: defO_yak.png Graphic file (type png)
+ <use defO_yak.png>
+Package pdftex.def Info: defO_yak.png used on input line 84.
+(pdftex.def)             Requested size: 134.70546pt x 80.86664pt.
+
+<defO_yam.png, id=39, 898.0752pt x 536.7252pt>
+File: defO_yam.png Graphic file (type png)
+ <use defO_yam.png>
+Package pdftex.def Info: defO_yam.png used on input line 85.
+(pdftex.def)             Requested size: 134.70546pt x 80.5053pt.
+
+<defU_bas.png, id=40, 898.0752pt x 567.0786pt>
+File: defU_bas.png Graphic file (type png)
+ <use defU_bas.png>
+Package pdftex.def Info: defU_bas.png used on input line 86.
+(pdftex.def)             Requested size: 134.70546pt x 85.0581pt.
+
+<defU_yak.png, id=41, 898.557pt x 565.1514pt>
+File: defU_yak.png Graphic file (type png)
+ <use defU_yak.png>
+Package pdftex.def Info: defU_yak.png used on input line 87.
+(pdftex.def)             Requested size: 134.77773pt x 84.76904pt.
+
+<defU_yam.png, id=42, 904.3386pt x 563.2242pt>
+File: defU_yam.png Graphic file (type png)
+ <use defU_yam.png>
+Package pdftex.def Info: defU_yam.png used on input line 88.
+(pdftex.def)             Requested size: 135.64493pt x 84.47998pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pkaO_bas.png, id=43, 900.4842pt x 539.1342pt>
+File: pkaO_bas.png Graphic file (type png)
+ <use pkaO_bas.png>
+Package pdftex.def Info: pkaO_bas.png used on input line 95.
+(pdftex.def)             Requested size: 135.0668pt x 80.86664pt.
+
+<pkaO_yak.png, id=44, 898.0752pt x 537.207pt>
+File: pkaO_yak.png Graphic file (type png)
+ <use pkaO_yak.png>
+Package pdftex.def Info: pkaO_yak.png used on input line 96.
+(pdftex.def)             Requested size: 134.70546pt x 80.57756pt.
+
+<pkaO_yam.png, id=45, 896.148pt x 534.798pt>
+File: pkaO_yam.png Graphic file (type png)
+ <use pkaO_yam.png>
+Package pdftex.def Info: pkaO_yam.png used on input line 97.
+(pdftex.def)             Requested size: 134.4164pt x 80.21623pt.
+
+<pkaU_bas.png, id=46, 896.148pt x 563.2242pt>
+File: pkaU_bas.png Graphic file (type png)
+ <use pkaU_bas.png>
+Package pdftex.def Info: pkaU_bas.png used on input line 98.
+(pdftex.def)             Requested size: 134.4164pt x 84.47998pt.
+
+<pkaU_yak.png, id=47, 898.557pt x 563.2242pt>
+File: pkaU_yak.png Graphic file (type png)
+ <use pkaU_yak.png>
+Package pdftex.def Info: pkaU_yak.png used on input line 99.
+(pdftex.def)             Requested size: 134.77773pt x 84.47998pt.
+
+<pkaU_yam.png, id=48, 902.4114pt x 565.1514pt>
+File: pkaU_yam.png Graphic file (type png)
+ <use pkaU_yam.png>
+Package pdftex.def Info: pkaU_yam.png used on input line 100.
+(pdftex.def)             Requested size: 135.35587pt x 84.76904pt.
+
+<dispOO_bas.png, id=49, 900.4842pt x 537.6888pt>
+File: dispOO_bas.png Graphic file (type png)
+ <use dispOO_bas.png>
+Package pdftex.def Info: dispOO_bas.png used on input line 107.
+(pdftex.def)             Requested size: 135.0668pt x 80.64983pt.
+
+<dispOO_yak.png, id=50, 900.0024pt x 537.6888pt>
+File: dispOO_yak.png Graphic file (type png)
+ <use dispOO_yak.png>
+Package pdftex.def Info: dispOO_yak.png used on input line 108.
+(pdftex.def)             Requested size: 134.99452pt x 80.64983pt.
+
+<dispOO_yam.png, id=51, 896.148pt x 535.7616pt>
+File: dispOO_yam.png Graphic file (type png)
+ <use dispOO_yam.png>
+Package pdftex.def Info: dispOO_yam.png used on input line 109.
+(pdftex.def)             Requested size: 134.4164pt x 80.36076pt.
+
+<dispOU_bas.png, id=52, 895.6662pt x 565.1514pt>
+File: dispOU_bas.png Graphic file (type png)
+ <use dispOU_bas.png>
+Package pdftex.def Info: dispOU_bas.png used on input line 110.
+(pdftex.def)             Requested size: 134.34413pt x 84.76904pt.
+
+<dispOU_yak.png, id=53, 895.6662pt x 565.1514pt>
+File: dispOU_yak.png Graphic file (type png)
+ <use dispOU_yak.png>
+Package pdftex.def Info: dispOU_yak.png used on input line 111.
+(pdftex.def)             Requested size: 134.34413pt x 84.76904pt.
+
+<dispOU_yam.png, id=54, 900.966pt x 563.2242pt>
+File: dispOU_yam.png Graphic file (type png)
+ <use dispOU_yam.png>
+Package pdftex.def Info: dispOU_yam.png used on input line 112.
+(pdftex.def)             Requested size: 135.13907pt x 84.47998pt.
+
+<dispUU_bas.png, id=55, 896.148pt x 560.8152pt>
+File: dispUU_bas.png Graphic file (type png)
+ <use dispUU_bas.png>
+Package pdftex.def Info: dispUU_bas.png used on input line 119.
+(pdftex.def)             Requested size: 134.4164pt x 84.11864pt.
+
+<dispUU_yak.png, id=56, 898.0752pt x 558.888pt>
+File: dispUU_yak.png Graphic file (type png)
+ <use dispUU_yak.png>
+Package pdftex.def Info: dispUU_yak.png used on input line 120.
+(pdftex.def)             Requested size: 134.70546pt x 83.82957pt.
+
+<dispUU_yam.png, id=57, 900.966pt x 558.888pt>
+File: dispUU_yam.png Graphic file (type png)
+ <use dispUU_yam.png>
+Package pdftex.def Info: dispUU_yam.png used on input line 121.
+(pdftex.def)             Requested size: 135.13907pt x 83.82957pt.
+
+<HEdefect_bas.png, id=58, 981.4266pt x 564.1878pt>
+File: HEdefect_bas.png Graphic file (type png)
+ <use HEdefect_bas.png>
+Package pdftex.def Info: HEdefect_bas.png used on input line 128.
+(pdftex.def)             Requested size: 127.58994pt x 73.34698pt.
+
+<HEdefect_yak.png, id=59, 1007.4438pt x 562.2606pt>
+File: HEdefect_yak.png Graphic file (type png)
+ <use HEdefect_yak.png>
+Package pdftex.def Info: HEdefect_yak.png used on input line 129.
+(pdftex.def)             Requested size: 130.97229pt x 73.09644pt.
+
+<HEdefect_yam.png, id=60, 1019.4888pt x 566.115pt>
+File: HEdefect_yam.png Graphic file (type png)
+ <use HEdefect_yam.png>
+Package pdftex.def Info: HEdefect_yam.png used on input line 130.
+(pdftex.def)             Requested size: 132.5382pt x 73.59753pt.
+
+<HEdispO_bas.png, id=61, 983.3538pt x 563.706pt>
+File: HEdispO_bas.png Graphic file (type png)
+ <use HEdispO_bas.png>
+Package pdftex.def Info: HEdispO_bas.png used on input line 137.
+(pdftex.def)             Requested size: 127.84048pt x 73.28435pt.
+
+<HEdispO_yak.png, id=62, 1006.4802pt x 563.706pt>
+File: HEdispO_yak.png Graphic file (type png)
+ <use HEdispO_yak.png>
+Package pdftex.def Info: HEdispO_yak.png used on input line 138.
+(pdftex.def)             Requested size: 130.84702pt x 73.28435pt.
+
+<HEdispO_yam.png, id=63, 1015.6344pt x 566.5968pt>
+File: HEdispO_yam.png Graphic file (type png)
+ <use HEdispO_yam.png>
+Package pdftex.def Info: HEdispO_yam.png used on input line 139.
+(pdftex.def)             Requested size: 132.03711pt x 73.66016pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]\OT1/cmr/bx/n/12 Lattice Site Dis-place-ment
+ []
+
+[6]
+Underfull \hbox (badness 4378) in paragraph at lines 161--162
+[]\OT1/cmr/m/n/10 Between the dif-fer-ent PKA's prob-a-bil-ity
+ []
+
+[7 <./defO_bas.png> <./defO_yak.png> <./defO_yam.png> <./defU_bas.png> <./defU_
+yak.png> <./defU_yam.png>] [8 <./pkaO_bas.png> <./pkaO_yak.png> <./pkaO_yam.png
+> <./pkaU_bas.png> <./pkaU_yak.png> <./pkaU_yam.png> <./dispOO_bas.png> <./disp
+OO_yak.png> <./dispOO_yam.png> <./dispOU_bas.png> <./dispOU_yak.png> <./dispOU_
+yam.png>] [9 <./dispUU_bas.png> <./dispUU_yak.png> <./dispUU_yam.png> <./HEdefe
+ct_bas.png> <./HEdefect_yak.png> <./HEdefect_yam.png> <./HEdispO_bas.png> <./HE
+dispO_yak.png> <./HEdispO_yam.png>]
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 2799) in paragraph at lines 179--179
+[]\OT1/cmr/bx/n/12 High En-ergy Oxy-gen PKA
+ []
+
+
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [12]
+(./Report.bbl
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ² in font cmr10!
+
+Underfull \hbox (badness 1917) in paragraph at lines 72--76
+\OT1/cmr/m/n/10 diox-ide,'' \OT1/cmr/m/it/10 Jour-nal of Nu-clear Ma-te-ri-als\
+OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 78--81
+[]\OT1/cmr/m/n/10 K. Gov-ers, S. Leme-hov, M. Hou, and
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 78--81
+\OT1/cmr/m/n/10 po-ten-tials for uo2. part i: Static cal-
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 83--86
+[]\OT1/cmr/m/n/10 K. Gov-ers, S. Leme-hov, M. Hou, and
+ []
+
+[13]
+Underfull \hbox (badness 5105) in paragraph at lines 97--100
+[]\OT1/cmr/m/n/10 C. H. Rycroft, ``Voro++: A three-
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 97--100
+\OT1/cmr/m/it/10 Chaos: An In-ter-dis-ci-plinary Jour-nal of
+ []
+
+) [14
+
+] (./Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 2792 strings out of 492995
+ 39393 string characters out of 6132704
+ 112921 words of memory out of 5000000
+ 6269 multiletter control sequences out of 15000+600000
+ 14949 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,7n,26p,2136b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Report.pdf (14 pages, 4141958 bytes).
+PDF statistics:
+ 179 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+

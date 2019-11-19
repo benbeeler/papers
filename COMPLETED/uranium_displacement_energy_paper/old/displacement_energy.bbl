@@ -1,0 +1,201 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{snelgrove1997}
+J.~Snelgrove, G.~Hofman, M.~Meyer, C.~Trybus, T.~Weincek, Development of
+  very-high density low enriched uranium fuels, Nucl. Eng. Design 178 (1997)
+  119.
+
+\bibitem{meyer2014}
+M.~Meyer, J.~Gan, J.~Jue, D.~Keiser, E.~Perez, A.~Robinson, D.~Wachs,
+  N.~Woolstenhulme, G.~Hofman, Y.~Kim, Irradiation performation of u-mo
+  monolithic fuel, Nucl. Eng. Tech. 46 (2014) 169.
+
+\bibitem{hofman1997}
+G.~Hofman, L.~Walters, T.~Bauer, Metallic fast reactor fuels, Progress in
+  Nuclear Energy 31 (1997) 83.
+
+\bibitem{rest2009}
+J.~Rest, G.~Hofman, Y.~Kim, Analysis of intergranular fission-gas bubble-size
+  distributions in irradiated uranium-molybdenum alloy fuel, J. Nucl. Mater.
+  385 (2009) 563.
+
+\bibitem{kim_anl08}
+Y.~Kim, G.~Hofman, J.~Rest, G.~Shevlyakov, Characterization of intergranular
+  fission gas bubbles in u-mo fuel, Tech. Rep. ANL-08/11, Argonne National
+  Laboratory (2008).
+
+\bibitem{meyer2002}
+M.~Meyer, G.~Hofman, S.~Hayes, C.~Clark, T.~Wiencek, J.~Snelgrove, R.~Strain,
+  K.~Kim, Low-temperature irradiation behavior of uranium-molybdenum alloy
+  dispersion fuel, J. Nucl. Mater. 304 (2002) 221.
+
+\bibitem{kim2013}
+Y.~Kim, G.~Hofman, J.~Cheon, A.~Robinson, D.~Wachs, Fission induced swelling
+  and creep of u-mo alloy fuel, J. Nucl. Mater. 437 (2013) 37.
+
+\bibitem{kim2011}
+Y.~Kim, G.~Hofman, Fission product induced swelling of u-mo alloy fuel, J.
+  Nucl. Mater. 419 (2011) 291.
+
+\bibitem{afip6report}
+W.~Williams, F.~Rice, A.~Robinson, M.~Meyer, B.~Rabin, Afip-6 mkii
+  post-irradiation examination summary report, Tech. Rep. INL/LTD-15-34142,
+  Idaho National Laboratory (2015).
+
+\bibitem{vandenberghe2014}
+S.~V. den Berghe, P.~Lemoine, Review of 15 years of high-density low-enriched
+  umo dispersion fuel development for research reactors in europe, Nucl. Eng.
+  Tech. 46 (2014) 125.
+
+\bibitem{janfong2014}
+J.-F. Jue, D.~Keiser, C.~Breckenridge, G.~Moore, M.~Meyer, Microstructure
+  characteristics of hip-bonded monolithic nuclear fuels with a diffusion
+  barrier, J. Nucl. Mater. 448 (2014) 250.
+
+\bibitem{park2015}
+Y.~Park, N.~Eriksson, D.~Keiser, J.-F. Jue, B.~Rabin, G.~Moore, Y.~Sohn,
+  Microstructural anomalies in hot-isostatic pressure u-10 wt.% mo fuel plates
+  with zr diffusion barrier, Mater. Charac. 103 (2015) 50.
+
+\bibitem{rertr12}
+F.~Rice, W.~Williams, A.~Robinson, J.~Harp, M.~Meyer, B.~Rabin, Rertr-12
+  post-irradiation examination summary report, Tech. Rep. INL/EXT-14-33066,
+  Idaho National Laboratory (2015).
+
+\bibitem{kim2013A}
+Y.~Kim, G.~Hofman, J.~Cheon, Recrystallization and fission-gas-bubble swelling
+  of u-mo fuel, J. Nucl. Mater. 436 (2013) 14.
+
+\bibitem{vandenberghe2008}
+S.~V. den Berghe, W.~V. Renterghem, A.~Leenaers, Transmission electron
+  microscopy investigation of irradiated u-7 wt% mo dispersion fuel, J. Nucl.
+  Mater. 375 (2008) 340.
+
+\bibitem{kinchinpease}
+G.~Kinchin, R.~Pease, The displacement of atoms in solids by radiation, Rep.
+  Prog. Phys. 18 (1955) 1.
+
+\bibitem{norgett1975}
+M.~Norgett, M.~Robinson, L.~Torrens, A proposed method of calculating
+  displacement dose rates, Nucl. Eng. Design 33 (1975) 50--54.
+
+\bibitem{abraham1986}
+F.~Abraham, Computational statistical mechanics: Methodology, apllications and
+  supercomputing, Adv. in Phys. 35 (1986) 1.
+
+\bibitem{allen1987}
+M.~Allen, D.~Tildesley, Computer Simulation of Liquids, Clarendon Press,
+  Oxford, 1987.
+
+\bibitem{beeler_meam}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic properties of gamma
+  uranium, J. Phys.: Cond. Mat. 24 (2012) 075401.
+
+\bibitem{beelerASTM}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic investigations of
+  intrinsic and extrinsic point defects in bcc uranium, Effects of Radiation on
+  Nuclear Materials: STP 1547 25 (2012) 231.
+
+\bibitem{fernandez2014}
+J.~Fernandez, M.~Pascuet, On the accurate description of uranium metallic
+  phases: a meam interatomic potential approach, Modelling Simul. Mater. Sci.
+  Eng. 22 (2014) 055019.
+
+\bibitem{li2011}
+R.-S. Li, B.~He, Q.-H. Zhang, Atomistic model of uranium, Chin. J. Chem. Phys.
+  24 (2011) 405.
+
+\bibitem{smirnova2012}
+D.~Smirnova, S.~Starikov, V.~Stegailov, Interatomic potential for uranium in a
+  wide range of pressures and temperatures, J. Phys.: Cond. Mat. 24 (2012)
+  149501.
+
+\bibitem{li2012}
+Y.~Li, T.~Shan, T.~Liang, S.~Sinnott, S.~Phillpot, Classical interatomic
+  potential for orthorhomic uranium, J. Phys.: Cond. Mat. 24 (2012) 235403.
+
+\bibitem{moore2015}
+A.~Moore, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic modeling of
+  high temperature uranium-zirconium alloy structure and thermodynamics, J.
+  Nucl. Mater. 467 (2015) 802.
+
+\bibitem{pascuet2012}
+M.~Pascuet, G.~Bonny, J.~Fernandez, Many-body interatomic u and al-u
+  potentials, J. Nucl. Mater. 424 (2012) 158.
+
+\bibitem{smirnovaUMo}
+D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Z.~Insepov, J.~Rest,
+  A.~Yacout, A ternary eam interatomic potential for u-mo alloys with xenon,
+  Modelling Simul. Mater. Sci. Eng. 21 (2013) 035011.
+
+\bibitem{miao2015}
+Y.~Miao, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, J.~Stubbins, Defect
+  structures induced by high-energy displacement cascades in gamma uranium, J.
+  Nucl. Mater. 456 (2015) 1.
+
+\bibitem{smirnovaADP}
+D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Atomistic modeling of the
+  self-diffusion in gamma u and gamma u-mo, Phys. Met. and Metall. 116 (2015)
+  445.
+
+\bibitem{plimpton1995}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
+  Comp. Phys. 117 (1995) 1--19.
+
+\bibitem{zbl}
+J.~Ziegler, J.~Biersack, U.~Littmark, Stopping and Ranges of Ions in Matter,
+  Pergamon Press, 1985.
+
+\bibitem{lane2012}
+P.~Lane, G.~Galloway, R.~Cole, M.~Caffio, R.~Schaub, G.~Ackland, Validating
+  molecular dynamics with direct imaging of radiation damage debris, Phys. Rev.
+  B 85 (2012) 094111.
+
+\bibitem{hayward2010}
+E.~Hayward, C.~Deo, A molecular dynamics study of irradiation induced cascades
+  in iron containing hydrogen, Comp., Mater. and Cont. 16 (2010) 101--115.
+
+\bibitem{beeler2015}
+B.~Beeler, M.~Asta, P.~Hosemann, N.~Gronbech-Jensen, Effects of applied strain
+  on radiation damage generation in body-centered cubic iron, J. Nucl. Mater.
+  459 (2015) 159.
+
+\bibitem{nordlund2006}
+K.~Nordlund, J.~Wallenius, L.~Malerba, Molecular dynamics simulation of
+  threshold displacement energies in fe, Nucl. Instr. Meth. B 246 (2006)
+  322--332.
+
+\bibitem{malerba2002}
+L.~Malerba, J.~Perlado, Basic mechanisms of atomic displacement production in
+  cubic silicon carbide: A molecular dynamics study, Phys. Rev. B 65 (2002)
+  045202.
+
+\bibitem{beeler2016}
+B.~Beeler, M.~Asta, P.~Hosemann, N.~Gronbech-Jensen, Effect of strain and
+  temperature on the threshold displacement energy in body-centered cubic iron,
+  J. Nucl. Mater. 474 (2016) 113.
+
+\bibitem{was2007}
+G.~Was, Fundamentals of Radiation Materials Science, Springer, 2007.
+
+\bibitem{varshni1970}
+Y.~Varshni, Temperature dependence of the elastic constants, Phys. Rev. B 2
+  (1970) 3952.
+
+\bibitem{fedorov1978}
+G.~Fedorov, Diffusion in the materials for nuclear reactors, Atomizdat, 1978.
+
+\bibitem{smirnov1992}
+E.~Smirnov, K.~Smirnov, Diffusion processes in bcc phases of actinides, Tech.
+  Rep. MIFI-013092, Moscow Eng.-Phys. Inst. (1992).
+
+\bibitem{wirth2011}
+G.-Y. Huang, B.~Wirth, First-principles study of diffusion of interstitial and
+  vacancy in α u--zr, J. Phys.: Cond. Mat. 23 (2011) 205402.
+
+\end{thebibliography}

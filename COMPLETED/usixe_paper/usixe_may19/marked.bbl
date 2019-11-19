@@ -1,0 +1,229 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{zinkle2014}
+S.~Zinkle, K.~Terrani, J.~Gehin, L.~Ott, L.~Snead, Accident tolerant fuels for
+  lwrs: A perspective, J. Nucl. Mater. 448 (2014) 374.
+
+\bibitem{white2015}
+J.~White, A.~Nelson, J.~Dunwoody, D.~Byler, D.~Safarik, K.~McClellan,
+  Thermophysical properties of u3si2 to 1773 k, J. Nucl. Mater. (2015) 275.
+
+\bibitem{carmack2015}
+J.~Carmack, K.~Barrett, H.~MacLean-Chichester, Light water reactor accident
+  tolerant fuels irradiation testing, Tech. Rep. INL/CON-15-34949, Idaho
+  National Laboratory (2015).
+
+\bibitem{miao2017a}
+Y.~Miao, J.~Harp, K.~Mo, S.~Zhu, T.~Yao, J.~Lian, A.~Yacout, Bubble morphology
+  in u3si2 implanted by high-energy xe ions at 300 c, J. Nucl. Mater. 495
+  (2017) 146.
+
+\bibitem{miao2018}
+Y.~Miao, J.~Harp, H.~Mo, Y.-S. Kim, S.~Zhu, A.~Yacout, Microstructure
+  investigations of u3si2 implanted by high-energy xe ions at
+  600 $\,^{\circ}$c, J. Nucl. Mater. 503 (2018) 314.
+
+\bibitem{harp2015}
+J.~Harp, P.~Lessing, R.~Hoggan, Uranium silicide pellet fabrication by powder
+  metallurgy for accident tolerant fuel evaluation and irradiation, J. Nucl.
+  Mater. 466 (2015) 728.
+
+\bibitem{he2017}
+L.~He, J.~Harp, R.~Hoggan, A.~Wagner, Microstructure studies of interdiffusion
+  behavior of u3si2/zircaloy-4 at 800 and 1000 c, J. Nucl. Mater. 486 (2017)
+  274.
+
+\bibitem{middleburgh2016}
+S.~Middleburgh, R.~Grimes, E.~Lahoda, C.~Stanek, D.~Andersson,
+  Non-stoichiometry in u3si2, J. Nucl. Mater. 482 (2016) 300.
+
+\bibitem{miao2017}
+Y.~Miao, K.~Gamble, D.~Andersson, B.~Ye, Z.-G. Mei, G.~Hofman, A.~Yacout,
+  Gaseous swelling of u3si2 during steady-state lwr operation: A rate theory
+  investigation, Nucl. Eng. Design 322 (2017) 336.
+
+\bibitem{miao2018a}
+Y.~Miao, K.~Gamble, D.~Andersson, Z.-G. Mei, A.~Yacout, Rate theory scenarios
+  study on fission gas behavior of u3si2 under loca conditions in lwrs, Nucl.
+  Eng. Design 326 (2018) 371.
+
+\bibitem{shimizu1965}
+H.~Shimizu, The properties and irradiation behavior of u3si2, Tech. Rep.
+  NAA-SR-10621, Atomics International (1965).
+
+\bibitem{yao2018}
+T.~Yao, B.~Gong, L.~He, J.~Harp, M.~Tonks, J.~Lian, Radiation-induced grain
+  subdivision and bubble formation in u3si2 at lwr temperature, J. Nucl. Mater.
+  498 (2018) 169.
+
+\bibitem{fy17usi}
+L.~Aagesen, K.~Ahmed, B.~Beeler, D.~Schwen, Y.~Zhang, D.~Andersson, Multi-scale
+  modeling of swelling in accident-tolerant u3si2 fuel, Tech. Rep.
+  INL/EXT-17-43326, Idaho National Laboratory (2017).
+
+\bibitem{fy18usi}
+L.~Aagesen, B.~Beeler, D.~Schwen, Y.~Zhang, D.~Andersson, I.~Greenquist,
+  M.~Tonks, Marmot update for swelling in u3si2 and sintering in doped uo2,
+  Tech. Rep. INL/EXT-18-51546, Idaho National Laboratory (2018).
+
+\bibitem{noordhoek2016}
+M.~Noordhoek, T.~Besman, D.~Andersson, S.~Middleburgh, A.~Chernatynskiy, Phase
+  equilibria in the u-si system from first-principles calculations, J. Nucl.
+  Mater. 479 (2016) 216--223.
+
+\bibitem{andersson2018}
+D.~Andersson, X.-Y. Liu, B.~Beeler, S.~Middleburgh, A.~Claisse, C.~Stanek,
+  Density functional theory calculations of self-diffusion and xe diffusion in
+  u3si2, J. Nucl. Mater. 515 (2019) 312.
+
+\bibitem{chattaraj2018}
+D.~Chattaraj, C.~Majumder, Structural, electronic, elastic, vibrational and
+  thermodynamic properties of u3si2: A comprehensive study using dft, J. Alloys
+  and Compounds 732 (2018) 160.
+
+\bibitem{wang2016}
+T.~Wang, N.~Qiu, X.~Wen, Y.~Tian, J.~He, K.~Luo, X.~Zha, Y.~Zhou, Q.~Huang,
+  J.~Lang, S.~Du, First-principles investigations on the electronic structures
+  of u3si2, J. Nucl. Mater. 469 (2016) 194.
+
+\bibitem{beelerusi}
+B.~Beeler, M.~Baskes, D.~Andersson, M.~Cooper, Y.~Zhang, A modified
+  embedded-atom method interatomic potential for uranium-silicide, J. Nucl.
+  Mater. 495 (2017) 267.
+
+\bibitem{baskes1997}
+R.~Ravelo, M.~Baskes, Equilibrium and thermodynamic properties of grey, white,
+  and liquid tin, Phys. Rev. Lett. 79 (1997) 2482.
+
+\bibitem{baskes2000}
+M.~Baskes, Atomistic model of plutonium, Phys. Rev. B 62 (2000) 15532.
+
+\bibitem{baskes2014}
+S.~Nouraniuan, M.~Tschopp, S.~Gwaltney, M.~Baskes, M.~Horstemeyer, An
+  interatomic potential for saturated hydrocarbons based on the modified
+  embedded-atom method, Phys. Chem. Chem. Phys. 16 (2014) 6233.
+
+\bibitem{baskes1989}
+M.~Baskes, J.~Nelson, A.~Wright, Semiempirical modified embedded-atom
+  potentials for silicon and germanium, Phys. Rev. B 40 (1989) 6085.
+
+\bibitem{valone2006}
+S.~Valone, M.~Baskes, R.~Martin, Atomistic model of helium bubbles in
+  gallium-stabilized plutonium, Phys. Rev. B 73 (2006) 214209.
+
+\bibitem{liu1999}
+X.~Liu, H.~Liu, J.~Dong, X.~Xie, Molecular dynamics simulation on phosphorus
+  behavior at ni grain boundary, Scripta Materialia 42 (1999) 189.
+
+\bibitem{lee2000}
+B.-J. Lee, M.~Baskes, Second nearest-neighbor modified embedded-atom-method
+  potential, Phys. Rev. B 62 (2000) 8564.
+
+\bibitem{lee2001}
+B.-J. Lee, M.~B. abd H.~Kim, Y.~Cho, Second nearest-neighbor modified embedded
+  atom method potentials for bcc transition metals, Phys. Rev. B 64 (2001)
+  184102.
+
+\bibitem{lee2003}
+B.-J. Lee, J.-H. Shim, M.~Baskes, Semiempirical atomic potentials for the fcc
+  metals cu, ag, au, ni, pd, pt, al, and pb based on first and second
+  nearest-neighbor modified embedded atom method, Phys. Rev. B 68 (2003)
+  144112.
+
+\bibitem{moore2015}
+A.~Moore, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic modeling of
+  high temperature uranium-zirconium alloy structure and thermodynamics, J.
+  Nucl. Mater. 467 (2015) 802.
+
+\bibitem{beelerASTM}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic investigations of
+  intrinsic and extrinsic point defects in bcc uranium, Effects of Radiation on
+  Nuclear Materials: STP 1547 25 (2012) 231.
+
+\bibitem{plimpton1995}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
+  Comp. Phys. 117 (1995) 1--19.
+
+\bibitem{ronchi1981}
+C.~Ronchi, Extrapolated equation of state for rare gases at high temperatures
+  and densities, J. Nucl. Mater. 96 (1981) 314.
+
+\bibitem{cook1961}
+G.~Cook, Argon, Helium and the Rare Gases, Interscience Publishers, 1961.
+
+\bibitem{vasp1}
+G.~Kresse, J.~Hafner, Ab initio molecular dynamics for liquid metals, Phys.
+  Rev. B 47 (1993) 558.
+
+\bibitem{vasp2}
+G.~Kresse, J.~Hafner, Ab initio molecular-dynamics simulation of the
+  liquid-metal-amorphous-semiconductor transition in germanium, Phys. Rev. B 49
+  (1994) 14251.
+
+\bibitem{vasp3}
+G.~Kresse, J.~Furthmuller, Efficiency of ab-initio total energy calculations
+  for metals and semiconductors using a plane-wave basis set, Comput. Mat. Sci.
+  6 (1996) 15.
+
+\bibitem{vasp4}
+G.~Kresse, J.~Furthmuller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Phys. Rev. B 54
+  (1996) 11169.
+
+\bibitem{paw1}
+P.~Blochl, Projector augmented-wave method, Phys. Rev. B 50 (1994) 17953.
+
+\bibitem{paw2}
+G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
+  augmented-wave method, Phys. Rev. B 59 (1999) 1758.
+
+\bibitem{dft1}
+P.~Hohenberg, W.~Kohn, Inhomogeneous electron gas, Phys. Rev. 136 (1964) B864.
+
+\bibitem{dft2}
+W.~Kohn, L.~Sham, Self-consistent equations including exchange and correlation
+  effects, Phys. Rev. 140 (1965) A1133.
+
+\bibitem{pbe1}
+J.~Perdew, K.~Burke, M.~Ernzerhof, Generalized gradient approximation made
+  simple, Phys. Rev. Lett. 77 (1996) 3865.
+
+\bibitem{pbe2}
+J.~Perdew, K.~Burke, M.~Ernzerhof, Erratum: Generalized gradient approximation
+  made simple, Phys. Rev. Lett. 78 (1997) 1396.
+
+\bibitem{methfessel}
+M.~Methfessel, A.~Paxton, High-precision sampling for brillouin-zone
+  integration in metals, Phys. Rev. B 40 (1989) 3616.
+
+\bibitem{beeler_usi_gb}
+B.~Beeler, M.~Baskes, D.~Andersson, M.~Cooper, Y.~Zhang, Molecular dynamics
+  investigation of grain boundaries and surfaces in u3si2, J. Nucl. Mater. 514
+  (2019) 290.
+
+\bibitem{was2007}
+G.~Was, Fundamentals of Radiation Materials Science, Springer, 2007.
+
+\bibitem{une2002}
+K.~Une, S.~Kashibe, K.~Hayashi, Fission gas release behavior in high burnup uo2
+  fuels with developed rim structure, J. Nucl. Sci. Tech. 3 (2002) 668.
+
+\bibitem{nogita1998}
+K.~Nogita, K.~Une, High resolution tem observation and density estimation of xe
+  bubbles in high burnup uo2 fuels, Nucl. Instr. Meth. B 141 (1998) 481.
+
+\bibitem{hu2017}
+S.~Hu, W.~Setyawan, V.~Joshi, C.~Lavender, Atomistic simulations of
+  thermodynamic properties of xe gas bubbles in u10mo fuels, J. Nucl. Mater.
+  490 (2017) 49.
+
+\bibitem{kaplun2003}
+A.~Kaplun, A.~Meshalkin, Thermodynamic validation of the form of unified
+  equation of state for liquid and gas, Therm. Prop. Mater. 41 (2003) 319.
+
+\end{thebibliography}

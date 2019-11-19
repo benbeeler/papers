@@ -1,0 +1,692 @@
+\documentclass[review]{elsarticle}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL displacement_energy6.tex   Mon Apr 23 11:10:26 2018
+%DIF ADD displacement_energy7.tex   Tue May 15 08:28:46 2018
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{gensymb}
+
+
+\journal{Journal of Nuclear Materials}
+\bibliographystyle{elsarticle-num}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF CTRADITIONAL PREAMBLE %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\RequirePackage[stable]{footmisc} %DIF PREAMBLE
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue} \sf #1}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red} [..\footnote{removed: #1} ]}} %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+\begin{frontmatter}
+\title{Calculation of the displacement energy of $\alpha$ and $\gamma$ uranium}
+
+\author[inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{benjamin.beeler@inl.gov}
+\author[inl]{Yongfeng Zhang}
+\author[pur]{Maria Okuniewski}
+\author[gatech]{Chaitanya Deo}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+\address[pur]{Purdue University, West Lafayette, IN 47907}
+\address[gatech]{Georgia Institute of Technology, Atlanta, GA 30332}
+
+\begin{abstract}
+
+Uranium (U) is alloyed with molybdenum (Mo) or zirconium (Zr) in order to stabilize the high-temperature body-centered cubic $\gamma$ phase of uranium for use in nuclear reactors. Although these two alloy systems possess different mechanical, chemical and thermodynamic properties, they exhibit a similarity in that there exists a variable degree of phase decomposition from the cubic $\gamma$ phase of uranium to the orthorhombic $\alpha$ phase of uranium, depending on both the Mo/Zr content and fabrication conditions. These two phases of uranium are believed to exhibit distinct swelling and radiation damage behavior. Understanding the differences in behavior under irradiation between the $\alpha$ and $\gamma$ phases can provide valuable information to guide the manufacturing process of U alloys and can inform multi-physics, continuum-level fuel performance codes. The threshold displacement energy (TDE) is the minimum amount of kinetic energy required to displace an atom from its lattice site. It is critically important to determine an accurate value of the TDE in order to calculate the total number of displacements due to a given irradiation condition, and thus to understand the materials response to irradiation. In this study, molecular dynamics simulations have been performed to calculate the threshold displacement energy for both the $\alpha$ and $\gamma$ phases of uranium as a function of temperature. This study utilizes three different interatomic potentials that have been previously developed: U MEAM, U-Zr MEAM and U-Mo ADP. The threshold displacement energy in $\gamma$U at 800 K is \DIFdelbegin \DIFdel{74.5 eV, 47.0 }\DIFdelend \DIFaddbegin \DIFadd{73.2 eV, 47.1 }\DIFaddend eV and 35.6 eV for the U MEAM, U-Zr MEAM and U-Mo ADP potentials. respectively. The threshold displacement energy for $\alpha$U at 600 K is \DIFdelbegin \DIFdel{66.2 }\DIFdelend \DIFaddbegin \DIFadd{66.3 }\DIFaddend eV for the U-Mo ADP. 
+\end{abstract}
+\end{frontmatter}
+
+\section{Introduction}
+
+In the interest of nuclear non-proliferation, there has been renewed effort in recent decades to replace current highly enriched uranium (HEU) fuel in high power research reactors with low enriched uranium (LEU) fuel \cite{snelgrove1997}. In the United States, this program is the United States High-Performance Research Reactor (USHPRR) program. Research reactors require fuels that operate at high power and reach high fission density, but at relatively low temperatures. Typical research reactor fuel consists of aluminum (Al) cladding surrounding a fuel meat composed of fuel particles dispersed in an Al matrix \cite{meyer2014}. In order to achieve a reduced enrichment in these fuel types, there is a requirement for increased uranium density. One way this is achieved is by utilizing $\gamma$ stabilized uranium alloys with 10 wt.\% or less alloy content in a monolithic fuel foil. The fuel design being pursued under the USHPRR program is a uranium-molybdenum (U-Mo) monolithic foil, with a zirconium (Zr) diffusion barrier in Al cladding. 
+
+Uranium-zirconium (U-Zr) and uranium-plutonium-zirconium (U-Pu-Zr) alloy fuels have a history of usage in sodium-cooled fast reactors. Not only does the U-Zr fuel (as well as U-Pu-Zr) generate a harder neutron spectrum as compared to traditional ceramic fuels, but it also offers excellent neutron economy and high burnup capability \cite{hofman1997}. Recently, U-Zr fuels have regained interest due to the possibility of incorporating minor actinides into the fuel, and as such the metallic fuel alloys would serve to reduce the quantity of long-lived radioisotopes generated as nuclear waste \cite{capriotti2017}. 
+
+One issue with metallic fuels, including both U-Zr and U-Mo fuels, is the large amount of swelling that takes place in-reactor\cite{hofman1997}. Such swelling can be accounted for in the fuel design, however the swelling needs to be stable and predictable up to high fission densities. Research reactor fuel types based on U-Mo are unique in their ability to stably retain fission gases to high fission densities, and as such there is a relatively high content of fission gas and of fission gas bubbles within the fuel matrix. This importance of swelling in addition to the unique fuel environment has led to a variety of studies attempting to characterize the swelling behavior in U-Mo fuels \cite{rest2009, kim_anl08, meyer2002, kim2013} which has led to the development of swelling correlations from Argonne National Labortory (ANL correlation) \cite{kim2011} and Idaho National Laboratory \cite{umo_prelim_report2017} as a function of fission density. The ANL swelling correlation was intended to be applicable for low temperature (less than 250$^{\circ}$C) U-Mo alloys in the 7-10 wt.\% composition range. 
+
+In a 2015 post-irradiation examination (PIE) report \cite{afip6report}, Williams, et al. showed accelerated swelling in monolithic U-10Mo fuels at fission densities much lower than previously observed. This fuel swelling behavior deviated from the ANL correlation and such behavior could lead to early fuel failure. Understanding the cause of this anomalous swelling behavior is a critical step in qualifying U-Mo fuel for use in research reactors. Willams, et al. \cite{afip6report} showed a large amount of compositional banding, or regions of low Mo content adjacent to regions of higher Mo content, in the as-fabricated fuel. An increased amount of swelling was also observed in lower Mo content alloys (U-7Mo) \cite{vandenberghe2014} at lower fission densities. Lower Mo content leads to a phase transformation from the $\gamma$U-Mo body-centered cubic phase to the $\alpha$U phase and U$_{2}$Mo \cite{janfong2014}. This is most evident in the region involving the U-Mo fuel foil and the Zr diffusion barrier \cite{park2015}. Near the Zr diffusion barrier, there exists a limited region of interaction where a variety of phases are present, including $\gamma$U-Mo, UZr$_{2}$, Mo$_{2}$Zr and $\alpha$U. This inter-diffusion region exhibits the highest density of fission gas bubbles at high fission densities and is the region where fuel separation initiates \cite{rertr12}. Finally, an earlier onset of recrystallization has been observed in alloys with either lower Mo content or increased banding \cite{kim2013A}. Recrystallization, the formation of new nano-scale grains, is the suggested culprit behind increased swelling, as the recrystallized grains are destroying the fission gas superlattice \cite{vandenberghe2008}. 
+
+U-Zr alloys are typically employed as a series of fuel pellets within a given fuel rod, similar to UO$_{2}$ fuels. Unlike UO$_{2}$ fuels, dramatic swelling is inevitable, and is typically accounted for by manufacturing fuels with a smear density of approximately 75{\%}. This allows for approximately 30\% swelling, which is sufficient to allow fission gas release \cite{beck1968}. The nature of swelling is anisotropic in these fuels, largely due to the difference in swelling behavior between the hotter center of the fuel and the colder periphery \cite{hofman1990}. During operation, the phenomenon of constituent redistribution takes place. This results in three distinct radial phase regions within the fuel. The innermost region is Zr-enriched, the intermediate region is Zr-depleted and the outermost region has a nominal Zr concentration. This phenomenon is due to both the effect of the temperature gradient on phase equilibria and the diffusion of species along the temperature gradient both radially and axially. This concentration variance as a function of radius in combination with the temperature gradient leads to the $\gamma$ phase being present in the interior of the fuel pellet, while the $\alpha$ phase dominates the periphery \cite{kobayashi1990, kim2004}. The radially anisotropic swelling within the fuel pellet is due to the variation in phases as a function of radius.
+
+This information suggests that there is a fundamental difference between the radiation damage behavior and swelling behavior of the $\alpha$ phase of U and the $\gamma$ phase of U (U-Mo/U-Zr). The first step to unraveling this puzzle is to investigate the radiation damage-related properties of both $\alpha$ U and $\gamma$ U.
+
+One of the most fundamental quantities of radiation damage is the threshold displacement energy (TDE). The TDE is defined as the minimum amount of kinetic energy required to displace an atom from its lattice site. This quantity plays a key role in radiation damage theory, where it is implemented within the Kinchin-Pease \cite{kinchinpease} or the Norgett-Robinson-Torrens (NRT) \cite{norgett1975} equations, which state that the amount of damage is proportional to the ratio of the amount of deposited energy to an effective TDE. Therefore, it is critically important to determine an accurate value of the TDE in order to calculate the total number of displacements due to a given irradiation condition, and thus understand the materials response to irradiation.
+
+In this paper, molecular dynamics (MD) simulations have been performed to calculate the TDE in $\alpha$ and $\gamma$U at 600 K, 800 K and 1000 K utilizing three unique interatomic potentials. The probability of Frenkel pair (vacancy and interstitial pair) production is determined as a function of primary knock-on atom (PKA) energy, direction and temperature. Probability curves are averaged to determine an effective value of the TDE, above which a Frenkel pair is more than 50$\%$ likely to form. 
+
+\section{Computational Details}
+In order to determine the TDE at temperatures of interest for nuclear reactors, molecular dynamics (MD) \cite{abraham1986, allen1987} simulations need to be performed. MD requires an interatomic potential to describe the energy landscape of the system being studied. Very few interatomic potentials have been constructed for uranium-based alloys. This is due to the inherent difficulty in describing the behavior of f-electrons and the mechanical instability of the $\gamma$ phase of uranium at low temperatures. Several interatomic potentials have been developed for pure uranium \cite{beeler_meam, beelerASTM, fernandez2014, li2011, smirnova2012, li2012}, with only a few being adapted into alloy potentials for U-Zr \cite{moore2015}, U-Al \cite{pascuet2012}, U-Si \cite{beelerUSi} and U-Mo \cite{smirnovaUMo}. The modified embedded-atom method (MEAM) variants of U and U-Zr \cite{beeler_meam, moore2015} are the two potentials that can most accurately describe the $\gamma$ phase of uranium, and the pure U MEAM potential \cite{beeler_meam} has been utilized for a prior radiation damage study \cite{miao2015}. However, the pure U MEAM potential is incapable of accurately describing the $\alpha$ phase. The U-Zr variant of the MEAM potential is an updated version of the prior pure U MEAM potential that was modified to accurately describe a variety of alloy properties of $\gamma$U-Zr. The U-Mo angular dependent potential (ADP) \cite{smirnovaADP} can accurately describe the $\gamma$U-Mo phase with the added benefit of being able to describe the $\alpha$ phase of U. Thus, to develop a full picture of the radiation damage behavior in $\alpha$ and $\gamma$U with applicability to $\gamma$U-Mo, $\gamma$U-Zr and considering previous radiation damage work, all three potentials are utilized and compared. 
+
+It should be emphasized that only systems of pure uranium were investigated. Although the U-Zr MEAM potential and the U-Mo ADP are capable of describing U-Zr and U-Mo alloys, respectively, no such alloy systems were studied in this work. However, as the fuel systems of interest are uranium-rich, valuable information can be gleaned from investigating the pure U system.
+
+Molecular dynamics simulations are performed utilizing the LAMMPS \cite{plimpton1995} software package and the U MEAM \cite{beeler_meam}, U-Zr MEAM \cite{moore2015} and U-Mo ADP \cite{smirnovaADP} potentials splined to a Ziegler, Biersack and Littmark (ZBL) \cite{zbl} potential at small distances. To generate curves of the probability of Frenkel pair production as a function of PKA energy in $\alpha$U, a 25$\times$12$\times$15 supercell (approximately a cube of side length 70 {\AA} with 18,000 atoms) is equilibrated for 200 ps at a given temperature in an NPT ensemble. The thermostat damping parameter is set to 1.7 ps to match the macroscopic thermal conductivity \cite{lane2012}. An atom is then given extra kinetic energy, with the velocity directed in a prescribed direction. The time step is set to 0.2 fs and the simulation is run for 70,000 steps (14 ps). This time is long enough such that the thermal spike emanating from the cascade has dissipated, while allowing for the immediate recombination of defects. This time is also short enough such that substantial thermal diffusion has not occurred. The system is then quenched to 300 K for ease of defect analysis. The number of stable Frenkel pairs is determined via a Wigner-Seitz cell based algorithm \cite{hayward2010}. This simulation procedure is identical for $\gamma$U, with the exception of utilizing a 20$\times$20$\times$20 supercell (approximately a cube of side length 70 {\AA} with 16,000 atoms). Temperatures of 800 K and 1000 K are investigated for $\gamma$U and temperatures of 600 K and 800 K are investigated for $\alpha$U. These temperatures are within the operational temperature ranges for UZr fuel. In addition, the potentials are limited in the range of temperature available for investigation, and as such the temperatures chosen allowed for comparisons across potentials and between phases without going beyond the means of each individual potential. For example, below 800 K the bcc phase is considered to be unstable, while above 1000K the thermal fluctuations make it difficult to separate irradiation produced defects and thermally produced defects. An overview of the potential formalism and a comparison of basic properties of the potentials is included in the appendix.
+
+PKA energies are varied over a range of approximately 150 eV, in steps of 10 eV, to properly sample the relevant energy range. In the $\gamma$ phase, the analysis includes 55 unique PKA directions that sample the body-centered cubic crystal cell \cite{beeler2015}. In the $\alpha$ phase, the analysis includes 118 unique PKA directions. The set of directions are determined by varying the angles $\theta$ and $\phi$ as shown in Fig. \ref{fig:directions}. \DIFdelbegin \DIFdel{The set of directions is chosen in such a way as to generate an equal area solid angle for each direction. Because this is the case, arithmetic averaging over all directions can be performed to generate the average of the data set. }\DIFdelend For the $\gamma$ phase, $\theta$ is varied from 0\degree to 45\degree and $\phi$ is varied from 0$\degree$ to 35.3$\degree$. Each PKA direction corresponds to a given value of $\theta$ and $\phi$. The magnitude of $\theta$ is incrementally increased by 5$\degree$, while $\phi$ is is incrementally increased by 4$\degree$ (the final increment is increased by only 3.3$\degree$\DIFdelbegin \DIFdel{, this leads to a slightly smaller solid angle area, but induces negligible total error to the arithmetic average)}\DIFdelend . For the $\alpha$ phase, $\phi$ is varied from 0$\degree$ to 90$\degree$ and $\theta$ is varied from -90$\degree$ to 90$\degree$. The magnitude of $\theta$ is incrementally increased by 15$\degree$  while $\phi$ is incrementally increased by 10$\degree$. High symmetry directions and the associated $\theta$ and $\phi$ values are shown in Table \ref{tab:dirs}. For each PKA direction and energy, 100 independent simulations were performed, each simulation with an independent distribution of initial velocities. In total, approximately 400,000 simulations were performed. 
+
+
+
+\begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.5\textwidth]{directionsC.png} 
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.5\textwidth]{directionsD.png} 
+ \DIFaddendFL \caption{The set of PKA directions are determined by varying the angles $\theta$ and $\phi$. For the $\gamma$ phase (a), $\theta$ is varied from 0$\degree$ to 45$\degree$ and $\phi$ is varied from 0$\degree$ to 35.3$\degree$. For the $\alpha$ phase (b), $\theta$ is varied from -90$\degree$ to 90$\degree$ and $\phi$ is varied from 0$\degree$ to 90$\degree$.}
+ \label{fig:directions}
+\end{figure}
+
+\begin{table}[h]
+\caption{The high symmetry directions in $\gamma$ and $\alpha$U and the associated $\theta$ and $\phi$ angles.} \label{tab:dirs}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	& Direction & $\theta$ & $\phi$ \\
+	 \hline
+	 & (1 0 0) & 0 & 0 \\
+	$\gamma$U & (1 1 0) & 45 & 0 \\
+	& (1 1 1) & 45 & 35.3 \\
+	 \hline
+	 	 & (1 0 0) & 0 & 0 \\
+	$\alpha$U & (0 1 0) & 90 & 0 \\
+	& (0 $\bar{1}$ 0) & -90 & 0 \\
+	& (0 0 1) & 0 & 90 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\FloatBarrier
+
+\DIFaddbegin \DIFadd{An average value of the threshold displacement energy is determined via a weighted average, based on the relative solid angle area of each specific direction. The solid angle is determined by equation \ref{eqn:solid}. 
+}
+
+\begin{equation}
+\DIFadd{\label{eqn:solid}
+\Omega = \iint_S cos(\phi) d\theta d\phi
+}\end{equation} 
+
+\DIFadd{where $\theta$ and $\phi$ are the angles defining the PKA direction as shown in Fig. \ref{fig:directions}. The weighted average is calculated by equation \ref{eqn:wavg}
+}
+
+\begin{equation}
+\DIFadd{\label{eqn:wavg}
+Avg^{w} = \frac{\sum_i \omega_{i} \times prob_{i}}{\sum_i \omega_{i} }
+}\end{equation} 
+
+\DIFadd{where $\omega_{i}$ is the relative solid angle of a given PKA direction \textit{i} with respect to the solid angle of $\theta$=0, $\phi$=0 and \textit{prob$_{i}$} is the probability of Frenkel pair formation for a given energy in a given PKA direction \textit{i}. This averaging scheme properly weights the entire set of PKA directions, allowing for the construction of a direction-averaged Frenkel pair probability at a given PKA energy.
+}
+
+\DIFaddend As reviewed by Nordlund, et al.\cite{nordlund2006}, several different definitions of TDE can be introduced. In the previous literature the primary type of TDE reported is the E$^{\textrm{l}}_{\textrm{d}}$, or the lower bound of the threshold displacement energy, where there exists a non-zero probability of creating a defect \cite{malerba2002}. Typically, the direct experimental measurements of the TDE measure the lowest energy where a defect signal can be detected, for example by changes in resistivity. This is analagous to the E$^{\textrm{l}}_{\textrm{d}}$. For comparison to experiment, adjustments for beam spreading should be included \cite{nordlund2006}. For implementation into the Kinchin-Pease or NRT equations, an average value for the TDE needs to be utilized that is distinct from E$^{\textrm{l}}_{\textrm{d}}$ \cite{nordlund2006,norgett1975}. This average value is obtained from generating probability curves (probability of generating a Frenkel pair as a function of PKA energy) for respective PKA directions. These probability curves can then be averaged over all directions to create an angle-integrated displacement probability curve \cite{nordlund2006}. The energy at which this averaged probability curve crosses the probability 0.5 is determined to be the median TDE (E$^{\textrm{pp}}_{\textrm{d,med}}$), where pp stands for production probability. This value takes into account not only displacement of atoms, but also allows for subsequent recombination immediately following the initiation of the cascade (in this work, 14 ps of simulation time following the PKA event). This is the appropriate description of TDE for use in the NRT equation. This work is focused on the E$^{\textrm{pp}}_{\textrm{d,med}}$.
+
+Given that displacement energies are being investigated within this manuscript, it is worth investigating the short range interaction of each interatomic potential, in order to provide a framework for the following results. A U-U dimer was formed and the energy was analyzed as a function of the dimer distance, shown in Fig. \ref{fig:dimer}. It is observed the the U MEAM and U-Zr MEAM exhibit similar energy-well minima and similar energy tails as the distance increases (as would be expected, given the similar origins of these two potentials). For the U-Mo ADP, the energy minimum occurs at a shorter distance and at a higher energy (the U-Mo ADP potential was fit to a higher cohesive energy than both the U MEAM and U-Zr MEAM potentials), while the nature of the tail is non-monotonically increasing. At short distances, it is observed that the U MEAM exhibits an increase in energy at the longest r distance, while U-Mo ADP exhibits an increase in energy at the shortest r distance. It should be explained how the ZBL is implemented within each of these potentials, for clarification and understanding of Fig. \ref{fig:dimer}. For U MEAM and U-Zr MEAM, the standard ZBL implementation within LAMMPS is employed, which produces ZBL splining cutoffs based on the reference distance and the alpha parameter provided within the potential definition. This results in ZBL splining cutoffs of 1.27 {\AA} and 2.48 {\AA} for the U MEAM potential and 1.25 {\AA} and 2.43 {\AA} for the U-Zr MEAM potential. Thus, ZBL splining begins at the longer distance, while below the shorter distance the interaction is purely ZBL. For the U-Mo ADP, the ZBL is implemented via the hybrid/overlay implementation in LAMMPS, where ZBL cutoffs are manually input. In this work for the U-Mo ADP, the ZBL splining cutoffs are selected at 1 {\AA} and 2 {\AA}. Thus, for the U-Mo ADP, ZBL splining begins at 2 {\AA} and below 1 {\AA} the potential is purely ZBL. Based on the nature of the potential wells and the well minimum distance, these are all reasonable choices for ZBL splining criteria. However, there are clear and distinct differences in the low-R energy landscape due to the inherent differences in the ZBL splining. The importance of such distinctions will be discussed within the results section. 
+
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{U_U_dimer.png} 
+ \caption{U-U dimer energy versus distance for three different potentials at 0 K.}
+ \label{fig:dimer}
+\end{figure}
+
+\FloatBarrier
+
+\section{Results}
+\subsection{$\gamma$U Median Displacement Energy}
+
+In this section, E$^{\textrm{pp}}_{\textrm{d,med}}$ in $\gamma$U is determined at 800 K and 1000 K. For each interatomic potential used (U MEAM \cite{beeler_meam}, U-Zr MEAM \cite{moore2015} and U-Mo ADP \cite{smirnovaADP}), the probability of Frenkel pair production as a function of PKA energy is generated for each unique PKA direction. This leads to 55 unique probability curves for each interatomic potential, given that there are 55 unique PKA directions investigated in $\gamma$U. To illustrate the nature of these curves, Fig. \ref{fig:ed_dirall} displays the probability curves for all 55 PKA directions at 800 K, overlaid with the \DIFdelbegin \DIFdel{arithmetic }\DIFdelend \DIFaddbegin \DIFadd{weighted }\DIFaddend average. Data is generated up to a probability of approximately 0.75 to ensure sampling beyond the median for each PKA direction. The first significant observation is that there is a wide discrepancy between each of the individual directions. Such variance underlines the importance of gathering a large set of PKA directions to accurately sample the entire phase space of the crystal structure of interest such that true average behavior can be approximated. The second significant observation is that there are non-negligible probabilities of defect production over a wide range of PKA energies, as has been seen before in other materials \cite{beeler2016, nordlund2006, zepeda-ruiz2003, tsuchihira2013}. Finally, the probabilities become non-zero at approximately 20 eV, suggesting that E$^{\textrm{l}}_{\textrm{d}}$ is near 20 eV for this system using this potential, although this value was not strictly determined in this work. Similar variation as a function of PKA direction is observed for the simulations utilizing the U-Zr MEAM and U-Mo ADP. For a more precise comparison between directions, three different PKA directions utilizing the U MEAM interatomic potential in $\gamma$U at 800 K are shown in Fig. \ref{fig:ed_dir}. The PKA directions are the three high-symmetry directions, [1 0 0], [1 1 0] and [1 1 1], respectively. The curves shown are third order polynomial fits to the data points. The polynomial fits are introduced to more easily calculate the E$^{\textrm{pp}}_{\textrm{d,med}}$ for a given direction. Instead of analyzing where the data points exceeded a probability of 0.5, the TDE was taken as where the polynomial fit exceeded 0.5 probability. The calculated E$^{\textrm{pp}}_{\textrm{d,med}}$ for each individual direction is 34 eV, 79 eV and 73 eV for [1 0 0], [1 1 0] and [1 1 1], respectively. This shows a variance in the threshold displacement energy of approximately 45 eV depending on the direction of the PKA. Considering non-high symmetry directions, the variance across PKA directions is as great as 70 eV. Non-zero probabilities are observed over a range of approximately 100 eV. This is most evident for the [1 1 0] direction, where probabilities vary from approximately 0.05 at 40 eV, to 0.8 at 140 eV, with the PKA energy of 79 eV yielding a probability of 0.5. Such a large range of non-zero probabilities highlights that the threshold displacement energy at high temperatures is far from the step-function-like description at 0 K \cite{was2007}.
+
+ \begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.8\textwidth]{ed_dir_allC.png} 
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.8\textwidth]{ed_dir_allD.png} 
+ \DIFaddendFL \caption{The Frenkel pair production probability curves in $\gamma$U at 800 K for the U MEAM interatomic potential for all 55 different PKA directions. Average overlaid in black.}
+ \label{fig:ed_dirall}
+\end{figure}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{ed_dirBrev.png} 
+ \caption{The Frenkel pair production probability curves in $\gamma$U at 800 K for the U MEAM interatomic potential in three different PKA directions.}
+ \label{fig:ed_dir}
+\end{figure}
+
+\FloatBarrier
+
+A full analysis of directional dependence is shown in the contour plots of Fig. \ref{fig:800Kcontour}. For each of the three potentials, the threshold displacement energy for a given direction is plotted on a directional field, with the high symmetry directions labelled. Although the magnitude of the threshold displacement energy for each potential is vastly different, as will be discussed below, the directional dependence is very similar. Minima are observed around the [1 0 0] direction, while maxima occur at approximately two-thirds along the directional line between the [1 0 0] and [1 1 0] directions, near the [7 4 0] direction. In the U-Mo ADP, the maxima is shifted slightly in the z direction to [13 6 1]. These directions correspond to the crystallographic orientations of low packing density, in that a PKA traveling in these directions would need to travel comparatively much farther to directly interact with another atom. This can be extended to understand the relative magnitudes of the threshold displacement energy for the high symmetry directions as well. A PKA traveling in the [1 1 0] direction would need to travel 1.4\textit{a$_{0}$} before directly impacting another atom, whereas in the [1 1 1] and [1 0 0] directions a PKA would need to travel 0.87\textit{a$_{0}$} and 1.0\textit{a$_{0}$}, respectively. This longer comparative distance before a ballistic collision leads to energy dissipation of the PKA before impact, as the PKA electronically interacts with atoms along its path, resulting in a less energetic PKA undergoing a direct impact.Thus, it is more difficult to generate a defect the farther the PKA needs to travel before a ballistic collision. The [1 1 1] direction exhibits a higher PKA energy than the [1 0 0] direction, in spite of the closer distance of atoms in the [1 1 1] direction. This can be explained via the possibility of crowdion diffusion along the [1 1 1] direction leading to rapid defect annihilation, and thus an increase in TDE. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=\textwidth]{800K_contour.png} 
+ \caption{Contour plots of the displacement energy in $\gamma$U at 800 K for three interatomic potentials. The high symmetry directions are labeled. Units in eV.}
+ \label{fig:800Kcontour}
+\end{figure}
+
+\FloatBarrier
+
+\subsubsection{Effect of potential on E$^{\textrm{pp}}_{\textrm{d,med}}$ in $\gamma$U}
+
+The probability data from Fig. \ref{fig:ed_dirall} for all PKA directions are \DIFdelbegin \DIFdel{arithmetically averaged }\DIFdelend \DIFaddbegin \DIFadd{averaged utilizing equations \ref{eqn:solid} and \ref{eqn:wavg}}\DIFaddend , creating a single angle-integrated probability curve. This procedure is performed for each of the three interatomic potentials. These three angle-integrated probability curves are displayed in Fig. \ref{fig:gam800} for results at 800 K. In Fig. \ref{fig:gam800}, a dotted line is overlaid on the data at a probability of 0.5 over the entire energy spectrum, indicating the median. The major observation from Fig. \ref{fig:gam800} is the significant difference in the results from each of the potentials. There exists a shift right of the curves moving from the U-Mo ADP to the U-Zr MEAM to the U MEAM, yielding lowest probabilities for the U MEAM for the same given PKA energy and highest probabilities for the U-Mo ADP. The value of E$^{\textrm{pp}}_{\textrm{d,med}}$ at 800 K calculated by the U MEAM potential is \DIFdelbegin \DIFdel{74.5 }\DIFdelend \DIFaddbegin \DIFadd{73.2 }\DIFaddend eV; for the U-Zr MEAM potential, \DIFdelbegin \DIFdel{47 }\DIFdelend \DIFaddbegin \DIFadd{47.1 }\DIFaddend eV; for the U-Mo ADP potential, 35.6 eV. Given that the number of displacements in the NRT equation \cite{norgett1975} is proportional to E$_{d}^{-1}$, comparing the E$^{\textrm{pp}}_{\textrm{d,med}}$ results for the U MEAM potential and the U-Mo ADP potential yields a factor of 2 difference in the total number of displacements. This discrepancy is dramatic and points to the importance of selection of interatomic potential, and awareness of the unique behaviors of the potential that is chosen when performing radiation damage simulations. Unfortunately, experimental data does not exist for the TDE to determine the E$^{\textrm{pp}}_{\textrm{d,med}}$, and as such the determination of which interatomic potential is displaying accurate behavior is unavailable. When calculating properties such as TDE in uranium where there is no experimental data available for comparison, utilization of multiple interatomic potentials is important in order to determine possible sensitivities of data related to the choice of interatomic potential. Thus the property being calculated is verified by different potentials to be consistent, even if it cannot be validated against available experimental data.
+
+\begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.8\textwidth]{gam800.png} 
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.8\textwidth]{gam800A.png} 
+ \DIFaddendFL \caption{The angle-integrated Frenkel pair production probability curves in $\gamma$U at 800 K for three interatomic potentials.}
+ \label{fig:gam800}
+\end{figure}
+
+In analyzing the differences in Fig. \ref{fig:gam800}, it is important to refer back to the potential differences observed in Fig. \ref{fig:dimer}. It is most likely not a coincidence that the differences among potentials observed for U-U dimers correspond exactly to the differences inTDE, whereas U MEAM is the most stiff and displays the highest TDE, while U-Mo ADP is the most soft and displays the lowest TDE. Thus, it is suggested that the potential behavior at small distances, governed by the nature of both the energy-well and the ZBL splining, is a primary factor in the observed variation of E$^{\textrm{pp}}_{\textrm{d,med}}$ as a function of interatomic potential. Minor modifications could potentially be made to the ZBL implementation to better fit low-R data in these systems, however no such data exists for $\gamma$U, and as such no modifications were performed for these systems.
+
+\FloatBarrier
+
+\subsubsection{Effect of temperature on E$^{\textrm{pp}}_{\textrm{d,med}}$ in $\gamma$U}
+
+The results for E$^{\textrm{pp}}_{\textrm{d,med}}$ in $\gamma$U at 800 K and 1000 K are summarized in Fig. \ref{fig:800_1000} and Table \ref{tab:gam}. In order to determine the statistical significance of these results, the standard error of the mean was determined for each data point utilized to construct Fig. \ref{fig:800_1000}. The standard error of the mean for each data point was added to that respective data point in order to create a higher bound probability curve. Likewise, a lower bound probability curve was created by subtracting the standard error of the mean for each respective data point. Thus, the upper/lower bound curves represent a 68.2\% confidence interval for each data point within the data set. The upper bound and lower bound E$^{\textrm{pp}}_{\textrm{d,med}}$ is calculated from the point where the upper bound and lower bound probability curves, respectively, cross 0.5 probability. An example is shown in Fig. \ref{fig:errs}, where the original probability curve, as well as the upper and lower bound curves are shown. This can provide us with a most probable range for the values of E$^{\textrm{pp}}_{\textrm{d,med}}$. These ranges are provided in Table \ref{tab:gam} in parentheses. This procedure was undertaken for all three potentials at both temperatures.
+
+\begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.6\textwidth]{800_1000.png} 
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.6\textwidth]{800_1000A.png} 
+ \DIFaddendFL \caption{The angle-integrated Frenkel pair production probability curve in $\gamma$U for three different potentials and two temperatures.}
+ \label{fig:800_1000}
+\end{figure}
+
+\begin{table}[h]
+\caption{The median displacement energy (E$^{\textrm{pp}}_{\textrm{d,med}}$) in $\gamma$U for three different potentials and two temperatures. Energies given in eV. A range incorporating plus/minus one standard error of the data is included in parentheses for each system.} \label{tab:gam}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	\hline
+	& 800 K & 1000 K \\
+	 \hline
+	 U MEAM & \DIFdelbeginFL \DIFdelFL{74.5 (72.9-80.8}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{73.2 (70.0-76.5}\DIFaddendFL ) & \DIFdelbeginFL \DIFdelFL{68.8 (66.4-71.3}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{68.9 (66.5-71.4}\DIFaddendFL ) \\
+	 U-Zr MEAM & \DIFdelbeginFL \DIFdelFL{47.0 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{47.1 }\DIFaddendFL (44.5\DIFdelbeginFL \DIFdelFL{-49.5}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{-49.7}\DIFaddendFL ) & 41.3 (39.8\DIFdelbeginFL \DIFdelFL{-42.8}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{-42.9}\DIFaddendFL ) \\
+	 U-Mo ADP & 35.6 (\DIFdelbeginFL \DIFdelFL{33.9}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{33.8}\DIFaddendFL -37.4) & 32.8 (\DIFdelbeginFL \DIFdelFL{31.8}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{31.7}\DIFaddendFL -33.7) \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.6\textwidth]{plus_minus.png} 
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.6\textwidth]{plus_minusA.png} 
+ \DIFaddendFL \caption{The angle-integrated Frenkel pair production probability curve in $\gamma$U at 800 K with the U MEAM potential. Also included are the upper bound and lower bound probability curves utilized to determine a most probable range for E$^{\textrm{pp}}_{\textrm{d,med}}$.}
+ \label{fig:errs}
+\end{figure}
+
+
+
+\FloatBarrier
+
+For all three potentials, there is a statistically significant decrease observed in the magnitude of the E$^{\textrm{pp}}_{\textrm{d,med}}$ as temperature increases from 800 K to 1000 K. Previous work performed by the authors have shown the opposite trend in body-centered cubic (bcc) Fe: an increase in the E$^{\textrm{pp}}_{\textrm{d,med}}$ with increasing temperature \cite{beeler2016}. In bcc Fe, this is explained via higher temperatures leading to greater recombination rates, and thus an increase in the difficulty of creating defects that last longer than a few picoseconds after the dissipation of the thermal spike. Previous experimental studies of the E$^{\textrm{l}}_{\textrm{d}}$ in bcc Mo \cite{zag1983} and fcc Cu\cite{yoshida1979} showed a decrease in the threshold displacement energy as a function of temperature, similar to what is shown in Table \ref{tab:gam}. It should be noted that this is a different evaluation of the threshold displacement energy than what is presented in this work or in the work on bcc Fe \cite{beeler2016}- E$^{\textrm{l}}_{\textrm{d}}$ versus E$^{\textrm{pp}}_{\textrm{d,med}}$ - but is included here for completeness. It is unclear if trends present for one interpretation of displacement energy hold for other interpretations. 
+
+Previous studies in bcc Fe \cite{beeler2015, beeler2016} by the authors showed that the trend of the formation energy of an unbound Frenkel pair as a function of applied strain was correlated to the TDE as a function of applied strain at a given temperature. Thus, an investigation into Frenkel pair formation energy trends versus temperature for metallic U was undertaken in an attempt to explain the variation in E$^{\textrm{pp}}_{\textrm{d,med}}$ as a function of temperature. It should be noted that although only unbound Frenkel pairs are investigated in this work, the nature of Frenkel pairs generated via displacement cascades may or may not be unbound. Frenkel pair formation energies were determined by equation \ref{eqn:eint}.
+
+\begin{equation}
+\label{eqn:eint}
+E_{f}^{FP} = E_{int} + E_{vac} - 2*E_{pure}
+\end{equation} 
+
+where E$_{int}$ is the energy of a system with an interstitial, E$_{vac}$ is the energy of a system with a vacancy and E$_{pure}$ is the energy of a pure system (one with no defects). E$_{pure}$, E$_{vac}$ and E$_{int}$ were determined by conducting 10 unique simulations for each system. In each simulation, the system is equilibrated for 1 ns at a prescribed temperature, wherein the energy is averaged over the final 500 ps of the simulation. The resultant energy from each of the 10 simulations was averaged to calculate E$_{pure}$, E$_{vac}$ and E$_{int}$. The results for Frenkel pairs, vacancies and interstitials from 800 K to 1200 K in intervals of 100 K are displayed in Table \ref{tab:eform}. Results are compared to density functional theory (DFT) calculations at 0 K. Due to statistical fluctuations at high temperatures, there exists an amount of error associated with conducting these simulations. This is the reasoning behind conducting multiple simulations and averaging over the produced set of data. The standard error is calculated as the standard deviation of the data divided by the square root of the sample size. The total error in the formation energy of a Frenkel pair is a sum of the standard error for the 10 simulations for E$_{pure}$, the standard error for the 10 simulations for E$_{vac}$ and the standard error for the 10 simulations for E$_{int}$. The Frenkel pair data in Table \ref{tab:eform} is illustrated in Fig \ref{fig:eform}, on which error bars are included. The average standard error for vacancies and interstitials is approximately 0.13 eV, whereas the average standard error for Frenkel pairs is approximately 0.2 eV. For all defect types and potentials, the standard error slightly increases with temperature, due to increased thermal fluctuations. It should be noted that two experimental investigations have been performed to calculate the vacancy formation energy in U, producing results of 1.2 $\pm$0.3 eV\cite{matter1980} and 1.6 $\pm$0.2 eV\cite{lund2013}.
+
+\begin{table}[h]
+\caption{The formation energy in $\gamma$U of a Frenkel pair (FP), vacancy (V) and interstitial (I) for three different potentials from 800 K to 1200 K. Energies given in eV. Frenkel pair, vacancy and interstitial formation energies from DFT \cite{beeler2010} are 1.88 eV, 1.38 eV and 0.50 eV, respectively. } \label{tab:eform}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline
+			& Defect	& 800 K & 900 K & 1000 K & 1100 K & 1200 K \\
+	 \hline
+			& FP	 & 2.4 $\pm$0.1 & 2.4 $\pm$0.1 & 2.9 $\pm$0.2 & 3.1 $\pm$0.2 & 3.1 $\pm$0.2  \\
+	 U MEAM 	& V	& 1.6 $\pm$0.1 & 1.4 $\pm$0.1 & 1.7 $\pm$0.1 & 1.7 $\pm$0.1 & 1.7 $\pm$0.1  \\
+	 		& I	& 0.7 $\pm$0.1 & 1.0 $\pm$0.1 & 1.2 $\pm$0.1 & 1.4 $\pm$0.1 & 1.4 $\pm$0.2   \\
+	\hline
+	 		& FP	& 2.8 $\pm$0.2 & 3.4 $\pm$0.2 & 3.7 $\pm$0.2 & 3.7 $\pm$0.2 & 4.1 $\pm$0.3 \\
+	 U-Zr MEAM & V & 0.8 $\pm$0.1 & 1.7 $\pm$0.1 & 1.5 $\pm$0.2 & 1.4 $\pm$0.1 & 1.9 $\pm$0.2 \\
+			& I	& 2.0 $\pm$0.1 & 1.8 $\pm$0.1 & 2.2 $\pm$0.1 & 2.3 $\pm$0.1 & 2.2 $\pm$0.2 \\
+	 \hline
+	 		& FP	& 3.0 $\pm$0.1 & 2.9 $\pm$0.2 & 3.3 $\pm$0.2 & 3.3 $\pm$0.2 & 3.5 $\pm$0.3 \\
+	 U-Mo ADP & V	& 2.2 $\pm$0.1 & 2.0 $\pm$0.1 & 2.2 $\pm$0.1 & 2.3 $\pm$0.2 & 2.4 $\pm$0.1 \\
+	 		& I	& 0.8 $\pm$0.1 & 0.9 $\pm$0.1 & 1.1 $\pm$0.2 & 1.0 $\pm$0.1 & 1.1 $\pm$0.2 \\
+	 \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{frenkel_eform.png} 
+ \caption{The Frenkel pair formation energy in $\gamma$U for three different potentials from 800 K to 1200 K. Error bars denote plus/minus one standard error.}
+ \label{fig:eform}
+\end{figure}
+
+\FloatBarrier
+
+For all three potentials, the Frenkel pair formation energy increases from 800 K to 1000 K and generally as a function of temperature. If the Frenkel pair formation energy is positively correlated with the E$^{\textrm{pp}}_{\textrm{d,med}}$, this would suggest an increase in the TDE from 800 K to 1000 K, however, the opposite trend is observed in Table \ref{tab:gam}. It is interesting to note the relative magnitudes of the specific point defects for each potential. For the U MEAM and U-Mo ADP potentials, the interstitial formation energy is lower than the vacancy formation energy. This is in contrast to typical behavior in metals, but consistent with the behavior in $\gamma$U found from DFT \cite{beeler2010}. For the U-Zr MEAM potential, the formation energy of interstitials is higher than that of vacancies. These relative defect energy magnitudes are consistent for each potential across the entire temperature regime investigated. Since defect energies increase as a function of temperature and defect energies \textit{should} be at least minimally correlated to TDE, it can be concluded that there is another factor dominating the temperature trends in the TDE other than Frenkel pair formation energy.
+
+\FloatBarrier
+
+Since we know that an increase in temperature generally yields an increase in diffusion, it is worthwhile to investigate the diffusion coefficients and the migration barriers of defect diffusion in $\gamma$U for each of these three potentials over temperatures of interest. Some diffusion studies have been performed utilizing these potentials \cite{smirnovaADP, smirnova2015}, but not for all three potentials, and the results were not fully quantified. Thus a systematic study for all three potentials is warranted.
+
+Utilizing the same simulations that were performed for the calculation of the defect formation energies, the mean square displacement of all atoms was tracked as a function of time. The total simulation time of 1 ns was deemed to be sufficient as the diffusion coefficient had stabilized and the mean square displacement (\textit{r}$^{2}$) was linear with time. The slope of \textit{r}$^{2}$ is proportional to the diffusion coefficient (D=\textit{r}$^{2}$/6t, where t=time). The diffusion coefficients were calculated at each respective temperature and an exponential function was fit to the data (D=D$_{0}$$\times$exp(-E$_{m}/kT)$). The calculated diffusion coefficients are shown in Table \ref{tab:diff}, given as a pre-exponential factor (D$_{0}$) and a migration barrier (E$_{m}$). There are no known experimental measurements of the individual interstitial or vacancy diffusion coefficients. Density functional theory studies have been performed to investigate point defects in $\alpha$U \cite{wirth2011}, but no such studies can be performed for $\gamma$U due to the mechanical instability of the system at 0 K \cite{beeler2010}.
+
+\begin{table}[h]
+\caption{The interstitial (I) and vacancy (V) diffusion coefficients in $\gamma$U for three different potentials over the temperature range of 800 K to 1200 K. Provided as a pre-factor and a migration barrier.} \label{tab:diff}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	& Defect & D$_{0}$ (m$^{2}$/s) & E$_{m}$ (eV)\\
+	 \hline
+	U MEAM & I & 5.999$\times$10$^{-8}$ & 0.228 \\
+			& V & 4.767$\times$10$^{-8}$ & 0.305 \\
+			\hline
+	U-Zr MEAM & I & 2.345$\times$10$^{-8}$ & 0.086 \\
+			& V & 1.179$\times$10$^{-7}$ & 0.341 \\
+			\hline
+	U-Mo ADP & I & 3.393$\times$10$^{-8}$ & 0.136 \\
+			& V & 1.781$\times$10$^{-7}$ & 0.382 \\
+	\hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+In order to calculate a self-diffusion coefficient, an average defect formation is utilized (averaged over the temperature range) for both a vacancy and an interstitial. That formation energy is utilized in equation \ref{eqn:selfd}:
+
+\begin{equation}
+\label{eqn:selfd}
+D_{self} = D_{int}c_{int} + D_{vac}c_{vac}
+\end{equation} 
+
+where D$^{int}$ and D$^{vac}$ are the diffusion coefficients from Table \ref{tab:diff} and c$_{int}$ and c$_{vac}$ are the interstitial and vacancy concentrations taken from exp$(-E_{def}/kT)$, where $E_{def}$ is either the interstitial or vacancy formation energies averaged from Table \ref{tab:eform}. The entropic contribution on the defect concentration is assumed to be a factor of one. The calculated self-diffusion coefficients are displayed in Fig. \ref{fig:gamUdiff}. An experimental result is provided as a comparison \cite{adda1959}. Very little other experimental data is available for comparison. Further experimental studies are warranted, as a single experimental reference is insufficient to provide full confidence in the true values of self-diffusion in $\gamma$U. The U-Mo ADP most closely matches experiment, as has been shown in \cite{smirnovaADP}. The U MEAM underestimates the self-diffusion coefficient, while the U-Zr MEAM overestimates the self-diffusion coefficient. It is interesting that although the diffusion of interstitials is faster than vacancies, as expected, the difference is less than one order of magnitude for all potentials investigated. Thus, self-diffusion will occur via both vacancy and interstitial mechanisms, as has been previously suggested \cite{fedorov1978, smirnov1992}. As expected, diffusion coefficients increase as temperature increases for all potentials. An increase in diffusion should result in an increase in recombination making it more difficult to create permanent defects and thus yielding an increase in TDE, as was observed in bcc Fe \cite{beeler2016}. However, the opposite trend seems to be in place for $\gamma$U. It can be concluded that variations in diffusion behavior as a function of temperature are not responsible for the decrease in threshold displacement energy as a function of temperature.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{self_diff.png} 
+ \caption{The self-diffusion coefficient in $\gamma$U for three different potentials from 800 K to 1200 K. An experimental study is included for comparison \cite{adda1959}.}
+ \label{fig:gamUdiff}
+\end{figure}
+
+\FloatBarrier
+
+In a further attempt to understand this variation of threshold displacement energy as a function of temperature, the calculation of elastic constants from 800 K to 1200 K was performed. Typically, elastic constants soften as a function of temperature \cite{varshni1970}. Softening of elastic constants \textit{should} result in a lower TDE, as the lattice is more easily deformed. Elastic constants were calculated by performing displacements of the system and using the resultant changes in stress to compute the elastic stiffness tensor, as provided by the LAMMPS distribution. There exists a large amount of thermal fluctuation in these systems, leading to a large amount of variation in the elastic constant calculations. In spite of the thermal noise, clear trends can be obtained for the elastic constants as a function of temperature, given that sufficiently robust sampling is performed. In order to achieve some statistical certainty for each simulation of elastic constants, 100 samples are taken, with a sampling interval of 10 timesteps, as defined within the LAMMPS elastic constant scripts. The systems are equilibrated for 100 ps, a deformation is performed, and the systems are re-equilibrated for 50 ps in order to obtain the subsequent changes in the stress tensor. This simulation produces the nine elastic constants, or the complete stress tensor. Given that the bcc system is cubic, C$_{11}$, C$_{22}$ and C$_{33}$ are identical and are thus averaged to obtain C$_{11}$. Similar averaging was performed to obtain C$_{12}$ and C$_{44}$. Six unique calculations were performed for each given temperature and interatomic potential in order to obtain averages of the elastic constants. This leads to the standard deviation across all systems of approximately plus or minus 5 GPa for a given elastic constant at a given temperature for a given potential. This is an acceptable amount of uncertainty to obtain quantitative values of the elastic constants and their respective trends as a function of temperature. The results of these simulations are displayed in Fig. \ref{fig:elastic}. The data points are overlaid with a linear fit to the data points to emphasize the trends in behavior versus temperature. There is some scatter in the data due to the fact that these are high temperature systems, but clear trends are observed. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=\textwidth]{elastic_vs_T.png} 
+ \caption{The elastic constants as a function of temperature in $\gamma$U for three different potentials from 800 K to 1200 K.}
+ \label{fig:elastic}
+\end{figure}
+
+\FloatBarrier
+
+For all three potentials, there is a general softening of elastic constants as a function of temperature. Each potential shows a varying degree of softening with temperature, and the magnitude of the various elastic constants is not the same across all potentials. The most notable difference is the very low value of C$_{44}$ for the U MEAM potential. The bulk modulus is calculated as B=($C_{11}$+2$\times$C$_{12}$)/3. The bulk modulus as a function of temperature is shown in Fig. \ref{fig:bulk}. The experimentally observed bulk modulus for $\gamma$U is 113 GPa\cite{yoo1998}, which is higher than the results for any of the potentials. This experimental value was determined by analyzing high temperature and high pressure data and fitting a temperature independent Birch-Murnaghan equation of state. It is observed that the U-Zr MEAM potential provides the most stiff elastic response, while U MEAM is the softest. This corresponds reasonably well to the relative magnitudes of the Frenkel pair formation energies for each of the potentials, with the U-Zr MEAM exhibiting the highest Frenkel pair formation energy and U MEAM the lowest. It is also observed that the U-Mo ADP exhibits the least amount of softening as a function of temperature, while the U-Zr MEAM expresses the greatest amount of softening with increasing temperature. This qualitatively correlates to relative softening of the E$^{\textrm{pp}}_{\textrm{d,med}}$ with increasing temperature, as U-Zr MEAM shows the largest \DIFdelbegin \DIFdel{percentage }\DIFdelend decrease from 800 K to 1000 K and U-Mo ADP shows the smallest percentage decrease. Thus, it is plausible that the softening of elastic constants contributes to the reduction in the TDE as temperature increases, as a softer lattice would be more easily deformed. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{bulk_vs_Tb.png} 
+ \caption{The bulk modulus as a function of temperature in $\gamma$U for three different potentials from 800 K to 1200 K.}
+ \label{fig:bulk}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{$\alpha$U Median Displacement Energy}
+
+In this section, E$^{\textrm{pp}}_{\textrm{d,med}}$ in $\alpha$ U is determined at 600 K and 800 K. This work utilized the U-Mo ADP \cite{smirnovaADP}. The probability of Frenkel pair production as a function of PKA energy is generated for each unique PKA direction. This leads to 118 unique probability curves. To illustrate the nature of these curves, Fig. \ref{fig:ed_diralpha} displays the probability curves for all 118 PKA directions, overlaid with the \DIFdelbegin \DIFdel{arithmetic }\DIFdelend \DIFaddbegin \DIFadd{weighted }\DIFaddend average. Data is generated up to a probability of approximately 0.75 to ensure sampling beyond the median for each PKA direction. Similar to $\gamma$U in Fig. \ref{fig:ed_dir}, there exists a strong dependence on the direction of the PKA. Whereas the system of $\gamma$U shown in Fig. \ref{fig:ed_dir} shows a variance in the threshold displacement energy across PKA directions of approximately 70 eV, in the $\alpha$U system at 600 K there is an observed variance across directions of over 100 eV. Given that $\alpha$U is a more complex crystal system, high symmetry and low symmetry directions possess incredibly different characteristics and this is reflected in the stark variance across crystallographic directions for the PKA. The authors would again like to emphasize the importance of gathering a large set of PKA directions to accurately sample the entire phase space of the crystal structure of interest such that true average behavior can be approximated. Certain PKA directions show a very high probability of defect production at low PKA energies, followed by oscillations in the probability of producing a defect with increasing PKA energy. This is understood by distinguishing between the probability of producing a defect and the number of defects produced by a PKA. As the PKA energy increases, the probability of creating defects can stay relatively constant within this energy range, while the number of defects produced per PKA can increase. Although there is some statistical noise in the probabilty of Frenkel Pair formation for single directions with increasing PKA energy, including such a large sample of directions provides the dataset as a whole with sufficient statistical significance. 
+
+\begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.8\textwidth]{ed_dir_allE_alpha.png} 
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.8\textwidth]{ed_dir_allF_alpha.png} 
+ \DIFaddendFL \caption{The Frenkel pair production probability curves in $\alpha$U at 600 K for the U-Mo ADP in all 118 different PKA directions. Average overlaid in black.}
+ \label{fig:ed_diralpha}
+\end{figure}
+
+\FloatBarrier
+
+A full analysis of directional dependence is shown in the contour plot of Figure \ref{fig:600Kcontour}. The TDE for a given direction is plotted on a directional field, with the primary directions labelled. The resultant contour field is very complex, as would be expected from a very complex crystal structure. The largest area of minima exists along the [1 0 0] to [0 $\bar{1}$ 0] line, at approximately a [1 $\bar{2}$ 0] direction. This is essentially the diagonal of the base of the $\alpha$U structure, and as such could be considered a relatively high symmetry direction. This direction also sends PKA atoms towards the largest open volume present in the $\alpha$U structure, which coincides with the lowest defect formation energy. Thus, it should be easier to create a defect in this region of the crystal structure. Several areas of local maxima exist, three of which occur near the [0 2 5], [2 0 1] and [0 $\bar{3}$ 1] directions. The areas of high threshold displacement energy typically correspond to directions of very low packing density in the $\alpha$ structure, such that an atom would need to travel a relatively long distance before ballistically interacting with another atom. This corresponds with the findings from the crystallographic dependence of the TDE in $\gamma$ U. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{600K_contourA.png} 
+ \caption{Contour plot of the displacement energy in $\alpha$U at 600 K for the U-Mo ADP interatomic potential. Axes are labeled in degrees. The primary directions are labeled. Units in eV.}
+ \label{fig:600Kcontour}
+\end{figure}
+
+\FloatBarrier
+
+The probability curves from Figure \ref{fig:ed_diralpha} for all PKA directions are \DIFdelbegin \DIFdel{arithmetically averaged }\DIFdelend \DIFaddbegin \DIFadd{averaged utilizing equations \ref{eqn:solid} and \ref{eqn:wavg}}\DIFaddend , creating a single angle-integrated probability curve. The angle-integrated probability curves at 600 K and 800 K for the U-Mo ADP are displayed in Fig. \ref{fig:alpha}. A dotted line is overlaid on the data in Fig. \ref{fig:alpha} at a probability of 0.5 over the entire energy spectrum, indicating the median. The major observation from Fig. \ref{fig:alpha} is the minimal difference in the results from 600 K to 800 K. The value of E$^{\textrm{pp}}_{\textrm{d,med}}$ at 600 K is \DIFdelbegin \DIFdel{66.2 }\DIFdelend \DIFaddbegin \DIFadd{66.3 }\DIFaddend eV and the value at 800 K is \DIFdelbegin \DIFdel{62.8 }\DIFdelend \DIFaddbegin \DIFadd{63.4 }\DIFaddend eV. This slight decrease is in accordance with the previous trends in $\gamma$U, however this trend is not quite statistically significant. An upper bound and lower bound of the E$^{\textrm{pp}}_{\textrm{d,med}}$ were calculated for $\alpha$U, similar to the calculations above for $\gamma$U. The most probable range for E$^{\textrm{pp}}_{\textrm{d,med}}$ at 600 K is \DIFdelbegin \DIFdel{63.6-68.8 }\DIFdelend \DIFaddbegin \DIFadd{62.3-70.6 }\DIFaddend eV, while at 800 K the most probable range is \DIFdelbegin \DIFdel{60.8-64.9 }\DIFdelend \DIFaddbegin \DIFadd{60.0-67.2 }\DIFaddend eV. These results suggest that in $\alpha$U, unlike $\gamma$U, any variance in defect energetics, diffusion, or elastic constants between 600 K and 800 K yields very minor discernible differences in the TDE.
+
+\begin{figure}[h]
+ \centering
+ \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.8\textwidth]{alpha.png} 	
+%DIFDELCMD <  %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.8\textwidth]{alphaA.png} 	
+ \DIFaddendFL \caption{The angle-integrated Frenkel pair production probability curves at 600 K and 800 K for $\alpha$U using the U-Mo ADP.}
+ \label{fig:alpha}
+\end{figure}
+
+\FloatBarrier
+
+To investigate defect behavior in $\alpha$U, a set of simulations was conducted at 600 K and 800 K to ascertain the defect formation energies in $\alpha$U at both of these respective temperatures. Utilizing equation \ref{eqn:eint}, E$_{pure}$, E$_{vac}$ and E$_{int}$ were determined by conducting ten unique simulations for each system. In each simulation, the system is equilibrated for 1 ns at a prescribed temperature, wherein the energy is averaged over the final 500 ps of the simulation. The resultant energy from each of the ten simulations was averaged to calculate E$_{pure}$, E$_{vac}$ and E$_{int}$. The defect formation energies are presented in Table \ref{tab:alphadef}. Also included are the defect energies for $\alpha$U at 0 K, obtained via a direct minimization of the system, for a more direct comparison to DFT results. The diffusion coefficients were also determined at 600 K and 800 K. Utilizing the same simulations that were conducted to determine defect formation energies, the mean square displacement (\textit{r}$^{2}$) over all atoms was tracked as a function of time. The total simulation time of 1 ns was deemed to be sufficient as the diffusion coefficient had stabilized and \textit{r}$^{2}$ was linear with time. The calculated diffusion coefficients allowed for the determination of a migration barrier (E$_{m}$) and pre-factor (D$_{0}$), displayed in Table \ref{tab:alphadiff}.
+
+\begin{table}[h]
+\caption{The interstitial, vacancy and Frenkel pair formation energies in $\alpha$U for the U-Mo ADP at 0 K, 600 K and 800 K. Results are also compared to DFT calculations at 0 K. Units in eV.} \label{tab:alphadef}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	Defect & 0 K & 600 K & 800 K & DFT\cite{wirth2011}\\
+	 \hline
+	Frenkel Pair	& 3.3 & 4.1 $\pm$0.2 & 4.8 $\pm$0.4 & 6.11\\
+	Vacancy		& 1.2 & 1.5 $\pm$0.1 & 1.6 $\pm$0.3 & 1.69\\
+	Interstitial		& 2.1 & 2.6 $\pm$0.1 & 3.2 $\pm$0.2 & 4.42\\
+	\hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\begin{table}[h]
+\caption{The interstitial (I) and vacancy (V) diffusion coefficient in $\alpha$U for the U-Mo ADP over the temperature range of 600 K to 800 K. Provided as a pre-factor and a migration barrier.} \label{tab:alphadiff}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	\hline
+	Defect & D$_{0}$ (m$^{2}$/s) & E$_{m}$ (eV)\\
+	 \hline
+	 I & 2.172$\times$10$^{-7}$ & 0.35 \\
+	 V & 1.148$\times$10$^{-7}$ & 0.34 \\
+	\hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\FloatBarrier
+
+Compared to density functional theory (DFT) values from Wirth \cite{wirth2011}, the vacancy formation energy is slightly underestimated, while the interstitial energy is substantially underestimated. The vacancy migration energy compares excellently (DFT value of 0.34 eV \cite{wirth2011}), but the interstitial migration energy is overestimated (DFT value of 0.19 eV \cite{wirth2011}). In $\alpha$U, this leads to an activation energy for vacancies that is much lower than that of interstitials, suggesting self-diffusion occurs via a vacancy mechanism, as is typical in metals (and in opposition to the behavior in $\gamma$U). 
+
+\subsection{Discussion of $\alpha$U and $\gamma$U displacement energies}
+
+Finally, the results for threshold displacement energy in $\alpha$U need to be compared to the results from $\gamma$U. Utilizing the same potential to compare two phases is the most direct way to approach this comparison, thus the results for only the U-Mo ADP will be discussed. At 800 K, $\alpha$U exhibits a TDE of \DIFdelbegin \DIFdel{62.8 }\DIFdelend \DIFaddbegin \DIFadd{63.4 }\DIFaddend eV and $\gamma$U exhibits a TDE of 35.6 eV. Thus, it is much more probable for a PKA of a given energy to generate a defect in $\gamma$U than in $\alpha$U. This corresponds to the difference in Frenkel pair formation energy between $\alpha$U and $\gamma$U for the U-Mo ADP, as the Frenkel pair formation energy is 4.8 eV for $\alpha$U and 3.0 eV for $\gamma$U. These differences are consistent across the temperature ranges investigated.
+
+These results inform our understanding of the phenomena driving accelerated swelling and recrystallization in U-Mo fuels and anisotropic swelling in U-Zr fuels. It has been observed that an increase in the presence of the $\alpha$U phase is linked to these negative performance phenomena. Given the assumption that a system with a lower TDE possesses more point defects and thus exhibits worse behavior under radiation, this study has shown that the fundamental radiation damage behavior of $\alpha$U compared to $\gamma$U is $\textit{not}$ the cause for the inferior fuel performance attributed to the $\alpha$ phase.
+
+\FloatBarrier
+
+\section{Conclusions}
+
+In this study, molecular dynamics simulations were performed to calculate the threshold displacement energy in $\alpha$ and $\gamma$U at 600 K, 800 K and 1000 K utilizing three unique interatomic potentials. The probability of Frenkel pair production was determined as a function of PKA direction and temperature. Probability curves are averaged to determine an effective value of the TDE (E$^{\textrm{pp}}_{\textrm{d,med}}$), above which a Frenkel pair is more than 50$\%$ likely to form. The value of E$^{\textrm{pp}}_{\textrm{d,med}}$ for $\gamma$U strongly depends on the interatomic potential utilized, as values range from 36 eV to \DIFdelbegin \DIFdel{75 }\DIFdelend \DIFaddbegin \DIFadd{73 }\DIFaddend eV at 800 K. This is explained via the differences in the short range interactions for each of the potentials. It is found that for $\gamma$U, displacement energy decreases with increasing temperature. Defect energetics, diffusion coefficients and elastic constants were calculated to investigate this phenomenon. It is found that the negative correlation of the E$^{\textrm{pp}}_{\textrm{d,med}}$ with temperature is possibly due to the softening of elastic constants with increasing temperature. Finally, the TDE in $\alpha$U is found to be higher than in $\gamma$U. Thus, one would expect it to be more difficult to generate a defect in $\alpha$U than in $\gamma$U. These results inform our understanding of the phenomena driving accelerated swelling and recrystallization in U-Mo fuels and anisotropic swelling in U-Zr fuels in addition to providing critical input parameters for multiscale modeling.
+
+\section{Acknowledgement}
+This work was supported by the U.S. Department of Energy, Office of Material Management and Minimization, National Nuclear Security Administration, under DOE-NE Idaho Operations Office Contract DE-AC07-05ID14517. This manuscript has been authored by Battelle Energy Alliance, LLC with the U.S. Department of Energy. The publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for U.S. Government purposes. This research made use of the resources of the High Performance Computing Center at Idaho National Laboratory, which is supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear Science User Facilities. This work was initiated with support from DOE NERI-C grant no. DEFG0714891.
+
+\section{Appendix}
+
+\subsection{Modified Embedded-Atom Method}
+The Embedded-Atom Method (EAM) \cite{daw1984, daw1993, daw1983} has been shown to predict the properties of alloys and metals quite well. The EAM is the most widely used semi-empirical potential, with applications including calculations of point defects \cite{olsson2009}, melting \cite{belaschenko2011}, grain boundary structure and energy \cite{liu1999}, dislocations \cite{chassange2011}, segregation \cite{li2009MatChem}, fracture \cite{vatne2011} and surface structure \cite{rose1984}.  The basis of the EAM is that the cohesive energy can be expressed in terms of embedding energies.  In this view, each atom in the metal is embedded into the electron gas created by the other atoms.  The EAM provides a robust means of calculating structure and energetics; however, it is best suited strictly for purely metallic systems with no directional bonding.
+From the EAM, the total energy of a system of atoms is given by equation \ref{eq:eqn1}:
+
+
+\begin{equation}
+\label{eq:eqn1}
+E = \sum_{i} \{F(\bar{\rho}_{i})\ +  \frac{1}{2} \sum_{j \neq i} S_{ij}\phi(R_{ij})   \}
+\end{equation}
+
+where $i$ and $j$ are the individual atoms of the model \cite{daw1983, daw1984}.  The pair interaction between atoms $i$ and $j$ is given by $\phi$ \cite{baskes1992} and is dependent on the separation between the atoms $R_{ij}$.
+
+\begin{equation}
+\label{eq:eqn2}
+\phi(R) = \frac{2}{Z} \Bigl\{ E^{u}(R) - F( \frac{ \bar{ \rho}^{0}(R)}{Z}) \Bigr\}  
+\end{equation}
+
+In equation \ref{eq:eqn2}, $Z$ is the number of first nearest neighbors, $\bar{ \rho}^{0}(R)$ is the background electron density and $\{E^{u}(R)$ is the per atom energy of the reference structure as a function of nearest-neighbor distance $R$ \cite{baskes2000} obtained from the universal equation of state of Rose et al. \cite{rose1984} given in equation \ref{eq:eqn3}.
+
+\begin{equation}
+\label{eq:eqn3}
+ E^{u}(R) = -E_{c} (1 + a^{*} + \delta \times (\frac{r_{e}}{r}) \times (a^{*})^{3}) e^{(-a^{*})}
+ \end{equation}
+
+with
+
+\begin{equation}
+\label{eq:eqn4}
+a^{*} = \alpha ( \frac{R}{r_{e}} - 1)
+\end{equation}
+
+and
+
+\begin{equation}
+\label{eq:eqn5}
+\alpha^{2} = \frac{9\omega B}{E_{c}}
+\end{equation}
+
+where E$_{c}$, r$_{e}$, $\omega$ and B are the cohesive energy, nearest neighbor distance, atomic volume and bulk modulus, respectively, evaluated at equilibrium in the reference structure.  The background electron density is given by:
+
+\begin{equation}
+\label{eq:eqn6}
+\bar{\rho}^{0}(R) = Z \rho^{a(0)} (R)
+\end{equation}
+
+where $\rho^{a(0)}$  is an atomic electron density discussed below.  The embedding function, F, is given in equation \ref{eq:eqn7} and is the energy required to embed atom i into a system with a background electron density $\bar{\rho}_{i}$.  
+
+\begin{equation}
+\label{eq:eqn7}
+F(\bar{\rho}) = AE_{c} \frac{\bar{\rho}}{Z}\ln\frac{\bar{\rho}}{Z}
+\end{equation}
+
+The modification to the EAM is a function of how the electron density at a certain point, $\rho_{i}$, is calculated.  In the traditional EAM, $\rho_{i}$ is simply the linear supposition of spherically averaged atomic electron densities:
+
+\begin{equation}
+\label{eq:eqn8}
+\rho_{i}^{(0)} = \sum_{j \neq i} \rho_{j}^{a(0)} (R_{ij})
+\end{equation}
+
+whereas the MEAM introduces angularly dependent terms to augment $\bar{\rho_{i}}$ as shown in equation \ref{eq:eqn9} through equation \ref{eq:eqn11} \cite{baskes2000, baskes1987}.  
+
+\begin{equation}
+\label{eq:eqn9}
+(\rho_{i}^{(1)})^{2}=\sum_{\alpha} \{ \sum_{j \neq i}x_{ij}^{\alpha}\rho_{i}^{a(1)}(R_{ij})\}^{2} = \sum_{j,k \neq i}\rho_{j}^{a(1)}(R_{ij})\rho_{k}^{a(1)}(R_{ik})cos\{\theta_{ijk}\}
+\end{equation}
+
+\begin{equation}
+\label{eq:eqn10}
+(\rho_{i}^{(2)})^{2}=\sum_{\alpha,\beta}\{\sum_{j \neq i}x_{ij}^{\alpha}x_{ij}^{\beta}\rho_{j}^{a(2)}(R_{ij})\}^{2} - \frac{1}{3}\sum_{j \neq i}[\rho_{j}^{a(2)}(R_{ij})]^2
+\end{equation}
+
+\begin{equation}
+\label{eq:eqn11}
+(\rho_{i}^{(3)})^{2}=\sum_{\alpha,\beta,\gamma}\{ \sum_{j \neq i}x_{ij}^{\alpha}x_{ij}^{\beta}x_{ij}^{\gamma}\rho_{j}^{a(3)}(R_{ij}) \}^{2} - \frac{3}{5}\sum_{j \neq i}[\rho_{j}^{a(3)}(R_{ij})]^2
+\end{equation}
+
+Here, the $\rho^{a(l)}$  are the atomic densities which represent the decrease in the contribution with distance R$_{ij}$ and the $\alpha$, $\beta$, $\gamma$ summations are each over the three coordinate directions with x$_{ij}^{\alpha}$ being the distance the ratio R$_{ij}^{\alpha}$/R$_{ij}$ with R$_{ij}^{\alpha}$ being the $\alpha$ component of the distance vector between atoms i and j [29].  Similar to equation \ref{eq:eqn9}, equations \ref{eq:eqn10} and \ref{eq:eqn11} can be put in a form that has a dependence on the angle between atoms i, j and k ($\theta_{ijk}$), and this has been done by Baskes et al. \cite{baskes1989}.  Atomic electron densities are assumed to decrease exponentially, 
+
+\begin{equation}
+\label{eq:eqn12}
+\rho_{i}^{a(l)}(R) = e^{[-\beta^{(l)}(\frac{R}{r_{e}}-1)]}
+\end{equation}
+
+where $\beta^{(l)}$ are the decay constants.  To obtain the background electron density from the partial electron densities we make the assumption that the angular terms are a small correction to the EAM.
+
+\begin{equation}
+\label{eq:eqn13}
+\bar{\rho}^{2} = \sum_{l=0}^{3}\bar{t}_{i}^{(l)} (\rho_{i}^{(l)})^{2}
+\end{equation}
+
+where the $\bar{t}_{i}^{(l)}$ \cite{valone2006} are combinations of model constants $t^{l}$ that are associated with the atom types of neighbors $i$.
+
+Many body screening is implemented through a screening function, S$_{ij}$, that quantifies screening between two atoms i and j due to other atoms in the system, k.  The atomic electron densities and the pair potential are multiplied by this function.  The screening function depends on all other atoms in the system:
+
+\begin{equation}
+\label{eq:eqn14}
+S_{ij}=\Pi_{k \neq i,j}S_{ijk}
+\end{equation}
+
+where S$_{ijk}$ is calculated using a simple geometric construction.  The screening factor S$_{ijk}$ is defined as:
+
+\begin{equation}
+\label{eq:eqn15}
+S_{ijk}= f_{c}\left[\frac{C-C_{min}}{C_{max}-C_{min}}\right]
+\end{equation}
+
+where C is a geometric parameter, and C$_{min}$ and C$_{max}$ are limiting values of C.  The smooth cutoff function is:
+
+\begin{equation}
+\label{eq:eqn16}
+f_{c}(x) = \begin{cases}
+    1       & \quad x \geq 1 \\
+    [1-(1-x)^{6}]^{2}  & \quad 0 < x < 1\\
+    0       & \quad x \leq 0\\
+  \end{cases} 
+\end{equation}
+
+A radial cutoff function is also applied to the atomic electron densities and pair potential which is given by f$_{c}[(r_{c}-r)/\lambda]$ where r$_{c}$ is the cutoff distance of 6 {\AA } and $\lambda$ gives the cutoff region and was chosen to be 0.1 {\AA}.  The MEAM has been shown to accurately predict the behavior of complex systems such as plutonium \cite{baskes2000} and tin \cite{baskes1997}.  It should be noted that these equations are for a single component system and can be generalized for a multicomponent system, as was done in \cite{baskes2014}.  
+
+\subsection{Angular-Dependent Potential}
+
+The Angular-Dependent Potentail (ADP) was proposed by Mishin \cite{mishin2005} to modify the EAM to include angular-dependent interactions. In this method, the total energy E$_{tot}$ of a collection of atoms is defined by the following expression:
+
+\begin{equation}
+\label{eq:eqn17}
+E_{tot} = \frac{1}{2}\sum_{i,j(j\neq i)}\Phi_{s_{i}s_{j}}(r_{ij}) + \sum_{i} F_{s_{i}}(\bar{\rho}_{i}) + \frac{1}{2}\sum_{i,\alpha}(\mu_{i}^{\alpha})^2 + \frac{1}{2}\sum_{i,\alpha,\beta}(\lambda_{i}^{\alpha \beta})^2 - \frac{1}{6}\sum_{i}\nu_{i}^2
+\end{equation}
+
+where \textit{i} and \textit{j} denote atoms and the superscripts $\alpha$, $\beta$ = 1,2,3 refer to Cartesian directions. The first term in equation \ref{eq:eqn17} represents pair interactions between atoms, $\Phi_{s_{i}s_{j}}(r_{ij})$ being the pair-interaction potential between an atom \textit{i} of chemical sort s$_{i}$ located at position r$_{i}$ and an atom \textit{j} of chemical sort s$_{j}$ at position r$_{j}$ = r$_{i}$ + r$_{ij}$. The funtion F$_{s_{i}}$ is the embedding energy of atom \textit{i} in the host electron density $\bar{\rho}_{i}$ induced at the site \textit{i} by all other atoms of the system. The host electron density is given by:
+
+\begin{equation}
+\label{eq:eqn18}
+\bar{\rho}_{i} = \sum_{j \neq i} \rho_{s_{j}}(r_{ij}) 
+\end{equation}
+
+where $\rho_{s_{j}}(r)$ is the electron density function assigned to an atom \textit{j}. The second term in equation \ref{eq:eqn17} was introduced in EAM and represents many-body interactions between atoms. The following three terms in equation \ref{eq:eqn17} introduce non-central components of bonding through vectors: 
+
+\begin{equation}
+\label{eq:eqn19}
+\mu_{i}^{\alpha} = \sum_{j \neq i} u_{s_{i}s_{j}}(r_{ij})r_{ij}^{\alpha} 
+\end{equation}
+
+and tensors:
+
+\begin{equation}
+\label{eq:eqn20}
+\lambda_{i}^{\alpha \beta} = \sum_{j \neq i} w_{s_{i}s_{j}}(r_{ij})r_{ij}^{\alpha}r_{ij}^{\beta}
+\end{equation}
+
+In equations \ref{eq:eqn18} and \ref{eq:eqn19}, $u_{s_{i}s_{j}}(r)$ and $w_{s_{i}s_{j}}(r)$ are two additional pairwise functions introduced which depend on the interatomic distance and the chemical sorts. 
+
+\subsection{Discussion}
+Both the ADP and MEAM formalisms approach the same issue of EAM (spherically averaged electron density) in slightly different ways. In MEAM, angular-dependent interactions are introduced through dipole, quadrupole and higher-order multipoles. These multipoles constitute a part of the tensor electron density, which in turn influences the total energy. In the ADP method, the dipole and quadrupole distortions ($\mu_{i}^{\alpha}$ and $\lambda_{i}^{\alpha \beta}$) directly contribute to the total energy.
+
+\subsection{Comparisons of MEAM and ADP interatomic potentials for $\gamma$U}
+
+A comparison between potentials of the basic properties in $\gamma$U is shown in table \ref{tab:gamma_app} and table \ref{tab:gamma_app2}. Each of the potentials show reasonable agreement on lattice constants and elastic constants, although there is considerable disagreement among the MEAM and ADP potentials regarding the relative magnitudes of the elastic constants. 
+
+\begin{table}[h]
+\caption{Lattice constants at 800$\degree$C (1073 K) for $\gamma$U and reported melting temperatures.} \label{tab:gamma_app}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	\hline
+	Defect & a$_{0}$ 1073 K (\AA) & T$_{melt}$ (K) \\
+	 \hline
+	U MEAM \cite{beeler_meam} & 3.58 & 1410 \\
+	UZr MEAM \cite{moore2015} & 3.50 & 1350 \\
+	UMo ADP	\cite{smirnovaADP}	& 3.52 & 1300 \\
+	Expt 	& 3.48 \cite{wilson1949} & 1408 \cite{weeks2003} \\
+	\hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\begin{table}[h]
+\caption{Elastic constants in $\gamma$U at 0 K for three different potentials compared to experiment.} \label{tab:gamma_app2}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	& U MEAM & UZr MEAM & UMo ADP & Expt \cite{yoo1998} \\
+	 \hline
+	C$_{11}$ & 112 & 107 & 233 & - \\
+	C$_{12}$ & 118 & 120 & 99 & - \\
+	C$_{44}$ & 15 & 41 & 90 & - \\
+	C' & -3 & -7 & 67 & - \\
+	B & 116 & 116 & 144 & 113 \\
+	\hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}
+
+\section{References}
+
+\bibliography{MARMOTbib}
+
+\end{document} 

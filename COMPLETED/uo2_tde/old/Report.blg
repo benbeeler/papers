@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Report.aux
+The style file: ieeetr.bst
+Database file #1: ref.bib
+Warning--empty journal in Soul3
+You've used 21 entries,
+            1876 wiz_defined-function locations,
+            625 strings with 6692 characters,
+and the built_in function-call counts, 6387 in all, are:
+= -- 655
+> -- 212
+< -- 0
++ -- 79
+- -- 58
+* -- 452
+:= -- 875
+add.period$ -- 24
+call.type$ -- 21
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 336
+empty$ -- 589
+format.name$ -- 58
+if$ -- 1606
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 22
+newline$ -- 69
+num.names$ -- 21
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 258
+stack$ -- 0
+substring$ -- 483
+swap$ -- 164
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 52
+width$ -- 23
+write$ -- 224
+(There was 1 warning)
