@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 NOV 2019 09:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  19 NOV 2019 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,350 +374,120 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 
-LaTeX Warning: Reference `fig:ben1' on page 1 undefined on input line 32.
-
-
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
+(hyperref)                removing `math shift' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 35.
+(hyperref)                removing `\alpha' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 35.
+(hyperref)                removing `math shift' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 35.
+(hyperref)                removing `\<def>-command' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 35.
+(hyperref)                removing `\cnotenum' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 35.
+(hyperref)                removing `\<def>-command' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 35.
+(hyperref)                removing `\@corref' on input line 34.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (86.61496pt too wide) in paragraph at lines 37--40
-[]\OT1/cmr/m/n/10 WIRTH TEXT $\OML/cmm/m/it/10 Metallicfuelsareidealforfast\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 breeder\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 reactors
-becausetheyproduceanextremelyhardneutronspectrum:U \OMS/cmsy/m/n/10 ^^@
- []
 
-
-Overfull \hbox (210.3131pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 ZrandU \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Pu \OMS/cmsy/m/n/
-10 ^^@ \OML/cmm/m/it/10 Zralloysaretwoimportantpotentialmetallicfuelsforfastrea
-ctors:However; theswellingofmetallicfuelsismuchmoreseverethanformixed \OMS/cmsy
-/m/n/10 ^^@
- []
-
-
-Overfull \hbox (3807.79636pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 oxidefuel; andisanimportantissueformetallicfuels:Fissionproduc
-tgas\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Xe; Kr\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 b
-ubblegrowthisbelievedtoberesponsiblefortheswelling:Computationalmodelingofgasbu
-bblenucleationandgrowthisusefulforpredictingandultimatelydevelopingmitigationst
-rategiesfortheswellingbehaviorofthefuel:Theformationenergyandmigrationbarrierof
-vacancy; interstitialandgasatoms\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Xe; Kr\OT1/cm
-r/m/n/10 )\OML/cmm/m/it/10 arefundamentalparametersofthecomputationalmodel:Howe
-ver; theyareverydifficulttoobtainfromexperiments; andnotavailableintheliteratur
-etodate:Diffusionexperimentscanprovideinformationonatomicmigrationand; inadditi
-on; allowonetogaininsightsintothedefectchemistry:However; thesedataaredeficient
-atpresent:Asanexample; theavailableexperimentresultsintheliteratureareforpure\O
-T1/cmr/m/n/10 ?\OML/cmm/m/it/10 uranium; butnotfor\OT1/cmr/m/n/10 ?\OML/cmm/m/i
-t/10 U\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 Zr:ThustheinfluenceofZrisnotclear:Inadd
-ition; therearenoavailableexperimentresultsforinterstitialbehavior:Similarly; a
-lthoughtheactivationenergyofself \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (2925.4381pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 diffusioncanbeobtainedfromexperiments; theformationenergy; mig
-rationbarrieranddiffusionmechanismsaredifficulttoconfirminexperiments; andnotav
-ailableintheliterature:Finally; itisverydifficulttofabricate\OT1/cmr/m/n/10 ?\O
-ML/cmm/m/it/10 perfect\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 singlecrystalsofuranium
-metalinexperimentsandnoteasytoperformdiffusionexperimentsforuranium; duetothena
-tureofuranium:Basedonfirstprinciplescalculations; theformationenergyandmigratio
-nbarrierofvacancyandinterstitialdefects; andtheinfluenceofZronthesevalues; canb
-eobtainedandcomparedwithexperimentalresults:Thecalculationsofpointdefects; andl
-aterXe; inU\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 Zralloyswillprovideafoundationforc
-omputationalmodelingoffissiongasbubblenucleationandgrowth:Although\OT1/cmr/m/n/
-10 ?\OML/cmm/m/it/10 Uhasbeenextensivelyinvestigatedbyfirst \OMS/cmsy/m/n/10 ^^
-@
- []
-
-
-Overfull \hbox (927.44342pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 principlesmethods\OT1/cmr/m/n/10 [1?17]\OML/cmm/m/it/10 ; info
-rmationoninterstitialandvacancydiffusionisstilldeficient:Itisnecessarytopursuef
-urtherstudiestounderstandthediffusionbehaviorsoftheinterstitialandvacancyinsyst
-ematicresearch:IntheouterzoneofU\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 Zrmetallicfue
-l; thedominantmicrostructureconsistsofan\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 phase
-matrixwith\OT1/cmr/m/n/10 ? \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (348.25099pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 lamellae\OT1/cmr/m/n/10 [18]\OML/cmm/m/it/10 :Duetothelowertem
-perature; thebubblenucleationandgrowtharemoresevere:Inthispaper; wewillfocusont
-he\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 phaseofU\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 Z
-ralloys:Thestructureof\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 uraniumismadeupofclose 
-\OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (62.57005pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 packedcorrugatedlayersofatoms; withlayersparalleltothe\OT1/cmr
-/m/n/10 (010)\OML/cmm/m/it/10 planeandthecorrugationsparalleltothe\OT1/cmr/m/n/
-10 [100]\OML/cmm/m/it/10 axis:Theself \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (101.63615pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 diffusionalongthe\OT1/cmr/m/n/10 [010]\OML/cmm/m/it/10 directi
-onisbelievedtobemuchmoredifficultthanintheothertwodirections\OT1/cmr/m/n/10 [19
-]\OML/cmm/m/it/10 :Theactivationenergyofself \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (4313.6758pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 diffusioninpureuraniumalongallthreeprincipaldirectionshasbeeno
-btainedexperimentallyandisreportedas\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr
-/m/n/10 91\OML/cmm/m/it/10 eV\OT1/cmr/m/n/10 [20]\OML/cmm/m/it/10 alongthe\OT1/
-cmr/m/n/10 [100]\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 [001]\OML/cmm/m/it/10 direc
-tions; and\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91\OML/cmm/m/it/10
- eV\OT1/cmr/m/n/10 [21]\OML/cmm/m/it/10 alongthe\OT1/cmr/m/n/10 [010]\OML/cmm/m
-/it/10 directions:Thecorrugatedstructuredoesnotaffectthediffusionparalleltothe\
-OT1/cmr/m/n/10 (010)\OML/cmm/m/it/10 planesignificantly:Asillustratedin\OT1/cmr
-/m/n/10 [21]\OML/cmm/m/it/10 ; themeasurementofthediffusioncoefficientalongthe\
-OT1/cmr/m/n/10 [010]\OML/cmm/m/it/10 directionismoredifficultthanfortheothertwo
-directions:Thereisonlyonereportintheliteratureforthe\OT1/cmr/m/n/10 [010]\OML/c
-mm/m/it/10 direction; andnoexperimentdetailsareavailable\OT1/cmr/m/n/10 [21]\OM
-L/cmm/m/it/10 :Forthe\OT1/cmr/m/n/10 [100]\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 [
-001]\OML/cmm/m/it/10 directions; therearemorereportsintheliterature; andmoreexp
-erimentdetailsareavailable\OT1/cmr/m/n/10 [20]\OML/cmm/m/it/10 :Thereareonlytwo
-datavaluesreportedfor\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 perfect\OT1/cmr/m/n/10 ?
-\OML/cmm/m/it/10 singlecrystalsintheliteratureforthe\OT1/cmr/m/n/10 [100]\OML/c
-mm/m/it/10 and\OT1/cmr/m/n/10 [001]\OML/cmm/m/it/10 directions; fromtwodifferen
-tauthors:UsingthesetwodatapointstofitanArrheniusequationresultsinanactivationen
-ergyofabout\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3\OML/cmm/m/it/10
- eV\OT1/cmr/m/n/10 [20]\OML/cmm/m/it/10 :However; basedononlythesetwodatavalues
-fromtwodifferentauthors; itcannotbefullyconsideredasanaccuratevalue:Therefore; 
-theactivationenergy\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91\OML/c
-mm/m/it/10 eV\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 alongthe\OT1/cmr/m/n/10 [100]\OM
-L/cmm/m/it/10 and\OT1/cmr/m/n/10 [001]\OML/cmm/m/it/10 directionsisobtainedusin
-gthedataofaso \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (2442.03865pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 called\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 singlecrystalwithmosai
-cstructure\OT1/cmr/m/n/10 ?[20]\OML/cmm/m/it/10 :Itshouldbesmallerthantheactual
-valueduetothemosaicstructureofthesample:Additionally; therearethreeotheractivat
-ionenergyvaluesreportedintheliterature\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 :\OT1/
-cmr/m/n/10 99\OML/cmm/m/it/10 eV\OT1/cmr/m/n/10 [22\OML/cmm/m/it/10 ; \OT1/cmr/
-m/n/10 23]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
- 15\OML/cmm/m/it/10 eV\OT1/cmr/m/n/10 [24\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 25]
-\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 21\OML/c
-mm/m/it/10 eV\OT1/cmr/m/n/10 [26\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 27])\OML/cmm
-/m/it/10 ; whichdonotspecifythedirection:Allofthesevaluesarewithintherange\OT1/
-cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91?2\OML/cmm/m/it/10 :\OT1/cmr/m/
-n/10 91\OML/cmm/m/it/10 eV:Therein; only\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1
-/cmr/m/n/10 99\OML/cmm/m/it/10 eVisreportedwiththeArrheniusdiagram\OT1/cmr/m/n/
-10 [22\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 23]\OML/cmm/m/it/10 :Itislikelythatthe
-sethreevaluesareforthe\OT1/cmr/m/n/10 [100]\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 
-[001]\OML/cmm/m/it/10 directions; duetothedifficultyofmeasurementforthe\OT1/cmr
-/m/n/10 [010]\OML/cmm/m/it/10 direction\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 theor
-iginalliteratureisnotaccessible:Wenotethattheactivationenergyinpolycrystalurani
-um\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 74\OML/cmm/m/it/10 eV\OT1
-/cmr/m/n/10 [20\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 28])\OML/cmm/m/it/10 tendstob
-esmallerthaninsingle \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (126.80544pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 crystaluranium\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 :\OT1/cmr/m/n
-/10 91?2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91\OML/cmm/m/it/10 eV\OT1/cmr/m/n/10 
-)\OML/cmm/m/it/10 :Ontheotherhand; diffusionofinterstitialviaaninterstitialmech
-anismorinterstitialcymechanism\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 kick \OMS/cmsy/
-m/n/10 ^^@
- []
-
-
-Overfull \hbox (1315.2011pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 outmechanism\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 isproposedtobene
-arlyisotropic; whichisseldominvestigatedintheliterature\OT1/cmr/m/n/10 [29]\OML
-/cmm/m/it/10 :Noexperimentalresultsofinterstitialinpureuraniumisavailable:Insom
-esimulationsreportedintheliterature; themigrationbarrierisassumedtobe\OT1/cmr/m
-/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 15\OML/cmm/m/it/10 eV\OT1/cmr/m/n/10 [
-30]\OML/cmm/m/it/10 :Formationenergyofthevacancyinpure\OT1/cmr/m/n/10 ?\OML/cmm
-/m/it/10 uraniumisdifficulttoobtainbyexperiment; andwascalculatedbyTaylor\OT1/c
-mr/m/n/10 [9](1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 95\OML/cmm/m/it/10 eV\OT1/cmr/
-m/n/10 )\OML/cmm/m/it/10 andBeeler\OT1/cmr/m/n/10 [17](1\OML/cmm/m/it/10 :\OT1/
-cmr/m/n/10 86\OML/cmm/m/it/10 eV\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 withfirst \OM
-S/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (48.20744pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 principlesmethods:However; bothofthemsufferfromunexpectedprobl
-ems; asdiscussedinsection\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :Basedonourfirst \OM
-S/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (689.81549pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 principlescalculations; theformationenergyofthevacancyinpure\O
-T1/cmr/m/n/10 ?\OML/cmm/m/it/10 uraniumis\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT
-1/cmr/m/n/10 69\OML/cmm/m/it/10 eV:Thediffusionofvacancyisalmostisotropicinthe\
-OT1/cmr/m/n/10 [100]\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 [001]\OML/cmm/m/it/10 d
-irections; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 34\OML/cmm/m/it/1
-0 eVand\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 36\OML/cmm/m/it/10 eV
-; respectively; and\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 24\OML/cm
-m/m/it/10 eVforthe\OT1/cmr/m/n/10 [010]\OML/cmm/m/it/10 direction:Thecorrespond
-ingactivationenergyofself \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (2525.88951pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 diffusionisthus\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n
-/10 03\OML/cmm/m/it/10 eValongthe\OT1/cmr/m/n/10 [100]\OML/cmm/m/it/10 directio
-n; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05\OML/cmm/m/it/10 eValon
-gthe\OT1/cmr/m/n/10 [001]\OML/cmm/m/it/10 directionand\OT1/cmr/m/n/10 2\OML/cmm
-/m/it/10 :\OT1/cmr/m/n/10 93\OML/cmm/m/it/10 eValongthe\OT1/cmr/m/n/10 [010]\OM
-L/cmm/m/it/10 direction:Comparedwiththeexperimentalresults; theactivationenergy
-alongthe\OT1/cmr/m/n/10 [100]\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 [001]\OML/cmm/
-m/it/10 directions\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03\OML/cm
-m/m/it/10 and\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05\OML/cmm/m/it
-/10 eV\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 isabout\OT1/cmr/m/n/10 0\OML/cmm/m/it/1
-0 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 eVlargerthantheexperimentalresults\OT1/cmr
-/m/n/10 (1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91\OML/cmm/m/it/10 eV\OT1/cmr/m/n/1
-0 )\OML/cmm/m/it/10 ; andtheactivationenergyalongthe\OT1/cmr/m/n/10 [010]\OML/c
-mm/m/it/10 direction\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 93\OML/
-cmm/m/it/10 eV\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 agreesverywellwithexperimentalr
-esults\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91\OML/cmm/m/it/10 eV
-\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :Giventhat\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :
-\OT1/cmr/m/n/10 91\OML/cmm/m/it/10 eVisactuallyforasinglecrystalwithmosaicstruc
-ture; andtheresultsof\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 perfect\OT1/cmr/m/n/10 ?
-\OML/cmm/m/it/10 singlecrystalstendtohavelargeractivationandsmallerdiffusioncoe
-fficient; thedeviationcanbeunderstood:Ofcourse; moreexperimentaldataareneededto
-fullyresolvetheinconsistencyandvalidatethefirst \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (1701.4859pt too wide) in paragraph at lines 37--40
-\OML/cmm/m/it/10 principlescalculationresults:At\OT1/cmr/m/n/10 612?\OML/cmm/m/
-it/10 C; theequilibriumconcentrationofZrin\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 Uis
-about\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$%$\OML/cmm/m/it/10 ac
-cordingtothephasediagram\OT1/cmr/m/n/10 [31]\OML/cmm/m/it/10 :ThepresenceofZrwo
-uldinfluencetheformationenergyandmigrationbarrierofintrinsicpointdefectssignifi
-cantly:However; todate; verylittleinformationisavailableintheliterature:Inorder
-toinvestigatetheinfluenceofZr; wefocusonthebindingenergybetweenthevacancyandZr;
- thedissociationbarrierofthevacancyfromZr; andtherotationbarrierofthevacancyaro
-undZr:$
- []
+Package natbib Warning: Citation `all of benson papers' on page 2 undefined on 
+input line 37.
 
 [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 48.
+(hyperref)                removing `\alpha' on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 50.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 108.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 108.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 108.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 189.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 189.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 189.
 
 [3]
 
-LaTeX Warning: Text page 4 contains only floats.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 112.
 
-[4] (./uzr_nd.bbl [5] [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 112.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 194.
+
+(./uzr_nd.bbl [5] [6])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  (./uzr_nd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `uzr_nd.out' has not changed.
 (rerunfilecheck)             Checksum: 26972B86C46F85B8206D90E571023631;594.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 6454 strings out of 492616
- 93841 string characters out of 6129482
- 215809 words of memory out of 5000000
- 10276 multiletter control sequences out of 15000+600000
+ 6453 strings out of 492616
+ 93831 string characters out of 6129482
+ 196809 words of memory out of 5000000
+ 10275 multiletter control sequences out of 15000+600000
  8897 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,7176b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,1905b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -734,10 +504,10 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on uzr_nd.pdf (7 pages, 204111 bytes).
+Output written on uzr_nd.pdf (7 pages, 188943 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 220 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
  57 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
