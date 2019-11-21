@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,16 +545,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
 Package rerunfilecheck Info: File `uzr_surfMD.out' has not changed.
 (rerunfilecheck)             Checksum: F0CF9E26BFB78AC3F1DB92F83CDDED22;566.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
  ) 
 Here is how much of TeX's memory you used:
  7184 strings out of 492616
  102817 string characters out of 6129482
- 209730 words of memory out of 5000000
+ 209727 words of memory out of 5000000
  10957 multiletter control sequences out of 15000+600000
  10025 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2111b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,2111b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
@@ -577,7 +581,7 @@ st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on uzr_surfMD.pdf (15 pages, 1134364 bytes).
+Output written on uzr_surfMD.pdf (15 pages, 1135229 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  280 compressed objects within 3 object streams
