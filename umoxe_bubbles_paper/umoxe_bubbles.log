@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,121 +429,121 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 43.
+(hyperref)                removing `math shift' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 43.
+(hyperref)                removing `\gamma' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 43.
+(hyperref)                removing `math shift' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 43.
+(hyperref)                removing `\<def>-command' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 43.
+(hyperref)                removing `\cnotenum' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 43.
+(hyperref)                removing `\<def>-command' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 43.
+(hyperref)                removing `\@corref' on input line 44.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-<1_void_Esurf.png, id=133, 579.16376pt x 477.785pt>
+<1_void_Esurf.png, id=134, 579.16376pt x 477.785pt>
 File: 1_void_Esurf.png Graphic file (type png)
 <use 1_void_Esurf.png>
-Package pdftex.def Info: 1_void_Esurf.png  used on input line 77.
+Package pdftex.def Info: 1_void_Esurf.png  used on input line 78.
 (pdftex.def)             Requested size: 281.85587pt x 232.5201pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2_bubex.png, id=136, 451.4466pt x 168.63pt>
+<2_bubex.png, id=137, 451.4466pt x 168.63pt>
 File: 2_bubex.png Graphic file (type png)
 <use 2_bubex.png>
-Package pdftex.def Info: 2_bubex.png  used on input line 87.
+Package pdftex.def Info: 2_bubex.png  used on input line 88.
 (pdftex.def)             Requested size: 469.75502pt x 175.4714pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./1_void_Esurf.png> <./2_bubex.png>]
-<3_bubE.png, id=155, 573.14125pt x 456.70625pt>
+<3_bubE.png, id=156, 573.14125pt x 456.70625pt>
 File: 3_bubE.png Graphic file (type png)
 <use 3_bubE.png>
-Package pdftex.def Info: 3_bubE.png  used on input line 105.
+Package pdftex.def Info: 3_bubE.png  used on input line 106.
 (pdftex.def)             Requested size: 281.85587pt x 224.59639pt.
  [6
 
  <./3_bubE.png>] [7]
-<4_binding.png, id=180, 361.35pt x 289.08pt>
+<4_binding.png, id=181, 361.35pt x 289.08pt>
 File: 4_binding.png Graphic file (type png)
 <use 4_binding.png>
-Package pdftex.def Info: 4_binding.png  used on input line 162.
+Package pdftex.def Info: 4_binding.png  used on input line 163.
 (pdftex.def)             Requested size: 281.85587pt x 225.48589pt.
  [8 <./4_binding.png>]
-<5_delV.png, id=190, 755.82375pt x 616.3025pt>
+<5_delV.png, id=191, 755.82375pt x 616.3025pt>
 File: 5_delV.png Graphic file (type png)
 <use 5_delV.png>
-Package pdftex.def Info: 5_delV.png  used on input line 175.
+Package pdftex.def Info: 5_delV.png  used on input line 176.
 (pdftex.def)             Requested size: 281.85587pt x 229.82452pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10 <./5_delV.png>]
-<6_press_diff.png, id=211, 514.5624pt x 400.3758pt>
+<6_press_diff.png, id=212, 514.5624pt x 400.3758pt>
 File: 6_press_diff.png Graphic file (type png)
 <use 6_press_diff.png>
-Package pdftex.def Info: 6_press_diff.png  used on input line 212.
+Package pdftex.def Info: 6_press_diff.png  used on input line 213.
 (pdftex.def)             Requested size: 281.85587pt x 219.32152pt.
  [11 <./6_press_diff.png>] [12]
-<7_xe_eosK.png, id=238, 961.5925pt x 470.75874pt>
+<7_xe_eosK.png, id=239, 961.5925pt x 470.75874pt>
 File: 7_xe_eosK.png Graphic file (type png)
 <use 7_xe_eosK.png>
-Package pdftex.def Info: 7_xe_eosK.png  used on input line 250.
+Package pdftex.def Info: 7_xe_eosK.png  used on input line 251.
 (pdftex.def)             Requested size: 375.80544pt x 183.98306pt.
  [13 <./7_xe_eosK.png>]
-<8_xe_eosV.png, id=252, 981.6675pt x 484.81125pt>
+<8_xe_eosV.png, id=253, 981.6675pt x 484.81125pt>
 File: 8_xe_eosV.png Graphic file (type png)
 <use 8_xe_eosV.png>
-Package pdftex.def Info: 8_xe_eosV.png  used on input line 271.
+Package pdftex.def Info: 8_xe_eosV.png  used on input line 272.
 (pdftex.def)             Requested size: 375.80544pt x 185.59874pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14 <./8_xe_eosV.png>] [15] (./umoxe_bubbles.bbl [16] [17])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
  [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
 
 (./umoxe_bubbles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `umoxe_bubbles.out' has not changed.
 (rerunfilecheck)             Checksum: C987A7848A69E1C858BDF1629D0EA1FD;700.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 7218 strings out of 492616
- 103449 string characters out of 6129482
- 210581 words of memory out of 5000000
- 10978 multiletter control sequences out of 15000+600000
+ 7220 strings out of 492616
+ 103461 string characters out of 6129482
+ 210584 words of memory out of 5000000
+ 10979 multiletter control sequences out of 15000+600000
  10025 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,9n,32p,2364b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -564,10 +564,10 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on umoxe_bubbles.pdf (18 pages, 1116182 bytes).
+Output written on umoxe_bubbles.pdf (18 pages, 1117813 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 09:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**uzr_surfMD.tex
-(./uzr_surfMD.tex
+**diff.tex
+(./diff.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/elsarticle/elsarticle.cls
 Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
@@ -70,8 +70,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \@sep=\skip43
 \@@sep=\skip44
 
-(./uzr_surfMD.spl)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+(./diff.spl) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -79,7 +78,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count94
 )
 \splwrite=\write3
-\openout3 = `uzr_surfMD.spl'.
+\openout3 = `diff.spl'.
 
 \appnamewidth=\dimen109
 )
@@ -303,37 +302,100 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./uzr_surfMD.aux)
-\openout1 = `uzr_surfMD.aux'.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks24
+\footnotemargin=\dimen136
+\c@pp@next@reset=\count127
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+LaTeX Info: Redefining \sf on input line 21.
 
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/settobox.sty
+Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
+)
+)
+\DIFdelgraphicsbox=\box36
+\DIFdelgraphicswidth=\skip51
+\DIFdelgraphicsheight=\skip52
+LaTeX Info: Redefining \DIFaddbegin on input line 70.
+LaTeX Info: Redefining \DIFaddend on input line 71.
+LaTeX Info: Redefining \DIFdelbegin on input line 72.
+LaTeX Info: Redefining \DIFdelend on input line 73.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 78.
+LaTeX Info: Redefining \DIFaddendFL on input line 79.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 80.
+LaTeX Info: Redefining \DIFdelendFL on input line 81.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count128
+\lst@gtempboxa=\box37
+\lst@token=\toks25
+\lst@length=\count129
+\lst@currlwidth=\dimen137
+\lst@column=\count130
+\lst@pos=\count131
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count132
+\lst@lineno=\count133
+\lst@maxwidth=\dimen140
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count134
+\lst@skipnumbers=\count135
+\lst@framebox=\box38
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(./diff.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+)
+\openout1 = `diff.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen136
-\scratchbox=\box36
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen137
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count136
+\scratchdimen=\dimen141
+\scratchbox=\box39
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen142
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -351,8 +413,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 16.
+\AtBeginShipoutBox=\box40
+Package hyperref Info: Link coloring OFF on input line 100.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -360,15 +422,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
-(./uzr_surfMD.out) (./uzr_surfMD.out)
+(./diff.out) (./diff.out)
 \@outlinefile=\write5
-\openout5 = `uzr_surfMD.out'.
+\openout5 = `diff.out'.
 
 
 *geometry* driver: auto-detecting
@@ -405,17 +467,18 @@ LaTeX Info: Redefining \nameref on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 16.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
-
+LaTeX Info: Redefining \celsius on input line 100.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 100
+.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 16.
-Package gensymb Info: Using \Omega for \ohm on input line 16.
+LaTeX Info: Redefining \ohm on input line 100.
+Package gensymb Info: Using \Omega for \ohm on input line 100.
 
 Package gensymb Warning: Not defining \micro.
 
+\c@lstlisting=\count143
 
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
@@ -423,164 +486,205 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 48.
+(hyperref)                removing `\gamma' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 48.
+(hyperref)                removing `\<let>-command' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 48.
+(hyperref)                removing `\includegraphics' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 48.
+(hyperref)                removing `\new@ifnextchar' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 48.
+(hyperref)                removing `\<def>-command' on input line 130.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cnotenum' on input line 130.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 130.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@corref' on input line 130.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 140.
+
+
 [2] [3]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 126.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 126.
+<1_void_Esurf.png, id=135, 579.16376pt x 477.785pt>
+File: 1_void_Esurf.png Graphic file (type png)
+<use 1_void_Esurf.png>
+Package pdftex.def Info: 1_void_Esurf.png  used on input line 166.
+(pdftex.def)             Requested size: 281.85587pt x 232.5201pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 126.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4]
-<Eperat.png, id=137, 578.16pt x 469.2732pt>
-File: Eperat.png Graphic file (type png)
-<use Eperat.png>
-Package pdftex.def Info: Eperat.png  used on input line 134.
-(pdftex.def)             Requested size: 281.85587pt x 228.77155pt.
-<Efperat.png, id=139, 590.205pt x 479.391pt>
-File: Efperat.png Graphic file (type png)
-<use Efperat.png>
-Package pdftex.def Info: Efperat.png  used on input line 142.
-(pdftex.def)             Requested size: 281.85587pt x 228.94199pt.
-<Vperat.png, id=140, 570.933pt x 463.4916pt>
-File: Vperat.png Graphic file (type png)
-<use Vperat.png>
-Package pdftex.def Info: Vperat.png  used on input line 150.
-(pdftex.def)             Requested size: 281.85587pt x 228.82436pt.
- [5 <./Eperat.png>] [6 <./Efperat.png> <./Vperat.png>]
-<Texp.png, id=159, 551.661pt x 442.2924pt>
-File: Texp.png Graphic file (type png)
-<use Texp.png>
-Package pdftex.def Info: Texp.png  used on input line 162.
-(pdftex.def)             Requested size: 281.85587pt x 225.97781pt.
-<Cp.png, id=160, 573.8238pt x 460.6008pt>
-File: Cp.png Graphic file (type png)
-<use Cp.png>
-Package pdftex.def Info: Cp.png  used on input line 171.
-(pdftex.def)             Requested size: 281.85587pt x 226.24455pt.
- [7 <./Texp.png>]
-<size.png, id=173, 567.0786pt x 444.2196pt>
-File: size.png Graphic file (type png)
-<use size.png>
-Package pdftex.def Info: size.png  used on input line 185.
-(pdftex.def)             Requested size: 281.85587pt x 220.79428pt.
+<2_bubex.png, id=138, 451.4466pt x 168.63pt>
+File: 2_bubex.png Graphic file (type png)
+<use 2_bubex.png>
+Package pdftex.def Info: 2_bubex.png  used on input line 176.
+(pdftex.def)             Requested size: 469.75502pt x 175.4714pt.
 
-[8 <./Cp.png>]
-<void.png, id=187, 163.3302pt x 164.2938pt>
-File: void.png Graphic file (type png)
-<use void.png>
-Package pdftex.def Info: void.png  used on input line 195.
-(pdftex.def)             Requested size: 281.85587pt x 283.54747pt.
-<Esurf.png, id=188, 519.8622pt x 414.348pt>
-File: Esurf.png Graphic file (type png)
-<use Esurf.png>
-Package pdftex.def Info: Esurf.png  used on input line 203.
-(pdftex.def)             Requested size: 281.85587pt x 224.65501pt.
- [9 <./size.png> <./void.png>]
-<free.png, id=197, 361.35pt x 289.08pt>
-File: free.png Graphic file (type png)
-<use free.png>
-Package pdftex.def Info: free.png  used on input line 217.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./1_void_Esurf.png> <./2_bubex.png>]
+<3_bubE.png, id=158, 573.14125pt x 456.70625pt>
+File: 3_bubE.png Graphic file (type png)
+<use 3_bubE.png>
+Package pdftex.def Info: 3_bubE.png  used on input line 194.
+(pdftex.def)             Requested size: 281.85587pt x 224.59639pt.
+ [6
+
+ <./3_bubE.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+<4_binding.png, id=196, 361.35pt x 289.08pt>
+File: 4_binding.png Graphic file (type png)
+<use 4_binding.png>
+Package pdftex.def Info: 4_binding.png  used on input line 257.
 (pdftex.def)             Requested size: 281.85587pt x 225.48589pt.
-<freeT.png, id=198, 361.35pt x 289.08pt>
-File: freeT.png Graphic file (type png)
-<use freeT.png>
-Package pdftex.def Info: freeT.png  used on input line 225.
-(pdftex.def)             Requested size: 281.85587pt x 225.48589pt.
- Excluding 'comment' comment.
-[10 <./Esurf.png>] [11 <./free.png> <./freeT.png>]
 
-Package natbib Warning: Citation `LLS_report' on page 12 undefined on input lin
-e 253.
 
-<plot_porosity_var_gamma.pdf, id=217, 424.60286pt x 331.02206pt>
-File: plot_porosity_var_gamma.pdf Graphic file (type pdf)
-<use plot_porosity_var_gamma.pdf>
-Package pdftex.def Info: plot_porosity_var_gamma.pdf  used on input line 263.
-(pdftex.def)             Requested size: 289.07999pt x 225.36981pt.
-[12] [13 <./plot_porosity_var_gamma.pdf>] (./uzr_surfMD.bbl [14])
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package natbib Warning: There were undefined citations.
+[8] [9 <./4_binding.png>]
+<5_delV.png, id=212, 755.82375pt x 616.3025pt>
+File: 5_delV.png Graphic file (type png)
+<use 5_delV.png>
+Package pdftex.def Info: 5_delV.png  used on input line 271.
+(pdftex.def)             Requested size: 281.85587pt x 229.82452pt.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
- (./uzr_surfMD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
-Package rerunfilecheck Info: File `uzr_surfMD.out' has not changed.
-(rerunfilecheck)             Checksum: F0CF9E26BFB78AC3F1DB92F83CDDED22;566.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./5_delV.png>]
+<6_press_diff.png, id=227, 514.5624pt x 400.3758pt>
+File: 6_press_diff.png Graphic file (type png)
+<use 6_press_diff.png>
+Package pdftex.def Info: 6_press_diff.png  used on input line 308.
+(pdftex.def)             Requested size: 281.85587pt x 219.32152pt.
+ [11 <./6_press_diff.png>] [12]
+<7_xe_eosK.png, id=259, 961.5925pt x 470.75874pt>
+File: 7_xe_eosK.png Graphic file (type png)
+<use 7_xe_eosK.png>
+Package pdftex.def Info: 7_xe_eosK.png  used on input line 347.
+(pdftex.def)             Requested size: 375.80544pt x 183.98306pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+<8_xe_eosV.png, id=272, 981.6675pt x 484.81125pt>
+File: 8_xe_eosV.png Graphic file (type png)
+<use 8_xe_eosV.png>
+Package pdftex.def Info: 8_xe_eosV.png  used on input line 368.
+(pdftex.def)             Requested size: 375.80544pt x 185.59874pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./7_xe_eosK.png>] [15 <./8_xe_eosV.png>] (./diff.bbl [16] [17])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 412.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 412.
+
+(./diff.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 412.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 412.
+Package rerunfilecheck Info: File `diff.out' has not changed.
+(rerunfilecheck)             Checksum: C987A7848A69E1C858BDF1629D0EA1FD;700.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 412.
  ) 
 Here is how much of TeX's memory you used:
- 7184 strings out of 492616
- 102817 string characters out of 6129482
- 209730 words of memory out of 5000000
- 10957 multiletter control sequences out of 15000+600000
- 10025 words of font info for 36 fonts, out of 8000000 for 9000
+ 8746 strings out of 492616
+ 125256 string characters out of 6129482
+ 233752 words of memory out of 5000000
+ 12476 multiletter control sequences out of 15000+600000
+ 11586 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2111b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on uzr_surfMD.pdf (15 pages, 1134364 bytes).
+ 32i,16n,32p,2376b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on diff.pdf (18 pages, 1163796 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

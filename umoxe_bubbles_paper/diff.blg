@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: diff.aux
+The style file: elsarticle-num.bst
+Database file #1: MARMOTbib.bib
+You've used 30 entries,
+            2952 wiz_defined-function locations,
+            851 strings with 10054 characters,
+and the built_in function-call counts, 8260 in all, are:
+= -- 692
+> -- 441
+< -- 3
++ -- 167
+- -- 137
+* -- 594
+:= -- 1280
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 241
+empty$ -- 837
+format.name$ -- 165
+if$ -- 2074
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 27
+newline$ -- 98
+num.names$ -- 30
+pop$ -- 151
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 539
+stack$ -- 0
+substring$ -- 258
+swap$ -- 33
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 57
+width$ -- 32
+write$ -- 250
