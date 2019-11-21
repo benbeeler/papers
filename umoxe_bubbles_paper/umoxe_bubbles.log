@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,14 +485,22 @@ Package pdftex.def Info: 3_bubE.png  used on input line 106.
 (pdftex.def)             Requested size: 281.85587pt x 224.59639pt.
  [6
 
- <./3_bubE.png>] [7]
-<4_binding.png, id=181, 361.35pt x 289.08pt>
+ <./3_bubE.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+<4_binding.png, id=182, 361.35pt x 289.08pt>
 File: 4_binding.png Graphic file (type png)
 <use 4_binding.png>
 Package pdftex.def Info: 4_binding.png  used on input line 163.
 (pdftex.def)             Requested size: 281.85587pt x 225.48589pt.
- [8 <./4_binding.png>]
-<5_delV.png, id=191, 755.82375pt x 616.3025pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+<5_delV.png, id=190, 755.82375pt x 616.3025pt>
 File: 5_delV.png Graphic file (type png)
 <use 5_delV.png>
 Package pdftex.def Info: 5_delV.png  used on input line 176.
@@ -501,8 +509,12 @@ Package pdftex.def Info: 5_delV.png  used on input line 176.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10 <./5_delV.png>]
-<6_press_diff.png, id=212, 514.5624pt x 400.3758pt>
+[9 <./4_binding.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./5_delV.png>]
+<6_press_diff.png, id=211, 514.5624pt x 400.3758pt>
 File: 6_press_diff.png Graphic file (type png)
 <use 6_press_diff.png>
 Package pdftex.def Info: 6_press_diff.png  used on input line 213.
@@ -513,22 +525,29 @@ File: 7_xe_eosK.png Graphic file (type png)
 <use 7_xe_eosK.png>
 Package pdftex.def Info: 7_xe_eosK.png  used on input line 251.
 (pdftex.def)             Requested size: 375.80544pt x 183.98306pt.
- [13 <./7_xe_eosK.png>]
-<8_xe_eosV.png, id=253, 981.6675pt x 484.81125pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+<8_xe_eosV.png, id=252, 981.6675pt x 484.81125pt>
 File: 8_xe_eosV.png Graphic file (type png)
 <use 8_xe_eosV.png>
 Package pdftex.def Info: 8_xe_eosV.png  used on input line 272.
 (pdftex.def)             Requested size: 375.80544pt x 185.59874pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./8_xe_eosV.png>] [15] (./umoxe_bubbles.bbl [16] [17])
+[14 <./7_xe_eosK.png>] [15 <./8_xe_eosV.png>] (./umoxe_bubbles.bbl [16]
+[17])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
  [18]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
-
-(./umoxe_bubbles.aux)
+ (./umoxe_bubbles.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `umoxe_bubbles.out' has not changed.
@@ -542,11 +561,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
 Here is how much of TeX's memory you used:
  7220 strings out of 492616
  103461 string characters out of 6129482
- 210584 words of memory out of 5000000
+ 210585 words of memory out of 5000000
  10979 multiletter control sequences out of 15000+600000
  10025 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2364b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,2144b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -564,7 +583,7 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on umoxe_bubbles.pdf (18 pages, 1117813 bytes).
+Output written on umoxe_bubbles.pdf (18 pages, 1117788 bytes).
 PDF statistics:
  356 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams
