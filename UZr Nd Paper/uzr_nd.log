@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  19 NOV 2019 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  26 NOV 2019 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -262,6 +262,18 @@ LaTeX Warning: Label `tab:Eforms' multiply defined.
 
 LaTeX Warning: Label `default' multiply defined.
 
+
+LaTeX Warning: Label `tab:Eforms' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `tab:Eforms' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
 )
 \openout1 = `uzr_nd.aux'.
 
@@ -364,15 +376,15 @@ LaTeX Info: Redefining \nameref on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
+(Font)              <5> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 24.
+(Font)              <14.4> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 25.
 
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
@@ -380,31 +392,31 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 34.
+(hyperref)                removing `math shift' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 34.
+(hyperref)                removing `\alpha' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 34.
+(hyperref)                removing `math shift' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 34.
+(hyperref)                removing `\<def>-command' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 34.
+(hyperref)                removing `\cnotenum' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 34.
+(hyperref)                removing `\<def>-command' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 34.
+(hyperref)                removing `\@corref' on input line 35.
 
 [1
 
@@ -412,20 +424,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package natbib Warning: Citation `all of benson papers' on page 2 undefined on 
-input line 37.
+input line 38.
 
 [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 50.
+(hyperref)                removing `math shift' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 50.
+(hyperref)                removing `\alpha' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 50.
+(hyperref)                removing `math shift' on input line 51.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -433,15 +445,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 112.
+(hyperref)                removing `\alpha' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 113.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -452,42 +464,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 194.
+(hyperref)                removing `math shift' on input line 195.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 194.
+(hyperref)                removing `\alpha' on input line 195.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 194.
+(hyperref)                removing `math shift' on input line 195.
 
-(./uzr_nd.bbl [5] [6])
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] (./uzr_nd.bbl [6] [7])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (./uzr_nd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `uzr_nd.out' has not changed.
-(rerunfilecheck)             Checksum: 26972B86C46F85B8206D90E571023631;594.
+(rerunfilecheck)             Checksum: B03CF211370109F66B3131091AA73DD2;603.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 6453 strings out of 492616
- 93831 string characters out of 6129482
- 196809 words of memory out of 5000000
+ 6456 strings out of 492616
+ 93851 string characters out of 6129482
+ 197809 words of memory out of 5000000
  10275 multiletter control sequences out of 15000+600000
  8897 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,1905b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,1905b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -504,10 +519,10 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on uzr_nd.pdf (7 pages, 188943 bytes).
+Output written on uzr_nd.pdf (8 pages, 191379 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
