@@ -209,13 +209,20 @@ An example void is shown in Fig. \ref{fig:void} for a U-10Zr alloy composition a
 
 \FloatBarrier
 
-For the determination of the change in the free energy of a void with increasing temperature, a single composition was emphasized, that of U-10Zr (approximately 23 atomic percent), as this is the primary alloy composition of historical and future relevance. The calculation of the surface energy was refined from a temperature perspective, in that increments of 25 K, instead of 100 K, were utilized. Additionally, the temperature range was extended down to 800 K. Finally, the number of simulations for each individual system was increased from 5 to 50, to refine the accuracy of the dataset. The surface free energy change as a function of temperature is shown in Fig. \ref{fig:free}. The data for this system is very noisy, due to both temperature and compositional effects, and as such there are oscillations in the free energy as a function of temperature. Regardless, a loose trend can be seen pointing towards a slight decrease in free energy with increasing temperature, and this decrease accelerates at high temperatures. This indeed makes qualitative sense, in that the free energy decreases with increasing temperature due to entropic contributions. 
+For the determination of the change in the free energy of a void with increasing temperature, a single composition was emphasized, that of U-10Zr (approximately 23 atomic percent), as this is the primary alloy composition of historical and future relevance. The calculation of the surface energy was refined from a temperature perspective, in that increments of 25 K, instead of 100 K, were utilized. Additionally, the temperature range was extended down to 800 K. Finally, the number of simulations for each individual system was increased from 5 to 50, to refine the accuracy of the dataset. The refined surface energy (eq. \ref{eq:surface} as a function of temperature and the change in entropy \ref{eq:entropy_alt} as a function of temperature are shown in Fig. \ref{fig:u23void}. The surface energy increases with increasing temperature, from approximately 1.6 J/m$^2$ at 800 K to 1.75 J/m$^2$ at 1300 K. This leads to a positive entropy increase with increasing temperature. The change in entropy is zero at 800 K as this is taken as our point of reference for this system. The data for this system is somewhat noisy, due to both temperature and compositional effects, in spite of efforts to increase the statistical certainty by increasing the sample size. 
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{9_u23void}
+\end{center}
+\caption{Change in the surface energy and entropy as a function of temperature in $\gamma$U-10Zr.}
+\label{fig:u23void}
+\end{figure}
 
-To make an approximation for the magnitude of the surface free energy, we must make an assumption regarding our system. Since we are unable to calculate data down to 0 K (due to the predicted instability of the $\gamma$ phase at low temperature) where entropic effects are negligible, we must identify a point where we \textit{assume} entropic effects are negligible. We take this point to be the lowest temperature investigated in the data set, 800 K. In reality, there likely are entropic effects at 800 K, but also likely is that these effects are substantially smaller than any effects at temperatures greater than 1000 K. That the free energy change between 800 K and 1000 K is quite small serves to substantiate our approximation. Finally, the surface free energy for a $\gamma$U-10Zr alloy is provided as a function of temperature in Fig. \ref{fig:freeT}, showing a small decrease with increasing temperature. 
+The subsequent surface free energy change as a function of temperature is shown in Fig. \ref{fig:free}.  Due to the increasing entropy, a trend can be seen pointing towards a slight decrease in free energy with increasing temperature. This indeed makes qualitative sense, in that the free energy decreases with increasing temperature due to entropic contributions. To make an approximation for the magnitude of the surface free energy, we must make an assumption regarding our system. Since we are unable to calculate data down to 0 K (due to the predicted instability of the $\gamma$ phase at low temperature) where entropic effects are negligible, we must identify a point where we \textit{assume} entropic effects are negligible. We take this point to be the lowest temperature investigated in the data set, 800 K. In reality, there likely are entropic effects at 800 K, but also likely is that these effects are substantially smaller than any effects at temperatures greater than 1000 K. That the free energy change between 800 K and 1000 K is quite small serves to substantiate our approximation. Finally, the surface free energy for a $\gamma$U-10Zr alloy is provided as a function of temperature in Fig. \ref{fig:freeT}, showing a small decrease with increasing temperature. 
 
 \begin{figure}[!htp]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{9_free}
+\includegraphics[width=0.6\textwidth]{10_free}
 \end{center}
 \caption{Change in the surface free energy as a function of temperature in $\gamma$U-10Zr.}
 \label{fig:free}
@@ -223,7 +230,7 @@ To make an approximation for the magnitude of the surface free energy, we must m
 
 \begin{figure}[!htp]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{10_freeT}
+\includegraphics[width=0.6\textwidth]{11_freeT}
 \end{center}
 \caption{The surface free energy as a function of temperature in $\gamma$U-10Zr.}
 \label{fig:freeT}
@@ -261,7 +268,7 @@ From these equations, it can be seen that the gaseous swelling is proportional t
 
 \begin{figure}[!htp]
 \begin{center}
-\includegraphics[keepaspectratio, width=4.0in]{11_plot_porosity_var_gamma}
+\includegraphics[keepaspectratio, width=4.0in]{12_plot_porosity_var_gamma}
 \end{center}
 \caption{Comparison of porosity as a function of burnup for three different values of the fuel surface tension.}
 \label{fig:plot_porosity_var_gamma}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  26 NOV 2019 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  2 DEC 2019 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -303,7 +303,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./uzr_surfMD.aux)
+No file uzr_surfMD.aux.
 \openout1 = `uzr_surfMD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -320,7 +320,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
@@ -365,8 +364,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
-
-(./uzr_surfMD.out) (./uzr_surfMD.out)
 \@outlinefile=\write5
 \openout5 = `uzr_surfMD.out'.
 
@@ -417,6 +414,26 @@ Package gensymb Info: Using \Omega for \ohm on input line 16.
 Package gensymb Warning: Not defining \micro.
 
 
+Package natbib Warning: Citation `hofman1997' on page 1 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `capriotti2017' on page 1 undefined on input l
+ine 46.
+
+
+Package natbib Warning: Citation `ogata2012' on page 1 undefined on input line 
+48.
+
+
+Package natbib Warning: Citation `beck1968' on page 1 undefined on input line 4
+8.
+
+
+Package natbib Warning: Citation `hofman1997' on page 1 undefined on input line
+ 48.
+
+
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
  []
@@ -453,7 +470,98 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4]
+
+Package natbib Warning: Citation `hofman1990' on page 2 undefined on input line
+ 50.
+
+
+Package natbib Warning: Citation `kobayashi1990' on page 2 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `kim2004' on page 2 undefined on input line 50
+.
+
+
+Package natbib Warning: Citation `handbook1' on page 2 undefined on input line 
+52.
+
+
+Package natbib Warning: Citation `janney2018' on page 2 undefined on input line
+ 52.
+
+
+Package natbib Warning: Citation `beeler2010' on page 2 undefined on input line
+ 52.
+
+
+Package natbib Warning: Citation `moore2015' on page 2 undefined on input line 
+52.
+
+
+Package natbib Warning: Citation `plimpton1995' on page 2 undefined on input li
+ne 58.
+
+
+Package natbib Warning: Citation `moore2015' on page 2 undefined on input line 
+58.
+
+
+Package natbib Warning: Citation `moore2015' on page 2 undefined on input line 
+58.
+
+
+Package natbib Warning: Citation `dynamo' on page 2 undefined on input line 58.
+
+
+[2]
+
+LaTeX Warning: Reference `eq1' on page 3 undefined on input line 62.
+
+
+LaTeX Warning: Reference `eq2' on page 3 undefined on input line 67.
+
+
+LaTeX Warning: Reference `eq3' on page 3 undefined on input line 72.
+
+
+LaTeX Warning: Reference `eq:surface' on page 3 undefined on input line 79.
+
+[3]
+
+LaTeX Warning: Reference `eq:entropy' on page 4 undefined on input line 86.
+
+
+LaTeX Warning: Reference `eq:cp' on page 4 undefined on input line 100.
+
+
+LaTeX Warning: Reference `eq:entropy_alt' on page 4 undefined on input line 107
+.
+
+
+LaTeX Warning: Reference `eq:surface' on page 4 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:entropy' on page 4 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:entropy2' on page 4 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:cp' on page 4 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:entropy_alt' on page 4 undefined on input line 114
+.
+
+
+LaTeX Warning: Reference `eq:free' on page 4 undefined on input line 116.
+
+
+LaTeX Warning: Reference `eq:entropy_alt' on page 4 undefined on input line 123
+.
+
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
@@ -466,95 +574,211 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
 
-<1_Eperat.png, id=135, 578.16pt x 469.2732pt>
+
+LaTeX Warning: Reference `fig:Eperat' on page 5 undefined on input line 129.
+
+
+LaTeX Warning: Reference `fig:Efperat' on page 5 undefined on input line 129.
+
+
+LaTeX Warning: Reference `fig:Vperat' on page 5 undefined on input line 129.
+
+
+Package natbib Warning: Citation `moore2015' on page 5 undefined on input line 
+131.
+
+<1_Eperat.png, id=53, 578.16pt x 469.2732pt>
 File: 1_Eperat.png Graphic file (type png)
 <use 1_Eperat.png>
 Package pdftex.def Info: 1_Eperat.png  used on input line 135.
 (pdftex.def)             Requested size: 281.85587pt x 228.77155pt.
-<2_Efperat.png, id=137, 578.16pt x 469.2732pt>
+<2_Efperat.png, id=55, 578.16pt x 469.2732pt>
 File: 2_Efperat.png Graphic file (type png)
 <use 2_Efperat.png>
 Package pdftex.def Info: 2_Efperat.png  used on input line 143.
 (pdftex.def)             Requested size: 281.85587pt x 228.77155pt.
-<3_Vperat.png, id=138, 578.16pt x 468.3096pt>
+<3_Vperat.png, id=56, 578.16pt x 468.3096pt>
 File: 3_Vperat.png Graphic file (type png)
 <use 3_Vperat.png>
 Package pdftex.def Info: 3_Vperat.png  used on input line 151.
 (pdftex.def)             Requested size: 281.85587pt x 228.30179pt.
 [5 <./1_Eperat.png>] [6 <./2_Efperat.png> <./3_Vperat.png>]
-<4_Texp.png, id=161, 578.16pt x 462.528pt>
+
+LaTeX Warning: Reference `fig:Texp' on page 7 undefined on input line 159.
+
+
+LaTeX Warning: Reference `fig:cp' on page 7 undefined on input line 159.
+
+
+LaTeX Warning: Reference `eq2' on page 7 undefined on input line 159.
+
+
+LaTeX Warning: Reference `fig:cp' on page 7 undefined on input line 159.
+
+
+Package natbib Warning: Citation `basak2009' on page 7 undefined on input line 
+159.
+
+
+LaTeX Warning: Reference `eq3' on page 7 undefined on input line 159.
+
+
+Package natbib Warning: Citation `janney2018' on page 7 undefined on input line
+ 159.
+
+
+Package natbib Warning: Citation `moore2015' on page 7 undefined on input line 
+159.
+
+<4_Texp.png, id=73, 578.16pt x 462.528pt>
 File: 4_Texp.png Graphic file (type png)
 <use 4_Texp.png>
 Package pdftex.def Info: 4_Texp.png  used on input line 163.
 (pdftex.def)             Requested size: 281.85587pt x 225.48325pt.
-<5_Cp.png, id=162, 578.16pt x 462.528pt>
+<5_Cp.png, id=74, 578.16pt x 462.528pt>
 File: 5_Cp.png Graphic file (type png)
 <use 5_Cp.png>
 Package pdftex.def Info: 5_Cp.png  used on input line 172.
 (pdftex.def)             Requested size: 281.85587pt x 225.48325pt.
- [7] [8 <./4_Texp.png> <./5_Cp.png>]
-<6_size.png, id=180, 567.0786pt x 444.2196pt>
+[7] [8 <./4_Texp.png> <./5_Cp.png>]
+
+LaTeX Warning: Reference `fig:size' on page 9 undefined on input line 182.
+
+<6_size.png, id=89, 567.0786pt x 444.2196pt>
 File: 6_size.png Graphic file (type png)
 <use 6_size.png>
 Package pdftex.def Info: 6_size.png  used on input line 186.
 (pdftex.def)             Requested size: 281.85587pt x 220.79428pt.
- [9 <./6_size.png>]
-<7_void.png, id=194, 163.3302pt x 164.2938pt>
+
+LaTeX Warning: Reference `fig:void' on page 9 undefined on input line 192.
+
+
+LaTeX Warning: Reference `fig:Esurf' on page 9 undefined on input line 192.
+
+
+Package natbib Warning: Citation `beelerumo' on page 9 undefined on input line 
+192.
+
+
+LaTeX Warning: Reference `sec:res1' on page 9 undefined on input line 192.
+
+[9 <./6_size.png>]
+<7_void.png, id=97, 163.3302pt x 164.2938pt>
 File: 7_void.png Graphic file (type png)
 <use 7_void.png>
 Package pdftex.def Info: 7_void.png  used on input line 196.
 (pdftex.def)             Requested size: 281.85587pt x 283.54747pt.
-<8_Esurf.png, id=195, 519.8622pt x 414.348pt>
+<8_Esurf.png, id=98, 519.8622pt x 414.348pt>
 File: 8_Esurf.png Graphic file (type png)
 <use 8_Esurf.png>
 Package pdftex.def Info: 8_Esurf.png  used on input line 204.
 (pdftex.def)             Requested size: 281.85587pt x 224.65501pt.
- [10 <./7_void.png> <./8_Esurf.png>]
-<9_free.png, id=204, 361.35pt x 289.08pt>
-File: 9_free.png Graphic file (type png)
-<use 9_free.png>
-Package pdftex.def Info: 9_free.png  used on input line 218.
-(pdftex.def)             Requested size: 281.85587pt x 225.48589pt.
-<10_freeT.png, id=205, 361.35pt x 289.08pt>
-File: 10_freeT.png Graphic file (type png)
-<use 10_freeT.png>
-Package pdftex.def Info: 10_freeT.png  used on input line 226.
-(pdftex.def)             Requested size: 281.85587pt x 225.48589pt.
 
-Excluding 'comment' comment. [11 <./9_free.png>]
 
-Package natbib Warning: Citation `LLS_report' on page 12 undefined on input lin
-e 254.
+LaTeX Warning: Reference `eq:surface' on page 10 undefined on input line 212.
 
-[12 <./10_freeT.png>]
-<11_plot_porosity_var_gamma.pdf, id=229, 424.60286pt x 331.02206pt>
-File: 11_plot_porosity_var_gamma.pdf Graphic file (type pdf)
-<use 11_plot_porosity_var_gamma.pdf>
-Package pdftex.def Info: 11_plot_porosity_var_gamma.pdf  used on input line 264
+
+LaTeX Warning: Reference `eq:entropy_alt' on page 10 undefined on input line 21
+2.
+
+
+LaTeX Warning: Reference `fig:u23void' on page 10 undefined on input line 212.
+
+<9_u23void.png, id=99, 523.7166pt x 428.3202pt>
+File: 9_u23void.png Graphic file (type png)
+<use 9_u23void.png>
+Package pdftex.def Info: 9_u23void.png  used on input line 215.
+(pdftex.def)             Requested size: 281.85587pt x 230.5248pt.
+[10 <./7_void.png> <./8_Esurf.png>]
+
+LaTeX Warning: Reference `fig:free' on page 11 undefined on input line 221.
+
+
+LaTeX Warning: Reference `fig:freeT' on page 11 undefined on input line 221.
+
+[11 <./9_u23void.png>]
+<10_free.png, id=114, 512.6352pt x 410.4936pt>
+File: 10_free.png Graphic file (type png)
+<use 10_free.png>
+Package pdftex.def Info: 10_free.png  used on input line 225.
+(pdftex.def)             Requested size: 281.85587pt x 225.697pt.
+<11_freeT.png, id=115, 505.89pt x 405.1938pt>
+File: 11_freeT.png Graphic file (type png)
+<use 11_freeT.png>
+Package pdftex.def Info: 11_freeT.png  used on input line 233.
+(pdftex.def)             Requested size: 281.85587pt x 225.75699pt.
+ Excluding 'comment' comment.
+
+Package natbib Warning: Citation `tonks2017' on page 12 undefined on input line
+ 251.
+
+
+Package natbib Warning: Citation `olander76' on page 12 undefined on input line
+ 251.
+
+[12 <./10_free.png> <./11_freeT.png>]
+
+Package natbib Warning: Citation `karahan2009' on page 13 undefined on input li
+ne 261.
+
+
+Package natbib Warning: Citation `LLS_report' on page 13 undefined on input lin
+e 261.
+
+
+Package natbib Warning: Citation `tsuboi1992' on page 13 undefined on input lin
+e 267.
+
+
+LaTeX Warning: Reference `fig:plot_porosity_var_gamma' on page 13 undefined on 
+input line 267.
+
+<12_plot_porosity_var_gamma.pdf, id=124, 424.60286pt x 331.02206pt>
+File: 12_plot_porosity_var_gamma.pdf Graphic file (type pdf)
+<use 12_plot_porosity_var_gamma.pdf>
+Package pdftex.def Info: 12_plot_porosity_var_gamma.pdf  used on input line 271
 .
 (pdftex.def)             Requested size: 289.07999pt x 225.36981pt.
- [13 <./11_plot_porosity_var_gamma.pdf>] (./uzr_surfMD.bbl [14])
+[13] [14 <./12_plot_porosity_var_gamma.pdf>] (./uzr_surfMD.bbl [15])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
- (./uzr_surfMD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
-Package rerunfilecheck Info: File `uzr_surfMD.out' has not changed.
-(rerunfilecheck)             Checksum: F0CF9E26BFB78AC3F1DB92F83CDDED22;566.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+ (./uzr_surfMD.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+
+
+Package rerunfilecheck Warning: File `uzr_surfMD.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `uzr_surfMD.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  F0CF9E26BFB78AC3F1DB92F83CDDED22;566.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 7188 strings out of 492616
- 102957 string characters out of 6129482
- 208772 words of memory out of 5000000
- 10958 multiletter control sequences out of 15000+600000
- 10025 words of font info for 36 fonts, out of 8000000 for 9000
+ 7178 strings out of 492616
+ 102850 string characters out of 6129482
+ 206430 words of memory out of 5000000
+ 10952 multiletter control sequences out of 15000+600000
+ 9857 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2735b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,2732b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
@@ -575,12 +799,11 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on uzr_surfMD.pdf (15 pages, 1153627 bytes).
+fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on uzr_surfMD.pdf (16 pages, 1230841 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
