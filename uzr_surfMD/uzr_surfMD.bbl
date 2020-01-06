@@ -61,6 +61,11 @@ S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
 \bibitem{dynamo}
 S.~Foiles, M.~Daw, Dynamo, sandia National Laboratories.
 
+\bibitem{touloukian1975}
+Y.~Touloukian, R.~Kirby, R.~Taylor, P.~Desai, Thermal Expansion: Metallic
+  elements and alloys (Thermophysical Properties of Matter vol. 12),
+  IFI/Plenum, New York, 1975.
+
 \bibitem{basak2009}
 C.~Basak, G.~Prasad, H.~Kamath, N.~Prabhu, An evaluation of the properties of
   as-cast u-rich u--zr alloys, J. Alloys and Compounds 480 (2009) 857.
