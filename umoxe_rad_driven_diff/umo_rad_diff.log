@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 JAN 2020 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -468,65 +468,71 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-<msd_vs_time.png, id=122, 599.23875pt x 465.74pt>
-File: msd_vs_time.png Graphic file (type png)
-<use msd_vs_time.png>
-Package pdftex.def Info: msd_vs_time.png  used on input line 64.
-(pdftex.def)             Requested size: 375.80544pt x 292.0888pt.
+<1_msd_vs_time.png, id=122, 726.715pt x 572.1375pt>
+File: 1_msd_vs_time.png Graphic file (type png)
+<use 1_msd_vs_time.png>
+Package pdftex.def Info: 1_msd_vs_time.png  used on input line 64.
+(pdftex.def)             Requested size: 375.80544pt x 295.87195pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
-<el_energy_loss.png, id=138, 553.06625pt x 425.59pt>
-File: el_energy_loss.png Graphic file (type png)
-<use el_energy_loss.png>
-Package pdftex.def Info: el_energy_loss.png  used on input line 73.
+<2_el_energy_loss.png, id=137, 553.06625pt x 425.59pt>
+File: 2_el_energy_loss.png Graphic file (type png)
+<use 2_el_energy_loss.png>
+Package pdftex.def Info: 2_el_energy_loss.png  used on input line 73.
 (pdftex.def)             Requested size: 375.80544pt x 289.18306pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./msd_vs_time.png>]
+[4 <./1_msd_vs_time.png>]
 
 Package natbib Warning: Citation `cooperUSidiff' on page 5 undefined on input l
 ine 96.
 
-[5 <./el_energy_loss.png>]
-<epsB.png, id=161, 545.8794pt x 436.5108pt>
-File: epsB.png Graphic file (type png)
-<use epsB.png>
-Package pdftex.def Info: epsB.png  used on input line 100.
-(pdftex.def)             Requested size: 375.80544pt x 300.50673pt.
-<xefrac.png, id=165, 542.9886pt x 434.5836pt>
+[5 <./2_el_energy_loss.png>]
+<3_epsB.png, id=160, 770.88pt x 601.24625pt>
+File: 3_epsB.png Graphic file (type png)
+<use 3_epsB.png>
+Package pdftex.def Info: 3_epsB.png  used on input line 100.
+(pdftex.def)             Requested size: 375.80544pt x 293.10866pt.
+ [6 <./3_epsB.png>]
+<xefrac.png, id=170, 542.9886pt x 434.5836pt>
 File: xefrac.png Graphic file (type png)
 <use xefrac.png>
 Package pdftex.def Info: xefrac.png  used on input line 110.
 (pdftex.def)             Requested size: 375.80544pt x 300.78474pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Excluding 'comment' comment. [6 <./epsB.png>] [7 <./xefrac.png>]
-<msdT.png, id=182, 714.5094pt x 289.08pt>
+ Excluding 'comment' comment.
+[7 <./xefrac.png>]
+<msdT.png, id=181, 714.5094pt x 289.08pt>
 File: msdT.png Graphic file (type png)
 <use msdT.png>
 Package pdftex.def Info: msdT.png  used on input line 134.
 (pdftex.def)             Requested size: 469.75502pt x 190.05675pt.
  [8 <./msdT.png>]
-<A_comp.png, id=201, 529.98pt x 446.6286pt>
+<A_comp.png, id=200, 529.98pt x 446.6286pt>
 File: A_comp.png Graphic file (type png)
 <use A_comp.png>
 Package pdftex.def Info: A_comp.png  used on input line 147.
 (pdftex.def)             Requested size: 328.82707pt x 277.11131pt.
- [9 <./A_comp.png>] Excluding 'comment' comment.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./A_comp.png>] Excluding 'comment' comment.
 <total_diff.png, id=218, 546.843pt x 456.2646pt>
 File: total_diff.png Graphic file (type png)
 <use total_diff.png>
 Package pdftex.def Info: total_diff.png  used on input line 193.
 (pdftex.def)             Requested size: 375.80544pt x 313.56975pt.
- [10 <./total_diff.png>]
-Excluding 'comment' comment. [11] (./umo_rad_diff.bbl [12] [13])
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] Excluding 'comment' comment. [11 <./total_diff.png>] (./umo_rad_diff.bbl
+[12] [13])
 
 Package natbib Warning: There were undefined citations.
 
@@ -538,20 +544,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `umo_rad_diff.out' has not changed.
 (rerunfilecheck)             Checksum: CA39B87484D50D4EE534CD52357DF0DC;603.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
  8830 strings out of 492616
- 140651 string characters out of 6129482
- 266049 words of memory out of 5000000
+ 140681 string characters out of 6129482
+ 267049 words of memory out of 5000000
  12594 multiletter control sequences out of 15000+600000
  9327 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2093b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,2093b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -571,7 +573,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on umo_rad_diff.pdf (14 pages, 645025 bytes).
+Output written on umo_rad_diff.pdf (14 pages, 920862 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  279 compressed objects within 3 object streams
