@@ -1,21 +1,11 @@
-%\documentclass[12pt, oneside]{article}
 \documentclass[review]{elsarticle}
 \usepackage{lineno,hyperref}
 \modulolinenumbers[5]
-%\includegraphics
 \usepackage[margin=1in]{geometry}
-%\geometry{letterpaper}
-%\usepackage[parfill]{parskip}
 \usepackage{graphicx}
-%\usepackage{authblk}
-%\usepackage{amssymb}
-%\usepackage{cite}
-%\usepackage{float}
-%\usepackage{fixltx2e}
 \usepackage{placeins}
-%\usepackage{verbatim}
 \usepackage{comment}
-
+\usepackage{color}
 
 \journal{Journal of Nuclear Materials}
 \bibliographystyle{elsarticle-num}
@@ -139,6 +129,8 @@ Seven targets were utilized in the fitting of each potential:  formation energy 
 After an initial fitting procedure yielded suitable cross potentials for the Fe-Ni and Fe-Al systems, testing began to evaluate the effectiveness of the potential at predicting a variety of properties not included into the fitting.  The potential performed quite well at predicting formation energies and lattice constants of intermetallic structures not included in the fitting targets.  However, this system of testing revealed that the ternary potential was yielding negative interfacial energies.  It was found that the potential was predicting an unrealistic low-energy ordered structure consisting of consecutive layers of Fe-Ni-Al residing on a BCC super lattice.  Utilizing this information, a final target parameter was implemented into the fitting of the ternary potential.  The formation energy of the BCC-based layered Fe-Ni-Al was determined utilizing density functional theory calculations.  Implementation of this final fitting parameter allowed for an additional stage of potential tuning and ensured that a wider range of applicability exists for this potential, including interfacial systems.  
 
 The parameters describing the resultant potential are given in Table 1. 
+
+\textcolor{red}{I remade these potentials. Refitted and made sure that ZBL was splined onto them. Splining via lammps. I am still not happy with the shape of the FeNi pair potential. Some of the structures are linesearch alpha 0 or max force iterations, so maybe metastable. Should I look at elastic constants to test? Should I do thermal expansion studies?}
 
 \begin{table}[htbp]
 \caption{The parameters describing the FeAl and FeNi cross potentials.  All distances are expressed in \AA{}.}
