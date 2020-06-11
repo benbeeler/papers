@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 MAR 2020 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 JUN 2020 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -437,107 +437,112 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 47.
+(hyperref)                removing `math shift' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 47.
+(hyperref)                removing `\gamma' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 47.
+(hyperref)                removing `math shift' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 47.
+(hyperref)                removing `\<def>-command' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 47.
+(hyperref)                removing `\cnotenum' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 47.
+(hyperref)                removing `\<def>-command' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 47.
+(hyperref)                removing `\@corref' on input line 49.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-<1_msd_vs_time.png, id=122, 726.715pt x 572.1375pt>
+<1_msd_vs_time.png, id=131, 688.5725pt x 521.95pt>
 File: 1_msd_vs_time.png Graphic file (type png)
 <use 1_msd_vs_time.png>
-Package pdftex.def Info: 1_msd_vs_time.png  used on input line 64.
-(pdftex.def)             Requested size: 375.80544pt x 295.87195pt.
+Package pdftex.def Info: 1_msd_vs_time.png  used on input line 66.
+(pdftex.def)             Requested size: 375.80544pt x 284.86726pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3]
-<2_el_energy_loss.png, id=137, 553.06625pt x 425.59pt>
+[3] [4 <./1_msd_vs_time.png>]
+<2_el_energy_loss.png, id=156, 553.06625pt x 425.59pt>
 File: 2_el_energy_loss.png Graphic file (type png)
 <use 2_el_energy_loss.png>
-Package pdftex.def Info: 2_el_energy_loss.png  used on input line 73.
+Package pdftex.def Info: 2_el_energy_loss.png  used on input line 75.
 (pdftex.def)             Requested size: 375.80544pt x 289.18306pt.
+ [5 <./2_el_energy_loss.png>]
+<3_epsB.png, id=170, 569.0058pt x 569.0058pt>
+File: 3_epsB.png Graphic file (type png)
+<use 3_epsB.png>
+Package pdftex.def Info: 3_epsB.png  used on input line 102.
+(pdftex.def)             Requested size: 375.80544pt x 375.80545pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./1_msd_vs_time.png>]
-
-Package natbib Warning: Citation `cooperUSidiff' on page 5 undefined on input l
-ine 96.
-
-[5 <./2_el_energy_loss.png>]
-<3_epsB.png, id=160, 769.87625pt x 619.31375pt>
-File: 3_epsB.png Graphic file (type png)
-<use 3_epsB.png>
-Package pdftex.def Info: 3_epsB.png  used on input line 100.
-(pdftex.def)             Requested size: 375.80544pt x 302.31349pt.
- [6 <./3_epsB.png>]
-<4_xefrac.png, id=170, 700.6175pt x 581.17125pt>
+<4_xefrac.png, id=174, 569.0058pt x 569.0058pt>
 File: 4_xefrac.png Graphic file (type png)
 <use 4_xefrac.png>
-Package pdftex.def Info: 4_xefrac.png  used on input line 110.
-(pdftex.def)             Requested size: 375.80544pt x 311.74384pt.
- Excluding 'comment' comment.
-[7 <./4_xefrac.png>]
-<5_msdT.png, id=181, 1051.93pt x 431.6125pt>
-File: 5_msdT.png Graphic file (type png)
-<use 5_msdT.png>
-Package pdftex.def Info: 5_msdT.png  used on input line 134.
+Package pdftex.def Info: 4_xefrac.png  used on input line 112.
+(pdftex.def)             Requested size: 375.80544pt x 375.80545pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
+<5_liq_diff.png, id=186, 698.61pt x 557.08125pt>
+File: 5_liq_diff.png Graphic file (type png)
+<use 5_liq_diff.png>
+Package pdftex.def Info: 5_liq_diff.png  used on input line 121.
+(pdftex.def)             Requested size: 328.82707pt x 262.21074pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./3_epsB.png>] [8 <./4_xefrac.png>] [9 <./5_liq_diff.png>]
+<6_msdT.png, id=209, 1051.93pt x 431.6125pt>
+File: 6_msdT.png Graphic file (type png)
+<use 6_msdT.png>
+Package pdftex.def Info: 6_msdT.png  used on input line 134.
 (pdftex.def)             Requested size: 469.75502pt x 192.742pt.
- [8 <./5_msdT.png>]
-<6_A_comp.png, id=200, 707.64375pt x 549.05125pt>
-File: 6_A_comp.png Graphic file (type png)
-<use 6_A_comp.png>
-Package pdftex.def Info: 6_A_comp.png  used on input line 147.
-(pdftex.def)             Requested size: 328.82707pt x 255.13025pt.
+ [10
+
+ <./6_msdT.png>]
+<7_A_comp.png, id=224, 624.3325pt x 501.875pt>
+File: 7_A_comp.png Graphic file (type png)
+<use 7_A_comp.png>
+Package pdftex.def Info: 7_A_comp.png  used on input line 147.
+(pdftex.def)             Requested size: 328.82707pt x 264.33069pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./6_A_comp.png>]
-<7_total_diff.png, id=218, 590.205pt x 478.78876pt>
-File: 7_total_diff.png Graphic file (type png)
-<use 7_total_diff.png>
-Package pdftex.def Info: 7_total_diff.png  used on input line 182.
-(pdftex.def)             Requested size: 375.80544pt x 304.86763pt.
+[11 <./7_A_comp.png>]
+<8_total_diff.png, id=243, 432.6564pt x 440.847pt>
+File: 8_total_diff.png Graphic file (type png)
+<use 8_total_diff.png>
+Package pdftex.def Info: 8_total_diff.png  used on input line 182.
+(pdftex.def)             Requested size: 375.80544pt x 382.94183pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] Excluding 'comment' comment. [11 <./7_total_diff.png>] (./umo_rad_diff.bbl
-[12] [13])
-
-Package natbib Warning: There were undefined citations.
-
+[12] Excluding 'comment' comment. [13 <./8_total_diff.png>] (./umo_rad_diff.bbl
+[14] [15] [16])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-[14]
+ [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  (./umo_rad_diff.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
@@ -547,13 +552,13 @@ Package rerunfilecheck Info: File `umo_rad_diff.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 8830 strings out of 492616
- 140721 string characters out of 6129482
+ 8861 strings out of 492616
+ 141232 string characters out of 6129482
  267049 words of memory out of 5000000
- 12594 multiletter control sequences out of 15000+600000
+ 12614 multiletter control sequences out of 15000+600000
  9327 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2093b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,2130b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -573,10 +578,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on umo_rad_diff.pdf (14 pages, 1332323 bytes).
+Output written on umo_rad_diff.pdf (17 pages, 1118802 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  6 JAN 2020 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  26 MAY 2020 08:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -453,7 +453,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3]
+[2] [3] [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 122.
@@ -466,114 +466,107 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 122.
 
-[4]
-<1_Eperat.png, id=132, 578.16pt x 469.2732pt>
+<1_Eperat.png, id=134, 1065.9825pt x 431.6125pt>
 File: 1_Eperat.png Graphic file (type png)
 <use 1_Eperat.png>
-Package pdftex.def Info: 1_Eperat.png  used on input line 130.
-(pdftex.def)             Requested size: 281.85587pt x 228.77155pt.
-<2_Efperat.png, id=134, 811.03pt x 652.4375pt>
+Package pdftex.def Info: 1_Eperat.png  used on input line 128.
+(pdftex.def)             Requested size: 422.77664pt x 171.17987pt.
+<2_Efperat.png, id=136, 625.33624pt x 495.8525pt>
 File: 2_Efperat.png Graphic file (type png)
 <use 2_Efperat.png>
-Package pdftex.def Info: 2_Efperat.png  used on input line 138.
-(pdftex.def)             Requested size: 281.85587pt x 226.74377pt.
-<3_Vperat.png, id=135, 578.16pt x 468.3096pt>
+Package pdftex.def Info: 2_Efperat.png  used on input line 136.
+(pdftex.def)             Requested size: 281.85587pt x 223.49474pt.
+<3_Vperat.png, id=137, 665.48625pt x 528.97626pt>
 File: 3_Vperat.png Graphic file (type png)
 <use 3_Vperat.png>
-Package pdftex.def Info: 3_Vperat.png  used on input line 146.
-(pdftex.def)             Requested size: 281.85587pt x 228.30179pt.
- [5 <./1_Eperat.png>] [6 <./2_Efperat.png> <./3_Vperat.png>]
-<4_Texp.png, id=159, 578.16pt x 462.528pt>
+Package pdftex.def Info: 3_Vperat.png  used on input line 144.
+(pdftex.def)             Requested size: 281.85587pt x 224.04109pt.
+[5] [6 <./1_Eperat.png> <./2_Efperat.png>] [7 <./3_Vperat.png>]
+<4_Texp.png, id=171, 654.445pt x 547.04375pt>
 File: 4_Texp.png Graphic file (type png)
 <use 4_Texp.png>
-Package pdftex.def Info: 4_Texp.png  used on input line 158.
-(pdftex.def)             Requested size: 281.85587pt x 225.48325pt.
-<5_Cp.png, id=160, 578.16pt x 462.528pt>
+Package pdftex.def Info: 4_Texp.png  used on input line 156.
+(pdftex.def)             Requested size: 281.85587pt x 235.59984pt.
+<5_Cp.png, id=172, 685.56125pt x 559.08875pt>
 File: 5_Cp.png Graphic file (type png)
 <use 5_Cp.png>
-Package pdftex.def Info: 5_Cp.png  used on input line 167.
-(pdftex.def)             Requested size: 281.85587pt x 225.48325pt.
- [7] [8 <./4_Texp.png> <./5_Cp.png>]
-<6_size.png, id=179, 564.6696pt x 444.2196pt>
+Package pdftex.def Info: 5_Cp.png  used on input line 165.
+(pdftex.def)             Requested size: 281.85587pt x 229.86769pt.
+ [8 <./4_Texp.png>]
+<6_size.png, id=181, 684.5575pt x 548.0475pt>
 File: 6_size.png Graphic file (type png)
 <use 6_size.png>
-Package pdftex.def Info: 6_size.png  used on input line 181.
-(pdftex.def)             Requested size: 281.85587pt x 221.73645pt.
- [9 <./6_size.png>]
-<7_void.png, id=193, 163.3302pt x 164.2938pt>
+Package pdftex.def Info: 6_size.png  used on input line 179.
+(pdftex.def)             Requested size: 281.85587pt x 225.65425pt.
+<7_void.png, id=182, 163.3302pt x 164.2938pt>
 File: 7_void.png Graphic file (type png)
 <use 7_void.png>
-Package pdftex.def Info: 7_void.png  used on input line 191.
+Package pdftex.def Info: 7_void.png  used on input line 187.
 (pdftex.def)             Requested size: 281.85587pt x 283.54747pt.
-<8_Esurf.png, id=194, 519.8622pt x 414.348pt>
+ [9 <./5_Cp.png>] [10 <./6_size.png> <./7_void.png>]
+<8_Esurf.png, id=200, 615.29875pt x 539.01375pt>
 File: 8_Esurf.png Graphic file (type png)
 <use 8_Esurf.png>
 Package pdftex.def Info: 8_Esurf.png  used on input line 199.
-(pdftex.def)             Requested size: 281.85587pt x 224.65501pt.
-<9_u23void.png, id=198, 523.7166pt x 428.3202pt>
-File: 9_u23void.png Graphic file (type png)
-<use 9_u23void.png>
-Package pdftex.def Info: 9_u23void.png  used on input line 210.
-(pdftex.def)             Requested size: 281.85587pt x 230.5248pt.
- [10 <./7_void.png> <./8_Esurf.png>]
-[11 <./9_u23void.png>]
-<10_free.png, id=213, 550.6974pt x 440.3652pt>
-File: 10_free.png Graphic file (type png)
-<use 10_free.png>
-Package pdftex.def Info: 10_free.png  used on input line 220.
-(pdftex.def)             Requested size: 281.85587pt x 225.38289pt.
- [12 <./10_free.png>]
-<11_plot_porosity_var_gamma.pdf, id=230, 424.60286pt x 331.02206pt>
-File: 11_plot_porosity_var_gamma.pdf Graphic file (type pdf)
-<use 11_plot_porosity_var_gamma.pdf>
-Package pdftex.def Info: 11_plot_porosity_var_gamma.pdf  used on input line 250
+(pdftex.def)             Requested size: 281.85587pt x 246.91301pt.
+ [11 <./8_Esurf.png>]
+<9_entropy_energy.png, id=212, 1045.9075pt x 423.5825pt>
+File: 9_entropy_energy.png Graphic file (type png)
+<use 9_entropy_energy.png>
+Package pdftex.def Info: 9_entropy_energy.png  used on input line 211.
+(pdftex.def)             Requested size: 422.77664pt x 171.22034pt.
+
+[12 <./9_entropy_energy.png>] [13]
+<10_plot_porosity_var_gamma.png, id=239, 424.4658pt x 330.9966pt>
+File: 10_plot_porosity_var_gamma.png Graphic file (type png)
+<use 10_plot_porosity_var_gamma.png>
+Package pdftex.def Info: 10_plot_porosity_var_gamma.png  used on input line 243
 .
-(pdftex.def)             Requested size: 289.07999pt x 225.36981pt.
- [13 <./11_plot_porosity_var_gamma.pdf>] (./uzr_surfMD.bbl [14] [15])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+(pdftex.def)             Requested size: 289.07999pt x 225.43329pt.
+ [14 <./10_plot_porosity_var_gamma.png>]
+(./uzr_surfMD.bbl [15])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./uzr_surfMD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
 Package rerunfilecheck Info: File `uzr_surfMD.out' has not changed.
 (rerunfilecheck)             Checksum: 4D947ED1FD3C9AE7340E3349F03E1C8B;521.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
  ) 
 Here is how much of TeX's memory you used:
- 7190 strings out of 492616
- 103023 string characters out of 6129482
- 209749 words of memory out of 5000000
- 10959 multiletter control sequences out of 15000+600000
+ 7183 strings out of 492616
+ 102938 string characters out of 6129482
+ 208790 words of memory out of 5000000
+ 10954 multiletter control sequences out of 15000+600000
  10025 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2926b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on uzr_surfMD.pdf (16 pages, 1397485 bytes).
+ 32i,9n,32p,2846b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on uzr_surfMD.pdf (16 pages, 2233568 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

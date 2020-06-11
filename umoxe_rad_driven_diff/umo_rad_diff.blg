@@ -1,49 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: umo_rad_diff.aux
 The style file: elsarticle-num.bst
 Database file #1: MARMOTbib.bib
-Warning--I didn't find a database entry for "cooperUSidiff"
-Warning--empty title in adda1958
-You've used 34 entries,
-            2937 wiz_defined-function locations,
-            867 strings with 11052 characters,
-and the built_in function-call counts, 9556 in all, are:
-= -- 784
-> -- 577
+You've used 38 entries,
+            2952 wiz_defined-function locations,
+            889 strings with 11994 characters,
+and the built_in function-call counts, 10788 in all, are:
+= -- 883
+> -- 629
 < -- 6
-+ -- 215
-- -- 181
-* -- 716
-:= -- 1520
-add.period$ -- 34
-call.type$ -- 34
-change.case$ -- 33
++ -- 235
+- -- 197
+* -- 793
+:= -- 1684
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 276
-empty$ -- 911
-format.name$ -- 213
-if$ -- 2361
+cite$ -- 38
+duplicate$ -- 307
+empty$ -- 1068
+format.name$ -- 232
+if$ -- 2685
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 28
-newline$ -- 110
-num.names$ -- 34
-pop$ -- 174
+int.to.str$ -- 38
+missing$ -- 33
+newline$ -- 122
+num.names$ -- 38
+pop$ -- 199
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 581
+skip$ -- 682
 stack$ -- 0
-substring$ -- 268
-swap$ -- 40
+substring$ -- 329
+swap$ -- 43
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 63
-width$ -- 36
-write$ -- 284
-(There were 2 warnings)
+warning$ -- 0
+while$ -- 71
+width$ -- 40
+write$ -- 316

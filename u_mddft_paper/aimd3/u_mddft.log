@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 JAN 2020 09:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  11 JUN 2020 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -669,26 +669,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [3] [4 <./1_convergence.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 89.
+(hyperref)                removing `\gamma' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 93.
 
 [5]
-<2_p_vs_v.png, id=180, 755.82375pt x 583.17876pt>
+<2_p_vs_v.png, id=179, 755.82375pt x 583.17876pt>
 File: 2_p_vs_v.png Graphic file (type png)
 <use 2_p_vs_v.png>
-Package pdftex.def Info: 2_p_vs_v.png  used on input line 97.
+Package pdftex.def Info: 2_p_vs_v.png  used on input line 101.
 (pdftex.def)             Requested size: 352.31625pt x 271.84271pt.
-<3_thermal_exp.png, id=181, 739.76375pt x 594.22pt>
+<3_thermal_exp.png, id=180, 739.76375pt x 594.22pt>
 File: 3_thermal_exp.png Graphic file (type png)
 <use 3_thermal_exp.png>
-Package pdftex.def Info: 3_thermal_exp.png  used on input line 104.
+Package pdftex.def Info: 3_thermal_exp.png  used on input line 108.
 (pdftex.def)             Requested size: 352.31625pt x 283.00093pt.
 
 
@@ -702,7 +702,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <4_rdf.png, id=205, 711.65875pt x 589.20125pt>
 File: 4_rdf.png Graphic file (type png)
 <use 4_rdf.png>
-Package pdftex.def Info: 4_rdf.png  used on input line 138.
+Package pdftex.def Info: 4_rdf.png  used on input line 142.
 (pdftex.def)             Requested size: 375.80544pt x 311.13338pt.
 
 
@@ -711,21 +711,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 145.
+(hyperref)                removing `math shift' on input line 149.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 145.
+(hyperref)                removing `\gamma' on input line 149.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 145.
+(hyperref)                removing `math shift' on input line 149.
 
 [9 <./4_rdf.png>]
 <5_eform.png, id=254, 692.5875pt x 539.01375pt>
 File: 5_eform.png Graphic file (type png)
 <use 5_eform.png>
-Package pdftex.def Info: 5_eform.png  used on input line 157.
+Package pdftex.def Info: 5_eform.png  used on input line 161.
 (pdftex.def)             Requested size: 352.31625pt x 274.2025pt.
 
 
@@ -737,25 +737,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [10] [11 <./5_eform.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 183.
+(hyperref)                removing `math shift' on input line 187.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 183.
+(hyperref)                removing `\gamma' on input line 187.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 183.
+(hyperref)                removing `math shift' on input line 187.
 
 <msd.png, id=276, 1319.93124pt x 563.10374pt>
 File: msd.png Graphic file (type png)
 <use msd.png>
-Package pdftex.def Info: msd.png  used on input line 189.
+Package pdftex.def Info: msd.png  used on input line 193.
 (pdftex.def)             Requested size: 422.77664pt x 180.36012pt.
 <diff.png, id=277, 759.83875pt x 615.29875pt>
 File: diff.png Graphic file (type png)
 <use diff.png>
-Package pdftex.def Info: diff.png  used on input line 196.
+Package pdftex.def Info: diff.png  used on input line 200.
 (pdftex.def)             Requested size: 352.31625pt x 285.30353pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -766,28 +766,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <self_diff.png, id=306, 739.76375pt x 617.30624pt>
 File: self_diff.png Graphic file (type png)
 <use self_diff.png>
-Package pdftex.def Info: self_diff.png  used on input line 230.
+Package pdftex.def Info: self_diff.png  used on input line 234.
 (pdftex.def)             Requested size: 352.31625pt x 293.9959pt.
  [14 <./self_diff.png>] [15] (./u_mddft.bbl
 [16] [17] [18])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
  [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./u_mddft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `u_mddft.out' has not changed.
 (rerunfilecheck)             Checksum: 16D63CAA627F5EA4B9C14AB1AE0784ED;559.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
  16720 strings out of 492616
  286119 string characters out of 6129482
- 354825 words of memory out of 5000000
+ 354811 words of memory out of 5000000
  20437 multiletter control sequences out of 15000+600000
  538072 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -812,7 +812,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on u_mddft.pdf (19 pages, 1503745 bytes).
+Output written on u_mddft.pdf (19 pages, 1503806 bytes).
 PDF statistics:
  432 PDF objects out of 1000 (max. 8388607)
  367 compressed objects within 4 object streams

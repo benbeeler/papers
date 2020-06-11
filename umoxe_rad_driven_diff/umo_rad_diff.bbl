@@ -21,7 +21,7 @@ J.~Rest, G.~Hofman, Y.~Kim, Analysis of intergranular fission-gas bubble-size
 
 \bibitem{kim_anl08}
 Y.~Kim, G.~Hofman, J.~Rest, G.~Shevlyakov, Characterization of intergranular
-  fission gas bubbles in u-mo fuel, Tech. Rep. ANL-08/11, Argonne National
+  fission gas bubbles in {U-Mo} fuel, Tech. Rep. ANL-08/11, Argonne National
   Laboratory (2008).
 
 \bibitem{meyer2002}
@@ -31,67 +31,64 @@ M.~Meyer, G.~Hofman, S.~Hayes, C.~Clark, T.~Wiencek, J.~Snelgrove, R.~Strain,
 
 \bibitem{kim2013}
 Y.~Kim, G.~Hofman, J.~Cheon, A.~Robinson, D.~Wachs, Fission induced swelling
-  and creep of u-mo alloy fuel, J. Nucl. Mater. 437 (2013) 37.
+  and creep of {U-Mo} alloy fuel, J. Nucl. Mater. 437 (2013) 37.
 
 \bibitem{kim2011}
-Y.~Kim, G.~Hofman, Fission product induced swelling of u-mo alloy fuel, J.
+Y.~Kim, G.~Hofman, Fission product induced swelling of {U-Mo} alloy fuel, J.
   Nucl. Mater. 419 (2011) 291.
 
 \bibitem{umo_prelim_report2017}
 M.~Meyer, B.~Rabin, J.~Cole, I.~Glagolenko, W.~Jones, J.-F. Jue, J.~D.~Keiser,
   C.~Miller, G.~Moore, H.~Ozaltun, F.~Rice, A.~Robinson, J.~Smith, D.~Wachs,
-  W.~Williams, N.~Woolstenhulme, Preliminary report on u-mo monolithic fuel for
-  research reactors, Tech. Rep. INL/EXT-17-40975, Idaho National Laboratory
+  W.~Williams, N.~Woolstenhulme, Preliminary report on {U-Mo} monolithic fuel
+  for research reactors, Tech. Rep. INL/EXT-17-40975, Idaho National Laboratory
   (2017).
 
 \bibitem{afip6report}
-W.~Williams, F.~Rice, A.~Robinson, M.~Meyer, B.~Rabin, Afip-6 mkii
+W.~Williams, F.~Rice, A.~Robinson, M.~Meyer, B.~Rabin, {AFIP-6 MKII}
   post-irradiation examination summary report, Tech. Rep. INL/LTD-15-34142,
   Idaho National Laboratory (2015).
 
 \bibitem{liang2018}
 L.~Liang, Y.~Kim, Z.-G. Mei, L.~Aagesen, A.~Yacout, Fission gas bubbles and
   recrystallization-induced degradation of the effective thermal conductivity
-  in u-7mo fuels, J. Nucl. Mater. 511 (2018) 438.
+  in {U-7Mo} fuels, J. Nucl. Mater. 511 (2018) 438.
 
 \bibitem{liang2018a}
 L.~Liang, Z.-G. Mei, Y.~Kim, M.~Anitescu, A.~Yacout, Three-dimensional
   phase-field simulations of intragranular gas bubble evolution in irradiated
-  u-mo fuel, Comp. Mat. Sci. 145 (2018) 86.
+  {U-Mo} fuel, Comp. Mat. Sci. 145 (2018) 86.
 
 \bibitem{liang2017}
 L.~Liang, Z.-G. Mei, A.~Yacout, Fission-induced recrystallization effect on
-  intergranular bubble-driven swelling in u-mo fuel, Comp. Mat. Sci. 138 (2017)
-  16.
+  intergranular bubble-driven swelling in {U-Mo} fuel, Comp. Mat. Sci. 138
+  (2017) 16.
 
 \bibitem{liang2016}
 L.~Liang, Z.-G. Mei, Y.~Kim, B.~Ye, G.~Hofman, M.~Anitescu, A.~Yacout,
-  Mesoscale model for fission-induced recrystallization in u-7mo alloy, Comp.
+  Mesoscale model for fission-induced recrystallization in {U-7Mo} alloy, Comp.
   Mat. Sci. 124 (2016) 228.
 
 \bibitem{ye2018}
 B.~Ye, G.~Hofman, A.~Leenaers, A.~Bergeron, V.~Kuzminov, S.~V. den Berghe,
   Y.~Kim, H.~Wallin, A modelling study of the inter-diffusion layer formation
-  in u-mo/al dispersion fuel plates at high power, J. Nucl. Mater. 499 (2018)
+  in {U-Mo/Al} dispersion fuel plates at high power, J. Nucl. Mater. 499 (2018)
   191.
 
 \bibitem{hu2017a}
 S.~Hu, V.~Joshi, C.~Lavender, A rate-theory--phase-field model of
-  irradiation-induced recrystallization in umo nuclear fuels, JOM 69 (2017)
+  irradiation-induced recrystallization in {UMo} nuclear fuels, JOM 69 (2017)
   2554.
 
 \bibitem{hu2016}
 S.~Hu, D.~Burkes, C.~Lavender, V.~Joshi, Effect of grain morphology on gas
-  bubble swelling in umo fuels -- a 3d microstructure dependent booth model, J.
-  Nucl. Mater. 480 (2016) 323.
+  bubble swelling in {UMo} fuels -- a 3d microstructure dependent booth model,
+  J. Nucl. Mater. 480 (2016) 323.
 
 \bibitem{hu2016a}
 S.~Hu, D.~Burkes, C.~Lavender, D.~Senor, W.~Setyawan, Z.~Xu, Formation
-  mechanism of gas bubble superlattice in umo metal fuels: Phase-field modeling
-  investigation, J. Nucl. Mater. 479 (2016) 202.
-
-\bibitem{adda1958}
-Y.~Adda, A.~Kirianenko, Compt. Rend. 246 (1958) 113.
+  mechanism of gas bubble superlattice in {UMo} metal fuels: Phase-field
+  modeling investigation, J. Nucl. Mater. 479 (2016) 202.
 
 \bibitem{adda1962}
 Y.~Adda, A.~Kirianenko, Abaissement des coefficients d'autodiffusion de
@@ -99,7 +96,7 @@ Y.~Adda, A.~Kirianenko, Abaissement des coefficients d'autodiffusion de
   niobium, J. Nucl. Mater. 6 (1962) 135.
 
 \bibitem{lundberg1989}
-L.~Lundberg, High-temperature interdiffusion and phase equilibria in u-mo, J.
+L.~Lundberg, High-temperature interdiffusion and phase equilibria in {U-Mo}, J.
   Nucl. Mater. 167 (1989) 64.
 
 \bibitem{huang2013}
@@ -121,8 +118,28 @@ D.~Andersson, P.~Garcia, X.-Y. Liu, G.~Pastore, M.~Tonks, P.~Millett,
 
 \bibitem{cooper2016}
 M.~Cooper, C.~Stanek, J.~Turnbull, B.~Uberuaga, D.~Andersson, Simulation of
-  radiation driven fission gas diffusion in uo2, tho2 and puo2, J. Nucl. Mater.
-  481 (2016) 125.
+  radiation driven fission gas diffusion in {UO2}, {ThO2} and {PuO2}, J. Nucl.
+  Mater. 481 (2016) 125.
+
+\bibitem{matthews_cluster_2019}
+C.~Matthews, R.~Perriot, M.~W.~D. Cooper, C.~R. Stanek, D.~A. Andersson,
+  Cluster dynamics simulation of uranium self-diffusion during irradiation in
+  {UO2}, Journal of Nuclear Materials 527 (2019) 151787.
+
+\bibitem{perriot_atomistic_2019}
+R.~Perriot, C.~Matthews, M.~W.~D. Cooper, B.~P. Uberuaga, C.~R. Stanek, D.~A.
+  Andersson, Atomistic modeling of out-of-pile xenon diffusion by vacancy
+  clusters in {UO2}, Journal of Nuclear Materials 520 (2019) 96--109.
+
+\bibitem{wormald2015}
+J.~Wormald, A.~Hawari, Examination of the impact of electron-phonon coupling on
+  fission enhanced diffusion in uranium dioxide using classical molecular
+  dynamics, J. Mater. Res. 30 (2015) 1485.
+
+\bibitem{martin2009}
+G.~Martin, S.~Maillard, L.~V. {B}rutzel, P.~Garcia, B.~Dorado, C.~Valot, A
+  molecular dynamics study of radiation induced diffusion in uranium dioxide,
+  J. Nucl. Mater. 385 (2009) 351.
 
 \bibitem{plimpton1995}
 S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
@@ -132,6 +149,10 @@ S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
 D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Z.~Insepov, J.~Rest,
   A.~Yacout, A ternary eam interatomic potential for u-mo alloys with xenon,
   Modelling Simul. Mater. Sci. Eng. 21 (2013) 035011.
+
+\bibitem{zbl}
+J.~Ziegler, J.~Biersack, U.~Littmark, Stopping and Ranges of Ions in Matter,
+  Pergamon Press, 1985.
 
 \bibitem{gjf2013}
 N.~Gronbech-Jensen, O.~Farago, A simple and effective verlet-type algorithm for
@@ -154,10 +175,10 @@ W.~Brandt, M.~Kitigawa, Effective stopping-power charges of swift ions in
 J.~Rest, Y.~Kim, G.~Hofman, M.~Meyer, S.~Hayes, U-mo fuels handbook, Tech. Rep.
   ANL-09/31, Argonne National Laboratory (2006).
 
-\bibitem{moore2015}
-A.~Moore, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic modeling of
-  high temperature uranium-zirconium alloy structure and thermodynamics, J.
-  Nucl. Mater. 467 (2015) 802.
+\bibitem{ovito}
+A.~Stukowski, Visualization and analysis of atomis simulation data with ovito -
+  the open visulaization tool, Modeling and Simulation of Materials Science and
+  Engineering 18 (2010) 015012.
 
 \bibitem{ushprr17}
 S.~Hu, V.~Joshi, C.~Lavendar, N.~Lombardo, J.~Wight, B.~Ye, Z.-G. Mei,
