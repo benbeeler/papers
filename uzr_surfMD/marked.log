@@ -459,114 +459,166 @@ Package gensymb Warning: Not defining \micro.
 
 \c@lstlisting=\count142
 
+Overfull \hbox (2.22221pt too wide) has occurred while \output is acti0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \celsius on input line 101.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 101
+.
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 101.
+Package gensymb Info: Using \Omega for \ohm on input line 101.
+
+Package gensymb Warning: Not defining \micro.
+
+\c@lstlisting=\count143
+
+Package natbib Warning: Citation `hofman1997' on page 1 undefined on input line
+ 133.
+
+
+Package natbib Warning: Citation `capriotti2017' on page 1 undefined on input l
+ine 133.
+
+
+Package natbib Warning: Citation `ogata2012' on page 1 undefined on input line 
+135.
+
+
+Package natbib Warning: Citation `beck1968' on page 1 undefined on input line 1
+35.
+
+
+Package natbib Warning: Citation `hofman1997' on page 1 undefined on input line
+ 135.
+
+
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 139.
+(hyperref)                removing `\gamma' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 139.
+(hyperref)                removing `\<def>-command' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 139.
+(hyperref)                removing `\cnotenum' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 139.
+(hyperref)                removing `\<def>-command' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 139.
+(hyperref)                removing `\@corref' on input line 136.
 
 [1
 
 
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex: pop empty color page stack 0
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex: pop empty color page stack 0
-
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 215.
+Package natbib Warning: Citation `hofman1990' on page 2 undefined on input line
+ 137.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 215.
+Package natbib Warning: Citation `kobayashi1990' on page 2 undefined on input l
+ine 137.
 
-<1_Eperat.png, id=134, 1065.9825pt x 431.6125pt>
-File: 1_Eperat.png Graphic file (type png)
-<use 1_Eperat.png>
-Package pdftex.def Info: 1_Eperat.png  used on input line 227.
-(pdftex.def)             Requested size: 422.77664pt x 171.17987pt.
-<2_Efperat.png, id=136, 625.33624pt x 495.8525pt>
-File: 2_Efperat.png Graphic file (type png)
-<use 2_Efperat.png>
-Package pdftex.def Info: 2_Efperat.png  used on input line 235.
-(pdftex.def)             Requested size: 281.85587pt x 223.49474pt.
-<3_Vperat.png, id=137, 665.48625pt x 528.97626pt>
-File: 3_Vperat.png Graphic file (type png)
-<use 3_Vperat.png>
-Package pdftex.def Info: 3_Vperat.png  used on input line 243.
-(pdftex.def)             Requested size: 281.85587pt x 224.04109pt.
-[5] [6 <./1_Eperat.png> <./2_Efperat.png>] [7 <./3_Vperat.png>]
-<4_Texp.png, id=173, 654.445pt x 547.04375pt>
-File: 4_Texp.png Graphic file (type png)
-<use 4_Texp.png>
-Package pdftex.def Info: 4_Texp.png  used on input line 256.
-(pdftex.def)             Requested size: 281.85587pt x 235.59984pt.
-<5_Cp.png, id=174, 685.56125pt x 559.08875pt>
-File: 5_Cp.png Graphic file (type png)
-<use 5_Cp.png>
-Package pdftex.def Info: 5_Cp.png  used on input line 265.
-(pdftex.def)             Requested size: 281.85587pt x 229.86769pt.
- [8 <./4_Texp.png>]
-<6_size.png, id=183, 684.5575pt x 548.0475pt>
-File: 6_size.png Graphic file (type png)
-<use 6_size.png>
-Package pdftex.def Info: 6_size.png  used on input line 296.
-(pdftex.def)             Requested size: 281.85587pt x 225.65425pt.
-<7_void.png, id=184, 163.3302pt x 164.2938pt>
-File: 7_void.png Graphic file (type png)
-<use 7_void.png>
-Package pdftex.def Info: 7_void.png  used on input line 304.
-(pdftex.def)             Requested size: 281.85587pt x 283.54747pt.
- [9 <./5_Cp.png>] [10 <./6_size.png> <./7_void.png>]
-<8_Esurf.png, id=202, 615.29875pt x 539.01375pt>
-File: 8_Esurf.png Graphic file (type png)
-<use 8_Esurf.png>
-Package pdftex.def Info: 8_Esurf.png  used on input line 330.
-(pdftex.def)             Requested size: 281.85587pt x 246.91301pt.
- [11 <./8_Esurf.png>]
-<9_entropy_energy.png, id=214, 1045.9075pt x 423.5825pt>
-File: 9_entropy_energy.png Graphic file (type png)
-<use 9_entropy_energy.png>
-Package pdftex.def Info: 9_entropy_energy.png  used on input line 358.
-(pdftex.def)             Requested size: 422.77664pt x 171.22034pt.
 
-[12 <./9_entropy_energy.png>] [13]
-<10_plot_porosity_var_gamma.png, id=241, 424.4658pt x 330.9966pt>
-File: 10_plot_porosity_var_gamma.png Graphic file (type png)
+Package natbib Warning: Citation `kim2004' on page 2 undefined on input line 13
+7.
+
+
+Package natbib Warning: Citation `handbook1' on page 2 undefined on input line 
+139.
+
+
+Package natbib Warning: Citation `janney2018' on page 2 undefined on input line
+ 139.
+
+
+Package natbib Warning: Citation `beeler2010' on page 2 undefined on input line
+ 139.
+
+
+Package natbib Warning: Citation `moore2015' on page 2 undefined on input line 
+139.
+
+
+Package natbib Warning: Citation `plimpton1995' on page 2 undefined on input li
+ne 145.
+
+
+Package natbib Warning: Citation `moore2015' on page 2 undefined on input line 
+145.
+
+
+Package natbib Warning: Citation `moore2015' on page 2 undefined on input line 
+145.
+
+
+Package natbib Warning: Citation `dynamo' on page 2 undefined on input line 145
+.
+
+[2]
+
+LaTeX Warning: Reference `eq1' on page 3 undefined on input line 149.
+
+
+LaTeX Warning: Reference `eq2' on page 3 undefined on input line 154.
+
+
+LaTeX Warning: Reference `eq3' on page 3 undefined on input line 159.
+
+./marked.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164 }
+       \DIFdelend \DIFaddbegin \DIFadd{\frac{H_2 - H_1}{T_2-T_1}
+? 
+./marked.tex:164: Emergency stop.
+<inserted text> 
+                $
+l.164 }
+       \DIFdelend \DIFaddbegin \DIFadd{\frac{H_2 - H_1}{T_2-T_1}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 8477 strings out of 492616
+ 121517 string characters out of 6129482
+ 228649 words of memory out of 5000000
+ 12307 multiletter control sequences out of 15000+600000
+ 9118 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 32i,9n,32p,1428b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+./marked.tex:164:  ==> Fatal error occurred, no output PDF file produced!
+ (type png)
 <use 10_plot_porosity_var_gamma.png>
 Package pdftex.def Info: 10_plot_porosity_var_gamma.png  used on input line 407
 .

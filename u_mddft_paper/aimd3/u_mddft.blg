@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: u_mddft.aux
 The style file: elsarticle-num.bst
 Database file #1: MARMOTbib.bib
-You've used 54 entries,
-            2937 wiz_defined-function locations,
-            973 strings with 12012 characters,
+You've used 53 entries,
+            2952 wiz_defined-function locations,
+            971 strings with 11930 characters,
 and the built_in function-call counts, 13924 in all, are:
-= -- 1280
-> -- 498
+= -- 1262
+> -- 497
 < -- 3
-+ -- 202
++ -- 201
 - -- 148
-* -- 931
-:= -- 2026
-add.period$ -- 54
-call.type$ -- 54
-change.case$ -- 51
+* -- 924
+:= -- 2006
+add.period$ -- 53
+call.type$ -- 53
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 424
-empty$ -- 1545
+cite$ -- 53
+duplicate$ -- 419
+empty$ -- 1576
 format.name$ -- 194
-if$ -- 3611
+if$ -- 3615
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 53
 missing$ -- 54
-newline$ -- 170
+newline$ -- 167
 num.names$ -- 53
-pop$ -- 285
+pop$ -- 280
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 916
+skip$ -- 953
 stack$ -- 0
 substring$ -- 666
-swap$ -- 54
+swap$ -- 53
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 101
-width$ -- 56
-write$ -- 436
+width$ -- 55
+write$ -- 431
