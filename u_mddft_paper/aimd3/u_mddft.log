@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  11 JUN 2020 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  22 JUN 2020 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -500,7 +500,22 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count280
+\c@@ppsavesec=\count281
+\c@@ppsaveapp=\count282
+)
 (./u_mddft.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `tab:bulk' multiply defined.
+
 
 LaTeX Warning: Label `default' multiply defined.
 
@@ -510,32 +525,32 @@ LaTeX Warning: Label `default' multiply defined.
 )
 \openout1 = `u_mddft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
+\scratchcounter=\count283
 \scratchdimen=\dimen168
 \scratchbox=\box55
-\nofMPsegments=\count281
-\nofMParguments=\count282
+\nofMPsegments=\count284
+\nofMParguments=\count285
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count283
+\MPscratchCnt=\count286
 \MPscratchDim=\dimen169
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -555,7 +570,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -563,11 +578,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count286
+\c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./u_mddft.out) (./u_mddft.out)
 \@outlinefile=\write5
@@ -608,14 +623,14 @@ LaTeX Info: Redefining \nameref on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 16.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
+LaTeX Info: Redefining \celsius on input line 17.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 17.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 16.
-Package gensymb Info: Using \Omega for \ohm on input line 16.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \Omega for \ohm on input line 17.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -626,41 +641,41 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
+(hyperref)                removing `math shift' on input line 45.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 42.
+(hyperref)                removing `\gamma' on input line 45.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
+(hyperref)                removing `math shift' on input line 45.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 42.
+(hyperref)                removing `\<def>-command' on input line 45.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 42.
+(hyperref)                removing `\cnotenum' on input line 45.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 42.
+(hyperref)                removing `\<def>-command' on input line 45.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 42.
+(hyperref)                removing `\@corref' on input line 45.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-<1_convergence.png, id=127, 1026.83624pt x 425.59pt>
+<1_convergence.png, id=129, 1026.83624pt x 425.59pt>
 File: 1_convergence.png Graphic file (type png)
 <use 1_convergence.png>
-Package pdftex.def Info: 1_convergence.png  used on input line 54.
+Package pdftex.def Info: 1_convergence.png  used on input line 57.
 (pdftex.def)             Requested size: 446.26582pt x 184.9613pt.
 
 
@@ -669,26 +684,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [3] [4 <./1_convergence.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 88.
+(hyperref)                removing `math shift' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 88.
+(hyperref)                removing `\gamma' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 88.
+(hyperref)                removing `math shift' on input line 91.
 
 [5]
-<2_p_vs_v.png, id=183, 755.82375pt x 583.17876pt>
+<2_p_vs_v.png, id=185, 755.82375pt x 583.17876pt>
 File: 2_p_vs_v.png Graphic file (type png)
 <use 2_p_vs_v.png>
-Package pdftex.def Info: 2_p_vs_v.png  used on input line 96.
+Package pdftex.def Info: 2_p_vs_v.png  used on input line 99.
 (pdftex.def)             Requested size: 352.31625pt x 271.84271pt.
-<3_thermal_exp.png, id=184, 739.76375pt x 594.22pt>
+<3_thermal_exp.png, id=186, 739.76375pt x 594.22pt>
 File: 3_thermal_exp.png Graphic file (type png)
 <use 3_thermal_exp.png>
-Package pdftex.def Info: 3_thermal_exp.png  used on input line 103.
+Package pdftex.def Info: 3_thermal_exp.png  used on input line 106.
 (pdftex.def)             Requested size: 352.31625pt x 283.00093pt.
 
 
@@ -699,10 +714,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./3_thermal_exp.png>]
-<4_rdf.png, id=210, 711.65875pt x 589.20125pt>
+<4_rdf.png, id=212, 711.65875pt x 589.20125pt>
 File: 4_rdf.png Graphic file (type png)
 <use 4_rdf.png>
-Package pdftex.def Info: 4_rdf.png  used on input line 137.
+Package pdftex.def Info: 4_rdf.png  used on input line 140.
 (pdftex.def)             Requested size: 375.80544pt x 311.13338pt.
 
 
@@ -711,22 +726,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 144.
+(hyperref)                removing `math shift' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 144.
+(hyperref)                removing `\gamma' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 144.
+(hyperref)                removing `math shift' on input line 147.
 
 [9 <./4_rdf.png>]
-<5_eform.png, id=259, 692.5875pt x 539.01375pt>
+<5_eform.png, id=259, 728.7225pt x 577.15625pt>
 File: 5_eform.png Graphic file (type png)
 <use 5_eform.png>
-Package pdftex.def Info: 5_eform.png  used on input line 156.
-(pdftex.def)             Requested size: 352.31625pt x 274.2025pt.
+Package pdftex.def Info: 5_eform.png  used on input line 159.
+(pdftex.def)             Requested size: 352.31625pt x 279.03096pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -734,66 +749,96 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 182.
+(hyperref)                removing `math shift' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 182.
+(hyperref)                removing `\gamma' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 182.
+(hyperref)                removing `math shift' on input line 168.
 
-<msd.png, id=275, 1319.93124pt x 563.10374pt>
-File: msd.png Graphic file (type png)
-<use msd.png>
-Package pdftex.def Info: msd.png  used on input line 188.
-(pdftex.def)             Requested size: 422.77664pt x 180.36012pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<diff.png, id=276, 759.83875pt x 615.29875pt>
-File: diff.png Graphic file (type png)
-<use diff.png>
-Package pdftex.def Info: diff.png  used on input line 195.
-(pdftex.def)             Requested size: 352.31625pt x 285.30353pt.
+<6_msd.png, id=274, 935.495pt x 403.5075pt>
+File: 6_msd.png Graphic file (type png)
+<use 6_msd.png>
+Package pdftex.def Info: 6_msd.png  used on input line 176.
+(pdftex.def)             Requested size: 422.77664pt x 182.35863pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./5_eform.png>] [12 <./msd.png> <./diff.png>]
-<self_diff.png, id=304, 739.76375pt x 617.30624pt>
-File: self_diff.png Graphic file (type png)
-<use self_diff.png>
-Package pdftex.def Info: self_diff.png  used on input line 231.
-(pdftex.def)             Requested size: 352.31625pt x 293.9959pt.
+<7_trajectories.png, id=275, 752.8125pt x 415.5525pt>
+File: 7_trajectories.png Graphic file (type png)
+<use 7_trajectories.png>
+Package pdftex.def Info: 7_trajectories.png  used on input line 183.
+(pdftex.def)             Requested size: 422.77664pt x 233.37993pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./5_eform.png>] [12 <./6_msd.png> <./7_trajectories.png>]
+<8_diff.png, id=291, 726.715pt x 581.17125pt>
+File: 8_diff.png Graphic file (type png)
+<use 8_diff.png>
+Package pdftex.def Info: 8_diff.png  used on input line 194.
+(pdftex.def)             Requested size: 352.31625pt x 281.7613pt.
+ [13
+
+ <./8_diff.png>]
+<9_self_diff.png, id=314, 660.4675pt x 507.8975pt>
+File: 9_self_diff.png Graphic file (type png)
+<use 9_self_diff.png>
+Package pdftex.def Info: 9_self_diff.png  used on input line 232.
+(pdftex.def)             Requested size: 352.31625pt x 270.93587pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13
+[14] [15 <./9_self_diff.png>]pdfTeX warning (ext4): destination with the same i
+dentifier (name{table.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.261 ...tant in $\gamma$-U from 900 K to 1400 K.}
+                                                   \label{tab:alat}
 
-] [14 <./self_diff.png>] (./u_mddft.bbl [15] [16] [17])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
- [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.285 ...ulus in $\gamma$-U from 900 K to 1400 K.}
+                                                   \label{tab:bulk}
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17] [18] (./u_mddft.bbl [19
+
+] [20] [21])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
  (./u_mddft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
 Package rerunfilecheck Info: File `u_mddft.out' has not changed.
-(rerunfilecheck)             Checksum: 4BB47FC0371CE0720A7D64499D079AFC;569.
+(rerunfilecheck)             Checksum: 8DD3C1460B6CDCC65F3FC9A4D07F935A;563.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
  ) 
 Here is how much of TeX's memory you used:
- 16715 strings out of 492616
- 286067 string characters out of 6129482
- 354798 words of memory out of 5000000
- 20434 multiletter control sequences out of 15000+600000
+ 16827 strings out of 492616
+ 287699 string characters out of 6129482
+ 357460 words of memory out of 5000000
+ 20535 multiletter control sequences out of 15000+600000
  538072 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,63p,2546b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,63p,2625b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -814,10 +859,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on u_mddft.pdf (18 pages, 1503442 bytes).
+Output written on u_mddft.pdf (22 pages, 2198503 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 382 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

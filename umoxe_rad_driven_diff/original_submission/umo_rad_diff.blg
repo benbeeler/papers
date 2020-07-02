@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: umo_rad_diff.aux
+The style file: elsarticle-num.bst
+Database file #1: MARMOTbib.bib
+You've used 38 entries,
+            2952 wiz_defined-function locations,
+            889 strings with 11994 characters,
+and the built_in function-call counts, 10788 in all, are:
+= -- 883
+> -- 629
+< -- 6
++ -- 235
+- -- 197
+* -- 793
+:= -- 1684
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 307
+empty$ -- 1068
+format.name$ -- 232
+if$ -- 2685
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 33
+newline$ -- 122
+num.names$ -- 38
+pop$ -- 199
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 682
+stack$ -- 0
+substring$ -- 329
+swap$ -- 43
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 71
+width$ -- 40
+write$ -- 316
