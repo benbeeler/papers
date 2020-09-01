@@ -1,0 +1,95 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{hofman1997}
+G.~Hofman, L.~Walters, T.~Bauer, Metallic fast reactor fuels, Progress in
+  Nuclear Energy 31 (1997) 83.
+
+\bibitem{capriotti2017}
+L.~Capriotti, S.~Bremier, K.~Inagaki, P.~Poml, D.~Papaioannou, H.~Ohta,
+  T.~Ogata, V.~Rondinella, Characterization of metallic fuel for minor
+  actinides transmutation in fast reactor, Progress in Nuclear Energy 94 (2017)
+  194.
+
+\bibitem{ogata2012}
+T.~Allen, R.~Stoller, S.~Yamanaka, Comprehensive Nuclear Materials, Elsevier,
+  2012.
+
+\bibitem{beck1968}
+W.~Beck, R.~Fousek, J.~Kittel, The irradiation behavior of high-burnup
+  uranium-plutonium alloy prototype fuel elements, Tech. Rep. ANL-7388, Argonne
+  National Laboratory (1968).
+
+\bibitem{hofman1990}
+G.~Hofman, R.~Paul, C.~Lahm, D.~Porter, Swelling behavior of {U-Pu-Zr} fuel,
+  Metall. Trans. A 21A (1990) 517.
+
+\bibitem{kobayashi1990}
+T.~Kobayashi, M.~Kinoshita, S.~Hattori, Development of the sesami metallic fuel
+  performance code, Nucl. Tech. 89 (1990) 183.
+
+\bibitem{kim2004}
+Y.~Kim, G.~Hofman, S.~Hayes, Y.~Sohn, Constituent redistribution in {U-Pu-Zr}
+  fuel during irradiation, J. Nucl. Mater. 327 (2004) 27.
+
+\bibitem{handbook1}
+D.~Janney, Metallic fuels handbook, part 1, Tech. Rep. INL/EXT-15-36520, Idaho
+  National Laboratory (2017).
+
+\bibitem{janney2018}
+D.~Janney, S.~Hayes, Experimentally known properties of u-10zr alloys: A
+  critical review, Nucl. Tech. 203 (2018) 1.
+
+\bibitem{beeler2010}
+B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, M.~Okuniewski, First
+  principles calculations for defects in {U}, J. Phys.: Cond. Mat. 22 (2010)
+  505703.
+
+\bibitem{moore2015}
+A.~Moore, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, Atomistic modeling of
+  high temperature uranium-zirconium alloy structure and thermodynamics, J.
+  Nucl. Mater. 467 (2015) 802.
+
+\bibitem{plimpton1995}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics, J.
+  Comp. Phys. 117 (1995) 1--19.
+
+\bibitem{dynamo}
+S.~Foiles, M.~Daw, Dynamo, sandia National Laboratories.
+
+\bibitem{touloukian1975}
+Y.~Touloukian, R.~Kirby, R.~Taylor, P.~Desai, Thermal Expansion: Metallic
+  elements and alloys (Thermophysical Properties of Matter vol. 12),
+  IFI/Plenum, New York, 1975.
+
+\bibitem{basak2009}
+C.~Basak, G.~Prasad, H.~Kamath, N.~Prabhu, An evaluation of the properties of
+  as-cast u-rich u--zr alloys, J. Alloys and Compounds 480 (2009) 857.
+
+\bibitem{beelerumo}
+B.~Beeler, Y.~Zhang, Y.~Gao, An atomistic study of grain boundaries and
+  surfaces in gamma u-mo, J. Nucl. Mater. 507 (2018) 248.
+
+\bibitem{tonks2017}
+M.~Tonks, D.~Andersson, S.~Phillpot, Y.~Zhang, R.~Williamson, C.~Stanek,
+  B.~Uberuaga, S.~Hayes, Mechanistic materials modeling for nuclear fuel
+  performance, Annals of Nuclear Energy 105 (2017) 11.
+
+\bibitem{olander76}
+D.R.Olander, Fundamental aspects of nuclear reactor fuel elements, Technical
+  Information Center, Energy Research and Development Administration, 1976.
+
+\bibitem{karahan2009}
+A.~Karahan, Modeling of thermo-mechanical and irradiation behavior of metallic
+  and oxide fuels for sodium fast reactors, Ph.D. thesis, Massachusetts
+  Institute of Technology (June 2009).
+
+\bibitem{tsuboi1992}
+Y.~Tsuboi, T.~Ogata, M.~Kinoshita, H.~Saito, Mechanistic model of fission gas
+  behavior in metallic fuel, J. Nucl. Mater. 188 (1992) 312.
+
+\end{thebibliography}

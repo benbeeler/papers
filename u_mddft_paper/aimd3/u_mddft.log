@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  22 JUN 2020 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 JUL 2020 12:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -514,9 +514,6 @@ LaTeX Warning: Label `default' multiply defined.
 LaTeX Warning: Label `default' multiply defined.
 
 
-LaTeX Warning: Label `tab:bulk' multiply defined.
-
-
 LaTeX Warning: Label `default' multiply defined.
 
 
@@ -737,7 +734,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 147.
 
 [9 <./4_rdf.png>]
-<5_eform.png, id=259, 728.7225pt x 577.15625pt>
+<5_eform.png, id=258, 728.7225pt x 577.15625pt>
 File: 5_eform.png Graphic file (type png)
 <use 5_eform.png>
 Package pdftex.def Info: 5_eform.png  used on input line 159.
@@ -759,7 +756,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 168.
 
-<6_msd.png, id=274, 935.495pt x 403.5075pt>
+<6_msd.png, id=273, 935.495pt x 403.5075pt>
 File: 6_msd.png Graphic file (type png)
 <use 6_msd.png>
 Package pdftex.def Info: 6_msd.png  used on input line 176.
@@ -767,7 +764,7 @@ Package pdftex.def Info: 6_msd.png  used on input line 176.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<7_trajectories.png, id=275, 752.8125pt x 415.5525pt>
+<7_trajectories.png, id=274, 752.8125pt x 415.5525pt>
 File: 7_trajectories.png Graphic file (type png)
 <use 7_trajectories.png>
 Package pdftex.def Info: 7_trajectories.png  used on input line 183.
@@ -776,7 +773,7 @@ Package pdftex.def Info: 7_trajectories.png  used on input line 183.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./5_eform.png>] [12 <./6_msd.png> <./7_trajectories.png>]
-<8_diff.png, id=291, 726.715pt x 581.17125pt>
+<8_diff.png, id=290, 726.715pt x 581.17125pt>
 File: 8_diff.png Graphic file (type png)
 <use 8_diff.png>
 Package pdftex.def Info: 8_diff.png  used on input line 194.
@@ -807,7 +804,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
 <to be read again> 
                    \relax 
 l.285 ...ulus in $\gamma$-U from 900 K to 1400 K.}
-                                                   \label{tab:bulk}
+                                                   \label{tab:bulkfull}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -832,10 +829,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
  ) 
 Here is how much of TeX's memory you used:
- 16827 strings out of 492616
- 287699 string characters out of 6129482
- 357460 words of memory out of 5000000
- 20535 multiletter control sequences out of 15000+600000
+ 16828 strings out of 492616
+ 287713 string characters out of 6129482
+ 357527 words of memory out of 5000000
+ 20536 multiletter control sequences out of 15000+600000
  538072 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,10n,63p,2625b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -859,7 +856,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on u_mddft.pdf (22 pages, 2198503 bytes).
+Output written on u_mddft.pdf (22 pages, 2198489 bytes).
 PDF statistics:
  452 PDF objects out of 1000 (max. 8388607)
  382 compressed objects within 4 object streams

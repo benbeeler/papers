@@ -154,6 +154,16 @@ D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Z.~Insepov, J.~Rest,
 J.~Ziegler, J.~Biersack, U.~Littmark, Stopping and Ranges of Ions in Matter,
   Pergamon Press, 1985.
 
+\bibitem{smirnovaADP}
+D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Atomistic modeling of the
+  self-diffusion in gamma u and gamma u-mo, Phys. Met. and Metall. 116 (2015)
+  445.
+
+\bibitem{starikov2018}
+S.~Starikov, L.~Kolotova, A.~Kuksin, D.~Smirnova, V.~Tseplyaev, Atomistic
+  simulation of cubic and tetragonal phases of u-mo alloy: Structure and
+  thermodynamic properties, J. Nucl. Mater. 499 (2018) 451.
+
 \bibitem{gjf2013}
 N.~Gronbech-Jensen, O.~Farago, A simple and effective verlet-type algorithm for
   simulating langevin dynamics, Mol. Phys. 111 (2013) 983.
@@ -179,6 +189,11 @@ J.~Rest, Y.~Kim, G.~Hofman, M.~Meyer, S.~Hayes, U-mo fuels handbook, Tech. Rep.
 A.~Stukowski, Visualization and analysis of atomis simulation data with ovito -
   the open visulaization tool, Modeling and Simulation of Materials Science and
   Engineering 18 (2010) 015012.
+
+\bibitem{granberg2020}
+F.~Granberg, J.~Byggmastar, K.~Nordlund, Defect accumulation and evolution
+  during prolonged irradiation of fe and fecr alloys, J. Nucl. Mater. 528
+  (2020) 151843.
 
 \bibitem{ushprr17}
 S.~Hu, V.~Joshi, C.~Lavendar, N.~Lombardo, J.~Wight, B.~Ye, Z.-G. Mei,
