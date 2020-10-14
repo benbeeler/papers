@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: u_mddft.aux
+The style file: elsarticle-num.bst
+Database file #1: MARMOTbib.bib
+Warning--there's a number but no series in hammond2000
+You've used 61 entries,
+            2952 wiz_defined-function locations,
+            1019 strings with 13070 characters,
+and the built_in function-call counts, 16081 in all, are:
+= -- 1455
+> -- 577
+< -- 4
++ -- 233
+- -- 172
+* -- 1071
+:= -- 2310
+add.period$ -- 61
+call.type$ -- 61
+change.case$ -- 57
+chr.to.int$ -- 0
+cite$ -- 62
+duplicate$ -- 482
+empty$ -- 1822
+format.name$ -- 225
+if$ -- 4176
+int.to.chr$ -- 0
+int.to.str$ -- 61
+missing$ -- 63
+newline$ -- 191
+num.names$ -- 61
+pop$ -- 324
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1098
+stack$ -- 0
+substring$ -- 774
+swap$ -- 61
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 116
+width$ -- 63
+write$ -- 495
+(There was 1 warning)

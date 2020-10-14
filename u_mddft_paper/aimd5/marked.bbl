@@ -1,0 +1,268 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{yoo1998}
+C.-S. Yoo, H.~Cyun, P.~Soderlind, Phase diagram of uranium at high pressures
+  and temperatures, Phys. Rev. B 57 (1998) 10359.
+
+\bibitem{soderlind1998}
+P.~Soderlind, Theory of the crystal structures of cerium and the light
+  actinides, Adv. in Phys. 47 (1998) 959.
+
+\bibitem{taylor2008}
+C.~Taylor, Evaluation of first-principles techniques for obtaining materials
+  parameters of alpha uranium and the (001) alpha uranium surface, Phys. Rev. B
+  77 (2008) 094119.
+
+\bibitem{xiang2008}
+S.~Xiang, H.~Huang, L.~Hsiung, Quantum mechanical calculations of uranium
+  phases and niobium defects in gamma-uranium, J. Nucl. Mater. 375 (2008) 113.
+
+\bibitem{beeler2013}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski, First principles calculations of
+  the structure and elastic constants of alpha, beta and gamma uranium, J.
+  Nucl. Mater. 433 (2013) 143.
+
+\bibitem{beeler2010}
+B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, M.~Okuniewski, First
+  principles calculations for defects in {U}, J. Phys.: Cond. Mat. 22 (2010)
+  505703.
+
+\bibitem{wirth2011}
+G.-Y. Huang, B.~Wirth, First-principles study of diffusion of interstitial and
+  vacancy in alpha {U-Zr}, J. Phys.: Cond. Mat. 23 (2011) 205402.
+
+\bibitem{wirth2012}
+G.-Y. Huang, B.~Wirth, First-principles study of bubble nucleation and growth
+  behaviors in alpha u-zr, J. Phys.: Cond. Mat. 24 (2012) 415404.
+
+\bibitem{barrett1963}
+C.~Barrett, H.~Mueller, R.~Hitterman, Crystal structure variations in alpha
+  uranium at low temperatures, Phys. Rev. 129 (1963) 625.
+
+\bibitem{matter1980}
+H.~Matter, J.~Winter, W.~Triftshauser, Investigation of vacancy formation and
+  phase transformations in uranium by positron annihilation, J. Nucl. Mater. 88
+  (1980) 273.
+
+\bibitem{sanchez1975}
+J.~Sanchez, D.~D. Fontaine, Model for anomalous self-diffusion in group-ivb
+  transition metals, Phys. Rev. Lett. 35 (1975) 227.
+
+\bibitem{ye1987}
+Y.~Ye, Y.~Chen, K.~Ho, B.~Harmon, Phonon-phonon coupling and the stability of
+  the high-temperature bcc phase of zr, Phys. Rev. Lett. 58 (1987) 1769.
+
+\bibitem{manga2018}
+V.~Manga, D.~Poirier, Ab initio molecular dynamics simulation of self-diffusion
+  in al--si binary melts, Modelling Simul. Mater. Sci. Eng. 26 (2018) 065006.
+
+\bibitem{wang2010}
+C.~Wang, Y.~Dai, H.~Gao, X.~Ruan, J.~Wang, B.~Sun, Ab initio molecular dynamics
+  study of fe adsorption on tin (001) surface, Mat. Trans. 51 (2010) 2005.
+
+\bibitem{timko2010}
+J.~Timko, D.~Bucher, S.~Kuyucak, Dissociation of nacl in water from ab initio
+  molecular dynamics simulations, J. Chem. Phys. 132 (2010) 114510.
+
+\bibitem{hellman2011}
+O.~Hellman, I.~A. Abrikosov, S.~I. Simak, Lattice dynamics of anharmonic solids
+  from first principles, Phys. Rev. B 84 (2011) 180301(R).
+
+\bibitem{hood2008}
+R.~Hood, L.~Yang, J.~Moriarty, Quantum molecular dynamics simulations of
+  uranium at high pressure and temperature, Phys. Rev. B 78 (2008) 024116.
+
+\bibitem{soderlind2012}
+P.~Soderling, B.~Grabowski, L.~Yang, A.~Landa, T.~Bjorkman, P.~Souvatis,
+  O.~Eriksson, High-temperature phonon stabilization of ! -uranium from
+  relativistic first-principles theory, Phys. Rev. B 85 (2012) 060301.
+
+\bibitem{hellman2013}
+O.~Hellman, P.~Steneteg, I.~Abrikosov, S.~Simak, Temperature dependent
+  effective potential method for accurate free energy calculations of solids,
+  Phys. Rev. B 87 (2013) 104111.
+
+\bibitem{ladygin2020}
+V.~Ladygin, P.~Korotaev, A.~Yanilkin, A.~Shapeev, Lattice dynamics simulation
+  using machine learning interatomic potentials, Comp. Mat. Sci. 172 (2020)
+  109333.
+
+\bibitem{kruglov2019}
+I.~Kruglov, A.~Yanilkin, A.~Oganov, P.~Korotaev, Phase diagram of uranium from
+  ab initio calculations and machine learning, Phys. Rev. B 100 (2019) 174104.
+
+\bibitem{bouchet2017}
+J.~Bouchet, F.~Bottin, High-temperature and high-pressure phase transitions in
+  uranium, Phys. Rev. B 95 (2017) 054113.
+
+\bibitem{castellano2020}
+A.~Castellano, F.~Bottin, B.~Dorado, J.~Bouchet, Thermodynamic stabilization of
+  $\gamma$-u-mo alloys: Effect of mo content and temperature, Phys. Rev. B 101
+  (2020) 184111.
+
+\bibitem{vasp1}
+G.~Kresse, J.~Hafner, Ab initio molecular dynamics for liquid metals, Phys.
+  Rev. B 47 (1993) 558.
+
+\bibitem{vasp2}
+G.~Kresse, J.~Hafner, Ab initio molecular-dynamics simulation of the
+  liquid-metal-amorphous-semiconductor transition in germanium, Phys. Rev. B 49
+  (1994) 14251.
+
+\bibitem{vasp3}
+G.~Kresse, J.~Furthmuller, Efficiency of ab-initio total energy calculations
+  for metals and semiconductors using a plane-wave basis set, Comput. Mat. Sci.
+  6 (1996) 15.
+
+\bibitem{vasp4}
+G.~Kresse, J.~Furthmuller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Phys. Rev. B 54
+  (1996) 11169.
+
+\bibitem{paw1}
+P.~Blochl, Projector augmented-wave method, Phys. Rev. B 50 (1994) 17953.
+
+\bibitem{paw2}
+G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
+  augmented-wave method, Phys. Rev. B 59 (1999) 1758.
+
+\bibitem{dft1}
+P.~Hohenberg, W.~Kohn, Inhomogeneous electron gas, Phys. Rev. 136 (1964) B864.
+
+\bibitem{dft2}
+W.~Kohn, L.~Sham, Self-consistent equations including exchange and correlation
+  effects, Phys. Rev. 140 (1965) A1133.
+
+\bibitem{pbe1}
+J.~Perdew, K.~Burke, M.~Ernzerhof, Generalized gradient approximation made
+  simple, Phys. Rev. Lett. 77 (1996) 3865.
+
+\bibitem{pbe2}
+J.~Perdew, K.~Burke, M.~Ernzerhof, Erratum: Generalized gradient approximation
+  made simple, Phys. Rev. Lett. 78 (1997) 1396.
+
+\bibitem{methfessel}
+M.~Methfessel, A.~Paxton, High-precision sampling for brillouin-zone
+  integration in metals, Phys. Rev. B 40 (1989) 3616.
+
+\bibitem{monkhorst}
+H.~Monkhorst, J.~Pack, Special points for brillouin-zone integrations, Phys.
+  Rev. B 13 (1976) 5188.
+
+\bibitem{ovito}
+A.~Stukowski, Visualization and analysis of atomis simulation data with ovito -
+  the open visulaization tool, Modeling and Simulation of Materials Science and
+  Engineering 18 (2010) 015012.
+
+\bibitem{hammond2000}
+C.~Hammond, The Elements, in Handbook of Chemistry and Physics, no. ISBN
+  978-0-8493-0481-1, CRC press, 2000.
+
+\bibitem{touloukian}
+Y.~Touloukian, R.~Kirby, R.~Taylor, P.~Desai, Thermophysical Properties of
+  Matter - Thermal Expansion: Metallic elements and alloys, Vol.~12,
+  IFI/Plenu,, 1975.
+
+\bibitem{basak}
+C.~Basak, G.~Prasad, H.~Kamath, N.~Prabhu, An evaluation of the properties of
+  as-cast u-rich u--r alloys, J. Alloys and Compounds 480 (2009) 857.
+
+\bibitem{lawson1988}
+A.~Lawson, C.~Olsen, J.~Richardson, M.~Mueller, G.~Lander, Structure of
+  beta-uranium, Acta Crys. B44 (1988) 89.
+
+\bibitem{xie2013}
+W.~Xie, W.~Xiong, C.~Marianetti, D.~Morgan, Correlation and relativistic
+  effects in u metal and u-zr alloy: Validation of ab initio approaches, Phys.
+  Rev. B 88 (2013) 235128.
+
+\bibitem{schultz1968}
+H.~Schultz, Point defects in body-centered cubic transition metals, Mat. Sci.
+  Eng. 3 (1968) 189.
+
+\bibitem{baskes1979}
+M.~Baskes, C.~Melius, Pair potentials for fcc metals, Phys. Rev. B 20 (1979)
+  3197.
+
+\bibitem{lee2001}
+B.-J. Lee, M.~Baskes, H.~Kim, Y.-K. Cho, Second nearest-neighbor modified
+  embedded atom method potentials for bcc transition metals, Phys. Rev. B 64
+  (2001) 184102.
+
+\bibitem{lee2003}
+B.-J. Lee, J.-H. Shim, M.~Baskes, Semiempirical atomic potentials for the fcc
+  metals cu, ag, au, ni, pd, pt, al, and pb based on first and second
+  nearest-neighbor modified embedded atom method, Phys. Rev. B 68 (2003)
+  144112.
+
+\bibitem{fedorov1978}
+G.~Fedorov, E.~Smirnov, Diffusion in reactor materials, Atomizdat, 1978.
+
+\bibitem{smirnov1992}
+E.~Smirnov, K.~Smirnov, Diffusion processes in bcc phases of actinides, Tech.
+  Rep. MIFI-013092, Moscow Eng.-Phys. Inst. (1992).
+
+\bibitem{mehrer2011}
+H.~Mehrer, Diffusion in solids, Intellekt, Dolgoprudnyi, 2011.
+
+\bibitem{lund2013}
+K.~Lund, K.~Lynn, M.~Weber, M.~Okuniewski, Vacancy formation enthalpy in
+  polycrystalline depleted uranium, J. Phys.: Conf. Ser. 443 (2013) 012021.
+
+\bibitem{carling2003}
+K.~Carling, G.~Wahnstrom, T.~Mattsson, N.~Sandberg, G.~Grimvall, Vacancy
+  concentration in al from combined first-principles and model potential
+  calculations, Phys. Rev. B 67 (2003) 054101.
+
+\bibitem{mendelev2009}
+M.~Mendelev, Y.~Mishin, Molecular dynamics study of self-diffusion in bcc fe,
+  Phys. Rev. B 80 (2009) 144111.
+
+\bibitem{mendelev2010}
+M.~Mendelev, B.~Bokstein, Molecular dynamics study of self-diffusion in zr,
+  Phil. Mag. 90 (2010) 637.
+
+\bibitem{smirnov2019}
+G.~Smirnov, V.~Stegailov, Formation free energies of point defects and thermal
+  expansion of bcc u and mo, J. Phys.: Cond. Mat. 31 (2019) 235704.
+
+\bibitem{smirnova2015}
+D.~Smirnova, A.~Kuksin, S.~Starikov, Investigation of point defects diffusion
+  in bcc uranium and {U-Mo} alloys, J. Nucl. Mater. 458 (2015) 304.
+
+\bibitem{kidson1961}
+G.~Kidson, J.~McGurn, Self-diffusion in body-centered cubic zirconium, Can. J.
+  Phys. 39 (1961) 1146.
+
+\bibitem{sorkin2003}
+V.~Sorkin, E.~Polturak, J.~Adler, Molecular dynamics study of melting of the
+  bcc metal vanadium. ii. thermodynamic melting, Phys. Rev. B 68 (2003) 174103.
+
+\bibitem{williams1990}
+R.~Williams, Melting points of the metallic elements having the face-centered
+  cubic, body-centered cubic, and close-packed hexagonal structures, Bull.
+  Alloy Phase Diagrams 11 (1990) 224.
+
+\bibitem{nguyen2006}
+D.~Nguyen-Manh, A.~Horsfield, S.~Dudarev, Self-interstitial atom defects in bcc
+  transition metals: Group-specific trends, Phys. Rev. B 73 (2006) 020101.
+
+\bibitem{rothman1959}
+S.~Rothman, L.~Lloyd, R.~Weil, A.~Harkess, Self-diffusion in gamma uranium,
+  Tech. Rep. ANL-5971, Argonne National Laboratory (1959).
+
+\bibitem{adda1959}
+Y.~Adda, A.~Kirianenko, Study of the autodiffusion of the gamma phase of
+  uranium, J. Nucl. Mater. 2 (1959) 120.
+
+\bibitem{smirnovaADP}
+D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Atomistic modeling of the
+  self-diffusion in gamma u and gamma u-mo, Phys. Met. and Metall. 116 (2015)
+  445.
+
+\end{thebibliography}

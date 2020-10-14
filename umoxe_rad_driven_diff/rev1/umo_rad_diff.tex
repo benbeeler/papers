@@ -1,0 +1,214 @@
+\documentclass[review]{elsarticle}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{gensymb}
+\usepackage{lineno}
+\usepackage{color}
+\usepackage{cleveref}
+
+%\journal{Journal of Nuclear Materials}
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Radiation driven diffusion in $\gamma$U-Mo}
+
+\author[ncsu,inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{benjamin.beeler@inl.gov}
+\author[lanl]{Michael W.D. Cooper}
+\author[anl]{Zhi-Gang Mei}
+\author[inl]{Daniel Schwen}
+\author[wisc,inl]{Yongfeng Zhang}
+\address[ncsu]{North Carolina State University, Raleigh, NC 27695}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+\address[lanl]{Los Alamos National Laboratory, Los Alamos, NM 87545}
+\address[anl]{Argonne National Laboratory, Lemont, IL 60439}
+\address[wisc]{University of Wisconsin-Madison, Madison, WI 53715}
+
+\begin{abstract}
+A monolithic fuel design based on a U-Mo alloy has been selected as the fuel type for conversion of the United States High-Performance Research Reactors (HPRRs). A critical phenomenon of interest with U-Mo monolithic fuel is the large amount of swelling that takes place during operation, particularly at high fission densities. The accurate prediction of fuel evolution under irradiation requires implementation of correct thermodynamic and kinetic properties into mesoscale and continuum level fuel performance modeling codes. One such property where there exists incomplete data is the diffusion of relevant species under irradiation. Fuel performance swelling predictions rely on an accurate representation of diffusion in order to determine the rate of fission gas swelling and the local microstructural evolution. In this work, we present molecular dynamics simulations of the radiation driven diffusion of U, Mo and Xe in U-Mo nuclear fuels. Diffusion coefficients for each species are determined over a range of temperatures and compositions. Updated diffusion coefficients are presented that are applicable under irradiation that incorporate both intrinsic and radiation driven diffusion. 
+
+
+\end{abstract}
+\end{frontmatter}
+
+\linenumbers
+\modulolinenumbers[5]
+
+\section{Introduction}
+
+High power research reactors typically employ a highly enriched uranium (HEU) dispersion type fuel. The United States High-Performance Research Reactor (USHPRR) program targets replacing current HEU fuel in research reactors with low enriched uranium (LEU) fuel \cite{snelgrove1997}. In order to achieve a reduced enrichment in these fuel types, there is the requirement for increased uranium density. The fuel design being pursued under the USHPRR program is a uranium-molybdenum (U-Mo) monolithic foil, with a zirconium (Zr) diffusion barrier in aluminum (Al) cladding.
+
+An issue with U-Mo monolithic fuel is the large amount of swelling that takes place during operation \cite{hofman1997}. Such swelling needs to be stable and predictable up to high fission densities. Research reactor fuel types based on U-Mo are unique in their design to stably retain fission gases to high fission densities, and as such there is a relatively high content of fission gas and of fission gas bubbles within the fuel matrix. The importance of swelling in addition to the unique fuel environment has led to a variety of experimental studies characterizing the swelling behavior in U-Mo fuels \cite{rest2009, kim_anl08, meyer2002, kim2013}, which has led to the development of a swelling correlation as a function of fission density from Argonne National Laboratory (ANL) \cite{kim2011} and Idaho National Laboratory (INL) \cite{umo_prelim_report2017}. A 2015 post-irradiation examination (PIE) report \cite{afip6report} from Williams, et al. showed higher swelling in U-10Mo (alloy composition is provided in weight percent unless otherwise noted) fuels at fission densities much lower than previously observed. This accelerated fuel swelling behavior could lead to early fuel failure and was not captured by the ANL correlation. As such, a more mechanistic fuel swelling model is needed in order to predict swelling behavior of U-Mo fuels under both typical operating conditions, as well as transients, accident scenarios and different reactor environments.
+
+Recently, substantial effort has been made on mesoscale models to describe the swelling behavior of U-Mo fuels \cite{liang2018, liang2018a, liang2017, liang2016, ye2018, hu2017a, hu2016, hu2016a}. These models rely on phase-field and/or rate theory descriptions of material systems in order to model swelling on realistic timescales on a microstructural level. These simulation methodologies include a number of parameters that are either fit to limited experimental data, calculated from lower length scale modeling methodologies, or assumed based on other material systems. One such assumption is the diffusion of species at low temperature. Research reactor fuels operate at relatively low temperatures, within a range of 150\degree C to 350\degree C. Intrinsic, thermal diffusion is relatively limited at these temperatures and no such experimental data on diffusive behavior in this temperature range exists. 
+
+A number of high temperature experimental studies have been conducted on interdiffusion, tracer diffusion and self-diffusion in the U-Mo system. Adda, et al. determined the interdiffusion coefficient of U-Mo from 1123 K to 1323 K and subsequently determined the self-diffusion coefficient of uranium with 10 atomic percent Mo \cite{adda1962}. Lundberg determined interdiffusion coefficients from 1400 K to 1525 K for a range of high Mo content systems (higher than U-10Mo) \cite{lundberg1989}. Huang, et al. calculated interdiffusion and intrinsic diffusion of U-Mo alloys from 923 K to 1273 K via diffusion couples \cite{huang2013}. All of these experimental studies agree that in U-rich U-Mo alloys, U diffuses more rapidly than Mo and that the interdiffusion coefficient is reduced with the addition of Mo. However, none of these studies investigated low temperature systems due to the difficulties in obtaining data due to reduced intrinsic diffusion of species at low temperatures. Thus, the diffusion data are often extrapolated from high temperature systems to low temperature as a means of estimation. Additionally, there are no experimental studies of fission gas diffusion in U-Mo alloys. 
+
+For the study of self- and fission gas diffusion in UO$_2$, the nuclear fuel type typically utilized in commercial reactors in the U.S., the total diffusion coefficient is typically broken down into three component parts: 1) intrinsic diffusion (D$_1$), 2) radiation enhanced diffusion (D$_2$), and 3) radiation driven diffusion (D$_3$). Each of these constituent parts is dominant in a given temperature regime, as was initially discussed by Turnbull \cite{turnbull1982} and computationally investigated by Andersson, et al. \cite{andersson2014} and Cooper, et al. \cite{cooper2016}, and others \cite{matthews_cluster_2019, perriot_atomistic_2019, wormald2015, martin2009}. Given the low operating temperatures of research reactors, it is expected that radiation driven diffusion will be a critical component of the total diffusion. No experimental or computational studies have been performed to investigate radiation driven diffusion in U-Mo or U-Mo-Xe systems.
+
+In this work, molecular dynamics simulations are performed to determine the radiation driven diffusion of U, Mo and Xe in U-Mo nuclear fuels. Diffusion coefficients for each species are determined over a range of temperatures and compositions. Updated diffusion coefficients are presented that are applicable under irradiation that incorporate both intrinsic and radiation driven diffusion. 
+
+\section{Computational Details}
+
+Molecular dynamics simulations are performed utilizing the LAMMPS \cite{plimpton1995} software package and a U-Mo-Xe embedded atom method (EAM) interatomic potential from Smirnova \cite{smirnovaUMo}. For short atomic distances, this interatomic potential was splined to a ZBL \cite{zbl} via LAMMPS with spline cutoffs of 1 {\AA} and 2 {\AA}. The Smirnova U-Mo-Xe interatomic potential is the only potential capable of describing the U-Mo-Xe system of interest. There are multiple other interatomic potentials that describe the U-Mo binary alloy, but none include interactions for Xe \cite{smirnovaADP, starikov2018}. This U-Mo-Xe potential was fit to \textit{ab initio} data, tested on general properties of the U, Mo, Xe, U–Mo alloys and U$_2$Mo systems, and is able to reasonably reproduce elastic constants, thermal expansion, melting temperature, and point defect formation energies in $\gamma$U-Mo \cite{smirnovaUMo}.
+
+An 80x80x80 supercell (1,024,000 atoms) is constructed with a U-Mo alloy of a given concentration in the body-centered cubic structure. Alloys of 10 atomic percent (U-4Mo), 15 atomic percent (U-7Mo), 22 atomic percent (U-10Mo) and 30 atomic percent (U-15Mo) are constructed by randomly changing a given percentage of U atoms to Mo atoms. Approximately 1\% of all atoms are replaced with a Xe atom on a substitutional site, agnostic of whether that site is an existing U or Mo atom. The system is subsequently equilibrated in an NPT ensemble at zero pressure and a given temperature, of which four unique temperatures are included (100 K, 300 K, 500 K, 700 K). Relaxation is performed by relaxing each x, y, and z component individually, with a damping parameter of 0.1. A Langevin thermostat in the Gronbech-Jensen-Farago \cite{gjf2013, gjf2014} formalism is utilized with the damping parameter set to 0.01 ps. The system is allowed to equilibrate for a total of 50 ps.
+
+In order to simulate atomic mixing during the ballistic stopping of high energy fission fragments, radiation damage cascade simulations are performed. Cascade simulations were conducted in an NVE ensemble using the equilibrated supercells. The cascades were initiated by randomly selecting a U atom and modifying its kinetic energy to a prescribed value in a randomly chosen direction. Primary knock-on atoms (PKAs) from 10 keV to 24 keV in increments of 2 keV are utilized. At each PKA energy, a total of forty simulations are performed, each with a unique random PKA direction. The time step is controlled in three increments, in that for the first 30,000 time steps following the introduction of the cascade, the time step is set to 0.05 fs. Subsequently, the time step is increased to 0.1 fs for 30,000 time steps, then the time step is increased to 1 fs for 40,000 time steps, and finally the time step is increased to 2 fs for the final 40,000 time steps. This yields a total relaxation time after the introduction of the PKA of 124.5 ps. The mean squared displacement (msd) is tracked as a function of time. The msd at the end of the simulation is averaged for each species over the twenty simulations. An example msd as a function of time is shown in Fig. \ref{fig:msd}. The msd converges to a given value above approximately 75 ps, but the system is allowed to further equilibrate for another 50 ps. This is partially to ensure that atoms have reached a converged distance as a function of time, and also because it was observed that the energy of the system reached an equilibrated state after approximately 100 ps. The averaged msd as a function of the energy density (PKA energy per supercell volume) is determined for each species in each composition and temperature of interest. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{1_msd_vs_time.png} 
+ \caption{ The mean-squared displacement for U, Mo and Xe due to a 16 keV PKA as a function of time.}
+ \label{fig:msd}
+\end{figure}
+
+The radiation driven diffusion coefficient is determined from the slope of the msd as a function of the energy density. In a fission event, two fission fragments are released with a total kinetic energy of approximately 170 MeV. Fission fragments deposit their energy both electronically and ballistically. In order to determine the amount of energy deposited ballistically, the amount of energy lost electronically needs to be determined. This is because electronic energy loss effects are not natively taken into account in molecular dynamics simulations. Therefore, we used the binary collision Monte Carlo (BCMC) code MyTRIM \cite{myTRIM}, a C++ reimplementation of the SRIM algorithm for arbitrary sample geometries, to determine electronic energy loss. MyTRIM uses the binary collision approximation and implements the Brandt-Kitagawa electronic stopping formulation \cite{brandt1982}. A representative heavy fission fragment (Xe) and a representative light fission fragment (Mo) were utilized to determine electronic energy loss. PKA energies from 1 MeV up to 100 MeV were investigated in the U-Mo system of interest (10 weight percent), but also in UO$_2$, UC, U$_3$Si$_2$ and metallic U, to develop a qualitative understanding of how electronic energy loss varies with the target material. The fraction of electronic energy loss for a Xe PKA is shown in Fig. \ref{fig:eloss}. As the PKA energy increases, the fraction of the energy that is deposited electronically increases, as would be expected. For a typical heavy fission fragment with a kinetic energy of 70 MeV from a fission event in U-Mo, the expected fraction of electronic energy loss is 95\%. Thus, only 5\% of the energy is deposited ballistically. For a 100 MeV light fission fragment in U-Mo, the expected fraction of electronic energy loss is also 95\%. Thus, from a 170 MeV fission event, only 5\% (8.5 MeV) is deposited ballistically. This work assumes that displacements are only a result of ballistic energy deposition, due to the high thermal conductivity of the U-Mo system (23 W/m-K at 500$\degree$C) \cite{umo_handbook} and the associated rapid dissipation of heat by electrons inhibiting atomic mixing due to electronic energy deposition. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{2_el_energy_loss.png} 
+ \caption{The fraction of electronic energy loss of a Xe fission fragment in five different media as a function of PKA energy.}
+ \label{fig:eloss}
+\end{figure} 
+
+The radiation driven diffusion coefficient D$_{rad}$ can then be defined as:
+
+\begin{equation}
+\label{eq:1}
+D_{rad} = \frac{0.05 \times \epsilon_{B}}{6} \times E_{F} \times \dot F
+\end{equation} where 0.05 denotes the fraction of energy deposited ballistically in UMo, $\epsilon_B$ is the slope of the msd per energy deposited per unit volume, E$_F$ is the total fission fragment kinetic energy (170 MeV) of a single fission event and $\dot F$ is the fission rate per unit volume. This formalism makes use of a modification of the Einstein equation (D = msd/6t), utilizing the msd from ballistic mixing. Although the PKA energies investigated in this work are much lower than those anticipated from fission events, it is expected that the slope of the msd per energy deposited per unit volume is constant, as has been shown for higher energy PKAs in UO$_2$ \cite{cooper2016}. In this work, $\epsilon_B$ is determined over the entire range of PKA energies presented in this manuscript. Given a value of $\epsilon_B$ for a given system and a given species of interest, this equation can be reduced do a single coefficient multiplied by the fission rate:
+
+\begin{equation}
+\label{eq:2}
+D_{irr} = A \dot{F} 
+\end{equation} The total diffusivity can then be taken as the summation of the intrinsic diffusion, D$_1$, and the radiation driven diffusion, D$_3$. Radiation enhanced diffusion, D$_2$, is not considered in this work due to a lack of temperature-relevant diffusion data. 
+
+It should be emphasized that these simulations are considering only pure ballistic mixing, neglecting the diffusion of the fission fragment itself, and no electronic degrees of freedom are taken into account. Additionally, PKA energies in this manuscript are admittedly much lower than those anticipated from fission events. However, due to the stochastic nature of ballistic mixing, statistical significance was emphasized within this work over extending to higher PKA energies. 
+
+\FloatBarrier
+
+\section{Results}
+
+\subsection{Radiation driven diffusion of different elements}
+
+The msd as a function of PKA energy per unit volume is shown in Fig. \ref{fig:epsB_temp} for U-10Mo at 300 K. A general linear relationship is observed for all three species. It can be observed that Xe atoms move significantly farther than either U or Mo due to a PKA of a given energy, while U and Mo exhibit near identical msd versus energy density slope. Thus, Xe diffuses more rapidly than either U or Mo due to ballistic mixing. This is not strictly a high energy trend, as an increased msd can still be observed for the lowest energy density (corresponding to a 10 keV PKA). Also, this is not a compositional concentration effect, as the Xe is randomly dispersed within the U-Mo alloy and forty unique configurations are investigated. This rapid diffusion of Xe in U-Mo is unlike the radiation driven diffusion behavior of Xe in UO$_2$ \cite{cooper2016}, where Xe displays a smaller msd per PKA energy than oxygen, although it does in fact display a higher msd per PKA energy than uranium. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{3_epsB.png} 
+ \caption{Mean squared displacement of U, Mo and Xe as a function of PKA energy per volume in U-10Mo at 300 K.}
+ \label{fig:epsB_temp}
+\end{figure}
+
+This presents the question of what is different in this system compared to UO$_2$, or what behaviors are potentially related to specific simulation parameters. Thus, a test of the effect of Xe content was undertaken. The initial simulation setup utilized 1\% Xe, which is a very high fraction of Xe atoms compared to realistic systems. This was utilized for consistency with prior studies of radiation driven diffusion in nuclear fuels and additionally ensures appropriate sampling statistics for Xe diffusion. To verify the effect of Xe concentration, identical simulations are performed as in Fig. \ref{fig:epsB_temp}, but with 0.5 \% and 0.1 \% Xe content. The results are shown in Fig. \ref{fig:xefrac}. There is no statistically significant difference in the slope of the msd with variable Xe concentration, although the magnitude of the msd does increase slightly. As such, there does not exist a discernible trend with decreasing Xe concentration. Although it is not shown in Fig. \ref{fig:xefrac}, there are also no observable changes in the msd for U and Mo as a function of Xe concentration. Therefore it can be concluded that the amount of Xe in the system is not affecting the results of the simulations.
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{4_xefrac.png} 
+ \caption{Mean squared displacement of Xe as a function of PKA energy per volume in U-10Mo for three different Xe concentrations.}
+ \label{fig:xefrac}
+\end{figure}
+
+That Xe diffuses more rapidly than either U or Mo seems to point towards variable behavior in the cascade core. There exists a thermal spike due to a cascade that can potentially induce localized melting due to rapid energy deposition. It is supposed that Xe diffuses rapidly during the heating and partial melting inside the cascade core, which implies that Xe diffuses rapidly in liquid U-Mo. In order to verify this assumption, molecular dynamics simulations are performed to estimate Xe diffusion, compared to U and Mo diffusion, in a liquid U-10Mo alloy. A 128,000 atom supercell with a composition of U-10Mo is equilibrated at 5000 K, after which the system is quenched down to 1600 K over 25 ps, which is still above the melting point of U-10Mo. Subsequently, 0.1\% of the atoms in the supercell are replaced by Xe atoms, the system is equilibrated for 75 ps, and the msd of each individual species is tracked as a function of time. The results are shown in Fig. \ref{fig:liq_diff} for msd as a function of time for U, Mo and Xe. It can be observed that initially, Xe diffuses faster than either U or Mo, with U diffusing slightly faster than Mo. However, after approximately 30 ps, the slope of the Xe msd curve as a function of time decreases, with Xe diffusion becoming slower than either U or Mo. Visual structure examination via Ovito \cite{ovito} indicated that Xe atoms were diffusing and forming clusters very quickly in the U-Mo system, after which diffusion of Xe was reduced. This preliminary result on Xe diffusion in liquid U-Mo seems to confirm the results from Fig. \ref{fig:epsB_temp}, in that Xe does indeed diffuse faster than either U or Mo in liquid U-Mo alloys.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.7\textwidth]{5_liq_diff.png} 
+ \caption{The mean squared displacement as a function of time for U, Mo and Xe in a U-10Mo alloy with 0.1 \% Xe at 1600 K. }
+ \label{fig:liq_diff}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Effect of temperature}
+
+Radiation driven diffusion is assumed to be an athermal phenomenon, with effectively zero variation as a function of temperature. To investigate the validity of this assumption for U-Mo, systems from 100 K up to 700 K were studied, which fully encompasses the expected operating regimes for U-Mo fuel. The results are displayed in Fig. \ref{fig:msdT}, showing both the msd as a function of energy deposition at four different temperatures for Xe in U-10Mo, and the $A$ coefficient from equation \ref{eq:2} as a function of temperature for each species in U-10Mo. There exists a slight variation in the slope of the msd with increasing temperature, in that the slope increases with increasing temperature. This effect appears very minor, but can be more clearly illustrated when looking at the $A$ coefficient, where there is a near linear increase with increasing temperature. A possible explanation of the observed temperature effect is that the cascade may last longer due to the smaller temperature difference relative to its surroundings and a longer cascade lifetime would yield more diffusion. However, over this 600 K temperature range, the diffusion increases by approximately a factor of 2 for U and Mo and a factor of 1.5 for Xe. Compared to intrinsic diffusion, which increases by 5 orders of magnitude over a 600 K temperature range \cite{huang2013}, these variations are negligible and the radiation driven diffusion can be considered to be effectively athermal, similar to the study on UO$_2$ \cite{cooper2016}. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1.0\textwidth]{6_msdT.png} 
+ \caption{The mean squared displacement as a function of energy deposition at four different temperatures for Xe in U-10Mo and the $A$ coefficient from equation \ref{eq:2} as a function of temperature for each species in U-10Mo. }
+ \label{fig:msdT}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Effect of composition}
+
+In U-Mo monolithic fuel, there can exist compositional variation due to processing procedures and the thermodynamics of interfaces and second phases present in the fuel. Such compositional variation can have an effect on properties, including the melting point and defect formation energies. As such, it needs to be understood if compositional variation will affect radiation driven diffusion. Compositions of U-4Mo, U-7Mo, U-10Mo and U-15Mo are investigated (compositions in weight percent), with the results at 500 K summarized in Fig. \ref{fig:A_comp} and table \ref{tab1}. There exists a clear trend of increasing diffusion (linearly proportional to $A$ from equation \ref{eq:2}) with decreasing Mo content. The most rapid radiation driven diffusion occurs for the U-4Mo system and the most sluggish diffusion is present for the U-15Mo system. This can largely be explained by the phenomenon of localized melting in the cascade core. For two similar systems and one system with a lower melting point, one would expect a greater extent of localized melting due to a cascade with a given PKA energy in the system with a lower melting point. The brief liquid-like behavior can accelerate diffusion due to ballistic mixing. From the phase diagram of U-Mo we see that alloying with Mo increases the melting point of the bcc phase of U \cite{umo_handbook}, in that a lower Mo content yields a lower melting point. That the interatomic potential captured this behavior was verified via the evolution of a two-dimensional solid/liquid interface, which found the melting point varied from approximately 1600 K for U-15Mo to 1500 K for U-4Mo. The extent of the differences in diffusion with respect to composition are more pronounced than the effects of temperature in Fig. \ref{fig:msdT}, but are still less than one order of magnitude. Thus, although there is a distinguishable difference in diffusion as a function of composition, utilizing the diffusion for U-10Mo for all Mo compositions from 7-15 weight percent is a valid assumption. Granberg \cite{granberg2020} also found compositional dependence on cascade mixing effects in FeCr alloys, seeing minor differences in Frenkel pair production with varying Cr content. However, Granberg also investigated cascade overlap, and showed that behavior of different compositions varied more dramatically for a large number of overlapping cascades. Cascade overlap was not taken into account in this work. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.7\textwidth]{7_A_comp.png} 
+ \caption{The mean squared displacement as a function of energy deposition at four different compositions for U, Mo and Xe at 500 K.}
+ \label{fig:A_comp}
+\end{figure}
+
+\begin{table}[h!]
+\caption{The \textit{A} coefficient from equation \ref{eq:2} for different U-Mo alloy compositions at 500 K. }
+\label{tab1}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Element & U-4Mo & U-7Mo & U-10Mo & U-15Mo \\
+\hline
+U & 2.90E-41 & 2.62E-41 & 1.97E-41 & 1.39E-41 \\
+Mo & 3.00E-41 & 2.69E-41 & 2.01E-41 & 1.46E-41 \\
+Xe & 7.13E-41 & 7.03E-41 & 5.07E-41 & 3.07E-41 \\
+ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+
+\subsection{Updated diffusion coefficients}
+
+Given the data in table \ref{tab1} and assuming that values for U-10Mo at 500 K are representative for all U-Mo systems in this study, new diffusion coefficients that incorporate both intrinsic and radiation driven diffusion can be presented. Fitting to the intrinsic diffusion data from Huang \cite{huang2013} yields diffusion coefficients of (1.28$\times$10$^{-5}$)$\times$exp(-1.76/kT) for uranium and (1.62$\times$10$^{-5}$)$\times$exp(-1.97/kT) for molybdenum (units in m$^2$/s and eV for the prefactor and activation energy, respectively). The intrinsic diffusion coefficient for Xe in U-Mo is unknown, but is commonly assumed to be approximately four orders of magnitude lower than the intrinsic diffusion of uranium \cite{hu2016a, ushprr17, ushprr18}, and this assumption is utilized here. It should be emphasized that these experimental data were collected at high temperature, and the Arrhenius fits to the data are being extrapolated to low temperatures to generate approximate intrinsic diffusion at reactor-relevant temperatures. This information is incorporated into \cref{eq3,eq4,eq5}, and assuming a fission rate of 5$\times$10$^{20}$ fiss/m$^3$-s \cite{ushprr17, ushprr18}, the total diffusion is shown in Fig. \ref{fig:totaldiff} for U, Mo and Xe as a function of temperature. 
+
+\begin{align}
+ D_U = (1.28\times10^{-5})\times exp(-1.76/kT) + 1.97\times10^{-41} \times \dot{F} \label{eq3} \\
+ D_{Mo} = (1.62\times10^{-5})\times exp(-1.97/kT) + 2.01\times10^{-41} \times \dot{F} \label{eq4} \\
+ D_{Xe} = (1.28\times10^{-9})\times exp(-1.76/kT) + 5.07\times10^{-41} \times \dot{F} \label{eq5}
+\end{align}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{8_total_diff.png} 
+ \caption{The diffusion of U, Mo and Xe in U-Mo alloys as a function of temperature, including effects of both intrinsic and radiation driven diffusion. This graph assumes a fission rate of 5$\times$10$^{20}$ fiss/m$^3$-s.}
+ \label{fig:totaldiff}
+\end{figure}
+
+There exists a transition for each species from intrinsic to radiation driven diffusion at a given temperature. The temperature at which each transition occurs is dependent upon the individual diffusive properties of each species (and the fission rate), where in this case the transition for U occurs at 600 K, Mo at 650 K, and Xe at 800 K. This means that below these transition temperatures, radiation driven diffusion is dominant compared to intrinsic diffusion. It should be emphasized that relevant temperature range of interest for U-Mo monolithic fuel in research reactors is from approximately 400 - 600 K. Thus, it is expected that intrinsic diffusion is not the dominant diffusion mechanism in this fuel in-reactor.
+
+It should additionally be noted that radiated enhanced diffusion (D$_2$) is not calculated in this work and is unknown. It is entirely possible that D$_2$ is the dominant diffusion mechanism over some or all of the temperature regime of interest. However, given that it is unknown, the most complete diffusion data for the U-Mo-Xe system is as described in \cref{eq3,eq4,eq5}. Exclusion of D$_3$, and a reliance on only D$_1$, would result in a very significant underestimate of diffusivity at reactor operating temperatures. In the future, this research will extend towards investigating radiation enhanced diffusion in order to obtain the full characterization of diffusive behavior in U-Mo fuels. 
+
+\FloatBarrier
+
+\begin{comment}
+\subsection{Xe clustering and bubble nucleation}
+\end{comment}
+
+\section{Conclusions}
+
+In this work, molecular dynamics simulations were performed to determine the radiation driven diffusion of U, Mo and Xe in U-Mo nuclear fuels. Diffusion coefficients for each species were determined and their variance as a function of composition and temperature was analyzed. Updated diffusion coefficients were presented that are applicable under irradiation that incorporate both intrinsic and radiation driven diffusion. This work demonstrates that at temperatures relevant to U-Mo research reactors, it is critical to account for radiation driven diffusion, as this is the dominant mode of diffusion when compared to intrinsic diffusion. The data generated in this manuscript can directly be incorporated into mesoscale and continuum fuel evolution and fuel performance models that describe fission gas and point defect behavior in U-Mo fuels. Finally, this work points to the possibility of an important role of radiation enhanced diffusion in U-Mo-Xe systems, and as such this will be the topic of future investigation. 
+
+
+\section{Acknowledgement}
+This work was supported by the U.S. Department of Energy, Office of Material Management and Minimization, National Nuclear Security Administration, under DOE-NE Idaho Operations Office Contract DE-AC07-05ID14517. This work was also supported by the U.S. Department of Energy, Office of Nuclear Energy, Nuclear Energy Advanced Modeling and Simulation (NEAMS) Program. This manuscript has been authored by Battelle Energy Alliance, LLC with the U.S. Department of Energy. The publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for U.S. Government purposes. Los Alamos National Laboratory, an affirmative action/equal opportunity employer, is operated by Los Alamos National Security, LLC, for the National Nuclear Security Administration of the U.S. Department of Energy under Contract No. DE-AC52-06NA25396. This research made use of the resources of the High Performance Computing Center at Idaho National Laboratory, which is supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear Science User Facilities.
+
+\section{References}
+
+\bibliography{MARMOTbib}
+
+
+\end{document} 

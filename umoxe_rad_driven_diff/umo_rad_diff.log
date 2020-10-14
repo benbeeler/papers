@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  11 AUG 2020 07:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  24 SEP 2020 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,18 +489,16 @@ Package pdftex.def Info: 3_epsB.png  used on input line 106.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6]
-<4_xefrac.png, id=187, 569.0058pt x 569.0058pt>
+<4_xefrac.png, id=179, 569.0058pt x 569.0058pt>
 File: 4_xefrac.png Graphic file (type png)
 <use 4_xefrac.png>
 Package pdftex.def Info: 4_xefrac.png  used on input line 116.
 (pdftex.def)             Requested size: 375.80544pt x 375.80545pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./3_epsB.png>]
-<5_liq_diff.png, id=198, 698.61pt x 557.08125pt>
+[6] [7 <./3_epsB.png>]
+<5_liq_diff.png, id=199, 698.61pt x 557.08125pt>
 File: 5_liq_diff.png Graphic file (type png)
 <use 5_liq_diff.png>
 Package pdftex.def Info: 5_liq_diff.png  used on input line 125.
@@ -520,61 +518,65 @@ Package pdftex.def Info: 6_msdT.png  used on input line 138.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./5_liq_diff.png>] [10 <./6_msdT.png>]
-<7_A_comp.png, id=233, 624.3325pt x 501.875pt>
-File: 7_A_comp.png Graphic file (type png)
-<use 7_A_comp.png>
-Package pdftex.def Info: 7_A_comp.png  used on input line 151.
-(pdftex.def)             Requested size: 328.82707pt x 264.33069pt.
- [11 <./7_A_comp.png>]
-<8_total_diff.png, id=252, 432.6564pt x 440.847pt>
+<7_epsB_comp.png, id=241, 521.95pt x 420.57124pt>
+File: 7_epsB_comp.png Graphic file (type png)
+<use 7_epsB_comp.png>
+Package pdftex.def Info: 7_epsB_comp.png  used on input line 153.
+(pdftex.def)             Requested size: 328.82707pt x 264.96129pt.
+ [11 <./7_epsB_comp.png>]
+<8_total_diff.png, id=260, 432.6564pt x 440.847pt>
 File: 8_total_diff.png Graphic file (type png)
 <use 8_total_diff.png>
-Package pdftex.def Info: 8_total_diff.png  used on input line 186.
+Package pdftex.def Info: 8_total_diff.png  used on input line 188.
 (pdftex.def)             Requested size: 375.80544pt x 382.94183pt.
- [12 <./8_total_diff.png>] Excluding 'comment' comment. [13] (./umo_rad_diff.bb
-l [14] [15]
-[16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] Excluding 'comment' comment. [13 <./8_total_diff.png>] (./umo_rad_diff.bbl
+[14] [15] [16])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
  [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
  (./umo_rad_diff.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
 Package rerunfilecheck Info: File `umo_rad_diff.out' has not changed.
 (rerunfilecheck)             Checksum: CA39B87484D50D4EE534CD52357DF0DC;603.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  ) 
 Here is how much of TeX's memory you used:
- 8873 strings out of 492616
- 141459 string characters out of 6129482
- 264049 words of memory out of 5000000
- 12623 multiletter control sequences out of 15000+600000
+ 8877 strings out of 492616
+ 141549 string characters out of 6129482
+ 265049 words of memory out of 5000000
+ 12626 multiletter control sequences out of 15000+600000
  9327 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2486b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,2260b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on umo_rad_diff.pdf (17 pages, 1121491 bytes).
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on umo_rad_diff.pdf (17 pages, 1103601 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
