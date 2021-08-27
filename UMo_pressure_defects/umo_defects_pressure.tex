@@ -1,0 +1,79 @@
+\documentclass[11pt, oneside]{elsarticle}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{lineno}
+%SetFonts
+
+%SetFonts
+
+\date{}							% Activate to display a given date or no date
+
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Analyzing the effect of pressure on the properties of point defects in $\gamma$UMo through atomistic simulations}
+
+\author[ncsu,inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{bwbeeler@ncsu.edu}
+\author[wisc]{Yongfeng Zhang}
+\author[ncsu]{Jahid Hasan}
+\author[purdue]{Gyuchul Park}
+\author[pnnl]{Shenyang Hu}
+\address[ncsu]{North Carolina State University, Raleigh, NC 27695}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+\address[wisc]{University of Wisconsin-Madison, Madison, WI 53715}
+\address[purdue]{Purdue University, XXXXX}
+\address[pnnl]{Pacific Northwest National Laboratory, Idaho Falls, ID 83415}
+
+
+
+\begin{abstract}
+this is the abstract
+\end{abstract}
+
+\end{frontmatter}
+
+\linenumbers
+\modulolinenumbers[2]
+
+\section{Introduction}
+
+Background on UMo fuel
+
+Pressure state on UMo
+
+Atomistic Calculations on UMo summary
+
+What we will do
+
+\section{Computational Details}
+Molecular dynamics simulations are performed utilizing the LAMMPS \cite{plimpton1995} software package and the U-Mo angular dependent potential (ADP) \cite{smirnovaADP}. 
+
+
+
+
+
+Relaxation is performed in an NPT-ensemble, relaxing each x, y, and z component individually, with a damping parameter of 0.1. A Nose-Hoover thermostat is utilized with the damping parameter set to 0.1 ps. Systems are investigated over a range of temperatures, from 600 K up to 1200 K. This temperature range was chosen due to the inherent properties of the potential, in that below 600 K $\gamma$U becomes mechanically unstable and above 1200 K the crystal structure is approaching the melting point. 
+
+Systems are relaxed for 100 ps, with energies averaged over the final 50 ps. 
+
+
+
+\section{Results}
+
+Completed pressure-dependent defect formation energy calculations in UMo as a function of composition and temperature. Results at 1200 K are below, and show that the ressure does not dramatically affect trends in formation energy vs composition. The interstitial formation energy is more sensitive to pressure with >50\% Mo, and the vacancy formation energy is more sensitive to pressure with < 50\% Mo. The compositionally averaged behaviors show that 1 Gpa of pressure leads to approximately a 10\% increase/decrease in formation energy for interstitials and 1 Gpa of pressure leads to approximately a 2\% increase/decrease in formation energy for vacancies. The results are almost identical at 800 K, but less pressure-sensitive. Data is being pursued at 600 K for formation energies. Finally, diffusion coefficients for interstitials and vacancies as a function of pressure are being determined
+
+\section{Conclusions}
+
+\bibliography{../beelerbib}
+
+\end{document}  

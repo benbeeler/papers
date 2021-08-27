@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: report_da_draft.aux
+The style file: elsarticle-num.bst
+Database file #1: Yellowjacket.bib
+Warning--entry type for "NIST" isn't style-file defined
+--line 512 of file Yellowjacket.bib
+You've used 27 entries,
+            2937 wiz_defined-function locations,
+            870 strings with 9744 characters,
+and the built_in function-call counts, 7712 in all, are:
+= -- 730
+> -- 261
+< -- 0
++ -- 105
+- -- 78
+* -- 566
+:= -- 1103
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 212
+empty$ -- 839
+format.name$ -- 101
+if$ -- 1969
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 25
+newline$ -- 90
+num.names$ -- 26
+pop$ -- 143
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 452
+stack$ -- 0
+substring$ -- 544
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 55
+width$ -- 29
+write$ -- 221
+(There was 1 warning)

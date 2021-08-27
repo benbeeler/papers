@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: beeler2021.aux
+The style file: ans.bst
+Database file #1: ../beelerbib.bib
+Warning--missing publisher in hofman2015
+You've used 13 entries,
+            2305 wiz_defined-function locations,
+            620 strings with 7177 characters,
+and the built_in function-call counts, 5197 in all, are:
+= -- 266
+> -- 176
+< -- 1
++ -- 64
+- -- 51
+* -- 483
+:= -- 552
+add.period$ -- 25
+call.type$ -- 13
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 570
+empty$ -- 538
+format.name$ -- 61
+if$ -- 1086
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 153
+newline$ -- 43
+num.names$ -- 13
+pop$ -- 191
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 58
+stack$ -- 0
+substring$ -- 245
+swap$ -- 417
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 25
+width$ -- 15
+write$ -- 120
+(There was 1 warning)

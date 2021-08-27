@@ -1,0 +1,56 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Dion et~al.(2004)Dion, Rydberg, Schr\"oder, Langreth, and
+  Lundqvist}]{dion2004}
+\bibinfo{author}{M.~Dion}, \bibinfo{author}{H.~Rydberg},
+  \bibinfo{author}{E.~Schr\"oder}, \bibinfo{author}{D.~C. Langreth},
+  \bibinfo{author}{B.~I. Lundqvist},
+\newblock \bibinfo{title}{Van der waals density functional for general
+  geometries},
+\newblock \bibinfo{journal}{Phys. Rev. Lett.} \bibinfo{volume}{92}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{246401}. \URLprefix
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.92.246401}.
+  \DOIprefix\doi{10.1103/PhysRevLett.92.246401}.
+%Type = Article
+\bibitem[{Klime{\v{s}} et~al.(2009)Klime{\v{s}}, Bowler, and
+  Michaelides}]{klime2009}
+\bibinfo{author}{J.~Klime{\v{s}}}, \bibinfo{author}{D.~R. Bowler},
+  \bibinfo{author}{A.~Michaelides},
+\newblock \bibinfo{title}{Chemical accuracy for the van der waals density
+  functional},
+\newblock \bibinfo{journal}{Journal of Physics: Condensed Matter}
+  \bibinfo{volume}{22} (\bibinfo{year}{2009}) \bibinfo{pages}{022201}.
+  \URLprefix \url{https://doi.org/10.1088/0953-8984/22/2/022201}.
+  \DOIprefix\doi{10.1088/0953-8984/22/2/022201}.
+%Type = Article
+\bibitem[{Rohrbach et~al.(2003)Rohrbach, Hafner, and Kresse}]{rohrbach2003}
+\bibinfo{author}{A.~Rohrbach}, \bibinfo{author}{J.~Hafner},
+  \bibinfo{author}{G.~Kresse},
+\newblock \bibinfo{title}{Electronic correlation effects in transition-metal
+  sulfides},
+\newblock \bibinfo{journal}{J. Phys.: Cond. Mat.} \bibinfo{volume}{15}
+  (\bibinfo{year}{2003}) \bibinfo{pages}{979}.
+%Type = Article
+\bibitem[{Dudarev et~al.(1998)Dudarev, Bolton, Savrasov, Humphreys, and
+  Sutton}]{dudarev1998}
+\bibinfo{author}{S.~Dudarev}, \bibinfo{author}{G.~Bolton},
+  \bibinfo{author}{S.~Savrasov}, \bibinfo{author}{C.~Humphreys},
+  \bibinfo{author}{A.~Sutton},
+\newblock \bibinfo{title}{Electron-energy-loss spectra and the structural
+  stability of nickel oxide: An lsda+u study},
+\newblock \bibinfo{journal}{Phys. Rev. B} \bibinfo{volume}{57}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{1505}.
+
+\end{thebibliography}
