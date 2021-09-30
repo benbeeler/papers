@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MSR-salts-h-paper.aux
+The style file: elsarticle-num.bst
+Database file #1: Yellowjacket.bib
+Warning--entry type for "NIST" isn't style-file defined
+--line 512 of file Yellowjacket.bib
+Warning--I didn't find a database entry for "Benes"
+Warning--I didn't find a database entry for "Yin"
+You've used 27 entries,
+            2952 wiz_defined-function locations,
+            878 strings with 9834 characters,
+and the built_in function-call counts, 7856 in all, are:
+= -- 738
+> -- 264
+< -- 0
++ -- 106
+- -- 79
+* -- 578
+:= -- 1116
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 214
+empty$ -- 866
+format.name$ -- 103
+if$ -- 2008
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 26
+newline$ -- 90
+num.names$ -- 26
+pop$ -- 139
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 479
+stack$ -- 0
+substring$ -- 553
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 56
+width$ -- 29
+write$ -- 222
+(There were 3 warnings)
