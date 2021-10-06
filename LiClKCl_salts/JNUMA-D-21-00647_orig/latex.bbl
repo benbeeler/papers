@@ -1,0 +1,326 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{CHOI2015572}
+E.-Y. Choi, S.~M. Jeong,
+  \href{https://www.sciencedirect.com/science/article/pii/S1002007115001197}{Electrochemical
+  processing of spent nuclear fuels: An overview of oxide reduction in
+  pyroprocessing technology}, Progress in Natural Science: Materials
+  International 25~(6) (2015) 572--582.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.pnsc.2015.11.001}
+  {\path{doi:https://doi.org/10.1016/j.pnsc.2015.11.001}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1002007115001197}
+
+\bibitem{osti_22107867}
+J.~Uhlir, M.~Straka, L.~Szatmary,
+  \href{https://www.osti.gov/biblio/22107867}{Development of pyro-processing
+  technology for thorium-fuelled molten salt reactor}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/22107867}
+
+\bibitem{Zhu2014}
+H.~Zhu, \href{https://doi.org/10.1007/978-1-4419-6996-5_455}{Rare earth metal
+  production by molten salt electrolysis} (2014) 1765--1772\href
+  {https://doi.org/10.1007/978-1-4419-6996-5_455}
+  {\path{doi:10.1007/978-1-4419-6996-5_455}}.
+\newline\urlprefix\url{https://doi.org/10.1007/978-1-4419-6996-5_455}
+
+\bibitem{VAHIDI2018178}
+E.~Vahidi, F.~Zhao,
+  \href{https://www.sciencedirect.com/science/article/pii/S092134491830301X}{Assessing
+  the environmental footprint of the production of rare earth metals and alloys
+  via molten salt electrolysis}, Resources, Conservation and Recycling 139
+  (2018) 178--187.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.resconrec.2018.08.010}
+  {\path{doi:https://doi.org/10.1016/j.resconrec.2018.08.010}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S092134491830301X}
+
+\bibitem{JIN20202382}
+H.~Jin, Q.~Gu, B.~Chen, C.~Tang, Y.~Zheng, H.~Zhang, M.~Jaroniec, S.-Z. Qiao,
+  \href{https://www.sciencedirect.com/science/article/pii/S2451929420303181}{Molten
+  salt-directed catalytic synthesis of 2d layered transition-metal nitrides for
+  efficient hydrogen evolution}, Chem 6~(9) (2020) 2382--2394.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.chempr.2020.06.037}
+  {\path{doi:https://doi.org/10.1016/j.chempr.2020.06.037}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2451929420303181}
+
+\bibitem{HU20204244}
+X.~Hu, Y.~Hu, Q.~Xu, X.~Wang, G.~Li, H.~Cheng, X.~Zou, X.~Lu,
+  \href{https://www.sciencedirect.com/science/article/pii/S0360319919344325}{Molten
+  salt-promoted ni–fe/al2o3 catalyst for methane decomposition},
+  International Journal of Hydrogen Energy 45~(7) (2020) 4244--4253.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.ijhydene.2019.11.209}
+  {\path{doi:https://doi.org/10.1016/j.ijhydene.2019.11.209}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0360319919344325}
+
+\bibitem{ELSHEIKH201363}
+B.~M. Elsheikh,
+  \href{https://www.sciencedirect.com/science/article/pii/S1687850713000101}{Safety
+  assessment of molten salt reactors in comparison with light water reactors},
+  Journal of Radiation Research and Applied Sciences 6~(2) (2013) 63--70.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jrras.2013.10.008}
+  {\path{doi:https://doi.org/10.1016/j.jrras.2013.10.008}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1687850713000101}
+
+\bibitem{SINGH2017887}
+V.~Singh, M.~R. Lish, O.~Chvála, B.~R. Upadhyaya,
+  \href{https://www.sciencedirect.com/science/article/pii/S1738573317302875}{Dynamics
+  and control of molten-salt breeder reactor}, Nuclear Engineering and
+  Technology 49~(5) (2017) 887--895.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.net.2017.06.003}
+  {\path{doi:https://doi.org/10.1016/j.net.2017.06.003}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1738573317302875}
+
+\bibitem{doi:10.13182/NSE90-374}
+H.~G. MacPherson, \href{https://doi.org/10.13182/NSE90-374}{The molten salt
+  reactor adventure}, Nuclear Science and Engineering 90~(4) (1985) 374--380.
+\newblock \href {http://arxiv.org/abs/https://doi.org/10.13182/NSE90-374}
+  {\path{arXiv:https://doi.org/10.13182/NSE90-374}}, \href
+  {https://doi.org/10.13182/NSE90-374} {\path{doi:10.13182/NSE90-374}}.
+\newline\urlprefix\url{https://doi.org/10.13182/NSE90-374}
+
+\bibitem{doi:10.1080/00295450.2019.1586372}
+C.~Forsberg, D.~Wang, E.~Shwageraus, B.~Mays, G.~Parks, C.~Coyle, M.~Liu,
+  \href{https://doi.org/10.1080/00295450.2019.1586372}{Fluoride-salt-cooled
+  high-temperature reactor (fhr) using british advanced gas-cooled reactor
+  (agr) refueling technology and decay heat removal systems that prevent salt
+  freezing}, Nuclear Technology 205~(9) (2019) 1127--1142.
+\newblock \href
+  {http://arxiv.org/abs/https://doi.org/10.1080/00295450.2019.1586372}
+  {\path{arXiv:https://doi.org/10.1080/00295450.2019.1586372}}, \href
+  {https://doi.org/10.1080/00295450.2019.1586372}
+  {\path{doi:10.1080/00295450.2019.1586372}}.
+\newline\urlprefix\url{https://doi.org/10.1080/00295450.2019.1586372}
+
+\bibitem{WU2018159}
+H.~Wu, F.~Carotti, R.~Gakhar, N.~Patel, R.~O. Scarlat,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022113917304943}{Fluorination
+  of nuclear graphite ig-110 in molten 2lif-bef2 (flibe) salt at 700 \degree
+  c}, Journal of Fluorine Chemistry 211 (2018) 159--170.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.jfluchem.2018.04.001}
+  {\path{doi:https://doi.org/10.1016/j.jfluchem.2018.04.001}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022113917304943}
+
+\bibitem{CAPELLI2013110}
+E.~Capelli, O.~Beneš, M.~Beilmann, R.~Konings,
+  \href{https://www.sciencedirect.com/science/article/pii/S0021961412003990}{Thermodynamic
+  investigation of the lif–thf4 system}, The Journal of Chemical
+  Thermodynamics 58 (2013) 110--116.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jct.2012.10.013}
+  {\path{doi:https://doi.org/10.1016/j.jct.2012.10.013}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021961412003990}
+
+\bibitem{Janz1988}
+G.~J. Janz, U.~S. N.~B. of~Standards, A.~C. Society, A.~I. of~Physics,
+  \href{https://books.google.com/books?id=qSXxAAAAMAAJ}{{Thermodynamic and
+  Transport Properties for Molten Salts: Correlation Equations for Critically
+  Evaluated Density, Surface Tension, Electrical Conductance, and Viscosity
+  Data}}, Journal of Physical and Chemic, American Chemical Society and the
+  American Institute of Physics, 1988.
+\newline\urlprefix\url{https://books.google.com/books?id=qSXxAAAAMAAJ}
+
+\bibitem{capelli2012}
+E.~Capelli, Thermodynamic characterization of salt components for molten salt
+  reactor fuel (2012).
+
+\bibitem{fredrickson2018molten}
+G.~L. Fredrickson, G.~Cao, R.~Gakhar, T.-S. Yoo, Molten salt reactor salt
+  processing--technology status, Tech. rep., Idaho National Lab.(INL), Idaho
+  Falls, ID (United States) (2018).
+
+\bibitem{benevs2020molten}
+O.~Bene{\v{s}}, R.~M. Konings, Molten salt reactor fuel and coolant (2020).
+
+\bibitem{McMurray2021}
+J.~McMurray, K.~Johnson, C.~Agca, B.~Betzler, D.~Kropaczek, T.~Besmann,
+  D.~Andersson, N.~Ezell, {Roadmap for thermal property measurements of Molten
+  Salt Reactor systems}, Tech. Rep. ORNL/SPR-2020/1865, Department of Energy
+  Office of Nuclear Energy Advanced Reactor Technologies (2021).
+
+\bibitem{Bengston2014}
+A.~Bengston, H.~O. Nam, S.~Saha, R.~Sakidja, D.~Morgan, {First-Principles
+  Molecular Dynamics Modeling of the LiCl-KCl Molten System}, Comput. Mater.
+  Sci. 83 (2014) 362.
+
+\bibitem{NGUYEN2021}
+M.-T. Nguyen, V.-A. Glezakou, J.~Lonergan, B.~McNamara, P.~D. Paviet,
+  R.~Rousseau,
+  \href{https://www.sciencedirect.com/science/article/pii/S0167732220375048}{Ab
+  initio molecular dynamics assessment of thermodynamic and transport
+  properties in (k,li)cl and (k, na)cl molten salt mixtures}, Journal of
+  Molecular Liquids 326 (2021) 115262.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.molliq.2020.115262}
+  {\path{doi:https://doi.org/10.1016/j.molliq.2020.115262}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167732220375048}
+
+\bibitem{Kresse1993}
+G.~Kresse, J.~Hafner,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.47.558}{{Ab initio molecular
+  dynamics for liquid metals}}, Physical Review B 47~(1) (1993) 558--561.
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.47.558}
+
+\bibitem{Kresse1996}
+G.~Kresse, J.~Furthm{\"{u}}ller,
+  \href{http://www.sciencedirect.com/science/article/pii/0927025696000080}{{Efficiency
+  of ab-initio total energy calculations for metals and semiconductors using a
+  plane-wave basis set}}, Computational Materials Science 6~(1) (1996) 15--50.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0927-0256(96)00008-0}
+  {\path{doi:https://doi.org/10.1016/0927-0256(96)00008-0}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0927025696000080}
+
+\bibitem{Kresse1996a}
+G.~Kresse, J.~Furthm{\"{u}}ller,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}{{Efficient
+  iterative schemes for ab initio total-energy calculations using a plane-wave
+  basis set}}, Physical Review B 54~(16) (1996) 11169--11186.
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}
+
+\bibitem{Zhou2017}
+W.~Zhou, J.~Zhang,
+  \href{http://www.sciencedirect.com/science/article/pii/S0925838816335605}{{Thermodynamic
+  evaluation of LiCl-KCl-PuCl3 system}}, Journal of Alloys and Compounds 695
+  (2017) 2306--2313.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jallcom.2016.11.092}
+  {\path{doi:https://doi.org/10.1016/j.jallcom.2016.11.092}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0925838816335605}
+
+\bibitem{Dion2004}
+M.~Dion, H.~Rydberg, E.~Schr{\"{o}}der, D.~C. Langreth, B.~I. Lundqvist,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.92.246401}{{Van der Waals
+  Density Functional for General Geometries}}, Physical Review Letters 92~(24)
+  (2004) 246401.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.92.246401}
+  {\path{doi:10.1103/PhysRevLett.92.246401}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.92.246401}
+
+\bibitem{PULAY1980393}
+P.~Pulay,
+  \href{https://www.sciencedirect.com/science/article/pii/0009261480803964}{Convergence
+  acceleration of iterative sequences. the case of scf iteration}, Chemical
+  Physics Letters 73~(2) (1980) 393--398.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0009-2614(80)80396-4}
+  {\path{doi:https://doi.org/10.1016/0009-2614(80)80396-4}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0009261480803964}
+
+\bibitem{Song2017}
+J.~Song, X.~Li, S.~Shi, L.~Yan, T.~Jiang, S.~Peng,
+  \href{http://www.sciencedirect.com/science/article/pii/S0013468617315086}{{Towards
+  the calculations of redox potentials in molten LiCl-KCl eutectic by ensemble
+  averages based on first principles molecular dynamics}}, Electrochimica Acta
+  248 (2017) 462--469.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.electacta.2017.07.090}
+  {\path{doi:https://doi.org/10.1016/j.electacta.2017.07.090}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0013468617315086}
+
+\bibitem{dehoff2006}
+R.~DeHoff, Thermodynamics in materials science, CRC Press, 2006.
+
+\bibitem{Sato2009}
+Y.~Sato, \href{https://doi.org/10.1007/978-3-540-85918-5{\_}2}{{Viscosity and
+  Density Measurements of High Temperature Melts}}, Springer Berlin Heidelberg,
+  Berlin, Heidelberg, 2009, pp. 17--37.
+\newblock \href {https://doi.org/10.1007/978-3-540-85918-5_2}
+  {\path{doi:10.1007/978-3-540-85918-5_2}}.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-85918-5{\_}2}
+
+\bibitem{Janz1972}
+G.~J. Janz, U.~Krebs, H.~F. Siegenthaler, R.~P. Tomkins, {Molten Salts: Volume
+  3 Nitrates, Nitrites, and Mixtures: Electrical Conductance, Density,
+  Viscosity, and Surface Tension Data}, Journal of Physical and Chemical
+  Reference Data 1~(3) (1972) 581--746.
+\newblock \href {https://doi.org/10.1063/1.3253103}
+  {\path{doi:10.1063/1.3253103}}.
+
+\bibitem{Grimme2006}
+S.~Grimme,
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.20495}{Semiempirical
+  gga-type density functional constructed with a long-range dispersion
+  correction}, Journal of Computational Chemistry 27~(15) (2006) 1787--1799.
+\newblock \href
+  {http://arxiv.org/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.20495}
+  {\path{arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.20495}},
+  \href {https://doi.org/https://doi.org/10.1002/jcc.20495}
+  {\path{doi:https://doi.org/10.1002/jcc.20495}}.
+\newline\urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.20495}
+
+\bibitem{Grimme2010}
+S.~Grimme, J.~Antony, S.~Ehrlich, H.~Krieg,
+  \href{https://doi.org/10.1063/1.3382344}{A consistent and accurate ab initio
+  parametrization of density functional dispersion correction (dft-d) for the
+  94 elements h-pu}, The Journal of Chemical Physics 132~(15) (2010) 154104.
+\newblock \href {http://arxiv.org/abs/https://doi.org/10.1063/1.3382344}
+  {\path{arXiv:https://doi.org/10.1063/1.3382344}}, \href
+  {https://doi.org/10.1063/1.3382344} {\path{doi:10.1063/1.3382344}}.
+\newline\urlprefix\url{https://doi.org/10.1063/1.3382344}
+
+\bibitem{perdew1996}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof, Generalized gradient approximation made
+  simple, Physical review letters 77~(18) (1996) 3865.
+
+\bibitem{zhang1998}
+Y.~Zhang, W.~Yang, Comment on “generalized gradient approximation made
+  simple”, Physical Review Letters 80~(4) (1998) 890.
+
+\bibitem{klimevs2009chemical}
+J.~Klime{\v{s}}, D.~R. Bowler, A.~Michaelides, Chemical accuracy for the van
+  der waals density functional, Journal of Physics: Condensed Matter 22~(2)
+  (2009) 022201.
+
+\bibitem{lee2010}
+K.~Lee, {\'E}.~D. Murray, L.~Kong, B.~I. Lundqvist, D.~C. Langreth,
+  Higher-accuracy van der waals density functional, Physical Review B 82~(8)
+  (2010) 081101.
+
+\bibitem{peng2016}
+H.~Peng, Z.-H. Yang, J.~P. Perdew, J.~Sun, Versatile van der waals density
+  functional based on a meta-generalized gradient approximation, Physical
+  Review X 6~(4) (2016) 041005.
+
+\bibitem{Wang2015}
+J.~Wang, J.~Wu, Z.~Sun, G.~Lu, J.~Yu,
+  \href{http://www.sciencedirect.com/science/article/pii/S0167732215301598}{{Molecular
+  dynamics study of the transport properties and local structures of molten
+  binary systems (Li, Na)Cl, (Li, K)Cl and (Na, K)Cl}}, Journal of Molecular
+  Liquids 209 (2015) 498--507.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.molliq.2015.06.021}
+  {\path{doi:https://doi.org/10.1016/j.molliq.2015.06.021}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0167732215301598}
+
+\bibitem{Janz1974}
+G.~J. Janz, G.~L. Gardner, U.~Krebs, R.~P.~T. Tomkins,
+  \href{https://doi.org/10.1063/1.3253134}{{Molten Salts: Volume 4, Part 1,
+  Fluorides and Mixtures Electrical Conductance, Density, Viscosity, and
+  Surface Tension Data}}, Journal of Physical and Chemical Reference Data 3~(1)
+  (1974) 1--115.
+\newblock \href {https://doi.org/10.1063/1.3253134}
+  {\path{doi:10.1063/1.3253134}}.
+\newline\urlprefix\url{https://doi.org/10.1063/1.3253134}
+
+\bibitem{hersh1965enthalpies}
+L.~S. Hersh, O.~Kleppa, Enthalpies of mixing in some binary liquid halide
+  mixtures, The Journal of Chemical Physics 42~(4) (1965) 1309--1322.
+
+\bibitem{Zhou2020}
+D.~Zhou, J.~Dong, Y.~Si, F.~Zhu, J.~Li,
+  \href{https://www.mdpi.com/2075-163X/10/3/250}{Melting curve of potassium
+  chloride from in situ ionic conduction measurements}, Minerals 10~(3) (2020).
+\newblock \href {https://doi.org/10.3390/min10030250}
+  {\path{doi:10.3390/min10030250}}.
+\newline\urlprefix\url{https://www.mdpi.com/2075-163X/10/3/250}
+
+\bibitem{FTsalt}
+\href{https://www.crct.polymtl.ca/fact/documentation/FTsalt/FTsalt_Figs.htm}{[link]}.
+\newline\urlprefix\url{https://www.crct.polymtl.ca/fact/documentation/FTsalt/FTsalt_Figs.htm}
+
+\end{thebibliography}
