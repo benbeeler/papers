@@ -1,0 +1,152 @@
+# Veusz saved document (version 3.3.1)
+# Saved at 2021-10-13T21:29:30.952585
+
+AddImportPath(u'/Users/beelbw/projects/papers/nacl_ucl3_paper/versionJ/imagedata')
+ImportString(u'`D E`(numeric)','''
+7.303521e+00
+6.509221e+00
+5.714921e+00
+4.920621e+00
+4.523471e+00
+4.126321e+00
+3.729171e+00
+3.332021e+00
+1.743421e+00
+-2.423286e-01
+''')
+ImportString(u'`D J`(numeric)','''
+5.156940e+00
+5.004720e+00
+4.852500e+00
+4.700280e+00
+4.624170e+00
+4.548060e+00
+4.471950e+00
+4.395840e+00
+4.091400e+00
+3.710850e+00
+''')
+ImportString(u'`D V`(numeric)','''
+4.100397e+00
+4.055300e+00
+3.934063e+00
+''')
+ImportString(u'`D dD`(numeric)','''
+4.704180e+00
+4.601283e+00
+4.416204e+00
+4.095607e+00
+''')
+ImportString(u'`T E`(numeric)','''
+8.000000e+02
+9.000000e+02
+1.000000e+03
+1.100000e+03
+1.150000e+03
+1.200000e+03
+1.250000e+03
+1.300000e+03
+1.500000e+03
+1.750000e+03
+''')
+ImportString(u'`T J`(numeric)','''
+8.000000e+02
+9.000000e+02
+1.000000e+03
+1.100000e+03
+1.150000e+03
+1.200000e+03
+1.250000e+03
+1.300000e+03
+1.500000e+03
+1.750000e+03
+''')
+ImportString(u'`T V`(numeric)','''
+1.100000e+03
+1.250000e+03
+1.400000e+03
+''')
+ImportString(u'`\ufeffT dD`(numeric)','''
+9.775000e+02
+1.077700e+03
+1.226800e+03
+1.477700e+03
+''')
+Set('colorTheme', u'default-latest')
+Set('StyleSheet/axis-function/autoRange', u'next-tick')
+Add('page', name=u'page1', autoadd=False)
+To(u'page1')
+Add('graph', name=u'graph1', autoadd=False)
+To(u'graph1')
+Add('axis', name=u'x', autoadd=False)
+To(u'x')
+Set('label', u'Temperature (K)')
+Set('min', 700.0)
+Set('max', 1600.0)
+To('..')
+Add('axis', name=u'y', autoadd=False)
+To(u'y')
+Set('label', u'Density (g/cm{^3})')
+Set('min', 3.0)
+Set('max', 6.0)
+Set('direction', u'vertical')
+To('..')
+Add('xy', name=u'xy1', autoadd=False)
+To(u'xy1')
+Set('xData', u'\ufeffT dD')
+Set('yData', u'D dD')
+Set('key', u'dDsC')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name=u'xy2', autoadd=False)
+To(u'xy2')
+Set('marker', u'diamond')
+Set('xData', u'T V')
+Set('yData', u'D V')
+Set('key', u'vdW-DF2')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name=u'xy3', autoadd=False)
+To(u'xy3')
+Set('xData', u'T E')
+Set('yData', u'D E')
+Set('key', u'Janz')
+Set('PlotLine/width', u'2pt')
+Set('MarkerLine/hide', True)
+Set('MarkerFill/hide', True)
+To('..')
+Add('xy', name=u'xy4', autoadd=False)
+To(u'xy4')
+Set('xData', u'T J')
+Set('yData', u'D J')
+Set('key', u'Desyatnik')
+Set('PlotLine/width', u'2pt')
+Set('MarkerLine/hide', True)
+Set('MarkerFill/hide', True)
+To('..')
+Add('key', name=u'key1', autoadd=False)
+To(u'key1')
+Set('vertPosn', u'top')
+To('..')
+Add('fit', name=u'fit1', autoadd=False)
+To(u'fit1')
+Set('values', {u'a': 5.918749421857569, u'b': -0.0012307054910912774})
+Set('xData', u'\ufeffT dD')
+Set('yData', u'D dD')
+Set('min', 900.0)
+Set('max', 1500.0)
+Set('Line/color', u'theme1')
+Set('Line/width', u'1pt')
+To('..')
+Add('fit', name=u'fit2', autoadd=False)
+To(u'fit2')
+Set('values', {u'a': 4.727144308827974, u'b': -0.0005579040088588005})
+Set('xData', u'T V')
+Set('yData', u'D V')
+Set('min', 1050.0)
+Set('max', 1450.0)
+Set('Line/color', u'theme2')
+Set('Line/width', u'1pt')
+To('..')
+To('..')
+To('..')

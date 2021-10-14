@@ -26,9 +26,7 @@ H.~Matsuura, R.~Takagi, L.~Rycerz, M.~Gaune-Escard, Enthalpies of mixing in
   632--634.
 
 \bibitem{BENES2008}
-O.~Benes, R.~J.~M. Konings, Thermodynamic evaluation of the
-  {N}a{C}l€-{M}g{C}l$_2$-€{“UC}l$_3$-{€“P}u{C}l$_3$ system, J. Nucl. Mater.
-  375~(2) (2008) 202--208.
+O.~Benes, R.~J.~M. Konings, J. Nucl. Mater. 375~(2) (2008) 202--208.
 
 \bibitem{YIN2020}
 H.~Yin, J.~Lin, B.~Hu, W.~Liu, X.~Guo, Q.~Liu, Z.~Tang, Thermodynamic
@@ -66,15 +64,15 @@ G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
 P.~E. Bl\"ochl, Projector augmented-wave method, Phys. Rev. B 50 (1994)
   17953--17979.
 
-\bibitem{PhysRevB.52.R5467}
-A.~I. Liechtenstein, V.~I. Anisimov, J.~Zaanen, Density-functional theory and
-  strong interactions: {O}rbital ordering in mott-hubbard insulators, Phys.
-  Rev. B 52 (1995) R5467--R5470.
-
 \bibitem{PhysRevB.71.035105}
 M.~Cococcioni, S.~de~Gironcoli, Linear response approach to the calculation of
   the effective interaction parameters in the $\mathrm{LDA}+\mathrm{U}$ method,
   Phys. Rev. B 71 (2005) 035105.
+
+\bibitem{PhysRevB.52.R5467}
+A.~I. Liechtenstein, V.~I. Anisimov, J.~Zaanen, Density-functional theory and
+  strong interactions: {O}rbital ordering in mott-hubbard insulators, Phys.
+  Rev. B 52 (1995) R5467--R5470.
 
 \bibitem{dudarev}
 S.~L. Dudarev, D.~N. Manh, A.~P. Sutton, Effect of mott-hubbard correlations on
@@ -131,5 +129,9 @@ G.~W. Neilson, A.~K. Adya, S.~Ansell, 8 neutron and x-ray diffraction studies
 \bibitem{Okamoto}
 Y.~Okamoto, F.~Kobayashi, T.~Ogawa, Structure and dynamic properties of molten
   uranium trichloride, J. Alloy. Compd. 29 (1998) 355--358.
+
+\bibitem{aiphandbook}
+J.~McKinney, R.~Lindsay, American Institute of Physics Handbook, third edition
+  Edition, McGraw-Hill Book Company, 1972.
 
 \end{thebibliography}

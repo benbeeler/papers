@@ -118,7 +118,7 @@ The differently sized supercells were investigated in order to understand and op
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG1_0.pdf}
+\includegraphics[width=0.95\textwidth]{fig1.jpg}
 \caption{The predicted radial distribution function in a) UCl$_3$ and b) NaCl obtained by supercells containing 64 (small) and 216 (large) atoms at 1250 K.} 
 \label{fig:radial}
 \end{figure*}
@@ -141,7 +141,7 @@ Finally, the constrained DFT linear-response method \cite{PhysRevB.71.035105} wa
 
 \begin{figure*}[h]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG01.pdf}
+\includegraphics[width=0.95\textwidth]{fig2.jpg}
 \caption{The predicted density of states for simulations of molten UCl$_3$ at 1250 K, a) including (AFM) and b) not including (FM) a Hubbard $U$ model. {\color{red} Furhter details to be added.}} 
 \label{fig:DOS}
 \end{figure*}
@@ -155,45 +155,57 @@ It is well-established in the literature that Van der Waals or dispersion intera
 \subsection{AIMD simulations}
 The AIMD simulations for the molten salt supercells were performed using isobaric (NPT) conditions. The primary intent of the NPT simulations (with the pressure set to zero) is to evaluate density, thermal expansion, heat capacity and mixing energy. All NPT ensemble simulations used the the Langevin thermostat in VASP. For the NPT simulations, the temperature friction coefficient was set to 10 ps$^{-1}$ and the friction coefficient for the lattice degrees of freedom to 1 ps$^{-1}$. The time step was set to 2 fs for production runs between \~1000 K and 1500 K. Around and below 1000 K a larger time step, up to 5 fs, is warranted due to the slow dynamics of uranium ions.
 
-The simulations used pre-equilibrium and equilibration runs that involve melting the lattice and ensuring convergence of the total energy and pair distribution function for the temperature of interest. After pre-equilibration and equilibration, production runs follow for at least 20 ps. Some simulations used longer production runs, in particular this applies to the simulations based on smaller supercells (up to 50 ps) and systems containing a mixture of UCl$_3$ and NaCl (up to 40 ps). NPT simulations require long equilibration runs and may sometimes leave the equilibrium state due to distortions of the supercells, which is in part a consequence of applying the technique to somewhat small supercells. All simulations were inspected to avoid sampling such regimes. Additionally, an NVT ensemble was applied to obtain compressibilities, densities, heat capacities, and diffusivities. 
+The simulations used pre-equilibrium and equilibration runs that involve melting the lattice and ensuring convergence of the total energy and pair distribution function for the temperature of interest. After pre-equilibration and equilibration, production runs follow for at least 20 ps. Some simulations used longer production runs, in particular this applies to the simulations based on smaller supercells (up to 50 ps) and systems containing a mixture of UCl$_3$ and NaCl (up to 40 ps). NPT simulations require long equilibration runs and may sometimes leave the equilibrium state due to distortions of the supercells, which is in part a consequence of applying the technique to somewhat small supercells. All simulations were inspected to avoid sampling such regimes. Additionally, an NVT ensemble was applied to obtain compressibilities, densities, heat capacities, and diffusivities. Only the vdW-DF2 dispersion functional was utilized for NVT ensembles. 
 
 Properties were calculated by averaging over the production run (not including the equilibration or pre-production time). Densities were trivially obtained from the supercell volume and heat capacities from the slope of the total internal energy ($E_{tot}$) as function of temperature. 
 \begin{equation}
+\label{eq:cp}
 C=\frac{\partial E_{tot}}{\partial T}
 \end{equation}
 For the NPT ensemble, this corresponds to heat capacity at constant pressure ($C_p$), and for the NVT ensemble heat capacity at constant volume (C$_V$). Mixing energies were calculated from the potential energy ($E_{pot}$) of the mixed salt with pure NaCl and UCl$_3$ at the same temperature as the reference. 
 \begin{equation}
 \begin{split}
-E_{mix}=E_{pot}(U_xNa_yCl_{3x+y})- \\
--xE_{pot}(UCl_3)-yE_{pot}(NaCl)
+E_{mix}=E_{pot}(U_xNa_yCl_{3x+y})-xE_{pot}(UCl_3)-yE_{pot}(NaCl)
 \end{split}
 \end{equation}
 
-The compressibility is calculated as the negative of the inverse equilibrium volume multiplied by the derivative of the volume as a function of pressure. The volume as a function of pressure is determined by sampling multiple volumes in an NVT ensemble, and calculating the time-averaged pressure. Diffusivities were calculated by tracking the mean-squared displacement (MSD) over three unique 20 ps simulations in an NVT ensemble. The total, Na, Cl, and U diffusivities were determined via Einstein's equation (D=r$^2$/2dt, where d=3 for three-dimensional diffusion). The MSD was verified to follow a linear trend as a function of time, and the first 4 ps were neglected for the determination of the slope.
+The compressibility is calculated as the negative of the inverse equilibrium volume multiplied by the derivative of the volume as a function of pressure, as in equation \ref{eq:compress}. The volume as a function of pressure is determined by sampling multiple volumes in an NVT ensemble, and calculating the time-averaged pressure. 
 
+\begin{equation}
+\label{eq:compress}
+\beta = -\frac{1}{V} {\left(\frac{dV}{dp}\right)}
+\end{equation}
 
+Diffusivities were calculated by tracking the mean-squared displacement (MSD) over three unique 20 ps simulations in an NVT ensemble. The MSD was verified to follow a linear trend as a function of time, and the first 4 ps were removed to determine the dependence of the MSD with time. The total, Na, Cl, and U diffusivities were determined via Einstein's equation:
 % The diffusivities are calculated from the mean square displacements (MSD) through the Einstein relation.
-%\begin{equation}
-%MSD(t)=\sum_i^N (\mathbf{r^i(t)} - \mathbf{r^i(0)})^2 =6Dt,
-%\end{equation}
-%where $i$ denotes an ion, $N$ is the total number of ions, $\mathbf{r^i}$ is position vector, D is the diffusivity and t is time. According to kinetic theory, the diffusivity is expected to follow
+\begin{equation}
+MSD(t)=\sum_i^N (\mathbf{r^i(t)} - \mathbf{r^i(0)})^2 =6Dt,
+\end{equation}
+where $i$ denotes an ion, $N$ is the total number of ions, $\mathbf{r^i}$ is the position vector, $D$ is the diffusivity, and $t$ is time. 
+
+%According to kinetic theory, the diffusivity is expected to follow
 %\begin{equation}
 %D=\mu \,k_{\text{B}}T,
 %\end{equation}
-%where $\mu$ is the mobility, $k_B$ is the Boltzmann constant and T is temperature. The mobility is calculated from the temperature dependence of the diffusivity. which may also be related to the viscosity and size of each species according to the Stokes?Einstein equation. However, that correlation was not attempted here.
+%where $\mu$ is the mobility, $k_B$ is the Boltzmann constant and T is temperature. The mobility is calculated from the temperature dependence of the diffusivity. which may also be related to the viscosity and size of each species according to the Stokes-Einstein equation. However, that correlation was not attempted here. 
+
+
+
 
 
 \section{Results}
 \label{sec:results}
 \subsection{AIMD simulations of NaCl}
 \subsubsection{Density and structure}
-Figure \ref{fig:NaCldensity}a plots the predicted density of molten NaCl as function of temperature for the DFT-D3 and DFT-dDsC Van der Waals models as well as simulations without any dispersion interaction. The results refer to the supercell size that we consider best converged for each methodology, see caption and below for further discussion. A correlation derived from experimental data is also shown~\cite{Janz1988}. All simulations reproduce the temperature dependence of the density obtained from experiments. However, as expected, only the simulations that account for dispersion interactions are within 10\% of the experimental density correlation. The best agreement is obtained for the dDsC dispersion model, which is within 5\% or less of the experimental correlation across an extended temperature range. The calculated (dDsC) correlation for the density as function of temperature is listed in Table~\ref{table:NaCldensityetc}. 
-The radial pair distribution function at 1250 K is reported in Figure \ref{fig:radial}, which highlights first, second and third-shell coordination distances of 2.70~\AA, 3.78~\AA~and 4.14~\AA, respectively. The predicted pair distribution function is in good agreement with experimental values~\cite{Edwards_1975}. {\color{red}Further details to be added.}
+Figure \ref{fig:NaCldensity}a plots the predicted density of molten NaCl as function of temperature for the DFT-D3, DFT-dDsC, and vdW-DF2 Van der Waals models as well as simulations without any dispersion interaction based strictly upon the Perdew-Burke-Ernzerhof (PBE) generalized gradient approximation (\cite{pbe}). A correlation derived from experimental data is also shown~\cite{Janz1988}. The dDsC, DFT-D3, and PBE reproduce the temperature dependence of the density obtained from experiments. However, as expected, only the simulations that account for dispersion interactions are within 10\% of the experimental density correlation. The best agreement is obtained for the vdW-DF2 dispersion model, which is within 3\% or less of the experimental correlation across an extended temperature range. However, the dDsC dispersion model also correctly predicts the variation in density with temperature, whereas the vdW-DF2 underestimates the dependence. The calculated (dDsC and vdW-DF2) correlations for the density as function of temperature are listed in Table~\ref{table:NaCldensityetc}. The radial pair distribution function at 1250 K is reported in Figure \ref{fig:radial}, which highlights first, second and third-shell coordination distances of 2.70~\AA, 3.78~\AA~and 4.14~\AA, respectively. The predicted pair distribution function is in good agreement with experimental values~\cite{Edwards_1975}. Further calculations did not include the DFT-D3 Van der Waals model or PBE without a Van der Waals description
+
+%The results refer to the supercell size that we consider best converged for each methodology, see caption and below for further discussion. 
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG2.pdf}
-\caption{a) Density of NaCl predicted with two different models for dispersion forces (D3 and dDsC) and one without (small cell witih 64 atoms for dDsC, large cell with 208 atoms for others). Experimental data is represented by the correlation plotted as an orange line~\cite{Janz1988}. b) Calculated total energy of NaCl as function of temperature (small cell). The line is a least-squares fit to data points and the slope represents the heat capacity.} %Note that the temperature range of the experimental correlation and some data points extend beyond the boiling point of NaCl, which is solely for illustrative purposes. 
+\includegraphics[width=0.6\textwidth]{fig3a.jpg}
+\caption{a) Density of NaCl predicted with two different models for dispersion forces (D3 and dDsC) and one without (small cell witih 64 atoms for dDsC, large cell with 208 atoms for others). Experimental data is represented by the correlation plotted as an orange line~\cite{Janz1988}. b) Calculated total energy of NaCl as function of temperature (small cell). The line is a least-squares fit to data points and the slope represents the heat capacity.} 
+%Note that the temperature range of the experimental correlation and some data points extend beyond the boiling point of NaCl, which is solely for illustrative purposes. 
 %The lines shown are least-squares fits to the calculated data points.} 
 \label{fig:NaCldensity}
 \end{figure*}
@@ -208,23 +220,22 @@ The radial pair distribution function at 1250 K is reported in Figure \ref{fig:r
 \hline
 %NaCl Calculated (D3)	& &  \\
 NaCl Calculated (dDsC)	&$2.1594-0.0004993T$ &71.6 \\
-%%NaCl Calculated (Langreth \& Lundqvist)	& & & & & & \\
-NaCl Experiment	&$2.061-0.0004759T$~\cite{Janz1988} &66.9~\cite{NIST}  \\
-%UCl$_3$ Calculated (Langreth \& Lundqvist) & & & & & & \\	
+NaCl Calculated (vdW-DF2)	& 1.9379-0.0003603T & 58.1 \\
+NaCl Experiment	&$2.061-0.0004759T$~\cite{Janz1988} &66.9~\cite{NIST}  \\	
 UCl$_3$ Calculated (dDsC) &$6.1066-0.001383T$ &145.3 \\	
+UCl$_3$ Calculated (vdW-DF2) &$4.7230-0.000554T$ & 128.5 \\	
 UCl$_3$ Experiment	&$6.375-0.001522T$~\cite{Desyatnik} &150~\cite{BENES2008},129.704~\cite{YIN2020} \\
 \hline
 \hline
 \end{tabular}
-\caption{Calculated and experimental correlations and values for density and heat capacity of NaCl and UCl$_3$.}% The first quantity is a linear function of temperature, while the latter two are constants.}
+\caption{Calculated and experimental correlations and values for density and heat capacity of NaCl and UCl$_3$. For the dDsC method, the heat capacity is at constant pressure, while for the vdW-DF2 method, the heat capacity is at constant volume.}% The first quantity is a linear function of temperature, while the latter two are constants.}
 \label{table:NaCldensityetc}
 \end{table*}
 
 \subsubsection{Heat capacity} 
-Figure \ref{fig:NaCldensity}b plots the total energy per formula unit of molten NaCl as function of temperature. The derivative equals the heat capacity of NaCl, which is also tabulated in Table \ref{table:NaCldensityetc} together with an experimental reference value~\cite{NIST}. The results refer to the supercell size that we consider best converged for each methodology, see caption and below for further discussion. The simulation results indicate a constant heat capacity, though in order to identify small deviations from this behavior a denser temperature mesh would be required. The good agreement between simulations and experiments for the heat capacity (see Table \ref{table:NaCldensityetc}) further emphasizes the accuracy of the AIMD simulations. {\color{red}Further details to be add.}
+The heat capacities are determined via equation \ref{eq:cp}, which is the slope of the total energy as a function of temperature. The constant pressure heat capacity (C$_p$) and the constant volume heat capacity (C$_V$) were obtained from the dDsC and the vdW-DF2 dispersion models, respectively, and are provided in Table \ref{table:NaCldensityetc} together with an experimental reference value~\cite{NIST}. The simulation results indicate a constant heat capacity, though in order to identify small deviations from this behavior a denser temperature mesh would be required. The good agreement between simulations and experiments for the heat capacity (see Table \ref{table:NaCldensityetc}) further emphasizes the accuracy of the AIMD simulations. The ratio of the heat capacities ($\gamma$ = C$_p$/C$_V$) is found to be 1.23, indicating a degree of compressibility, which will be discussed later. 
 
-
-{\color{red}Further details to be added.}
+%Figure \ref{fig:NaCldensity}b plots the total energy per formula unit of molten NaCl as function of temperature. The derivative equals the heat capacity of NaCl, which is also tabulated in Table \ref{table:NaCldensityetc} together with an experimental reference value~\cite{NIST}. The results refer to the supercell size that we consider best converged for each methodology, see caption and below for further discussion. 
 
 \subsubsection{Impact of supercell size and other simulation settings}
 The results in Figure \ref{fig:NaCldensity} refer to simulations based on the supercell that we consider best converged. Figure \ref{fig:NaClsize} compares these results with those obtained from other supercells. Given the good agreement between the results from different supercells, density and heat capacity are considered accurately represented by all supercell sizes that were investigated.
@@ -233,20 +244,18 @@ The results in Figure \ref{fig:NaCldensity} refer to simulations based on the su
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG3b.pdf}
+\includegraphics[width=0.95\textwidth]{fig4.jpg}
 \caption{a) Calculated density and b) total energy of NaCl as function of temperature for the large and small supercells. The lines are least-squares fits to data points and the slope represents the heat capacity.} 
 \label{fig:NaClsize}
 \end{figure*}
 
 %The NVT simulations also allow calculation of the compressibility and diffusivity of each species. These results are also summarized in Table \ref{table:NaCldensityetc} (compressibility) and Table \ref{table:NaCldiffusivityetc}.
 
+\FloatBarrier
 
 \subsection{AIMD simulations of UCl$_3$}
 \subsubsection{Density and structure}
-Following the results for NaCl, the best performing Van der Waals model (dDsC) was applied to UCl$_3$. {\color{red} Further details to be added.}% with a few spot checks using the other Van der Waals models as well. 
-Figure \ref{fig:UCl3density}a) plots the predicted density for UCl$_3$ as function of temperature for the dDsC dispersion model. 
-These results refer to the supercell size that we deem to be best converged and most representative of the UCl$_3$ system, see below for further discussion. 
-The figure also compares the predicted densities to two literature correlations derived from experiments~\cite{Janz1988,Desyatnik}.
+Following the results for NaCl, the best performing Van der Waals models (dDsC and vdW-DF2) were applied to UCl$_3$. Figure \ref{fig:UCl3density}a) plots the predicted density for UCl$_3$ as function of temperature for the dDsC and vdW-DF2 dispersion models compared to two literature correlations derived from experiments~\cite{Janz1988,Desyatnik}.
 %The inset highlights the difference in energy between the AFM, FM and non-magnetic simulations. 
 %Figure \ref{fig:UCl3density}b) also includes results from simulations that do not include the Hubbard $U$ model for the U 5f electrons. 
 The two experimental correlations for density are surprisingly different and cannot both be correct, except in a narrow temperature range. 
@@ -262,7 +271,7 @@ The radial pair distribution function at 1250 K is reported in Figure \ref{fig:r
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG4.pdf}
+\includegraphics[width=0.6\textwidth]{fig5.jpg}
 \caption{a) Density of UCl$_3$ predicted the dDsC model for the dispersion forces (small cell with 64 atoms). Experimental data is represented by the correlations plotted as green~\cite{Desyatnik} and orange lines~\cite{Janz1988}. The dashed line is a least-squares fit to the calculated data points, the equations of which are summarized in Table \ref{table:NaCldensityetc}. b) Calculated total energy of UCl$_3$ as function of temperature (small cell). The line is a least-squares fit to data points and the slope represents the heat capacity.} 
 \label{fig:UCl3density}
 \end{figure*}
@@ -278,16 +287,7 @@ Experimental data for the heat capacity of UCl$_3$ has not been identified, but 
 %\label{fig:UCl3heat}
 %\end{figure}
 
-%\subsubsection{Diffusivity}
-%As for NaCl, The AIMD simulations also allow calculation of the diffusivity of each species. Again similar to the NaCl system, these simulations work best in the NVT ensemble and results are only report for that case, see Fig. \ref{fig:diffUCl}. As expected, the diffusivity is a linear function of temperature. %, with a much stronger temperature dependence for Cl than for U. 
-%The mobility of each species may be derived from the slope of the diffusivity as function of temperature (see Table \ref{table:NaCldiffusivityetc}). 
 
-%\begin{figure}[htb]
-%\centering
-%\includegraphics[width=0.45\textwidth]{FIGDiffUCl.pdf}
-%\caption{Calculated diffusivities for each species in NaCl as function of temperature.} 
-%\label{fig:diffNaCl}
-%\end{figure}
 
 {\color{red} Further details to be added.}
 
@@ -296,10 +296,12 @@ The results discussed above for UCl$_3$ refer to simulations using the supercell
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=1.00\textwidth]{FIG4b.pdf}
+\includegraphics[width=1.00\textwidth]{fig6.jpg}
 \caption{Calculated density and total energy of UCl$_3$ as function of temperature for the large and small supercells. The line is a least-squares fit to data points and the slope represents the heat capacity.} 
 \label{fig:UCl3size}
 \end{figure*}
+
+\FloatBarrier
 
 \subsection{Ab initio molecular dynamics simulations on NaCl-UCl$_3$}
 \subsubsection{Density and structure}
@@ -321,9 +323,8 @@ The coefficients describing the linear dependence on temperature for each compos
 The density correlations identified in Figures \ref{fig:NaClUCl3_t}a) and \ref{fig:NaClUCl3_comp}a) can also be expressed in a combined composition-temperature dependent correlation:
 \begin{equation}
 \begin{split}
-\rho(x,T)=\frac{M_{NaCl}(1-x)+M_{UCl_3}x}{\frac{M_{NaCl}(1-x)}{\rho_{NaCl}} +\frac{M_{UCl3}x}{\rho_{UCl_3}}}+\\
-+e_1+e_2T+(f_1+f_2T)x+(g_1+g_2T)x^2+\\
-+(h_1+h_2T)x^3+(i_1+i_2T)x^4+(j_1+j_2T)x^5,
+\rho(x,T)=\frac{M_{NaCl}(1-x)+M_{UCl_3}x}{\frac{M_{NaCl}(1-x)}{\rho_{NaCl}}+\frac{M_{UCl3}x}{\rho_{UCl_3}}}+ e_1+e_2T+(f_1+f_2T)x+ \\
+(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4+(j_1+j_2T)x^5,
 \label{eq:LS}
 \end{split}
 \end{equation}
@@ -333,7 +334,7 @@ where the first term represents the density of an ideal solution and the subsequ
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG6.pdf}
+\includegraphics[width=0.95\textwidth]{fig7.jpg}
 \caption{a) Density of NaCl-UCl$_3$ mixtures as obtained from simulations and experimental data~\cite{Desyatnik} at temperatures between 1100 K and 1500 K. %The lines represent an ideal solution with the calculated and experimental NaCl and UCl$_3$ densities as end points. 
 b) The fractional deviation form ideal solution behavior plotted as function of composition at temperatures between 1100 K and 1500 K. %Results for both the large and small supercells are shown.
 } 
@@ -388,14 +389,67 @@ The total energy for each NaCl-UCl$_3$ composition is plotted as function of tem
 Based on the results for the mixing energy, the following expression may be fitted to the mixing energy as function of the composition and temperature:
 \begin{equation}
 \begin{split}
-E_{mix}(x,T)=(e_1+e_2T)+(f_1+f_2T)x+\\
-+(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4+\\
+E_{mix}(x,T)=(e_1+e_2T)+(f_1+f_2T)x++(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4+\\
 +(j_1+j_2T)x^5,
 \label{eq:LSE}
 \end{split}
 \end{equation}
 where all the temperature dependent parameters are set to zero based on the lack of disceranble temprature dependence in Fig. \ref{fig:NaClUCl3e}. This expression is equivalent to the Redlich-Kister expansion used in existing Calphad models. The coefficients resulting from the fit to the data in Fig. \ref{fig:NaClUCl3e} are summarized in Table \ref{table:LS}. heat capacity may be derived as the derivative of Eq. \ref{eq:LSE}.
 %The comparison between large and small supercells for the density and mixing energy are also shown in Figs. \ref{fig:NaClUCl3} and \ref{fig:NaClUCl3e}. Unlike the cases of NaCl and UCl$_3$, the NaCl-UCl$_3$ mixture exhibit some deviation between the supercells for one of the compositions, although the trends are still the same. 
+
+\subsubsection{Compressibility}
+
+The degree of compressibility of a fluid has strong implications for its dynamics. The compressibility is determined as the negative of the derivate of the volume as a function of pressure, divided by the volume at a given pressure, as in equation \ref{eq:compress}. The pressure at a series of volumes was identified and a second order polynomial was fit to the dependence. This second order polynomial served as the base function to obtain the derivative of the volume with respect to pressure. The volume of interest is identified as that at which the pressure is zero for a given temperature and composition. The temperature and composition dependent compressibility is displayed in Fig. \ref{fig:compress}. Given the isothermal nature of the simulations, this data can be considered to be isothermal compressibility. There is a decrease in the compressibility both with increasing UCl$_3$ fraction and with decreasing temperature. The magnitudes indicate a liquid that is more compressible than water at room temperature and atmospheric pressure (46$\times$10$^{-11}$ Pa$^{-1}$), less compressible than mercury (3.7 $\times$10$^{-11}$ Pa$^{-1}$), and comparable to glycerin (21$\times$10$^{-11}$ Pa$^{-1}$) \cite{aiphandbook}. As can be observed in equation \ref{eq:compress}, the compressibility is the reciprocal of the bulk modulus, and can thus be interpreted in the inverse manner. As such, UCl$_3$ has a higher bulk modulus than NaCl. Additionally, the bulk modulus softens with increasing temperature, as would be expected.  
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.6\textwidth]{figbulk.jpg}
+\caption{Calculated compressibilities for the NaCl-UCl{$_3$} pseudo-binary as a function of composition at four temperatures. Linear fits to the data are included to better illustrate trends in the data and do not imply a linear relationship.} 
+\label{fig:compress}
+\end{figure}
+
+\FloatBarrier
+
+\subsubsection{Diffusivity}
+%As for NaCl, The AIMD simulations also allow calculation of the diffusivity of each species. Again similar to the NaCl system, these simulations work best in the NVT ensemble and results are only report for that case, see Fig. \ref{fig:diffUCl}. As expected, the diffusivity is a linear function of temperature. %, with a much stronger temperature dependence for Cl than for U. 
+%The mobility of each species may be derived from the slope of the diffusivity as function of temperature (see Table \ref{table:NaCldiffusivityetc}). 
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.9\textwidth]{diff1.jpg}
+\caption{Calculated diffusivities for each species in NaCl-UCl{$_3$} and the total diffusivity as function of temperature.} 
+\label{fig:diff}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.6\textwidth]{arrhenius.jpg}
+\caption{Arrhenius diffusion of NaCl-UCl{$_3}} 
+\label{fig:arrhenius}
+\end{figure}
+
+\begin{table*}[hb!]
+\centering
+\caption{Diffusion values}
+\begin{tabular}{lccc|}
+\hline
+\hline
+D	&	D_0	&	E_m	\\
+\hline
+0	&	2.71E-08	&	-0.184	\\
+20	&	2.05E-08	&	-0.203	\\
+33	&	4.11E-08	&	-0.301	\\
+50	&	4.21E-08	&	-0.326	\\
+70	&	2.10E-08	&	-0.292	\\
+100	&	1.74E-07	&	-0.342	\\
+\hline
+\hline
+\end{tabular}
+\label{table:LS}
+\end{table*}
+
+
+\FloatBarrier
 
 \section{Discussion}
 \label{sec:discussion}
@@ -414,6 +468,8 @@ The negative deviation from an ideal solution exhibited by the density implies t
 \label{fig:fig_pair}
 \end{figure*}
 
+\FloatBarrier
+
 \section{Summary and conclusions}
 \label{sec:conclusions}
 Development of next-generation molten salt reactors (MSRs) require accurate thermodynamic and thermophysical properties of fuel-bearing salt mixtures and how those change with composition as well as with addition of corrosion and fission products. The challenges associated with handling radioactive and corrosive salts make experimental measurements challenging. Using atomic scale simulations to fill these data gaps and to provide mechanistic understanding of property relations would facilitate more accurate evaluation of various concepts by reactor designers, developers and other interested parties. Modeling and simulations have an important role to play in reducing data gaps, because the compositional space of interest is extensive and difficult to cover with experiments alone, especially since some of the salts are also highly toxic or radioactive. 
@@ -425,6 +481,8 @@ The same interactions that control the mixing energy also govern the evolution o
 
 \section*{Acknowledgements}
 This work was funded by the U.S. Department of Energy (DOE), Office of Nuclear Energy, Nuclear Energy Advanced Modeling and Simulation (NEAMS) program. Los Alamos National Laboratory, an affirmative action/equal opportunity employer, is operated by Triad National Security LLC, for the National Nuclear Security Administration of the U.S.\ Department of Energy under Contract No. 89233218CNA000001. Los Alamos Laboratory Directed Research and Development (LDRD) is acknowledged for supporting method development and establishing simulations procedures used in part of this study.
+
+\section*{References}
 
 \bibliographystyle{elsarticle-num}         
 \bibliography{Yellowjacket.bib}

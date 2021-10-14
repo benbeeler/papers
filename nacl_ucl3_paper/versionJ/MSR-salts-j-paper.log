@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 SEP 2021 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  14 OCT 2021 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,7 +382,11 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-(./MSR-salts-j-paper.aux)
+(./MSR-salts-j-paper.aux
+
+LaTeX Warning: Label `table:LS' multiply defined.
+
+)
 \openout1 = `MSR-salts-j-paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -397,8 +401,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
-
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count269
 \scratchdimen=\dimen158
@@ -510,11 +513,11 @@ Package natbib Warning: Citation `packmol' on page 2 undefined on input line 11
 5.
 
 [2]
-<FIG1_0.pdf, id=22, 740.7675pt x 221.82875pt>
-File: FIG1_0.pdf Graphic file (type pdf)
-<use FIG1_0.pdf>
-Package pdftex.def Info: FIG1_0.pdf  used on input line 121.
-(pdftex.def)             Requested size: 444.59857pt x 133.13887pt.
+<fig1.jpg, id=22, 1941.2525pt x 993.7125pt>
+File: fig1.jpg Graphic file (type jpg)
+<use fig1.jpg>
+Package pdftex.def Info: fig1.jpg  used on input line 121.
+(pdftex.def)             Requested size: 444.59857pt x 227.57864pt.
 
 
 Package natbib Warning: Citation `rohrbach2003' on page 3 undefined on input li
@@ -524,209 +527,264 @@ ne 130.
 Package natbib Warning: Citation `dudarev1998' on page 3 undefined on input lin
 e 130.
 
-[3 <./FIG1_0.pdf>]
-<FIG01.pdf, id=43, 788.9475pt x 277.035pt>
-File: FIG01.pdf Graphic file (type pdf)
-<use FIG01.pdf>
-Package pdftex.def Info: FIG01.pdf  used on input line 144.
-(pdftex.def)             Requested size: 444.59857pt x 156.11925pt.
+[3 <./fig1.jpg>]
+<fig2.jpg, id=27, 853.5087pt x 426.6339pt>
+File: fig2.jpg Graphic file (type jpg)
+<use fig2.jpg>
+Package pdftex.def Info: fig2.jpg  used on input line 144.
+(pdftex.def)             Requested size: 444.59857pt x 222.23497pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <./FIG01.pdf>]
-<FIG2.pdf, id=74, 713.66624pt x 216.81pt>
-File: FIG2.pdf Graphic file (type pdf)
-<use FIG2.pdf>
-Package pdftex.def Info: FIG2.pdf  used on input line 195.
-(pdftex.def)             Requested size: 444.59857pt x 135.06921pt.
- [6 <./FIG2.pdf>]
-<FIG3b.pdf, id=97, 669.50125pt x 202.7575pt>
-File: FIG3b.pdf Graphic file (type pdf)
-<use FIG3b.pdf>
-Package pdftex.def Info: FIG3b.pdf  used on input line 236.
-(pdftex.def)             Requested size: 444.59857pt x 134.6495pt.
- [7 <./FIG3b.pdf>]
-<FIG4.pdf, id=121, 649.42625pt x 216.81pt>
-File: FIG4.pdf Graphic file (type pdf)
-<use FIG4.pdf>
-Package pdftex.def Info: FIG4.pdf  used on input line 265.
-(pdftex.def)             Requested size: 444.59857pt x 148.43124pt.
-<FIG4b.pdf, id=122, 640.3925pt x 208.78pt>
-File: FIG4b.pdf Graphic file (type pdf)
-<use FIG4b.pdf>
-Package pdftex.def Info: FIG4b.pdf  used on input line 299.
-(pdftex.def)             Requested size: 468.0pt x 152.58014pt.
- [8 <./FIG4.pdf>]
-<FIG6.pdf, id=145, 672.5125pt x 214.8025pt>
-File: FIG6.pdf Graphic file (type pdf)
-<use FIG6.pdf>
-Package pdftex.def Info: FIG6.pdf  used on input line 336.
-(pdftex.def)             Requested size: 444.59857pt x 142.00607pt.
-<FIG6c.pdf, id=146, 682.55pt x 196.735pt>
+[4] [5 <./fig2.jpg>]
+
+Package natbib Warning: Citation `pbe' on page 6 undefined on input line 200.
+
+<fig3a.jpg, id=36, 426.6339pt x 426.6339pt>
+File: fig3a.jpg Graphic file (type jpg)
+<use fig3a.jpg>
+Package pdftex.def Info: fig3a.jpg  used on input line 206.
+(pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
+[6] [7 <./fig3a.jpg>]
+<fig4.jpg, id=46, 853.5087pt x 426.6339pt>
+File: fig4.jpg Graphic file (type jpg)
+<use fig4.jpg>
+Package pdftex.def Info: fig4.jpg  used on input line 247.
+(pdftex.def)             Requested size: 444.59857pt x 222.23497pt.
+<fig5.jpg, id=47, 426.6339pt x 426.6339pt>
+File: fig5.jpg Graphic file (type jpg)
+<use fig5.jpg>
+Package pdftex.def Info: fig5.jpg  used on input line 274.
+(pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
+ [8 <./fig4.jpg>]
+<fig6.jpg, id=51, 853.5087pt x 426.6339pt>
+File: fig6.jpg Graphic file (type jpg)
+<use fig6.jpg>
+Package pdftex.def Info: fig6.jpg  used on input line 299.
+(pdftex.def)             Requested size: 468.0pt x 233.93327pt.
+ [9 <./fig5.jpg>] [10 <./fig6.jpg>]
+<fig7.jpg, id=58, 853.5087pt x 426.6339pt>
+File: fig7.jpg Graphic file (type jpg)
+<use fig7.jpg>
+Package pdftex.def Info: fig7.jpg  used on input line 337.
+(pdftex.def)             Requested size: 444.59857pt x 222.23497pt.
+<FIG6c.pdf, id=59, 682.55pt x 196.735pt>
 File: FIG6c.pdf Graphic file (type pdf)
 <use FIG6c.pdf>
-Package pdftex.def Info: FIG6c.pdf  used on input line 345.
+Package pdftex.def Info: FIG6c.pdf  used on input line 346.
 (pdftex.def)             Requested size: 444.59857pt x 128.14938pt.
-<FIG6f.pdf, id=147, 725.71124pt x 218.8175pt>
+<FIG6f.pdf, id=60, 725.71124pt x 218.8175pt>
 File: FIG6f.pdf Graphic file (type pdf)
 <use FIG6f.pdf>
-Package pdftex.def Info: FIG6f.pdf  used on input line 352.
+Package pdftex.def Info: FIG6f.pdf  used on input line 353.
 (pdftex.def)             Requested size: 444.59857pt x 134.05943pt.
 
-[9 <./FIG4b.pdf>]
-<FIG7.pdf, id=168, 705.63625pt x 222.8325pt>
+[11 <./fig7.jpg> <./FIG6c.pdf>]
+<FIG7.pdf, id=85, 705.63625pt x 222.8325pt>
 File: FIG7.pdf Graphic file (type pdf)
 <use FIG7.pdf>
-Package pdftex.def Info: FIG7.pdf  used on input line 380.
+Package pdftex.def Info: FIG7.pdf  used on input line 381.
 (pdftex.def)             Requested size: 444.59857pt x 140.39882pt.
- [10 <./FIG6.pdf> <./FIG6c.pdf>] [11 <./FIG6f.pdf> <./FIG7.pdf>]
-<FIG77.pdf, id=264, 717.68124pt x 472.76625pt>
+ [12 <./FIG6f.pdf>]
+<figbulk.jpg, id=112, 426.6339pt x 426.6339pt>
+File: figbulk.jpg Graphic file (type jpg)
+<use figbulk.jpg>
+Package pdftex.def Info: figbulk.jpg  used on input line 406.
+(pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
+ [13 <./FIG7.pdf>]
+<diff1.jpg, id=140, 853.5087pt x 853.5087pt>
+File: diff1.jpg Graphic file (type jpg)
+<use diff1.jpg>
+Package pdftex.def Info: diff1.jpg  used on input line 419.
+(pdftex.def)             Requested size: 421.19714pt x 421.19228pt.
+<arrhenius.jpg, id=141, 426.6339pt x 426.6339pt>
+File: arrhenius.jpg Graphic file (type jpg)
+<use arrhenius.jpg>
+Package pdftex.def Info: arrhenius.jpg  used on input line 426.
+(pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
+
+./MSR-salts-j-paper.tex:427: Extra }, or forgotten $.
+<argument> ...Arrhenius diffusion of NaCl-UCl{$_3}
+                                                  
+l.427 ...ion{Arrhenius diffusion of NaCl-UCl{$_3}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./MSR-salts-j-paper.tex:427: Missing $ inserted.
+<inserted text> 
+                $
+l.427 ...ion{Arrhenius diffusion of NaCl-UCl{$_3}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MSR-salts-j-paper.tex:427: Missing } inserted.
+<inserted text> 
+                }
+l.427 ...ion{Arrhenius diffusion of NaCl-UCl{$_3}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./MSR-salts-j-paper.tex:437: Missing $ inserted.
+<inserted text> 
+                $
+l.437 D	&	D_
+            0	&	E_m	\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MSR-salts-j-paper.tex:437: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.437 D	&	D_0	&
+               	E_m	\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./MSR-salts-j-paper.tex:437: Missing $ inserted.
+<inserted text> 
+                $
+l.437 D	&	D_0	&
+               	E_m	\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MSR-salts-j-paper.tex:437: Missing } inserted.
+<inserted text> 
+                }
+l.437 D	&	D_0	&
+               	E_m	\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./MSR-salts-j-paper.tex:437: Missing $ inserted.
+<inserted text> 
+                $
+l.437 D	&	D_0	&	E_
+                  m	\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MSR-salts-j-paper.tex:438: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.438 \hline
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./MSR-salts-j-paper.tex:438: Missing $ inserted.
+<inserted text> 
+                $
+l.438 \hline
+            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MSR-salts-j-paper.tex:438: Missing } inserted.
+<inserted text> 
+                }
+l.438 \hline
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[14 <./figbulk.jpg>] [15 <./diff1.jpg>] [16 <./arrhenius.jpg>]
+<FIG77.pdf, id=151, 717.68124pt x 472.76625pt>
 File: FIG77.pdf Graphic file (type pdf)
 <use FIG77.pdf>
-Package pdftex.def Info: FIG77.pdf  used on input line 412.
+Package pdftex.def Info: FIG77.pdf  used on input line 466.
 (pdftex.def)             Requested size: 444.59857pt x 292.8812pt.
- [12] [13 <./FIG77.pdf>] (./MSR-salts-j-paper.bbl
+ [17
 
-./MSR-salts-j-paper.bbl:30: Package inputenc Error: Invalid UTF-8 byte "80.
+] [18 <./FIG77.pdf>] (./MSR-salts-j-paper.bbl
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   {N}a{C}l€
-                -{M}g{C}l$_2$-€{“UC}l$_3$-{€“P}u{C}l$_3$ system, J. Nucl. Ma...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./MSR-salts-j-paper.bbl:30: Package inputenc Error: Invalid UTF-8 byte "80.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   {N}a{C}l€-{M}g{C}l$_2$-€
-                               {“UC}l$_3$-{€“P}u{C}l$_3$ system, J. Nucl. Ma...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./MSR-salts-j-paper.bbl:30: Package inputenc Error: Invalid UTF-8 byte "93.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   {N}a{C}l€-{M}g{C}l$_2$-€{“
-                                 UC}l$_3$-{€“P}u{C}l$_3$ system, J. Nucl. Ma...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./MSR-salts-j-paper.bbl:30: Package inputenc Error: Invalid UTF-8 byte "80.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   {N}a{C}l€-{M}g{C}l$_2$-€{“UC}l$_3$-{€
-                                            “P}u{C}l$_3$ system, J. Nucl. Ma...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./MSR-salts-j-paper.bbl:30: Package inputenc Error: Invalid UTF-8 byte "93.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   {N}a{C}l€-{M}g{C}l$_2$-€{“UC}l$_3$-{€“
-                                             P}u{C}l$_3$ system, J. Nucl. Ma...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./MSR-salts-j-paper.bbl:99: Package amsmath Error: \check allowed only in math 
+./MSR-salts-j-paper.bbl:97: Package amsmath Error: \check allowed only in math 
 mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 J.~\check{r}
+l.97 J.~\check{r}
                  \else \v{r}\fi{}\'{\i} Klime\ifmmode~\check{s}\else \v{s}\f...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./MSR-salts-j-paper.bbl:99: Extra \else.
-l.99 J.~\check{r}\else
+./MSR-salts-j-paper.bbl:97: Extra \else.
+l.97 J.~\check{r}\else
                        \v{r}\fi{}\'{\i} Klime\ifmmode~\check{s}\else \v{s}\f...
 I'm ignoring this; it doesn't match any \if.
 
-./MSR-salts-j-paper.bbl:99: Extra \fi.
-l.99 J.~\check{r}\else \v{r}\fi
+./MSR-salts-j-paper.bbl:97: Extra \fi.
+l.97 J.~\check{r}\else \v{r}\fi
                                {}\'{\i} Klime\ifmmode~\check{s}\else \v{s}\f...
 I'm ignoring this; it doesn't match any \if.
 
-)
+[19])
 
 Package natbib Warning: There were undefined citations.
 
-[14] (./MSR-salts-j-paper.aux) ) 
+[20] (./MSR-salts-j-paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 13383 strings out of 492616
- 242662 string characters out of 6129482
- 446086 words of memory out of 5000000
- 17184 multiletter control sequences out of 15000+600000
- 541242 words of font info for 58 fonts, out of 8000000 for 9000
+ 13415 strings out of 492616
+ 242892 string characters out of 6129482
+ 447086 words of memory out of 5000000
+ 17208 multiletter control sequences out of 15000+600000
+ 542482 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,63p,1887b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on MSR-salts-j-paper.pdf (14 pages, 1252927 bytes).
+ 41i,17n,63p,1887b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on MSR-salts-j-paper.pdf (20 pages, 5162583 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
+ 264 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

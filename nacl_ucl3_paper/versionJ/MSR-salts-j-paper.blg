@@ -4,46 +4,52 @@ The top-level auxiliary file: MSR-salts-j-paper.aux
 The style file: elsarticle-num.bst
 Database file #1: Yellowjacket.bib
 Warning--entry type for "NIST" isn't style-file defined
---line 512 of file Yellowjacket.bib
-You've used 27 entries,
+--line 471 of file Yellowjacket.bib
+Warning--I didn't find a database entry for "packmol"
+Warning--I didn't find a database entry for "rohrbach2003"
+Warning--I didn't find a database entry for "dudarev1998"
+Warning--I didn't find a database entry for "pbe"
+Warning--empty title in BENES2008
+Warning--can't use both author and editor fields in aiphandbook
+You've used 28 entries,
             2952 wiz_defined-function locations,
-            874 strings with 9818 characters,
-and the built_in function-call counts, 7856 in all, are:
-= -- 738
-> -- 264
-< -- 0
-+ -- 106
-- -- 79
-* -- 578
-:= -- 1116
-add.period$ -- 27
-call.type$ -- 27
-change.case$ -- 27
-chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 214
-empty$ -- 866
-format.name$ -- 103
-if$ -- 2008
+            884 strings with 9886 characters,
+and the built_in function-call counts, 8155 in all, are:
+= -- 764
+> -- 273
+< -- 2
++ -- 109
+- -- 81
+* -- 594
+:= -- 1147
+add.period$ -- 28
+call.type$ -- 28
+change.case$ -- 28
+chr.to.int$ -- 6
+cite$ -- 30
+duplicate$ -- 226
+empty$ -- 903
+format.name$ -- 106
+if$ -- 2092
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 26
-newline$ -- 90
-num.names$ -- 26
-pop$ -- 139
+int.to.str$ -- 28
+missing$ -- 28
+newline$ -- 93
+num.names$ -- 27
+pop$ -- 153
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 479
+skip$ -- 502
 stack$ -- 0
-substring$ -- 553
-swap$ -- 28
+substring$ -- 556
+swap$ -- 31
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 56
-width$ -- 29
-write$ -- 222
-(There was 1 warning)
+warning$ -- 2
+while$ -- 58
+width$ -- 30
+write$ -- 229
+(There were 7 warnings)
