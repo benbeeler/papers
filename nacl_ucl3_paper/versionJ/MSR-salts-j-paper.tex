@@ -118,7 +118,7 @@ The differently sized supercells were investigated in order to understand and op
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{fig1.jpg}
+\includegraphics[width=0.9\textwidth]{fig1.jpg}
 \caption{The predicted radial distribution function in a) UCl$_3$ and b) NaCl obtained by supercells containing 64 (small) and 216 (large) atoms at 1250 K.} 
 \label{fig:radial}
 \end{figure*}
@@ -141,7 +141,7 @@ Finally, the constrained DFT linear-response method \cite{PhysRevB.71.035105} wa
 
 \begin{figure*}[h]
 \centering
-\includegraphics[width=0.95\textwidth]{fig2.jpg}
+\includegraphics[width=0.9\textwidth]{fig2.jpg}
 \caption{The predicted density of states for simulations of molten UCl$_3$ at 1250 K, a) including (AFM) and b) not including (FM) a Hubbard $U$ model. {\color{red} Furhter details to be added.}} 
 \label{fig:DOS}
 \end{figure*}
@@ -179,19 +179,15 @@ The compressibility is calculated as the negative of the inverse equilibrium vol
 Diffusivities were calculated by tracking the mean-squared displacement (MSD) over three unique 20 ps simulations in an NVT ensemble. The MSD was verified to follow a linear trend as a function of time, and the first 4 ps were removed to determine the dependence of the MSD with time. The total, Na, Cl, and U diffusivities were determined via Einstein's equation:
 % The diffusivities are calculated from the mean square displacements (MSD) through the Einstein relation.
 \begin{equation}
-MSD(t)=\sum_i^N (\mathbf{r^i(t)} - \mathbf{r^i(0)})^2 =6Dt,
+MSD(t)=\sum_i^N (\mathbf{r^i(t)} - \mathbf{r^i(0)})^2 = N\times6Dt,
 \end{equation}
-where $i$ denotes an ion, $N$ is the total number of ions, $\mathbf{r^i}$ is the position vector, $D$ is the diffusivity, and $t$ is time. 
+where $i$ denotes an ion, $N$ is the total number of ions, $\mathbf{r^i}$ is the position vector, $D$ is the diffusivity, and $t$ is time. In the case of the total diffusivity, the diffusion coefficients are determined on a per formula unit basis, instead of on a per-atom basis. 
 
 %According to kinetic theory, the diffusivity is expected to follow
 %\begin{equation}
 %D=\mu \,k_{\text{B}}T,
 %\end{equation}
 %where $\mu$ is the mobility, $k_B$ is the Boltzmann constant and T is temperature. The mobility is calculated from the temperature dependence of the diffusivity. which may also be related to the viscosity and size of each species according to the Stokes-Einstein equation. However, that correlation was not attempted here. 
-
-
-
-
 
 \section{Results}
 \label{sec:results}
@@ -240,11 +236,13 @@ The heat capacities are determined via equation \ref{eq:cp}, which is the slope 
 \subsubsection{Impact of supercell size and other simulation settings}
 The results in Figure \ref{fig:NaCldensity} refer to simulations based on the supercell that we consider best converged. Figure \ref{fig:NaClsize} compares these results with those obtained from other supercells. Given the good agreement between the results from different supercells, density and heat capacity are considered accurately represented by all supercell sizes that were investigated.
 %smaller supercells, at least below 1750 K, which supports the accuracy of the results with respect to the supercell size. 
- These results suggest that for NaCl, the larger supercells are not required to achieve converged results for density and heat capacity, which is consistent with the discussion of radial distribution functions in Sec. \ref{sec:method}. The small variations between supercells are more likely related to sampling differences, rather than due to the supercell size. Consequently, the converged results in Figure \ref{fig:NaCldensity} as well as the correlations in Table \ref{table:NaCldensityetc} are representative of all simulation results in this study, regardless of the supercell size. {\color{red} Further details to be added.} %Some deviation is observed for the highest temperature, which may be related to approaching the boiling temperature. 
+ These results suggest that for NaCl, the larger supercells are not required to achieve converged results for density and heat capacity, which is consistent with the discussion of radial distribution functions in Sec. \ref{sec:method}. The small variations between supercells are more likely related to sampling differences, rather than due to the supercell size. Consequently, the converged results in Figure \ref{fig:NaCldensity} as well as the correlations in Table \ref{table:NaCldensityetc} are representative of all simulation results in this study, regardless of the supercell size. %Some deviation is observed for the highest temperature, which may be related to approaching the boiling temperature. 
+
+{\color{red} I think we should add all of the supercell size discussion into the computational details. i also think only using one example, of NaCl or UCl3 would be fine.} 
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{fig4.jpg}
+\includegraphics[width=0.9\textwidth]{fig4.jpg}
 \caption{a) Calculated density and b) total energy of NaCl as function of temperature for the large and small supercells. The lines are least-squares fits to data points and the slope represents the heat capacity.} 
 \label{fig:NaClsize}
 \end{figure*}
@@ -255,15 +253,16 @@ The results in Figure \ref{fig:NaCldensity} refer to simulations based on the su
 
 \subsection{AIMD simulations of UCl$_3$}
 \subsubsection{Density and structure}
-Following the results for NaCl, the best performing Van der Waals models (dDsC and vdW-DF2) were applied to UCl$_3$. Figure \ref{fig:UCl3density}a) plots the predicted density for UCl$_3$ as function of temperature for the dDsC and vdW-DF2 dispersion models compared to two literature correlations derived from experiments~\cite{Janz1988,Desyatnik}.
+Following the results for NaCl, the best performing Van der Waals models (dDsC and vdW-DF2) were applied to UCl$_3$. Figure \ref{fig:UCl3density}a) plots the predicted density for UCl$_3$ as function of temperature for the dDsC and vdW-DF2 dispersion models compared to two literature correlations derived from experiments~\cite{Janz1988,Desyatnik}. The two experimental correlations for density are surprisingly different and cannot both be correct, except in a narrow temperature range.  The temperature dependence is predicted to be close to linear across the full temperature range investigated. The dDsC only slightly under-predicts the density and temperature dependence in the experimental data due to Desyatnik et al.~\cite{Desyatnik}. The vdW-DF2 shows a further under-prediction of the experimental densities from Desyatnik, and a further reduction in the temperature dependence. The densities in Figure \ref{fig:UCl3density} were fitted to linear correlations and summarized in Table \ref{table:NaCldensityetc}. Given the extreme disparity in the experimental literature, additional experimental efforts are encouraged to gain further certainty in the density of UCl$_3$. 
+
+
 %The inset highlights the difference in energy between the AFM, FM and non-magnetic simulations. 
 %Figure \ref{fig:UCl3density}b) also includes results from simulations that do not include the Hubbard $U$ model for the U 5f electrons. 
-The two experimental correlations for density are surprisingly different and cannot both be correct, except in a narrow temperature range. 
 % The most recent experimental data set agrees well with the simulation data, with both the Langreth \& Lundqvist and dDsC model predicting values within a few per cent of the experimental data. 
- The temperature dependence is predicted to be close to linear across the full temperature range investigated and agrees very well with the experimental data due to Desyatnik et al.~\cite{Desyatnik}.  {\color{red}Further details to be added.} %The Langreth \& Lundqvist methodology is sensitive to the choice of exchange -correlation potential. The optimal choice proved excellent agreement with experiments, while other choices may lead to significant underestimation of the density despite performing very well for the NaCl benchmark system. 
+%The Langreth \& Lundqvist methodology is sensitive to the choice of exchange -correlation potential. The optimal choice proved excellent agreement with experiments, while other choices may lead to significant underestimation of the density despite performing very well for the NaCl benchmark system. 
  %Note that only a single point was calculated for the DFT-D3 model, but that indicates essentially the same behavior as the dDsC model.  
  %Compared to the Desytniak et al. correlation~\cite{Desyatnik}, the predicted temperature dependence of the density is slightly different. 
- The densities in Figure \ref{fig:UCl3density} were fitted to linear correlations and summarized in Table \ref{table:NaCldensityetc}. 
+ 
  
 The radial pair distribution function at 1250 K is reported in Figure \ref{fig:radial}, which highlights a first-shell coordination distance of 2.82~\AA. The coordination distance is in excellent agreement with the experimental values of 2.82 \AA~\cite{Neilson} and 2.84 \AA~\cite{Okamoto} measured at 1113 K and 1200 K, respectively, while it is higher than the AIMD simulations by Li et al.~\cite{Li}, which can likely be ascribed to the application of the Hubbard $U$ methodology in the present study. The predicted coordination numbers are within the 6 to 8 range reported in experiments and previous simulations~\cite{Li,Neilson,Okamoto}. %The U-U radial distribution function tends to zero slower than the 
  
@@ -271,14 +270,14 @@ The radial pair distribution function at 1250 K is reported in Figure \ref{fig:r
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.6\textwidth]{fig5.jpg}
+\includegraphics[width=0.5\textwidth]{fig5.jpg}
 \caption{a) Density of UCl$_3$ predicted the dDsC model for the dispersion forces (small cell with 64 atoms). Experimental data is represented by the correlations plotted as green~\cite{Desyatnik} and orange lines~\cite{Janz1988}. The dashed line is a least-squares fit to the calculated data points, the equations of which are summarized in Table \ref{table:NaCldensityetc}. b) Calculated total energy of UCl$_3$ as function of temperature (small cell). The line is a least-squares fit to data points and the slope represents the heat capacity.} 
 \label{fig:UCl3density}
 \end{figure*}
 
 \subsubsection{Heat capacity} 
-Figure \ref{fig:UCl3density} plots the total energy as function of temperature, from which the heat capacity can be derived by calculating the slope. The total energy closely follows a linear relation as function of temperature and, consequently, the heat capacity can be approximated as a constant in the temperature range investigated. In order to resolve small deviations from the linear relation, a denser temperature mesh would have to be used. 
-Experimental data for the heat capacity of UCl$_3$ has not been identified, but our results compare very well with the value derived from the CALPHAD assessment of the UCl$_3$ thermodynamics due to Benes et al.~\cite{BENES2008}, while it deviates somewhat from the assessment due to Yin et al.~\cite{YIN2020} (see Table~\ref{table:NaCldensityetc}). %Figure \ref{fig:fig:UCl3heat}b compares the total energy as function of temperature for simulations assuming different magnetic ordering. The AFM (random) ordering is predicted to be slightly more stable than the FM ordering, though the difference is small. The AFM (random) model would be further stabilized by the magnetic entropy originating from the random distribution of magnetic moments at finite temperature. Consequently, the AFM (random) distribution of magnetic moments is considered to be the most representative model. %, which confirms AFM (random) ordering as the most appropriate model for production simulations. 
+%Figure \ref{fig:UCl3density} plots the total energy as function of temperature, from which the heat capacity can be derived by calculating the slope. The total energy closely follows a linear relation as function of temperature and, consequently, the heat capacity can be approximated as a constant in the temperature range investigated. In order to resolve small deviations from the linear relation, a denser temperature mesh would have to be used. 
+%Experimental data for the heat capacity of UCl$_3$ has not been identified, but our results compare very well with the value derived from the CALPHAD assessment of the UCl$_3$ thermodynamics due to Benes et al.~\cite{BENES2008}, while it deviates somewhat from the assessment due to Yin et al.~\cite{YIN2020} (see Table~\ref{table:NaCldensityetc}). %Figure \ref{fig:fig:UCl3heat}b compares the total energy as function of temperature for simulations assuming different magnetic ordering. The AFM (random) ordering is predicted to be slightly more stable than the FM ordering, though the difference is small. The AFM (random) model would be further stabilized by the magnetic entropy originating from the random distribution of magnetic moments at finite temperature. Consequently, the AFM (random) distribution of magnetic moments is considered to be the most representative model. %, which confirms AFM (random) ordering as the most appropriate model for production simulations. 
 
 %\begin{figure}[htb]
 %\centering
@@ -287,16 +286,18 @@ Experimental data for the heat capacity of UCl$_3$ has not been identified, but 
 %\label{fig:UCl3heat}
 %\end{figure}
 
+The heat capacities are determined as the slope of the total energy as a function of temperature. The total energy closely follows a linear relation as function of temperature and, consequently, the heat capacity can be approximated as a constant in the temperature range investigated. In order to resolve small deviations from the linear relation, a denser temperature mesh would have to be used. The constant pressure heat capacity (C$_p$) and the constant volume heat capacity (C$_V$) were obtained from the dDsC and the vdW-DF2 dispersion models, respectively, and are provided in Table \ref{table:NaCldensityetc}. Experimental data for the heat capacity of UCl$_3$ has not been identified, but our results compare very well with the value derived from the CALPHAD assessment of the UCl$_3$ thermodynamics due to Benes et al.~\cite{BENES2008}, while it deviates somewhat from the assessment due to Yin et al.~\cite{YIN2020}. The ratio of the heat capacities ($\gamma$ = C$_p$/C$_V$) is found to be 1.15, indicating a lesser degree of compressibility than for the NaCl system. 
 
-
-{\color{red} Further details to be added.}
+{\color{red} I removed the plot of the heat capacity, as it only shows a single line, which is not especially enlightening. if you want to add it back in, we can do so.}
 
 \subsubsection{Impact of supercell size and other simulation settings}
 The results discussed above for UCl$_3$ refer to simulations using the supercell size that we deem to be best converged and most representative of the UCl$_3$ system for each simulation methodology. Select results obtained from different supercell sizes are compared in Figure \ref{fig:UCl3size}, which exhibits fairly good agreement with each other. Any difference between supercell sizes is primarily ascribed to sampling appropriate configurations rather than an effect of increasing the numbers of ions in the simulation box, although additional simulations would be required to fully certify this conclusion. Compared to NaCl it is much more challenging to reach long simulation times for the large UCl$_3$ simulation cells. 
 
+{\color{red} As I mentioned, I think the supercell size stuff should all go in the methods}
+
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=1.00\textwidth]{fig6.jpg}
+\includegraphics[width=0.9\textwidth]{fig6.jpg}
 \caption{Calculated density and total energy of UCl$_3$ as function of temperature for the large and small supercells. The line is a least-squares fit to data points and the slope represents the heat capacity.} 
 \label{fig:UCl3size}
 \end{figure*}
@@ -305,55 +306,61 @@ The results discussed above for UCl$_3$ refer to simulations using the supercell
 
 \subsection{Ab initio molecular dynamics simulations on NaCl-UCl$_3$}
 \subsubsection{Density and structure}
-The density of NaCl-UCl$_3$ mixtures were calculated for the dDsC dispersion model at three or four (depending on composition) different temperatures between 800 K and 1500 K, as shown in Figure \ref{fig:NaClUCl3}a). This figure also includes densities at the same temperatures as those of the simulations obtained from correlations derived from experimental data due to Desyatnik et al.~\cite{Desyatnik}. The simulated data points are within a few per cent of the experimental data.  %and lines corresponding to an ideal mixture of the end members. 
-Figure \ref{fig:NaClUCl3}b) highlights the fractional deviation from ideal solution behavior as calculated from simulations and experiments~\cite{Desyatnik}. 
-It is challenging to converge the density for mixed salt solutions to an accuracy better than around one per cent of the absolute density using AIMD simulations, which gives rise to some scatter in the data points. 
-Nevertheless, a few trends are discernible from Figure \ref{fig:NaClUCl3}. %and close to an ideal mixture. 
-The simulations suggest a negative deviation from an ideal solution (lower density than predicted by an ideal solution behavior) by up to 2-3\%, except close to pure UCl$_3$ at high temperature where a positive deviation is observed. According to our simulations, the magnitude of the deviation from ideal solution behavior is a function of composition and varies some with temperature starting at $x\approx0.35$ and continuing in the UCl$_3$ rich composition range, while it is almost independent of temperature in the NaCl rich range. 
-The maximum deviation from ideal solution behavior occurs close to the eutectic composition of 35\% UCl$_3$, perhaps slightly shifted towards the NaCl rich side but it is hard to draw a solid conclusion due to uncertainties in the simulated data. These predictions are qualitatively similar to the correlations derived form experiments by Desyatnik et al.~\cite{Desyatnik}, though the experimental correlations predict a larger magnitude for the deviation from an ideal solution and also exhibit a stronger temperature dependence than the simulations. {\color{red} further details to be added.} %The Langreth \& Lundqvist simulations within the NVT ensemble predict a close to ideal solution behavior across the full temperature and composition range.
-  %  and experiments suggest a negative deviation from an ideal solution (lower density than predicted by an ideal solution behavior), except close to pure UCl$_3$ where experiments and simulations at T=1500K exhibit a positive deviation. Although experiments report the magntiude of the deviation from ideal solution to be a function of temperature, the highest deviation occurs at low temperatures, simulations predict a close to temperature independent deviation from ideal solution behavior. Both experiments and simulations predict a minimum in the deviation rom ideal solution close to the eutectic composition of 30\%, however simulations predict the magnitude of the deviation to be much smaller than experiments. 
-%It is challenging to converge the density for mixed salt solutions using AIMD simulations, which give rise to some of the 
-% . Although there is some spread in the data points that we ascribe to sampling uncertainties, there is a minimum about 3\% below the ideal solution density close to the eutectic composition. The experimental data also shows a negative deviation, including a minumum close to the eutectic composition.  
+The density of NaCl-UCl$_3$ mixtures were calculated for the dDsC and the vdW-DF2 dispersion model at three or four (depending on composition) different temperatures between 900 K and 1500 K, as shown in Figure \ref{fig:NaClUCl3}a). This figure also includes densities at the same temperatures as those of the simulations obtained from Redlich-Kister (RK) correlations \cite{agca2022} derived from experimental data due to Desyatnik et al.~\cite{Desyatnik}. The simulated data points are generally within a few per cent of the experimental data. 
 
-Figure \ref{fig:NaClUCl3_t}a) plots the density as function of temperature for each composition, which emphasizes a close to linear temperature dependence, similar to the pure end-members. %The corresponding linear equations for each composition are listed in Table \ref{table:density_data}. 
-The coefficients describing the linear dependence on temperature for each composition are plotted in Figure \ref{fig:NaClUCl3_comp}a). Although there is some scatter, a weak non-linear dependence on composition for both the linear and constant term (not shown) is identified. The non-linear dependence is most pronounced in the UCl$_3$ rich range.  
-%except for $x_{UCl_3}=0.875$, which deviates slightly from the general trend for both parameters. %The weak non-linear composition dependence can be parametrized and used to express the temperature and composition dependent densities according to:
-%\begin{equation}
-%\end{equation}
-The density correlations identified in Figures \ref{fig:NaClUCl3_t}a) and \ref{fig:NaClUCl3_comp}a) can also be expressed in a combined composition-temperature dependent correlation:
+\begin{figure*}[htb]
+\centering
+\includegraphics[width=0.9\textwidth]{fig7.jpg}
+\caption{Density of NaCl-UCl$_3$ mixtures as obtained from simulations using the (a) dDsC dispersion formulation, and (b) the vdW-DF2 dispersion formulation at temperatures between 900 K and 1500 K. The solid lines represent the Redlich-Kister correlation to the Desyatnik \cite{Desyatnik} data from Agca \cite{agca2022}.%The lines represent an ideal solution with the calculated and experimental NaCl and UCl$_3$ densities as end points. 
+%b) The fractional deviation form ideal solution behavior plotted as function of composition at temperatures between 1100 K and 1500 K. %Results for both the large and small supercells are shown.
+} 
+\label{fig:NaClUCl3}
+\end{figure*}
+
+The deviation from ideal mixing for the dDsC dispersion is shown in Figure \ref{fig:ideal} and compared to the experimental deviation from ideal mixing from Desyatnik \cite{Desyatnik}. Figure \ref{fig:ideal} highlights the fractional deviation from ideal solution behavior as calculated from simulations and experiments~\cite{agca2022,Desyatnik}. It is challenging to converge the density for mixed salt solutions to an accuracy better than around one per cent of the absolute density using AIMD simulations, which gives rise to some scatter in the data points. Nevertheless, a few trends are discernible from Figure \ref{fig:NaClUCl3}. The simulations suggest a negative deviation from an ideal solution (lower density than predicted by an ideal solution behavior) by up to 2-3\%, except close to pure UCl$_3$ at high temperature where a positive deviation is observed. According to our simulations, the magnitude of the deviation from ideal solution behavior is a function of composition and varies some with temperature starting at $x\approx0.35$ and continuing in the UCl$_3$ rich composition range, while it is almost independent of temperature in the NaCl rich range. 
+The maximum deviation from ideal solution behavior occurs close to the eutectic composition of 35\% UCl$_3$, perhaps slightly shifted towards the NaCl rich side but it is hard to draw a solid conclusion due to uncertainties in the simulated data. These predictions are qualitatively similar to the correlations derived from experiments by Desyatnik et al.~\cite{Desyatnik}, though the experimental correlations predict a larger magnitude for the deviation from an ideal solution and also exhibit a stronger temperature dependence than the simulations. 
+
+\begin{figure*}[htb]
+\centering
+\includegraphics[width=0.5\textwidth]{fig8.jpg}
+\caption{The fractional deviation form ideal solution behavior plotted as function of composition at temperatures between 1100 K and 1500 K. The solid symbols represent the simulation data and the open symbols represent the experimental data from Desyatnik \cite{Desyatnik}.}  
+\label{fig:ideal}
+\end{figure*}
+
+The density as a function of temperature displays a linear dependence for all compositions, with a unique slope at each given composition, similar to the pure end-members. The coefficients describing the linear dependence on temperature for each composition are plotted in Figure \ref{fig:TandCp}. Although there is some scatter, a weak non-linear dependence on composition for both the linear and constant term (not shown) is identified. The non-linear dependence is most pronounced in the UCl$_3$ rich range. The density correlations identified in Figures \ref{fig:NaClUCl3}, \ref{fig:ideal}, and \ref{fig:TandCp} can also be expressed in a combined composition-temperature dependent correlation:
 \begin{equation}
 \begin{split}
-\rho(x,T)=\frac{M_{NaCl}(1-x)+M_{UCl_3}x}{\frac{M_{NaCl}(1-x)}{\rho_{NaCl}}+\frac{M_{UCl3}x}{\rho_{UCl_3}}}+ e_1+e_2T+(f_1+f_2T)x+ \\
-(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4+(j_1+j_2T)x^5,
+\rho(x,T)=\frac{M_{NaCl}(1-x)+M_{UCl_3}x}{\frac{M_{NaCl}(1-x)}{\rho_{NaCl}}+\frac{M_{UCl3}x}{\rho_{UCl_3}}}+ e_1+e_2T+(f_1+f_2T)x 
+%(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4+(j_1+j_2T)x^5,
 \label{eq:LS}
 \end{split}
 \end{equation}
-where the first term represents the density of an ideal solution and the subsequent terms the deviation from ideal solution behavior. $M_{NaCl}$ and $M_{UCl_3}$ are the molar masses of the end member salts, $\rho_{NaCl}$ and $\rho_{UCl_3}$ the temperature dependent densities of the end-member salts, which are taken from the correlations previously derived, $T$ is temperature and $x$ is the mole fraction of UCl$_3$ in the mixture. A least-squares fit of the coefficients describing deviation from an ideal solution are collected in Table \ref{table:LS}.
+{\color{red} It seems they are only needing to go to the first order in terms of temperature dependence}
+
+where the first term represents the density of an ideal solution and the subsequent terms the deviation from ideal solution behavior. $M_{NaCl}$ and $M_{UCl_3}$ are the molar masses of the end member salts, $\rho_{NaCl}$ and $\rho_{UCl_3}$ the temperature dependent densities of the end-member salts, which are taken from the correlations previously derived, $T$ is temperature and $x$ is the mole fraction of UCl$_3$ in the mixture. This is an identical formulation to the Redlich-Kister formulation from Agca \cite{agca2022}. A least-squares fit of the coefficients describing deviation from an ideal solution are collected in Table \ref{table:LS}.
 %, in principle, be used for calculating densities at temperatures and compositions not explicitly investigated by AIMD simulations. % according to the following equations,
 %This approach is utilized to compare the AIMD predictions to the recent experimental data from Scott et al.~\cite{} in Fig. \ref{fig:NaClUCl3_comp} collected at XX and YY K. These experiments suggest that the density behaves much closer to an ideal solution than those due to Desyatnik et al.~\cite{}. The agreement with the AIMD predictions is still very good, considering uncertainties associated with both experiments and simulations.  
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{fig7.jpg}
-\caption{a) Density of NaCl-UCl$_3$ mixtures as obtained from simulations and experimental data~\cite{Desyatnik} at temperatures between 1100 K and 1500 K. %The lines represent an ideal solution with the calculated and experimental NaCl and UCl$_3$ densities as end points. 
-b) The fractional deviation form ideal solution behavior plotted as function of composition at temperatures between 1100 K and 1500 K. %Results for both the large and small supercells are shown.
-} 
-\label{fig:NaClUCl3}
+\includegraphics[width=0.6\textwidth]{fig9.jpg}
+\caption{The coefficient describing the linear temperature dependence of density, and the heat capacity as function of the UCl$_3$ fraction. The solid line for the temperature coefficient represents a least-squares fit of a third order polynomial. The solid line for the heat capacity represents a least-squares fit of a linear correlation.}
+\label{fig:TandCp}
 \end{figure*}
 
-\begin{figure*}[htb]
-\centering
-\includegraphics[width=0.95\textwidth]{FIG6c.pdf}
-\caption{a) Calculated temperature dependent densities as function of composition. b) Calculated energies per simulations cell as function of composition. In both a) and b) the lines represent least-squares fits to the calculated data.}  
-\label{fig:NaClUCl3_t}
-\end{figure*}
+%\begin{figure*}[htb]
+%\centering
+%\includegraphics[width=0.95\textwidth]{FIG6c.pdf}
+%\caption{a) Calculated temperature dependent densities as function of composition. b) Calculated energies per simulations cell as function of composition. In both a) and b) the lines represent least-squares fits to the calculated data.}  
+%\label{fig:NaClUCl3_t}
+%\end{figure*}
 
-\begin{figure*}[htb]
-\centering
-\includegraphics[width=0.95\textwidth]{FIG6f.pdf}
-\caption{a) Coefficient describing the linear temperature dependence of density as function of the UCl$_3$ fraction. The line represents a least-squares fit of a fifth order polynomial. b) Heat capacity as function of the UCl$_3$ fraction. The line represents a least-squares fit of a linear correlation.}
-\label{fig:NaClUCl3_comp}
-\end{figure*}
+%\begin{figure*}[htb]
+%\centering
+%\includegraphics[width=0.95\textwidth]{FIG6f.pdf}
+%\caption{a) Coefficient describing the linear temperature dependence of density as function of the UCl$_3$ fraction. The line represents a least-squares fit of a fifth order polynomial. b) Heat capacity as function of the UCl$_3$ fraction. The line represents a least-squares fit of a linear correlation.}
+%\label{fig:NaClUCl3_comp}
+%\end{figure*}
 
 \begin{table*}[hb!]
 \centering
@@ -368,34 +375,40 @@ b) The fractional deviation form ideal solution behavior plotted as function of 
 \label{table:LS}
 \end{table*}
 
-\subsubsection{Mixing energy and heat capacity}
-The mixing energies of NaCl-UCl$_3$ at temperatures ranging from 1100 K to 1500 K are plotted in Figure \ref{fig:NaClUCl3e}a), with the NaCl and UCl$_3$ end members as reference points. The mixtures exhibit a negative deviation from ideal solution behavior, which implies that the solution phase is favored over a two-phase mixture of the end-points. Addition of entropy further stabilizes the mixed solution phase, as shown in Figure \ref{fig:NaClUCl3e}b) by adding a simple ideal solution model to the potential energy in Figure \ref{fig:NaClUCl3e}a).
- The minimum (most negative) mixing energy is between $x$=0.35 and  $x$=0.5, which qualitatively mimics the results for the density, perhaps with a slight shift towards the 50-50 composition. %The potential energy minimum may be shifted slightly closer to the 50-50 composition. However, it may be questionable if the simulations are sufficiently converged to draw such a subtle conclusion.  The Langreth \& Lundqvist and dDsC simulations predict very similar solution energies. The minimum of the free energy is shifted close to the 50-50 composition. 
+\FloatBarrier
+
+\subsubsection{Heat Capacity and Mixing Energy}
+The total energy for each NaCl-UCl$_3$ composition displays a linear dependence as a function of temperature, similar to the pure NaCl and UCl$_3$ systems. The heat capacity for each composition can be obtained from the slope of the total energy versus temperature, and this heat capacity is displayed in Figure \ref{fig:TandCp}. The heat capacity displays a monotonic increase with composition that exhibits an ideal mixing type behavior. Thus, for a given composition of the pseudo-binary salt, a linear interpolation of the heat capacities is an appropriate approximation. 
+
+The mixing energies of NaCl-UCl$_3$ at temperatures ranging from 1100 K to 1500 K as calculated by the dDsC dispersion formulation are plotted in Figure \ref{fig:mixing}, with the NaCl and UCl$_3$ end members as reference points. The mixtures exhibit a negative deviation from ideal solution behavior, which implies that the solution phase is favored over a two-phase mixture of the end-points. 
+{\color{red} i removed the free energy graph. let me know if i should put it back in.}
+%Addition of entropy further stabilizes the mixed solution phase, as shown in Figure ref{fig:mixing} by adding a simple ideal solution model to the potential energy in Figure ref{fig:mixing}.
+ The minimum (most negative) mixing energy is between $x$=0.35 and $x$=0.5, which qualitatively mimics the results for the density, perhaps with a slight shift towards the 50-50 composition. %The potential energy minimum may be shifted slightly closer to the 50-50 composition. However, it may be questionable if the simulations are sufficiently converged to draw such a subtle conclusion.  The Langreth \& Lundqvist and dDsC simulations predict very similar solution energies. The minimum of the free energy is shifted close to the 50-50 composition. 
  
- The mixing energy was measured at 1100 K by Matsuura et al.~\cite{Matsuura} The results are also shown in \ref{fig:NaClUCl3e}a) and indicate very good agreement with the simulations across the full temperature range. In addition to the experimental data points, there are two sets of thermodynamic models for the solution energy~\cite{BENES2008,YIN2020}, see Figure \ref{fig:NaClUCl3e}a) for the correlation from Ref.~\cite{YIN2020}. Both thermodynamic models assume the solution energy to be independent of temperature, which is in good agreement with the simulations. The model by Yin et al.~\cite{YIN2020} was derived from the experimental measurements by Matsuura et al.~\cite{Matsuura} and consequently agree similarly well with our simulation results. The model by Benes et al.~\cite{BENES2008} exhibits a smaller mixing energy than both the experimental data points and our simulations (not shown). 
+ The mixing energy was measured at 1100 K by Matsuura et al.~\cite{Matsuura} and the results are also shown in Figure \ref{fig:mixing} and indicate very good agreement with the simulations across the full temperature range. In addition to the experimental data points, there are two sets of thermodynamic models for the solution energy~\cite{BENES2008,YIN2020}, and the correlation from Ref.~\cite{YIN2020} is included in Figure \ref{fig:mixing}. Both thermodynamic models assume the solution energy to be independent of temperature, which is in good agreement with the simulations. The model by Yin et al.~\cite{YIN2020} was derived from the experimental measurements by Matsuura et al.~\cite{Matsuura} and consequently agree similarly well with our simulation results. The model by Benes et al.~\cite{BENES2008} exhibits a smaller mixing energy than both the experimental data points and our simulations, but is not shown in Figure \ref{fig:mixing}. 
 
 %Although the simulations were run long enough to sample the configuration space, it is possible that the initial distribution of Na and U ions have some impact on the results, especially for the large supercells.  In order to test this possibility, a few of the Na And Cl atoms in the previous simulations were swapped and the simulations were re-run. In particular we target the compositions that seemed to deviate from the overall trend somewhat. Indeed, the new simulations provided slightly different results in closer agreement with the trends already discussed. For the large cells, this is an inherent uncertainty of the simulation apporach.
 
 \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG7.pdf}
-\caption{a) Mixing energies for NaCl-UCl$_3$ at 1100, 1250 and 1500 K. Pure NaCl and UCl$_3$ are used as references. The calculated results are compared to experiments~\cite{Matsuura} and a thermodynamic assessment~\cite{YIN2020}.%The solid black line represents the zero-mixing energy for the ideal solution. %b) Same as a) but performed using a different simulation methodology at 1200 K. 
- Results are shown for the best converged supercells. b) The free energy of mixing at 1100 1250 and 1500 K assuming an ideal solution.} 
-\label{fig:NaClUCl3e}
+\includegraphics[width=0.5\textwidth]{fig10.jpg}
+\caption{Mixing energies for NaCl-UCl$_3$ at 1100, 1250 and 1500 K. Pure NaCl and UCl$_3$ are used as references. The calculated results are compared to experiments~\cite{Matsuura} and a thermodynamic assessment~\cite{YIN2020}.%The solid black line represents the zero-mixing energy for the ideal solution. %b) Same as a) but performed using a different simulation methodology at 1200 K. 
+} 
+\label{fig:mixing}
 \end{figure*}
-
-The total energy for each NaCl-UCl$_3$ composition is plotted as function of temperature in Figure \ref{fig:NaClUCl3_t}b), from which heat capacity can be calculated as the slope, similar to the pure NaCl and UCl$_3$ systems. The heat capacity is approxiamtely a linear function of the salt composition, which is expected based on the lack of temperature dependence for the salt mixing energies. The negative deviation from an ideal solution seen for the mixing energy and density is not present for the heat capacity. 
 
 Based on the results for the mixing energy, the following expression may be fitted to the mixing energy as function of the composition and temperature:
 \begin{equation}
 \begin{split}
-E_{mix}(x,T)=(e_1+e_2T)+(f_1+f_2T)x++(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4+\\
-+(j_1+j_2T)x^5,
+E_{mix}(x,T)=(e_1+e_2T)+(f_1+f_2T)x+(g_1+g_2T)x^2+(h_1+h_2T)x^3+(i_1+i_2T)x^4\\
+%+(j_1+j_2T)x^5,
 \label{eq:LSE}
 \end{split}
 \end{equation}
-where all the temperature dependent parameters are set to zero based on the lack of disceranble temprature dependence in Fig. \ref{fig:NaClUCl3e}. This expression is equivalent to the Redlich-Kister expansion used in existing Calphad models. The coefficients resulting from the fit to the data in Fig. \ref{fig:NaClUCl3e} are summarized in Table \ref{table:LS}. heat capacity may be derived as the derivative of Eq. \ref{eq:LSE}.
+where all the temperature dependent parameters are set to zero based on the lack of discernible temperature dependence in Fig. \ref{fig:mixing}. This expression is equivalent to the Redlich-Kister expansion used in existing Calphad models. The coefficients resulting from the fit to the data in Fig. \ref{fig:mixing} are summarized in Table \ref{table:LS}. heat capacity may be derived as the derivative of Eq. \ref{eq:LSE}.
 %The comparison between large and small supercells for the density and mixing energy are also shown in Figs. \ref{fig:NaClUCl3} and \ref{fig:NaClUCl3e}. Unlike the cases of NaCl and UCl$_3$, the NaCl-UCl$_3$ mixture exhibit some deviation between the supercells for one of the compositions, although the trends are still the same. 
+
+\FloatBarrier
 
 \subsubsection{Compressibility}
 
@@ -403,7 +416,7 @@ The degree of compressibility of a fluid has strong implications for its dynamic
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.6\textwidth]{figbulk.jpg}
+\includegraphics[width=0.5\textwidth]{figbulk.jpg}
 \caption{Calculated compressibilities for the NaCl-UCl{$_3$} pseudo-binary as a function of composition at four temperatures. Linear fits to the data are included to better illustrate trends in the data and do not imply a linear relationship.} 
 \label{fig:compress}
 \end{figure}
@@ -414,6 +427,8 @@ The degree of compressibility of a fluid has strong implications for its dynamic
 %As for NaCl, The AIMD simulations also allow calculation of the diffusivity of each species. Again similar to the NaCl system, these simulations work best in the NVT ensemble and results are only report for that case, see Fig. \ref{fig:diffUCl}. As expected, the diffusivity is a linear function of temperature. %, with a much stronger temperature dependence for Cl than for U. 
 %The mobility of each species may be derived from the slope of the diffusivity as function of temperature (see Table \ref{table:NaCldiffusivityetc}). 
 
+The diffusion coefficients for each individual species, as well as the total diffusion coefficient, are plotted as a function of composition and temperature in Fig. \ref{fig:diff}. The diffusion coefficients follow a similar trend for all compositions in temperatures in that D$_{Na}$ $>$ D$_{Cl}$ $>$ D$_U$. Additionally, the diffusion coefficients decrease with increasing UCl$_3$ content. However, the most rapid diffusion is found for the pure UCl$_3$ system. Arrhenius fits to the data can be applied, as in Fig \ref{fig:arrhenius}, and tabulated in Table \ref{tab:diff}. The migration energies as calculated from the Arrhenius fits show a near monotonic increase with increasing UCl$_3$ content. The increase in the diffusion coefficient for pure UCl$_3$ is due to the larger pre-factor. The results for NaCl compare favorably with previous experimental measurements of diffusivities. While this work predicts a Na diffusion coefficient in NaCl of 4.7$\times$10$^{-9}$ m$^2$/s, experimental measurements have determined a value of 8.0 $\times$10$^{-9}$ m$^2$/s \cite{janz_diffusion}. Additionally, Na diffusion proceeding more rapidly in NaCl than Cl diffusion has been observed experimentally \cite{janz_diffusion}. No experimental diffusion data has been obtained for the pure UCl$_3$ or the NaCl-UCl$_3$ system. 
+
 \begin{figure}[htb]
 \centering
 \includegraphics[width=0.9\textwidth]{diff1.jpg}
@@ -423,25 +438,25 @@ The degree of compressibility of a fluid has strong implications for its dynamic
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.6\textwidth]{arrhenius.jpg}
+\includegraphics[width=0.5\textwidth]{arrhenius.jpg}
 \caption{Arrhenius diffusion of NaCl-UCl{$_3}} 
 \label{fig:arrhenius}
 \end{figure}
 
 \begin{table*}[hb!]
 \centering
-\caption{Diffusion values}
+\caption{Prefactor and migration energy for the total diffusion of NaCl-UCl$_3$ systems.}
 \begin{tabular}{lccc|}
 \hline
 \hline
-D	&	D_0	&	E_m	\\
+Fraction UCl$_3$	&	D$_0$(m$^2$/s)	&	E$_m$(eV)	\\
 \hline
-0	&	2.71E-08	&	-0.184	\\
-20	&	2.05E-08	&	-0.203	\\
-33	&	4.11E-08	&	-0.301	\\
-50	&	4.21E-08	&	-0.326	\\
-70	&	2.10E-08	&	-0.292	\\
-100	&	1.74E-07	&	-0.342	\\
+0	&	5.41E-08	&	-0.184	\\
+0.2	&	4.93E-08	&	-0.203	\\
+0.33	&	1.10E-08	&	-0.301	\\
+0.5	&	1.26E-07	&	-0.326	\\
+0.7	&	7.10E-08	&	-0.292	\\
+1	&	9.65E-07	&	-0.388	\\
 \hline
 \hline
 \end{tabular}
@@ -463,7 +478,7 @@ The negative deviation from an ideal solution exhibited by the density implies t
 
  \begin{figure*}[htb]
 \centering
-\includegraphics[width=0.95\textwidth]{FIG77.pdf}
+\includegraphics[width=0.95\textwidth]{fig14.jpg}
 \caption{Pair distribution functions for NaCl-UCl$_3$ mixtures as function of composition ($x=0.25$, $x=0.29$, $x=0.36$ and $x=0.50$). The reference U-Cl and U-U pair distribution functions for UCl$_3$ are plotted in each figure for comparison.} 
 \label{fig:fig_pair}
 \end{figure*}

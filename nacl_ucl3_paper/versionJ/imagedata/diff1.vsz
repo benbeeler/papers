@@ -1,5 +1,5 @@
 # Veusz saved document (version 3.3.1)
-# Saved at 2021-10-14T13:49:33.067188
+# Saved at 2021-10-27T17:33:08.809595
 
 AddImportPath(u'/Users/beelbw/projects/papers/nacl_ucl3_paper/versionJ/imagedata')
 ImportFileCSV(u'diff1.csv', linked=True)
@@ -74,6 +74,7 @@ Set('bottomMargin', u'2cm')
 Add('axis', name=u'x', autoadd=False)
 To(u'x')
 Set('label', u'Fraction UCl_3')
+Set('max', 1.0)
 To('..')
 Add('axis', name=u'y', autoadd=False)
 To(u'y')
@@ -126,6 +127,7 @@ Set('bottomMargin', u'2cm')
 Add('axis', name=u'x', autoadd=False)
 To(u'x')
 Set('label', u'Fraction UCl_3')
+Set('min', 0.0)
 To('..')
 Add('axis', name=u'y', autoadd=False)
 To(u'y')

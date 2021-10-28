@@ -130,8 +130,17 @@ G.~W. Neilson, A.~K. Adya, S.~Ansell, 8 neutron and x-ray diffraction studies
 Y.~Okamoto, F.~Kobayashi, T.~Ogawa, Structure and dynamic properties of molten
   uranium trichloride, J. Alloy. Compd. 29 (1998) 355--358.
 
+\bibitem{agca2022}
+C.~Agca, J.~McMurray, Empirical estimation of densities in nacl-kcl-ucl3 and
+  nacl-kcl-ycl3 molten salts using redlich-kister expansion, Chem. Eng. Sci.
+  247 (2022) 117086.
+
 \bibitem{aiphandbook}
 J.~McKinney, R.~Lindsay, American Institute of Physics Handbook, third edition
   Edition, McGraw-Hill Book Company, 1972.
+
+\bibitem{janz_diffusion}
+G.~J. Janz, N.~P. Bansal, Molten salts data: Diffusion coefficients in single
+  and multi-component salt systems, J. Phys. Chem. Ref. Data 11 (1982) 505.
 
 \end{thebibliography}
