@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MSR-salts-j-paper.aux
+The style file: elsarticle-num.bst
+Database file #1: Yellowjacket.bib
+Warning--empty title in Parker
+Warning--empty journal in Parker
+You've used 36 entries,
+            2952 wiz_defined-function locations,
+            926 strings with 11130 characters,
+and the built_in function-call counts, 10488 in all, are:
+= -- 998
+> -- 347
+< -- 2
++ -- 139
+- -- 103
+* -- 759
+:= -- 1479
+add.period$ -- 36
+call.type$ -- 36
+change.case$ -- 36
+chr.to.int$ -- 6
+cite$ -- 38
+duplicate$ -- 288
+empty$ -- 1154
+format.name$ -- 135
+if$ -- 2690
+int.to.chr$ -- 0
+int.to.str$ -- 36
+missing$ -- 36
+newline$ -- 116
+num.names$ -- 35
+pop$ -- 190
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 644
+stack$ -- 0
+substring$ -- 739
+swap$ -- 38
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 76
+width$ -- 38
+write$ -- 291
+(There were 2 warnings)
