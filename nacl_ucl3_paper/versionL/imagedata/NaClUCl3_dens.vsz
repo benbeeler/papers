@@ -1,11 +1,23 @@
 # Veusz saved document (version 3.4.0.1)
-# Saved at 2022-01-11T18:38:02.872954
+# Saved at 2022-01-12T19:32:45.490168
 
 SetCompatLevel(0)
 AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionL/imagedata')
 ImportFileCSV('fig7.csv', linked=True)
 ImportFileCSV('fig7_supp.csv', linked=True)
 ImportFileCSV('RKdata.csv', linked=True)
+ImportString('1500P(numeric)','''
+1.319000e+00
+1.348000e+00
+1.377000e+00
+1.444000e+00
+1.483000e+00
+1.983000e+00
+2.484000e+00
+2.658000e+00
+2.841000e+00
+3.995000e+00
+''')
 Set('colorTheme', 'default-latest')
 Set('StyleSheet/axis-function/autoRange', 'next-tick')
 Add('page', name='page1', autoadd=False)
@@ -95,6 +107,15 @@ Set('marker', 'none')
 Set('xData', '\ufeffxP')
 Set('yData', '1250P')
 Set('PlotLine/color', 'theme2')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+Add('xy', name='xy9', autoadd=False)
+To('xy9')
+Set('marker', 'none')
+Set('color', 'theme3')
+Set('xData', '\ufeffxP')
+Set('yData', '1500P')
 Set('PlotLine/width', '2pt')
 Set('PlotLine/style', 'dotted')
 To('..')

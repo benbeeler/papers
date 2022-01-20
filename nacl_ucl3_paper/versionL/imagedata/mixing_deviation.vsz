@@ -1,10 +1,160 @@
 # Veusz saved document (version 3.4.0.1)
-# Saved at 2022-01-03T20:14:30.110674
+# Saved at 2022-01-13T14:16:40.879966
 
 SetCompatLevel(1)
-AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionL/imagedata')
-ImportFileCSV('fig8_supp.csv', linked=True)
-ImportFileCSV('fig8.csv', linked=True)
+AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionL/imagedata')
+ImportString('1100P(numeric)','''
+1.000000e+00
+9.990000e-01
+9.790000e-01
+1.000000e+00
+9.990000e-01
+1.001000e+00
+9.960000e-01
+1.001000e+00
+1.001000e+00
+1.000000e+00
+''')
+ImportString('1250P(numeric)','''
+1.000000e+00
+1.000000e+00
+9.770000e-01
+1.000000e+00
+1.002000e+00
+1.003000e+00
+1.002000e+00
+1.002000e+00
+1.001000e+00
+1.000000e+00
+''')
+ImportString('1500P(numeric)','''
+1.000000e+00
+1.001000e+00
+9.710000e-01
+1.001000e+00
+1.008000e+00
+1.006000e+00
+1.014000e+00
+1.005000e+00
+1.001000e+00
+1.000000e+00
+''')
+ImportString('900P(numeric)','''
+1.000000e+00
+9.980000e-01
+9.830000e-01
+1.000000e+00
+9.950000e-01
+9.990000e-01
+9.890000e-01
+9.990000e-01
+1.001000e+00
+1.000000e+00
+''')
+ImportString('D1100(numeric)','''
+1.000000e+00
+9.960000e-01
+9.890000e-01
+9.850000e-01
+9.930000e-01
+9.920000e-01
+9.930000e-01
+9.940000e-01
+1.000000e+00
+''')
+ImportString('D1250(numeric)','''
+1.000000e+00
+9.900000e-01
+9.900000e-01
+9.820000e-01
+9.930000e-01
+9.950000e-01
+9.970000e-01
+9.980000e-01
+1.000000e+00
+''')
+ImportString('D1500(numeric)','''
+1.000000e+00
+9.970000e-01
+9.860000e-01
+9.820000e-01
+9.870000e-01
+1.002000e+00
+1.007000e+00
+1.014000e+00
+1.000000e+00
+''')
+ImportString('E1100(numeric)','''
+1.000000e+00
+9.610000e-01
+9.490000e-01
+9.510000e-01
+9.580000e-01
+9.560000e-01
+9.630000e-01
+9.810000e-01
+9.890000e-01
+1.000000e+00
+''')
+ImportString('E1250(numeric)','''
+1.000000e+00
+9.680000e-01
+9.560000e-01
+9.590000e-01
+9.660000e-01
+9.660000e-01
+9.710000e-01
+9.920000e-01
+1.002000e+00
+1.000000e+00
+''')
+ImportString('E1500(numeric)','''
+1.000000e+00
+9.810000e-01
+9.680000e-01
+9.740000e-01
+9.810000e-01
+9.840000e-01
+9.860000e-01
+1.012000e+00
+1.025000e+00
+1.000000e+00
+''')
+ImportString('xE(numeric)','''
+0.000000e+00
+1.440000e-01
+2.490000e-01
+3.330000e-01
+4.060000e-01
+4.950000e-01
+5.990000e-01
+7.000000e-01
+8.500000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffxD`(numeric)','''
+0.000000e+00
+1.250000e-01
+2.500000e-01
+2.857143e-01
+3.571429e-01
+5.000000e-01
+7.500000e-01
+8.500000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffxP`(numeric)','''
+0.000000e+00
+5.600000e-03
+1.130000e-02
+2.460000e-02
+3.250000e-02
+1.450000e-01
+2.840000e-01
+3.400000e-01
+4.040000e-01
+1.000000e+00
+''')
 Set('colorTheme', 'default-latest')
 Set('StyleSheet/axis-function/autoRange', 'next-tick')
 Add('page', name='page1', autoadd=False)
@@ -123,14 +273,15 @@ Set('MarkerFill/hide', True)
 To('..')
 Add('xy', name='xy10', autoadd=False)
 To('xy10')
-Set('marker', 'cross')
+Set('marker', 'square')
+Set('color', 'theme3')
 Set('xData', '\ufeffxP')
-Set('yData', '1400P')
-Set('key', '1400 K')
-Set('PlotLine/color', 'theme4')
+Set('yData', '1500P')
+Set('key', '')
+Set('PlotLine/color', 'theme3')
 Set('PlotLine/width', '1pt')
 Set('PlotLine/style', 'dotted')
-Set('MarkerLine/color', 'theme4')
+Set('MarkerLine/color', 'theme3')
 Set('MarkerFill/hide', True)
 To('..')
 To('..')
