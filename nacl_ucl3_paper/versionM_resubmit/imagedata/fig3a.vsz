@@ -1,0 +1,182 @@
+# Veusz saved document (version 3.3.1)
+# Saved at 2021-10-13T20:41:39.521401
+
+AddImportPath(u'/Users/beelbw/projects/papers/nacl_ucl3_paper/versionJ/imagedata')
+ImportString(u'`D D3`(numeric)','''
+1.727329e+00
+1.671933e+00
+1.605893e+00
+1.520360e+00
+1.488992e+00
+''')
+ImportString(u'`D E`(numeric)','''
+1.585100e+00
+1.537510e+00
+1.466125e+00
+1.418535e+00
+1.347150e+00
+''')
+ImportString(u'`D PBE`(numeric)','''
+1.272691e+00
+1.155978e+00
+''')
+ImportString(u'`D dD`(numeric)','''
+1.652564e+00
+1.612838e+00
+1.544966e+00
+1.482563e+00
+1.415948e+00
+''')
+ImportString(u'`D vdW`(numeric)','''
+1.540339e+00
+1.489876e+00
+1.432249e+00
+''')
+ImportString(u'`T D3`(numeric)','''
+9.838220e+02
+1.081416e+03
+1.241179e+03
+1.369100e+03
+1.472223e+03
+''')
+ImportString(u'`T E`(numeric)','''
+1.000000e+03
+1.100000e+03
+1.250000e+03
+1.350000e+03
+1.500000e+03
+''')
+ImportString(u'`T PBE`(numeric)','''
+1.250000e+03
+1.500000e+03
+''')
+ImportString(u'`T vdW`(numeric)','''
+1.100000e+03
+1.250000e+03
+1.400000e+03
+''')
+ImportString(u'`\ufeffT dD`(numeric)','''
+9.924393e+02
+1.100605e+03
+1.239559e+03
+1.344395e+03
+1.494284e+03
+''')
+Set('colorTheme', u'default-latest')
+Set('StyleSheet/axis-function/autoRange', u'next-tick')
+Add('page', name=u'page1', autoadd=False)
+To(u'page1')
+Add('graph', name=u'graph1', autoadd=False)
+To(u'graph1')
+Add('axis', name=u'x', autoadd=False)
+To(u'x')
+Set('label', u'Temperature (K)')
+Set('min', 900.0)
+Set('max', 1600.0)
+Set('GridLines/hide', False)
+To('..')
+Add('axis', name=u'y', autoadd=False)
+To(u'y')
+Set('label', u'Density (g/cm{^3})')
+Set('min', u'Auto')
+Set('direction', u'vertical')
+Set('GridLines/hide', False)
+To('..')
+Add('xy', name=u'xy1', autoadd=False)
+To(u'xy1')
+Set('xData', u'\ufeffT dD')
+Set('yData', u'D dD')
+Set('key', u'dDsC')
+Set('PlotLine/color', u'red')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name=u'xy2', autoadd=False)
+To(u'xy2')
+Set('marker', u'diamond')
+Set('xData', u'T vdW')
+Set('yData', u'D vdW')
+Set('key', u'vdW-DF2')
+Set('PlotLine/color', u'theme2')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name=u'xy3', autoadd=False)
+To(u'xy3')
+Set('marker', u'square')
+Set('xData', u'T PBE')
+Set('yData', u'D PBE')
+Set('key', u'PBE')
+Set('PlotLine/width', u'1pt')
+Set('PlotLine/hide', False)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name=u'xy4', autoadd=False)
+To(u'xy4')
+Set('marker', u'cross')
+Set('xData', u'T D3')
+Set('yData', u'D D3')
+Set('key', u'D3')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name=u'xy5', autoadd=False)
+To(u'xy5')
+Set('marker', u'plus')
+Set('xData', u'T E')
+Set('yData', u'D E')
+Set('key', u'EXPT')
+Set('PlotLine/width', u'2pt')
+Set('MarkerLine/hide', True)
+Set('MarkerFill/hide', True)
+To('..')
+Add('fit', name=u'fit1', autoadd=False)
+To(u'fit1')
+Set('values', {u'a': 2.140084545377931, u'b': -0.00048477814576519673})
+Set('xData', u'\ufeffT dD')
+Set('yData', u'D dD')
+Set('fitRange', True)
+Set('min', 950.0)
+Set('max', 1500.0)
+Set('Line/color', u'theme1')
+Set('Line/width', u'1pt')
+To('..')
+Add('fit', name=u'fit2', autoadd=False)
+To(u'fit2')
+Set('values', {u'a': 1.9385817307118032, u'b': -0.0003608770181489085})
+Set('xData', u'T vdW')
+Set('yData', u'D vdW')
+Set('fitRange', True)
+Set('min', 950.0)
+Set('max', 1500.0)
+Set('Line/color', u'theme2')
+Set('Line/width', u'1pt')
+To('..')
+Add('fit', name=u'fit3', autoadd=False)
+To(u'fit3')
+Set('xData', u'T PBE')
+Set('yData', u'D PBE')
+Set('fitRange', True)
+Set('min', u'Auto')
+Set('max', u'Auto')
+To('..')
+Add('fit', name=u'fit4', autoadd=False)
+To(u'fit4')
+Set('values', {u'a': 2.213236248030512, u'b': -0.0004964608569678064})
+Set('xData', u'T D3')
+Set('yData', u'D D3')
+Set('min', 950.0)
+Set('max', 1500.0)
+Set('Line/color', u'theme4')
+Set('Line/width', u'1pt')
+To('..')
+Add('key', name=u'key1', autoadd=False)
+To(u'key1')
+Set('vertPosn', u'top')
+To('..')
+To('..')
+To('..')

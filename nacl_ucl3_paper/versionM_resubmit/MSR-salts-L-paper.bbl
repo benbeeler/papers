@@ -1,0 +1,205 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Rosenthal}
+M.~W. Rosenthal, P.~R. Kasten, R.~B. Briggs, Molten-salt reactors—history,
+  status, and potential, Nucl. Appl. Tech. 8~(2) (1970) 107--117.
+
+\bibitem{MSRE1}
+R.~C. Robertson, Msre design and operations report, part i-description of
+  reactor design, Tech. rep., Oak Ridge National Laboratory (1965).
+
+\bibitem{MSRE2}
+P.~N. Haubenreich, J.~R. Engel, {E}xperience with the {M}olten-{S}alt {R}eactor
+  {E}xperiment, Nuc. Appl. Technol. 8 (1970) 118.
+
+\bibitem{Janz1988}
+G.~J. Janz, {T}hermodynamic and {T}ransport {P}roperties for {M}olten {S}alts:
+  {C}orrelation {E}quations for {C}ritically {E}valuated {D}ensity, {S}urface
+  {T}ension, {E}lectrical {C}onductance, and {V}iscosity {D}ata, J. Phys. Chem.
+  Ref. Data 17 (1988) 1 -- 309.
+
+\bibitem{Desyatnik}
+V.~N. Desyatnik, S.~F. Katyshev, S.~P. Raspopin, Y.~F. Chervinskii, Density,
+  surface tension, and viscosity of uranium trichloride-sodium chloride melts,
+  Sov. At. Energy 39 (1975) 649.
+
+\bibitem{Parker}
+S.~S. Parker, A.~Long, C.~Lhermitte, S.~Vogel, M.~Monreal, J.~Jackson,
+  {T}hermophysical properties of liquid chlorides from 600 to 1600 k: {M}elt
+  point, enthalpy of fusion, and volumetric expansion, Journal of Molecular
+  Liquids 346 (2022) 118147.
+
+\bibitem{Matsuura}
+H.~Matsuura, R.~Takagi, L.~Rycerz, M.~Gaune-Escard, Enthalpies of mixing in
+  molten {UC}l$_3$-{N}a{C}l system, J. Nucl. Sci. Technol. 39 (2002) 632--634.
+
+\bibitem{BENES2008}
+O.~Bene{\v s}, R.~Konings, Thermodynamic evaluation of the
+  {N}a{C}l--{M}g{C}l$_2$--{U}c{}l$_3$--{P}u{C}l$_3$ system, J. Nucl. Mater. 375
+  (2008) 202--208.
+
+\bibitem{YIN2020}
+H.~Yin, J.~Lin, B.~Hu, W.~Liu, X.~Guo, Q.~Liu, Z.~Tang, Thermodynamic
+  description of the constitutive binaries of the
+  {N}a{C}l-{C}l-{UC}l$_3$-{P}u{C}l$_3$ system, Calphad 70 (2020) 101783.
+
+\bibitem{Li}
+B.~Li, S.~Dai, D.-e. Jiang, {F}irst-{P}rinciples {M}olecular {D}ynamics
+  {S}imulations of {UC}l$_n$-{N}a{C}l (n = 3, 4) {M}olten {S}alts, ACS Appl.
+  Energy Mater. 2 (2019) 2122--2128.
+
+\bibitem{Li2020}
+B.~Li, S.~Dai, D.-e. Jiang, Molecular dynamics simulations of structural and
+  transport properties of molten {N}a{C}l-{UC}l$_3$ using the polarizable-ion
+  model, J. Mol. Liq. 299 (2020) 112184.
+
+\bibitem{Nam2015}
+H.~O. Nam, D.~Morgan, Redox condition in molten salts and solute behavior: {A}
+  first-principles molecular dynamics study, J. Nucl. Mater. 465 (2015) 224.
+
+\bibitem{SONG}
+J.~Song, S.~Shi, X.~Li, L.~Yan, First-principles molecular dynamics modeling of
+  {UC}l$_3$ in {L}i{C}l-{KC}l eutectic, J. Mol. Liq. 234 (2017) 279--286.
+
+\bibitem{VANOUDENAREN2021117470}
+G.~{van Oudenaren}, J.~Ocadiz-Flores, A.~Smith, {C}oupled
+  structural-thermodynamic modelling of the molten salt system
+  {N}a{C}l-{U}{C}l$_3$, J. Mol. Liq. 342 (2021) 117470.
+
+\bibitem{NGUYEN2021115262}
+M.-T. Nguyen, V.-A. Glezakou, J.~Lonergan, B.~McNamara, P.~D. Paviet,
+  R.~Rousseau, Ab initio molecular dynamics assessment of thermodynamic and
+  transport properties in ({K},{L}i){C}l and ({K}, {N}a){C}l molten salt
+  mixtures, J. Mol. Liq. 326 (2021) 115262.
+
+\bibitem{LI2021100359}
+Q.-J. Li, E.~Küçükbenli, S.~Lam, B.~Khaykovich, E.~Kaxiras, J.~Li,
+  Development of robust neural-network interatomic potential for molten salt,
+  Cell Reports Physical Science 2~(3) (2021) 100359.
+
+\bibitem{Tovey}
+S.~Tovey, A.~Narayanan~Krishnamoorthy, G.~Sivaraman, J.~Guo, C.~Benmore,
+  A.~Heuer, C.~Holm, {DFT} {A}ccurate {I}nteratomic {P}otential for {M}olten
+  {N}a{C}l from machine learning, The Journal of Physical Chemistry C 124~(47)
+  (2020) 25760--25768.
+
+\bibitem{Kresse1996}
+G.~Kresse, J.~Furthmuller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Phys. Rev. B 54
+  (1996) 11169--11186.
+
+\bibitem{PAW1}
+G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
+  augmented-wave method, Phys. Rev. B 59 (1999) 1758--1775.
+
+\bibitem{PAW2}
+P.~E. Bl\"ochl, Projector augmented-wave method, Phys. Rev. B 50 (1994)
+  17953--17979.
+
+\bibitem{packmol}
+L.~Mart{\'\i}nez, R.~Andrade, E.~G. Birgin, J.~M. Mart{\'\i}nez, {PACKMOL}: {A}
+  package for building initial configurations for molecular dynamics
+  simulations, J. Comp. Chem. 30~(13) (2009) 2157--2164.
+
+\bibitem{rohrbach2003}
+A.~Rohrbach, J.~Hafner, G.~Kresse, Electronic correlation effects in
+  transition-metal sulfides, J. Condens. Matter Phys. 15~(6) (2003) 979--996.
+
+\bibitem{dudarev1998}
+S.~L. Dudarev, G.~A. Botton, S.~Y. Savrasov, C.~J. Humphreys, A.~P. Sutton,
+  Electron-energy-loss spectra and the structural stability of nickel oxide: An
+  {LSDA}+{U} study, Phys. Rev. B 57 (1998) 1505--1509.
+
+\bibitem{PhysRevB.71.035105}
+M.~Cococcioni, S.~de~Gironcoli, Linear response approach to the calculation of
+  the effective interaction parameters in the $\mathrm{LDA}+\mathrm{U}$ method,
+  Phys. Rev. B 71 (2005) 035105.
+
+\bibitem{PhysRevB.52.R5467}
+A.~I. Liechtenstein, V.~I. Anisimov, J.~Zaanen, Density-functional theory and
+  strong interactions: {O}rbital ordering in {M}ott-{H}ubbard insulators, Phys.
+  Rev. B 52 (1995) R5467--R5470.
+
+\bibitem{dudarev}
+S.~L. Dudarev, D.~N. Manh, A.~P. Sutton, Effect of {M}ott-{H}ubbard
+  correlations on the electronic structure and structural stability of uranium
+  dioxide, Philos. Mag. B 75~(5) (1997) 613--628.
+
+\bibitem{Nam2014}
+H.~O. Nam, A.~Bengtson, K.~V\"{o}rtler, S.~Saha, R.~Sakidja, D.~Morgan,
+  First-principles molecular dynamics modeling of the molten fluoride salt with
+  {C}r solute, J. Nucl. Mater. 449 (2014) 148.
+
+\bibitem{Grimme}
+S.~Grimme, S.~Ehrlich, L.~Goerigk, Effect of the damping function in dispersion
+  corrected density functional theory, J. Comp. Chem. 32~(7) (2011) 1456--1465.
+
+\bibitem{Dion}
+M.~Dion, H.~Rydberg, E.~Schr\"oder, D.~C. Langreth, B.~I. Lundqvist, Van der
+  {W}aals {D}ensity {F}unctional for {G}eneral {G}eometries, Phys. Rev. Lett.
+  92 (2004) 246401.
+
+\bibitem{Klimes}
+J.~Klime\v{s}, D.~R. Bowler, A.~Michaelides, {V}an der {W}aals density
+  functionals applied to solids, Phys. Rev. B 83 (2011) 195131.
+
+\bibitem{Steinmann2011}
+S.~N. Steinmann, C.~Corminboeuf, Comprehensive benchmarking of a
+  density-dependent dispersion correction, J. Chem. Theory Comput. 7 (2011)
+  3567 -- 3577.
+
+\bibitem{Steinmann2}
+S.~N. Steinmann, C.~Corminboeuf, A generalized-gradient approximation exchange
+  hole model for dispersion coefficients, J. Chem. Phys. 134 (2011) 044117.
+
+\bibitem{Kim}
+H.~Kim, J.-M. Choi, W.~A. Goddard, {U}niversal {C}orrection of {D}ensity
+  {F}unctional {T}heory to {I}nclude {L}ondon {D}ispersion (up to {L}r,
+  {E}lement 103), J. Phys. Chem. Lett. 3 (2012) 360--363.
+
+\bibitem{pol}
+P.~Schwerdtfeger, J.~K. Nagle, Table of static dipole polarizabilities of the
+  neutral elements in the periodic table, Molecular Physics 117~(9-12) (2019)
+  1200--1225.
+
+\bibitem{pbe}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof, {G}eneralized {G}radient {A}pproximation
+  {M}ade {S}imple, Phys. Rev. Lett. 77 (1996) 3865--3868.
+
+\bibitem{Edwards_1975}
+F.~G. Edwards, J.~E. Enderby, R.~A. Howe, D.~I. Page, The structure of molten
+  sodium chloride, J. Phys., C, Solid State Phys. 8 (1975) 3483--3490.
+
+\bibitem{NIST}
+\href{http://webbook.nist.gov/chemistry/}{Nist chemistry web book} [online]
+  (2021).
+
+\bibitem{Neilson}
+G.~W. Neilson, A.~K. Adya, S.~Ansell, 8 neutron and x-ray diffraction studies
+  on complex liquids, Annu. Rep. Prog. Chem.{,} Sect. C: Phys. Chem. 98 (2002)
+  273--322.
+
+\bibitem{Okamoto}
+Y.~Okamoto, F.~Kobayashi, T.~Ogawa, Structure and dynamic properties of molten
+  uranium trichloride, J. Alloy. Compd. 29 (1998) 355--358.
+
+\bibitem{agca2022}
+C.~Agca, J.~McMurray, Empirical estimation of densities in
+  {N}a{C}l-{K}{C}l-{U}{C}l$_3$ and {N}a{C}l-{K}c{}l-{Y}{C}$_l$3 molten salts
+  using {R}edlich-{K}ister expansion, Chem. Eng. Sci. 247 (2022) 117086.
+
+\bibitem{aiphandbook}
+J.~McKinney, R.~Lindsay, American Institute of Physics Handbook, third edition
+  Edition, McGraw-Hill Book Company, 1972.
+
+\bibitem{janz_diffusion}
+G.~J. Janz, N.~P. Bansal, {M}olten {S}alts {D}ata: {D}iffusion {C}oefficients
+  in {S}ingle and {M}ulti-{C}omponent {S}alt {S}ystems, J. Phys. Chem. Ref.
+  Data 11 (1982) 505.
+
+\end{thebibliography}
