@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.5)  1 APR 2022 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  11 APR 2022 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -312,18 +312,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4]
-<fig1.jpg, id=31, 1941.2525pt x 993.7125pt>
-File: fig1.jpg Graphic file (type jpg)
-<use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 175.
-(pdftex.def)             Requested size: 421.19714pt x 215.60002pt.
-<fig2.jpg, id=32, 853.5087pt x 426.6339pt>
-File: fig2.jpg Graphic file (type jpg)
-<use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 182.
-(pdftex.def)             Requested size: 421.19714pt x 210.53668pt.
- [5 <./fig1.jpg>]
-<fig3.jpg, id=37, 853.5087pt x 426.6339pt>
+<fig1.pdf, id=31, 853.1875pt x 427.5975pt>
+File: fig1.pdf Graphic file (type pdf)
+<use fig1.pdf>
+Package pdftex.def Info: fig1.pdf  used on input line 175.
+(pdftex.def)             Requested size: 421.19714pt x 211.09703pt.
+<fig2.pdf, id=32, 853.1875pt x 426.59375pt>
+File: fig2.pdf Graphic file (type pdf)
+<use fig2.pdf>
+Package pdftex.def Info: fig2.pdf  used on input line 182.
+(pdftex.def)             Requested size: 421.19714pt x 210.6015pt.
+ [5 <./fig1.pdf>]
+<fig3.jpg, id=67, 853.5087pt x 426.6339pt>
 File: fig3.jpg Graphic file (type jpg)
 <use fig3.jpg>
 Package pdftex.def Info: fig3.jpg  used on input line 205.
@@ -332,37 +332,37 @@ Package pdftex.def Info: fig3.jpg  used on input line 205.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./fig2.jpg>]
-<fig4.jpg, id=41, 426.393pt x 426.393pt>
-File: fig4.jpg Graphic file (type jpg)
-<use fig4.jpg>
-Package pdftex.def Info: fig4.jpg  used on input line 217.
-(pdftex.def)             Requested size: 280.80286pt x 280.80865pt.
- [7 <./fig3.jpg>] [8 <./fig4.jpg>]
-<fig5.jpg, id=51, 426.6339pt x 426.6339pt>
+[6 <./fig2.pdf>]
+<fig4.pdf, id=81, 426.59375pt x 426.59375pt>
+File: fig4.pdf Graphic file (type pdf)
+<use fig4.pdf>
+Package pdftex.def Info: fig4.pdf  used on input line 217.
+(pdftex.def)             Requested size: 280.80286pt x 280.81718pt.
+ [7 <./fig3.jpg>] [8 <./fig4.pdf>]
+<fig5.jpg, id=101, 426.6339pt x 426.6339pt>
 File: fig5.jpg Graphic file (type jpg)
 <use fig5.jpg>
 Package pdftex.def Info: fig5.jpg  used on input line 258.
 (pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
  [9 <./fig5.jpg>]
-<fig6.jpg, id=55, 853.5087pt x 426.6339pt>
-File: fig6.jpg Graphic file (type jpg)
-<use fig6.jpg>
-Package pdftex.def Info: fig6.jpg  used on input line 274.
-(pdftex.def)             Requested size: 421.19714pt x 210.53668pt.
-<fig7.jpg, id=56, 426.6339pt x 426.6339pt>
+<fig6.pdf, id=105, 853.1875pt x 426.59375pt>
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf>
+Package pdftex.def Info: fig6.pdf  used on input line 274.
+(pdftex.def)             Requested size: 421.19714pt x 210.6015pt.
+<fig7.jpg, id=106, 426.6339pt x 426.6339pt>
 File: fig7.jpg Graphic file (type jpg)
 <use fig7.jpg>
 Package pdftex.def Info: fig7.jpg  used on input line 286.
 (pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
- [10 <./fig6.jpg>]
-<fig8.jpg, id=60, 511.9125pt x 511.9125pt>
+ [10 <./fig6.pdf>]
+<fig8.jpg, id=120, 511.9125pt x 511.9125pt>
 File: fig8.jpg Graphic file (type jpg)
 <use fig8.jpg>
 Package pdftex.def Info: fig8.jpg  used on input line 304.
 (pdftex.def)             Requested size: 280.80286pt x 280.80287pt.
  [11 <./fig7.jpg>] [12 <./fig8.jpg>]
-<fig9.jpg, id=69, 426.6339pt x 426.6339pt>
+<fig9.jpg, id=129, 426.6339pt x 426.6339pt>
 File: fig9.jpg Graphic file (type jpg)
 <use fig9.jpg>
 Package pdftex.def Info: fig9.jpg  used on input line 341.
@@ -370,18 +370,18 @@ Package pdftex.def Info: fig9.jpg  used on input line 341.
  [13
 
  <./fig9.jpg>]
-<fig10.jpg, id=74, 426.6339pt x 426.6339pt>
+<fig10.jpg, id=134, 426.6339pt x 426.6339pt>
 File: fig10.jpg Graphic file (type jpg)
 <use fig10.jpg>
 Package pdftex.def Info: fig10.jpg  used on input line 363.
 (pdftex.def)             Requested size: 280.80286pt x 280.80455pt.
  [14]
-<fig11.jpg, id=78, 853.5087pt x 853.5087pt>
+<fig11.jpg, id=138, 853.5087pt x 853.5087pt>
 File: fig11.jpg Graphic file (type jpg)
 <use fig11.jpg>
 Package pdftex.def Info: fig11.jpg  used on input line 375.
 (pdftex.def)             Requested size: 421.19714pt x 421.19228pt.
-<fig12.jpg, id=79, 426.6339pt x 426.6339pt>
+<fig12.jpg, id=139, 426.6339pt x 426.6339pt>
 File: fig12.jpg Graphic file (type jpg)
 <use fig12.jpg>
 Package pdftex.def Info: fig12.jpg  used on input line 382.
@@ -389,12 +389,12 @@ Package pdftex.def Info: fig12.jpg  used on input line 382.
  [15 <./fig10.jpg>] [16 <./fig11.jpg>] [17 <./fig12.jpg>] [18
 
 ]
-<fig13.jpg, id=92, 881.9349pt x 881.9349pt>
+<fig13.jpg, id=152, 881.9349pt x 881.9349pt>
 File: fig13.jpg Graphic file (type jpg)
 <use fig13.jpg>
 Package pdftex.def Info: fig13.jpg  used on input line 425.
 (pdftex.def)             Requested size: 444.59857pt x 444.59982pt.
-<fig14.jpg, id=93, 426.393pt x 426.393pt>
+<fig14.jpg, id=153, 426.393pt x 426.393pt>
 File: fig14.jpg Graphic file (type jpg)
 <use fig14.jpg>
 Package pdftex.def Info: fig14.jpg  used on input line 433.
@@ -404,7 +404,7 @@ Package pdftex.def Info: fig14.jpg  used on input line 433.
 (./MSR-salts-K-paper-submit.aux) ) 
 Here is how much of TeX's memory you used:
  4474 strings out of 478994
- 63417 string characters out of 5858185
+ 63513 string characters out of 5858184
  543612 words of memory out of 5000000
  21876 multiletter control sequences out of 15000+600000
  412884 words of font info for 63 fonts, out of 8000000 for 9000
@@ -431,10 +431,10 @@ b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on MSR-salts-K-paper-submit.pdf (22 pages, 7213495 bytes).
+Output written on MSR-salts-K-paper-submit.pdf (22 pages, 5760426 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 234 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

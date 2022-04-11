@@ -1,0 +1,167 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-11T14:27:49.555740
+
+SetCompatLevel(1)
+AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('DL(numeric)','''
+1.657754e+00
+1.616027e+00
+1.547840e+00
+1.491080e+00
+1.414994e+00
+''')
+ImportString('DS(numeric)','''
+1.658200e+00
+1.613400e+00
+1.543100e+00
+1.495500e+00
+1.425700e+00
+''')
+ImportString('EL(numeric)','''
+-6.265381e+00
+-6.196799e+00
+-6.104004e+00
+-6.022087e+00
+-5.905315e+00
+''')
+ImportString('ES(numeric)','''
+-6.259900e+00
+-6.191300e+00
+-6.089600e+00
+-6.016900e+00
+-5.913200e+00
+''')
+ImportString('TS(numeric)','''
+9.959600e+02
+1.101810e+03
+1.250220e+03
+1.342710e+03
+1.493140e+03
+''')
+ImportString('`\ufeffTL`(numeric)','''
+9.955696e+02
+1.086793e+03
+1.233870e+03
+1.338734e+03
+1.506386e+03
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Set('width', '30cm')
+Add('grid', name='grid1', autoadd=False)
+To('grid1')
+Set('leftMargin', '0.5cm')
+Set('rightMargin', '0.5cm')
+Set('topMargin', '0.5cm')
+Set('bottomMargin', '0.5cm')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Temperature (K)')
+Set('min', 900.0)
+Set('max', 1600.0)
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Density (g/cm{^3})')
+Set('min', 1.35)
+Set('max', 1.7)
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', 'TS')
+Set('yData', 'DS')
+Set('key', 'Small')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', '\ufeffTL')
+Set('yData', 'DL')
+Set('key', 'Large')
+Set('PlotLine/hide', True)
+To('..')
+Add('fit', name='fit1', autoadd=False)
+To('fit1')
+Set('values', {'a': 2.144159240586014, 'b': -0.0004816828507122423})
+Set('xData', 'TS')
+Set('yData', 'DS')
+Set('min', 1000.0)
+Set('max', 1500.0)
+Set('Line/color', 'theme1')
+Set('Line/width', '1pt')
+To('..')
+Add('fit', name='fit2', autoadd=False)
+To('fit2')
+Set('values', {'a': 2.155241932553899, 'b': -0.0004948337579122132})
+Set('xData', '\ufeffTL')
+Set('yData', 'DL')
+Set('min', 1000.0)
+Set('max', 1500.0)
+Set('Line/color', 'theme2')
+Set('Line/width', '1pt')
+To('..')
+Add('key', name='key1', autoadd=False)
+To('key1')
+Set('horzPosn', 'left')
+To('..')
+To('..')
+Add('graph', name='graph2', autoadd=False)
+To('graph2')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Temperature (K)')
+Set('min', 900.0)
+Set('max', 1600.0)
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Energy (eV/Formula Unit)')
+Set('min', 'Auto')
+Set('max', -5.8)
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', 'TS')
+Set('yData', 'ES')
+Set('key', 'Small')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', 'TS')
+Set('yData', 'EL')
+Set('key', 'Large')
+Set('PlotLine/hide', True)
+To('..')
+Add('fit', name='fit1', autoadd=False)
+To('fit1')
+Set('values', {'a': -6.97962278365766, 'b': 0.0007146447363160078})
+Set('xData', 'TS')
+Set('yData', 'ES')
+Set('min', 1000.0)
+Set('max', 1500.0)
+Set('Line/color', 'theme1')
+Set('Line/width', '1pt')
+To('..')
+Add('fit', name='fit2', autoadd=False)
+To('fit2')
+Set('values', {'a': -6.948588581703509, 'b': 0.0006894238982847176})
+Set('xData', '\ufeffTL')
+Set('yData', 'EL')
+Set('min', 1000.0)
+Set('max', 1500.0)
+Set('Line/color', 'theme2')
+Set('Line/width', '1pt')
+To('..')
+Add('key', name='key1', autoadd=False)
+To('..')
+To('..')
+To('..')

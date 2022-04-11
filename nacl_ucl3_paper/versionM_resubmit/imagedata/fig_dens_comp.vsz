@@ -1,0 +1,473 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-11T17:10:23.024177
+
+SetCompatLevel(0)
+AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('`1100 DF`(numeric)','''
+1.540339e+00
+2.051183e+00
+2.448267e+00
+2.828847e+00
+2.885473e+00
+3.088326e+00
+3.340444e+00
+3.548612e+00
+3.760519e+00
+3.853362e+00
+4.022106e+00
+4.100397e+00
+''')
+ImportString('1100P(numeric)','''
+1.539690e+00
+1.572280e+00
+1.603805e+00
+1.684820e+00
+1.727580e+00
+2.308760e+00
+2.872540e+00
+3.085330e+00
+3.295180e+00
+4.641548e+00
+''')
+ImportString('1100d(numeric)','''
+1.613404e+00
+2.279327e+00
+2.790615e+00
+2.920024e+00
+3.172782e+00
+3.591286e+00
+4.155176e+00
+4.338366e+00
+4.601283e+00
+''')
+ImportString('`1250 DF`(numeric)','''
+1.489876e+00
+1.994736e+00
+2.354214e+00
+2.716194e+00
+2.810281e+00
+3.011257e+00
+3.246863e+00
+3.475001e+00
+3.657678e+00
+3.762463e+00
+3.932148e+00
+4.055300e+00
+''')
+ImportString('1250P(numeric)','''
+1.456875e+00
+1.488850e+00
+1.485425e+00
+1.595150e+00
+1.640250e+00
+2.190950e+00
+2.739850e+00
+2.930125e+00
+3.125650e+00
+4.413627e+00
+''')
+ImportString('1250d(numeric)','''
+1.543061e+00
+2.172355e+00
+2.687666e+00
+2.798888e+00
+3.045384e+00
+3.458909e+00
+4.002364e+00
+4.179260e+00
+4.416204e+00
+''')
+ImportString('`1400 DF`(numeric)','''
+1.432249e+00
+1.915699e+00
+2.295492e+00
+2.630947e+00
+2.704138e+00
+2.891020e+00
+3.142862e+00
+3.352824e+00
+3.552206e+00
+3.689598e+00
+3.882077e+00
+3.934063e+00
+''')
+ImportString('1400P(numeric)','''
+1.374060e+00
+1.405420e+00
+1.396640e+00
+1.505480e+00
+1.552920e+00
+2.073140e+00
+2.607160e+00
+2.774920e+00
+2.956120e+00
+4.185706e+00
+''')
+ImportString('1500d(numeric)','''
+1.425730e+00
+2.021062e+00
+2.460145e+00
+2.572872e+00
+2.796372e+00
+3.204578e+00
+3.730672e+00
+3.922379e+00
+4.080173e+00
+''')
+ImportString('`900 DF`(numeric)','''
+2.554900e+00
+2.931719e+00
+2.997947e+00
+3.182278e+00
+3.465363e+00
+''')
+ImportString('900P(numeric)','''
+1.650110e+00
+1.683520e+00
+1.692590e+00
+1.804380e+00
+1.844020e+00
+2.465840e+00
+3.049460e+00
+3.292270e+00
+3.521220e+00
+4.945442e+00
+''')
+ImportString('RK1100(numeric)','''
+1.542100e+00
+2.053547e+00
+2.468158e+00
+2.822555e+00
+3.136614e+00
+3.423309e+00
+3.691853e+00
+3.949101e+00
+4.200312e+00
+4.449608e+00
+4.700280e+00
+''')
+ImportString('RK1250(numeric)','''
+1.460650e+00
+1.962350e+00
+2.360084e+00
+2.696522e+00
+2.993139e+00
+3.263347e+00
+3.516434e+00
+3.759205e+00
+3.996833e+00
+4.233348e+00
+4.471950e+00
+''')
+ImportString('RK1400(numeric)','''
+1.379200e+00
+1.871140e+00
+2.251987e+00
+2.570459e+00
+2.849630e+00
+3.103351e+00
+3.340983e+00
+3.569284e+00
+3.793336e+00
+4.017077e+00
+4.243620e+00
+''')
+ImportString('RK1500(numeric)','''
+1.324900e+00
+1.810325e+00
+2.179907e+00
+2.486397e+00
+2.753935e+00
+2.996665e+00
+3.223996e+00
+3.442652e+00
+3.657659e+00
+3.872890e+00
+4.091400e+00
+''')
+ImportString('RK900(numeric)','''
+1.650700e+00
+2.175127e+00
+2.612225e+00
+2.990557e+00
+3.327868e+00
+3.636547e+00
+3.925705e+00
+4.202262e+00
+4.471592e+00
+4.737943e+00
+5.004720e+00
+''')
+ImportString('`x 900`(numeric)','''
+2.000000e-01
+3.000000e-01
+3.300000e-01
+4.000000e-01
+5.000000e-01
+''')
+ImportString('`x DF`(numeric)','''
+0.000000e+00
+1.000000e-01
+2.000000e-01
+3.000000e-01
+3.300000e-01
+4.000000e-01
+5.000000e-01
+6.000000e-01
+7.000000e-01
+8.000000e-01
+9.000000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffx dD`(numeric)','''
+0.000000e+00
+1.250000e-01
+2.500000e-01
+2.857143e-01
+3.571429e-01
+5.000000e-01
+7.500000e-01
+8.500000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffxP`(numeric)','''
+0.000000e+00
+5.600000e-03
+1.130000e-02
+2.460000e-02
+3.250000e-02
+1.450000e-01
+2.840000e-01
+3.400000e-01
+4.040000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffxU`(numeric)','''
+0.000000e+00
+1.000000e-01
+2.000000e-01
+3.000000e-01
+4.000000e-01
+5.000000e-01
+6.000000e-01
+7.000000e-01
+8.000000e-01
+9.000000e-01
+1.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Set('width', '30cm')
+Add('grid', name='grid1', autoadd=False)
+To('grid1')
+Set('rows', 1)
+Set('leftMargin', '0.5cm')
+Set('rightMargin', '0.5cm')
+Set('topMargin', '0.5cm')
+Set('bottomMargin', '0.5cm')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Set('leftMargin', '2cm')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Fraction UCl_3')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Density (g/cm{^3})')
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffx dD')
+Set('yData', '1100d')
+Set('key', '1100 K')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', '\ufeffx dD')
+Set('yData', '1250d')
+Set('key', '1250 K')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'square')
+Set('xData', '\ufeffx dD')
+Set('yData', '1500d')
+Set('key', '1500 K')
+Set('PlotLine/hide', True)
+To('..')
+Add('key', name='key1', autoadd=False)
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK1100')
+Set('PlotLine/color', 'theme1')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK1250')
+Set('PlotLine/color', 'theme2')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('xy', name='xy6', autoadd=False)
+To('xy6')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK1500')
+Set('hide', False)
+Set('PlotLine/color', 'theme3')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/hide', False)
+To('..')
+Add('xy', name='xy7', autoadd=False)
+To('xy7')
+Set('marker', 'none')
+Set('xData', '\ufeffxP')
+Set('yData', '1100P')
+Set('PlotLine/color', 'theme1')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+Add('xy', name='xy8', autoadd=False)
+To('xy8')
+Set('marker', 'none')
+Set('xData', '\ufeffxP')
+Set('yData', '1250P')
+Set('PlotLine/color', 'theme2')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+To('..')
+Add('graph', name='graph2', autoadd=False)
+To('graph2')
+Set('leftMargin', '2cm')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Fraction UCl_3')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Density (g/cm{^3})')
+Set('min', 1.0)
+Set('max', 5.0)
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('marker', 'cross')
+Set('color', 'theme4')
+Set('xData', 'x 900')
+Set('yData', '900 DF')
+Set('key', '900 K')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('marker', 'circle')
+Set('color', 'theme1')
+Set('xData', 'x DF')
+Set('yData', '1100 DF')
+Set('key', '1100 K')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('color', 'theme2')
+Set('xData', 'x DF')
+Set('yData', '1250 DF')
+Set('key', '1250 K')
+Set('PlotLine/hide', True)
+Set('MarkerFill/color', 'theme2')
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'star')
+Set('color', 'theme5')
+Set('xData', 'x DF')
+Set('yData', '1400 DF')
+Set('key', '1400 K')
+Set('PlotLine/hide', True)
+To('..')
+Add('key', name='key1', autoadd=False)
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK900')
+Set('PlotLine/color', 'theme4')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('xy', name='xy6', autoadd=False)
+To('xy6')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK1100')
+Set('PlotLine/color', 'theme1')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('xy', name='xy7', autoadd=False)
+To('xy7')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK1250')
+Set('PlotLine/color', 'theme2')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('xy', name='xy8', autoadd=False)
+To('xy8')
+Set('marker', 'none')
+Set('xData', '\ufeffxU')
+Set('yData', 'RK1400')
+Set('PlotLine/color', 'theme5')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('xy', name='xy9', autoadd=False)
+To('xy9')
+Set('marker', 'none')
+Set('xData', '\ufeffxP')
+Set('yData', '900P')
+Set('PlotLine/color', 'theme4')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+Add('xy', name='xy10', autoadd=False)
+To('xy10')
+Set('marker', 'none')
+Set('xData', '\ufeffxP')
+Set('yData', '1100P')
+Set('PlotLine/color', 'theme1')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+Add('xy', name='xy11', autoadd=False)
+To('xy11')
+Set('marker', 'none')
+Set('xData', '\ufeffxP')
+Set('yData', '1250P')
+Set('PlotLine/color', 'theme2')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+Add('xy', name='xy12', autoadd=False)
+To('xy12')
+Set('marker', 'none')
+Set('xData', '\ufeffxP')
+Set('yData', '1400P')
+Set('PlotLine/color', 'theme5')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
+To('..')
+To('..')
+To('..')
+To('..')

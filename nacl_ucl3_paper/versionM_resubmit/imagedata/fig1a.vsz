@@ -1,8 +1,9 @@
-# Veusz saved document (version 3.3.1)
-# Saved at 2021-10-13T19:22:34.634897
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-11T14:11:13.183633
 
-AddImportPath(u'/Users/beelbw/projects/papers/nacl_ucl3_paper/versionJ/imagedata')
-ImportString(u'`Cl-Cl (Large)`(numeric)','''
+SetCompatLevel(1)
+AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('`Cl-Cl (Large)`(numeric)','''
 0.000000e+00
 0.000000e+00
 0.000000e+00
@@ -104,7 +105,7 @@ ImportString(u'`Cl-Cl (Large)`(numeric)','''
 9.975703e-01
 9.944650e-01
 ''')
-ImportString(u'`Cl-Cl (Small)`(numeric)','''
+ImportString('`Cl-Cl (Small)`(numeric)','''
 0.000000e+00
 0.000000e+00
 0.000000e+00
@@ -306,7 +307,7 @@ ImportString(u'`Cl-Cl (Small)`(numeric)','''
 1.005452e+00
 1.007768e+00
 ''')
-ImportString(u'RL(numeric)','''
+ImportString('RL(numeric)','''
 6.000000e-02
 1.800000e-01
 3.000000e-01
@@ -408,7 +409,7 @@ ImportString(u'RL(numeric)','''
 1.182000e+01
 1.194000e+01
 ''')
-ImportString(u'`U-Cl (Large)`(numeric)','''
+ImportString('`U-Cl (Large)`(numeric)','''
 0.000000e+00
 0.000000e+00
 0.000000e+00
@@ -510,7 +511,7 @@ ImportString(u'`U-Cl (Large)`(numeric)','''
 9.955656e-01
 1.005899e+00
 ''')
-ImportString(u'`U-Cl (Small)`(numeric)','''
+ImportString('`U-Cl (Small)`(numeric)','''
 0.000000e+00
 0.000000e+00
 0.000000e+00
@@ -712,7 +713,7 @@ ImportString(u'`U-Cl (Small)`(numeric)','''
 1.006629e+00
 1.002883e+00
 ''')
-ImportString(u'`U-U (Large)`(numeric)','''
+ImportString('`U-U (Large)`(numeric)','''
 0.000000e+00
 0.000000e+00
 0.000000e+00
@@ -814,7 +815,7 @@ ImportString(u'`U-U (Large)`(numeric)','''
 1.031590e+00
 1.011083e+00
 ''')
-ImportString(u'`U-U (Small)`(numeric)','''
+ImportString('`U-U (Small)`(numeric)','''
 0.000000e+00
 0.000000e+00
 0.000000e+00
@@ -1016,7 +1017,7 @@ ImportString(u'`U-U (Small)`(numeric)','''
 9.513479e-01
 9.505345e-01
 ''')
-ImportString(u'`\ufeffRS`(numeric)','''
+ImportString('`\ufeffRS`(numeric)','''
 3.500000e-02
 1.050000e-01
 1.750000e-01
@@ -1218,92 +1219,92 @@ ImportString(u'`\ufeffRS`(numeric)','''
 1.389500e+01
 1.396500e+01
 ''')
-Set('colorTheme', u'default-latest')
-Set('StyleSheet/axis-function/autoRange', u'next-tick')
-Add('page', name=u'page1', autoadd=False)
-To(u'page1')
-Add('graph', name=u'graph1', autoadd=False)
-To(u'graph1')
-Add('axis', name=u'x', autoadd=False)
-To(u'x')
-Set('label', u'Radius (\\AA)')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Radius (\\AA)')
 Set('min', 1.5)
-Set('max', 14.0)
+Set('max', 7.0)
 To('..')
-Add('axis', name=u'y', autoadd=False)
-To(u'y')
-Set('label', u'Radial Distribution Function')
-Set('direction', u'vertical')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Radial Distribution Function')
+Set('direction', 'vertical')
 To('..')
-Add('xy', name=u'xy1', autoadd=False)
-To(u'xy1')
-Set('xData', u'\ufeffRS')
-Set('yData', u'U-U (Small)')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffRS')
+Set('yData', 'U-U (Small)')
 Set('hide', False)
-Set('key', u'U-U Small')
-Set('PlotLine/color', u'red')
-Set('PlotLine/width', u'2pt')
+Set('key', 'U-U Small')
+Set('PlotLine/color', 'red')
+Set('PlotLine/width', '2pt')
 Set('MarkerLine/hide', True)
 Set('MarkerFill/hide', True)
 To('..')
-Add('xy', name=u'xy2', autoadd=False)
-To(u'xy2')
-Set('xData', u'\ufeffRS')
-Set('yData', u'U-Cl (Small)')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('xData', '\ufeffRS')
+Set('yData', 'U-Cl (Small)')
 Set('hide', False)
-Set('key', u'U-Cl Small')
-Set('PlotLine/color', u'green')
-Set('PlotLine/width', u'2pt')
+Set('key', 'U-Cl Small')
+Set('PlotLine/color', 'green')
+Set('PlotLine/width', '2pt')
 Set('MarkerLine/hide', True)
 Set('MarkerFill/hide', True)
 To('..')
-Add('xy', name=u'xy3', autoadd=False)
-To(u'xy3')
-Set('xData', u'\ufeffRS')
-Set('yData', u'Cl-Cl (Small)')
-Set('key', u'Cl-Cl Small')
-Set('PlotLine/color', u'blue')
-Set('PlotLine/width', u'2pt')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('xData', '\ufeffRS')
+Set('yData', 'Cl-Cl (Small)')
+Set('key', 'Cl-Cl Small')
+Set('PlotLine/color', 'blue')
+Set('PlotLine/width', '2pt')
 Set('MarkerLine/hide', True)
 Set('MarkerFill/hide', True)
 To('..')
-Add('xy', name=u'xy4', autoadd=False)
-To(u'xy4')
-Set('xData', u'RL')
-Set('yData', u'U-U (Large)')
-Set('key', u'U-U Large')
-Set('PlotLine/color', u'red')
-Set('PlotLine/width', u'2pt')
-Set('PlotLine/style', u'dotted')
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('xData', 'RL')
+Set('yData', 'U-U (Large)')
+Set('key', 'U-U Large')
+Set('PlotLine/color', 'red')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
 Set('MarkerLine/hide', True)
 Set('MarkerFill/hide', True)
 To('..')
-Add('xy', name=u'xy5', autoadd=False)
-To(u'xy5')
-Set('xData', u'RL')
-Set('yData', u'U-Cl (Large)')
-Set('key', u'U-Cl Large')
-Set('PlotLine/color', u'green')
-Set('PlotLine/width', u'2pt')
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('xData', 'RL')
+Set('yData', 'U-Cl (Large)')
+Set('key', 'U-Cl Large')
+Set('PlotLine/color', 'green')
+Set('PlotLine/width', '2pt')
 Set('MarkerLine/hide', True)
 Set('MarkerFill/hide', True)
 To('..')
-Add('xy', name=u'xy6', autoadd=False)
-To(u'xy6')
-Set('xData', u'RL')
-Set('yData', u'Cl-Cl (Large)')
-Set('key', u'Cl-Cl Large')
-Set('PlotLine/color', u'blue')
-Set('PlotLine/width', u'2pt')
-Set('PlotLine/style', u'dotted')
+Add('xy', name='xy6', autoadd=False)
+To('xy6')
+Set('xData', 'RL')
+Set('yData', 'Cl-Cl (Large)')
+Set('key', 'Cl-Cl Large')
+Set('PlotLine/color', 'blue')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dotted')
 Set('MarkerLine/hide', True)
 Set('MarkerFill/hide', True)
 To('..')
-Add('key', name=u'key1', autoadd=False)
-To(u'key1')
-Set('horzPosn', u'right')
-Set('vertPosn', u'top')
-Set('keyAlign', u'centre')
+Add('key', name='key1', autoadd=False)
+To('key1')
+Set('horzPosn', 'right')
+Set('vertPosn', 'top')
+Set('keyAlign', 'centre')
 Set('horzManual', 0.5)
 Set('vertManual', 0.6)
 To('..')

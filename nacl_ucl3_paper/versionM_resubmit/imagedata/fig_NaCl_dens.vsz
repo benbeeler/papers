@@ -1,0 +1,186 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-11T16:45:08.780102
+
+SetCompatLevel(0)
+AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('`D D3`(numeric)','''
+1.671933e+00
+1.605893e+00
+1.520360e+00
+1.488992e+00
+''')
+ImportString('`D E`(numeric)','''
+1.542000e+00
+1.461000e+00
+1.406000e+00
+1.325000e+00
+''')
+ImportString('`D PBE`(numeric)','''
+1.272691e+00
+1.155978e+00
+''')
+ImportString('`D dD`(numeric)','''
+1.613400e+00
+1.543000e+00
+1.495500e+00
+1.425700e+00
+''')
+ImportString('`D vdW`(numeric)','''
+1.540339e+00
+1.489876e+00
+1.432249e+00
+''')
+ImportString('`T D3`(numeric)','''
+1.081416e+03
+1.241179e+03
+1.369100e+03
+1.472223e+03
+''')
+ImportString('`T E`(numeric)','''
+1.100000e+03
+1.250000e+03
+1.350000e+03
+1.500000e+03
+''')
+ImportString('`T PBE`(numeric)','''
+1.250000e+03
+1.500000e+03
+''')
+ImportString('`T vdW`(numeric)','''
+1.100000e+03
+1.250000e+03
+1.400000e+03
+''')
+ImportString('`\ufeffT dD`(numeric)','''
+1.101810e+03
+1.250220e+03
+1.342710e+03
+1.493140e+03
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Temperature (K)')
+Set('min', 1000.0)
+Set('max', 1600.0)
+Set('GridLines/hide', False)
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Density (g/cm{^3})')
+Set('min', 'Auto')
+Set('max', 1.8)
+Set('direction', 'vertical')
+Set('GridLines/hide', False)
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffT dD')
+Set('yData', 'D dD')
+Set('key', 'dDsC')
+Set('Color/points', [])
+Set('PlotLine/color', 'red')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', 'T vdW')
+Set('yData', 'D vdW')
+Set('key', 'vdW-DF2')
+Set('PlotLine/color', 'theme2')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'square')
+Set('xData', 'T PBE')
+Set('yData', 'D PBE')
+Set('key', 'PBE')
+Set('PlotLine/width', '1pt')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('marker', 'cross')
+Set('xData', 'T D3')
+Set('yData', 'D D3')
+Set('key', 'D3')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', False)
+Set('MarkerFill/hide', False)
+To('..')
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('marker', 'plus')
+Set('xData', 'T E')
+Set('yData', 'D E')
+Set('key', 'EXPT')
+Set('PlotLine/width', '2pt')
+Set('MarkerLine/hide', True)
+Set('MarkerFill/hide', True)
+To('..')
+Add('fit', name='fit1', autoadd=False)
+To('fit1')
+Set('values', {'a': 2.1434874942094115, 'b': -0.000481190819447185})
+Set('xData', '\ufeffT dD')
+Set('yData', 'D dD')
+Set('fitRange', True)
+Set('min', 1050.0)
+Set('max', 1550.0)
+Set('Line/color', 'theme1')
+Set('Line/width', '1pt')
+To('..')
+Add('fit', name='fit2', autoadd=False)
+To('fit2')
+Set('values', {'a': 1.9385816109643041, 'b': -0.00036087710823868864})
+Set('xData', 'T vdW')
+Set('yData', 'D vdW')
+Set('fitRange', True)
+Set('min', 1050.0)
+Set('max', 1550.0)
+Set('Line/color', 'theme2')
+Set('Line/width', '1pt')
+To('..')
+Add('fit', name='fit3', autoadd=False)
+To('fit3')
+Set('values', {'a': 1.85686, 'b': -0.000466416})
+Set('xData', 'T PBE')
+Set('yData', 'D PBE')
+Set('fitRange', True)
+Set('variable', 'x')
+Set('steps', 10)
+Set('hide', False)
+Set('min', 1050.0)
+Set('max', 1550.0)
+Set('Line/color', 'theme3')
+Set('Line/width', '1pt')
+To('..')
+Add('fit', name='fit4', autoadd=False)
+To('fit4')
+Set('values', {'a': 2.2132363417720584, 'b': -0.0004964607824097857})
+Set('xData', 'T D3')
+Set('yData', 'D D3')
+Set('fitRange', True)
+Set('min', 1050.0)
+Set('max', 1550.0)
+Set('Line/color', 'theme4')
+Set('Line/width', '1pt')
+To('..')
+Add('key', name='key1', autoadd=False)
+To('key1')
+Set('vertPosn', 'top')
+To('..')
+To('..')
+To('..')
