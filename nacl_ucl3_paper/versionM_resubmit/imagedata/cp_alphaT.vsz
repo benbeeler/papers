@@ -1,0 +1,143 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-12T15:33:56.573200
+
+SetCompatLevel(1)
+AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('Li(numeric)','''
+7.157400e+01
+7.351776e+01
+7.666774e+01
+8.059015e+01
+8.493518e+01
+8.943698e+01
+9.391372e+01
+9.826749e+01
+1.024844e+02
+1.066346e+02
+1.108720e+02
+1.154348e+02
+''')
+ImportString('`T coefficient density`(numeric)','''
+-4.799000e-04
+-6.358000e-04
+-8.292000e-04
+-8.352000e-04
+-9.654000e-04
+-1.036700e-03
+-1.038600e-03
+-1.006000e-03
+-1.300000e-03
+''')
+ImportString('`heat capacity`(numeric)','''
+6.871419e+01
+7.628209e+01
+8.500579e+01
+8.793762e+01
+9.589749e+01
+1.092191e+02
+1.262966e+02
+1.277439e+02
+1.402023e+02
+''')
+ImportString('xLi(numeric)','''
+0.000000e+00
+5.000000e-02
+1.000000e-01
+1.500000e-01
+2.000000e-01
+2.500000e-01
+3.000000e-01
+3.500000e-01
+4.000000e-01
+4.500000e-01
+5.000000e-01
+5.500000e-01
+''')
+ImportString('`\ufeffcomposition`(numeric)','''
+0.000000e+00
+1.250000e-01
+2.500000e-01
+2.857143e-01
+3.571429e-01
+5.000000e-01
+7.500000e-01
+8.500000e-01
+1.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Set('width', '18cm')
+Set('height', '18cm')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Set('leftMargin', '2.5cm')
+Set('rightMargin', '2.5cm')
+Set('topMargin', '2.5cm')
+Set('bottomMargin', '2.5cm')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Fraction UCl_3')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Temperature coefficient')
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffcomposition')
+Set('yData', 'T coefficient density')
+Set('key', 'T Coefficient')
+Set('PlotLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', '\ufeffcomposition')
+Set('yData', 'heat capacity')
+Set('key', 'Heat Capacity')
+Set('yAxis', 'axis1')
+Set('PlotLine/hide', True)
+To('..')
+Add('axis', name='axis1', autoadd=False)
+To('axis1')
+Set('label', 'Heat Capacity')
+Set('min', 60.0)
+Set('max', 150.0)
+Set('direction', 'vertical')
+Set('otherPosition', 1.0)
+To('..')
+Add('fit', name='fit1', autoadd=False)
+To('fit1')
+Set('function', 'a + b*x+c*x**2+d*x**3')
+Set('values', {'a': -0.0004398686818467722, 'b': -0.0024942582342695548, 'c': 0.004071941336542023, 'd': -0.002397937448378036})
+Set('xData', '\ufeffcomposition')
+Set('yData', 'T coefficient density')
+Set('fitRange', True)
+Set('Line/color', 'theme1')
+Set('Line/width', '2pt')
+To('..')
+Add('fit', name='fit2', autoadd=False)
+To('fit2')
+Set('values', {'a': 68.08528427764085, 'b': 73.81243881869013})
+Set('xData', '\ufeffcomposition')
+Set('yData', 'heat capacity')
+Set('yAxis', 'axis1')
+Set('Line/color', 'theme2')
+Set('Line/width', '2pt')
+To('..')
+Add('key', name='key1', autoadd=False)
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'square')
+Set('color', 'theme3')
+Set('xData', 'xLi')
+Set('yData', 'Li')
+Set('key', 'Li EXPT')
+Set('yAxis', 'axis1')
+Set('PlotLine/hide', True)
+To('..')
+To('..')
+To('..')

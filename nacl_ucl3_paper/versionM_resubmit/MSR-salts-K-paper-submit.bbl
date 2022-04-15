@@ -6,7 +6,7 @@
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
 \bibitem{Rosenthal}
-M.~W. Rosenthal, P.~R. Kasten, R.~B. Briggs, Molten-salt reactors—history,
+M.~W. Rosenthal, P.~R. Kasten, R.~B. Briggs, Molten-salt reactors---history,
   status, and potential, Nucl. Appl. Tech. 8~(2) (1970) 107--117.
 
 \bibitem{MSRE1}
@@ -30,7 +30,7 @@ V.~N. Desyatnik, S.~F. Katyshev, S.~P. Raspopin, Y.~F. Chervinskii, Density,
 
 \bibitem{Parker}
 S.~S. Parker, A.~Long, C.~Lhermitte, S.~Vogel, M.~Monreal, J.~Jackson,
-  {T}hermophysical properties of liquid chlorides from 600 to 1600 k: {M}elt
+  {T}hermophysical properties of liquid chlorides from 600 to 1600 k: {M}elt
   point, enthalpy of fusion, and volumetric expansion, Journal of Molecular
   Liquids 346 (2022) 118147.
 
@@ -78,7 +78,7 @@ M.-T. Nguyen, V.-A. Glezakou, J.~Lonergan, B.~McNamara, P.~D. Paviet,
   mixtures, J. Mol. Liq. 326 (2021) 115262.
 
 \bibitem{LI2021100359}
-Q.-J. Li, E.~Küçükbenli, S.~Lam, B.~Khaykovich, E.~Kaxiras, J.~Li,
+Q.-J. Li, E.~K{\"u}{\c c}{\"u}kbenli, S.~Lam, B.~Khaykovich, E.~Kaxiras, J.~Li,
   Development of robust neural-network interatomic potential for molten salt,
   Cell Reports Physical Science 2~(3) (2021) 100359.
 
@@ -109,26 +109,6 @@ L.~Mart{\'\i}nez, R.~Andrade, E.~G. Birgin, J.~M. Mart{\'\i}nez, {PACKMOL}: {A}
 \bibitem{rohrbach2003}
 A.~Rohrbach, J.~Hafner, G.~Kresse, Electronic correlation effects in
   transition-metal sulfides, J. Condens. Matter Phys. 15~(6) (2003) 979--996.
-
-\bibitem{dudarev1998}
-S.~L. Dudarev, G.~A. Botton, S.~Y. Savrasov, C.~J. Humphreys, A.~P. Sutton,
-  Electron-energy-loss spectra and the structural stability of nickel oxide: An
-  {LSDA}+{U} study, Phys. Rev. B 57 (1998) 1505--1509.
-
-\bibitem{PhysRevB.71.035105}
-M.~Cococcioni, S.~de~Gironcoli, Linear response approach to the calculation of
-  the effective interaction parameters in the $\mathrm{LDA}+\mathrm{U}$ method,
-  Phys. Rev. B 71 (2005) 035105.
-
-\bibitem{PhysRevB.52.R5467}
-A.~I. Liechtenstein, V.~I. Anisimov, J.~Zaanen, Density-functional theory and
-  strong interactions: {O}rbital ordering in {M}ott-{H}ubbard insulators, Phys.
-  Rev. B 52 (1995) R5467--R5470.
-
-\bibitem{dudarev}
-S.~L. Dudarev, D.~N. Manh, A.~P. Sutton, Effect of {M}ott-{H}ubbard
-  correlations on the electronic structure and structural stability of uranium
-  dioxide, Philos. Mag. B 75~(5) (1997) 613--628.
 
 \bibitem{Nam2014}
 H.~O. Nam, A.~Bengtson, K.~V\"{o}rtler, S.~Saha, R.~Sakidja, D.~Morgan,
@@ -167,6 +147,26 @@ P.~Schwerdtfeger, J.~K. Nagle, Table of static dipole polarizabilities of the
   neutral elements in the periodic table, Molecular Physics 117~(9-12) (2019)
   1200--1225.
 
+\bibitem{dudarev1998}
+S.~L. Dudarev, G.~A. Botton, S.~Y. Savrasov, C.~J. Humphreys, A.~P. Sutton,
+  Electron-energy-loss spectra and the structural stability of nickel oxide: An
+  {LSDA}+{U} study, Phys. Rev. B 57 (1998) 1505--1509.
+
+\bibitem{PhysRevB.71.035105}
+M.~Cococcioni, S.~de~Gironcoli, Linear response approach to the calculation of
+  the effective interaction parameters in the $\mathrm{LDA}+\mathrm{U}$ method,
+  Phys. Rev. B 71 (2005) 035105.
+
+\bibitem{PhysRevB.52.R5467}
+A.~I. Liechtenstein, V.~I. Anisimov, J.~Zaanen, Density-functional theory and
+  strong interactions: {O}rbital ordering in {M}ott-{H}ubbard insulators, Phys.
+  Rev. B 52 (1995) R5467--R5470.
+
+\bibitem{dudarev}
+S.~L. Dudarev, D.~N. Manh, A.~P. Sutton, Effect of {M}ott-{H}ubbard
+  correlations on the electronic structure and structural stability of uranium
+  dioxide, Philos. Mag. B 75~(5) (1997) 613--628.
+
 \bibitem{pbe}
 J.~P. Perdew, K.~Burke, M.~Ernzerhof, {G}eneralized {G}radient {A}pproximation
   {M}ade {S}imple, Phys. Rev. Lett. 77 (1996) 3865--3868.
@@ -201,5 +201,10 @@ J.~McKinney, R.~Lindsay, American Institute of Physics Handbook, third edition
 G.~J. Janz, N.~P. Bansal, {M}olten {S}alts {D}ata: {D}iffusion {C}oefficients
   in {S}ingle and {M}ulti-{C}omponent {S}alt {S}ystems, J. Phys. Chem. Ref.
   Data 11 (1982) 505.
+
+\bibitem{nguyen_ML}
+M.-T. Nguyen, R.~Roussea, P.~Paviet, V.-A. Glezakou, Actinide molten salts: A
+  machine-learning potential molecular dynamics study, Appl. Mater. and Inter.
+  13 (2021) 53398.
 
 \end{thebibliography}

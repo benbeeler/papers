@@ -1,0 +1,187 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-12T17:19:39.228336
+
+SetCompatLevel(0)
+AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('`C H`(numeric)','''
+0.000000e+00
+-3.047141e-02
+-5.241323e-02
+-6.635888e-02
+-7.291371e-02
+-7.275501e-02
+-6.663202e-02
+-5.536593e-02
+-3.984986e-02
+-2.104888e-02
+0.000000e+00
+''')
+ImportString('CALPHAD(numeric)','''
+0.000000e+00
+1.000000e-01
+2.000000e-01
+3.000000e-01
+4.000000e-01
+5.000000e-01
+6.000000e-01
+7.000000e-01
+8.000000e-01
+9.000000e-01
+1.000000e+00
+''')
+ImportString('`E H`(numeric)','''
+-1.646498e-03
+-1.703692e-02
+-2.847574e-02
+-3.138744e-02
+-3.887467e-02
+-4.074648e-02
+-4.760978e-02
+-5.322520e-02
+-5.967254e-02
+-6.196030e-02
+-6.840764e-02
+-7.714274e-02
+-7.527093e-02
+-7.339913e-02
+-7.651881e-02
+-7.256721e-02
+-7.360711e-02
+-6.819966e-02
+-6.778370e-02
+-4.719382e-02
+-4.012255e-02
+-1.766085e-02
+-1.703692e-02
+-8.717771e-03
+''')
+ImportString('Exp(numeric)','''
+8.038585e-03
+5.144695e-02
+9.646302e-02
+9.967846e-02
+1.254019e-01
+1.511254e-01
+1.736334e-01
+2.025723e-01
+2.475884e-01
+2.958199e-01
+3.231511e-01
+3.745981e-01
+3.906752e-01
+4.131833e-01
+5.000000e-01
+5.546624e-01
+6.270096e-01
+6.527331e-01
+7.215434e-01
+7.491961e-01
+8.038585e-01
+8.649518e-01
+9.019293e-01
+9.501608e-01
+''')
+ImportString('`T=1100 K`(numeric)','''
+0.000000e+00
+-3.665157e-02
+-5.829385e-02
+-6.107539e-02
+-7.466401e-02
+-7.299116e-02
+-5.143946e-02
+-3.071299e-02
+0.000000e+00
+''')
+ImportString('`T=1250 K`(numeric)','''
+0.000000e+00
+-3.732329e-02
+-5.954531e-02
+-6.395090e-02
+-7.223916e-02
+-6.958656e-02
+-5.328378e-02
+-2.834271e-02
+0.000000e+00
+''')
+ImportString('`T=1500 K`(numeric)','''
+0.000000e+00
+-3.697530e-02
+-6.438967e-02
+-6.173838e-02
+-7.366941e-02
+-7.324156e-02
+-4.998239e-02
+-2.696362e-02
+0.000000e+00
+''')
+ImportString('`\ufeffx D`(numeric)','''
+0.000000e+00
+1.250000e-01
+2.500000e-01
+2.857143e-01
+3.571429e-01
+5.000000e-01
+7.500000e-01
+8.500000e-01
+1.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Set('leftMargin', '2.0cm')
+Set('bottomMargin', '2.0cm')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Fraction UCl_3')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Mixing Energy (eV/formula unit)')
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffx D')
+Set('yData', 'T=1100 K')
+Set('key', '1100 K')
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', '\ufeffx D')
+Set('yData', 'T=1250 K')
+Set('key', '1250 K')
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'square')
+Set('xData', '\ufeffx D')
+Set('yData', 'T=1500 K')
+Set('key', '1500 K')
+To('..')
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('xData', 'Exp')
+Set('yData', 'E H')
+Set('key', 'Expt. ')
+Set('PlotLine/width', '2pt')
+Set('PlotLine/style', 'dashed')
+To('..')
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('marker', 'none')
+Set('xData', 'CALPHAD')
+Set('yData', 'C H')
+Set('key', 'CALPHAD')
+Set('PlotLine/width', '2pt')
+To('..')
+Add('key', name='key1', autoadd=False)
+To('key1')
+Set('horzPosn', 'centre')
+Set('vertPosn', 'top')
+To('..')
+To('..')
+To('..')

@@ -1,0 +1,264 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-04-12T15:24:57.909570
+
+SetCompatLevel(1)
+AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+ImportString('1100P(numeric)','''
+1.000000e+00
+9.993392e-01
+9.794869e-01
+1.000037e+00
+9.986483e-01
+1.000716e+00
+9.961271e-01
+1.000778e+00
+1.001101e+00
+1.000000e+00
+''')
+ImportString('1250P(numeric)','''
+1.000000e+00
+1.000054e+00
+9.766855e-01
+1.000421e+00
+1.001784e+00
+1.002505e+00
+1.002143e+00
+1.002188e+00
+1.000998e+00
+1.000000e+00
+''')
+ImportString('1500P(numeric)','''
+1.000000e+00
+1.001447e+00
+9.712385e-01
+1.001172e+00
+1.007888e+00
+1.005996e+00
+1.013810e+00
+1.004944e+00
+1.000826e+00
+1.000000e+00
+''')
+ImportString('D1100(numeric)','''
+1.000000e+00
+9.934436e-01
+9.853818e-01
+9.846817e-01
+9.883319e-01
+9.901927e-01
+9.925806e-01
+9.936290e-01
+1.000000e+00
+''')
+ImportString('D1250(numeric)','''
+1.000000e+00
+9.891889e-01
+9.908700e-01
+9.852883e-01
+9.900281e-01
+9.948059e-01
+9.966339e-01
+9.975801e-01
+1.000000e+00
+''')
+ImportString('D1500(numeric)','''
+1.000000e+00
+9.960459e-01
+9.816524e-01
+9.802864e-01
+9.839191e-01
+9.975450e-01
+1.005480e+00
+1.013367e+00
+1.000000e+00
+''')
+ImportString('E1100(numeric)','''
+1.000000e+00
+9.612328e-01
+9.492880e-01
+9.507764e-01
+9.581184e-01
+9.562464e-01
+9.633778e-01
+9.809843e-01
+9.894796e-01
+1.000000e+00
+''')
+ImportString('E1250(numeric)','''
+1.000000e+00
+9.679871e-01
+9.557914e-01
+9.587150e-01
+9.659710e-01
+9.658411e-01
+9.711662e-01
+9.917084e-01
+1.001728e+00
+1.000000e+00
+''')
+ImportString('E1500(numeric)','''
+1.000000e+00
+9.810604e-01
+9.683620e-01
+9.740368e-01
+9.811120e-01
+9.843143e-01
+9.861459e-01
+1.012304e+00
+1.025211e+00
+1.000000e+00
+''')
+ImportString('xE(numeric)','''
+0.000000e+00
+1.440000e-01
+2.490000e-01
+3.330000e-01
+4.060000e-01
+4.950000e-01
+5.990000e-01
+7.000000e-01
+8.500000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffxD`(numeric)','''
+0.000000e+00
+1.250000e-01
+2.500000e-01
+2.857143e-01
+3.571429e-01
+5.000000e-01
+7.500000e-01
+8.500000e-01
+1.000000e+00
+''')
+ImportString('`\ufeffxP`(numeric)','''
+0.000000e+00
+5.600000e-03
+1.130000e-02
+2.460000e-02
+3.250000e-02
+1.450000e-01
+2.840000e-01
+3.400000e-01
+4.040000e-01
+1.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Fraction UCl_3')
+Set('Line/hide', False)
+Set('GridLines/hide', False)
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Deviation from Ideal Mixing')
+Set('max', 1.04)
+Set('direction', 'vertical')
+Set('GridLines/hide', False)
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffxD')
+Set('yData', 'D1100')
+Set('key', '1100 K')
+Set('PlotLine/width', '1pt')
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', '\ufeffxD')
+Set('yData', 'D1250')
+Set('key', '1250 K')
+Set('PlotLine/width', '1pt')
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'square')
+Set('xData', '\ufeffxD')
+Set('yData', 'D1500')
+Set('key', '1500 K')
+Set('PlotLine/width', '1pt')
+To('..')
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('color', 'theme1')
+Set('xData', 'xE')
+Set('yData', 'E1100')
+Set('PlotLine/color', 'theme1')
+Set('PlotLine/width', '1pt')
+Set('MarkerLine/color', 'theme1')
+Set('MarkerFill/color', 'theme1')
+Set('MarkerFill/hide', True)
+To('..')
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('marker', 'diamond')
+Set('color', 'theme2')
+Set('xData', 'xE')
+Set('yData', 'E1250')
+Set('PlotLine/width', '1pt')
+Set('MarkerLine/color', 'theme2')
+Set('MarkerFill/hide', True)
+To('..')
+Add('xy', name='xy6', autoadd=False)
+To('xy6')
+Set('marker', 'square')
+Set('color', 'theme3')
+Set('xData', 'xE')
+Set('yData', 'E1500')
+Set('PlotLine/width', '1pt')
+Set('MarkerLine/color', 'theme3')
+Set('MarkerFill/hide', True)
+To('..')
+Add('key', name='key1', autoadd=False)
+To('key1')
+Set('order', 'xy7,xy1,xy2,,xy10,xy3')
+Set('horzPosn', 'right')
+Set('vertPosn', 'bottom')
+Set('horzManual', 0.0)
+Set('vertManual', 0.0)
+To('..')
+Add('xy', name='xy7', autoadd=False)
+To('xy7')
+Set('marker', 'square')
+Set('color', 'theme3')
+Set('xData', '\ufeffxP')
+Set('yData', '1500P')
+Set('hide', False)
+Set('key', '')
+Set('PlotLine/color', 'theme3')
+Set('PlotLine/width', '1pt')
+Set('PlotLine/style', 'dotted')
+Set('MarkerLine/color', 'theme3')
+Set('MarkerFill/hide', True)
+To('..')
+Add('xy', name='xy8', autoadd=False)
+To('xy8')
+Set('marker', 'circle')
+Set('xData', '\ufeffxP')
+Set('yData', '1100P')
+Set('PlotLine/color', 'theme1')
+Set('PlotLine/width', '1pt')
+Set('PlotLine/style', 'dotted')
+Set('MarkerLine/color', 'theme1')
+Set('MarkerFill/hide', True)
+To('..')
+Add('xy', name='xy9', autoadd=False)
+To('xy9')
+Set('marker', 'diamond')
+Set('xData', '\ufeffxP')
+Set('yData', '1250P')
+Set('PlotLine/color', 'theme2')
+Set('PlotLine/width', '1pt')
+Set('PlotLine/style', 'dotted')
+Set('MarkerLine/color', 'theme2')
+Set('MarkerFill/hide', True)
+To('..')
+To('..')
+To('..')
