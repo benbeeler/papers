@@ -1,8 +1,8 @@
 # Veusz saved document (version 3.4.0.1)
-# Saved at 2022-04-12T15:33:56.573200
+# Saved at 2022-04-18T12:59:07.576078
 
 SetCompatLevel(1)
-AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
 ImportString('Li(numeric)','''
 7.157400e+01
 7.351776e+01
@@ -135,7 +135,7 @@ Set('marker', 'square')
 Set('color', 'theme3')
 Set('xData', 'xLi')
 Set('yData', 'Li')
-Set('key', 'Li EXPT')
+Set('key', 'Li MD')
 Set('yAxis', 'axis1')
 Set('PlotLine/hide', True)
 To('..')

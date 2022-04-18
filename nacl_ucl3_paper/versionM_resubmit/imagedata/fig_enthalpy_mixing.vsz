@@ -1,8 +1,8 @@
 # Veusz saved document (version 3.4.0.1)
-# Saved at 2022-04-12T17:19:39.228336
+# Saved at 2022-04-18T21:19:54.429612
 
 SetCompatLevel(0)
-AddImportPath('/Users/beelbw/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
+AddImportPath('/Users/benjaminbeeler/projects/papers/nacl_ucl3_paper/versionM_resubmit/imagedata')
 ImportString('`C H`(numeric)','''
 0.000000e+00
 -3.047141e-02
@@ -48,7 +48,6 @@ ImportString('`E H`(numeric)','''
 -7.256721e-02
 -7.360711e-02
 -6.819966e-02
--6.778370e-02
 -4.719382e-02
 -4.012255e-02
 -1.766085e-02
@@ -74,7 +73,6 @@ ImportString('Exp(numeric)','''
 5.546624e-01
 6.270096e-01
 6.527331e-01
-7.215434e-01
 7.491961e-01
 8.038585e-01
 8.649518e-01
