@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: marked.aux
+The style file: elsarticle-num.bst
+Database file #1: reference.bib
+Warning--can't use both author and editor fields in Zhu2014
+Warning--empty journal in gakhar2021molten
+Warning--empty year in FTsalt
+You've used 40 entries,
+            2952 wiz_defined-function locations,
+            993 strings with 15376 characters,
+and the built_in function-call counts, 13207 in all, are:
+= -- 1276
+> -- 460
+< -- 2
++ -- 180
+- -- 140
+* -- 1142
+:= -- 1839
+add.period$ -- 57
+call.type$ -- 40
+change.case$ -- 39
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 381
+empty$ -- 1434
+format.name$ -- 175
+if$ -- 3353
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 39
+newline$ -- 166
+num.names$ -- 39
+pop$ -- 232
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 745
+stack$ -- 0
+substring$ -- 747
+swap$ -- 117
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 89
+width$ -- 42
+write$ -- 384
+(There were 3 warnings)

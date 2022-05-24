@@ -1,0 +1,286 @@
+\documentclass[review]{elsarticle}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{lineno}
+\usepackage{color}
+\usepackage{cleveref}
+\usepackage{multicol}
+
+%\journal{Journal of Nuclear Materials}
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Evaluation of thermophysical properties of the LiCl-KCl system via \textit{ab initio} and experimental methods}
+
+\author[ncsu]{Kai Duemmler}
+\author[inl]{Yuxiao Lin}
+\author[inl]{Michael Woods}
+\author[inl]{Toni Karlsson}
+\author[inl]{Ruchi Gakhar\corref{qwe2}}
+\cortext[qwe2]{Corresponding author}
+\ead{ruchi.gakhar@inl.gov}
+\author[ncsu,inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{bwbeeler@ncsu.edu}
+
+\address[ncsu]{North Carolina State University, Raleigh, NC 27695}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+\date{\today}
+
+\begin{abstract}
+Molten Salt Reactors (MSRs) are envisioned as a potential pathway to safer, more economical nuclear electricity generation and supply of industrial heat. MSRs under consideration today are either solid-fueled salt-cooled designs or liquid-salt-fueled designs with chloride or fluoride based salts. A significant knowledge gap exists in the data for the fundamental properties relevant to fuels and coolants for MSRs that needs to be addressed in order to expedite the technical readiness level of the MSR design concepts. With the rapid development and improvement of computational materials science, computational methods such as Density Functional Theory (DFT) calculations and \textit{ab initio} Molecular Dynamics (AIMD) simulations are widely used as an effective and reliable tool to investigate the atomic interaction in materials. In this article, the density of the LiCl-KCl system was determined via AIMD calculations and verified using new experimental analyses. AIMD was further utilized to calculate the compressibility, heat capacity, enthalpy of mixing, and Gibbs free energy of mixing. This work spans a wider range of compositions and temperatures than have previously been explored computationally for this pseudo-binary system and provides the basis for further advanced thermophysical property evaluation utilizing AIMD methods.
+\end{abstract}
+
+\end{frontmatter}
+
+%\begin{multicols}{2}
+
+\section{Introduction}
+
+
+Historically, molten salts have served as electrochemical media for high temperature processes, such as pyroprocessing (spent nuclear fuel reprocessing) \cite{CHOI2015572, osti_22107867}, metal production \cite{Zhu2014, VAHIDI2018178}, and catalysis \cite{JIN20202382, HU20204244}. However, Molten Salt Reactors (MSRs) are envisioned as a potential pathway to safer, more economical nuclear electricity generation and supply of industrial heat \cite{ELSHEIKH201363, SINGH2017887}. Molten salts have excellent heat transfer properties that rival those of water and permit MSRs to operate at temperatures much higher than light water reactors and at near-atmospheric pressures in the primary loop. Therefore, a recent focus on enhancement of the efficiency, safety, and operational lifetimes of MSRs has renewed interest in molten salts as efficient heat transfer media.
+
+MSRs under consideration today are either solid-fueled salt-cooled designs \cite{doi:10.13182/NSE90-374} or liquid-salt-fueled designs \cite{doi:10.1080/00295450.2019.1586372} with chloride or fluoride based salts. Solid-fueled, salt-cooled reactors contain solid ceramic fuel that allow molten salt coolants to flow over the solid fuel, heat is then transported to and removed in the primary heat exchanger where a secondary coolant transports the heat to a power generating system, such as a gas or steam turbine. In these molten salt systems, the atomic scale interaction between ions governs the local and long range order of the system, which in turn affects the chemical and thermophysical properties of the molten solution.
+
+Molten salt compositions need to be optimized in the context of applications that address current needs, new capabilities, and novel materials development \cite{WU2018159}. For most reactor designs, mixtures of salts are considered to obtain the desired properties because the melting point of an individual salt is too high for coolant applications (e.g., the melting point of LiF is 845\degree C while the melting point of eutectic LiF-ThF$_{4}$ is 568\degree C \cite{CAPELLI2013110}). Various physical and chemical properties of each salt mixture are impacted by the solubility of fission products and impurities. Any small changes in composition (soluble actinides, fission products, corrosion products) during reactor operation and metallurgical reprocessing of salt greatly affect the associated thermophysical properties of the salt. Therefore, rigorous methods must be developed to prepare high-purity samples, and rigorous analytical practices are needed to perform reproducible measurements for each property. Fundamental thermophysical properties, such as melting temperatures, specific heat capacity, density, viscosity, thermal conductivity, and thermal diffusivity are critical salt characteristics that impact the design of MSRs, for both fuel and coolant salts. These properties are highly sensitive to impurities, including dissolved metals and oxygen-containing impurities such as oxides, hydroxides, sulfates, carbonates, and oxyhalides. Therefore, it is a daunting task to experimentally optimize a molten salt mixture for reactor applications, considering varying temperature and radiation effects over a long term reactor operation. Due to such challenges, despite their utmost importance, the thermophysical properties of molten salts are not well-characterized. A significant knowledge gap exists in the data for the fundamental properties relevant to fuels and coolants for MSRs that needs to be addressed in order to expedite the technical readiness level of the MSR design concepts. The available thermodynamic data is very limited for candidate molten fluoride salt systems, and even more sparse for candidate chloride salt systems \cite{Janz1988,capelli2012,fredrickson2018molten,benevs2020molten,McMurray2021}.
+
+With the rapid development and improvement of computational materials science, computational methods such as Density Functional Theory (DFT) calculations and \textit{ab initio} Molecular Dynamics (AIMD) simulations are widely used as an effective and reliable tool to investigate the atomic interaction in materials, predict the properties of materials as a function of the composition, and screen candidate materials for different applications. 
+
+In literature, AIMD has been used to study various different binary salt systems including LiCl-KCl \cite{Bengston2014,NGUYEN2021}. The focus of these studies has been a select set of compositions and temperatures to calculate thermophysical properties, electrical properties and/or transport properties. The use of AIMD for molten salt studies has been studied for validation by comparison to experimental literature studies \cite{Bengston2014}. One of the goals of Nguyen et al. \cite{NGUYEN2021} was to study properties with deviate from additivity, like ionic conductivity, along with creating a new benchmark for calculated properties of various molten salts. AIMD has been used for a wide variety of molten salts as it allows for the calculation directly from first principles without the need to empirically fit to experimental data, allowing for the accurate study of complicated systems and hard to study regimes. AIMD uses the electronic structure, which allows for calculations of electronic properties and reduction-oxidation reactions without fitting to experimental or computed data \cite{Bengston2014}. It must be noted that there is no unified way of evaluating the dispersion force in literature as it varies with the salt system of interest, and even for a particular salt system there is not a consensus implementation. Dispersion interactions are often chosen without the explanation or justification of the method of choice - an issue that is addressed in this study.
+
+ In this article, the densities of simple molten salt systems act as the starting point for DFT calculations that will be verified using experimental analyses and any discrepancy will lead to modification of DFT methods. Upon verification and re-validation, the computational methods will be extended to calculate properties such as heat capacity, Gibbs free energy of mixing, and compressibility. Applying this verified computational protocol, the properties of the various fuel and coolant salt systems will be predicted over a range of temperatures. The combination of computational methods along with the experimental techniques can inform the development and improvement of MSRs. 
+
+
+\section{Computational and Experimental Methods}
+
+\subsection{Ab Initio Molecular Dynamics}
+In this study, AIMD is employed during equilibration and simulation via the Vienna ab initio Simulation Package (VASP) \cite{Kresse1993,Kresse1996,Kresse1996a}. Eleven unique compositions are studied for LiCl-KCl pseudo-binary system: 0\%, 7\%, 20\%, 30\%,  eutectic 41\% \cite{Zhou2017}, 50\%, 60\%, 70\%, 80\%, 93\%, and 100\% KCl (these quantities are in molecular percent, not weight percent). Initial structures are generated with 200 atoms. The investigated temperature range spans 700–1300 K, with composition-specific temperature ranges defined by the contours of the phase diagram \cite{Zhou2017}.  The vdW-DF2 van der Waals functional is used as the non-local correlation function to account for dispersion interactions \cite{Dion2004}. An energy cutoff of 500 eV was utilized and the electronic optimization criterion was set to 10$^{-4}$ eV. Simulations were performed in an NVT ensemble, where temperature was controlled with a Langevin thermostat with a friction coefficient of 5 ps$^{-1}$ for all atom types and a time step of 2.5 fs. The mixing parameters within VASP were optimized for convergence, yielding AMIX=0.5 with BMIX=0.1, within Pulay’s mixing method \cite{PULAY1980393}. A 1$\times$1$\times$1 k-point mesh was implemented at the gamma point, which has previously been demonstrated to be sufficient in the literature \cite{Bengston2014,Song2017}.
+
+Each unique system started as a solid crystal that was melted at 2000 K for 15 ps, utilizing the radial distribution function (rdf) to ensure it was a liquid. The system was then cooled to various target temperatures from 700 to 1300 K, over 5 ps, after which each system was then equilibrated for another 10 ps. To find the equilibrium volume, the volume was perturbed and the pressure as a function of volume was determined. First, a coarse perturbation of volume was conducted and fit with a parabolic function to roughly find at which volume the pressure is zero, indicating the equilibrium volume at the given temperature. Then, a finer mesh of volumes was utilized to more precisely find at which volume the pressure is zero. Each individual volume is equilibrated for 5 ps, with the pressure averaged over the final 4 ps of the simulation. An illustration of the rdf at this stage is given for LiCl-30\%KCl at 1300 K in Fig. \ref{fig:rdf}. 
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/Partial_RDF.jpg} \caption{Snapshot of the partial radial distribution function of liquid LiCl-30\%KCl at 1300 K.}
+ \label{fig:rdf}
+ \end{figure}
+ Additionally, five unique simulations are performed for each volume to ensure the statistical significance of the results. An example of the volume versus pressure relationship is illustrated in Fig. \ref{fig:VvsP} for the 70\% KCl system at 900 K with the standard error of each data point included shown by error bars. Both this equilibration procedure and the construction of a pressure-volume curve are conducted for each composition and temperature of interest.
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/PressureVsVolume.jpg} 
+ \caption{Pressure as a function of supercell volume for LiCl-70\%KCl at 900K. The equilibrium volume is the volume at which the pressure is zero. Error bars are standard error.}
+ \label{fig:VvsP}
+\end{figure}
+
+The parabolic fit to the entire data set can be used to calculate the bulk modulus and compressibility of the liquid, as described in equations \ref{eq:bulk modulus} and \ref{eq:compressibility}:
+
+\begin{equation}
+\label{eq:bulk modulus}
+K = -V {(\frac{dP}{dV})}_{P=0}
+\end{equation}
+
+\begin{equation}
+\label{eq:compressibility}
+\beta = \frac{1}{K}
+\end{equation}where K is the bulk modulus, V is the volume, P is the pressure, and $\beta$ is the compressibility. Care was taken to ensure this parabolic fit included at least five unique data points/volumes with at least one data point exhibiting a pressure above 5 kbar, and no data points with a pressure below  -2 kbar. In this manner, a broad and consistent sampling of the pressure-volume space was performed. 
+
+The heat capacity at constant pressure was calculated from equation \ref{eq:Cp}:
+\begin{equation}
+\label{eq:Cp}
+Cp =\lim_{T\to0} \frac{dE}{dT}
+\end{equation}where E is the total energy (kinetic plus potential) and T is the absolute temperature. Similar to the pressure, the total energy of the system is tracked as a function of time and averaged over the final four ps of the simulation. The enthalpy of mixing was calculated from the difference in potential energy of the mixture from the two reference molecules. The enthalpy of mixing was normalized by the number of molecules in the system, as in equation \ref{eq:enthalpy}:
+\begin{equation}
+    \label{eq:enthalpy}
+    \Delta H^{mix} = \frac{1}{M}(E_{AB} - x_A E_A - x_B E_B)
+\end{equation} where $\Delta H^{mix}$ is the enthalpy of mixing per molecule, M is the number of molecules (100 in this case), $E_{AB}$ is the potential energy of LiCl-KCl system, $E_A$ and $E_B$ are the potential energy of two reference systems (LiCl and KCl in this case), and $x_A$ and $x_B$ are the mole fraction for the two respective salts. The Gibbs energy of mixing can also be estimated from the ideal solution model \cite{dehoff2006} at a given temperature by adding an entropy term, as in equation \ref{eq:entropy}: 
+\begin{equation}
+    \label{eq:entropy}
+    -T \Delta S^{mix}= RT[x_A ln x_A + x_B ln x_B]
+\end{equation}and incorporating this entropy into  equation \ref{eq:gibbs}:
+\begin{equation}
+    \label{eq:gibbs}
+    \Delta G^{mix} = \Delta H^{mix} -T \Delta S^{mix}
+\end{equation}
+where $\Delta$ $G_{mix}$ is the Gibbs energy of mixing and R is the gas constant.
+
+
+\subsection{Experimental Methods}
+
+The density of various compositions of LiCl-KCl was measured experimentally using the direct Archimedean method of measuring the buoyancy force exerted on a bobber submerged in the molten salts \cite{Sato2009}. A schematic of the experimental setup is shown in Fig. \ref{fig:dens}. A Ni 200 alloy bobber (12.8 mm diameter, 20 mm height) was used for immersion and weight loss determination. A tungsten wire was used for hanging the bobber and a glassy carbon crucible was used to contain salt mixture. A Mettler-Toledo WXTS204 bottom-loading analytical balance (maximum capacity of 220g and precision of 0.1mg) was used for weight measurements. The density of the salts $\rho_{salts}$ at an experimental temperature $T$ is calculated by equation \ref{eq:density_exp}:
+\begin{equation}
+    \label{eq:density_exp}
+    \rho_{salts} = \frac{M_{air} - W_{salts}}{V_0 (1 + 3\alpha(T - T_0))}
+\end{equation}
+where $M_{air}$ is the measured mass of the bobber and wire suspended in air, $W_{salts}$ is the measured weight of the bobber and wire suspended in the salts, $\alpha$ is the linear thermal coefficient of expansion of nickel, and $T_0$ is the reference temperature for the volume of the nickel bobber. The volume of the nickel bobber and tungsten wire was first calculated using deionized water and ethanol and their known densities near room temperature. This provided the reference volume at 295 K for use with the thermal expansion coefficient to calculate the volume of the bobber at the experimental temperatures. The system was calibrated for high temperature measurements up to 658 K using NaNO$_{3}$ and gave calculated values within 1\% of literature values were obtained \cite{Janz1972}. For measuring the density of each composition of the molten salts at temperatures up to 1111 K, the bobber and wire were first weighed in air. Then, the salts were melted and the bobber was lowered into the molten salts. Ten minutes of stable thermal equilibrium was confirmed at each experimental set-point by a sheathed K-type thermocouple immersed in the salts above the bobber. After this confirmation of thermal equilibrium, the empty scale was tared and then the weight of the suspended bobber was recorded before the temperature set-point was changed. The error of the thermometer ranged from 2.5 to 3.5 K for our experimental temperature range.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.5\textwidth]{images/Density_exp_setup.jpg} 
+ \caption{Diagram of experimental density setup including (a) balance with bottom hook, (b) heat shields, (c) thermocouple, (d) quartz lid atop furnace, (e) tungsten wire, (f) nickel bobber, and (g) glassy carbon crucible.}
+ \label{fig:dens}
+\end{figure} 
+
+\FloatBarrier
+
+\section{Results and Discussion}
+
+\subsection{Down-select of van der Waals dispersion interactions}
+
+The van der Waals (vdW) force plays a fundamental role in determining the structure and properties of ionic liquids. The most common density functionals are unable to correctly describe vdW interactions between atoms and molecules.  There are two common methods to account for vdW interactions within VASP: 1) adding a dispersion correction to the Kohn-Sham energy, or 2) replacing the common exchange-correlation functional with a non-local correlation functional that approximately accounts for dispersion interactions. The most common implementation of the added dispersion correction is from Grimme \cite{Grimme2006,Grimme2010}, in which dispersion coefficients for each atom are tabulated and combined to develop effective pair dispersion coefficients that are dependent upon local geometry. There exist a number of tunable parameters within this implementation that allow for an empirical fitting procedure to try to best approximate the dispersion interactions. For the second option of a replacement functional, Dion et al.\cite{Dion2004} developed a second-order expansion of a quantity contained in the long-range part of the correlation functional, allowing the non-local correlations to be expressed in terms of a density-density interaction formula, and thus seamlessly incorporating vdW forces. There are a number of versions of these vdW functionals available for implementation, and various options available for utilizing the added dispersion term. In literature, a type of vdW interaction is considered and applied, usually without any justification. This work aims to establish a proper interaction implementation for the LiCl-KCl system to best approximate the dispersion interactions/coefficients. 
+
+Seven unique dispersion interactions are employed to investigate the density of the LiCl and KCl systems. These include: 1) the D3 zero damping method with the Perdew-Burke-Ernzerhof (PBE \cite{perdew1996}) exchange-correlation (xc) function (D3-PBE \cite{Grimme2010}); 2) the D3 method with Becke-Jonson (BJ) damping with the PBE xc functional (D3BJ-PBE); 3) the D3 method with zero damping with the revPBE xc functional (D3-rPBE \cite{zhang1998}); 4) the D3 method with Becke-Jonson (BJ) damping with the revPBE xc functional (D3BJ-rPBE); 5) the optB88 functional (optB88 \cite{klimevs2009chemical}); 6) the DF2 functional (DF2 \cite{lee2010}); and 7) the SCAN+rVV10 functional (SCAN \cite{peng2016}). While this is admittedly an incomplete list, this selection incorporates different approaches to accounting for the dispersion interactions. This list also encompasses both commonly utilized methods for describing molten salts, and more recently developed methods that have not been fully explored to describe molten salt systems. 
+
+Following the initialization procedures outlined in the computational methods section (where for this down-select work the initialization was performed with the D3-PBE description), the density as a function of pressure is obtained for both the LiCl and KCl systems at 1100 K for each of the seven descriptions investigated. The results are displayed in Fig. \ref{fig:disp} and compared to experimental data from Janz \cite{Janz1988}. While no description of the LiCl or KCl system matches the experimental data exactly, the three descriptions that come most close (when considering both the LiCl and KCl compositions) are the D3-PBE, D3-rPBE, and the DF2 functional. These three options were further pursued, and intermediate compositions of LiCl-20KCl, LiCl-41KCl, and LiCl-80KCl were explored.   
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=\textwidth]{images/LiClKCl_disp.jpg} 
+ \caption{The density as a function of pressure at 1100 K for LiCl and KCl utilizing seven unique descriptions for the vdW forces, compared to experimental data from Janz \cite{Janz1988}.}
+ \label{fig:disp}
+\end{figure} 
+
+The results for the density of the LiCl-KCl system as a function of composition for three unique dispersion relationships are shown in Fig. \ref{fig:disp_tot}. Again, it is emphasized that none of the three best dispersion interactions can exactly replicate the experimental density from Janz as a function of composition for this pseudo-binary system. The relative error changes depending upon the composition for each description, introducing difficulties in determining the appropriate dispersion interaction with which to proceed. The total error over the five compositions is minimized for the D3-PBE dispersion interaction, however, the trend of density as a function of composition is most closely mirrored by the DF2 functional. Considering that this work has an emphasis on a broad range of compositions and temperatures, it was deemed that obtaining the correct trends in the density as a function of composition was more important than most closely matching the experimental density for a few compositions. Thus, the DF2 functional was chosen to pursue the full description of the thermophysical properties of the LiCl-KCl system. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{images/final_disp.jpg} 
+ \caption{The density as a function of pressure at 1100 K for at five select compositions in the LiCl-KCl utilizing the three best descriptions for the vdW forces, compared to experimental data from Janz \cite{Janz1988}.}
+ \label{fig:disp_tot}
+\end{figure} 
+
+It should be noted that in the down-select work, only a single simulation is performed for each specific volume and dispersion interaction. This increases the uncertainty in the reported data within this section, but the calculated density is not expected to vary by more than 1-2\%. Such magnitudes of error do not alter the gained understanding of the relative performance of the individual dispersion descriptions. For the most accurate description of thermophysical properties, please refer to the below sections. 
+
+\FloatBarrier
+
+\subsection{Computational Results}
+
+The density as a function of composition for each temperature is shown in Fig. \ref{fig:density}A, with a comparison to selected literature values at 1100 K in Fig. \ref{fig:density}B. Second order polynomial fits to each complete data set are shown as lines. Data below 1000 K is not considered "complete" in this context because data for all compositions was not collected. This is because individual compositions of LiCl-KCl would be expected to be solid at these temperatures and this study only included the liquid phase. The calculated densities nearly exactly match the experimental data collected by Wang et al. \cite{Wang2015}, but are slightly below the values calculated by Janz et al. \cite{Janz1988}. However, this discrepancy with Janz deceases as the concentration of KCl increases. The density tends to increase as a function of KCl, exhibiting slightly positive deviations from linearity. As expected, the density decreases with increasing temperature.  Finally, a comparison can be made to the Born-Mayer-Huggins interatomic potential employed in the classical molecular simulations by Wang et al. \cite{Wang2015}, which significantly underestimates the equilibrium density across the entire compositional range.This validates the use of DFT with vdW-DF2 van der Waals functional for the calculation of density in molten salt systems.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/denisty_combined_figures.jpg} 
+ \caption{In A) the density of LiCl-KCl system as a function of composition. In B) the density of LiCl-KCl system as a function of composition at 1100 K. Filled markers are computational and open are experimental. AIMD results are compared to classical molecular dynamics and experimental results from Wang et al. \cite{Wang2015}, and experimental results from Janz et al. \cite{Janz1988} are at 1100K. Second order polynomial fits to each complete data set are shown as lines.}
+ \label{fig:density}
+\end{figure} 
+
+
+\FloatBarrier
+
+The compressibility as a function of composition and temperature is shown in Fig. \ref{fig:compressibility}. This data displays significantly greater scatter than the density, however, general trends can still be extracted. As the temperature increases, the compressibility tends to increase. Similarly, the compressibility increases as the composition of KCl increases. These are the same trends observed in a previous computational study by Bengston \cite{Bengston2014}. This work underestimates the compressibility by 6-25\% when compared to this previous AIMD study (Bengston used a different description of dispersion forces); however, there is no experimental data for comparison.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/compressibility.jpg} 
+ \caption{The compressibility of the LiCl-KCl system as a function of composition and temperature. Linear fits to each complete data set are shown as lines. }
+ \label{fig:compressibility}
+\end{figure} 
+
+The heat capacity as a function of composition and temperature is shown in Fig. \ref{fig:cp}. It can be observed that as the system becomes more KCl rich, the heat capacity tends to increase. Also, typically the smaller the temperature, the larger the heat capacity. It can be noted that the heat capacity values from AIMD are slightly under-predicting the experimental values of Janz \cite{Janz1974}, by 8.8\%. This is considered reasonable agreement.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/cp.jpg} 
+ \caption{The heat capacity for the LiCl-KCl system as a function of composition. Literature from \cite{Janz1974}. Linear fits to each complete data set are shown as lines. }
+ \label{fig:cp}   
+\end{figure} 
+
+\FloatBarrier
+
+The enthalpy of mixing per molecule for the LiCl-KCl system can be seen below in Fig. \ref{fig:enthalpy}A, where negative values (lower formation energies) indicate the stability of the system. The most stable compound is the eutectic composition, which is to be expected. In Fig. \ref{fig:enthalpy}B there is a comparison to literature \cite{hersh1965enthalpies} at 1013 K, and the data matches the literature fairly well. It must be noted that the melting temperature of KCl is 1042 K \cite{Zhou2020}, while the computational data utilized in Fig. \ref{fig:enthalpy} is at 1000 K. It was determined that KCl is still a liquid at this point and can be used as a reference for liquid phase. No lower temperatures could be used due to the onset of localized solidification.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/enthalpy_combined.jpg} 
+ \caption{In A) the enthalpy of mixing per molecule of LiCl-KCl for the LiCl-KCl system. In B)  a comparison to Hersh \cite{hersh1965enthalpies} at 1013 K. Second order polynomial fits to each data set are shown as lines.}
+ \label{fig:enthalpy}
+\end{figure} 
+
+The final property that was calculated is the Gibbs free energy of mixing of LiCl-KCl, shown in Fig. \ref{fig:gibb}A. It is again found that the minimum is around the eutectic composition, as would be expected. A comparison to the literature can be seen in Fig. \ref{fig:gibb}B, which shows the Gibbs free energy of mixing at 1173 K compared to AIMD by Nguyen et al. \cite{NGUYEN2021} and experimental data from the FTsalt-FACT database \cite{FTsalt} at 1173 K. What can be observed is that our AIMD simulation almost perfectly matches the experimental data across the compositional spectrum.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/gibbs_mixxing_combined.jpg} 
+ \caption{In A) the Gibb's free energy of mixing for the LiCl-KCl system. In B) a comparsion to literature at 1173K can be seen with AIMD from Nguyen \cite{NGUYEN2021} and experimental data from FTsalt-FACT data base \cite{FTsalt}. Second order polynomial fits to each data set are shown as lines.}
+ \label{fig:gibb}
+\end{figure} 
+
+\FloatBarrier
+
+\subsection{Experimental Results}
+
+Experimental values of the density of LiCl-KCl compositions in the liquid state are shown in Fig. \ref{fig:density_exp} with temperature-dependent equations given in Table \ref{table1}. All compositions of LiCl-KCl show a linear relationship between density and temperature. The decrease in density with increasing temperature becomes slightly greater with increasing concentration of KCl. The experimental error was computed to be approximately 0.7\% for all calculated densities, with the temperature measurement uncertainty being between 2.5 and 3.6 K. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/density_exp.jpg} 
+ \caption{Experimental density values of LiCl-KCl mixtures.}
+ \label{fig:density_exp}
+\end{figure} 
+
+\begin{table}[]
+\centering
+\caption{Experimental temperature-dependent equations of density for various compositions of LiCl-KCl}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{$\rho$ = $\alpha$ + $\beta$ T} \\
+\hline
+mol\% KCl & $\alpha$ (g cm$^{-3}$) & $\beta$ (g cm$^{-3}$ K$^{-1}$) \\
+\hline
+100       & 2.2315         & -0.000674         \\
+90        & 2.1296         & -0.000586         \\
+80        & 2.1677         & -0.000626         \\
+60        & 2.0663         & -0.000550         \\
+41.8      & 2.0060         & -0.000510         \\
+20        & 1.9627         & -0.000489         \\
+7         & 1.9356         & -0.000478         \\
+0         & 1.9086         & -0.000454         \\
+\hline
+\end{tabular}
+\label{table1}
+\end{table}
+
+\FloatBarrier
+
+\subsection{Comparison of Modeling and Experimental Results}
+
+The experimental densities are extrapolated to 1100 K, allowing for direct comparison with previous experimental results in the literature, as well as a comparison to our computational work (from Fig. \ref{fig:densityCompExp}). What can be observed is that the computational density matches the experimental data very well, and the experimental data is very similar to the values reported in Janz et al. \cite{Janz1974}. The slight discrepancy between the computational and experimental densities tends to slightly decrease as the concentration nears the eutectic. Fig. \ref{fig:densityCompTemp} illustrates the influence that temperature has on the densities of LiCl, KCl and the eutectic compositions. What can be observed is that as the composition approaches the eutectic composition the higher the accuracy for density becomes. The average error between the experimental and the computational results for the density of the binary salts LiCl and KCl is 1.42\% and 1.82\% respectively. The average error at the eutectic composition is 0.96\%. AIMD underpredicts the densities at low temperatures, but this error decreases as the temperature increases and for some compositions overpredicts.
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/density_comp.jpg} 
+ \caption{Density as a function of the composition of LiCl-KCl system at 1100 K. Filled markers are experimental and open are computational. AIMD results are compared to the experimental results from Wang et al. \cite{Wang2015}, Janz et al. \cite{Janz1988} 1100K, and Fig. \ref{fig:density_exp}.}
+ \label{fig:densityCompExp}
+\end{figure} 
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/density_temp_comp.jpg} 
+ \caption{Density as a function of the temperature for LiCl, eutectic LiCl-KCl, and KCl. Filled markers are experimental and open are computational. Second order polynomial fits to each data set are shown as lines. }
+ \label{fig:densityCompTemp}
+\end{figure} 
+\FloatBarrier
+
+\section{Conclusions}
+
+AIMD simulations were applied to the entire composition range of the LiCl-KCl system in the temperature range 700-1300 K. The properties gathered were density, compressibility, bulk modulus, heat capacity, enthalpy of mixing and Gibbs free energy of mixing. What was observed in this study is that AIMD can be used to calculate the density with an appreciable match with the experimental results. This shows that structural properties can be modeled with AIMD. Heat capacity can be calculated within 8.8\% of experimental values. Values for enthalpy and Gibb's free energy of mixing are compared to literature. Compressibility was not compared to experimental values but were similar to other AIMD studies. This study shows that AIMD can be used to gather a variety of properties without the requirement of starting from a classical MD run. Values for density were also calculated from experiments of the direct Archimedean method. These values had an appreciable match with literature results for density.
+
+
+\section{Acknowledgements}
+
+This material is based upon work supported under an Integrated University Program Graduate Fellowship. This work is also supported through the INL Laboratory Directed Research and Development (LDRD) Program under DOE Idaho Operations Office Contract DE-AC07-05ID14517. This research made use of the resources of the High-Performance Computing Center at Idaho National Laboratory, which is supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear Science User Facilities.    
+
+\bibliography{reference}
+%\end{multicols}
+
+\end{document}

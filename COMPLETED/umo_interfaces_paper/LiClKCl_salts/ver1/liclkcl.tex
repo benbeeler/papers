@@ -1,0 +1,107 @@
+\documentclass[review]{elsarticle}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{gensymb}
+\usepackage{lineno}
+\usepackage{flexisym}
+\usepackage{color}
+\usepackage[title]{appendix}
+
+\journal{Journal of Nuclear Materials}
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Variation in density and diffusion across composition for unique van der Waals dispersion relationships in LiCl-KCl salts}
+
+\author[ncsu,inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{bwbeeler@ncsu.edu}
+\author[in]{Yuxiao Lin}
+\author[inl]{Gorakh Pawar}
+\author[inl]{Ruchi Gakhar}
+\address[ncsu]{North Carolina State University, Raleigh, NC 27607}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+
+
+\begin{abstract}
+
+Salts!
+
+\end{abstract}
+\end{frontmatter}
+
+\section{Introduction}
+
+Basic background on salts and LiClKCl
+
+Density functional theory (DFT) is an essential part of computational materials science, addressing a variety of problems in materials design and processing on a fundamental level. 
+
+
+\textit{Ab initio} molecular dynamics (AIMD) allows for quantum mechanical-based calculations to be performed at non-zero temperatures. AIMD can account for the inherent anharmonicity responsible for making the bcc phase stable at high temperature, and as such allows for direct investigation of the bcc phase without any other required assumptions or restrictions.  AIMD has been utilized to study a variety of systems including liquid phase diffusion in Al-Si \cite{manga2018}, adsorption energy of Fe on TiN surfaces \cite{wang2010}, NaCl dissolution in water \cite{timko2010} and finite temperature phonon dispersion curves in bcc Zr and bcc Li \cite{hellman2011}. 
+
+literature review for modeling LiClKCll
+
+In this work, ...
+
+\section{Computational Details}
+
+Systems are investigated using the Vienna \textit{ab initio} Simulation Package (VASP) \cite{vasp1, vasp2, vasp3, vasp4}. The projector augmented wave (PAW) method \cite{paw1, paw2} is utilized within the density functional theory \cite{dft1, dft2} framework. 
+
+Include data on different dispersion relationships. 7 in total, narrowed to 3, then further investigated for two...
+
+\textit{Calculations are performed using the Perdew-Burke-Ernzerhof (PBE) \cite{pbe1, pbe2} generalized gradient approximation (GGA) density functional implementation for the description of the exchange-correlation. A uranium PAW pseudopotential with the 6s$^{2}$6p$^{6}$5f$^{3}$6d$^{1}$7s$^{2}$ valence electronic configuration and a core represented by [Xe, 5d, 4f] is utilized. Methfessel and Paxton's smearing method \cite{methfessel} of the first order is used with a width of 0.2 eV to determine the partial occupancies for each wavefunction. }
+
+
+A Monkhorst-Pack \cite{monkhorst} 1x1x1 k-point mesh was utilized for Brillouin zone sampling. The precision is set to normal and the energy cutoff is increased to 500 eV. The electronic self-consistent loop exit criterion is set to 10$^{-4}$ and the precision for projectors in real space is increased to -10$^{-4}$. 
+
+\textit{A 128 atom supercell (4x4x4 unit cells) is utilized for all simulations. }
+
+Dynamics were carried out in the NVT ensemble with a Nose-Hoover thermostat to control temperature, calculating both the forces and the stress tensor. The Nose mass was set to allow a relaxation period of 40 time steps. 
+
+Include info on the flowchart process
+
+The timestep is set to 2.5 fs, and the simulation is carried out for 2000 timesteps (5 ps). In order to obtain average properties over the \textit{ab initio} molecular dynamics simulation, the energies and pressures for the final 1000 timesteps are extracted and averaged. 
+
+
+
+
+
+\FloatBarrier
+
+The system was evaluated at a series of volumes in order to construct a pressure as a function of volume (P(V)) relationship. The lattice constant is varied from 3.47 {\AA} up to 3.53 {\AA} in increments of 0.01 {\AA}. The point at which the P(V) relationship is equal to zero is determined to be the equilibrium volume. Subsquently, a second order polynomial function is fit to the dataset. Simulations were conducted for temperatures from 900 K up to 1400 K, in increments of 50 K. The melting point of uranium is 1408 K and the phase transition temperature into the $\gamma$ phase is 1045 K, thus this set of temperatures spans the entire range of stability for the $\gamma$ phase as well as exploring lower temperatures where the $\gamma$ phase is stable, but is not the equilibrium structure. 
+
+The diffusion coefficients for individual point defects and for self-diffusion in $\gamma$-U were determined by calculation of the mean-squared displacement (msd or $\langle$r$^2$$\rangle$) of atoms. A single point defect is inserted into the 128 atom supercell, the system is equilibrated for 2.5 ps. The system is then allowed to evolve for 22.5 ps, over which the msd is calculated. The diffusion coefficient is determined from the Einstein formula (D=$\langle$r$^2$$\rangle$/6t), where \textit{t} is the time. The slope of the msd versus time ($\langle$r$^2$$\rangle$/t) is obtained from a linear fit to the complete dataset during the 22.5 ps relaxation, with data collected every 100 timesteps (0.25 ps). Five unique systems are investigated for each defect type and temperature in order to gain some statistical significance of the diffusion data. Select systems were investigated for convergence testing, in that a) the system simulation time is increased to 47.5 ps (from 22.5 ps), or b) the number of unique systems is increased from five to ten. No statistically significant difference was observed in either of these cases, and as such our methodology was deemed valid. 
+
+The computational expense associated with these kinds of investigations should be emphasized. Nearly 2.5 million cpu-hours on a high-performance computing system were required to obtain the data within this manuscript, not including the intensive scoping and convergence testing that was performed. Ideally, additional simulations would be performed to increase the statistical accuracy of the results. However, the accuracy was deemed sufficient to provide meaningful results (as will be shown), taking into account the computational expense associated with increasing statistical significance. 
+
+\section{Results}
+\subsection{Equilibrium properties of $\gamma$-U}
+
+
+\FloatBarrier
+
+\section{Conclusions}
+
+In this study, AIMD simulations were performed to calculate the pressure as a function of volume for the $\gamma$ phase of U from 900 K to 1400 K. Utilizing the equilibrium volume at each temperature, the bulk modulus, the radial distribution function, the interstitial and vacancy formation energies, and the diffusion coefficients were determined. The lattice constant is slightly underestimated compared to experiment, while the thermal expansion and bulk modulus compare very favorably to data in the literature. The linear thermal expansion coefficient was found to be 14.3 x 10$^{-6}$ K$^{-1}$. The bulk modulus was observed to soften approximately 2 GPa per 100 K with increasing temperature. The calculated vacancy formation energies agree with the previous experimental results and both vacancy and interstitial formation energies agree with the previous computational studies. Point defect formation energies increase with increasing temperature, as has been reported in Zr and Al. The vacancy and interstitial diffusion coefficients, as well as the self-diffusion coefficient were calculated. The self-diffusion coefficient is overestimated and the activation energy is underestimated compared to experimentally reported results, however this is considered reasonable agreement. The magnitudes of the point defect formation energies in addition to the self-diffusion coefficients are consistent with the notion of self-diffusion via an interstitialcy mechanism in $\gamma$-U. 
+
+This work has served to confirm the findings of previous studies regarding point defects in $\gamma$-U and provides further justification for describing self-diffusion in $\gamma$-U via an interstitialcy mechanism. This was the first \textit{ab initio} molecular dynamics study of point defects in $\gamma$-U and provides the foundation for expansion of computational studies at non-zero temperature in metallic U, with the inclusion of complex defects, interfaces, and impurities.
+
+\section{Acknowledgement}
+This work is supported by...
+
+
+\section{Data Availability}
+
+The raw/processed data required to reproduce these findings cannot be shared at this time as the data also forms part of an ongoing study.
+
+
+
+\bibliography{MARMOTbib}
+
+\end{document} 
