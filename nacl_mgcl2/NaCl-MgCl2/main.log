@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  19 MAY 2022 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  26 MAY 2022 09:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -656,41 +656,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-<images/PressureVsVolume.jpg, id=143, 426.6339pt x 426.6339pt>
-File: images/PressureVsVolume.jpg Graphic file (type jpg)
-<use images/PressureVsVolume.jpg>
-Package pdftex.def Info: images/PressureVsVolume.jpg  used on input line 70.
+<PressureVsVolume.jpg, id=143, 426.6339pt x 426.6339pt>
+File: PressureVsVolume.jpg Graphic file (type jpg)
+<use PressureVsVolume.jpg>
+Package pdftex.def Info: PressureVsVolume.jpg  used on input line 70.
 (pdftex.def)             Requested size: 328.82707pt x 328.8281pt.
- [4 <./images/PressureVsVolume.jpg>] [5]
+ [4 <./PressureVsVolume.jpg>] [5]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6]
-<images/rdf_from_vasppy.png, id=207, 1445.4pt x 578.16pt>
-File: images/rdf_from_vasppy.png Graphic file (type png)
-<use images/rdf_from_vasppy.png>
-Package pdftex.def Info: images/rdf_from_vasppy.png  used on input line 157.
+<rdf_from_vasppy.png, id=207, 1445.4pt x 578.16pt>
+File: rdf_from_vasppy.png Graphic file (type png)
+<use rdf_from_vasppy.png>
+Package pdftex.def Info: rdf_from_vasppy.png  used on input line 157.
 (pdftex.def)             Requested size: 422.77664pt x 169.1089pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7]
-<images/density_combined_figures.jpg, id=221, 1138.0116pt x 569.0058pt>
-File: images/density_combined_figures.jpg Graphic file (type jpg)
-<use images/density_combined_figures.jpg>
-Package pdftex.def Info: images/density_combined_figures.jpg  used on input lin
-e 187.
+<density_combined_figures.jpg, id=221, 1138.0116pt x 569.0058pt>
+File: density_combined_figures.jpg Graphic file (type jpg)
+<use density_combined_figures.jpg>
+Package pdftex.def Info: density_combined_figures.jpg  used on input line 187.
 (pdftex.def)             Requested size: 469.75502pt x 234.87407pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./images/rdf_from_vasppy.png>]
-<images/density_mixing.jpg, id=238, 711.1368pt x 569.0058pt>
-File: images/density_mixing.jpg Graphic file (type jpg)
-<use images/density_mixing.jpg>
-Package pdftex.def Info: images/density_mixing.jpg  used on input line 196.
+[8 <./rdf_from_vasppy.png>]
+<density_mixing.jpg, id=238, 711.1368pt x 569.0058pt>
+File: density_mixing.jpg Graphic file (type jpg)
+<use density_mixing.jpg>
+Package pdftex.def Info: density_mixing.jpg  used on input line 196.
 (pdftex.def)             Requested size: 328.82707pt x 263.10896pt.
 
 
@@ -700,20 +699,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 201.
 
-<images/compressibility.jpg, id=241, 711.1368pt x 569.0058pt>
-File: images/compressibility.jpg Graphic file (type jpg)
-<use images/compressibility.jpg>
-Package pdftex.def Info: images/compressibility.jpg  used on input line 219.
+<compressibility.jpg, id=241, 711.1368pt x 569.0058pt>
+File: compressibility.jpg Graphic file (type jpg)
+<use compressibility.jpg>
+Package pdftex.def Info: compressibility.jpg  used on input line 219.
 (pdftex.def)             Requested size: 328.82707pt x 263.10896pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./images/density_combined_figures.jpg>] [10 <./images/density_mixing.jpg> <
-./images/compressibility.jpg>]
-<images/energy.jpg, id=254, 569.0058pt x 426.6339pt>
-File: images/energy.jpg Graphic file (type jpg)
-<use images/energy.jpg>
-Package pdftex.def Info: images/energy.jpg  used on input line 230.
+[9 <./density_combined_figures.jpg>] [10 <./density_mixing.jpg> <./compressibil
+ity.jpg>]
+<energy.jpg, id=254, 569.0058pt x 426.6339pt>
+File: energy.jpg Graphic file (type jpg)
+<use energy.jpg>
+Package pdftex.def Info: energy.jpg  used on input line 230.
 (pdftex.def)             Requested size: 375.80544pt x 281.77452pt.
 
 
@@ -721,31 +720,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11
 
- <./images/energy.jpg>]
-<images/enthalpy.jpg, id=268, 1138.0116pt x 569.0058pt>
-File: images/enthalpy.jpg Graphic file (type jpg)
-<use images/enthalpy.jpg>
-Package pdftex.def Info: images/enthalpy.jpg  used on input line 257.
+ <./energy.jpg>]
+<enthalpy.jpg, id=268, 1138.0116pt x 569.0058pt>
+File: enthalpy.jpg Graphic file (type jpg)
+<use enthalpy.jpg>
+Package pdftex.def Info: enthalpy.jpg  used on input line 257.
 (pdftex.def)             Requested size: 469.75502pt x 234.87407pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 262.
 
-[12 <./images/enthalpy.jpg>]
-<images/CTE.jpg, id=281, 569.0058pt x 426.6339pt>
-File: images/CTE.jpg Graphic file (type jpg)
-<use images/CTE.jpg>
-Package pdftex.def Info: images/CTE.jpg  used on input line 281.
+[12 <./enthalpy.jpg>]
+<CTE.jpg, id=281, 569.0058pt x 426.6339pt>
+File: CTE.jpg Graphic file (type jpg)
+<use CTE.jpg>
+Package pdftex.def Info: CTE.jpg  used on input line 281.
 (pdftex.def)             Requested size: 375.80544pt x 281.77452pt.
- [13 <./images/CTE.jpg>] (./main.bbl [14] [15]
-[16] [17]) [18] (./main.aux)
+ [13 <./CTE.jpg>] (./main.bbl [14] [15] [16] [17])
+[18] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FB761D2035557F6B2BA56F7CAA47AB10;1681.
  ) 
 Here is how much of TeX's memory you used:
- 13605 strings out of 478994
- 212412 string characters out of 5858184
+ 13604 strings out of 478994
+ 212125 string characters out of 5858184
  552917 words of memory out of 5000000
  30790 multiletter control sequences out of 15000+600000
  411363 words of font info for 54 fonts, out of 8000000 for 9000
