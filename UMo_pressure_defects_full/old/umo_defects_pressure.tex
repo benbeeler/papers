@@ -1,0 +1,106 @@
+\documentclass[11pt, oneside]{elsarticle}   	
+\usepackage{geometry}                		
+\geometry{letterpaper}                   		
+\usepackage[parfill]{parskip}    		
+\usepackage{graphicx}				
+						
+\usepackage[margin=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{lineno}
+%SetFonts
+
+%SetFonts
+
+\date{}							% Activate to display a given date or no date
+
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Analyzing the effect of pressure on the properties of point defects in $\gamma$UMo through atomistic simulations}
+
+\author[ncsu,inl]{Benjamin Beeler\corref{qwe}}
+\cortext[qwe]{Corresponding author}
+\ead{bwbeeler@ncsu.edu}
+\author[wisc]{Yongfeng Zhang}
+\author[ncsu]{Jahid Hasan}
+\author[purdue]{Gyuchul Park}
+\author[pnnl]{Shenyang Hu}
+\address[ncsu]{North Carolina State University, Raleigh, NC 27695}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415}
+\address[wisc]{University of Wisconsin-Madison, Madison, WI 53715}
+\address[purdue]{Purdue University, XXXXX}
+\address[pnnl]{Pacific Northwest National Laboratory, Idaho Falls, ID 83415}
+
+
+
+\begin{abstract}
+this is the abstract
+\end{abstract}
+
+\end{frontmatter}
+
+\linenumbers
+\modulolinenumbers[2]
+
+\section{Introduction}
+
+Background on UMo fuel
+
+Pressure state on UMo
+
+Atomistic Calculations on UMo summary
+
+What we will do
+
+\section{Computational Details}
+Molecular dynamics simulations are performed utilizing the LAMMPS \cite{plimpton1995} software package and the U-Mo angular dependent potential (ADP) \cite{smirnovaADP}. 
+
+A 14x14x14 supercell consisting of 5488 atoms is constructed in a body-centered cubic (bcc) structure. Relaxation is performed in an NPT-ensemble, relaxing each x, y, and z component individually, with a damping parameter of 0.1. A Nose-Hoover thermostat is utilized with the damping parameter set to 0.1 ps. Systems are investigated over a range of temperatures, from 600 K up to 1200 K, in increments of 200 K. This temperature range was chosen due to the inherent properties of the potential, in that below 600 K γU becomes mechanically unstable and above 1200 K the crystal structure is approaching the melting point. Systems are relaxed for 100 ps, with volumes averaged over the final 50 ps. The equilibration is performed at a given pressure, ranging from -10 kbar to +10 kbar (-1 GPa to +1 GPa) in increments of 5 kbar. This pressure range should exceed any expected stress state of the fuel, and as such should present the possibilities of extreme behavior on defect evolution. Additionally, trends in behavior can be determined and explored at the pressures of interest. Eight individual compositions are investigated, including bcc U and bcc Mo, U-5Mo, U-10Mo, U-15Mo, U-30Mo, U-50Mo, and U-70Mo. All compositions are given in weight percent unless otherwise noted. This variation in composition allows for analysis for a wide range of U-Mo systems, including all relevant compositions in monolithic fuel.  
+Following the relaxation, the system is scaled to the averaged volume as determined from the NPT simulation. A relaxation of 50 ps is performed, the final 25 ps of which is utilized to determine average energies. A defect (vacancy or interstitial) is then inserted into the system and allowed to evolve for 50 ps, the final 25 ps of which is utilized to determine average energies. For an alloy composition, a proportional number of atoms are either removed or inserted, depending on the defect type, to closely maintain the stoichiometry of the system. For interstitials, an atom is randomly deposited into the supercell, provided that no other atom is within 1.5 \AA, allowing for a random sampling of the entire supercell and all possible 
+
+local configurational environments. To ensure statistical certainty of the results, 2000 simulations for each defect type, pressure, and temperature are performed. 
+The formation energy is defined as:
+% E_f= E_f^def-  (n±1)/n E_f^bulk
+where n is the total number of atoms in the system with no defects and E$_f^{bulk}$ or E$_f^{def}$ is defined as:
+%E_f^(def/bulk)= E^*- N_U E_U-N_Mo E_Mo 
+where E$^*$ is the total energy of the system either with or without a defect, N$_U$ is the number of uranium atoms in the system, E$_U$ is the energy per atom of U, N$_{Mo}$ is the number of molybdenum atoms in the system, and E$_{Mo}$ is the energy per atom of Mo. The energy is defined for a given temperature and pressure, according to the system of interest. 
+
+The diffusion coefficient as a function of temperature and pressure is determined for the same sets of pressures as described above, but only for temperatures at 800 K and above. This is due to the limited thermal diffusion at low temperatures on a molecular dynamics time scale. The number of compositions is reduced to five (bcc U, U-5Mo, U-10Mo, U-15Mo, and bcc Mo) due to the computational cost associated with diffusion calculations. However, the primary concentration range of interest for U-Mo monolithic fuel is encompassed by this compositional range. An identical procedure is followed for the implementation of defects for investigation of diffusion as that which was followed for the investigation of defect energies. Following the defect insertion and relaxation, an additional evolution step of 10 ns was performed, over which the mean-squared displacement of the total system, and of each elemental species, was tracked. Over this 10 ns trajectory, three overlapping trajectories were obtained, each of length 6 ns, in order to subsample the trajectory and increase the statistics of the dataset. Additionally, five unique simulations are performed for each temperature, composition, and pressure, to further ensure statistical significance of the results. This results in a standard error for defect energies of less than 0.05 eV.
+
+Radiation damage...
+
+
+
+
+\section{Results}
+\subsection{Point Defect Formation Energies}
+An example of the formation energy as a function of pressure for U-10Mo at 1200 K is shown in Figure 108. In correspondence with prior work [118] on defect energetics in U-Mo systems, the interstitial formation energy for the nominal case is less than 1 eV (0.62 eV) and the vacancy formation energy is significantly high than the interstitial formation energy (1.92 eV). Considering slight differences in methodology, this is reasonable agreement with the previous literature. From Figure 108, it can be seen that as vacancies and interstitials exhibit opposite trends as a function of applied pressure, as would be expected. As a crystal structure is compressed (positive pressure), atoms are closer together than in the equilibrium case. As such, it would be expected that a vacancy is more easily formed in the compressive state, and this is indeed observed. In the tensile state (negative pressure), atoms are farther apart than at equilibrium and there is additional space between the atoms. In this case, it would be expected that it is comparatively easier for an interstitial for form, and this is indeed observed. There is a generally linear dependence of the formation energy on the applied pressure in the system, with vacancies exhibiting a negative slope and interstitials exhibiting a positive slope. The total magnitude change in the defect formation energy for this case is 0.14 eV and 0.17 eV for interstitials and vacancies, respectively. This corresponds to approximately a 4-5X higher defect concentration across this pressure range. 
+
+Generalizing to the U-Mo system, the interstitial and vacancy formation energies as a function of composition and pressure at 1200 K are shown in Figure 109 and Figure 110, respectively. The defect formation energies vary in a similar manner as a function of composition, with a minimum in the formation energy at 20-30 atomic percent. Interestingly, this is the target composition (22 atomic percent) for U-Mo monolithic fuel. Additionally, defect energies are at a maximum for the pure bcc Mo system for both interstitials and vacancies. The pressure sensitivity is not uniform for defect type and composition, in that interstitials are the most sensitive to pressure at intermediate compositions (40-60 atomic percent), while vacancies are the most sensitive to pressure in the U-rich regime. The trends of applied pressure observed in Figure 108 hold for all compositions. 
+
+The temperature dependence of the nominal pressure defect formation energies is shown in Figure 111. For interstitials, the temperature dependence undergoes an inflection point as a function of composition, in that in the U-rich regime, higher temperatures lead to higher interstitial energies, while in the Mo-rich regime higher temperatures lead to lower interstitial energies. This transition occurs at approximately 30 atomic percent or 15 weight percent Mo. For vacancies, the trend of defect energy with temperature is consistent across the compositional spectrum, in that higher temperatures lead to higher defect energies. The sensitivity of this temperature dependence varies with composition, with the most temperature-sensitive compositions in the U-rich regime. The application of pressure does affect the temperature dependence of defect formation energies, nor does the temperature affect the trends of applied pressure on defect formation energies. However, it does appear that at lower temperatures, the effects of pressure on interstitial formation energy are slightly dampened. Averaging over the entire compositional regime, an applied pressure of 10(-10) kbar at 1200 K produces a 11(9)\% increase(decrease) in the formation energy. At 600 K, an applied pressure of 10(-10) kbar produces a 6(7)\% increase(decrease) in the formation energy. 
+
+It is found that generally, vacancies are much less sensitive to pressure than interstitials, and that sensitively is not significantly affected by the temperature of interest. On average, an applied pressure of 10(-10) kbar produces a 3\% increase(decrease) in the vacancy formation energy. Since the magnitude of the vacancy formation energy is larger than the magnitude of the interstitial formation energy, the absolute (not relative) change in the defect formation energy with applied pressure is approximately the same for both interstitials and vacancies. Under reasonable applied bulk pressures below the yield point (<100 MPa), negligible deviations in the defect formations are observed. However, in circumstances where the pressures may be quite large, e.g., in the area surrounding a highly pressurized nanometer-sized bubble, statistically significant changes in the local defect formation energy could be observed, potentially altering fission gas bubble evolution and creep behaviors.
+
+\subsection{Point Defect Diffusion}
+The diffusion coefficient of interstitials and vacancies as a function of composition and temperature is shown in Figure 112. As previously observed [118], the defect diffusion coefficient varies as a function of composition, generally decreasing with an increasing content of Mo. However, there is an inflection point above U-15Mo for interstitials, as the interstitial diffusion coefficient for bcc Mo is higher than that of U-15Mo. For vacancies, there is no evident turnaround point. This is consistent with existing literature. 
+
+The diffusion coefficient for vacancies and interstitials as a function of pressure in U-10Mo at three temperatures is shown in Figure 113. There is minimal variation as a function of applied pressure, but clear trends do present themselves. As the pressure increases and the system is in compression, the diffusion coefficient tends to decrease for both vacancies and interstitials. Thus, there is a clear distinction between pressure effects on the formation energy and pressure effects on the diffusion. The diffusion will consist of a series of components, including the migration barrier and the jump frequency.  The migration barrier can be elucidated from the slope of the Arrhenius fit to the diffusion data. Such plots are shown in Figure 114 for U-10 Mo for all five pressures of interest. 
+
+There is very minimal variation in the migration energy as a function of pressure. The difference between the maximum and minimum predicted migration barriers is 0.02 eV, which is less than the presumed statistical certainty. As such, it can be supposed that applied pressure produces no statistically significant change in the migration barrier. To cause a slight reduction in the diffusion coefficient, it is then assumed that a compressive state reduces the attempt frequency of both types of defects, thereby reducing the magnitude of the defect diffusion. However, such changes in the diffusion coefficient are on the order of less than 10\% for 500 MPa (5 kbar). Additionally, it appears that the magnitude of the pressure dependence on interstitial diffusion decreases as the temperature decreases, taken from the slope in Figure 113. Given that research reactor temperatures are below the investigated temperature range, that expected pressures are significantly below the investigated range, and extrapolating the observed trends to lower temperatures, it is presumed that effectively negligible effects on point defect diffusion from the system pressure will be observed and can thus be safely ignored. 
+
+
+
+\subsection{Radiation Damage Generation}
+
+\section{Conclusions}
+This work investigated how the application of hydrostatic tension and compression affects the formation energy and diffusion coefficient of interstitials and vacancies in U-Mo as a function of pressure, temperature, and composition. On average, the maximum applied pressure of 10 kbar produces a 6\% increase in the interstitial formation energy and a 3\% decrease in the vacancy formation energy. Under reasonable applied bulk pressures below the yield point (<100 MPa), negligible deviations in the defect formations are observed. Also, applied pressures should yield negligible variation on point defect diffusion at relevant temperatures and pressures. There are impacts of the applied pressure on defect formation and diffusion and clear trends can be observed, but these effects are sufficiently small, even at large pressures, that they likely can be neglected for practical purposes. However, in circumstances where the pressures may be quite large, e.g., in the area surrounding a highly pressurized nanometer-sized bubble, statistically significant changes in the local defect formation energy and diffusion coefficient could be observed, potentially altering fission gas bubble evolution and creep behaviors.
+
+
+\bibliography{../beelerbib}
+
+\end{document}  

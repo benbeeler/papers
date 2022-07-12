@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{beelerAIMD}
+B.~Beeler, D.~Andersson, C.~Jiang, and Y.~Zhang.
+\newblock Ab initio molecular dynamics investigation of point defects in
+  gamma-u.
+\newblock {\em J. Nucl. Mater.}, 545:152415, 2020.
+
+\bibitem{beeler2010}
+B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, and M.~Okuniewski.
+\newblock First principles calculations for defects in {U}.
+\newblock {\em J. Phys.: Cond. Mat.}, 22:505703, 2010.
+
+\bibitem{hofman1997}
+G.~Hofman, L.~Walters, and T.~Bauer.
+\newblock Metallic fast reactor fuels.
+\newblock {\em Progress in Nuclear Energy}, 31:83, 1997.
+
+\bibitem{hu2017a}
+S.~Hu, V.~Joshi, and C.~Lavender.
+\newblock A rate-theory--phase-field model of irradiation-induced
+  recrystallization in {UMo} nuclear fuels.
+\newblock {\em JOM}, 69:2554, 2017.
+
+\bibitem{xjian2019}
+X.~Jian, F.~Yan, X.~Kong, and S.~Ding.
+\newblock Effects of u-mo irradiation creep coefficient on the mesoscale
+  mechanical behavior in u-mo/al monolithic fuel plates.
+\newblock {\em Nuclear Materials and Energy}, 21:100706, 2019.
+
+\bibitem{kim2013}
+Y.~Kim, G.~Hofman, J.~Cheon, A.~Robinson, and D.~Wachs.
+\newblock Fission induced swelling and creep of {U-Mo} alloy fuel.
+\newblock {\em J. Nucl. Mater.}, 437:37, 2013.
+
+\bibitem{xmiao2021}
+X.~Mao, X.~Jian, J.~Zhang, F.~Yan, S.~Ding, Y.~Huo, H.~Wang, L.~Zhang, and
+  Y.~Li.
+\newblock Effects of u-mo irradiation creep performance on the
+  thermo-mechanical coupling behavior in u-mo/al monolithic fuel assemblies.
+\newblock {\em Frontiers in Energy Research}, 9, 2021.
+
+\bibitem{meyer2014}
+M.~Meyer, J.~Gan, J.~Jue, D.~Keiser, E.~Perez, A.~Robinson, D.~Wachs,
+  N.~Woolstenhulme, G.~Hofman, and Y.~Kim.
+\newblock Irradiation performation of u-mo monolithic fuel.
+\newblock {\em Nucl. Eng. Tech.}, 46:169, 2014.
+
+\bibitem{park2021}
+G.~Park, B.~Beeler, and M.~A. Okuniewski.
+\newblock An atomistic study of defect energetics and diffusion with respect to
+  composition and temperature in $\gamma$u and $\gamma$u-mo alloys.
+\newblock {\em Journal of Nuclear Materials}, 552:152970, 2021.
+
+\bibitem{plimpton1995}
+S.~Plimpton.
+\newblock Fast parallel algorithms for short-range molecular dynamics.
+\newblock {\em J. Comp. Phys.}, 117:1--19, 1995.
+
+\bibitem{smirnova2015}
+D.~Smirnova, A.~Kuksin, and S.~Starikov.
+\newblock Investigation of point defects diffusion in bcc uranium and {U-Mo}
+  alloys.
+\newblock {\em J. Nucl. Mater.}, 458:304, 2015.
+
+\bibitem{smirnovaADP}
+D.~Smirnova, A.~Kuksin, S.~Starikov, and V.~Stegailov.
+\newblock Atomistic modeling of the self-diffusion in gamma u and gamma u-mo.
+\newblock {\em Phys. Met. and Metall.}, 116:445, 2015.
+
+\bibitem{ye2018}
+B.~Ye, G.~Hofman, A.~Leenaers, A.~Bergeron, V.~Kuzminov, S.~V. den Berghe,
+  Y.~Kim, and H.~Wallin.
+\newblock A modelling study of the inter-diffusion layer formation in {U-Mo/Al}
+  dispersion fuel plates at high power.
+\newblock {\em J. Nucl. Mater.}, 499:191, 2018.
+
+\bibitem{zhang2021}
+Y.~Zhang, A.~Manzoor, C.~Jiang, D.~Aidhy, and D.~Schwen.
+\newblock A statistical approach for atomistic calculations of vacancy
+  formation energy and chemical potentials in concentrated solid-solution
+  alloys.
+\newblock {\em Computational Materials Science}, 190:110308, 2021.
+
+\end{thebibliography}
