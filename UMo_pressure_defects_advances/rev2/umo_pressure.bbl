@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{bacon1980}
+D.~Bacon, D.~Barnett, and R.~Scattergood.
+\newblock Anisotropic continuum theory of lattice defects.
+\newblock {\em Progress in Materials Science}, 23:51--262, 1980.
+
 \bibitem{beelerAIMD}
 B.~Beeler, D.~Andersson, C.~Jiang, and Y.~Zhang.
 \newblock Ab initio molecular dynamics investigation of point defects in
@@ -10,6 +15,19 @@ B.~Beeler, D.~Andersson, C.~Jiang, and Y.~Zhang.
 B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, and M.~Okuniewski.
 \newblock First principles calculations for defects in {U}.
 \newblock {\em J. Phys.: Cond. Mat.}, 22:505703, 2010.
+
+\bibitem{dudarev2010}
+S.~L. Dudarev, M.~R. Gilbert, K.~Arakawa, H.~Mori, Z.~Yao, M.~L. Jenkins, and
+  P.~M. Derlet.
+\newblock Langevin model for real-time brownian dynamics of interacting
+  nanodefects in irradiated metals.
+\newblock {\em Phys. Rev. B}, 81:224107, Jun 2010.
+
+\bibitem{freysoldt2014}
+C.~Freysoldt, B.~Grabowski, T.~Hickel, J.~Neugebauer, G.~Kresse, A.~Janotti,
+  and C.~G. Van~de Walle.
+\newblock First-principles calculations for point defects in solids.
+\newblock {\em Rev. Mod. Phys.}, 86:253--305, Mar 2014.
 
 \bibitem{hofman1997}
 G.~Hofman, L.~Walters, and T.~Bauer.
@@ -63,10 +81,11 @@ D.~Smirnova, A.~Kuksin, and S.~Starikov.
   alloys.
 \newblock {\em J. Nucl. Mater.}, 458:304, 2015.
 
-\bibitem{smirnovaADP}
-D.~Smirnova, A.~Kuksin, S.~Starikov, and V.~Stegailov.
-\newblock Atomistic modeling of the self-diffusion in gamma u and gamma u-mo.
-\newblock {\em Phys. Met. and Metall.}, 116:445, 2015.
+\bibitem{starikov2018}
+S.~Starikov, L.~Kolotova, A.~Kuksin, D.~Smirnova, and V.~Tseplyaev.
+\newblock Atomistic simulation of cubic and tetragonal phases of u-mo alloy:
+  Structure and thermodynamic properties.
+\newblock {\em Journal of Nuclear Materials}, 499:451 -- 463, 2018.
 
 \bibitem{ye2018}
 B.~Ye, G.~Hofman, A.~Leenaers, A.~Bergeron, V.~Kuzminov, S.~V. den Berghe,

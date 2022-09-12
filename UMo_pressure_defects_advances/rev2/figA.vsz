@@ -1,8 +1,8 @@
 # Veusz saved document (version 3.4.0.1)
-# Saved at 2022-07-05T16:27:56.216006
+# Saved at 2022-09-09T17:53:51.256325
 
 SetCompatLevel(1)
-AddImportPath('/Users/benjaminbeeler/projects/papers/UMo_pressure_defects')
+AddImportPath('/Users/benjaminbeeler/projects/papers/UMo_pressure_defects_advances/rev2')
 ImportFileCSV('figA.csv', linked=True)
 Set('colorTheme', 'default-latest')
 Set('StyleSheet/axis-function/autoRange', 'next-tick')
@@ -158,7 +158,7 @@ To('xy5')
 Set('marker', 'plus')
 Set('xData', '\ufefffracMo')
 Set('yData', 'I-10')
-Set('key', '-1 kbar')
+Set('key', '-10 kbar')
 To('..')
 Add('key', name='key1', autoadd=False)
 To('key1')
