@@ -1,0 +1,67 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-09-13T14:32:25.704663
+
+SetCompatLevel(1)
+AddImportPath('/Users/beelbw/projects/papers/licl-kcl-nacl/original_submission/images')
+ImportString('Density(numeric)','''
+1.462117e+00
+1.432688e+00
+1.438512e+00
+1.489067e+00
+1.422367e+00
+1.437209e+00
+1.383909e+00
+1.474533e+00
+1.487956e+00
+''')
+ImportString('NaCl(numeric)','''
+4.100000e+01
+2.400000e+01
+1.500000e+01
+5.000000e+01
+2.800000e+01
+0.000000e+00
+0.000000e+00
+0.000000e+00
+1.000000e+02
+''')
+SetDataText('labels', [
+    'LiCl',
+    'KCl',
+    'NaCl',
+])
+ImportString('`\ufeffKCl`(numeric)','''
+2.500000e+01
+3.200000e+01
+3.600000e+01
+5.000000e+01
+0.000000e+00
+4.100000e+01
+0.000000e+00
+1.000000e+02
+0.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('ternary', name='ternary1', autoadd=False)
+To('ternary1')
+Set('labelbottom', 'KCl')
+Set('labelleft', 'NaCl')
+Set('labelright', 'LiCl')
+Add('nonorthpoint', name='nonorthpoint1', autoadd=False)
+To('nonorthpoint1')
+Set('markerSize', '6pt')
+Set('data1', '\ufeffKCl')
+Set('data2', 'NaCl')
+Set('labels', '')
+Set('scalePoints', [])
+Set('Color/max', 2.0)
+Set('Color/scaling', 'linear')
+Set('PlotLine/hide', True)
+Set('MarkerLine/scaleLine', True)
+Set('MarkerFill/newMarkerSizes', False)
+To('..')
+To('..')
+To('..')

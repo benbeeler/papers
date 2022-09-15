@@ -1,0 +1,67 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-09-13T14:55:05.106781
+
+SetCompatLevel(1)
+AddImportPath('/Users/beelbw/projects/papers/licl-kcl-nacl/original_submission/images')
+ImportFileCSV('cp_nacl.csv', linked=True)
+ImportString('`T=1100K`(numeric)','''
+1.437209e+00
+1.438512e+00
+1.432688e+00
+1.462117e+00
+1.540339e+00
+''')
+ImportString('`\ufeffNaCl`(numeric)','''
+0.000000e+00
+1.500000e-01
+2.400000e-01
+4.100000e-01
+1.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Set('width', '17cm')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Set('leftMargin', '1.8cm')
+Set('rightMargin', '1.8cm')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'NaCl Composition')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Density (g/cc)')
+Set('min', 1.4)
+Set('direction', 'vertical')
+Set('MajorTicks/number', 5)
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffNaCl')
+Set('yData', 'T=1100K')
+Set('key', 'Density')
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('xData', '\ufeffNaCl-Cp')
+Set('yData', 'Cp')
+Set('key', 'Heat Capacity')
+Set('yAxis', 'axis1')
+To('..')
+Add('axis', name='axis1', autoadd=False)
+To('axis1')
+Set('label', 'Heat Capacity (J-mol/K)')
+Set('max', 'Auto')
+Set('direction', 'vertical')
+Set('otherPosition', 1.0)
+To('..')
+Add('key', name='key1', autoadd=False)
+To('key1')
+Set('horzPosn', 'centre')
+To('..')
+To('..')
+To('..')

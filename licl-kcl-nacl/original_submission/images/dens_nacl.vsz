@@ -1,0 +1,44 @@
+# Veusz saved document (version 3.4.0.1)
+# Saved at 2022-09-13T14:41:05.973509
+
+SetCompatLevel(1)
+AddImportPath('/Users/beelbw/projects/papers/licl-kcl-nacl/original_submission/images')
+ImportString('`T=1100K`(numeric)','''
+1.437209e+00
+1.438512e+00
+1.432688e+00
+1.462117e+00
+1.540339e+00
+''')
+ImportString('`\ufeffNaCl`(numeric)','''
+0.000000e+00
+1.500000e-01
+2.400000e-01
+4.100000e-01
+1.000000e+00
+''')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Set('leftMargin', '1.8cm')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'NaCl Composition')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Density (g/cc)')
+Set('min', 1.4)
+Set('direction', 'vertical')
+Set('MajorTicks/number', 5)
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('xData', '\ufeffNaCl')
+Set('yData', 'T=1100K')
+To('..')
+To('..')
+To('..')

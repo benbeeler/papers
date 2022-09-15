@@ -1,8 +1,91 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{rollet2011}
+A.-L. Rollet, M.~Salanne, \href{http://dx.doi.org/10.1039/C1PC90003J}{Studies
+  of the local structures of molten metal halides}, Annu. Rep. Prog. Chem.{,}
+  Sect. C: Phys. Chem. 107 (2011) 88--123.
+\newblock \href {https://doi.org/10.1039/C1PC90003J}
+  {\path{doi:10.1039/C1PC90003J}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1039/C1PC90003J}
+
+\bibitem{Ding2017}
+J.~Ding, G.~Pan, L.~Du, J.~Lu, X.~Wei, J.~Li, W.~Wang, J.~Yan,
+  \href{https://www.sciencedirect.com/science/article/pii/S2211285517304330}{Theoretical
+  prediction of the local structures and transport properties of binary alkali
+  chloride salts for concentrating solar power}, Nano Energy 39 (2017)
+  380--389.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.nanoen.2017.07.020}
+  {\path{doi:https://doi.org/10.1016/j.nanoen.2017.07.020}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2211285517304330}
+
+\bibitem{Li2017}
+X.~Li, J.~Song, S.~Shi, L.~Yan, Z.~Zhang, T.~Jiang, S.~Peng,
+  \href{https://doi.org/10.1021/acs.jpca.6b10193}{Dynamic fluctuation of u3+
+  coordination structure in the molten licl–kcl eutectic via first principles
+  molecular dynamics simulations}, The Journal of Physical Chemistry A 121~(3)
+  (2017) 571--578, pMID: 28045530.
+\newblock \href {http://arxiv.org/abs/https://doi.org/10.1021/acs.jpca.6b10193}
+  {\path{arXiv:https://doi.org/10.1021/acs.jpca.6b10193}}, \href
+  {https://doi.org/10.1021/acs.jpca.6b10193}
+  {\path{doi:10.1021/acs.jpca.6b10193}}.
+\newline\urlprefix\url{https://doi.org/10.1021/acs.jpca.6b10193}
+
+\bibitem{Kresse1996}
+G.~Kresse, J.~Furthm{\"{u}}ller,
+  \href{http://www.sciencedirect.com/science/article/pii/0927025696000080}{{Efficiency
+  of ab-initio total energy calculations for metals and semiconductors using a
+  plane-wave basis set}}, Computational Materials Science 6~(1) (1996) 15--50.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0927-0256(96)00008-0}
+  {\path{doi:https://doi.org/10.1016/0927-0256(96)00008-0}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0927025696000080}
+
+\bibitem{PAW1}
+G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
+  augmented-wave method, Phys. Rev. B 59 (1999) 1758--1775.
+
+\bibitem{PAW2}
+P.~E. Bl\"ochl, Projector augmented-wave method, Phys. Rev. B 50 (1994)
+  17953--17979.
+
+\bibitem{Li}
+B.~Li, S.~Dai, D.-e. Jiang, {F}irst-{P}rinciples {M}olecular {D}ynamics
+  {S}imulations of {UC}l$_n$-{N}a{C}l (n = 3, 4) {M}olten {S}alts, ACS Appl.
+  Energy Mater. 2 (2019) 2122--2128.
+
+\bibitem{Nam2014}
+H.~O. Nam, A.~Bengtson, K.~V\"{o}rtler, S.~Saha, R.~Sakidja, D.~Morgan,
+  First-principles molecular dynamics modeling of the molten fluoride salt with
+  {C}r solute, J. Nucl. Mater. 449 (2014) 148.
+
+\bibitem{Nam2015}
+H.~O. Nam, D.~Morgan, Redox condition in molten salts and solute behavior: {A}
+  first-principles molecular dynamics study, J. Nucl. Mater. 465 (2015) 224.
+
+\bibitem{Grimme}
+S.~Grimme, S.~Ehrlich, L.~Goerigk, Effect of the damping function in dispersion
+  corrected density functional theory, J. Comp. Chem. 32~(7) (2011) 1456--1465.
+
+\bibitem{Dion}
+M.~Dion, H.~Rydberg, E.~Schr\"oder, D.~C. Langreth, B.~I. Lundqvist, Van der
+  {W}aals {D}ensity {F}unctional for {G}eneral {G}eometries, Phys. Rev. Lett.
+  92 (2004) 246401.
+
+\bibitem{Klimes}
+J.~Klime\v{s}, D.~R. Bowler, A.~Michaelides, {V}an der {W}aals density
+  functionals applied to solids, Phys. Rev. B 83 (2011) 195131.
+
+\bibitem{Duemmler2021}
+K.~Duemmler, Y.~Lin, M.~Woods, T.~Karlsson, R.~Gakhar, B.~Beeler,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311521006346}{Evaluation
+  of thermophysical properties of the licl-kcl system via ab initio and
+  experimental methods}, Journal of Nuclear Materials (2021) 153414\href
+  {https://doi.org/https://doi.org/10.1016/j.jnucmat.2021.153414}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2021.153414}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311521006346}
 
 \end{thebibliography}

@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
-I found no \citation commands---while reading file main.aux
-Database file #1: reference.bib
-You've used 0 entries,
+Database file #1: beeler.bib
+You've used 13 entries,
             2952 wiz_defined-function locations,
-            669 strings with 5074 characters,
-and the built_in function-call counts, 44 in all, are:
-= -- 0
-> -- 0
+            780 strings with 8051 characters,
+and the built_in function-call counts, 4320 in all, are:
+= -- 412
+> -- 163
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 23
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 63
+- -- 50
+* -- 372
+:= -- 631
+add.period$ -- 17
+call.type$ -- 13
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 13
+duplicate$ -- 114
+empty$ -- 448
+format.name$ -- 62
+if$ -- 1076
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 56
+num.names$ -- 13
+pop$ -- 64
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 237
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 275
+swap$ -- 30
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 7
-(There was 1 error message)
+while$ -- 29
+width$ -- 15
+write$ -- 126
