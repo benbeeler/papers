@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: marked.aux
+The style file: elsarticle-num.bst
+Database file #1: mybib.bib
+Warning--I didn't find a database entry for "davis1963aere"
+You've used 76 entries,
+            2952 wiz_defined-function locations,
+            1094 strings with 21362 characters,
+and the built_in function-call counts, 23629 in all, are:
+= -- 2083
+> -- 1240
+< -- 11
++ -- 464
+- -- 388
+* -- 1877
+:= -- 3527
+add.period$ -- 76
+call.type$ -- 76
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 76
+duplicate$ -- 610
+empty$ -- 2346
+format.name$ -- 456
+if$ -- 5804
+int.to.chr$ -- 0
+int.to.str$ -- 76
+missing$ -- 69
+newline$ -- 236
+num.names$ -- 76
+pop$ -- 398
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1367
+stack$ -- 0
+substring$ -- 1320
+swap$ -- 84
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 183
+width$ -- 78
+write$ -- 623
+(There was 1 warning)

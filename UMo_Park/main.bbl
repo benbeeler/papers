@@ -1,0 +1,386 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{kim2011fission}
+Y.~S. Kim, G.~L. Hofman, Fission product induced swelling of {U}--{M}o alloy
+  fuel, Journal of Nuclear Materials 419~(1-3) (2011) 291--301.
+
+\bibitem{robinson2013irradiation}
+A.~Robinson, D.~Perez, D.~Porter, et~al., Irradiation {P}erformance of {U}-{M}o
+  {A}lloy {B}ased `{M}onolithic' {P}late-{T}ype-{D}esign {S}election {U}pdate,
+  Tech. Rep. No. INL/EXT-09-16807, Idaho National Lab.(INL), Idaho Falls, ID
+  (United States) (2013).
+
+\bibitem{meyer2014irradiation}
+M.~Meyer, J.~Gan, J.~Jue, D.~Keiser, E.~Perez, A.~Robinson, D.~Wachs,
+  N.~Woolstenhulme, G.~Hofman, Y.~Kim, Irradiation performance of {U}-{M}o
+  monolithic fuel, Nuclear Engineering and Technology 46~(2) (2014) 169--182.
+
+\bibitem{keiser2017observed}
+D.~Keiser, J.-F. Jue, B.~Miller, J.~Gan, A.~Robinson, J.~Madden, Observed
+  changes in as-fabricated {U}-10{M}o monolithic fuel microstructures after
+  irradiation in the advanced test reactor, JOM 69~(12) (2017) 2538--2545.
+
+\bibitem{prabhakaran2017u}
+R.~Prabhakaran, {U}-{M}o monolithic fuel for nuclear research and test
+  reactors, JOM 69~(12) (2017) 2529--2531.
+
+\bibitem{jue2018effects}
+J.-F. Jue, D.~D. Keiser~Jr, B.~D. Miller, J.~W. Madden, A.~B. Robinson, B.~H.
+  Rabin, Effects of irradiation on the interface between {U}-{M}o and zirconium
+  diffusion barrier, Journal of Nuclear Materials 499 (2018) 567--581.
+
+\bibitem{miller2021u}
+C.~Miller, B.~Durtschi, J.~I. Cole, K.~Daum, U-10{M}o {M}onolithic {F}uel
+  {Q}ualification {P}lan, Tech. Rep. No. INL/EXT-13-30238-Rev003, Idaho
+  National Lab.(INL), Idaho Falls, ID (United States) (2021).
+
+\bibitem{gan2017irradiated}
+J.~Gan, B.~Miller, D.~Keiser~Jr, J.~Jue, J.~Madden, A.~Robinson, H.~Ozaltun,
+  G.~Moore, M.~Meyer, Irradiated microstructure of {U}-10{M}o monolithic fuel
+  plate at very high fission density, Journal of Nuclear Materials 492 (2017)
+  195--203.
+
+\bibitem{giglio2021ushprr}
+J.~J. Giglio, U{S}{H}{P}{R}{R} {M}{P}-1: Observations from {P}{I}{E} and path
+  forward for the {M}{P}-2 {E}xperiment and {E}xperimental {S}ummary, Tech.
+  Rep. No. INL/EXT-21-61324-Rev000, Idaho National Lab.(INL), Idaho Falls, ID
+  (United States) (2021).
+
+\bibitem{nordlund2018primary}
+K.~Nordlund, S.~J. Zinkle, A.~E. Sand, F.~Granberg, R.~S. Averback, R.~E.
+  Stoller, T.~Suzudo, L.~Malerba, F.~Banhart, W.~J. Weber, F.~Willaime, S.~L.
+  Dudarev, D.~Simeone, Primary radiation damage: A review of current
+  understanding and models, Journal of Nuclear Materials 512 (2018) 450--479.
+
+\bibitem{kim2008characterization}
+Y.~Kim, G.~Hofman, J.~Rest, G.~Shevlyakov, S.~RIAR, et~al., Characterization of
+  intergranular fission gas bubbles in {U}-{M}o fuel., Tech. Rep. No.
+  ANL-08/11, Argonne National Lab.(ANL), Argonne, IL (United States) (2008).
+
+\bibitem{van2008transmission}
+S.~Van~den Berghe, W.~Van~Renterghem, A.~Leenaers, Transmission electron
+  microscopy investigation of irradiated {U}--7 wt\% {M}o dispersion fuel,
+  Journal of Nuclear Materials 375~(3) (2008) 340--346.
+
+\bibitem{gan2010transmission}
+J.~Gan, D.~D. Keiser~Jr, D.~M. Wachs, A.~B. Robinson, B.~D. Miller, T.~R.
+  Allen, Transmission electron microscopy characterization of irradiated
+  {U}--7{M}o/{A}l--2{S}i dispersion fuel, Journal of Nuclear Materials
+  396~(2-3) (2010) 234--239.
+
+\bibitem{olander2006re}
+D.~Olander, D.~Wongsawaeng, Re-solution of fission gas--{A} review: {P}art {I}.
+  {I}ntragranular bubbles, Journal of Nuclear Materials 354~(1-3) (2006)
+  94--109.
+
+\bibitem{rest2005model}
+J.~Rest, A model for the effect of the progression of irradiation-induced
+  recrystallization from initiation to completion on swelling of {U}{O}$_{2}$
+  and {U}--10{M}o nuclear fuels, Journal of Nuclear Materials 346~(2-3) (2005)
+  226--232.
+
+\bibitem{kim2013recrystallization}
+Y.~S. Kim, G.~Hofman, J.~Cheon, Recrystallization and fission-gas-bubble
+  swelling of {U}--{M}o fuel, Journal of Nuclear Materials 436~(1-3) (2013)
+  14--22.
+
+\bibitem{liang2016mesoscale}
+L.~Liang, Z.-G. Mei, Y.~S. Kim, B.~Ye, G.~Hofman, M.~Anitescu, A.~M. Yacout,
+  Mesoscale model for fission-induced recrystallization in {U}-7{M}o alloy,
+  Computational Materials Science 124 (2016) 228--237.
+
+\bibitem{hu2009phase}
+S.~Hu, C.~H. Henager~Jr, H.~L. Heinisch, M.~Stan, M.~I. Baskes, S.~M. Valone,
+  Phase-field modeling of gas bubbles and thermal conductivity evolution in
+  nuclear fuels, Journal of Nuclear Materials 392~(2) (2009) 292--300.
+
+\bibitem{hu2016formation}
+S.~Hu, D.~E. Burkes, C.~A. Lavender, D.~J. Senor, W.~Setyawan, Z.~Xu, Formation
+  mechanism of gas bubble superlattice in {U}{M}o metal fuels: Phase-field
+  modeling investigation, Journal of Nuclear Materials 479 (2016) 202--215.
+
+\bibitem{liang2018three}
+L.~Liang, Z.-G. Mei, Y.~S. Kim, M.~Anitescu, A.~M. Yacout, Three-dimensional
+  phase-field simulations of intragranular gas bubble evolution in irradiated
+  {U}-{M}o fuel, Computational Materials Science 145 (2018) 86--95.
+
+\bibitem{liang2018fission}
+L.~Liang, Y.~S. Kim, Z.-G. Mei, L.~K. Aagesen, A.~M. Yacout, Fission gas
+  bubbles and recrystallization-induced degradation of the effective thermal
+  conductivity in {U}-7{M}o fuels, Journal of Nuclear Materials 511 (2018)
+  438--445.
+
+\bibitem{ye2015dart}
+B.~Ye, J.~Rest, Y.~S. Kim, G.~Hofman, B.~Dionne, D{A}{R}{T} analysis of
+  irradiation behavior of {U}-{M}o/{A}l dispersion fuels, Nuclear Technology
+  191~(1) (2015) 27--40.
+
+\bibitem{ye2018modelling}
+B.~Ye, G.~Hofman, A.~Leenaers, A.~Bergeron, V.~Kuzminov, S.~Van~den Berghe,
+  Y.~Kim, H.~Wallin, A modelling study of the inter-diffusion layer formation
+  in {U}-{M}o/{A}l dispersion fuel plates at high power, Journal of Nuclear
+  Materials 499 (2018) 191--203.
+
+\bibitem{turnbull1982diffusion}
+J.~Turnbull, C.~Friskney, J.~Findlay, F.~Johnson, A.~Walter, The diffusion
+  coefficients of gaseous and volatile species during the irradiation of
+  uranium dioxide, Journal of Nuclear Materials 107~(2-3) (1982) 168--184.
+
+\bibitem{perriot2019atomistic}
+R.~Perriot, C.~Matthews, M.~W. Cooper, B.~P. Uberuaga, C.~R. Stanek, D.~A.
+  Andersson, Atomistic modeling of out-of-pile xenon diffusion by vacancy
+  clusters in {U}{O}$_{2}$, Journal of Nuclear Materials 520 (2019) 96--109.
+
+\bibitem{cooper2021irradiation}
+M.~W.~D. Cooper, K.~A. Gamble, L.~Capolungo, C.~Matthews, D.~Andersson,
+  B.~Beeler, C.~R. Stanek, K.~Metzger, Irradiation-enhanced diffusion and
+  diffusion-limited creep in {U}$_3${S}i$_{2}$, Journal of Nuclear Materials
+  555 (2021) 153129.
+
+\bibitem{beeler2021radiation}
+B.~Beeler, M.~W. Cooper, Z.-G. Mei, D.~Schwen, Y.~Zhang, Radiation driven
+  diffusion in $\gamma${U}-{M}o, Journal of Nuclear Materials 543 (2021)
+  152568.
+
+\bibitem{hu2016microstructural}
+S.~Hu, V.~Joshi, C.~Lavender, N.~Lombardo, J.~Wight, B.~Ye, et~al.,
+  Microstructural level fuel performance modeling of {U}{M}o monolithic fuel,
+  Tech. Rep. No. INL/LTD-16-40028, Idaho National Lab.(INL), Idaho Falls, ID
+  (United States) (2016).
+
+\bibitem{Beeler2018microstructural}
+B.~Beeler, J.~Burks, J.~Cole, Y.~Gao, G.~Hofman, V.~Hu, Joshi, C.~Lavendar,
+  L.~Liang, N.~Lombardo, Z.-G. Mei, A.~Oaks, J.~Wight, A.~Yacout, B.~Ye,
+  Y.~Zhang, Microstructural level fuel performance modeling of {U}{M}o
+  monolithic fuel, Tech. Rep. No. INL/LTD-18-51573, Idaho National Lab.(INL),
+  Idaho Falls, ID (United States) (2018).
+
+\bibitem{huang2013}
+K.~Huang, J.~D. Keiser, Y.~Sohn, Interdiffusion, intrinsic diffusion, atomic
+  mobility, and vacancy wind effect in $\gamma$(bcc) uranium-molybdenum alloy,
+  Metallurgical and Materials Transactions A 44A (2013) 738.
+
+\bibitem{kolotova2017atomistic}
+L.~Kolotova, S.~Starikov, Atomistic simulation of defect formation and
+  structure transitions in {U}-{M}o alloys in swift heavy ion irradiation,
+  Journal of Nuclear Materials 495 (2017) 111--117.
+
+\bibitem{kolotova2019atomistic}
+L.~Kolotova, S.~Starikov, V.~Ozrin, Atomistic simulation of the
+  fission-fragment-induced formation of defects in a uranium--molybdenum alloy,
+  Journal of Experimental and Theoretical Physics 129~(1) (2019) 59--65.
+
+\bibitem{andersson2014atomistic}
+D.~Andersson, P.~Garcia, X.-Y. Liu, G.~Pastore, M.~Tonks, P.~Millett,
+  B.~Dorado, D.~Gaston, D.~Andrs, R.~Williamson, et~al., Atomistic modeling of
+  intrinsic and radiation-enhanced fission gas ({X}e) diffusion in
+  {U}{O}$_{2\pm x}$: Implications for nuclear fuel performance modeling,
+  Journal of Nuclear Materials 451~(1-3) (2014) 225--242.
+
+\bibitem{matthews2020cluster}
+C.~Matthews, R.~Perriot, W.~Cooper, C.~R. Stanek, D.~A. Andersson, Cluster
+  dynamics simulation of xenon diffusion during irradiation in {U}{O}$_{2}$,
+  Journal of Nuclear Materials 540 (2020) 152326.
+
+\bibitem{plimpton1995fast}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics,
+  Journal of Computational Physics 117~(1) (1995) 1--19.
+
+\bibitem{daw1983semiempirical}
+M.~S. Daw, M.~I. Baskes, Semiempirical, quantum mechanical calculation of
+  hydrogen embrittlement in metals, Physical Review Letters 50~(17) (1983)
+  1285.
+
+\bibitem{daw1984embedded}
+M.~S. Daw, M.~I. Baskes, Embedded-atom method: Derivation and application to
+  impurities, surfaces, and other defects in metals, Physical Review B 29~(12)
+  (1984) 6443.
+
+\bibitem{smirnova2013ternary}
+D.~Smirnova, A.~Y. Kuksin, S.~Starikov, V.~Stegailov, Z.~Insepov, J.~Rest,
+  A.~Yacout, A ternary {E}{A}{M} interatomic potential for {U}--{M}o alloys
+  with xenon, Modelling and Simulation in Materials Science and Engineering
+  21~(3) (2013) 035011.
+
+\bibitem{ercolessi1994interatomic}
+F.~Ercolessi, J.~B. Adams, Interatomic potentials from first-principles
+  calculations: the force-matching method, EPL (Europhysics Letters) 26~(8)
+  (1994) 583.
+
+\bibitem{gronbech2013simple}
+N.~Gr{\o}nbech-Jensen, O.~Farago, A simple and effective {V}erlet-type
+  algorithm for simulating {L}angevin dynamics, Molecular Physics 111~(8)
+  (2013) 983--991.
+
+\bibitem{gronbech2014application}
+N.~Gr{\o}nbech-Jensen, N.~R. Hayre, O.~Farago, Application of the {G}-{JF}
+  discrete-time thermostat for fast and accurate molecular simulations,
+  Computer Physics Communications 185~(2) (2014) 524--527.
+
+\bibitem{park2021atomistic}
+G.~Park, B.~Beeler, M.~A. Okuniewski, An atomistic study of defect energetics
+  and diffusion with respect to composition and temperature in $\gamma${U} and
+  $\gamma${U}-{M}o alloys, Journal of Nuclear Materials 552 (2021) 152970.
+
+\bibitem{andersson2019density}
+D.~Andersson, X.-Y. Liu, B.~Beeler, S.~Middleburgh, A.~Claisse, C.~R. Stanek,
+  Density functional theory calculations of self-and {X}e diffusion in
+  {U}$_{3}${S}i$_{2}$, Journal of Nuclear Materials 515 (2019) 312--325.
+
+\bibitem{andersson2011u}
+D.~Andersson, B.~Uberuaga, P.~Nerikar, C.~Unal, C.~Stanek, U and {X}e transport
+  in {U}{O}$_{2\pm x}$: Density functional theory calculations, Physical Review
+  B 84~(5) (2011) 054105.
+
+\bibitem{thompson2013pathway}
+A.~E. Thompson, C.~Wolverton, Pathway and energetics of xenon migration in
+  uranium dioxide, Physical Review B 87~(10) (2013) 104105.
+
+\bibitem{bes2015experimental}
+R.~B{\`e}s, P.~Martin, E.~Vathonne, R.~Delorme, C.~Sabathier, M.~Freyss,
+  M.~Bertolus, P.~Glatzel, Experimental evidence of {X}e incorporation in
+  schottky defects in {U}{O}$_{2}$, Applied Physics Letters 106~(11) (2015)
+  114102.
+
+\bibitem{beeler2011formation}
+B.~Beeler, B.~Good, C.~Deo, S.~Rashkeev, M.~Baskes, M.~Okuniewski, Formation
+  and incorporation energies of fission gases {H}e, {X}e, and {K}r in bcc
+  uranium, Minerals, Metals and Materials Society/AIME (2011).
+
+\bibitem{beeler2012first}
+B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, M.~Okuniewski,
+  First-principles calculations of the stability and incorporation of helium,
+  xenon and krypton in uranium, Journal of Nuclear Materials 425~(1-3) (2012)
+  2--7.
+
+\bibitem{beeler2020improved}
+B.~Beeler, S.~Hu, Y.~Zhang, Y.~Gao, A improved equation of state for {X}e gas
+  bubbles in $\gamma${U}-{M}o fuels, Journal of Nuclear Materials 530 (2020)
+  151961.
+
+\bibitem{wanner1996solving}
+G.~Wanner, E.~Hairer, Solving ordinary differential equations II, Vol. 375,
+  Springer Berlin Heidelberg New York, 1996.
+
+\bibitem{bezanson2017julia}
+J.~Bezanson, A.~Edelman, S.~Karpinski, V.~B. Shah, Julia: A fresh approach to
+  numerical computing, SIAM review 59~(1) (2017) 65--98.
+
+\bibitem{nordlund2018improving}
+K.~Nordlund, S.~J. Zinkle, A.~E. Sand, F.~Granberg, R.~S. Averback, R.~Stoller,
+  T.~Suzudo, L.~Malerba, F.~Banhart, W.~J. Weber, F.~Willaime, S.~L. Dudarev,
+  D.~Simeone, Improving atomic displacement and replacement calculations with
+  physically realistic damage models, Nature Communications 9~(1) (2018) 1--8.
+
+\bibitem{norgett1975proposed}
+M.~Norgett, M.~Robinson, I.~Torrens, A proposed method of calculating
+  displacement dose rates, Nuclear Engineering and Design 33~(1) (1975) 50--54.
+
+\bibitem{beeler2018calculation}
+B.~Beeler, Y.~Zhang, M.~Okuniewski, C.~Deo, Calculation of the displacement
+  energy of $\alpha$ and $\gamma$ {u}ranium, Journal of Nuclear Materials 508
+  (2018) 181--194.
+
+\bibitem{zhang2012atomistic}
+Y.~Zhang, H.~Huang, P.~C. Millett, M.~Tonks, D.~Wolf, S.~R. Phillpot, Atomistic
+  study of grain boundary sink strength under prolonged electron irradiation,
+  Journal of Nuclear Materials 422~(1-3) (2012) 69--76.
+
+\bibitem{kleykamp1985chemical}
+H.~Kleykamp, The chemical state of the fission products in oxide fuels, Journal
+  of Nuclear Materials 131~(2-3) (1985) 221--246.
+
+\bibitem{nichols2008handbook}
+A.~Nichols, M.~Verpelli, D.~Aldama, Handbook of nuclear data for safeguards:
+  database extensions, August 2008, IAEA, 2008.
+
+\bibitem{beeler2021microstructural}
+B.~Beeler, J.~Cole, W.~Frazier, Y.~Gao, I.~Glagolenko, G.~Hofman, S.~Hu,
+  V.~Joshi, C.~Lavendar, N.~Lombardo, S.~Masengale, Z.~Mei, A.~Oaks,
+  M.~Okuniewski, G.~Park, K.~Verner, A.~Yacout, B.~Ye, Y.~Zhang,
+  Microstructural-level fuel performance modeling of {U}{M}o monolithic fuel,
+  Tech. Rep. No. INL/EXT-20-60591, Idaho National Lab.(INL), Idaho Falls, ID
+  (United States) (2020).
+
+\bibitem{bai2017modeling}
+X.-M. Bai, H.~Ke, Y.~Zhang, B.~W. Spencer, Modeling copper precipitation
+  hardening and embrittlement in a dilute {F}e-0.3 at.\% {C}u alloy under
+  neutron irradiation, Journal of Nuclear Materials 495 (2017) 442--454.
+
+\bibitem{was2016fundamentals}
+G.~S. Was, Fundamentals of radiation materials science: metals and alloys,
+  Springer, 2016.
+
+\bibitem{smirnova2015investigation}
+D.~Smirnova, A.~Y. Kuksin, S.~Starikov, Investigation of point defects
+  diffusion in bcc uranium and {U}--{M}o alloys, Journal of Nuclear Materials
+  458 (2015) 304--311.
+
+\bibitem{yu2012radiation}
+K.~Yu, Y.~Liu, C.~Sun, H.~Wang, L.~Shao, E.~Fu, X.~Zhang, Radiation damage in
+  helium ion irradiated nanocrystalline {F}e, Journal of Nuclear Materials
+  425~(1-3) (2012) 140--146.
+
+\bibitem{nakashima2015recombination}
+K.~Nakashima, R.~E. Stoller, H.~Xu, Recombination radius of a frenkel pair and
+  capture radius of a self-interstitial atom by vacancy clusters in bcc {F}e,
+  Journal of Physics: Condensed Matter 27~(33) (2015) 335401.
+
+\bibitem{veshchunov2015development}
+M.~Veshchunov, A.~Boldyrev, A.~Kuznetsov, V.~Ozrin, M.~Seryi, V.~Shestak,
+  V.~Tarasov, G.~Norman, A.~Y. Kuksin, V.~Pisarev, et~al., Development of the
+  advanced mechanistic fuel performance and safety code using the multi-scale
+  approach, Nuclear Engineering and Design 295 (2015) 116--126.
+
+\bibitem{smirnova2015atomistic}
+D.~Smirnova, A.~Y. Kuksin, S.~Starikov, V.~Stegailov, Atomistic modeling of the
+  self-diffusion in $\gamma$-{U} and $\gamma$-{U}-{M}o, The Physics of Metals
+  and Metallography 116~(5) (2015) 445--455.
+
+\bibitem{baker1977migration}
+C.~Baker, The migration of intragranular fission gas bubbles in irradiated
+  uranium dioxide, Journal of Nuclear Materials 71~(1) (1977) 117--123.
+
+\bibitem{kim2022modeling}
+D.-U. Kim, S.~Blondel, D.~E. Bernholdt, P.~Roth, F.~Kong, D.~Andersson, M.~R.
+  Tonks, B.~D. Wirth, Modeling mesoscale fission gas behavior in {U}{O}$_{2}$
+  by directly coupling the phase field method to spatially resolved cluster
+  dynamics, Materials Theory 6~(1) (2022) 1--28.
+
+\bibitem{stukowski2009visualization}
+A.~Stukowski, Visualization and analysis of atomistic simulation data with
+  {OVITO}--the {O}pen {V}isualization {T}ool, Modelling and Simulation in
+  Materials Science and Engineering 18~(1) (2009) 015012.
+
+\bibitem{marshall2016new}
+M.~A. Marshall, M.~A. Lillo, New {A}s-run {N}eutronics {A}nalysis for
+  {R}{E}{R}{T}{R}-12 {F}uel {F}oil {E}xperiments, Tech. Rep. No.
+  INL/CON-15-36359-Rev000, Idaho National Lab.(INL), Idaho Falls, ID (United
+  States) (2016).
+
+\bibitem{leenaers2016high}
+A.~Leenaers, W.~Van~Renterghem, S.~Van~den Berghe, High burn-up structure of
+  {U}({M}o) dispersion fuel, Journal of Nuclear Materials 476 (2016) 218--230.
+
+\bibitem{perez2012rertr1}
+D.~Perez, M.~Lillo, G.~Chang, N.~Woolstenhulme, {R}{E}{R}{T}{R}-12 {I}nsertion
+  1 {I}rradiation {S}ummary {R}eport, Tech. Rep. No. INL/EXT-11-24101IN, Idaho
+  National Lab.(INL), Idaho Falls, ID (United States) (2012).
+
+\bibitem{perez2012rertr2}
+D.~Perez, G.~Chang, D.~Wachs, G.~Roth, N.~Woolstenhulme, {R}{E}{R}{T}{R}-12
+  {I}nsertion 2 {I}rradiation {S}ummary {R}eport, Tech. Rep. No.
+  INL/EXT-12-27085, Idaho National Lab.(INL), Idaho Falls, ID (United States)
+  (2012).
+
+\bibitem{smith2022high}
+C.~A. Smith, S.~Biswas, B.~D. Miller, B.~Kombaiah, D.~Frazer, D.~D. Keiser,
+  A.~Aitkaliyeva, High burnup structure formation in {U}-{M}o fuels, Journal of
+  Nuclear Materials 563 (2022) 153617.
+
+\end{thebibliography}
