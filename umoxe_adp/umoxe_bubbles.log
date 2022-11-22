@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 NOV 2022 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2022 13:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -303,31 +303,39 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./umoxe_bubbles.aux
-
-LaTeX Warning: Label `default' multiply defined.
-
-
-LaTeX Warning: Label `default' multiply defined.
-
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
+(./umoxe_bubbles.aux)
 \openout1 = `umoxe_bubbles.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
- (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
 \scratchdimen=\dimen136
@@ -358,7 +366,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -368,9 +376,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./umoxe_bubbles.out) (./umoxe_bubbles.out)
 \@outlinefile=\write5
@@ -411,54 +419,16 @@ LaTeX Info: Redefining \nameref on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 15.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 15.
+LaTeX Info: Redefining \celsius on input line 16.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \Omega for \ohm on input line 15.
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \Omega for \ohm on input line 16.
 
 Package gensymb Warning: Not defining \micro.
-
-
-LaTeX Warning: File `1_void_Esurf.png' not found on input line 78.
-
-
-./umoxe_bubbles.tex:78: Package pdftex.def Error: File `1_void_Esurf.png' not f
-ound: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...ics[width=0.6\textwidth]{1_void_Esurf.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: File `2_bubex.png' not found on input line 88.
-
-
-./umoxe_bubbles.tex:88: Package pdftex.def Error: File `2_bubex.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...graphics[width=1.0\textwidth]{2_bubex.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
@@ -467,187 +437,81 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 93.
+(hyperref)                removing `\gamma' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 93.
+(hyperref)                removing `\<def>-command' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 93.
+(hyperref)                removing `\cnotenum' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 93.
+(hyperref)                removing `\<def>-command' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 93.
+(hyperref)                removing `\@corref' on input line 70.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3]
+[2]
 
-LaTeX Warning: File `3_bubE.png' not found on input line 106.
-
-
-./umoxe_bubbles.tex:106: Package pdftex.def Error: File `3_bubE.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...graphics[width=0.6\textwidth]{3_bubE.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: File `4_binding.png' not found on input line 163.
-
-
-./umoxe_bubbles.tex:163: Package pdftex.def Error: File `4_binding.png' not fou
-nd: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 ...phics[width=0.6\textwidth]{4_binding.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4
-
-] [5]
-
-LaTeX Warning: File `5_delV.png' not found on input line 176.
-
-
-./umoxe_bubbles.tex:176: Package pdftex.def Error: File `5_delV.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 ...graphics[width=0.6\textwidth]{5_delV.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `6_press_diff.png' not found on input line 213.
-
-
-./umoxe_bubbles.tex:213: Package pdftex.def Error: File `6_press_diff.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 ...cs[width=0.6\textwidth]{6_press_diff.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6
-
-]
-
-LaTeX Warning: File `7_xe_eosK.png' not found on input line 251.
-
-
-./umoxe_bubbles.tex:251: Package pdftex.def Error: File `7_xe_eosK.png' not fou
-nd: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251 ...phics[width=0.8\textwidth]{7_xe_eosK.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package natbib Warning: Citation `virial' on page 7 undefined on input line 268
+Package natbib Warning: Citation `virial' on page 3 undefined on input line 158
 .
 
-<MD_Virial.pdf, id=110, 426.59375pt x 426.59375pt>
+<MD_Virial.pdf, id=105, 426.59375pt x 426.59375pt>
 File: MD_Virial.pdf Graphic file (type pdf)
 <use MD_Virial.pdf>
-Package pdftex.def Info: MD_Virial.pdf  used on input line 276.
+Package pdftex.def Info: MD_Virial.pdf  used on input line 166.
 (pdftex.def)             Requested size: 375.80544pt x 375.82675pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<virial_fit.pdf, id=111, 426.59375pt x 426.59375pt>
+<virial_fit.pdf, id=106, 426.59375pt x 426.59375pt>
 File: virial_fit.pdf Graphic file (type pdf)
 <use virial_fit.pdf>
-Package pdftex.def Info: virial_fit.pdf  used on input line 283.
+Package pdftex.def Info: virial_fit.pdf  used on input line 173.
 (pdftex.def)             Requested size: 375.80544pt x 375.82675pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[3] [4 <./MD_Virial.pdf>] [5 <./virial_fit.pdf>] (./umoxe_bubbles.bbl [6
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7] [8] [9 <./MD_Virial.pdf>] [10 <./virial_fit.pdf>]
-No file umoxe_bubbles.bbl.
+])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
-[11
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (./umoxe_bubbles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `umoxe_bubbles.out' has not changed.
-(rerunfilecheck)             Checksum: BEC832A0F0D46081630F81F525771662;654.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
+(rerunfilecheck)             Checksum: CBBBC837B43164071006C8F6BD07DE27;695.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
- 7066 strings out of 492616
- 101004 string characters out of 6129482
- 210304 words of memory out of 5000000
- 10863 multiletter control sequences out of 15000+600000
+ 8682 strings out of 492616
+ 138517 string characters out of 6129482
+ 264050 words of memory out of 5000000
+ 12484 multiletter control sequences out of 15000+600000
  9495 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,32p,2127b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,1760b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -666,10 +530,10 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on umoxe_bubbles.pdf (11 pages, 257792 bytes).
+Output written on umoxe_bubbles.pdf (7 pages, 260307 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
