@@ -1,0 +1,505 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  1 MAY 2023 11:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**manuscript.tex
+(./manuscript.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count179
+\l__pdf_internal_box=\box47
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex))) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count180
+)
+\@bls=\dimen138
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+\c@tnote=\count189
+\c@fnote=\count190
+\c@cnote=\count191
+\c@ead=\count192
+\c@author=\count193
+\@eadauthor=\toks16
+\c@affn=\count194
+\absbox=\box48
+\elsarticlehighlightsbox=\box49
+\elsarticlegrabsbox=\box50
+\keybox=\box51
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box52
+\els@boxb=\box53
+\leftMargin=\dimen144
+\@enLab=\toks17
+\@sep=\skip49
+\@@sep=\skip50
+
+(./manuscript.spl)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count195
+)
+\splwrite=\write3
+\openout3 = `manuscript.spl'.
+
+\appnamewidth=\dimen145
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count199
+\c@@ppsavesec=\count266
+\c@@ppsaveapp=\count267
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count268
+\output=\toks20
+\linenoprevgraf=\count269
+\linenumbersep=\dimen154
+\linenumberwidth=\dimen155
+\c@linenumber=\count270
+\c@pagewiselinenumber=\count271
+\c@LN@truepage=\count272
+\c@internallinenumber=\count273
+\c@internallinenumbers=\count274
+\quotelinenumbersep=\dimen156
+\bframerule=\dimen157
+\bframesep=\dimen158
+\bframebox=\box54
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(./manuscript.aux)
+\openout1 = `manuscript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count275
+\scratchdimen=\dimen159
+\scratchbox=\box55
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen160
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[1
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3]
+<pv_pe_fixed.png, id=22, 956.811pt x 388.287pt>
+File: pv_pe_fixed.png Graphic file (type png)
+<use pv_pe_fixed.png>
+Package pdftex.def Info: pv_pe_fixed.png  used on input line 88.
+(pdftex.def)             Requested size: 472.03123pt x 191.55981pt.
+ [4 <./pv_pe_fixed.png>]
+<DensityVTemp_2.jpg, id=33, 774.7344pt x 593.0958pt>
+File: DensityVTemp_2.jpg Graphic file (type jpg)
+<use DensityVTemp_2.jpg>
+Package pdftex.def Info: DensityVTemp_2.jpg  used on input line 125.
+(pdftex.def)             Requested size: 306.81741pt x 234.88113pt.
+<densityAll3_fixed.png, id=34, 1309.182pt x 362.226pt>
+File: densityAll3_fixed.png Graphic file (type png)
+<use densityAll3_fixed.png>
+Package pdftex.def Info: densityAll3_fixed.png  used on input line 133.
+(pdftex.def)             Requested size: 472.03123pt x 130.60022pt.
+ [5 <./DensityVTemp_2.jpg>]
+<densityTernary_withScatter.png, id=39, 1323.417pt x 363.321pt>
+File: densityTernary_withScatter.png Graphic file (type png)
+<use densityTernary_withScatter.png>
+Package pdftex.def Info: densityTernary_withScatter.png  used on input line 141
+.
+(pdftex.def)             Requested size: 448.42822pt x 123.10617pt.
+ [6 <./densityAll3_fixed.png> <./densityTernary_withScatter.png>]
+<comparisonNoTheoreticalNoWoods_fixed.jpg, id=45, 896.148pt x 359.817pt>
+File: comparisonNoTheoreticalNoWoods_fixed.jpg Graphic file (type jpg)
+<use comparisonNoTheoreticalNoWoods_fixed.jpg>
+Package pdftex.def Info: comparisonNoTheoreticalNoWoods_fixed.jpg  used on inpu
+t line 153.
+(pdftex.def)             Requested size: 448.42822pt x 180.0508pt.
+<thermalAll3_correctOrder.jpg, id=46, 1305.678pt x 361.35pt>
+File: thermalAll3_correctOrder.jpg Graphic file (type jpg)
+<use thermalAll3_correctOrder.jpg>
+Package pdftex.def Info: thermalAll3_correctOrder.jpg  used on input line 164.
+(pdftex.def)             Requested size: 448.42822pt x 124.10349pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./comparisonNoTheoreticalNoWoods_fixed.jpg>]
+<BulkCompress_2.jpg, id=51, 902.499pt x 366.168pt>
+File: BulkCompress_2.jpg Graphic file (type jpg)
+<use BulkCompress_2.jpg>
+Package pdftex.def Info: BulkCompress_2.jpg  used on input line 185.
+(pdftex.def)             Requested size: 472.03123pt x 191.52031pt.
+ [8 <./thermalAll3_correctOrder.jpg> <./BulkCompress_2.jpg>]
+<heatCapacity_withScatter.png, id=55, 919.435pt x 764.8575pt>
+File: heatCapacity_withScatter.png Graphic file (type png)
+<use heatCapacity_withScatter.png>
+Package pdftex.def Info: heatCapacity_withScatter.png  used on input line 197.
+(pdftex.def)             Requested size: 330.42041pt x 274.86998pt.
+ [9 <./heatCapacity_withScatter.png>]
+<enthalpyMixAll3_fixed_part2.png, id=59, 1336.776pt x 350.619pt>
+File: enthalpyMixAll3_fixed_part2.png Graphic file (type png)
+<use enthalpyMixAll3_fixed_part2.png>
+Package pdftex.def Info: enthalpyMixAll3_fixed_part2.png  used on input line 21
+0.
+(pdftex.def)             Requested size: 472.03123pt x 123.80453pt.
+<final_rdf.jpg, id=60, 426.6339pt x 426.6339pt>
+File: final_rdf.jpg Graphic file (type jpg)
+<use final_rdf.jpg>
+Package pdftex.def Info: final_rdf.jpg  used on input line 225.
+(pdftex.def)             Requested size: 236.01561pt x 236.01643pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./enthalpyMixAll3_fixed_part2.png>] [11 <./final_rdf.jpg>]
+Overfull \hbox (13.45895pt too wide) in paragraph at lines 291--308
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] (./manuscript.bbl
+Underfull \hbox (badness 6542) in paragraph at lines 18--25
+[]\OT1/cmr/m/n/12 G. Lo-catelli, M. Mancini, N. Tode-s-chini, Gen-er-a-tion iv 
+nu-clear re-ac-tors:
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 18--25
+\OT1/cmr/m/n/12 Cur-rent sta-tus and fu-ture prospects, En-ergy Pol-icy 61 (201
+3) 1503--1520.
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 36--43
+[]\OT1/cmr/m/n/12 O. Bene^^Ts, R. Kon-ings, Ther-mo-dy-namic prop-er-ties and p
+hase di-a-grams of flu-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 36--43
+\OT1/cmr/m/n/12 o-ride salts for nu-clear ap-pli-ca-tions, Jour-nal of Flu-o-ri
+ne Chem-istry (2009) 22--
+ []
+
+[13]
+Underfull \hbox (badness 1038) in paragraph at lines 72--80
+\OT1/cmr/m/n/12 ica Acta Part A: Molec-u-lar and Biomolec-u-lar Spec-troscopy 2
+51 (2021) 119435.
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 90--94
+[]\OT1/cmr/m/n/12 D. Hol-comb, S. Cetiner, An overview of liquid-fluoride-salt 
+heat trans-port sys-
+ []
+
+[14]
+Underfull \hbox (badness 5578) in paragraph at lines 155--165
+[]\OT1/cmr/m/n/12 L. Mart^^S^^Pnez, R. An-drade, E. G. Bir-gin, J. M. Mart^^S^^
+Pnez, Pack-mol: A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+\OT1/cmr/m/n/12 pack-age for build-ing ini-tial con-fig-u-ra-tions for molec-u-
+lar dy-nam-ics sim-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+\OT1/cmr/m/n/12 u-la-tions, Jour-nal of Com-pu-ta-tional Chem-istry 30 (13) (20
+09) 2157--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+\OT1/cmr/m/n/12 2164.  arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/jc
+c.21224,
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 176--183
+[]\OT1/cmr/m/n/12 D. An-der-s-son, B. Beeler, Ab ini-tio molec-u-lar dy-nam-ics
+ (aimd) sim-u-la-tions of
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 202--209
+[]\OT1/cmr/m/n/12 G. Kresse, J. Furthm^^?uller, Ef-fi-cient it-er-a-tive scheme
+s for ab ini-tio total-energy
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 211--218
+[]\OT1/cmr/m/n/12 K. Duemm-ler, Y. Lin, M. Woods, T. Karls-son, R. Gakhar, B. B
+eeler,
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 211--218
+\OT1/cmr/m/n/12 Eval-u-a-tion of ther-mo-phys-i-cal prop-er-ties of the licl-kc
+l sys-tem via ab ini-tio
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 211--218
+\OT1/cmr/m/n/12 and ex-per-i-men-tal meth-ods, Jour-nal of Nu-clear Ma-te-ri-al
+s 559 (2022) 153414.
+ []
+
+[15]
+Underfull \hbox (badness 1990) in paragraph at lines 235--243
+[]\OT1/cmr/m/n/12 S. Grimme, J. Antony, S. Ehrlich, H. Krieg, A con-sis-tent an
+d ac-cu-rate ab
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 235--243
+\OT1/cmr/m/n/12 ini-tio parametriza-tion of den-sity func-tional dis-per-sion c
+or-rec-tion (dft-d) for the
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 235--243
+\OT1/cmr/m/n/12 94 el-e-ments h-pu, The Jour-nal of Chem-i-cal Physics 132 (15)
+ (2010) 154104.
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 263--270
+[]\OT1/cmr/m/n/12 K. Duemm-ler, M. Woods, T. Karls-son, R. Gakhar, B. Beeler, A
+n ab
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--270
+\OT1/cmr/m/n/12 ini-tio molec-u-lar dy-nam-ics in-ves-ti-ga-tion of the ther-mo
+-phys-i-cal prop-er-ties
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--270
+\OT1/cmr/m/n/12 of molten nacl-mgcl2, Jour-nal of Nu-clear Ma-te-ri-als 570 (20
+22) 153916.
+ []
+
+[16]) [17] (./manuscript.aux) ) 
+Here is how much of TeX's memory you used:
+ 5656 strings out of 478994
+ 94477 string characters out of 5858184
+ 404831 words of memory out of 5000000
+ 23084 multiletter control sequences out of 15000+600000
+ 412575 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,10n,88p,2214b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dv
+ips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on manuscript.pdf (17 pages, 7465353 bytes).
+PDF statistics:
+ 151 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
