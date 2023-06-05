@@ -1,0 +1,59 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{mishin2005}
+Y.~Mishin, M.~Mehl, D.~Papaconstantopoulos,
+  \href{https://www.sciencedirect.com/science/article/pii/S1359645405002843}{Phase
+  stability in the fe--ni system: Investigation by first-principles
+  calculations and atomistic simulations}, Acta Materialia 53~(15) (2005)
+  4029--4041.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2005.05.001}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2005.05.001}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1359645405002843}
+
+\bibitem{daw1984}
+M.~Daw, M.~Baskes, Embedded-atom method - derivation and application to
+  impurities, surfaces, and other defects in metals, Phys. Rev. B 29 (1984)
+  6443.
+
+\bibitem{daw1993}
+M.~Daw, S.~Foiles, M.~Baskes, The embedded-atom method: a review of theory and
+  applications, Mat. Sci. Rep. 9 (1993) 251--310.
+
+\bibitem{baskes1989}
+M.~Baskes, J.~Nelson, A.~Wright, Semiempirical modified embedded-atom
+  potentials for silicon and germanium, Phys. Rev. B 40 (1989) 6085.
+
+\bibitem{baskes1992}
+M.~Baskes, Modified embedded-atom potentials for cubic materials and
+  impurities, Phys. Rev. B 46 (1992) 2727.
+
+\bibitem{starikov2018}
+S.~Starikov, L.~Kolotova, A.~Kuksin, D.~Smirnova, V.~Tseplyaev,
+  \href{http://www.sciencedirect.com/science/article/pii/S0022311517312229}{Atomistic
+  simulation of cubic and tetragonal phases of u-mo alloy: Structure and
+  thermodynamic properties}, Journal of Nuclear Materials 499 (2018) 451 --
+  463.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2017.11.047}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2017.11.047}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0022311517312229}
+
+\bibitem{smirnovaUMoXe}
+D.~Smirnova, A.~Kuksin, S.~Starikov, V.~Stegailov, Z.~Insepov, J.~Rest,
+  A.~Yacout, A ternary eam interatomic potential for u-mo alloys with xenon,
+  Modelling Simul. Mater. Sci. Eng. 21 (2013) 035011.
+
+\bibitem{beeler2020}
+B.~Beeler, S.~Hu, Y.~Zhang, Y.~Gao,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311519309134}{A
+  improved equation of state for xe gas bubbles in $\gamma$u-mo fuels}, Journal
+  of Nuclear Materials 530 (2020) 151961.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2019.151961}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2019.151961}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311519309134}
+
+\end{thebibliography}
