@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: marked.aux
+The style file: elsarticle-num.bst
+Database file #1: reference.bib
+Warning--entry type for "janz_osti" isn't style-file defined
+--line 542 of file reference.bib
+Warning--string name "nsrds-nbs-61" is undefined
+--line 548 of file reference.bib
+Warning--can't use both author and editor fields in Zhu2014
+Warning--empty journal in gakhar2021molten
+Warning--empty chapter and pages in Viswanath2007
+Warning--empty year in FTsalt
+You've used 58 entries,
+            2952 wiz_defined-function locations,
+            1116 strings with 19818 characters,
+and the built_in function-call counts, 19569 in all, are:
+= -- 1881
+> -- 697
+< -- 3
++ -- 271
+- -- 213
+* -- 1718
+:= -- 2720
+add.period$ -- 84
+call.type$ -- 58
+change.case$ -- 54
+chr.to.int$ -- 0
+cite$ -- 62
+duplicate$ -- 545
+empty$ -- 2116
+format.name$ -- 258
+if$ -- 4944
+int.to.chr$ -- 0
+int.to.str$ -- 58
+missing$ -- 60
+newline$ -- 238
+num.names$ -- 57
+pop$ -- 334
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1074
+stack$ -- 0
+substring$ -- 1197
+swap$ -- 171
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 136
+width$ -- 60
+write$ -- 552
+(There were 6 warnings)
