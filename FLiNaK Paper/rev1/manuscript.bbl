@@ -1,0 +1,325 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Porter2022}
+T.~Porter, M.~Vaka, P.~Steenblik, D.~Della~Corte,
+  \href{https://www.nature.com/articles/s42004-022-00684-6}{Computational
+  methods to simulate molten salt thermophysical properties}, Commun Chem 5
+  (2022) 69.
+\newblock \href {https://doi.org/10.1038/s42004-022-00684-6}
+  {\path{doi:10.1038/s42004-022-00684-6}}.
+\newline\urlprefix\url{https://www.nature.com/articles/s42004-022-00684-6}
+
+\bibitem{MSROverview}
+G.~Locatelli, M.~Mancini, N.~Todeschini,
+  \href{https://www.sciencedirect.com/science/article/pii/S0301421513006083}{Generation
+  iv nuclear reactors: Current status and future prospects}, Energy Policy 61
+  (2013) 1503--1520.
+\newblock \href {https://doi.org/10.1016/j.enpol.2013.06.101}
+  {\path{doi:10.1016/j.enpol.2013.06.101}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0301421513006083}
+
+\bibitem{freile2019}
+{Freile, Ramiro}, {Kimber, Mark},
+  \href{https://doi.org/10.1051/epjn/2019027}{Influence of molten salt-(flinak)
+  thermophysical properties on a heated tube using cfd rans turbulence modeling
+  of an experimental testbed}, EPJ Nuclear Sci. Technol. 5 (2019) 16.
+\newblock \href {https://doi.org/10.1051/epjn/2019027}
+  {\path{doi:10.1051/epjn/2019027}}.
+\newline\urlprefix\url{https://doi.org/10.1051/epjn/2019027}
+
+\bibitem{Benes2009}
+O.~Bene{\v s}, R.~Konings,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022113908002030}{Thermodynamic
+  properties and phase diagrams of fluoride salts for nuclear applications},
+  Journal of Fluorine Chemistry (2009) 22--29\href
+  {https://doi.org/https://doi.org/10.1016/j.jfluchem.2008.07.014}
+  {\path{doi:https://doi.org/10.1016/j.jfluchem.2008.07.014}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022113908002030}
+
+\bibitem{Ambrosek2009}
+J.~Ambrosek, M.~Anderson, K.~Sridharan, T.~Allen,
+  \href{https://www.tandfonline.com/doi/full/10.13182/NT165-166}{Current status
+  of knowledge of the fluoride salt (flinak) heat transfer}, Nuclear Technology
+  165 (2009) 166--173.
+\newblock \href {https://doi.org/10.13182/NT165-166}
+  {\path{doi:10.13182/NT165-166}}.
+\newline\urlprefix\url{https://www.tandfonline.com/doi/full/10.13182/NT165-166}
+
+\bibitem{Frandsen2020}
+B.~A. Frandsen, S.~D. Nickerson, A.~D. Clark, A.~Solano, R.~Baral, J.~Williams,
+  J.~Neuefeind, M.~Memmott,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311520304736}{The
+  structure of molten flinak}, Journal of Nuclear Materials 537 (2020) 152219.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2020.152219}
+  {\path{doi:10.1016/j.jnucmat.2020.152219}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311520304736}
+
+\bibitem{Anderson2015}
+M.~Anderson, K.~Sridharan, D.~Morgan, P.~Peterson, P.~Calderoni, R.~Scheele,
+  A.~Casekka, B.~McNamara, \href{https://www.osti.gov/biblio/1169921}{Heat
+  transfer salts for nuclear reactor systems - chemistry control, corrosion
+  mitigation, and modeling}, Tech. Rep. Project No. 10-905, University of
+  Wisconsin, Madison (1 2015).
+\newblock \href {https://doi.org/10.2172/1169921} {\path{doi:10.2172/1169921}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/1169921}
+
+\bibitem{Xiyan2021}
+X.~Liu, Y.~Li, B.~Wang, C.~Wang,
+  \href{https://www.sciencedirect.com/science/article/pii/S1386142521000111}{Raman
+  and density functional theory studies of lutecium fluoride and oxyfluoride
+  structures in molten flinak}, Spectrochimica Acta Part A: Molecular and
+  Biomolecular Spectroscopy 251 (2021) 119435.
+\newblock \href {https://doi.org/10.1016/j.saa.2021.1194358}
+  {\path{doi:10.1016/j.saa.2021.1194358}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1386142521000111}
+
+\bibitem{Hoffman1955}
+H.~W. Hoffman, J.~Lones, \href{https://www.osti.gov/biblio/4016896}{Fused salt
+  heat transfer. part ii. forced convection heat transfer in circular tubes
+  containing naf-kf-lif eutectic}, Tech. Rep. ORNL-1777, Oak Ridge National
+  Laboratory (2 1955).
+\newblock \href {https://doi.org/10.2172/4016896} {\path{doi:10.2172/4016896}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/4016896}
+
+\bibitem{Holcomb2010}
+D.~Holcomb, S.~Cetiner, An overview of liquid-fluoride-salt heat transport
+  systems, Tech. Rep. ORNL/TM-2010/156, Oak Ridge National Laboratory (10
+  2010).
+\newblock \href {https://doi.org/10.2172/990239} {\path{doi:10.2172/990239}}.
+
+\bibitem{Yoder2014}
+G.~L. Yoder, Jr, D.~W. Heatherly, D.~F. Williams, Y.~M. Elkassabgi, J.~Caja,
+  M.~Caja, J.~Jordan, R.~Salinas,
+  \href{https://www.osti.gov/biblio/1130418}{Liquid fluoride salt
+  experimentation using a small natural circulation cell}, Tech. Rep.
+  ORNL/TM-2014/56, Oak Ridge National Laboratory (4 2014).
+\newblock \href {https://doi.org/10.2172/1130418} {\path{doi:10.2172/1130418}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/1130418}
+
+\bibitem{Salanne2009}
+M.~Salanne, C.~Simon, P.~Turq, P.~A. Madden, Heat-transport properties of
+  molten fluorides: Determination from first-principles, Journal of Fluorine
+  Chemistry 130 (2009) 38--44.
+\newblock \href {https://doi.org/10.1016/j.jfluchem.2008.07.013}
+  {\path{doi:10.1016/j.jfluchem.2008.07.013}}.
+
+\bibitem{Lee2021}
+S.-C. Lee, Y.~Zhai, Z.~Li, N.~P. Walter, M.~Rose, B.~J. Heuser, Y.~Z,
+  \href{https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05608}{Comparative studies
+  of the structural and transport properties of molten salt flinak using the
+  machine-learned neural network and reparametrized classical forcefields}, The
+  Journal of Physical Chemistry B 125 (2021) 10562--10570.
+\newblock \href {https://doi.org/10.1021/acs.jpcb.1c05608}
+  {\path{doi:10.1021/acs.jpcb.1c05608}}.
+\newline\urlprefix\url{https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05608}
+
+\bibitem{Sona2014}
+C.~Sona, M.~A. Khanwale, C.~S. Mathpati, A.~Borgohain, N.~K. Maheshwari,
+  Investigation of flow and heat characteristics and structure identification
+  of flinak in pipe using cfd simulations, Applied Thermal Engineering 70
+  (2014) 451--461.
+\newblock \href {https://doi.org/10.1016/j.applthermaleng.2014.05.043}
+  {\path{doi:10.1016/j.applthermaleng.2014.05.043}}.
+
+\bibitem{Nam2014}
+H.~Nam, A.~Bengtson, K.~V{\"o}rtler, S.~Saha, R.~Sakidja, D.~Morgan,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311514001238}{First-principles
+  molecular dynamics modeling of the molten fluoride salt with cr solute},
+  Journal of Nuclear Materials 449 (2014) 148--157.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2014.03.014}
+  {\path{doi:10.1016/j.jnucmat.2014.03.014}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311514001238}
+
+\bibitem{Clark2020}
+A.~D. Clark, W.~L. Lee, A.~R. Solano, T.~B. Williams, G.~S. Meyer, G.~J. Tait,
+  B.~C. Battraw, S.~D. Nickerson, Complexation of mo in flinak molten salt:
+  Insight from ab initio molecular dynamics, Journal of Physical Chemistry B
+  125 (2020).
+\newblock \href {https://doi.org/10.1021/acs.jpcb.0c07354}
+  {\path{doi:10.1021/acs.jpcb.0c07354}}.
+
+\bibitem{Sprouster2022}
+D.~Sprouster, G.~Zheng, S.-C. Lee, D.~Olds, C.~Agca, J.~McFarlane, Y.~Z,
+  B.~Khaykovich, Molecular structure and phase equilibria of molten fluoride
+  salt with and without dissolved cesium: Flinak--csf (5 mol \%), ACS Applied
+  Energy Materials 5 (2022).
+\newblock \href {https://doi.org/10.1021/acsaem.2c00544}
+  {\path{doi:10.1021/acsaem.2c00544}}.
+
+\bibitem{Duemmler2022}
+K.~Duemmler, Y.~Lin, M.~Woods, T.~Karlsson, R.~Gakhar, B.~Beeler,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311521006346}{Evaluation
+  of thermophysical properties of the licl-kcl system via ab initio and
+  experimental methods}, Journal of Nuclear Materials 559 (2022) 153414.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2021.153414}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2021.153414}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311521006346}
+
+\bibitem{Duemmler2023}
+K.~Duemmler, M.~Woods, T.~Karlsson, R.~Gakhar, B.~Beeler,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311523003689}{First-principles-derived
+  transport properties of molten chloride salts}, Journal of Nuclear Materials
+  585 (2023) 154601.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2023.154601}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2023.154601}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311523003689}
+
+\bibitem{Zhao2023}
+D.~Zhao, L.~Yan, T.~Jiang, S.~Peng, B.~Yue,
+  \href{https://www.sciencedirect.com/science/article/pii/S2352152X23001044}{On
+  the viscosity of molten salts and molten salt mixtures and its temperature
+  dependence}, Journal of Energy Storage 61 (2023) 106707.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.est.2023.106707}
+  {\path{doi:https://doi.org/10.1016/j.est.2023.106707}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2352152X23001044}
+
+\bibitem{Packmol}
+L.~Mart{\'\i}nez, R.~Andrade, E.~G. Birgin, J.~M. Mart{\'\i}nez,
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.21224}{Packmol: A
+  package for building initial configurations for molecular dynamics
+  simulations}, Journal of Computational Chemistry 30~(13) (2009) 2157--2164.
+\newblock \href
+  {http://arxiv.org/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.21224}
+  {\path{arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.21224}},
+  \href {https://doi.org/https://doi.org/10.1002/jcc.21224}
+  {\path{doi:https://doi.org/10.1002/jcc.21224}}.
+\newline\urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.21224}
+
+\bibitem{Bengtson2013}
+A.~Bengtson, H.~O. Nam, S.~Saha, R.~Sakidja, D.~Morgan,
+  \href{https://www.sciencedirect.com/science/article/pii/S0927025613006630}{First-principles
+  molecular dynamics modeling of the licl--kcl molten salt system},
+  Computational Materials Science 83 (2014).
+\newblock \href {https://doi.org/10.1016/j.commatsci.2013.10.043}
+  {\path{doi:10.1016/j.commatsci.2013.10.043}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0927025613006630}
+
+\bibitem{Andersson2022}
+D.~Andersson, B.~Beeler,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311522003221}{Ab
+  initio molecular dynamics (aimd) simulations of nacl, ucl3 and nacl-ucl3
+  molten salts}, Journal of Nuclear Materials 568 (2022).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2022.153836}
+  {\path{doi:10.1016/j.jnucmat.2022.153836}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311522003221}
+
+\bibitem{VASP1}
+G.~Kresse, J.~Hafner,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.47.558}{Ab initio molecular
+  dynamics for liquid metals}, Phys. Rev. B 47 (1993) 558--561.
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.47.558}
+
+\bibitem{VASP2}
+G.~Kresse, J.~Furthm{\"u}ller,
+  \href{https://www.sciencedirect.com/science/article/pii/0927025696000080}{Efficiency
+  of ab-initio total energy calculations for metals and semiconductors using a
+  plane-wave basis set}, Computational Materials Science 6 (1996) 15--50.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0927-0256(96)00008-0}
+  {\path{doi:https://doi.org/10.1016/0927-0256(96)00008-0}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0927025696000080}
+
+\bibitem{VASP3}
+G.~Kresse, J.~Furthm\"uller,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}{Efficient iterative
+  schemes for ab initio total-energy calculations using a plane-wave basis
+  set}, Phys. Rev. B 54 (1996) 11169--11186.
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}
+
+\bibitem{vdWDFT1}
+J.~Klime\v{s}, D.~R. Bowler, A.~Michaelides, Chemical accuracy for the van der
+  waals density functional, Journal of Physics: Condensed Matter 22~(2) (2009)
+  022201.
+\newblock \href {https://doi.org/10.1088/0953-8984/22/2/022201}
+  {\path{doi:10.1088/0953-8984/22/2/022201}}.
+
+\bibitem{vdWDFT2}
+J.~Klime{\v{s}}, D.~R. Bowler, A.~Michaelides,
+  \href{https://doi.org/10.1103\%2Fphysrevb.83.195131}{Van der waals density
+  functionals applied to solids}, Physical Review B 83~(19) (may 2011).
+\newblock \href {https://doi.org/10.1103/physrevb.83.195131}
+  {\path{doi:10.1103/physrevb.83.195131}}.
+\newline\urlprefix\url{https://doi.org/10.1103\%2Fphysrevb.83.195131}
+
+\bibitem{grimme2010}
+S.~Grimme, J.~Antony, S.~Ehrlich, H.~Krieg,
+  \href{https://doi.org/10.1063/1.3382344}{A consistent and accurate ab initio
+  parametrization of density functional dispersion correction (dft-d) for the
+  94 elements h-pu}, The Journal of Chemical Physics 132~(15) (2010) 154104.
+\newblock \href {http://arxiv.org/abs/https://doi.org/10.1063/1.3382344}
+  {\path{arXiv:https://doi.org/10.1063/1.3382344}}, \href
+  {https://doi.org/10.1063/1.3382344} {\path{doi:10.1063/1.3382344}}.
+\newline\urlprefix\url{https://doi.org/10.1063/1.3382344}
+
+\bibitem{Ovito}
+A.~Stukowski, {Visualization and analysis of atomistic simulation data with
+  OVITO-the Open Visualization Tool}, {MODELLING AND SIMULATION IN MATERIALS
+  SCIENCE AND ENGINEERING} {18}~({1}) ({JAN} {2010}).
+\newblock \href {https://doi.org/{10.1088/0965-0393/18/1/015012}}
+  {\path{doi:{10.1088/0965-0393/18/1/015012}}}.
+
+\bibitem{Janz1981}
+G.~Janz, R.~Tomkins, Physical properties data compilations relevant to energy
+  storage. iv. molten salts: Data on additional single and multi-component salt
+  systems, Tech. Rep. NSRDS-NBS 61, National Bureau of Standards (1981).
+
+\bibitem{JanzSaltProp}
+G.~Janz, Thermodynamic and transport properties for molten salts: Correlation
+  equations for critically evaluated density, surface tension, electrical
+  conductance, and viscosity data, Journal of Physical and Chemical Reference
+  Data 17 (1988).
+
+\bibitem{Duemmler2022b}
+K.~Duemmler, M.~Woods, T.~Karlsson, R.~Gakhar, B.~Beeler,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311522004020}{An
+  ab initio molecular dynamics investigation of the thermophysical properties
+  of molten nacl-mgcl2}, Journal of Nuclear Materials 570 (2022) 153916.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2022.153916}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2022.153916}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311522004020}
+
+\bibitem{williams2006Cp}
+D.~F. Williams, \href{https://www.osti.gov/biblio/885975}{Assessment of
+  candidate molten salt coolants for the advanced high temperature reactor
+  (ahtr)}, Tech. Rep. ORNL/TM-2006/12, Oak Ridge National Laboratory (3 2006).
+\newblock \href {https://doi.org/10.2172/885975} {\path{doi:10.2172/885975}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/885975}
+
+\bibitem{moore_uzr}
+A.~Moore, B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311515302683}{Atomistic
+  modeling of high temperature uranium–zirconium alloy structure and
+  thermodynamics}, Journal of Nuclear Materials 467 (2015) 802--819.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2015.10.016}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2015.10.016}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311515302683}
+
+\bibitem{robertson2022}
+S.~G. Robertson, R.~Wiser, W.~Yang, D.~Kang, S.~Choi, E.~Baglietto, M.~P.
+  Short, \href{https://doi.org/10.1063/5.0088059}{{The curious temperature
+  dependence of fluoride molten salt thermal conductivity}}, Journal of Applied
+  Physics 131~(22), 225102 (06 2022).
+\newblock \href
+  {http://arxiv.org/abs/https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/5.0088059/16508374/225102\_1\_online.pdf}
+  {\path{arXiv:https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/5.0088059/16508374/225102\_1\_online.pdf}},
+  \href {https://doi.org/10.1063/5.0088059} {\path{doi:10.1063/5.0088059}}.
+\newline\urlprefix\url{https://doi.org/10.1063/5.0088059}
+
+\bibitem{igarashi1988}
+K.~Igarashi, Y.~Okamoto, J.~Mochinaga, H.~Ohno,
+  \href{http://dx.doi.org/10.1039/F19888404407}{X-ray diffraction study of
+  molten eutectic lif--naf--kf mixture}, J. Chem. Soc.{,} Faraday Trans. 1 84
+  (1988) 4407--4415.
+\newblock \href {https://doi.org/10.1039/F19888404407}
+  {\path{doi:10.1039/F19888404407}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1039/F19888404407}
+
+\end{thebibliography}
