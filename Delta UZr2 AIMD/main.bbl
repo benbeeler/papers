@@ -1,0 +1,457 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{walters_thirty_1999}
+L.~C. Walters,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311598007600}{Thirty
+  years of fuels and materials information from {EBR}-{II}}, Journal of Nuclear
+  Materials 270~(1) (1999) 39--48.
+\newblock \href {https://doi.org/10.1016/S0022-3115(98)00760-0}
+  {\path{doi:10.1016/S0022-3115(98)00760-0}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311598007600}
+
+\bibitem{mariani_metallic_2012}
+R.~D. Mariani, D.~L. Porter, S.~L. Hayes, J.~R. Kennedy,
+  \href{https://www.sciencedirect.com/science/article/pii/S1876619612001520}{Metallic
+  {Fuels}: {The} {EBR}-{II} {Legacy} and {Recent} {Advances}}, Procedia
+  Chemistry 7 (2012) 513--520.
+\newblock \href {https://doi.org/10.1016/j.proche.2012.10.078}
+  {\path{doi:10.1016/j.proche.2012.10.078}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1876619612001520}
+
+\bibitem{kaity_microstructural_2012}
+S.~Kaity, J.~Banerjee, M.~R. Nair, K.~Ravi, S.~Dash, T.~R.~G. Kutty, A.~Kumar,
+  R.~P. Singh,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311512001663}{Microstructural
+  and thermophysical properties of {U}–6wt.\%{Zr} alloy for fast reactor
+  application}, Journal of Nuclear Materials 427~(1) (2012) 1--11.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2012.03.045}
+  {\path{doi:10.1016/j.jnucmat.2012.03.045}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311512001663}
+
+\bibitem{ghoshal_microstructural_2014}
+K.~Ghoshal, S.~Kaity, S.~Mishra, A.~Kumar,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311513013019}{Microstructural
+  investigation of uranium rich {U}–{Zr}–{Nb} ternary alloy system},
+  Journal of Nuclear Materials 446~(1) (2014) 217--223.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2013.12.015}
+  {\path{doi:10.1016/j.jnucmat.2013.12.015}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311513013019}
+
+\bibitem{park_anisotropic_2019}
+J.~Park, S.~Y. Cho, Y.-S. Youn, J.~Lee, J.-Y. Kim, S.-H. Park, S.-E. Bae, S.~W.
+  Kuk, J.-Y. Park, C.~K. Rhee, S.~H. Lim,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311519311493}{Anisotropic
+  lattice thermal expansion of uranium-based metallic fuels: {A}
+  high-temperature {X}-ray diffraction study}, Journal of Nuclear Materials 527
+  (2019) 151803.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2019.151803}
+  {\path{doi:10.1016/j.jnucmat.2019.151803}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311519311493}
+
+\bibitem{sheldon_u-zr_1989}
+R.~I. Sheldon, D.~E. Peterson, \href{https://doi.org/10.1007/BF02881432}{The
+  {U}-{Zr} ({Uranium}-{Zirconium}) system}, Bulletin of Alloy Phase Diagrams
+  10~(2) (1989) 165--171.
+\newblock \href {https://doi.org/10.1007/BF02881432}
+  {\path{doi:10.1007/BF02881432}}.
+\newline\urlprefix\url{https://doi.org/10.1007/BF02881432}
+
+\bibitem{rough_constitution_1958}
+F.~A. Rough, A.~A. Bauer,
+  \href{https://www.osti.gov/biblio/4324513}{{CONSTITUTION} {OF} {URANIUM}
+  {AND} {THORIUM} {ALLOYS}}, Tech. Rep. BMI-1300, Battelle Memorial Inst.,
+  Columbus, OH (United States) (Jun. 1958).
+\newblock \href {https://doi.org/10.2172/4324513} {\path{doi:10.2172/4324513}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/4324513}
+
+\bibitem{akabori_stability_1992}
+M.~Akabori, A.~Itoh, T.~Ogawa, F.~Kobayashi, Y.~Suzuki,
+  \href{https://www.sciencedirect.com/science/article/pii/0022311592904809}{Stability
+  and structure of the delta phase of the {U}-{Zr} alloys}, Journal of Nuclear
+  Materials 188 (1992) 249--254.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0022-3115(92)90480-9}
+  {\path{doi:https://doi.org/10.1016/0022-3115(92)90480-9}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0022311592904809}
+
+\bibitem{ahn_microstructure_2016}
+S.~Ahn, S.~Irukuvarghula, S.~M. McDeavitt,
+  \href{https://www.sciencedirect.com/science/article/pii/S0925838816311975}{Microstructure
+  of alpha-{U} and delta-{UZr2} phase uranium–zirconium alloys irradiated
+  with 140-{keV} {He}+ ion-beam}, Journal of Alloys and Compounds 681 (2016)
+  6--11.
+\newblock \href {https://doi.org/10.1016/j.jallcom.2016.04.219}
+  {\path{doi:10.1016/j.jallcom.2016.04.219}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0925838816311975}
+
+\bibitem{harp_postirradiation_2018}
+J.~M. Harp, H.~J.~M. Chichester, L.~Capriotti,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311518306342}{Postirradiation
+  examination results of several metallic fuel alloys and forms from low burnup
+  {AFC} irradiations}, Journal of Nuclear Materials 509 (2018) 377--391.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2018.07.003}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2018.07.003}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311518306342}
+
+\bibitem{malone_lightbridge_2012}
+J.~Malone, A.~Totemeier, N.~Shapiro, S.~Vaidyanathan,
+  \href{https://doi.org/10.13182/NT12-A15354}{Lightbridge {Corporation}’s
+  {Advanced} {Metallic} {Fuel} for {Light} {Water} {Reactors}}, Nuclear
+  Technology 180~(3) (2012) 437--442, publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.13182/NT12-A15354.
+\newblock \href {https://doi.org/10.13182/NT12-A15354}
+  {\path{doi:10.13182/NT12-A15354}}.
+\newline\urlprefix\url{https://doi.org/10.13182/NT12-A15354}
+
+\bibitem{cohen_challenges_2012}
+A.~J. Cohen, P.~Mori-Sánchez, W.~Yang,
+  \href{https://doi.org/10.1021/cr200107z}{Challenges for {Density}
+  {Functional} {Theory}}, Chemical Reviews 112~(1) (2012) 289--320, publisher:
+  American Chemical Society.
+\newblock \href {https://doi.org/10.1021/cr200107z}
+  {\path{doi:10.1021/cr200107z}}.
+\newline\urlprefix\url{https://doi.org/10.1021/cr200107z}
+
+\bibitem{burke_perspective_2012}
+K.~Burke,
+  \href{https://aip.scitation.org/doi/full/10.1063/1.4704546}{Perspective on
+  density functional theory}, The Journal of Chemical Physics 136~(15) (2012)
+  150901, publisher: American Institute of Physics.
+\newblock \href {https://doi.org/10.1063/1.4704546}
+  {\path{doi:10.1063/1.4704546}}.
+\newline\urlprefix\url{https://aip.scitation.org/doi/full/10.1063/1.4704546}
+
+\bibitem{akabori_lattice_1995}
+M.~Akabori, T.~Ogawa, A.~Itoh, Y.~Morii,
+  \href{https://dx.doi.org/10.1088/0953-8984/7/43/005}{The lattice stability
+  and structure of delta -{UZr2} at elevated temperatures}, Journal of Physics:
+  Condensed Matter 7~(43) (1995) 8249.
+\newblock \href {https://doi.org/10.1088/0953-8984/7/43/005}
+  {\path{doi:10.1088/0953-8984/7/43/005}}.
+\newline\urlprefix\url{https://dx.doi.org/10.1088/0953-8984/7/43/005}
+
+\bibitem{ding_magnetic_2020}
+X.~Ding, T.~Yao, L.~Fu, Z.~Hua, J.~Harp, C.~Marianetti, M.~Neupane, M.~E.
+  Manley, D.~Hurley, K.~Gofryk,
+  \href{https://www.osti.gov/pages/biblio/1735434}{Magnetic, transport and
+  thermal properties of delta-phase {UZr2}}, Philosophical Magazine Letters
+  101~(1), institution: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United
+  States) Publisher: Taylor \& Francis (Nov. 2020).
+\newblock \href {https://doi.org/10.1080/09500839.2020.1833375}
+  {\path{doi:10.1080/09500839.2020.1833375}}.
+\newline\urlprefix\url{https://www.osti.gov/pages/biblio/1735434}
+
+\bibitem{anisimov_investigation_2014}
+V.~I. Anisimov, A.~V. Lukoyanov,
+  \href{https://scripts.iucr.org/cgi-bin/paper?S2053229613032312}{Investigation
+  of real materials with strong electronic correlations by the {LDA}+{DMFT}
+  method}, Acta Crystallographica Section C Structural Chemistry 70~(2) (2014)
+  137--159.
+\newblock \href {https://doi.org/10.1107/S2053229613032312}
+  {\path{doi:10.1107/S2053229613032312}}.
+\newline\urlprefix\url{https://scripts.iucr.org/cgi-bin/paper?S2053229613032312}
+
+\bibitem{abrikosov_recent_2016}
+I.~Abrikosov, A.~Ponomareva, P.~Steneteg, S.~Barannikova, B.~Alling,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S1359028615300048}{Recent
+  progress in simulations of the paramagnetic state of magnetic materials},
+  Current Opinion in Solid State and Materials Science 20~(2) (2016) 85--106.
+\newblock \href {https://doi.org/10.1016/j.cossms.2015.07.003}
+  {\path{doi:10.1016/j.cossms.2015.07.003}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S1359028615300048}
+
+\bibitem{steneteg_equation_2012}
+P.~Steneteg, B.~Alling, I.~A. Abrikosov,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.85.144404}{Equation of state
+  of paramagnetic {CrN} from \textit{ab initio} molecular dynamics}, Physical
+  Review B 85~(14) (2012) 144404.
+\newblock \href {https://doi.org/10.1103/PhysRevB.85.144404}
+  {\path{doi:10.1103/PhysRevB.85.144404}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.85.144404}
+
+\bibitem{nagarajan_enthalpy_1993}
+K.~Nagarajan, R.~Babu, C.~Mathews,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/002231159390378C}{Enthalpy
+  of formation of {UZr2} by calorimetry}, Journal of Nuclear Materials 203~(3)
+  (1993) 221--223.
+\newblock \href {https://doi.org/10.1016/0022-3115(93)90378-C}
+  {\path{doi:10.1016/0022-3115(93)90378-C}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/002231159390378C}
+
+\bibitem{gyasi_about_2022}
+S.~Gyasi, P.~Benigni, J.~Rogez, M.~Barrachin,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0022311522000769}{About
+  the enthalpy of formation of the {UZr2} compound}, Journal of Nuclear
+  Materials 562 (2022) 153580.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2022.153580}
+  {\path{doi:10.1016/j.jnucmat.2022.153580}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0022311522000769}
+
+\bibitem{ogawa_free_1994}
+T.~Ogawa,
+  \href{https://www.sciencedirect.com/science/article/pii/0022311594902518}{Free
+  energy of formation of delta-{UZr2} comment on the paper: {K}. {Nagarajan},
+  {R}. {Babu} and {C}.{K}. {Mathews}, {Enthalpy} of formation of {UZr2} by
+  calorimetry}, Journal of Nuclear Materials 209~(1) (1994) 107--108.
+\newblock \href {https://doi.org/10.1016/0022-3115(94)90251-8}
+  {\path{doi:10.1016/0022-3115(94)90251-8}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0022311594902518}
+
+\bibitem{chevalier_progress_2004}
+P.-Y. Chevalier, E.~Fischer, B.~Cheynet,
+  \href{https://www.sciencedirect.com/science/article/pii/S036459160400032X}{Progress
+  in the thermodynamic modelling of the {O}–{U}–{Zr} ternary system},
+  Calphad 28~(1) (2004) 15--40.
+\newblock \href {https://doi.org/10.1016/j.calphad.2004.03.005}
+  {\path{doi:10.1016/j.calphad.2004.03.005}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S036459160400032X}
+
+\bibitem{xie_correlation_2013}
+W.~Xie, W.~Xiong, C.~A. Marianetti, D.~Morgan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.88.235128}{Correlation and
+  relativistic effects in {U} metal and {U}-{Zr} alloy: {Validation} of
+  \textit{ab initio} approaches}, Physical Review B 88~(23) (2013) 235128.
+\newblock \href {https://doi.org/10.1103/PhysRevB.88.235128}
+  {\path{doi:10.1103/PhysRevB.88.235128}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.88.235128}
+
+\bibitem{matar_first_2017}
+S.~F. Matar,
+  \href{https://www.sciencedirect.com/science/article/pii/S2352214317300618}{First
+  principles studies of hydrogen insertion effects on magnetic properties,
+  bonding and structure reordering of {UZr2}}, Computational Condensed Matter
+  12 (2017) 19--24.
+\newblock \href {https://doi.org/10.1016/j.cocom.2017.08.001}
+  {\path{doi:10.1016/j.cocom.2017.08.001}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2352214317300618}
+
+\bibitem{ghosh_chemical_2021}
+P.~S. Ghosh, A.~Arya, C.~B. Basak, A.~K. Poswal, S.~Banerjee,
+  \href{https://iopscience.iop.org/article/10.1088/1361-648X/abf20b}{Chemical
+  ordering as a precursor to formation of ordered delta-{UZr} $_{\textrm{2}}$
+  phase: a theoretical and experimental study}, Journal of Physics: Condensed
+  Matter 33~(25) (2021) 254003.
+\newblock \href {https://doi.org/10.1088/1361-648X/abf20b}
+  {\path{doi:10.1088/1361-648X/abf20b}}.
+\newline\urlprefix\url{https://iopscience.iop.org/article/10.1088/1361-648X/abf20b}
+
+\bibitem{cococcioni_linear_2005}
+M.~Cococcioni, S.~de~Gironcoli,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.71.035105}{Linear response
+  approach to the calculation of the effective interaction parameters in the
+  {LDA} + {U} method}, Physical Review B 71~(3) (2005) 035105.
+\newblock \href {https://doi.org/10.1103/PhysRevB.71.035105}
+  {\path{doi:10.1103/PhysRevB.71.035105}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.71.035105}
+
+\bibitem{soderlind_comment_2014}
+P.~Söderlind, A.~Landa, P.~E.~A. Turchi,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.90.157101}{Comment on
+  ``{Correlation} and relativistic effects in {U} metal and {U}-{Zr} alloy:
+  {Validation} of ab initio approaches''}, Physical Review B 90~(15) (2014)
+  157101, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.90.157101}
+  {\path{doi:10.1103/PhysRevB.90.157101}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.90.157101}
+
+\bibitem{blochl_projector_1994}
+P.~E. Blöchl,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.50.17953}{Projector
+  augmented-wave method}, Physical Review B 50~(24) (1994) 17953--17979,
+  publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.50.17953}
+  {\path{doi:10.1103/PhysRevB.50.17953}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.50.17953}
+
+\bibitem{kresse_ab_1993}
+G.~Kresse, J.~Hafner,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.47.558}{Ab initio molecular
+  dynamics for liquid metals}, Physical Review B 47~(1) (1993) 558--561,
+  publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.47.558}
+
+\bibitem{kresse_efficient_1996}
+G.~Kresse, J.~Furthmüller,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}{Efficient iterative
+  schemes for ab initio total-energy calculations using a plane-wave basis
+  set}, Physical Review B 54~(16) (1996) 11169--11186, publisher: American
+  Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}
+
+\bibitem{perdew_generalized_1996}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.77.3865}{Generalized
+  {Gradient} {Approximation} {Made} {Simple}}, Physical Review Letters 77~(18)
+  (1996) 3865--3868, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.77.3865}
+  {\path{doi:10.1103/PhysRevLett.77.3865}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.77.3865}
+
+\bibitem{dudarev_effect_1997}
+S.~L. Dudarev, D.~N. Manh, A.~P. Sutton,
+  \href{https://doi.org/10.1080/13642819708202343}{Effect of {Mott}-{Hubbard}
+  correlations on the electronic structure and structural stability of uranium
+  dioxide}, Philosophical Magazine B 75~(5) (1997) 613--628, publisher: Taylor
+  \& Francis \_eprint: https://doi.org/10.1080/13642819708202343.
+\newblock \href {https://doi.org/10.1080/13642819708202343}
+  {\path{doi:10.1080/13642819708202343}}.
+\newline\urlprefix\url{https://doi.org/10.1080/13642819708202343}
+
+\bibitem{beeler_first_2010}
+B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, M.~Okuniewski,
+  \href{https://dx.doi.org/10.1088/0953-8984/22/50/505703}{First principles
+  calculations for defects in {U}}, Journal of Physics: Condensed Matter
+  22~(50) (2010) 505703.
+\newblock \href {https://doi.org/10.1088/0953-8984/22/50/505703}
+  {\path{doi:10.1088/0953-8984/22/50/505703}}.
+\newline\urlprefix\url{https://dx.doi.org/10.1088/0953-8984/22/50/505703}
+
+\bibitem{beeler_first_2013}
+B.~Beeler, C.~Deo, M.~Baskes, M.~Okuniewski,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311512004965}{First
+  principles calculations of the structure and elastic constants of alpha, beta
+  and gamma uranium}, Journal of Nuclear Materials 433~(1) (2013) 143--151.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2012.09.019}
+  {\path{doi:10.1016/j.jnucmat.2012.09.019}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311512004965}
+
+\bibitem{beeler_determination_2021}
+B.~Beeler, K.~Mahbuba, Y.~Wang, A.~Jokisaari,
+  \href{https://www.frontiersin.org/articles/10.3389/fmats.2021.661387}{Determination
+  of {Thermal} {Expansion}, {Defect} {Formation} {Energy}, and
+  {Defect}-{Induced} {Strain} of alpha-{U} {Via} ab {Initio} {Molecular}
+  {Dynamics}}, Frontiers in Materials 8 (2021).
+\newline\urlprefix\url{https://www.frontiersin.org/articles/10.3389/fmats.2021.661387}
+
+\bibitem{wang_oxidation_2006}
+L.~Wang, T.~Maxisch, G.~Ceder,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.73.195107}{Oxidation energies
+  of transition metal oxides within the {GGA} + {U} framework}, Physical Review
+  B 73~(19) (2006) 195107.
+\newblock \href {https://doi.org/10.1103/PhysRevB.73.195107}
+  {\path{doi:10.1103/PhysRevB.73.195107}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.73.195107}
+
+\bibitem{irukuvarghula_decomposition_2016}
+S.~Irukuvarghula, S.~Ahn, S.~McDeavitt,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0022311516300654}{Decomposition
+  of the gamma phase in as-cast and quenched {U}–{Zr} alloys}, Journal of
+  Nuclear Materials 473 (2016) 206--217.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2016.02.028}
+  {\path{doi:10.1016/j.jnucmat.2016.02.028}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0022311516300654}
+
+\bibitem{van_de_walle_alloy_2002}
+A.~van~de Walle, M.~Asta, G.~Ceder,
+  \href{http://arxiv.org/abs/cond-mat/0212159}{The {Alloy} {Theoretic}
+  {Automated} {Toolkit}: {A} {User} {Guide}}, Calphad 26~(4) (2002) 539--553,
+  arXiv:cond-mat/0212159.
+\newblock \href {https://doi.org/10.1016/S0364-5916(02)80006-2}
+  {\path{doi:10.1016/S0364-5916(02)80006-2}}.
+\newline\urlprefix\url{http://arxiv.org/abs/cond-mat/0212159}
+
+\bibitem{van_de_walle_multicomponent_2009}
+A.~van~de Walle, \href{http://arxiv.org/abs/0906.1608}{Multicomponent
+  multisublattice alloys, nonconfigurational entropy and other additions to the
+  {Alloy} {Theoretic} {Automated} {Toolkit}}, Calphad 33~(2) (2009) 266--278,
+  arXiv:0906.1608 [cond-mat].
+\newblock \href {https://doi.org/10.1016/j.calphad.2008.12.005}
+  {\path{doi:10.1016/j.calphad.2008.12.005}}.
+\newline\urlprefix\url{http://arxiv.org/abs/0906.1608}
+
+\bibitem{van_de_walle_efficient_2013}
+A.~van~de Walle, P.~Tiwary, M.~de~Jong, D.~L. Olmsted, M.~Asta, A.~Dick,
+  D.~Shin, Y.~Wang, L.~Q. Chen, Z.~K. Liu,
+  \href{https://www.sciencedirect.com/science/article/pii/S0364591613000540}{Efficient
+  stochastic generation of special quasirandom structures}, Calphad 42 (2013)
+  13--18.
+\newblock \href {https://doi.org/10.1016/j.calphad.2013.06.006}
+  {\path{doi:10.1016/j.calphad.2013.06.006}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0364591613000540}
+
+\bibitem{kocevski_finite_2023}
+V.~Kocevski, D.~A. Rehn, A.~J. Terricabras, A.~van Veelen, M.~W.~D. Cooper,
+  S.~W. Paisner, S.~C. Vogel, J.~T. White, D.~A. Andersson,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311523000119}{Finite
+  temperature properties of uranium mononitride}, Journal of Nuclear Materials
+  576 (2023) 154241.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2023.154241}
+  {\path{doi:10.1016/j.jnucmat.2023.154241}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311523000119}
+
+\bibitem{xie_phase_2022}
+Y.~Xie, S.~C. Vogel, M.~T. Benson, J.~M. Harp,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S002231152200174X}{Phase
+  evolution of {U}-{Zr} system in a thermal cycling neutron diffraction
+  experiment: as-cast {U}-{35Zr} and {U}-{50Zr}}, Journal of Nuclear Materials
+  564 (2022) 153681.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2022.153681}
+  {\path{doi:10.1016/j.jnucmat.2022.153681}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S002231152200174X}
+
+\bibitem{williams_phase_2023}
+W.~J. Williams, S.~C. Vogel, M.~A. Okuniewski,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311523001502}{Phase
+  transformations and thermal expansion coefficients of unirradiated {U}-{X}
+  wt.\% {Zr} ({X} = 6, 10, 20, 30) measured via neutron diffraction}, Journal
+  of Nuclear Materials 579 (2023) 154380.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2023.154380}
+  {\path{doi:10.1016/j.jnucmat.2023.154380}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311523001502}
+
+\bibitem{takahashi_heat_1989}
+Y.~Takahashi, K.~Yamamoto, T.~Ohsato, H.~Shimada, T.~Terai, M.~Yamawaki,
+  \href{https://www.sciencedirect.com/science/article/pii/0022311589904364}{Heat
+  capacities of uranium-zirconium alloys from 300 to 1100 {K}}, Journal of
+  Nuclear Materials 167 (1989) 147--151.
+\newblock \href {https://doi.org/10.1016/0022-3115(89)90436-4}
+  {\path{doi:10.1016/0022-3115(89)90436-4}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0022311589904364}
+
+\bibitem{fisher_single-crystal_1964}
+E.~S. Fisher, C.~J. Renken,
+  \href{https://link.aps.org/doi/10.1103/PhysRev.135.A482}{Single-{Crystal}
+  {Elastic} {Moduli} and the hcp
+  {\textbackslash}ensuremath\{{\textbackslash}rightarrow\} bcc {Transformation}
+  in {Ti}, {Zr}, and {Hf}}, Physical Review 135~(2A) (1964) A482--A494,
+  publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRev.135.A482}
+  {\path{doi:10.1103/PhysRev.135.A482}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.135.A482}
+
+\bibitem{fisher_adiabatic_1958}
+E.~S. Fisher, H.~J. McSkimin,
+  \href{https://pubs.aip.org/jap/article/29/10/1473/161937/Adiabatic-Elastic-Moduli-of-Single-Crystal-Alpha}{Adiabatic
+  {Elastic} {Moduli} of {Single} {Crystal} {Alpha}-{Uranium}}, Journal of
+  Applied Physics 29~(10) (1958) 1473--1484.
+\newblock \href {https://doi.org/10.1063/1.1722972}
+  {\path{doi:10.1063/1.1722972}}.
+\newline\urlprefix\url{https://pubs.aip.org/jap/article/29/10/1473/161937/Adiabatic-Elastic-Moduli-of-Single-Crystal-Alpha}
+
+\bibitem{liu_choosing_2019}
+H.~Liu, A.~Claisse, S.~C. Middleburgh, P.~Olsson,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0022311519307081}{Choosing
+  the correct strong correlation correction for {U3Si2}: {Influence} of
+  magnetism}, Journal of Nuclear Materials 527 (2019) 151828.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2019.151828}
+  {\path{doi:10.1016/j.jnucmat.2019.151828}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0022311519307081}
+
+\bibitem{soderlind_electron_2014}
+P.~Söderlind, B.~Sadigh, V.~Lordi, A.~Landa, P.~E.~A. Turchi,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311513011719}{Electron
+  correlation and relativity of the 5f electrons in the {U}–{Zr} alloy
+  system}, Journal of Nuclear Materials 444~(1) (2014) 356--358.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2013.10.021}
+  {\path{doi:10.1016/j.jnucmat.2013.10.021}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311513011719}
+
+\end{thebibliography}
