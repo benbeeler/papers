@@ -1,0 +1,188 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{SERP2014308}
+J.~Serp, M.~Allibert, O.~Beneš, S.~Delpech, O.~Feynberg, V.~Ghetta, D.~Heuer,
+  D.~Holcomb, V.~Ignatiev, J.~L. Kloosterman, L.~Luzzi, E.~Merle-Lucotte,
+  J.~Uhlíř, R.~Yoshioka, D.~Zhimin, The molten salt reactor ({MSR}) in
+  generation {IV}: {O}verview and perspectives, Prog. Nucl. Energy 77 (2014)
+  308--319.
+
+\bibitem{MSRE1}
+R.~C. Robertson, {MSRE} {D}esign and {O}perations {R}eport, {P}art
+  {I}-{D}escription of {R}eactor {D}esign, Tech. Rep. ORNL- TM-278, Oak Ridge
+  National Laboratory (1965).
+
+\bibitem{MSRE2}
+P.~N. Haubenreich, J.~R. Engel, {E}xperience with the {M}olten-{S}alt {R}eactor
+  {E}xperiment, Nuc. Appl. Technol. 8 (1970) 118.
+
+\bibitem{ARD2022153631}
+J.~C. Ard, J.~A. Yingling, K.~E. Johnson, J.~Schorne-Pinto, M.~Aziziha, C.~M.
+  Dixon, M.~S. Christian, J.~W. McMurray, T.~M. Besmann, Development of the
+  {M}olten {S}alt {T}hermal {P}roperties {D}atabase $-$ {T}hermochemical
+  ({MSTDB-TC}), example applications, and {L}i{C}l-{R}b{C}l and
+  {UF}$_3$-{UF}$_4$ system assessments, J. Nucl. Mater. 563 (2022) 153631.
+
+\bibitem{BIRRI2022117954}
+A.~Birri, R.~Gallagher, C.~Agca, J.~McMurray, N.~{Dianne Bull Ezell},
+  Application of the {R}edlich-{K}ister expansion for estimating the density of
+  molten fluoride psuedo-ternary salt systems of nuclear industry interest,
+  Chem. Eng. Sci. 260 (2022) 117954.
+
+\bibitem{Janz1988}
+G.~J. Janz, {T}hermodynamic and {T}ransport {P}roperties for {M}olten {S}alts:
+  {C}orrelation {E}quations for {C}ritically {E}valuated {D}ensity, {S}urface
+  {T}ension, {E}lectrical {C}onductance, and {V}iscosity {D}ata, J. Phys. Chem.
+  Ref. Data 17 (1988) 1 -- 309.
+
+\bibitem{Artsdalen1955}
+E.~R.~V. Artsdalen, I.~S. Yaffe, Electrical {C}onductance and {D}ensity of
+  {M}olten {S}alt {S}ystems: {KC}l-{L}i{C}l, {KC}l-{N}a{C}l and {KC}l-{K}{I},
+  J. Phys. Chem. 59 (1955) 118 -- 127.
+
+\bibitem{DUEMMLER2022153414}
+K.~Duemmler, Y.~Lin, M.~Woods, T.~Karlsson, R.~Gakhar, B.~Beeler, Evaluation of
+  thermophysical properties of the {L}i{C}l-{KC}l system via ab initio and
+  experimental methods, J. Nucl. Mater. 559 (2022) 153414.
+
+\bibitem{BENGTSON2014362}
+A.~Bengtson, H.~O. Nam, S.~Saha, R.~Sakidja, D.~Morgan, {F}irst-principles
+  molecular dynamics modeling of the {L}i{C}l–{KC}l molten salt system,
+  Comput. Mater. Sci. 83 (2014) 362--370.
+
+\bibitem{NIST}
+Nist chemistry web book [online] (2021).
+
+\bibitem{219851}
+M.~Chase, NIST-JANAF Thermochemical Tables, 4th Edition, American Institute of
+  Physics, -1, 1998.
+
+\bibitem{Parker}
+S.~S. Parker, A.~Long, C.~Lhermitte, S.~Vogel, M.~Monreal, J.~Jackson,
+  {T}hermophysical properties of liquid chlorides from 600 to 1600 k: {M}elt
+  point, enthalpy of fusion, and volumetric expansion, Journal of Molecular
+  Liquids 346 (2022) 118147.
+
+\bibitem{Desyatnik2}
+V.~N. Desyatnik, et~al., Structure and dynamic properties of molten uranium
+  trichloride, Zhurnl fizicheskoi khimii 50 (1976) 2522--2525.
+
+\bibitem{Andersson}
+D.~Andersson, B.~Beeler, Ab initio molecular dynamics ({AIMD}) simulations of
+  {N}a{C}l, {UC}l$_3$ and {N}a{C}l-{UC}l$_3$ molten salts, J. Nucl. Mater. 568
+  (2022) 153836.
+
+\bibitem{YIN2020}
+H.~Yin, J.~Lin, B.~Hu, W.~Liu, X.~Guo, Q.~Liu, Z.~Tang, Thermodynamic
+  description of the constitutive binaries of the
+  {N}a{C}l-{C}l-{UC}l$_3$-{P}u{C}l$_3$ system, Calphad 70 (2020) 101783.
+
+\bibitem{BENES2008}
+O.~Bene{\v s}, R.~Konings, Thermodynamic evaluation of the
+  {N}a{C}l--{M}g{C}l$_2$--{U}{C}l$_3$--{P}u{C}l$_3$ system, J. Nucl. Mater. 375
+  (2008) 202--208.
+
+\bibitem{Moon}
+J.~Moon, H.~Andrews, C.~Agca, J.-C. Bilheux, A.~Braatz, A.~McAlister,
+  J.~McFarlane, J.~McMurray, K.~Robb, Y.~Zhang, Density {M}easurements of
+  {V}arious {M}olten {S}odium, {M}agnesium, {P}otassium, and {U}ranium
+  {C}hloride {S}alt {C}ompositions {U}sing {N}eutron {I}maging, Ind. Eng. Chem.
+  Res. 61~(48) (2022) 17665--17673.
+
+\bibitem{DesyatnikKCl}
+V.~N. Desyatnik, S.~F. Katyshev, S.~P. Raspopin, Y.~F. Chervinskii, Density,
+  surface-tension and viscosity of melts of uranium
+  trichloride-potassium-chloride system, Zhurnal Fiz. khimii 50 (1976)
+  2522--2525.
+
+\bibitem{agca2022}
+C.~Agca, J.~McMurray, Empirical estimation of densities in
+  {N}a{C}l-{K}{C}l-{U}{C}l$_3$ and {N}a{C}l-{K}{C}l-{Y}{C}l$_3$ molten salts
+  using {R}edlich-{K}ister expansion, Chem. Eng. Sci. 247 (2022) 117086.
+
+\bibitem{Kim}
+H.~Kim, C.~Kwon, S.~Ham, J.~Lee, S.~J. Kim, S.~Kim, Physical properties of
+  {KC}l-{UC}l$_3$ molten salts as potential fuels for molten salt reactors, J.
+  Nucl. Mater. 577 (2023) 154329.
+
+\bibitem{Rycerz}
+L.~Rycerz, J.~Kapala, M.~Gaune-Escard, Experimental mixing enthalpy and
+  thermodynamic modelling of {UC}l$_3$-{KC}l system, J. Mol. Liq. 342 (2021)
+  116963.
+
+\bibitem{Yingling}
+J.~Yingling, J.~Schorne-Pinto, M.~Aziziha, J.~Ard, A.~Mofrad, M.~Christian,
+  C.~Dixon, T.~Besmann, Thermodynamic measurements and assessments for
+  licl-nacl-kcl-ucl3 systems, J. Chem. Thermodyn. 179 (2023) 106974.
+
+\bibitem{Ghosh}
+S.~Ghosh, B.~{Prabhakara Reddy}, K.~Nagarajan, K.~{Hari Kumar}, {E}xperimental
+  investigations and thermodynamic modelling of {KC}l–{L}i{C}l–{UC}l$_3$
+  system, Calphad 45 (2014) 11--26.
+
+\bibitem{Pinto}
+J.~Schorne-Pinto, J.~A. Yingling, M.~S. Christian, A.~M. Mofrad, M.~A.~A.
+  Aslani, T.~M. Besmann, Correlational approach to predict the enthalpy of
+  mixing for chloride melt systems, ACS Omega 7~(1) (2022) 362--371.
+
+\bibitem{Kresse1996}
+G.~Kresse, J.~Furthmuller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Phys. Rev. B 54
+  (1996) 11169--11186.
+
+\bibitem{packmol}
+L.~Mart{\'\i}nez, R.~Andrade, E.~G. Birgin, J.~M. Mart{\'\i}nez, {PACKMOL}: {A}
+  package for building initial configurations for molecular dynamics
+  simulations, J. Comp. Chem. 30~(13) (2009) 2157--2164.
+
+\bibitem{PAW1}
+G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
+  augmented-wave method, Phys. Rev. B 59 (1999) 1758--1775.
+
+\bibitem{PAW2}
+P.~E. Bl\"ochl, Projector augmented-wave method, Phys. Rev. B 50 (1994)
+  17953--17979.
+
+\bibitem{Steinmann2011}
+S.~N. Steinmann, C.~Corminboeuf, Comprehensive benchmarking of a
+  density-dependent dispersion correction, J. Chem. Theory Comput. 7 (2011)
+  3567 -- 3577.
+
+\bibitem{Steinmann2}
+S.~N. Steinmann, C.~Corminboeuf, A generalized-gradient approximation exchange
+  hole model for dispersion coefficients, J. Chem. Phys. 134 (2011) 044117.
+
+\bibitem{Dion2004}
+M.~Dion, H.~Rydberg, E.~Schroder, D.~C. Langreth, B.~I. Lundqvist, Van der
+  {W}aals {D}ensity {F}unctional for {G}eneral {G}eometries, Phys. Rev. Lett.
+  92 (2004) 246401.
+
+\bibitem{Klimes2010}
+J.~Klimes, D.~R. Bowler, A.~Michaelides, Chemical accuracy for the van der
+  {W}aals density functional, J. Phys.: Cond. Matt. 22 (2010) 022201.
+
+\bibitem{Grimme}
+S.~Grimme, S.~Ehrlich, L.~Goerigk, Effect of the damping function in dispersion
+  corrected density functional theory, J. Comp. Chem. 32~(7) (2011) 1456--1465.
+
+\bibitem{pol}
+P.~Schwerdtfeger, J.~K. Nagle, Table of static dipole polarizabilities of the
+  neutral elements in the periodic table, Molecular Physics 117~(9-12) (2019)
+  1200--1225.
+
+\bibitem{Redkin}
+A.~A. Redkin, Y.~P. Zaikov, I.~V. Korzun, O.~G. Reznitskikh, T.~V.
+  Yaroslavtseva, S.~I. Kumkov, Heat {C}apacity of {M}olten {H}alides, J. Phys.
+  Chem. B 119~(2) (2015) 509--512.
+
+\bibitem{Li}
+B.~Li, S.~Dai, D.-e. Jiang, {F}irst-{P}rinciples {M}olecular {D}ynamics
+  {S}imulations of {UC}l$_n$-{N}a{C}l (n = 3, 4) {M}olten {S}alts, ACS Appl.
+  Energy Mater. 2 (2019) 2122--2128.
+
+\end{thebibliography}
