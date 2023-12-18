@@ -1,8 +1,8 @@
 # Veusz saved document (version 3.4.0.1)
-# Saved at 2023-12-05T18:57:33.538354
+# Saved at 2023-12-18T13:43:59.534005
 
 SetCompatLevel(1)
-AddImportPath('/Users/beelbw/projects/papers/KCl-UCl3-ver1/ben_figs')
+AddImportPath('/Users/benjaminbeeler/projects/papers/KCl-UCl3/ben_figs')
 ImportFileCSV('fig5b.csv', linked=True)
 Set('colorTheme', 'default-latest')
 Set('StyleSheet/axis-function/autoRange', 'next-tick')
@@ -97,6 +97,12 @@ Set('max', 1500.0)
 Set('Line/color', 'theme2')
 Set('Line/width', '1pt')
 Set('Line/style', 'dashed')
+To('..')
+Add('label', name='label1', autoadd=False)
+To('label1')
+Set('label', 'B)')
+Set('xPos', [-0.12])
+Set('yPos', [0.95])
 To('..')
 To('..')
 To('..')

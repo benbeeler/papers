@@ -12,6 +12,17 @@ J.~Serp, M.~Allibert, O.~Beneš, S.~Delpech, O.~Feynberg, V.~Ghetta, D.~Heuer,
   generation {IV}: {O}verview and perspectives, Prog. Nucl. Energy 77 (2014)
   308--319.
 
+\bibitem{jiang2022}
+D.~Jiang, D.~Zhang, X.~Li, S.~Wang, C.~Wang, H.~Qin, Y.~Guo, W.~Tian, G.~Su,
+  S.~Qiu,
+  \href{https://www.sciencedirect.com/science/article/pii/S1364032122002581}{Fluoride-salt-cooled
+  high-temperature reactors: Review of historical milestones, research status,
+  challenges, and outlook}, Renewable and Sustainable Energy Reviews 161 (2022)
+  112345.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.rser.2022.112345}
+  {\path{doi:https://doi.org/10.1016/j.rser.2022.112345}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1364032122002581}
+
 \bibitem{MSRE1}
 R.~C. Robertson, {MSRE} {D}esign and {O}perations {R}eport, {P}art
   {I}-{D}escription of {R}eactor {D}esign, Tech. Rep. ORNL- TM-278, Oak Ridge
@@ -165,6 +176,54 @@ M.~Dion, H.~Rydberg, E.~Schroder, D.~C. Langreth, B.~I. Lundqvist, Van der
 \bibitem{Klimes2010}
 J.~Klimes, D.~R. Bowler, A.~Michaelides, Chemical accuracy for the van der
   {W}aals density functional, J. Phys.: Cond. Matt. 22 (2010) 022201.
+
+\bibitem{Perez2009}
+G.~Rom\'an-P\'erez, J.~M. Soler,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.103.096102}{Efficient
+  implementation of a van der waals density functional: Application to
+  double-wall carbon nanotubes}, Phys. Rev. Lett. 103 (2009) 096102.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.103.096102}
+  {\path{doi:10.1103/PhysRevLett.103.096102}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.103.096102}
+
+\bibitem{Berland2014}
+K.~Berland, P.~Hyldgaard,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.89.035412}{Exchange
+  functional that tests the robustness of the plasmon description of the van
+  der waals density functional}, Phys. Rev. B 89 (2014) 035412.
+\newblock \href {https://doi.org/10.1103/PhysRevB.89.035412}
+  {\path{doi:10.1103/PhysRevB.89.035412}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.89.035412}
+
+\bibitem{Torres2021}
+A.~Torres, L.~S. Pedroza, M.~Fernandez-Serra, A.~R. Rocha, Using neural network
+  force fields to ascertain the quality of ab initio simulations of liquid
+  water, The Journal of Physical Chemistry B 125~(38) (2021) 10772--10778,
+  pMID: 34543024.
+\newblock \href {http://arxiv.org/abs/https://doi.org/10.1021/acs.jpcb.1c04372}
+  {\path{arXiv:https://doi.org/10.1021/acs.jpcb.1c04372}}, \href
+  {https://doi.org/10.1021/acs.jpcb.1c04372}
+  {\path{doi:10.1021/acs.jpcb.1c04372}}.
+
+\bibitem{Berland2017}
+K.~Berland, Y.~Jiao, J.-H. Lee, T.~Rangel, J.~B. Neaton, P.~Hyldgaard,
+  \href{https://doi.org/10.1063/1.4986522}{{Assessment of two hybrid van der
+  Waals density functionals for covalent and non-covalent binding of
+  molecules}}, The Journal of Chemical Physics 146~(23) (2017) 234106.
+\newblock \href
+  {http://arxiv.org/abs/https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.4986522/13710899/234106\_1\_online.pdf}
+  {\path{arXiv:https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.4986522/13710899/234106\_1\_online.pdf}},
+  \href {https://doi.org/10.1063/1.4986522} {\path{doi:10.1063/1.4986522}}.
+\newline\urlprefix\url{https://doi.org/10.1063/1.4986522}
+
+\bibitem{Tran2019}
+F.~Tran, L.~Kalantari, B.~Traor\'e, X.~Rocquefelte, P.~Blaha,
+  \href{https://link.aps.org/doi/10.1103/PhysRevMaterials.3.063602}{Nonlocal
+  van der waals functionals for solids: Choosing an appropriate one}, Phys.
+  Rev. Mater. 3 (2019) 063602.
+\newblock \href {https://doi.org/10.1103/PhysRevMaterials.3.063602}
+  {\path{doi:10.1103/PhysRevMaterials.3.063602}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevMaterials.3.063602}
 
 \bibitem{Grimme}
 S.~Grimme, S.~Ehrlich, L.~Goerigk, Effect of the damping function in dispersion
