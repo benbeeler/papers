@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: marked.aux
+The style file: elsarticle-num.bst
+Database file #1: delta_UZr2.bib
+Warning--I didn't find a database entry for "ding_magnetic_2020"
+Warning--I didn't find a database entry for "fisher_adiabatic_1958"
+You've used 51 entries,
+            2952 wiz_defined-function locations,
+            1088 strings with 20100 characters,
+and the built_in function-call counts, 18980 in all, are:
+= -- 1990
+> -- 636
+< -- 1
++ -- 246
+- -- 195
+* -- 1871
+:= -- 2672
+add.period$ -- 100
+call.type$ -- 51
+change.case$ -- 68
+chr.to.int$ -- 0
+cite$ -- 51
+duplicate$ -- 520
+empty$ -- 1944
+format.name$ -- 240
+if$ -- 4719
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 50
+newline$ -- 260
+num.names$ -- 51
+pop$ -- 234
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 951
+stack$ -- 0
+substring$ -- 1110
+swap$ -- 200
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 132
+width$ -- 53
+write$ -- 582
+(There were 2 warnings)
