@@ -1,0 +1,1092 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 APR 2024 12:11
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
+\@bls=\dimen102
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box27
+\elsarticlehighlightsbox=\box28
+\elsarticlegrabsbox=\box29
+\keybox=\box30
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box31
+\els@boxb=\box32
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(./main.spl) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `main.spl'.
+
+\appnamewidth=\dimen109
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count95
+\output=\toks17
+\linenoprevgraf=\count96
+\linenumbersep=\dimen110
+\linenumberwidth=\dimen111
+\c@linenumber=\count97
+\c@pagewiselinenumber=\count98
+\c@LN@truepage=\count99
+\c@internallinenumber=\count100
+\c@internallinenumbers=\count101
+\quotelinenumbersep=\dimen112
+\bframerule=\dimen113
+\bframesep=\dimen114
+\bframebox=\box33
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen115
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count104
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count105
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen116
+\Fld@menulength=\count106
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks19
+\float@box=\box34
+\@float@everytoks=\toks20
+\@floatcapt=\box35
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@KVtest=\count116
+\sf@farskip=\skip48
+\sf@captopadj=\dimen134
+\sf@capskip=\skip49
+\sf@nearskip=\skip50
+\c@subfigure=\count117
+\c@subfigure@save=\count118
+\c@lofdepth=\count119
+\c@subtable=\count120
+\c@subtable@save=\count121
+\c@lotdepth=\count122
+\sf@top=\skip51
+\sf@bottom=\skip52
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count123
+\c@@ppsavesec=\count124
+\c@@ppsaveapp=\count125
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count126
+\LTcapwidth=\dimen135
+\LT@head=\box36
+\LT@firsthead=\box37
+\LT@foot=\box38
+\LT@lastfoot=\box39
+\LT@cols=\count127
+\LT@rows=\count128
+\c@LT@tables=\count129
+\c@LT@chunks=\count130
+\LT@p@ftn=\toks21
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen136
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count131
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count132
+\leftroot@=\count133
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count134
+\DOTSCASE@=\count135
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box40
+\strutbox@=\box41
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count136
+\c@MaxMatrixCols=\count137
+\dotsspace@=\muskip11
+\c@parentequation=\count138
+\dspbrk@lvl=\count139
+\tag@help=\toks23
+\row@=\count140
+\column@=\count141
+\maxfields@=\count142
+\andhelp@=\toks24
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks25
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `subfig' support loaded on input line 3164.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count143
+\multirow@dima=\skip61
+\bigstrutjot=\dimen145
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen146
+\lightrulewidth=\dimen147
+\cmidrulewidth=\dimen148
+\belowrulesep=\dimen149
+\belowbottomsep=\dimen150
+\aboverulesep=\dimen151
+\abovetopsep=\dimen152
+\cmidrulesep=\dimen153
+\cmidrulekern=\dimen154
+\defaultaddspace=\dimen155
+\@cmidla=\count144
+\@cmidlb=\count145
+\@aboverulesep=\dimen156
+\@belowrulesep=\dimen157
+\@thisruleclass=\count146
+\@lastruleclass=\count147
+\@thisrulewidth=\dimen158
+)
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen159
+\scratchbox=\box42
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen160
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box43
+Package hyperref Info: Link coloring OFF on input line 21.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 21.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 21.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 21.
+Package gensymb Info: Using \Omega for \ohm on input line 21.
+
+Package gensymb Warning: Not defining \micro.
+
+
+Overfull \hbox (2.22221pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 40.
+
+[1
+
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Excluding 'comment' comment. [2] [3] [4pdfTeX warning (ext4): destination with 
+the same identifier (name{table.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 
+     ]
+<Picture1.png, id=216, 777.90625pt x 331.2375pt>
+File: Picture1.png Graphic file (type png)
+<use Picture1.png>
+Package pdftex.def Info: Picture1.png  used on input line 110.
+(pdftex.def)             Requested size: 328.82707pt x 140.01845pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.116 
+       <./Picture1.png>] [6]
+<A_500_Inter.png, id=252, 625.245pt x 537.864pt>
+File: A_500_Inter.png Graphic file (type png)
+<use A_500_Inter.png>
+Package pdftex.def Info: A_500_Inter.png  used on input line 164.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<B_500_Inter.png, id=253, 625.245pt x 537.864pt>
+File: B_500_Inter.png Graphic file (type png)
+<use B_500_Inter.png>
+Package pdftex.def Info: B_500_Inter.png  used on input line 165.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<C_500_Inter.png, id=254, 625.245pt x 537.864pt>
+File: C_500_Inter.png Graphic file (type png)
+<use C_500_Inter.png>
+Package pdftex.def Info: C_500_Inter.png  used on input line 166.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<A_500_Vacan.png, id=255, 625.245pt x 522.753pt>
+File: A_500_Vacan.png Graphic file (type png)
+<use A_500_Vacan.png>
+Package pdftex.def Info: A_500_Vacan.png  used on input line 173.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<B_500_Vacan.png, id=256, 625.245pt x 522.753pt>
+File: B_500_Vacan.png Graphic file (type png)
+<use B_500_Vacan.png>
+Package pdftex.def Info: B_500_Vacan.png  used on input line 174.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<C_500_Vacan.png, id=257, 626.34pt x 522.753pt>
+File: C_500_Vacan.png Graphic file (type png)
+<use C_500_Vacan.png>
+Package pdftex.def Info: C_500_Vacan.png  used on input line 175.
+(pdftex.def)             Requested size: 144.54pt x 120.62949pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+<A_SE.png, id=270, 442.599pt x 580.131pt>
+File: A_SE.png Graphic file (type png)
+<use A_SE.png>
+Package pdftex.def Info: A_SE.png  used on input line 187.
+(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
+<B_SE.png, id=271, 443.475pt x 580.131pt>
+File: B_SE.png Graphic file (type png)
+<use B_SE.png>
+Package pdftex.def Info: B_SE.png  used on input line 188.
+(pdftex.def)             Requested size: 162.6075pt x 212.71535pt.
+<C_SE.png, id=272, 442.599pt x 580.131pt>
+File: C_SE.png Graphic file (type png)
+<use C_SE.png>
+Package pdftex.def Info: C_SE.png  used on input line 189.
+(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
+
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 187--189
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.195 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.195 
+       <./A_500_Inter.png> <./B_500_Inter.png> <./C_500_Inter.png> <./A_500_Vac
+an.png> <./B_500_Vacan.png> <./C_500_Vacan.png>] [9pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.4}) has been already used, duplica
+te ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.199 
+       <./A_SE.png> <./B_SE.png> <./C_SE.png>] Excluding 'comment' comment.
+<SE_GB.png, id=312, 438.438pt x 445.665pt>
+File: SE_GB.png Graphic file (type png)
+<use SE_GB.png>
+Package pdftex.def Info: SE_GB.png  used on input line 231.
+(pdftex.def)             Requested size: 216.81pt x 220.39064pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10]
+<weighted_SI.png, id=328, 365.292pt x 372.3pt>
+File: weighted_SI.png Graphic file (type png)
+<use weighted_SI.png>
+Package pdftex.def Info: weighted_SI.png  used on input line 249.
+(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
+<weighted_SV.png, id=329, 365.292pt x 372.3pt>
+File: weighted_SV.png Graphic file (type png)
+<use weighted_SV.png>
+Package pdftex.def Info: weighted_SV.png  used on input line 251.
+(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Excluding 'comment' comment. [11pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.303 \FloatBarrier
+                    <./SE_GB.png>]
+<A_IL.png, id=343, 447.636pt x 604.221pt>
+File: A_IL.png Graphic file (type png)
+<use A_IL.png>
+Package pdftex.def Info: A_IL.png  used on input line 310.
+(pdftex.def)             Requested size: 162.6075pt x 219.49239pt.
+<B_IL.png, id=344, 445.665pt x 604.221pt>
+File: B_IL.png Graphic file (type png)
+<use B_IL.png>
+Package pdftex.def Info: B_IL.png  used on input line 311.
+(pdftex.def)             Requested size: 162.6075pt x 220.46045pt.
+<C_IL.png, id=345, 447.636pt x 604.221pt>
+File: C_IL.png Graphic file (type png)
+<use C_IL.png>
+Package pdftex.def Info: C_IL.png  used on input line 312.
+(pdftex.def)             Requested size: 162.6075pt x 219.49239pt.
+
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 310--312
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.321 
+       <./weighted_SI.png> <./weighted_SV.png>] Excluding 'comment' comment.
+<weighted_IL_SI.png, id=359, 366.168pt x 378.213pt>
+File: weighted_IL_SI.png Graphic file (type png)
+<use weighted_IL_SI.png>
+Package pdftex.def Info: weighted_IL_SI.png  used on input line 359.
+(pdftex.def)             Requested size: 180.67499pt x 186.6187pt.
+<weighted_IL_SV.png, id=360, 366.168pt x 378.213pt>
+File: weighted_IL_SV.png Graphic file (type png)
+<use weighted_IL_SV.png>
+Package pdftex.def Info: weighted_IL_SV.png  used on input line 361.
+(pdftex.def)             Requested size: 180.67499pt x 186.6187pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.377 \FloatBarrier
+                    <./A_IL.png> <./B_IL.png> <./C_IL.png>] [14pdfTeX warning (
+ext4): destination with the same identifier (name{figure.8}) has been already u
+sed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.386 
+       <./weighted_IL_SI.png> <./weighted_IL_SV.png>]
+<A1_diffusion.png, id=383, 435.591pt x 291.051pt>
+File: A1_diffusion.png Graphic file (type png)
+<use A1_diffusion.png>
+Package pdftex.def Info: A1_diffusion.png  used on input line 391.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+<B1_diffusion.png, id=384, 435.591pt x 291.051pt>
+File: B1_diffusion.png Graphic file (type png)
+<use B1_diffusion.png>
+Package pdftex.def Info: B1_diffusion.png  used on input line 392.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+<C1_diffusion.png, id=385, 435.591pt x 291.051pt>
+File: C1_diffusion.png Graphic file (type png)
+<use C1_diffusion.png>
+Package pdftex.def Info: C1_diffusion.png  used on input line 393.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 391--393
+ [][][][][][] 
+ []
+
+<A2_diffusion.png, id=393, 435.591pt x 291.051pt>
+File: A2_diffusion.png Graphic file (type png)
+<use A2_diffusion.png>
+Package pdftex.def Info: A2_diffusion.png  used on input line 406.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+<B2_diffusion.png, id=394, 438.438pt x 298.059pt>
+File: B2_diffusion.png Graphic file (type png)
+<use B2_diffusion.png>
+Package pdftex.def Info: B2_diffusion.png  used on input line 407.
+(pdftex.def)             Requested size: 162.6075pt x 110.54388pt.
+<C2_diffusion.png, id=395, 435.591pt x 291.051pt>
+File: C2_diffusion.png Graphic file (type png)
+<use C2_diffusion.png>
+Package pdftex.def Info: C2_diffusion.png  used on input line 408.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 406--408
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.414 
+       <./A1_diffusion.png> <./B1_diffusion.png> <./C1_diffusion.png>] [16pdfTe
+X warning (ext4): destination with the same identifier (name{figure.10}) has be
+en already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.447 \end{equation}
+                     <./A2_diffusion.png> <./B2_diffusion.png> <./C2_diffusion.
+png>] Excluding 'comment' comment.
+<final2.png, id=430, 522.753pt x 435.591pt>
+File: final2.png Graphic file (type png)
+<use final2.png>
+Package pdftex.def Info: final2.png  used on input line 469.
+(pdftex.def)             Requested size: 202.35622pt x 168.6103pt.
+<final1.png, id=431, 520.782pt x 435.591pt>
+File: final1.png Graphic file (type png)
+<use final1.png>
+Package pdftex.def Info: final1.png  used on input line 471.
+(pdftex.def)             Requested size: 202.35622pt x 169.25502pt.
+<A_diffusion.png, id=435, 529.98pt x 589.11pt>
+File: A_diffusion.png Graphic file (type png)
+<use A_diffusion.png>
+Package pdftex.def Info: A_diffusion.png  used on input line 481.
+(pdftex.def)             Requested size: 156.03543pt x 173.44756pt.
+<B_diffusion.png, id=436, 514.869pt x 590.205pt>
+File: B_diffusion.png Graphic file (type png)
+<use B_diffusion.png>
+Package pdftex.def Info: B_diffusion.png  used on input line 482.
+(pdftex.def)             Requested size: 151.30368pt x 173.44756pt.
+<C_diffusion.png, id=437, 514.869pt x 588.015pt>
+File: C_diffusion.png Graphic file (type png)
+<use C_diffusion.png>
+Package pdftex.def Info: C_diffusion.png  used on input line 483.
+(pdftex.def)             Requested size: 151.86932pt x 173.44756pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.492 
+       <./final2.png> <./final1.png>]
+<migration.png, id=453, 822.07124pt x 361.35pt>
+File: migration.png Graphic file (type png)
+<use migration.png>
+Package pdftex.def Info: migration.png  used on input line 495.
+(pdftex.def)             Requested size: 216.81pt x 95.29965pt.
+ Excluding 'comment' comment. [18pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.522 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.522 
+       <./A_diffusion.png> <./B_diffusion.png> <./C_diffusion.png> <./migration
+.png>]
+<compensation.png, id=481, 437.562pt x 395.295pt>
+File: compensation.png Graphic file (type png)
+<use compensation.png>
+Package pdftex.def Info: compensation.png  used on input line 538.
+(pdftex.def)             Requested size: 289.07999pt x 261.17296pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.555 
+       <./compensation.png>]
+<1.png, id=503, 579.036pt x 579.036pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 558.
+(pdftex.def)             Requested size: 216.81pt x 216.81105pt.
+<3.png, id=504, 582.102pt x 579.036pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 559.
+(pdftex.def)             Requested size: 216.81pt x 215.66245pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.565 \subsection
+                 {Coble creep} <./1.png> <./3.png>]
+Excluding 'comment' comment. [21] Excluding 'comment' comment. [22]
+<A_300_Inter.png, id=566, 625.245pt x 523.848pt>
+File: A_300_Inter.png Graphic file (type png)
+<use A_300_Inter.png>
+Package pdftex.def Info: A_300_Inter.png  used on input line 652.
+(pdftex.def)             Requested size: 144.54pt x 121.09798pt.
+<B_300_Inter.png, id=567, 625.245pt x 523.848pt>
+File: B_300_Inter.png Graphic file (type png)
+<use B_300_Inter.png>
+Package pdftex.def Info: B_300_Inter.png  used on input line 653.
+(pdftex.def)             Requested size: 144.54pt x 121.09798pt.
+<C_300_Inter.png, id=568, 625.245pt x 523.848pt>
+File: C_300_Inter.png Graphic file (type png)
+<use C_300_Inter.png>
+Package pdftex.def Info: C_300_Inter.png  used on input line 653.
+(pdftex.def)             Requested size: 144.54pt x 121.09798pt.
+<A_400_Inter.png, id=569, 625.245pt x 537.864pt>
+File: A_400_Inter.png Graphic file (type png)
+<use A_400_Inter.png>
+Package pdftex.def Info: A_400_Inter.png  used on input line 654.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<B_400_Inter.png, id=570, 625.245pt x 537.864pt>
+File: B_400_Inter.png Graphic file (type png)
+<use B_400_Inter.png>
+Package pdftex.def Info: B_400_Inter.png  used on input line 655.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<C_400_Inter.png, id=571, 625.245pt x 537.864pt>
+File: C_400_Inter.png Graphic file (type png)
+<use C_400_Inter.png>
+Package pdftex.def Info: C_400_Inter.png  used on input line 656.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<A_600_Inter.png, id=572, 625.245pt x 536.988pt>
+File: A_600_Inter.png Graphic file (type png)
+<use A_600_Inter.png>
+Package pdftex.def Info: A_600_Inter.png  used on input line 657.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<B_600_Inter.png, id=573, 625.245pt x 536.988pt>
+File: B_600_Inter.png Graphic file (type png)
+<use B_600_Inter.png>
+Package pdftex.def Info: B_600_Inter.png  used on input line 658.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<C_600_Inter.png, id=574, 625.245pt x 536.988pt>
+File: C_600_Inter.png Graphic file (type png)
+<use C_600_Inter.png>
+Package pdftex.def Info: C_600_Inter.png  used on input line 659.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.660 \caption
+              {Average formation energy of an interstitial at different temp...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.660 ...bars here show twice the standard error.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.660 ...bars here show twice the standard error.}
+                                                   [23 <./A_300_Inter.png> <./B
+_300_Inter.png> <./C_300_Inter.png> <./A_400_Inter.png> <./B_400_Inter.png> <./
+C_400_Inter.png> <./A_600_Inter.png> <./B_600_Inter.png> <./C_600_Inter.png>]
+<A_300_Vacan.png, id=598, 625.245pt x 536.988pt>
+File: A_300_Vacan.png Graphic file (type png)
+<use A_300_Vacan.png>
+Package pdftex.def Info: A_300_Vacan.png  used on input line 669.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<B_300_Vacan.png, id=599, 625.245pt x 536.988pt>
+File: B_300_Vacan.png Graphic file (type png)
+<use B_300_Vacan.png>
+Package pdftex.def Info: B_300_Vacan.png  used on input line 670.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<C_300_Vacan.png, id=600, 626.34pt x 535.893pt>
+File: C_300_Vacan.png Graphic file (type png)
+<use C_300_Vacan.png>
+Package pdftex.def Info: C_300_Vacan.png  used on input line 671.
+(pdftex.def)             Requested size: 144.54pt x 123.66165pt.
+<A_400_Vacan.png, id=601, 625.245pt x 522.753pt>
+File: A_400_Vacan.png Graphic file (type png)
+<use A_400_Vacan.png>
+Package pdftex.def Info: A_400_Vacan.png  used on input line 672.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<B_400_Vacan.png, id=602, 625.245pt x 522.753pt>
+File: B_400_Vacan.png Graphic file (type png)
+<use B_400_Vacan.png>
+Package pdftex.def Info: B_400_Vacan.png  used on input line 673.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<C_400_Vacan.png, id=603, 626.34pt x 522.753pt>
+File: C_400_Vacan.png Graphic file (type png)
+<use C_400_Vacan.png>
+Package pdftex.def Info: C_400_Vacan.png  used on input line 674.
+(pdftex.def)             Requested size: 144.54pt x 120.62949pt.
+<A_600_Vacan.png, id=604, 625.245pt x 525.819pt>
+File: A_600_Vacan.png Graphic file (type png)
+<use A_600_Vacan.png>
+Package pdftex.def Info: A_600_Vacan.png  used on input line 675.
+(pdftex.def)             Requested size: 144.54pt x 121.55362pt.
+<B_600_Vacan.png, id=605, 625.245pt x 525.819pt>
+File: B_600_Vacan.png Graphic file (type png)
+<use B_600_Vacan.png>
+Package pdftex.def Info: B_600_Vacan.png  used on input line 676.
+(pdftex.def)             Requested size: 144.54pt x 121.55362pt.
+<C_600_Vacan.png, id=606, 626.34pt x 525.819pt>
+File: C_600_Vacan.png Graphic file (type png)
+<use C_600_Vacan.png>
+Package pdftex.def Info: C_600_Vacan.png  used on input line 677.
+(pdftex.def)             Requested size: 144.54pt x 121.33699pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.678 \caption
+              { Average formation energy ($E_{\mathrm{f}}$) of a vacancy at ...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.678 ...rror bars show twice the standard error.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.678 ...rror bars show twice the standard error.}
+                                                   [24 <./A_300_Vacan.png> <./B
+_300_Vacan.png> <./C_300_Vacan.png> <./A_400_Vacan.png> <./B_400_Vacan.png> <./
+C_400_Vacan.png> <./A_600_Vacan.png> <./B_600_Vacan.png> <./C_600_Vacan.png>]pd
+fTeX warning (ext4): destination with the same identifier (name{table.1}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.695     \caption
+                  {Calculated migration energy of the Arrhenius fit of self-...
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.695 ...d in \Cref{fig:Migra}. \label{tab:migra}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{table.1}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.695 ...d in \Cref{fig:Migra}. \label{tab:migra}}
+                                                   [25pdfTeX warning (ext4): de
+stination with the same identifier (name{table.2}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.771 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.771 
+      ] Excluding 'comment' comment. [26pdfTeX warning (ext4): destination with
+ the same identifier (name{table.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.810 \newpage
+              ] (./main.bbl [27] [28] [29] [30] [31] [32] [33] [34])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 814.
+ [35]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 814.
+
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 814.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 814.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 8C39E328B33ABB59C74BF0EF972DCF1C;1049.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 814.
+ ) 
+Here is how much of TeX's memory you used:
+ 10474 strings out of 492616
+ 169489 string characters out of 6129482
+ 293164 words of memory out of 5000000
+ 14031 multiletter control sequences out of 15000+600000
+ 9327 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,11n,49p,2915b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (35 pages, 11480560 bytes).
+PDF statistics:
+ 1122 PDF objects out of 1200 (max. 8388607)
+ 943 compressed objects within 10 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+
