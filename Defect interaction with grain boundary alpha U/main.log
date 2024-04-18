@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 APR 2024 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 APR 2024 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,20 +410,20 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -456,7 +456,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 20.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -466,9 +466,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -512,14 +512,14 @@ LaTeX Info: Redefining \nameref on input line 21.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 21.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 21.
+LaTeX Info: Redefining \celsius on input line 20.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 20.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 21.
-Package gensymb Info: Using \Omega for \ohm on input line 21.
+LaTeX Info: Redefining \ohm on input line 20.
+Package gensymb Info: Using \Omega for \ohm on input line 20.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -530,539 +530,518 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 40.
+(hyperref)                removing `math shift' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 40.
+(hyperref)                removing `\alpha' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 40.
+(hyperref)                removing `math shift' on input line 39.
 
 [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Excluding 'comment' comment. [2] [3] [4pdfTeX warning (ext4): destination with 
-the same identifier (name{table.1}) has been already used, duplicate ignored
+[2] [3] [4pdfTeX warning (ext4): destination with the same identifier (name{tab
+le.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.98 
+l.83 
      ]
-<Picture1.png, id=216, 777.90625pt x 331.2375pt>
+<Picture1.png, id=232, 777.90625pt x 331.2375pt>
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 110.
+Package pdftex.def Info: Picture1.png  used on input line 95.
 (pdftex.def)             Requested size: 328.82707pt x 140.01845pt.
  [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116 
+l.101 
        <./Picture1.png>] [6]
-<A_500_Inter.png, id=252, 625.245pt x 537.864pt>
+<A_500_Inter.png, id=268, 625.245pt x 537.864pt>
 File: A_500_Inter.png Graphic file (type png)
 <use A_500_Inter.png>
-Package pdftex.def Info: A_500_Inter.png  used on input line 164.
+Package pdftex.def Info: A_500_Inter.png  used on input line 144.
 (pdftex.def)             Requested size: 144.54pt x 124.33806pt.
-<B_500_Inter.png, id=253, 625.245pt x 537.864pt>
+<B_500_Inter.png, id=269, 625.245pt x 537.864pt>
 File: B_500_Inter.png Graphic file (type png)
 <use B_500_Inter.png>
-Package pdftex.def Info: B_500_Inter.png  used on input line 165.
+Package pdftex.def Info: B_500_Inter.png  used on input line 145.
 (pdftex.def)             Requested size: 144.54pt x 124.33806pt.
-<C_500_Inter.png, id=254, 625.245pt x 537.864pt>
+<C_500_Inter.png, id=270, 625.245pt x 537.864pt>
 File: C_500_Inter.png Graphic file (type png)
 <use C_500_Inter.png>
-Package pdftex.def Info: C_500_Inter.png  used on input line 166.
+Package pdftex.def Info: C_500_Inter.png  used on input line 146.
 (pdftex.def)             Requested size: 144.54pt x 124.33806pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<A_500_Vacan.png, id=255, 625.245pt x 522.753pt>
+<A_500_Vacan.png, id=271, 625.245pt x 522.753pt>
 File: A_500_Vacan.png Graphic file (type png)
 <use A_500_Vacan.png>
-Package pdftex.def Info: A_500_Vacan.png  used on input line 173.
+Package pdftex.def Info: A_500_Vacan.png  used on input line 153.
 (pdftex.def)             Requested size: 144.54pt x 120.84485pt.
-<B_500_Vacan.png, id=256, 625.245pt x 522.753pt>
+<B_500_Vacan.png, id=272, 625.245pt x 522.753pt>
 File: B_500_Vacan.png Graphic file (type png)
 <use B_500_Vacan.png>
-Package pdftex.def Info: B_500_Vacan.png  used on input line 174.
+Package pdftex.def Info: B_500_Vacan.png  used on input line 154.
 (pdftex.def)             Requested size: 144.54pt x 120.84485pt.
-<C_500_Vacan.png, id=257, 626.34pt x 522.753pt>
+<C_500_Vacan.png, id=273, 626.34pt x 522.753pt>
 File: C_500_Vacan.png Graphic file (type png)
 <use C_500_Vacan.png>
-Package pdftex.def Info: C_500_Vacan.png  used on input line 175.
+Package pdftex.def Info: C_500_Vacan.png  used on input line 155.
 (pdftex.def)             Requested size: 144.54pt x 120.62949pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7]
-<A_SE.png, id=270, 442.599pt x 580.131pt>
-File: A_SE.png Graphic file (type png)
-<use A_SE.png>
-Package pdftex.def Info: A_SE.png  used on input line 187.
-(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
-<B_SE.png, id=271, 443.475pt x 580.131pt>
-File: B_SE.png Graphic file (type png)
-<use B_SE.png>
-Package pdftex.def Info: B_SE.png  used on input line 188.
-(pdftex.def)             Requested size: 162.6075pt x 212.71535pt.
-<C_SE.png, id=272, 442.599pt x 580.131pt>
-File: C_SE.png Graphic file (type png)
-<use C_SE.png>
-Package pdftex.def Info: C_SE.png  used on input line 189.
-(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
-
-Overfull \hbox (18.06747pt too wide) in paragraph at lines 187--189
- [][][][][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
+[7] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.195 
+l.164 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.195 
+l.164 
        <./A_500_Inter.png> <./B_500_Inter.png> <./C_500_Inter.png> <./A_500_Vac
-an.png> <./B_500_Vacan.png> <./C_500_Vacan.png>] [9pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.4}) has been already used, duplica
-te ignored
+an.png> <./B_500_Vacan.png> <./C_500_Vacan.png>]
+<A_SE.png, id=303, 442.599pt x 580.131pt>
+File: A_SE.png Graphic file (type png)
+<use A_SE.png>
+Package pdftex.def Info: A_SE.png  used on input line 167.
+(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
+<B_SE.png, id=304, 443.475pt x 580.131pt>
+File: B_SE.png Graphic file (type png)
+<use B_SE.png>
+Package pdftex.def Info: B_SE.png  used on input line 168.
+(pdftex.def)             Requested size: 162.6075pt x 212.71535pt.
+<C_SE.png, id=305, 442.599pt x 580.131pt>
+File: C_SE.png Graphic file (type png)
+<use C_SE.png>
+Package pdftex.def Info: C_SE.png  used on input line 169.
+(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
+
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 167--169
+ [][][][][][] 
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.199 
-       <./A_SE.png> <./B_SE.png> <./C_SE.png>] Excluding 'comment' comment.
-<SE_GB.png, id=312, 438.438pt x 445.665pt>
-File: SE_GB.png Graphic file (type png)
-<use SE_GB.png>
-Package pdftex.def Info: SE_GB.png  used on input line 231.
-(pdftex.def)             Requested size: 216.81pt x 220.39064pt.
+l.177 
+       <./A_SE.png> <./B_SE.png> <./C_SE.png>]
+<weighted_SI.png, id=323, 365.292pt x 372.3pt>
+File: weighted_SI.png Graphic file (type png)
+<use weighted_SI.png>
+Package pdftex.def Info: weighted_SI.png  used on input line 188.
+(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
+<weighted_SV.png, id=324, 365.292pt x 372.3pt>
+File: weighted_SV.png Graphic file (type png)
+<use weighted_SV.png>
+Package pdftex.def Info: weighted_SV.png  used on input line 189.
+(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10]
-<weighted_SI.png, id=328, 365.292pt x 372.3pt>
-File: weighted_SI.png Graphic file (type png)
-<use weighted_SI.png>
-Package pdftex.def Info: weighted_SI.png  used on input line 249.
-(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
-<weighted_SV.png, id=329, 365.292pt x 372.3pt>
-File: weighted_SV.png Graphic file (type png)
-<use weighted_SV.png>
-Package pdftex.def Info: weighted_SV.png  used on input line 251.
-(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Excluding 'comment' comment. [11pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.5}) has been already used, duplicate ignored
+<SE_GB.png, id=335, 438.438pt x 445.665pt>
+File: SE_GB.png Graphic file (type png)
+<use SE_GB.png>
+Package pdftex.def Info: SE_GB.png  used on input line 198.
+(pdftex.def)             Requested size: 216.81pt x 220.39064pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.303 \FloatBarrier
-                    <./SE_GB.png>]
-<A_IL.png, id=343, 447.636pt x 604.221pt>
+l.207 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.207 
+       <./weighted_SI.png> <./weighted_SV.png> <./SE_GB.png>]
+<A_IL.png, id=349, 447.636pt x 604.221pt>
 File: A_IL.png Graphic file (type png)
 <use A_IL.png>
-Package pdftex.def Info: A_IL.png  used on input line 310.
+Package pdftex.def Info: A_IL.png  used on input line 210.
 (pdftex.def)             Requested size: 162.6075pt x 219.49239pt.
-<B_IL.png, id=344, 445.665pt x 604.221pt>
+<B_IL.png, id=350, 445.665pt x 604.221pt>
 File: B_IL.png Graphic file (type png)
 <use B_IL.png>
-Package pdftex.def Info: B_IL.png  used on input line 311.
+Package pdftex.def Info: B_IL.png  used on input line 211.
 (pdftex.def)             Requested size: 162.6075pt x 220.46045pt.
-<C_IL.png, id=345, 447.636pt x 604.221pt>
+<C_IL.png, id=351, 447.636pt x 604.221pt>
 File: C_IL.png Graphic file (type png)
 <use C_IL.png>
-Package pdftex.def Info: C_IL.png  used on input line 312.
+Package pdftex.def Info: C_IL.png  used on input line 212.
 (pdftex.def)             Requested size: 162.6075pt x 219.49239pt.
 
-Overfull \hbox (18.06747pt too wide) in paragraph at lines 310--312
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 210--212
  [][][][][][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.321 
-       <./weighted_SI.png> <./weighted_SV.png>] Excluding 'comment' comment.
-<weighted_IL_SI.png, id=359, 366.168pt x 378.213pt>
+l.222 
+       <./A_IL.png> <./B_IL.png> <./C_IL.png>]
+<weighted_IL_SI.png, id=365, 366.168pt x 378.213pt>
 File: weighted_IL_SI.png Graphic file (type png)
 <use weighted_IL_SI.png>
-Package pdftex.def Info: weighted_IL_SI.png  used on input line 359.
+Package pdftex.def Info: weighted_IL_SI.png  used on input line 226.
 (pdftex.def)             Requested size: 180.67499pt x 186.6187pt.
-<weighted_IL_SV.png, id=360, 366.168pt x 378.213pt>
+<weighted_IL_SV.png, id=366, 366.168pt x 378.213pt>
 File: weighted_IL_SV.png Graphic file (type png)
 <use weighted_IL_SV.png>
-Package pdftex.def Info: weighted_IL_SV.png  used on input line 361.
+Package pdftex.def Info: weighted_IL_SV.png  used on input line 227.
 (pdftex.def)             Requested size: 180.67499pt x 186.6187pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.377 \FloatBarrier
-                    <./A_IL.png> <./B_IL.png> <./C_IL.png>] [14pdfTeX warning (
-ext4): destination with the same identifier (name{figure.8}) has been already u
-sed, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.386 
+l.236 
        <./weighted_IL_SI.png> <./weighted_IL_SV.png>]
-<A1_diffusion.png, id=383, 435.591pt x 291.051pt>
+<A1_diffusion.png, id=378, 435.591pt x 291.051pt>
 File: A1_diffusion.png Graphic file (type png)
 <use A1_diffusion.png>
-Package pdftex.def Info: A1_diffusion.png  used on input line 391.
+Package pdftex.def Info: A1_diffusion.png  used on input line 244.
 (pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
-<B1_diffusion.png, id=384, 435.591pt x 291.051pt>
+<B1_diffusion.png, id=379, 435.591pt x 291.051pt>
 File: B1_diffusion.png Graphic file (type png)
 <use B1_diffusion.png>
-Package pdftex.def Info: B1_diffusion.png  used on input line 392.
+Package pdftex.def Info: B1_diffusion.png  used on input line 245.
 (pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
-<C1_diffusion.png, id=385, 435.591pt x 291.051pt>
+<C1_diffusion.png, id=380, 435.591pt x 291.051pt>
 File: C1_diffusion.png Graphic file (type png)
 <use C1_diffusion.png>
-Package pdftex.def Info: C1_diffusion.png  used on input line 393.
+Package pdftex.def Info: C1_diffusion.png  used on input line 246.
 (pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
 
-Overfull \hbox (18.06747pt too wide) in paragraph at lines 391--393
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 244--246
  [][][][][][] 
  []
 
-<A2_diffusion.png, id=393, 435.591pt x 291.051pt>
-File: A2_diffusion.png Graphic file (type png)
-<use A2_diffusion.png>
-Package pdftex.def Info: A2_diffusion.png  used on input line 406.
-(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
-<B2_diffusion.png, id=394, 438.438pt x 298.059pt>
-File: B2_diffusion.png Graphic file (type png)
-<use B2_diffusion.png>
-Package pdftex.def Info: B2_diffusion.png  used on input line 407.
-(pdftex.def)             Requested size: 162.6075pt x 110.54388pt.
-<C2_diffusion.png, id=395, 435.591pt x 291.051pt>
-File: C2_diffusion.png Graphic file (type png)
-<use C2_diffusion.png>
-Package pdftex.def Info: C2_diffusion.png  used on input line 408.
-(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
-
-Overfull \hbox (18.06747pt too wide) in paragraph at lines 406--408
- [][][][][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.414 
-       <./A1_diffusion.png> <./B1_diffusion.png> <./C1_diffusion.png>] [16pdfTe
-X warning (ext4): destination with the same identifier (name{figure.10}) has be
-en already used, duplicate ignored
+l.254 
+       <./A1_diffusion.png> <./B1_diffusion.png> <./C1_diffusion.png>]
+<A2_diffusion.png, id=401, 435.591pt x 291.051pt>
+File: A2_diffusion.png Graphic file (type png)
+<use A2_diffusion.png>
+Package pdftex.def Info: A2_diffusion.png  used on input line 257.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+<B2_diffusion.png, id=402, 438.438pt x 298.059pt>
+File: B2_diffusion.png Graphic file (type png)
+<use B2_diffusion.png>
+Package pdftex.def Info: B2_diffusion.png  used on input line 258.
+(pdftex.def)             Requested size: 162.6075pt x 110.54388pt.
+<C2_diffusion.png, id=403, 435.591pt x 291.051pt>
+File: C2_diffusion.png Graphic file (type png)
+<use C2_diffusion.png>
+Package pdftex.def Info: C2_diffusion.png  used on input line 259.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+
+Overfull \hbox (18.06747pt too wide) in paragraph at lines 257--259
+ [][][][][][] 
+ []
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.447 \end{equation}
-                     <./A2_diffusion.png> <./B2_diffusion.png> <./C2_diffusion.
-png>] Excluding 'comment' comment.
-<final2.png, id=430, 522.753pt x 435.591pt>
+l.269 
+       <./A2_diffusion.png> <./B2_diffusion.png> <./C2_diffusion.png>]
+<final2.png, id=423, 522.753pt x 435.591pt>
 File: final2.png Graphic file (type png)
 <use final2.png>
-Package pdftex.def Info: final2.png  used on input line 469.
+Package pdftex.def Info: final2.png  used on input line 287.
 (pdftex.def)             Requested size: 202.35622pt x 168.6103pt.
-<final1.png, id=431, 520.782pt x 435.591pt>
+<final1.png, id=424, 520.782pt x 435.591pt>
 File: final1.png Graphic file (type png)
 <use final1.png>
-Package pdftex.def Info: final1.png  used on input line 471.
+Package pdftex.def Info: final1.png  used on input line 288.
 (pdftex.def)             Requested size: 202.35622pt x 169.25502pt.
-<A_diffusion.png, id=435, 529.98pt x 589.11pt>
+<A_diffusion.png, id=428, 529.98pt x 589.11pt>
 File: A_diffusion.png Graphic file (type png)
 <use A_diffusion.png>
-Package pdftex.def Info: A_diffusion.png  used on input line 481.
+Package pdftex.def Info: A_diffusion.png  used on input line 297.
 (pdftex.def)             Requested size: 156.03543pt x 173.44756pt.
-<B_diffusion.png, id=436, 514.869pt x 590.205pt>
+<B_diffusion.png, id=429, 514.869pt x 590.205pt>
 File: B_diffusion.png Graphic file (type png)
 <use B_diffusion.png>
-Package pdftex.def Info: B_diffusion.png  used on input line 482.
+Package pdftex.def Info: B_diffusion.png  used on input line 298.
 (pdftex.def)             Requested size: 151.30368pt x 173.44756pt.
-<C_diffusion.png, id=437, 514.869pt x 588.015pt>
+<C_diffusion.png, id=430, 514.869pt x 588.015pt>
 File: C_diffusion.png Graphic file (type png)
 <use C_diffusion.png>
-Package pdftex.def Info: C_diffusion.png  used on input line 483.
+Package pdftex.def Info: C_diffusion.png  used on input line 299.
 (pdftex.def)             Requested size: 151.86932pt x 173.44756pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.492 
+l.305 
        <./final2.png> <./final1.png>]
-<migration.png, id=453, 822.07124pt x 361.35pt>
+<migration.png, id=448, 822.07124pt x 361.35pt>
 File: migration.png Graphic file (type png)
 <use migration.png>
-Package pdftex.def Info: migration.png  used on input line 495.
+Package pdftex.def Info: migration.png  used on input line 308.
 (pdftex.def)             Requested size: 216.81pt x 95.29965pt.
- Excluding 'comment' comment. [18pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.12}) has been already used, duplicate ignored
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.522 
+l.314 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.522 
+l.314 
        <./A_diffusion.png> <./B_diffusion.png> <./C_diffusion.png> <./migration
-.png>]
-<compensation.png, id=481, 437.562pt x 395.295pt>
-File: compensation.png Graphic file (type png)
-<use compensation.png>
-Package pdftex.def Info: compensation.png  used on input line 538.
-(pdftex.def)             Requested size: 289.07999pt x 261.17296pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.14
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.555 
-       <./compensation.png>]
-<1.png, id=503, 579.036pt x 579.036pt>
+.png>] [18] [19]
+<1.png, id=515, 579.036pt x 579.036pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
-Package pdftex.def Info: 1.png  used on input line 558.
-(pdftex.def)             Requested size: 216.81pt x 216.81105pt.
-<3.png, id=504, 582.102pt x 579.036pt>
+Package pdftex.def Info: 1.png  used on input line 359.
+(pdftex.def)             Requested size: 211.38832pt x 211.38614pt.
+<3.png, id=516, 582.102pt x 579.036pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 559.
-(pdftex.def)             Requested size: 216.81pt x 215.66245pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+Package pdftex.def Info: 3.png  used on input line 360.
+(pdftex.def)             Requested size: 211.38832pt x 210.27287pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.565 \subsection
-                 {Coble creep} <./1.png> <./3.png>]
-Excluding 'comment' comment. [21] Excluding 'comment' comment. [22]
-<A_300_Inter.png, id=566, 625.245pt x 523.848pt>
+l.367 
+       <./1.png> <./3.png>]
+<compensation.png, id=554, 437.562pt x 395.295pt>
+File: compensation.png Graphic file (type png)
+<use compensation.png>
+Package pdftex.def Info: compensation.png  used on input line 372.
+(pdftex.def)             Requested size: 234.8775pt x 212.19548pt.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.380 
+       <./compensation.png>] [22] [23]
+<A_300_Inter.png, id=587, 625.245pt x 523.848pt>
 File: A_300_Inter.png Graphic file (type png)
 <use A_300_Inter.png>
-Package pdftex.def Info: A_300_Inter.png  used on input line 652.
+Package pdftex.def Info: A_300_Inter.png  used on input line 408.
 (pdftex.def)             Requested size: 144.54pt x 121.09798pt.
-<B_300_Inter.png, id=567, 625.245pt x 523.848pt>
+<B_300_Inter.png, id=588, 625.245pt x 523.848pt>
 File: B_300_Inter.png Graphic file (type png)
 <use B_300_Inter.png>
-Package pdftex.def Info: B_300_Inter.png  used on input line 653.
+Package pdftex.def Info: B_300_Inter.png  used on input line 409.
 (pdftex.def)             Requested size: 144.54pt x 121.09798pt.
-<C_300_Inter.png, id=568, 625.245pt x 523.848pt>
+<C_300_Inter.png, id=589, 625.245pt x 523.848pt>
 File: C_300_Inter.png Graphic file (type png)
 <use C_300_Inter.png>
-Package pdftex.def Info: C_300_Inter.png  used on input line 653.
+Package pdftex.def Info: C_300_Inter.png  used on input line 409.
 (pdftex.def)             Requested size: 144.54pt x 121.09798pt.
-<A_400_Inter.png, id=569, 625.245pt x 537.864pt>
+<A_400_Inter.png, id=590, 625.245pt x 537.864pt>
 File: A_400_Inter.png Graphic file (type png)
 <use A_400_Inter.png>
-Package pdftex.def Info: A_400_Inter.png  used on input line 654.
+Package pdftex.def Info: A_400_Inter.png  used on input line 410.
 (pdftex.def)             Requested size: 144.54pt x 124.33806pt.
-<B_400_Inter.png, id=570, 625.245pt x 537.864pt>
+<B_400_Inter.png, id=591, 625.245pt x 537.864pt>
 File: B_400_Inter.png Graphic file (type png)
 <use B_400_Inter.png>
-Package pdftex.def Info: B_400_Inter.png  used on input line 655.
+Package pdftex.def Info: B_400_Inter.png  used on input line 411.
 (pdftex.def)             Requested size: 144.54pt x 124.33806pt.
-<C_400_Inter.png, id=571, 625.245pt x 537.864pt>
+<C_400_Inter.png, id=592, 625.245pt x 537.864pt>
 File: C_400_Inter.png Graphic file (type png)
 <use C_400_Inter.png>
-Package pdftex.def Info: C_400_Inter.png  used on input line 656.
+Package pdftex.def Info: C_400_Inter.png  used on input line 412.
 (pdftex.def)             Requested size: 144.54pt x 124.33806pt.
-<A_600_Inter.png, id=572, 625.245pt x 536.988pt>
+<A_600_Inter.png, id=593, 625.245pt x 536.988pt>
 File: A_600_Inter.png Graphic file (type png)
 <use A_600_Inter.png>
-Package pdftex.def Info: A_600_Inter.png  used on input line 657.
+Package pdftex.def Info: A_600_Inter.png  used on input line 413.
 (pdftex.def)             Requested size: 144.54pt x 124.13556pt.
-<B_600_Inter.png, id=573, 625.245pt x 536.988pt>
+<B_600_Inter.png, id=594, 625.245pt x 536.988pt>
 File: B_600_Inter.png Graphic file (type png)
 <use B_600_Inter.png>
-Package pdftex.def Info: B_600_Inter.png  used on input line 658.
+Package pdftex.def Info: B_600_Inter.png  used on input line 414.
 (pdftex.def)             Requested size: 144.54pt x 124.13556pt.
-<C_600_Inter.png, id=574, 625.245pt x 536.988pt>
+<C_600_Inter.png, id=595, 625.245pt x 536.988pt>
 File: C_600_Inter.png Graphic file (type png)
 <use C_600_Inter.png>
-Package pdftex.def Info: C_600_Inter.png  used on input line 659.
+Package pdftex.def Info: C_600_Inter.png  used on input line 415.
 (pdftex.def)             Requested size: 144.54pt x 124.13556pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.660 \caption
+l.416 \caption
               {Average formation energy of an interstitial at different temp...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.660 ...bars here show twice the standard error.}
+l.416 ...bars here show twice the standard error.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.1}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.660 ...bars here show twice the standard error.}
-                                                   [23 <./A_300_Inter.png> <./B
+l.416 ...bars here show twice the standard error.}
+                                                   [24 <./A_300_Inter.png> <./B
 _300_Inter.png> <./C_300_Inter.png> <./A_400_Inter.png> <./B_400_Inter.png> <./
 C_400_Inter.png> <./A_600_Inter.png> <./B_600_Inter.png> <./C_600_Inter.png>]
-<A_300_Vacan.png, id=598, 625.245pt x 536.988pt>
+<A_300_Vacan.png, id=619, 625.245pt x 536.988pt>
 File: A_300_Vacan.png Graphic file (type png)
 <use A_300_Vacan.png>
-Package pdftex.def Info: A_300_Vacan.png  used on input line 669.
+Package pdftex.def Info: A_300_Vacan.png  used on input line 425.
 (pdftex.def)             Requested size: 144.54pt x 124.13556pt.
-<B_300_Vacan.png, id=599, 625.245pt x 536.988pt>
+<B_300_Vacan.png, id=620, 625.245pt x 536.988pt>
 File: B_300_Vacan.png Graphic file (type png)
 <use B_300_Vacan.png>
-Package pdftex.def Info: B_300_Vacan.png  used on input line 670.
+Package pdftex.def Info: B_300_Vacan.png  used on input line 426.
 (pdftex.def)             Requested size: 144.54pt x 124.13556pt.
-<C_300_Vacan.png, id=600, 626.34pt x 535.893pt>
+<C_300_Vacan.png, id=621, 626.34pt x 535.893pt>
 File: C_300_Vacan.png Graphic file (type png)
 <use C_300_Vacan.png>
-Package pdftex.def Info: C_300_Vacan.png  used on input line 671.
+Package pdftex.def Info: C_300_Vacan.png  used on input line 427.
 (pdftex.def)             Requested size: 144.54pt x 123.66165pt.
-<A_400_Vacan.png, id=601, 625.245pt x 522.753pt>
+<A_400_Vacan.png, id=622, 625.245pt x 522.753pt>
 File: A_400_Vacan.png Graphic file (type png)
 <use A_400_Vacan.png>
-Package pdftex.def Info: A_400_Vacan.png  used on input line 672.
+Package pdftex.def Info: A_400_Vacan.png  used on input line 428.
 (pdftex.def)             Requested size: 144.54pt x 120.84485pt.
-<B_400_Vacan.png, id=602, 625.245pt x 522.753pt>
+<B_400_Vacan.png, id=623, 625.245pt x 522.753pt>
 File: B_400_Vacan.png Graphic file (type png)
 <use B_400_Vacan.png>
-Package pdftex.def Info: B_400_Vacan.png  used on input line 673.
+Package pdftex.def Info: B_400_Vacan.png  used on input line 429.
 (pdftex.def)             Requested size: 144.54pt x 120.84485pt.
-<C_400_Vacan.png, id=603, 626.34pt x 522.753pt>
+<C_400_Vacan.png, id=624, 626.34pt x 522.753pt>
 File: C_400_Vacan.png Graphic file (type png)
 <use C_400_Vacan.png>
-Package pdftex.def Info: C_400_Vacan.png  used on input line 674.
+Package pdftex.def Info: C_400_Vacan.png  used on input line 430.
 (pdftex.def)             Requested size: 144.54pt x 120.62949pt.
-<A_600_Vacan.png, id=604, 625.245pt x 525.819pt>
+<A_600_Vacan.png, id=625, 625.245pt x 525.819pt>
 File: A_600_Vacan.png Graphic file (type png)
 <use A_600_Vacan.png>
-Package pdftex.def Info: A_600_Vacan.png  used on input line 675.
+Package pdftex.def Info: A_600_Vacan.png  used on input line 431.
 (pdftex.def)             Requested size: 144.54pt x 121.55362pt.
-<B_600_Vacan.png, id=605, 625.245pt x 525.819pt>
+<B_600_Vacan.png, id=626, 625.245pt x 525.819pt>
 File: B_600_Vacan.png Graphic file (type png)
 <use B_600_Vacan.png>
-Package pdftex.def Info: B_600_Vacan.png  used on input line 676.
+Package pdftex.def Info: B_600_Vacan.png  used on input line 432.
 (pdftex.def)             Requested size: 144.54pt x 121.55362pt.
-<C_600_Vacan.png, id=606, 626.34pt x 525.819pt>
+<C_600_Vacan.png, id=627, 626.34pt x 525.819pt>
 File: C_600_Vacan.png Graphic file (type png)
 <use C_600_Vacan.png>
-Package pdftex.def Info: C_600_Vacan.png  used on input line 677.
+Package pdftex.def Info: C_600_Vacan.png  used on input line 433.
 (pdftex.def)             Requested size: 144.54pt x 121.33699pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.678 \caption
+l.434 \caption
               { Average formation energy ($E_{\mathrm{f}}$) of a vacancy at ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.678 ...rror bars show twice the standard error.}
+l.434 ...rror bars show twice the standard error.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.2}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.678 ...rror bars show twice the standard error.}
-                                                   [24 <./A_300_Vacan.png> <./B
+l.434 ...rror bars show twice the standard error.}
+                                                   [25 <./A_300_Vacan.png> <./B
 _300_Vacan.png> <./C_300_Vacan.png> <./A_400_Vacan.png> <./B_400_Vacan.png> <./
 C_400_Vacan.png> <./A_600_Vacan.png> <./B_600_Vacan.png> <./C_600_Vacan.png>]pd
 fTeX warning (ext4): destination with the same identifier (name{table.1}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.695     \caption
+l.447     \caption
                   {Calculated migration energy of the Arrhenius fit of self-...
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.695 ...d in \Cref{fig:Migra}. \label{tab:migra}}
+l.447 ...d in \Cref{fig:Migra}. \label{tab:migra}}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{table.1}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.695 ...d in \Cref{fig:Migra}. \label{tab:migra}}
-                                                   [25pdfTeX warning (ext4): de
+l.447 ...d in \Cref{fig:Migra}. \label{tab:migra}}
+                                                   [26pdfTeX warning (ext4): de
 stination with the same identifier (name{table.2}) has been already used, dupli
 cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.771 
+l.523 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.771 
-      ] Excluding 'comment' comment. [26pdfTeX warning (ext4): destination with
- the same identifier (name{table.4}) has been already used, duplicate ignored
+l.523 
+      ] [27pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.810 \newpage
-              ] (./main.bbl [27] [28] [29] [30] [31] [32] [33] [34])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 814.
- [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 814.
+l.531 \newpage
+              ] (./main.bbl [28] [29] [30] [31] [32] [33] [34] [35])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 535.
+ [36]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 535.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 814.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 814.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 535.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 535.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8C39E328B33ABB59C74BF0EF972DCF1C;1049.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 814.
+(rerunfilecheck)             Checksum: 5BB0B13F6137F6ECBFF6CED8E2C255F3;1316.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 535.
  ) 
 Here is how much of TeX's memory you used:
- 10474 strings out of 492616
- 169489 string characters out of 6129482
+ 10482 strings out of 492616
+ 169576 string characters out of 6129482
  293164 words of memory out of 5000000
- 14031 multiletter control sequences out of 15000+600000
+ 14034 multiletter control sequences out of 15000+600000
  9327 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,49p,2915b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,49p,2302b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
@@ -1083,10 +1062,10 @@ ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (35 pages, 11480560 bytes).
+Output written on main.pdf (36 pages, 11484397 bytes).
 PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
- 943 compressed objects within 10 object streams
- 210 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1144 PDF objects out of 1200 (max. 8388607)
+ 964 compressed objects within 10 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -438,43 +438,6 @@ A.~Stukowski, Visualization and analysis of atomis simulation data with ovito -
   the open visulaization tool, Modeling and Simulation of Materials Science and
   Engineering 18 (2010) 015012.
 
-\bibitem{bai_cu_gb_with_interstitial_inter}
-X.-M. Bai, A.~F. Voter, R.~G. Hoagland, M.~Nastasi, B.~P. Uberuaga,
-  \href{https://www.science.org/doi/abs/10.1126/science.1183723}{Efficient
-  annealing of radiation damage near grain boundaries via interstitial
-  emission}, Science 327~(5973) (2010) 1631--1634.
-\newblock \href
-  {http://arxiv.org/abs/https://www.science.org/doi/pdf/10.1126/science.1183723}
-  {\path{arXiv:https://www.science.org/doi/pdf/10.1126/science.1183723}}, \href
-  {https://doi.org/10.1126/science.1183723}
-  {\path{doi:10.1126/science.1183723}}.
-\newline\urlprefix\url{https://www.science.org/doi/abs/10.1126/science.1183723}
-
-\bibitem{Popov2022}
-V.~V. Popov, M.~E. Stupak, M.~G. Urazaliev,
-  \href{https://doi.org/10.1007/s11669-022-00981-6}{Atomistic simulation of
-  grain boundaries in niobium: Structure, energy, point defects and
-  grain-boundary self-diffusion}, Journal of Phase Equilibria and Diffusion 43
-  (2022) 401--408.
-\newblock \href {https://doi.org/10.1007/s11669-022-00981-6}
-  {\path{doi:10.1007/s11669-022-00981-6}}.
-\newline\urlprefix\url{https://doi.org/10.1007/s11669-022-00981-6}
-
-\bibitem{Novoselov2014}
-I.~I. Novoselov, A.~Y. Kuksin, A.~V. Yanilkin,
-  \href{https://doi.org/10.1134/S1063783414050217}{Diffusion coefficients of
-  vacancies and interstitials along tilt grain boundaries in molybdenum},
-  Physics of the Solid State 56 (2014) 1025--1032.
-\newblock \href {https://doi.org/10.1134/S1063783414050217}
-  {\path{doi:10.1134/S1063783414050217}}.
-\newline\urlprefix\url{https://doi.org/10.1134/S1063783414050217}
-
-\bibitem{tschopp2012probing}
-M.~A. Tschopp, K.~Solanki, F.~Gao, X.~Sun, M.~A. Khaleel, M.~Horstemeyer,
-  Probing grain boundary sink strength at the nanoscale: Energetics and length
-  scales of vacancy and interstitial absorption by grain boundaries in
-  $\alpha$-fe, Physical Review B 85~(6) (2012) 064108.
-
 \bibitem{WILLIAMS201545}
 N.~R. Williams, M.~Molinari, S.~C. Parker, M.~T. Storr,
   \href{https://www.sciencedirect.com/science/article/pii/S0022311514009271}{Atomistic
@@ -485,15 +448,11 @@ N.~R. Williams, M.~Molinari, S.~C. Parker, M.~T. Storr,
   {\path{doi:https://doi.org/10.1016/j.jnucmat.2014.11.120}}.
 \newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311514009271}
 
-\bibitem{beeler2019}
-B.~Beeler, M.~Baskes, D.~Andersson, M.~W. Cooper, Y.~Zhang,
-  \href{http://www.sciencedirect.com/science/article/pii/S0022311518312285}{Molecular
-  dynamics investigation of grain boundaries and surfaces in
-  {U}$_\mathrm{3}${S}i$_\mathrm{2}$}, Journal of Nuclear Materials 514 (2019)
-  290 -- 298.
-\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2018.12.008}
-  {\path{doi:https://doi.org/10.1016/j.jnucmat.2018.12.008}}.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0022311518312285}
+\bibitem{tschopp2012probing}
+M.~A. Tschopp, K.~Solanki, F.~Gao, X.~Sun, M.~A. Khaleel, M.~Horstemeyer,
+  Probing grain boundary sink strength at the nanoscale: Energetics and length
+  scales of vacancy and interstitial absorption by grain boundaries in
+  $\alpha$-fe, Physical Review B 85~(6) (2012) 064108.
 
 \bibitem{aniso_self_diff}
 S.~J. Rothman, J.~J. Hines, J.~Gray, A.~L. Harkness,
@@ -528,14 +487,56 @@ Y.~S. Kim, S.~Hayes, G.~Hofman, A.~Yacout,
 G.-Y. Huang, B.~Wirth, First-principles study of diffusion of interstitial and
   vacancy in alpha u-zr, J. Phys.: Cond. Mat. 23 (2011) 205402.
 
-\bibitem{AginCu}
-R.~K. Koju, Y.~Mishin,
-  \href{https://link.aps.org/doi/10.1103/PhysRevMaterials.4.073403}{Relationship
-  between grain boundary segregation and grain boundary diffusion in cu-ag
-  alloys}, Phys. Rev. Materials 4 (2020) 073403.
-\newblock \href {https://doi.org/10.1103/PhysRevMaterials.4.073403}
-  {\path{doi:10.1103/PhysRevMaterials.4.073403}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevMaterials.4.073403}
+\bibitem{bai_cu_gb_with_interstitial_inter}
+X.-M. Bai, A.~F. Voter, R.~G. Hoagland, M.~Nastasi, B.~P. Uberuaga,
+  \href{https://www.science.org/doi/abs/10.1126/science.1183723}{Efficient
+  annealing of radiation damage near grain boundaries via interstitial
+  emission}, Science 327~(5973) (2010) 1631--1634.
+\newblock \href
+  {http://arxiv.org/abs/https://www.science.org/doi/pdf/10.1126/science.1183723}
+  {\path{arXiv:https://www.science.org/doi/pdf/10.1126/science.1183723}}, \href
+  {https://doi.org/10.1126/science.1183723}
+  {\path{doi:10.1126/science.1183723}}.
+\newline\urlprefix\url{https://www.science.org/doi/abs/10.1126/science.1183723}
+
+\bibitem{Popov2022}
+V.~V. Popov, M.~E. Stupak, M.~G. Urazaliev,
+  \href{https://doi.org/10.1007/s11669-022-00981-6}{Atomistic simulation of
+  grain boundaries in niobium: Structure, energy, point defects and
+  grain-boundary self-diffusion}, Journal of Phase Equilibria and Diffusion 43
+  (2022) 401--408.
+\newblock \href {https://doi.org/10.1007/s11669-022-00981-6}
+  {\path{doi:10.1007/s11669-022-00981-6}}.
+\newline\urlprefix\url{https://doi.org/10.1007/s11669-022-00981-6}
+
+\bibitem{Novoselov2014}
+I.~I. Novoselov, A.~Y. Kuksin, A.~V. Yanilkin,
+  \href{https://doi.org/10.1134/S1063783414050217}{Diffusion coefficients of
+  vacancies and interstitials along tilt grain boundaries in molybdenum},
+  Physics of the Solid State 56 (2014) 1025--1032.
+\newblock \href {https://doi.org/10.1134/S1063783414050217}
+  {\path{doi:10.1134/S1063783414050217}}.
+\newline\urlprefix\url{https://doi.org/10.1134/S1063783414050217}
+
+\bibitem{beeler2019}
+B.~Beeler, M.~Baskes, D.~Andersson, M.~W. Cooper, Y.~Zhang,
+  \href{http://www.sciencedirect.com/science/article/pii/S0022311518312285}{Molecular
+  dynamics investigation of grain boundaries and surfaces in
+  {U}$_\mathrm{3}${S}i$_\mathrm{2}$}, Journal of Nuclear Materials 514 (2019)
+  290 -- 298.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2018.12.008}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2018.12.008}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0022311518312285}
+
+\bibitem{MOHAMMADZADEH201756}
+R.~Mohammadzadeh, M.~Mohammadzadeh,
+  \href{https://www.sciencedirect.com/science/article/pii/S0378437117303801}{Grain
+  boundary and lattice diffusion in nanocrystal $\alpha$-iron: An atomistic
+  simulation study}, Physica A: Statistical Mechanics and its Applications 482
+  (2017) 56--64.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.physa.2017.04.070}
+  {\path{doi:https://doi.org/10.1016/j.physa.2017.04.070}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0378437117303801}
 
 \bibitem{Suzuki2003}
 A.~Suzuki, Y.~Mishin, \href{https://doi.org/10.1023/A:1021599310093}{Atomistic
@@ -544,6 +545,18 @@ A.~Suzuki, Y.~Mishin, \href{https://doi.org/10.1023/A:1021599310093}{Atomistic
 \newblock \href {https://doi.org/10.1023/A:1021599310093}
   {\path{doi:10.1023/A:1021599310093}}.
 \newline\urlprefix\url{https://doi.org/10.1023/A:1021599310093}
+
+\bibitem{diffusion_compare}
+J.~Pelleg, \href{https://doi.org/10.1080/14786436608211954}{On the relation
+  between diffusion coefficients and grain boundary energy}, The Philosophical
+  Magazine: A Journal of Theoretical Experimental and Applied Physics 14~(129)
+  (1966) 595--601.
+\newblock \href
+  {http://arxiv.org/abs/https://doi.org/10.1080/14786436608211954}
+  {\path{arXiv:https://doi.org/10.1080/14786436608211954}}, \href
+  {https://doi.org/10.1080/14786436608211954}
+  {\path{doi:10.1080/14786436608211954}}.
+\newline\urlprefix\url{https://doi.org/10.1080/14786436608211954}
 
 \bibitem{cu_nb}
 A.~G. Lipnitskii, I.~V. Nelasov, E.~V. Golosov, Y.~R. Kolobov, D.~N. Maradudin,
@@ -555,15 +568,24 @@ A.~G. Lipnitskii, I.~V. Nelasov, E.~V. Golosov, Y.~R. Kolobov, D.~N. Maradudin,
   {\path{doi:10.1007/s11182-013-0036-2}}.
 \newline\urlprefix\url{https://doi.org/10.1007/s11182-013-0036-2}
 
-\bibitem{MOHAMMADZADEH201756}
-R.~Mohammadzadeh, M.~Mohammadzadeh,
-  \href{https://www.sciencedirect.com/science/article/pii/S0378437117303801}{Grain
-  boundary and lattice diffusion in nanocrystal $\alpha$-iron: An atomistic
-  simulation study}, Physica A: Statistical Mechanics and its Applications 482
-  (2017) 56--64.
-\newblock \href {https://doi.org/https://doi.org/10.1016/j.physa.2017.04.070}
-  {\path{doi:https://doi.org/10.1016/j.physa.2017.04.070}}.
-\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0378437117303801}
+\bibitem{COOPER2021153129}
+M.~Cooper, K.~Gamble, L.~Capolungo, C.~Matthews, D.~Andersson, B.~Beeler,
+  C.~Stanek, K.~Metzger,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311521003524}{Irradiation-enhanced
+  diffusion and diffusion-limited creep in u3si2}, Journal of Nuclear Materials
+  555 (2021) 153129.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2021.153129}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2021.153129}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311521003524}
+
+\bibitem{AginCu}
+R.~K. Koju, Y.~Mishin,
+  \href{https://link.aps.org/doi/10.1103/PhysRevMaterials.4.073403}{Relationship
+  between grain boundary segregation and grain boundary diffusion in cu-ag
+  alloys}, Phys. Rev. Materials 4 (2020) 073403.
+\newblock \href {https://doi.org/10.1103/PhysRevMaterials.4.073403}
+  {\path{doi:10.1103/PhysRevMaterials.4.073403}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevMaterials.4.073403}
 
 \bibitem{compansation}
 G.~Boisvert, L.~Lewis, A.~Yelon, Many-body nature of the meyer-neldel
@@ -580,28 +602,6 @@ M.~I. Mendelev, H.~Zhang, D.~J. Srolovitz,
 \newblock \href {https://doi.org/10.1557/JMR.2005.0177}
   {\path{doi:10.1557/JMR.2005.0177}}.
 \newline\urlprefix\url{https://doi.org/10.1557/JMR.2005.0177}
-
-\bibitem{diffusion_compare}
-J.~Pelleg, \href{https://doi.org/10.1080/14786436608211954}{On the relation
-  between diffusion coefficients and grain boundary energy}, The Philosophical
-  Magazine: A Journal of Theoretical Experimental and Applied Physics 14~(129)
-  (1966) 595--601.
-\newblock \href
-  {http://arxiv.org/abs/https://doi.org/10.1080/14786436608211954}
-  {\path{arXiv:https://doi.org/10.1080/14786436608211954}}, \href
-  {https://doi.org/10.1080/14786436608211954}
-  {\path{doi:10.1080/14786436608211954}}.
-\newline\urlprefix\url{https://doi.org/10.1080/14786436608211954}
-
-\bibitem{COOPER2021153129}
-M.~Cooper, K.~Gamble, L.~Capolungo, C.~Matthews, D.~Andersson, B.~Beeler,
-  C.~Stanek, K.~Metzger,
-  \href{https://www.sciencedirect.com/science/article/pii/S0022311521003524}{Irradiation-enhanced
-  diffusion and diffusion-limited creep in u3si2}, Journal of Nuclear Materials
-  555 (2021) 153129.
-\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2021.153129}
-  {\path{doi:https://doi.org/10.1016/j.jnucmat.2021.153129}}.
-\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311521003524}
 
 \bibitem{recent_review}
 J.~Guo, H.~Lai, W.~Zhou, J.~Wei,
