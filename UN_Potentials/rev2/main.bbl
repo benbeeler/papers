@@ -443,6 +443,16 @@ J.~Liu, C.~Gasparrini, J.~T. White, K.~Johnson, D.~A. Lopes, V.~K. Peterson,
 \newblock \href {https://doi.org/10.1016/j.jnucmat.2022.154215}
   {\path{doi:10.1016/j.jnucmat.2022.154215}}.
 
+\bibitem{Galvin2023}
+C.~O.~T. Galvin, N.~Kuganathan, N.~J. Barron, R.~W. Grimes,
+  \href{https://doi.org/10.1063/5.0177315}{{Predicted thermophysical properties
+  of UN, PuN, and (U,Pu)N}}, Journal of Applied Physics 135~(16) (2024) 165101.
+\newblock \href
+  {http://arxiv.org/abs/https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/5.0177315/19894692/165101\_1\_5.0177315.pdf}
+  {\path{arXiv:https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/5.0177315/19894692/165101\_1\_5.0177315.pdf}},
+  \href {https://doi.org/10.1063/5.0177315} {\path{doi:10.1063/5.0177315}}.
+\newline\urlprefix\url{https://doi.org/10.1063/5.0177315}
+
 \bibitem{Wachtman1961}
 J.~B. Wachtman, W.~E. Tefft, D.~G. Lam, C.~S. Apstein, Exponential temperature
   dependence of {Young's} modulus for several oxides, Physical Review 122
@@ -509,10 +519,6 @@ D.~P. Sellan, E.~S. Landry, J.~E. Turney, A.~J. McGaughey, C.~H. Amon, Size
   Review B - Condensed Matter and Materials Physics 81 (2010).
 \newblock \href {https://doi.org/10.1103/PhysRevB.81.214305}
   {\path{doi:10.1103/PhysRevB.81.214305}}.
-
-\bibitem{Galvin2023}
-C.~Galvin, N.~Kuganathana, N.~Barronc, R.~W. Grimes, Predicted thermophysical
-  properties of {UN}, {PuN} and {(U, Pu)N} (2023).
 
 \bibitem{Jackman1986}
 J.~A. Jackman, T.~M. Holden, J.~I. Buyers, P.~de~V.~DuPlessis, O.~Vogt,

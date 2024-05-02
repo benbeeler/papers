@@ -1,49 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: marked.aux
 The style file: elsarticle-num.bst
 Database file #1: ref.bib
 Warning--can't use both author and editor fields in Mishin2005
-Warning--empty note in Galvin2023
 You've used 97 entries,
             2952 wiz_defined-function locations,
-            1349 strings with 25125 characters,
-and the built_in function-call counts, 29108 in all, are:
-= -- 2804
+            1356 strings with 25261 characters,
+and the built_in function-call counts, 29284 in all, are:
+= -- 2826
 > -- 1242
 < -- 8
 + -- 476
 - -- 379
-* -- 2065
-:= -- 4244
-add.period$ -- 165
+* -- 2096
+:= -- 4262
+add.period$ -- 166
 call.type$ -- 97
 change.case$ -- 102
 chr.to.int$ -- 24
-cite$ -- 99
-duplicate$ -- 785
-empty$ -- 3066
+cite$ -- 98
+duplicate$ -- 789
+empty$ -- 3087
 format.name$ -- 464
-if$ -- 7582
+if$ -- 7626
 int.to.chr$ -- 0
 int.to.str$ -- 97
-missing$ -- 105
-newline$ -- 367
+missing$ -- 106
+newline$ -- 369
 num.names$ -- 97
-pop$ -- 490
+pop$ -- 489
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1976
+skip$ -- 1982
 stack$ -- 0
-substring$ -- 928
-swap$ -- 241
+substring$ -- 946
+swap$ -- 246
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 148
+warning$ -- 1
+while$ -- 149
 width$ -- 99
-write$ -- 955
-(There were 2 warnings)
+write$ -- 960
+(There was 1 warning)
