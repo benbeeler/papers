@@ -1,0 +1,767 @@
+\documentclass{elsarticle}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry, graphicx}
+\usepackage{xcolor, booktabs, multirow}
+\usepackage{subcaption, placeins}
+\usepackage[title]{appendix}
+\usepackage{lineno}
+
+
+\begin{document}
+
+
+\begin{frontmatter}
+
+\title{Calculation of grain boundary diffusion coefficients in $\gamma$U-Mo using atomistic simulations}
+
+\author[ncsu]{ATM Jahid Hasan}
+\author[ncsu,inl]{Benjamin Beeler}
+
+\address[ncsu]{Department of Nuclear Engineering, North Carolina State University, Raleigh, NC 27695, United States}
+\address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415, United States}
+
+\begin{abstract}
+	The $\gamma$U-Mo alloy has been selected for the conversion of U.S. High-Performance Research Reactor (HPRR) fuel from highly enriched uranium to low enriched uranium as a part of the effort to reduce nuclear proliferation risks. Although $\gamma$U-Mo alloys have the advantage of high uranium density and good overall irradiation performance, the irradiation-induced swelling and creep in the metal remain important design parameters since they influence the mechanical and thermal integrity of the fuel. To account for these design criteria, engineering scale models need fundamental properties, such as diffusion coefficients, as input. In this study, the diffusion of related species along grain boundaries in $\gamma$U-Mo fuel is quantified considering that grain boundaries act as sinks for point defects, nucleation sites for gas bubbles, avenues for Coble creep, etc. The diffusivities of U and Mo in selected grain boundaries of $\gamma$U-Mo alloys ($\gamma$U-7Mo, $\gamma$U-10Mo, and $\gamma$U-12Mo) are obtained utilizing molecular dynamics simulations for a temperature range of 600 K - 1200 K with an interval of 100 K. The structures analyzed include symmetric tilt, asymmetric tilt, and twist grain boundaries. The grain boundary diffusion coefficients of U and Mo in the examined $\gamma$U-Mo alloys are on the order of $10^{-14}$ to $10^{-11}$ m$^2$s$^{-1}$. It is observed that the U diffusivity in the grain boundary is higher than the Mo diffusivity in all cases and that the increase in Mo content of the alloy correlates to a decrease in the grain boundary diffusion. Xe diffusion along $\gamma$U-10Mo grain boundaries is also calculated in this work, and the diffusivity of Xe in the $\gamma$U-10Mo grain boundaries is found to be 8 to 15 orders of magnitude higher than the intrinsic Xe diffusivity in $\gamma$U-10Mo depending on the temperature. The information gathered in this work can inform fuel swelling and creep models and help understand various other phenomena related to $\gamma$U-Mo fuel performance.
+\end{abstract}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+
+The United States High-Performance Research Reactor (USHPRR) program is pursuing a replacement of highly enriched uranium (HEU) fuels in high-power research reactors to low enriched uranium (LEU) fuels. This effort originates from the necessity of moving away from weapons-grade nuclear material and minimizing potential proliferation threats. To achieve this feat, a new fuel with increased uranium density is required to offset the reduction in enrichment \cite{snelgrove1997, wilson2020}, while maintaining adequate power and flux levels in research reactors.
+
+High-performance research reactors need fuel that can operate at low temperatures and provide high fission density at high specific power. The fission density requirement of a candidate fuel is in the range of $3 \times 10^{21}$ fission/cm$^3$ to $6 \times 10^{21}$ fission/cm$^3$. Only a few fuels, such as stable $\gamma$U alloys, have the suitable combination of high uranium density and stable behavior at such a high burnup \cite{meyer2014}. The $\gamma$ phase of uranium has a body-centered cubic (bcc) structure, eliminating the problem of anisotropic swelling behavior observed in orthorhombic $\alpha$U \cite{hofman1990, mahbuba2021}. Alloying the $\gamma$ phase with molybdenum leads to a metastable $\gamma$ phase that shows sluggish transformation to the equilibrium phases (namely $\alpha$U and $\gamma$'U$_2$Mo) upon cooling \cite{saller1955, dwight1960}, allowing for the presence of the $\gamma$ phase at lower temperatures than predicted by the phase diagram. Also, $\gamma$U-Mo alloys exhibit phase reversion to the $\gamma$ phase from the equilibrium phases under irradiation \cite{meyer2014, willard1965}. $\gamma$U-Mo alloys thus provide the largest region of $\gamma$ phase metastability under reactor conditions. As a result, the USHPRR program is pursuing fuel designs with $\gamma$U-Mo as the monolithic fuel foil with a zirconium diffusion barrier in aluminum cladding \cite{robinson2009, cole2016, miller2021}.
+
+Knowledge of microstructure evolution under irradiation is crucial for designing nuclear fuels. For $\gamma$U-Mo, fission gas bubble formation and its impact on fuel swelling need to be quantified to ensure predictable fuel performance. Mechanistic models are being developed to evaluate microstructure-based fuel performance, such as fuel swelling, fuel creep, and degradation of mechanical and thermal properties based on fuel parameters and irradiation conditions. Accurate calculation of fuel swelling requires diffusion coefficients of the related species in the fuel. Furthermore, creep modeling also requires diffusion coefficients to determine creep rates and evaluate the evolving microstructure. Therefore, it is essential to understand the diffusion behavior of the $\gamma$U-Mo fuel.
+
+The bulk diffusion coefficients of U, Mo, and Xe in $\gamma$U-Mo fuel have already been calculated \cite{smirnova2015, park2021} or measured \cite{huang2013}. However, the diffusion coefficients of the relevant species in $\gamma$U-Mo grain boundaries (GBs) are yet unknown. As a consequence, models of fuel swelling, gas bubble evolution, irradiation creep, and other properties needed for fuel performance evaluation either utilize estimated GB diffusion values or make the diffusion coefficients adjustable parameters. The current assumptions of the GB diffusion coefficients are $10^2$ to $10^7$ times greater than the bulk diffusion coefficients \cite{annualreport2021, ye2015}. This much uncertainty in the estimated GB diffusion coefficients can have a significant impact on the predicted fuel swelling behavior \cite{annualreport2022}. The fuel swelling model of $\gamma$U-Mo in the Dispersion Analysis Research Tool \cite{dart} needs the GB diffusion coefficients to advise the GB enhancement factor \cite{cui2015, annualreport2021}. The phase-field models of gas bubble evolution in $\gamma$U-Mo require the diffusivity of gas atoms \cite{hu2021, annualreport2021}. The GB diffusion coefficients are also needed for the irradiation creep model of the $\gamma$U-Mo fuel \cite{annualreport2022}.
+
+In the literature, there are many examples of the use of molecular dynamics (MD) to compute GB diffusion coefficients in nuclear fuels. Vincent-Aublant et al. \cite{vincent2009} calculated the self-diffusion of UO$_2$ near GBs using MD. Govers et al. investigated GB diffusion in nano-polycrystalline UO$_2$ \cite{govers2013}. Nishina et al. studied the GB diffusion of actinides and oxygen in oxide fuels using MD \cite{nishina2011}. MD has also been used by Beeler et al. to compute GB energies in $\gamma$U-Mo and U$_3$Si$_2$ fuels \cite{beeler2018, beeler2019}. Besides nuclear fuels, MD has also been used to study GB diffusion in other bcc materials, such as bcc iron \cite{yang2018}, bcc tungsten \cite{fu2021}, etc.
+
+In this work, the diffusivities of U, Mo, and Xe in $\gamma$U-Mo GBs are computed using classical MD simulations. Different types of symmetric tilt, asymmetric tilt, and twist GBs are utilized for the calculations. The effect of fuel composition on diffusion is also examined. The results from this study will inform the rate-theory-based fuel swelling models, the phase-field models of gas bubble evolution, and the irradiation creep models.
+
+
+\section{Computational Details}
+
+Molecular dynamics simulations have been performed using the LAMMPS software package \cite{lammps}. An angular dependent potential (ADP) describing the interactions among U, Mo, and Xe is used for the simulations \cite{starikov2018, beelerUMoXe}. Supercells with periodic boundaries and two GBs parallel to the (010) plane are generated by dividing the supercell into two regions. One GB is in the middle of the supercell, and another is along the edge. For symmetric tilt GBs, each region has a tilted bcc lattice with respect to the [001] tilt axis. Figure \ref{fig:gb} shows an example of such a supercell. Six symmetric tilt GBs are constructed, having tilt planes of \{120\}, \{130\}, \{150\}, \{190\}, \{340\}, and \{350\}. Asymmetric tilt and twist GBs are also generated for investigation. For the asymmetric tilt systems, half of the supercell is rotated with respect to the [001] tilt axis while the other half is kept fixed. Four asymmetric tilt systems having tilt planes \{110\}, \{130\}, \{190\}, and \{350\} are examined. For twist systems, half of the supercell is rotated with respect to the [010] tilt axis. The examined twist planes are \{110\} and \{230\}. Since this study explores bcc structures, the misorientation angle can range from $0^{\circ}$ to $90^{\circ}$ due to the symmetry of the crystal structure. The rotational planes in the symmetric tilt, asymmetric tilt, and twist systems are chosen so that this range is explored uniformly.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[height=3cm]{configuration.png}
+\caption{$\gamma$U-10Mo \{120\} symmetric tilt grain boundary at the initial configuration. Grain boundaries are in the middle and along the edges of the supercell. Red atoms are uranium and blue atoms are molybdenum.}
+\label{fig:gb}
+\end{figure}
+
+The dimensions of the supercells are at least $50 \text{ \r{A}} \times 200 \text{ \r{A}} \times 50 \text{ \r{A}}$, with the dimension perpendicular to the GB being the longest. These dimensions are verified to be large enough to obtain a stable system, from which converged energies can be extracted \cite{beeler2018}. A single simulation consists of 35000 to 50000 atoms depending on the type and misorientation angle of the GB. A temperature range starting from 600 K to 1200 K has been probed with an increment of 100 K. Three different compositions are investigated for symmetric tilt GB systems: $\gamma$U-7Mo (16 at.\% Mo), $\gamma$U-10Mo (22 at.\% Mo), and $\gamma$U-12Mo (25 at.\% Mo). For asymmetric tilt and twist GBs, only $\gamma$U-10Mo has been considered.
+
+An initial validation study is performed to ensure the correct construction of the GBs, measured against the reproducibility of GB energies in the literature. The GB energy is computed using the following equation.
+\begin{equation}
+	E_{gb} = \bigg( \frac{E - E_0}{A} \bigg) N
+\end{equation}
+where $E$ is the potential energy per atom of the system with GBs, $E_0$ is the potential energy per atom of the $\gamma$U-Mo system without GBs, $A$ is the area of the GBs, and $N$ is the number of atoms in the system with GBs. To obtain $E$, 25 simulations with different random number seeds are performed for each GB system. This allows for the evaluation of the statistical significance of the results since the seeds determine the initial distribution of Mo atoms and the velocities of both the U and Mo atoms in the supercell. Similarly, 25 simulations of $\gamma$U-Mo systems without a GB are conducted with different random number seeds to get an average reference energy $E_0$. The systems are relaxed over 100 ps in an NPT ensemble using a Nos\'e-Hoover thermostat at 1200 K, with energies averaged over the final 50 ps.
+
+After validating the structures of GB systems, simulations are performed to extract the GB diffusion coefficients. To that end, the supercells are first relaxed in an NPT ensemble using a Nos\'e-Hoover thermostat and barostat with a damping parameter of 0.1 ps. 100,000 timesteps are run with a timestep size of 1 fs, making the NPT relaxation 100 ps in length. Afterward, the simulation box lengths are fixed at the equilibrated supercell lengths obtained during the NPT relaxation, and the systems are further equilibrated for 100 ps in an NVT ensemble. The NVT ensemble also uses a Nos\'e-Hoover thermostat with a 0.1 ps damping parameter. The production runs are then executed for 5,000,000 timesteps with a timestep size of 2 fs, yielding a 10 ns simulation for determining the diffusion coefficients. For a single GB structure, 5 simulations are performed with different random number seeds at a given temperature.
+
+To examine the diffusion of Xe in $\gamma$U-Mo GBs, the $\gamma$U-10Mo symmetric tilt GBs are generated as per the prior procedure, but with a single Xe substitutional defect inserted in both GBs (a total of two Xe atoms in the system). For Xe simulations, the 100 ps NPT-ensemble relaxation and a subsequent 50 ps NVT-ensemble relaxation are first performed and then Xe substitutions are made. After Xe insertion, the system is again relaxed in an NVT ensemble for 50 ps. A timestep size of 1 fs is used throughout the relaxation period. Afterward, a 100 ns data collection period begins with a timestep size of 5 fs. Since there are only two Xe atoms per system, collecting data over a longer period is necessary for diffusion calculations. 5 simulations with different random number seeds are conducted for each GB system with Xe. It is also verified through a few simulations that changing the timestep size from 2 fs to 5 fs has minimal impact on the Xe trajectory and the stability of the simulations.
+
+The GB region of the supercell is determined using the atomic trajectory images generated with OVITO \cite{ovito}. Atomic trajectories show where the lattice point jumps occur. Since almost all such jumps occur in the vicinity of the GB plane, the GB region can be differentiated from the bulk by determining the lattice points associated with the jumps. Figure \ref{fig:def} depicts how the GB region is defined as a rectangular cuboid in a system with symmetric tilt \{190\} GBs. Please notice that the GB region also includes lattice points that do not participate in the diffusion process. Tracking only mobile GB atoms would overestimate the diffusion coefficients and would not be representative of the GB structure. Once the GB region of a system is defined, the number of U and Mo atoms in that region is also recorded using OVITO's expression selection tool. To verify the GB width evaluated this way, the potential energy of the system as a function of the $y$ coordinate is also computed by averaging the potential energy over thin layers parallel to the GB plane. The peak widths of the potential energy graphs corroborate the determination of GB width $\delta_{gb}$ using atomic trajectories. Several atomic trajectories and potential energy peaks are analyzed for each GB system using different portions of the simulation data to detect any GB migration since the migration of a GB would likely yield spurious results. Only in a few high-temperature simulations was GB migration observed. The simulations showing GB migration are not used in the calculation of the diffusion coefficients.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[height=6cm]{gb_def.png}
+\caption{Definition of the grain boundary region based on the trajectories of atoms in a $\gamma$U-10Mo supercell with symmetric tilt \{190\} grain boundary at 1100 K.}
+\label{fig:def}
+\end{figure}
+
+To calculate the mean squared displacement (MSD) of the U, Mo, and Xe atoms in the systems, a buffer averaging scheme is deployed as described in \cite{rapaport2004}. In this scheme, multiple parallel MSD calculations are performed over subsets of the full simulations. For example, in the case of systems without Xe, the first buffer computes the MSD from 2 ns to 7 ns, and the second computes the MSD from 3 ns to 8 ns, and so on. MSD values from 4 such buffers are then averaged. While the average from only 4 buffers is enough to get a smooth MSD versus time curve of U and Mo atoms, MSD calculations of Xe need more buffers. Therefore, a total of 34 buffers, where each buffer calculates the MSD over 12.5 ns, are employed for the systems with Xe. The starting times of two successive buffers are separated by 2.5 ns in this case.
+
+The Einstein relation is used to compute the diffusion coefficients from the buffer-averaged MSD values. The following equations are used to extract GB diffusion coefficients of U, Mo, and Xe perpendicular and parallel to the tilt axis,
+\begin{equation}
+	D^i_{\perp} = \frac{N_{i, gb}}{N_i} \frac{\langle x^2 \rangle}{2 \Delta t}
+\end{equation}
+\begin{equation}
+	D^i_{\parallel} = \frac{N_{i, gb}}{N_i} \frac{\langle z^2 \rangle}{2 \Delta t}
+\end{equation}
+where $D^i_{\perp}$ is the GB diffusion coefficient of $i$ (=U, Mo, or Xe) perpendicular to the tilt axis, $D^i_{\parallel}$ is the GB diffusion coefficient of $i$ parallel to the tilt axis, $\Delta t$ is the corresponding simulation time of the directional MSDs $\langle x^2 \rangle$ or $\langle z^2 \rangle$ of the system, $N_i$ is the number of $i$ atoms in the system, and $N_{i, gb}$ is the number of $i$ atoms in the GB region. It is assumed that the atoms outside the GB region undergo negligible diffusion. Generally, diffusion follows the Arrhenius equation as formulated below,
+\begin{equation}
+	D = D_0 \exp \bigg( -\frac{E_a}{k_B T} \bigg)
+\end{equation}
+where $D_0$ is the pre-exponential factor, $E_a$ is the activation energy, $T$ is the absolute temperature, and $k_B$ is the Boltzmann constant. Arrhenius fits to the GB diffusion coefficients are calculated for all the simulated systems.
+
+
+\section{Results}
+
+\subsection{Grain boundary validation}
+
+The symmetric tilt GB energies are shown in Figure \ref{fig:gbe}, with the error bars indicating $1\sigma$ confidence intervals. All symmetric tilt GB energies are within $2\sigma$ of the values reported by Beeler et al. \cite{beeler2018}. Therefore, the computed GB energies in this work agree with the results from Beeler et al. It should be noted that the GB systems used by Beeler et al. have roughly 10 times fewer atoms. The average GB energy for the examined symmetric tilt GBs is 0.68 Jm$^{-2}$.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.70\textwidth]{gbe.pdf}
+\caption{Grain boundary energies as a function of misorientation angle for $\gamma$U-10Mo symmetric tilt grain boundaries at 1200 K.}
+\label{fig:gbe}
+\end{figure}
+
+\begin{table}[!ht]
+\centering
+\caption{Grain boundary energies of $\gamma$U-10Mo asymmetric tilt and twist grain boundaries at 1200 K.}
+\label{tab:gbe}
+\begin{tabular}{cc}
+\toprule
+GB plane & Energy (Jm$^{-2}$) \\
+\midrule
+asym  \{110\} & 0.77 \\
+asym  \{130\} & 1.15 \\
+asym  \{190\} & 0.41 \\
+asym  \{350\} & 1.10 \\
+twist \{110\} & 0.84 \\
+twist \{230\} & 1.14 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Novel asymmetric tilt and twist GBs are explored in this work which have not been studied previously. The energies of these GBs in $\gamma$U-10Mo are shown in Table \ref{tab:gbe}. The average GB energy is 0.90 Jm$^{-2}$ for the probed asymmetric tilt and twist GB systems. Except for the asymmetric tilt \{190\} GB, all the asymmetric tilt and twist GBs have higher GB energy than the symmetric tilt GBs. This means the asymmetric tilt and twist GBs are in general energetically less favorable to form than the symmetric tilt GBs.
+
+
+\FloatBarrier
+\subsection{Temperature-dependent grain boundary width}\label{sec:res1}
+
+There are different kinds of GB widths defined in various ways. The diffusional width $\delta_D$ of a GB is defined using the number of mobile GB atoms so that the MSD of all atoms in the system can be used to compute the double product $D_{gb} \delta_D$ (also called the diffusion flux). The diffusional width is not the same as the structural width $\delta_{gb}$ of a GB, which can be defined using the total number of atoms residing within the GB region \cite{peterson1986, keblinski1999}. However, the definition of the GB region may vary depending on the method used. Thus, the determination of the GB region is not straightforward. In literature, atom coordination, potential energy peak width, and other properties have been used for this purpose \cite{riet2021, koju2020}. Assuming a fixed value for $\delta_{gb}$ is also quite common and the assumptions fall between 5 \r{A} to 15 \r{A} \cite{suzuki2005, cooper2021, popov2022}. In this work, "GB width" means the structural width of a GB, and the definition of the GB region is based on the lattice points that facilitate the diffusion of atoms.
+
+Figure \ref{fig:delta} displays the GB width $\delta_{gb}$ as a function of temperature for symmetric tilt, asymmetric tilt, and twist grain boundaries in $\gamma$U-10Mo. The widths of symmetric tilt GBs in $\gamma$U-7Mo and $\gamma$U-12Mo are similar to that in $\gamma$U-10Mo. It is observed that GB width has a positive correlation with temperature. In all cases, the GB width increases from about 6 \r{A} at 600 K to about 12 \r{A} at 1200 K almost linearly. The computed GB widths are close to the values found in the literature. The result here depicts that assuming a fixed GB width across temperatures, as has been done for U$_3$Si$_2$ \cite{cooper2021}, would have been erroneous for the $\gamma$U-Mo system.
+
+\begin{figure}[!ht]
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{d_gb_sym.pdf}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{d_gb_asym_twist.pdf}
+\end{subfigure}
+\caption{Grain boundary width of (a) symmetric tilt, and (b) asymmetric tilt and twist grain boundaries in $\gamma$U-10Mo as a function of temperature.}
+\label{fig:delta}
+\end{figure}
+
+\FloatBarrier
+\subsection{Grain boundary diffusion coefficients}
+
+The diffusion coefficients of U, Mo, and Xe (both perpendicular and parallel to the tilt axis) in various symmetric tilt GBs in $\gamma$U-10Mo are shown in Figure \ref{fig:u10mo}. The diffusion behavior is generally Arrhenius, and the spread in diffusion coefficients due to tilt angles is about one order of magnitude, regardless of the temperature. The order of magnitude of diffusion coefficients ranges from $10^{-14}$ m$^2$s$^{-1}$ in the low-temperature region to $10^{-11}$ m$^2$s$^{-1}$ in the high-temperature region. The standard deviation of diffusion coefficients at 600 K is of the order $10^{-14}$ m$^2$s$^{-1}$, while at 1200 K it is of the order $10^{-12}$ m$^2$s$^{-1}$, with the standard deviation monotonically increasing with temperature. Error bars are excluded from the figure for readability. For any symmetric tilt GB, the U GB diffusivities are higher than the Mo GB diffusivities. The Xe GB diffusivities are similar to the Mo GB diffusivities at low temperatures and to the U GB diffusivities at high temperatures. The pre-exponential factors and activation energies from the Arrhenius fits are listed in Table \ref{tab:u10moArr}. The activation energy is 0.4-0.7 eV for U GB diffusion, 0.4-0.6 eV for Mo GB diffusion, and 0.5-0.8 eV for Xe GB diffusion in $\gamma$U-10Mo. This energy can be compared to the migration energies of point defect diffusion in $\gamma$U-10Mo. A recent study by Park et al. reports the migration energies of interstitial and vacancy diffusion of U in $\gamma$U-10Mo to be 0.40 eV and 0.73 eV, respectively \cite{park2023}. The magnitude of the activation energy of diffusion in the GB being similar to the migration energies of the point defects indicates that the GB diffusion is mostly mediated by the migration of point defects.
+
+\begin{figure}[!ht]
+\centering
+\begin{subfigure}{0.45\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[height=5cm]{u10mo_U_Dx.pdf}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[height=5cm]{u10mo_U_Dz.pdf}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[height=5cm]{u10mo_Mo_Dx.pdf}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[height=5cm]{u10mo_Mo_Dz.pdf}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[height=5cm]{u10mo_Xe_Dx.pdf}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[height=5cm]{u10mo_Xe_Dz.pdf}
+\end{subfigure}
+\caption{Diffusion coefficients of U (a) perpendicular and (b) parallel to the tilt axis, of Mo (c) perpendicular and (d) parallel to the tilt axis, and of Xe (e) perpendicular and (f) parallel to the tilt axis in symmetric tilt grain boundaries in $\gamma$U-10Mo as a function of inverse temperature. The lines are Arrhenius fits to the data points. The error bars represent $1\sigma$ confidence intervals.}
+\label{fig:u10mo}
+\end{figure}
+
+\begin{table}[!ht]
+\centering
+\caption{Prefactors and activation energies for the Arrhenius equation fits to the diffusion coefficients of various symmetric tilt grain boundaries in $\gamma$U-10Mo. $D_0$ is in m$^2$s$^{-1}$ and $E_a$ is in eV.}
+\label{tab:u10moArr}
+\begin{tabular}{ccllllll}
+\toprule
+GB plane & Dir.
+	& $D_{0}^U$     & $E_{a}^U$
+	& $D_{0}^{Mo}$  & $E_{a}^{Mo}$
+	& $D_{0}^{Xe}$  & $E_{a}^{Xe}$ \\
+\midrule
+\multirow{2}{*}{ \{120\} }
+		& $\perp$
+		& 3.87 $\times 10^{-09}$ & 0.528
+        & 9.32 $\times 10^{-10}$ & 0.523
+        & 1.19 $\times 10^{-08}$ & 0.612  \\
+        & $\parallel$
+		& 5.57 $\times 10^{-09}$ & 0.555
+        & 1.54 $\times 10^{-09}$ & 0.549
+		& 1.17 $\times 10^{-07}$ & 0.795  \vspace{0.2cm } \\
+\multirow{2}{*}{ \{130\} }
+		& $\perp$
+		& 1.02 $\times 10^{-08}$ & 0.653
+        & 1.35 $\times 10^{-09}$ & 0.572
+        & 2.56 $\times 10^{-08}$ & 0.734  \\
+        & $\parallel$
+		& 1.50 $\times 10^{-08}$ & 0.680
+        & 1.65 $\times 10^{-09}$ & 0.575
+        & 4.73 $\times 10^{-08}$ & 0.777  \vspace{0.2cm } \\
+\multirow{2}{*}{ \{150\} }
+		& $\perp$
+		& 1.77 $\times 10^{-09}$ & 0.499
+        & 4.09 $\times 10^{-10}$ & 0.477
+        & 1.13 $\times 10^{-09}$ & 0.501  \\
+        & $\parallel$
+		& 2.33 $\times 10^{-09}$ & 0.501
+        & 5.60 $\times 10^{-10}$ & 0.489
+        & 3.19 $\times 10^{-09}$ & 0.565  \vspace{0.2cm } \\
+\multirow{2}{*}{ \{190\} }
+		& $\perp$
+		& 1.67 $\times 10^{-10}$ & 0.395
+        & 6.44 $\times 10^{-11}$ & 0.399
+        & 2.67 $\times 10^{-10}$ & 0.474  \\
+        & $\parallel$
+		& 6.55 $\times 10^{-10}$ & 0.440
+        & 1.79 $\times 10^{-10}$ & 0.455
+        & 2.89 $\times 10^{-09}$ & 0.626  \vspace{0.2cm } \\
+\multirow{2}{*}{ \{340\} }
+		& $\perp$
+		& 3.76 $\times 10^{-10}$ & 0.505
+        & 1.46 $\times 10^{-10}$ & 0.530
+        & 1.46 $\times 10^{-10}$ & 0.423  \\
+        & $\parallel$
+		& 3.82 $\times 10^{-10}$ & 0.485
+        & 8.27 $\times 10^{-11}$ & 0.460
+        & 1.97 $\times 10^{-10}$ & 0.425  \vspace{0.2cm } \\
+\multirow{2}{*}{ \{350\} }
+		& $\perp$
+		& 9.90 $\times 10^{-10}$ & 0.419
+        & 2.65 $\times 10^{-10}$ & 0.410
+        & 1.06 $\times 10^{-08}$ & 0.650  \\
+        & $\parallel$
+		& 8.28 $\times 10^{-10}$ & 0.402
+        & 2.99 $\times 10^{-10}$ & 0.413
+        & 1.17 $\times 10^{-08}$ & 0.648  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The asymmetric tilt and twist GB diffusion coefficients in $\gamma$U-10Mo are depicted in Figure \ref{fig:asym}. The magnitude of the diffusivities for non-symmetric tilt GBs are in the same range as the symmetric tilt systems. Thus, the overall impact of the orientation of GBs on the diffusivity appears to be minimal. The data in Figure \ref{fig:asym} also show a general Arrhenius trend, and the prefactors and activation energies for these systems are tabulated in Table \ref{tab:asym} of the appendix. The standard deviation in these systems is of the order $10^{-14}$ m$^2$s$^{-1}$ at 600 K, and $ 10^{-12}$ m$^2$s$^{-1}$ at 1200 K. The deviations for all the systems are small enough that the trends with respect to temperature are statistically significant.
+
+\begin{figure}[!ht]
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{asym_twist_U_Dx.pdf}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{asym_twist_U_Dz.pdf}
+\end{subfigure}
+
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{asym_twist_Mo_Dx.pdf}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{asym_twist_Mo_Dz.pdf}
+\end{subfigure}
+\caption{Diffusion coefficients of U (a) perpendicular and (b) parallel to the tilt axis, and of Mo (c) perpendicular and (d) parallel to the tilt axis in asymmetric tilt and twist grain boundaries in $\gamma$U-10Mo as a function of inverse temperature. The lines are Arrhenius fits to the data points. The error bars represent $1\sigma$ confidence intervals.}
+\label{fig:asym}
+\end{figure}
+
+To compare the GB diffusion coefficients of $\gamma$U-7Mo, $\gamma$U-10Mo, and $\gamma$U-12Mo, the diffusion coefficients parallel to the tilt axis of all symmetric tilt GBs are averaged. We denote this orientation-averaged GB diffusion coefficient of species $i$ by $\overline{D}^i_{\parallel}$ for $i=$ U, Mo, or Xe. The rationale behind averaging $D^i_{\parallel}$ for comparison is that $D^i_{\parallel} > D^i_{\perp}$ for all kinds of GBs, even for the ones with high misorientation angles \cite{mishin2015}. The orientation-averaged U and Mo GB diffusion coefficients in different compositions are presented in Figure \ref{fig:comp}. While not shown, the range of diffusivities with respect to the misorientation angle in different compositions is also about one order of magnitude, and thus only the orientation-averaged diffusivities are displayed. The general trend of the diffusivities as a function of temperature for the three examined compositions is identical. The standard deviations of the GB diffusivities in the $\gamma$U-7Mo and $\gamma$U-12Mo systems are also comparable to that of $\gamma$U-10Mo, which indicates the effect of composition on the diffusivities is not negligible. From the figure, it can be noticed that the GB diffusivity is negatively correlated with the Mo content of the fuel. This is expected as the U self-diffusivity is higher than that of Mo \cite{huang2013}, and thus increased Mo content suppresses the GB diffusivities in $\gamma$U-Mo. Table \ref{tab:compArr} provides the Arrhenius fits to the orientation-averaged GB diffusion coefficients for the different compositions. Also, the Arrhenius fits to the diffusion coefficients of all the symmetric tilt GBs in $\gamma$U-7Mo and $\gamma$U-12Mo are listed in Tables \ref{tab:u7mo} and \ref{tab:u12mo} of the appendix for completeness.
+
+\begin{figure}[!ht]
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{comp_U_Dz.pdf}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{comp_Mo_Dz.pdf}
+\end{subfigure}
+\caption{Orientation-averaged grain boundary diffusion coefficients of (a) U and (b) Mo parallel to the tilt axis for $\gamma$U-7Mo, $\gamma$U-10Mo, and $\gamma$U-12Mo. The error bars represent $1\sigma$ confidence intervals.}
+\label{fig:comp}
+\end{figure}
+
+\begin{table}[!ht]
+\centering
+\caption{Prefactors and activation energies for the Arrhenius equation fits to the orientation-averaged grain boundary diffusion coefficients parallel to the tilt axis ($\overline{D}^{i}_{\parallel}$ for $i=$ U or Mo) in $\gamma$U-Mo alloys. $D_0$ is in m$^2$s$^{-1}$ and $E_a$ is in eV.}
+\label{tab:compArr}
+\begin{tabular}{cllll}
+\toprule
+Composition
+	& $D_{0}^U$      & $E_{a}^U$
+	& $D_{0}^{Mo}$   & $E_{a}^{Mo}$ \\
+\midrule
+$\gamma$U-7Mo
+	& 4.98 $\times 10^{-09}$ & 0.527
+	& 1.03 $\times 10^{-09}$ & 0.511 \\
+$\gamma$U-10Mo
+	& 1.80 $\times 10^{-09}$ & 0.493
+	& 5.04 $\times 10^{-10}$ & 0.488 \\
+$\gamma$U-12Mo
+	& 1.44 $\times 10^{-09}$ & 0.503
+	& 3.96 $\times 10^{-10}$ & 0.486 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The orientation-averaged U, Mo, and Xe GB diffusion coefficients in $\gamma$U-10Mo are displayed in Figure \ref{fig:umoxe} along with U and Mo self-diffusivity, and intrinsic diffusivity of Xe in $\gamma$U-Mo from the literature. For all examined temperatures, the U GB diffusivity is higher than the GB diffusivity of Mo. The Xe GB diffusivity is similar to the Mo GB diffusivity at 600 K and it steadily reaches the U GB diffusivity with increasing temperature. The U and Mo self-diffusivities in $\gamma$U-9Mo are extracted from Smirnova et al. \cite{smirnova2015}. These self-diffusivities were computed using the same ADP potential used for this work. Since the GB diffusivities of $\gamma$U-7Mo and $\gamma$U-10Mo are close, the difference in composition between the studies is not large enough to prevent comparison. The GB diffusion coefficient of U is about three orders of magnitude higher than the self-diffusion coefficient around 1200 K. The difference between the GB diffusivity and the self-diffusivity grows larger with decreasing temperature. At around 800 K, the difference is about five orders of magnitude. For Mo, the GB diffusion coefficient is about four orders of magnitude higher than the self-diffusion coefficient around 1200 K, while the difference spans six orders of magnitude around 800 K. The intrinsic diffusion coefficient of Xe from Park et al. \cite{park2023} is included in the figure as well. This intrinsic diffusion coefficient was calculated using an EAM potential of U-Mo-Xe \cite{smirnova2013}. At 1200 K, the GB diffusion coefficient of Xe is about eight orders of magnitude higher than the intrinsic diffusion coefficient of Xe, while at 800 K, this enlarges to a difference of about eleven orders of magnitude. Table \ref{tab:enhance} summarizes the species-wise diffusion enhancements by GBs at four different temperatures.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.70\textwidth]{newLitComp.pdf}
+\caption{Orientation-averaged U, Mo, and Xe grain boundary diffusivities parallel to the tilt axis in $\gamma$U-10Mo with literature data. S represents the U and Mo self-diffusivity in $\gamma$U-9Mo from Smirnova et al. \cite{smirnova2015}. P represents the intrinsic diffusivity of Xe in $\gamma$U-10Mo from Park et al. \cite{park2023}. The error bars represent $1\sigma$ confidence intervals.}
+\label{fig:umoxe}
+\end{figure}
+
+\begin{table}[!ht]
+\centering
+\caption{Ratio of the grain boundary diffusivities to the self/intrinsic diffusivities.}
+\label{tab:enhance}
+\begin{tabular}{clll}
+\toprule
+Temp.  & $\overline{D}^U_{\parallel}/D^U_{self}$
+       & $\overline{D}^{Mo}_{\parallel}/D^{Mo}_{self}$
+       & $\overline{D}^{Xe}_{\parallel}/D^{Xe}_{intr}$ \\
+\midrule
+600 K  & 2.42 $\times 10^7$ & 3.83 $\times 10^9$ & 1.55 $\times 10^{15}$ \\
+800 K  & 1.57 $\times 10^5$ & 6.08 $\times 10^6$ & 4.75 $\times 10^{11}$ \\
+1000 K & 7.12 $\times 10^3$ & 1.56 $\times 10^5$ & 3.66 $\times 10^9$  \\
+1200 K & 8.84 $\times 10^2$ & 1.20 $\times 10^4$ & 2.08 $\times 10^8$  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+With the GB diffusion enhancement factors and the GB widths available, it is possible to assess the overall effect of bulk and GB diffusion in the material. The effective diffusion coefficient $D_{eff}$ of a material consisting of grains can be expressed as follows.
+\begin{equation}
+	D_{eff} = f D_{gb} + (1-f) D_l
+\end{equation}
+where $D_{gb}$ is the GB diffusion coefficient, $D_l$ is the lattice diffusion coefficient, and $f$ is the volume fraction of GBs in the material \cite{mishin1997, heitjans2006}. Assuming a configuration of parallel grains, the volume fraction can be equated to $\delta_{gb} / d$, where $d$ is the average grain size. In $\gamma$U-10Mo, $d$ is on the order of 10 $\mu$m \cite{jana2017, di2021}, and GB widths $\delta_{gb}$ are between 6 \r{A} to 12 \r{A} as stated in section \ref{sec:res1}. This leads to a volume fraction $f$ on the order of $10^{-4}$. Now, the effective diffusion coefficient can be written in an alternative form to make use of the ratios listed in Table \ref{tab:enhance}.
+\begin{equation}
+	D_{eff} = \bigg[ f \bigg( \frac{D_{gb}}{D_l} \bigg)
+		+ (1 - f) \bigg] D_l
+	\approx \bigg[ f \bigg( \frac{D_{gb}}{D_l} \bigg) + 1 \bigg] D_l
+\end{equation}
+since $(1-f) \approx 1$. Utilizing $\overline{D}^U_{\parallel} / D^U_{self}$ to approximate $D_{gb} / D_l$ in $\gamma$U-10Mo yields $D_{eff} \approx 1.5 \times 10^3 D_l$ at 600 K and $D_{eff} \approx 1.1 D_l$ at 1200 K. Thus, the overall diffusion in the material is dominated by GB diffusion at lower temperatures, and the diffusion enhancement by GBs starts to diminish significantly at higher temperatures. The difference in activation energies between GB diffusion and bulk diffusion explains why temperature changes the effect of GB diffusion on the effective diffusion of the material. This difference in activation energies is expected and is observable in Figure \ref{fig:umoxe} as the slope of each Arrhenius fit.
+
+
+\FloatBarrier
+\subsection{Dependence of diffusion on the misorientation angle}
+
+The effect of the misorientation angle on diffusion is shown in Figure \ref{fig:dvstilt}. Subfigure \ref{fig:dvstilt}(a) shows the GB diffusivity of the species parallel to the tilt axis against the misorientation angle in $\gamma$U-10Mo at 600 K. The U GB diffusivities at this temperature are higher than the Mo GB diffusivities for all symmetric tilt GBs, and the Xe GB diffusivities are similar to the Mo GB diffusivities. Subfigure \ref{fig:dvstilt}(b) shows the results for 1200 K. At this temperature, both the U and the Xe GB diffusivities are higher than the Mo GB diffusivities. The deviations in the Xe GB diffusivities are quite large, but it can be noted that the average Xe GB diffusivity is higher than that of U. The Xe GB diffusion coefficients have larger deviations compared to the other two species because these properties are computed from the diffusion of only 2 Xe atoms per simulation. In contrast, there are at least hundreds of U and Mo GB atoms in all simulations.
+
+\begin{figure}[!ht]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{DvsTilt_600K.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{DvsTilt_1200K.pdf}
+    \end{subfigure}
+\caption{Diffusivities of U, Mo, and Xe with respect to the misorientation angle in $\gamma$U-10Mo at (a) 600 K, and (b) 1200 K. The error bars represent $1\sigma$ confidence intervals.}
+\label{fig:dvstilt}
+\end{figure}
+
+%\begin{table}[!ht]
+%\centering
+%\caption{Grain boundary energies (in Jm$^{-2}$) of $\gamma$U-10Mo symmetric tilt grain boundaries at 600 K and 1200 K from Beeler et al.
+%\cite{beeler2018}.}
+%\label{tab:gbe_corr}
+%\begin{tabular}{ccc}
+%\toprule
+%GB plane & 600 K & 1200 K \\
+%\midrule
+%\{190\} & 0.53 & 0.61 \\
+%\{150\} & 0.57 & 0.70 \\
+%\{130\} & 0.55 & 0.68 \\
+%\{120\} & 0.57 & 0.73 \\
+%\bottomrule
+%\end{tabular}
+%\end{table}
+
+At 600 K, there is no apparent relation of the diffusivity with the misorientation angle. The minima occur for the \{130\} and \{340\} GBs, with the maximum at the \{350\}. However, at 1200 K, the misorientation angle does show an effect on the diffusivities. In general, the greater the misorientation (closer to 45$^{\circ}$), the greater the diffusivity. This might mean high temperature allows some GB structures to use additional diffusional pathways. Utilizing the GB energies calculated at 1200 K in Figure \ref{fig:gbe} and Table \ref{tab:gbe}, one can investigate a potential correlation between the GB energies and the diffusivities. This data is plotted in Figure \ref{fig:DvsGBE} and indicates that there is not a statistically significant correlation. Data from GBs at 600 K \cite{beeler2018} are also analyzed to explore temperature effects, but again, no clear patterns could be identified. Thus, while there is a dependence of diffusion on the GB orientation, there are no consistent trends with respect to either the misorientation angle or the GB energy across the entire temperature spectrum analyzed.
+
+\FloatBarrier
+\section{Discussion}
+
+\subsection{Anisotropic nature of diffusion}
+
+GBs can be differentiated into either low-angle GBs (LAGBs) or high-angle GBs (HAGBs) based on the presence of discrete lattice dislocations in the structure \cite{winning2010}. The transition from LAGB to HAGB happens between 10$^{\circ}$ and 20$^{\circ}$. Even around 20$^{\circ}$, some GBs might have discernible single dislocations \cite{winning2005}. Since $\gamma$U-Mo has a bcc structure, having a 90$^{\circ}$ tilt means it is a perfect lattice without any GBs. Also, the misorientation angles $\theta$ and $(\theta+90^{\circ})$ are the same because of the inherent symmetry in bcc structures. Among the examined symmetric tilt GBs in this work, \{190\} and \{340\} can be considered LAGBs and \{150\}, \{130\}, \{120\}, and \{350\} HAGBs.
+
+Figure \ref{fig:ratio} depicts the ratio $D^i_{\parallel} / D^i_{\perp}$ for symmetric tilt GBs in $\gamma$U-10Mo where $i =$ U, Mo, or Xe. The solid black line at $D^i_{\parallel} / D^i_{\perp} = 1$ represents isotropic GB diffusion. For all the symmetric tilt HAGBs, the diffusion is closer to the isotropic behavior. The symmetric tilt \{190\} LAGB shows highly anisotropic GB diffusion, especially for U GB diffusion. The symmetric tilt \{340\} LAGB also shows anisotropic behavior but only at lower temperatures. At high temperatures, the diffusion behavior of the \{340\} GB is almost isotropic, similar to other HAGBs. Some anisotropy is expected even in HAGBs \cite{mishin1997}.
+
+\begin{figure}[!ht]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{ratio_U.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{ratio_Mo.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{ratio_Xe.pdf}
+    \end{subfigure}
+\caption{Ratios of the diffusion coefficients parallel to the tilt axis to the diffusion coefficients perpendicular to the tilt axis of (a) U, (b) Mo, and (c) Xe in the symmetric tilt grain boundaries in $\gamma$U-10Mo.}
+\label{fig:ratio}
+\end{figure}
+
+A symmetric tilt LAGB is essentially an array of parallel edge dislocations. Analysis of the atomistic simulations performed in this work reveals dislocation pipe diffusion parallel to the tilt axis in the symmetric tilt \{190\} GB, and diffusion in this GB is mostly one-dimensional. The atomic trajectories in a cross-sectional GB view and the directional MSDs of the symmetric tilt \{190\} GB system are provided in Figure \ref{fig:190}. Subfigures \ref{fig:190}(a) and \ref{fig:190}(b) are at 700 K, and \ref{fig:190}(c) and \ref{fig:190}(d) are at 1100 K. The cross-sections reveal the diffusion pipes. Diffusion outside these pipes is not prominent even if the atoms are within the GB plane. The MSDs in the direction perpendicular to the GB plane (y-axis), and in the direction perpendicular to the tilt axis but parallel to the GB plane (x-axis) are similar in magnitude. Thus, it can be stated that the diffusion in the symmetric tilt \{190\} GB is primarily happening in the direction of the tilt axis.
+
+\begin{figure}[!ht]
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{190at700cs.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{190at700xyz.pdf}
+	\end{subfigure}
+    \par\medskip
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{190at1100cs.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{190at1100xyz.pdf}
+	\end{subfigure}
+\caption{Cross-sectional view of the atomic trajectories at (a) 700 K and (c) 1100 K, and the MSDs at (b) 700 K and (d) 1100 K for the symmetric tilt \{190\} grain boundary.}
+\label{fig:190}
+\end{figure}
+
+Figure \ref{fig:130} displays the atomic trajectories and the directional MSDs for the symmetric tilt \{130\} HAGB. Contrary to the \{190\} system, the diffusion in \{130\} is two-dimensional and the diffusion on the GB plane does not have any directional preference. This is true for all HAGBs. For some configurations, such as the \{340\} LAGB (misorientation angle of 16.3$^{\circ}$), the diffusion behavior can be somewhere in between. In this case, the diffusion parallel to the tilt axis is significantly stronger than the diffusion perpendicular to the tilt axis (and parallel to the GB plane), which in turn is significantly stronger than the diffusion perpendicular to the GB plane. Thus, the underlying nature of diffusion in symmetric tilt GBs can be substantially different, including 1-D or anisotropic effects, and such behaviors become more prevalent for low-angle GBs.
+
+\begin{figure}[!ht]
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{130at700cs.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{130at700xyz.pdf}
+	\end{subfigure}
+    \par\medskip
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{130at1100cs.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\caption{}
+		\includegraphics[height=5cm]{130at1100xyz.pdf}
+	\end{subfigure}
+\caption{Cross-sectional view of the atomic trajectories at (a) 700 K and (c) 1100 K, and the MSDs at (b) 700 K and (d) 1100 K for the symmetric tilt \{130\} grain boundary.}
+\label{fig:130}
+\end{figure}
+
+
+\FloatBarrier
+\subsection{Two diffusion regimes based on temperature}
+
+The GB diffusion coefficients in $\gamma$U-Mo roughly follow the Arrhenius equation, but not exactly. The Arrhenius plot displays concavity for all configurations, indicating the possibility of sub-Arrhenius behavior. Similar behavior has been observed in U$_3$Si$_2$ fuel by Cooper et al. \cite{cooper2021} but was neglected. Figure \ref{fig:2reg} shows the same data as in Figure \ref{fig:comp}, but separated into two different regimes: a high-temperature regime from 900 K to 1200 K and a low-temperature regime from 600 K to 800 K. A GB diffusion study by Suzuki et al. \cite{suzuki2005} describes this as heterophase fluctuations. The Arrhenius plots for Cu GB diffusion from Suzuki also show concavity, and they theorized this as a local melting event, where small embryos of liquid are supposed to exist for a short time before crystallizing into an ordered GB structure.
+
+\begin{figure}[!ht]
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{2reg_U_Dz.pdf}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+	\centering
+	\caption{}
+	\includegraphics[width=\textwidth]{2reg_Mo_Dz.pdf}
+\end{subfigure}
+\caption{Orientation-averaged grain boundary diffusion coefficients of (a) U and (b) Mo parallel to the tilt axis for $\gamma$U-7Mo, $\gamma$U-10Mo, and $\gamma$U-12Mo with Arrhenius fits to the two diffusion regimes. The error bars represent $1\sigma$ confidence intervals.}
+\label{fig:2reg}
+\end{figure}
+
+Arrhenius fits are thus applied separately for these two temperature regimes observed in Figure \ref{fig:2reg}, and prefactors and activation energies for these two regimes are provided in Table \ref{tab:2reg}. The activation energy for U GB diffusion in $\gamma$U-10Mo is 0.36 eV in the low-temperature regime and 0.71 in the high-temperature regime, which is almost double the value at low temperatures. Although the activation energy for Mo GB diffusion is a little higher than that of U GB diffusion at high temperatures, the overall trend is similar. The effect of composition on the activation energies is minimal. We suggest the use of Arrhenius fits that are based on the two temperature regimes, e.g., to calculate the diffusion coefficient at 300 K, the low-temperature fit should be used. Linear interpolation can be used for the temperature range 800 K - 900 K.
+
+\begin{table}[!ht]
+\centering
+\caption{Prefactors and activation energies for the Arrhenius equation fits to $\overline{D}^{i}_{\parallel}$ ($i=$ U or Mo) in $\gamma$U-7Mo, $\gamma$U-10Mo, and $\gamma$U-12Mo for the two different temperature regimes. $D_0$ is in m$^2$s$^{-1}$ and $E_a$ is in eV.}
+\label{tab:2reg}
+\begin{tabular}{ccllll}
+\toprule
+Composition & Temp.
+	& $D_{0}^U$      & $E_{a}^U$
+	& $D_{0}^{Mo}$   & $E_{a}^{Mo}$ \\
+\midrule
+\multirow{2}{*}{ $\gamma$U-7Mo }
+	& 600 K - 800 K
+	& 1.03 $\times 10^{-09}$ & 0.433
+	& 8.87 $\times 10^{-11}$ & 0.366 \\
+	& 900 K - 1200 K
+	& 4.10 $\times 10^{-08}$ & 0.715
+	& 2.77 $\times 10^{-08}$ & 0.806 \vspace{0.2cm } \\
+\multirow{2}{*}{ $\gamma$U-10Mo }
+	& 600 K - 800 K
+	& 1.96 $\times 10^{-10}$ & 0.362
+	& 5.26 $\times 10^{-11}$ & 0.353 \\
+	& 900 K - 1200 K
+	& 2.10 $\times 10^{-08}$ & 0.712
+	& 1.31 $\times 10^{-08}$ & 0.779 \vspace{0.2cm } \\
+\multirow{2}{*}{ $\gamma$U-12Mo }
+	& 600 K - 800 K
+	& 1.81 $\times 10^{-10}$ & 0.380
+	& 6.17 $\times 10^{-11}$ & 0.375 \\
+	& 900 K - 1200 K
+	& 1.33 $\times 10^{-08}$ & 0.700
+	& 6.62 $\times 10^{-09}$ & 0.738 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+These regimes might exist due to the different modes of diffusion that only get enabled at high temperatures, with the transition between the two regimes occurring at 800 K - 900 K for this system. With additional thermal energy, given a fixed migration barrier, higher temperatures are more likely to overcome the energy barrier and induce diffusion. Given that 1) more atoms are participating in the diffusional process as temperature increases (Figure \ref{fig:delta}), 2) diffusional pathways appear to become more varied at increasing temperature (Figure \ref{fig:130}), and 3) that the high-temperature diffusion regime exhibits a higher activation energy (Figure \ref{fig:2reg}), the assumption that increased temperature opens higher energy diffusional pathways seems reasonable. This may be an alternate way of viewing the same phenomena identified in Suzuki \cite{suzuki2005} and denoted as heterophase fluctuations. 
+
+
+\FloatBarrier
+\section{Conclusions}
+
+In the present work, MD simulations are performed using an ADP potential to compute the GB diffusion coefficients of U, Mo, and Xe in $\gamma$U-Mo alloys \cite{starikov2018}. First, the GB region is identified by locating the lattice point jumps of atoms using the atomic trajectories. It is observed that the GB width increases almost linearly from around 6 \r{A} to around 12 \r{A} with temperature in the range 600 K - 1200 K. The MSDs of the U, Mo, and Xe atoms are then used to calculate the GB diffusivities of the species in several $\gamma$U-Mo alloys ($\gamma$U-7Mo, $\gamma$U-10Mo, and $\gamma$U-12Mo) as a function of temperature and misorientation angle. The GB diffusion coefficients are typically on the order of $10^{-14}$ to $10^{-11}$ m$^2$s$^{-1}$. The U GB diffusivity is always higher than the Mo GB diffusivity for a specific GB at a given temperature. The Xe GB diffusivity is closer to the Mo GB diffusivity around 600 K and it steadily approaches the U GB diffusivity with increasing temperature. The GB diffusion coefficients parallel to the tilt axis of the GB plane are generally larger than the coefficients perpendicular to the tilt axis, with some specific GBs showing significant anisotropy. The orientation-averaged GB diffusion coefficients parallel to the tilt axis are used to evaluate the effect of composition. There is a significant negative correlation between the GB diffusivities and the concentration of Mo in the alloy. The orientation-averaged diffusion coefficients of U, Mo, and Xe are between three to fifteen orders of magnitude faster than the intrinsic/self-diffusion coefficients of the species in the bulk, and GB diffusion dominates the effective diffusion of the material at lower temperatures. The diffusional acceleration by GBs is the most prominent for Xe, and a quantitative account of this will improve the understanding of the fission gas swelling behavior. The calculated diffusion coefficients will also inform models of creep mechanisms. Overall, the results obtained from this work will provide insight into the various phenomena related to the fuel performance of the $\gamma$U-Mo fuels.
+
+
+\clearpage
+\begin{appendices}
+
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+\section{Additional diffusion coefficient tables}
+
+\begin{table}[!ht]
+\centering
+\caption{Prefactors and activation energies for the Arrhenius equation fits to the diffusion coefficients of various asymmetric tilt and twist grain boundaries in $\gamma$U-10Mo. $D_0$ is in m$^2$s$^{-1}$ and $E_a$ is in eV.}
+\label{tab:asym}
+\begin{tabular}{ccllll}
+\toprule
+GB plane & Dir.
+	& $D_{0}^U$      & $E_{a}^U$
+	& $D_{0}^{Mo}$   & $E_{a}^{Mo}$ \\
+\midrule
+\multirow{2}{*}{ asym \{110\} }
+	& $\perp$
+	& 6.71 $\times 10^{-09}$ & 0.543
+	& 2.40 $\times 10^{-09}$ & 0.545 \\
+	& $\parallel$
+	& 6.49 $\times 10^{-09}$ & 0.551
+	& 2.10 $\times 10^{-09}$ & 0.550 \vspace{0.2cm } \\
+\multirow{2}{*}{ asym \{130\} }
+	& $\perp$
+	& 1.00 $\times 10^{-09}$ & 0.473
+	& 3.42 $\times 10^{-10}$ & 0.475 \\
+	& $\parallel$
+	& 1.78 $\times 10^{-09}$ & 0.491
+	& 3.85 $\times 10^{-10}$ & 0.471 \vspace{0.2cm } \\
+\multirow{2}{*}{ asym \{190\} }
+	& $\perp$
+	& 1.40 $\times 10^{-10}$ & 0.411
+	& 5.95 $\times 10^{-11}$ & 0.417 \\
+	& $\parallel$
+	& 4.95 $\times 10^{-10}$ & 0.451
+	& 1.50 $\times 10^{-10}$ & 0.464 \vspace{0.2cm } \\
+\multirow{2}{*}{ asym \{350\} }
+	& $\perp$
+	& 5.95 $\times 10^{-09}$ & 0.531
+	& 2.18 $\times 10^{-09}$ & 0.535 \\
+	& $\parallel$
+	& 5.77 $\times 10^{-09}$ & 0.529
+	& 2.00 $\times 10^{-09}$ & 0.536 \vspace{0.2cm } \\
+\multirow{2}{*}{ twist \{110\} }
+	& $\perp$
+	& 5.08 $\times 10^{-09}$ & 0.521
+	& 2.16 $\times 10^{-09}$ & 0.554 \\
+	& $\parallel$
+	& 5.13 $\times 10^{-09}$ & 0.521
+	& 2.21 $\times 10^{-09}$ & 0.556 \vspace{0.2cm } \\
+\multirow{2}{*}{ twist \{230\} }
+	& $\perp$
+	& 4.57 $\times 10^{-09}$ & 0.500
+	& 1.12 $\times 10^{-09}$ & 0.500 \\
+	& $\parallel$
+	& 4.29 $\times 10^{-09}$ & 0.497
+	& 1.02 $\times 10^{-09}$ & 0.493 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\caption{Prefactors and activation energies for the Arrhenius equation fits to the diffusion coefficients of various symmetric tilt grain boundaries in $\gamma$U-7Mo. $D_0$ is in m$^2$s$^{-1}$ and $E_a$ is in eV.}
+\label{tab:u7mo}
+\begin{tabular}{ccllll}
+\toprule
+GB plane & Dir.
+	& $D_{0}^U$      & $E_{a}^U$
+	& $D_{0}^{Mo}$   & $E_{a}^{Mo}$ \\
+\midrule
+\multirow{2}{*}{ \{120\} }
+	& $\perp$
+	& 7.54 $\times 10^{-09}$ & 0.536
+	& 2.26 $\times 10^{-09}$ & 0.554 \\
+	& $\parallel$
+	& 1.10 $\times 10^{-08}$ & 0.563
+	& 2.36 $\times 10^{-09}$ & 0.548 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{130\} }
+	& $\perp$
+	& 2.44 $\times 10^{-08}$ & 0.691
+	& 3.45 $\times 10^{-09}$ & 0.620 \\
+	& $\parallel$
+	& 2.65 $\times 10^{-08}$ & 0.690
+	& 3.53 $\times 10^{-09}$ & 0.606 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{150\} }
+	& $\perp$
+	& 5.71 $\times 10^{-09}$ & 0.534
+	& 9.48 $\times 10^{-10}$ & 0.504 \\
+	& $\parallel$
+	& 7.73 $\times 10^{-09}$ & 0.540
+	& 1.16 $\times 10^{-09}$ & 0.506 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{190\} }
+	& $\perp$
+	& 3.85 $\times 10^{-10}$ & 0.407
+	& 1.55 $\times 10^{-10}$ & 0.426 \\
+	& $\parallel$
+	& 1.55 $\times 10^{-10}$ & 0.459
+	& 3.40 $\times 10^{-10}$ & 0.467 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{340\} }
+	& $\perp$
+	& 1.49 $\times 10^{-09}$ & 0.560
+	& 4.38 $\times 10^{-10}$ & 0.586 \\
+	& $\parallel$
+	& 1.76 $\times 10^{-09}$ & 0.548
+	& 2.58 $\times 10^{-10}$ & 0.518 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{350\} }
+	& $\perp$
+	& 2.67 $\times 10^{-09}$ & 0.450
+	& 7.64 $\times 10^{-10}$ & 0.463 \\
+	& $\parallel$
+	& 2.85 $\times 10^{-09}$ & 0.458
+	& 6.50 $\times 10^{-10}$ & 0.449 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\caption{Prefactors and activation energies for the Arrhenius equation fits to the diffusion coefficients of various symmetric tilt grain boundaries in $\gamma$U-12Mo. $D_0$ is in m$^2$s$^{-1}$ and $E_a$ is in eV.}
+\label{tab:u12mo}
+\begin{tabular}{ccllll}
+\toprule
+GB plane & Dir.
+	& $D_{0}^U$      & $E_{a}^U$
+	& $D_{0}^{Mo}$   & $E_{a}^{Mo}$ \\
+\midrule
+\multirow{2}{*}{ \{120\} }
+	& $\perp$
+	& 2.16 $\times 10^{-09}$ & 0.507
+	& 3.81 $\times 10^{-10}$ & 0.465 \\
+	& $\parallel$
+	& 3.48 $\times 10^{-09}$ & 0.541
+	& 9.60 $\times 10^{-10}$ & 0.526 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{130\} }
+	& $\perp$
+	& 1.22 $\times 10^{-08}$ & 0.698
+	& 3.05 $\times 10^{-09}$ & 0.659 \\
+	& $\parallel$
+	& 1.46 $\times 10^{-08}$ & 0.707
+	& 4.27 $\times 10^{-09}$ & 0.680 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{150\} }
+	& $\perp$
+	& 1.26 $\times 10^{-09}$ & 0.498
+	& 2.74 $\times 10^{-10}$ & 0.460 \\
+	& $\parallel$
+	& 1.87 $\times 10^{-09}$ & 0.512
+	& 3.73 $\times 10^{-10}$ & 0.468 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{190\} }
+	& $\perp$
+	& 1.27 $\times 10^{-10}$ & 0.399
+	& 3.88 $\times 10^{-11}$ & 0.371 \\
+	& $\parallel$
+	& 5.61 $\times 10^{-10}$ & 0.455
+	& 1.09 $\times 10^{-10}$ & 0.434 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{340\} }
+	& $\perp$
+	& 1.15 $\times 10^{-10}$ & 0.431
+	& 3.22 $\times 10^{-11}$ & 0.414 \\
+	& $\parallel$
+	& 1.78 $\times 10^{-10}$ & 0.442
+	& 3.24 $\times 10^{-11}$ & 0.394 \vspace{0.2cm } \\
+\multirow{2}{*}{ \{350\} }
+	& $\perp$
+	& 6.17 $\times 10^{-10}$ & 0.413
+	& 2.19 $\times 10^{-10}$ & 0.421 \\
+	& $\parallel$
+	& 5.95 $\times 10^{-10}$ & 0.408
+	& 2.22 $\times 10^{-10}$ & 0.414 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\FloatBarrier
+\section{Grain boundary diffusion coefficients vs grain boundary energies}
+
+\begin{figure}[!ht]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{DvsGBE_600K.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{DvsGBE_1200K.pdf}
+    \end{subfigure}
+\caption{Diffusion coefficient of U parallel to the tilt axis against grain boundary energy for various grain boundary structures at (a) 600 K and (b) 1200 K. The green lines are linear fits. $R^2$ scores are 0.02 and 0.36 for 600 K and 1200 K, respectively.}
+\label{fig:DvsGBE}
+\end{figure}
+
+\end{appendices}
+
+
+\FloatBarrier
+\bibliographystyle{unsrt}
+\bibliography{ref.bib}
+
+\end{document}

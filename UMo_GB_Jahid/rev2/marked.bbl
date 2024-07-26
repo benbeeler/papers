@@ -1,0 +1,307 @@
+\begin{thebibliography}{10}
+
+\bibitem{snelgrove1997}
+James~L Snelgrove, GL~Hofman, MK~Meyer, CL~Trybus, and TC~Wiencek.
+\newblock Development of very-high-density low-enriched-uranium fuels.
+\newblock {\em Nuclear engineering and design}, 178(1):119--126, 1997.
+
+\bibitem{wilson2020}
+EH~Wilson, JI~Cole, C~Lavender, K~Dunn, and M~Cercy.
+\newblock Preliminary fuel development and reactor design milestones for leu
+  conversion of us high performance research reactors.
+\newblock In {\em Proc. Int. Conf. Nuclear Security}, pages 10--14, 2020.
+
+\bibitem{meyer2014}
+M.K. Meyer, J.~Gan, J.F. Jue, D.D. Keiser, E.~Perez, A.~Robinson, D.M. Wachs,
+  N.~Woolstenhulme, G.L. Hofman, and Y.S. Kim.
+\newblock Irradiation performance of u-mo monolithic fuel.
+\newblock {\em Nuclear Engineering and Technology}, 46(2):169--182, 2014.
+
+\bibitem{hofman1990}
+Gerard~L Hofman, RG~Pahl, CE~Lahm, and DL~Porter.
+\newblock Swelling behavior of u-pu-zr fuel.
+\newblock {\em Metallurgical Transactions A}, 21:517--528, 1990.
+
+\bibitem{mahbuba2021}
+Khadija Mahbuba, Benjamin Beeler, and Andrea Jokisaari.
+\newblock Evaluation of the anisotropic grain boundaries and surfaces of
+  $\alpha$-u via molecular dynamics.
+\newblock {\em Journal of Nuclear Materials}, 554:153072, 2021.
+
+\bibitem{saller1955}
+Henry~A Saller, Frank~A Rough, and DA~Vaughan.
+\newblock {\em The constitution diagram of uranium-rich uranium-molybdenum
+  alloys}.
+\newblock United States Atomic Energy Commission, Technical Information
+  Service, 1955.
+
+\bibitem{dwight1960}
+Austin~E Dwight.
+\newblock The uranium-molybdenum equilibrium diagram below 900 c.
+\newblock {\em Journal of Nuclear Materials}, 2(1):81--87, 1960.
+
+\bibitem{willard1965}
+RM~Willard and AR~Schmitt.
+\newblock Irradiation swelling, phase reversion, and intergranular cracking of
+  u-10 wt.\% mo fuel alloy.
+\newblock Technical report, Atomics International. Div. of North American
+  Aviation, Inc., Canoga Park~…, 1965.
+
+\bibitem{robinson2009}
+AB~Robinson, GS~Chang, DD~Keiser~Jr, DM~Wachs, and DL~Porter.
+\newblock Irradiation performance of u-mo alloy based
+  ‘monolithic’plate-type fuel--design selection.
+\newblock Technical report, Idaho National Lab.(INL), Idaho Falls, ID (United
+  States), 2009.
+
+\bibitem{cole2016}
+James~Irvin Cole, Barry~H Rabin, James~Arthur Smith, Clark~Landon Scott,
+  Bradley~Curtis Benefiel, Eric~David Larsen, Robert~Paul Lind, and David~Alan
+  Sell.
+\newblock Us progress on property characterization to support leu u-10 mo
+  monolithic fuel development.
+\newblock Technical report, Idaho National Lab.(INL), Idaho Falls, ID (United
+  States), 2016.
+
+\bibitem{miller2021}
+Carla Miller, Brian Durtschi, James~I Cole, and K~Daum.
+\newblock U-10mo monolithic fuel qualification plan.
+\newblock Technical report, Idaho National Lab.(INL), Idaho Falls, ID (United
+  States), 2021.
+
+\bibitem{smirnova2015}
+DE~Smirnova, A~Yu Kuksin, SV~Starikov, and VV~Stegailov.
+\newblock Atomistic modeling of the self-diffusion in $\gamma$-u and
+  $\gamma$-u-mo.
+\newblock {\em The Physics of Metals and Metallography}, 116(5):445--455, 2015.
+
+\bibitem{park2021}
+Gyuchul Park, Benjamin Beeler, and Maria~A Okuniewski.
+\newblock An atomistic study of defect energetics and diffusion with respect to
+  composition and temperature in $\gamma$u and $\gamma$u-mo alloys.
+\newblock {\em Journal of Nuclear Materials}, 552:152970, 2021.
+
+\bibitem{huang2013}
+K.~Huang, J.~D. Keiser, and Y.~Sohn.
+\newblock Interdiffusion, intrinsic diffusion, atomic mobility, and vacancy
+  wind effect in $\gamma$(bcc) uranium-molybdenum alloy.
+\newblock {\em Metallurgical and Materials Transactions A}, 44A:738, 2013.
+
+\bibitem{annualreport2021}
+Benjamin~W Beeler, James~I Cole, Sourabh~Bhagwan Kadambi, Linu Malakkal,
+  Larry~K Aagesen~Jr, Gerard Hofman, ATM~Jahid Hasan, Shenyang Hu, Curt
+  Lavender, Sean Masengale, et~al.
+\newblock Microstructural-level fuel performance modeling of u mo monolithic
+  fuel.
+\newblock Technical report, Idaho National Lab.(INL), Idaho Falls, ID (United
+  States), 2021.
+
+\bibitem{ye2015}
+Bei Ye, Jeff Rest, Yeon~Soo Kim, Gerard Hofman, and Benoit Dionne.
+\newblock Dart analysis of irradiation behavior of u-mo/al dispersion fuels.
+\newblock {\em Nuclear Technology}, 191(1):27--40, 2015.
+
+\bibitem{annualreport2022}
+Benjamin Beeler, Larry Aagesen, James Cole, ATM~Jahid Hasan, Shenyang Hu,
+  Sourabh Kadambi, Curt Lavender, Linu Malakkal, Zhi-Gang Mei, Aaron Oaks,
+  Maria Okuniewski, Gyuchul Park, Aashique Rezwan, Shipeng Shu, Abdellatif
+  Yacout, Bei Ye, and Yongfeng Zhang.
+\newblock Microstructural-level fuel performance modeling of u mo monolithic
+  fuel.
+\newblock Technical report, Idaho National Lab.(INL), Idaho Falls, ID (United
+  States), 2022.
+
+\bibitem{dart}
+J~Rest.
+\newblock The dart dispersion analysis research tool: A mechanistic model for
+  predicting fission-product-induced swelling of aluminum dispersion fuels.
+  users guide for mainframe, workstation, and personal computer applications.
+\newblock Technical report, Argonne National Lab.(ANL), Argonne, IL (United
+  States), 1995.
+
+\bibitem{cui2015}
+Yi~Cui, Shurong Ding, Zengtao Chen, and Yongzhong Huo.
+\newblock Modifications and applications of the mechanistic gaseous swelling
+  model for umo fuel.
+\newblock {\em Journal of Nuclear Materials}, 457:157--164, 2015.
+
+\bibitem{hu2021}
+Shenyang Hu and Benjamin Beeler.
+\newblock Gas bubble evolution in polycrystalline umo fuels under
+  elastic-plastic deformation: a phase-field model with crystal-plasticity.
+\newblock {\em Frontiers in Materials}, 8:682667, 2021.
+
+\bibitem{vincent2009}
+E~Vincent-Aublant, JM~Delaye, and L~Van~Brutzel.
+\newblock Self-diffusion near symmetrical tilt grain boundaries in uo2 matrix:
+  A molecular dynamics simulation study.
+\newblock {\em Journal of nuclear materials}, 392(1):114--120, 2009.
+
+\bibitem{govers2013}
+K~Govers and M~Verwerft.
+\newblock Classical molecular dynamics investigation of microstructure
+  evolution and grain boundary diffusion in nano-polycrystalline uo2.
+\newblock {\em Journal of nuclear materials}, 438(1-3):134--143, 2013.
+
+\bibitem{nishina2011}
+Masahiro Nishina, Keita Yoshida, Tatsumi Arima, Yaohiro Inagaki, Kazuya
+  Idemitsu, and Isamu Sato.
+\newblock Molecular dynamics study on grain boundary diffusion of actinides and
+  oxygen in oxide fuels.
+\newblock {\em Progress in Nuclear Science and Technology}, 2:95--100, 2011.
+
+\bibitem{beeler2018}
+Benjamin Beeler, Yongfeng Zhang, and Yipeng Gao.
+\newblock An atomistic study of grain boundaries and surfaces in $\gamma$u-mo.
+\newblock {\em Journal of Nuclear Materials}, 507:248--257, 2018.
+
+\bibitem{beeler2019}
+Benjamin Beeler, Michael Baskes, David Andersson, Michael~WD Cooper, and
+  Yongfeng Zhang.
+\newblock Molecular dynamics investigation of grain boundaries and surfaces in
+  u3si2.
+\newblock {\em Journal of Nuclear Materials}, 514:290--298, 2019.
+
+\bibitem{yang2018}
+Sojeong Yang, Sei-Hun Yun, and Takuji Oda.
+\newblock Molecular dynamics simulation on stability and diffusivity of
+  hydrogen around a <111> symmetric tilt grain boundary in bcc-fe.
+\newblock {\em Fusion Engineering and Design}, 131:105--110, 2018.
+
+\bibitem{fu2021}
+Baoqin Fu, Mingjie Qiu, Jiechao Cui, Jun Wang, and Qing Hou.
+\newblock Diffusion, trapping, and dissociation behaviours of helium at the
+  $\sigma$5 grain boundary in tungsten: a molecular dynamics study.
+\newblock {\em Journal of Nuclear Materials}, 543:152599, 2021.
+
+\bibitem{lammps}
+A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown,
+  P.~S. Crozier, P.~J. in~'t Veld, A.~Kohlmeyer, S.~G. Moore, T.~D. Nguyen,
+  R.~Shan, M.~J. Stevens, J.~Tranchida, C.~Trott, and S.~J. Plimpton.
+\newblock {LAMMPS} - a flexible simulation tool for particle-based materials
+  modeling at the atomic, meso, and continuum scales.
+\newblock {\em Comp. Phys. Comm.}, 271:108171, 2022.
+
+\bibitem{starikov2018}
+S.V. Starikov, L.N. Kolotova, A.Yu. Kuksin, D.E. Smirnova, and V.I. Tseplyaev.
+\newblock Atomistic simulation of cubic and tetragonal phases of u-mo alloy:
+  Structure and thermodynamic properties.
+\newblock {\em Journal of Nuclear Materials}, 499:451--463, 2018.
+
+\bibitem{beelerUMoXe}
+Benjamin Beeler and Yongfeng Zhang.
+\newblock The reconciliation and validation of a combined interatomic potential
+  for the description of xe in $\gamma$u-mo.
+\newblock {\em Frontiers in Nuclear Engineering}, 2, 2023.
+
+\bibitem{ovito}
+Alexander Stukowski.
+\newblock Visualization and analysis of atomistic simulation data with
+  ovito--the open visualization tool.
+\newblock {\em Modelling and simulation in materials science and engineering},
+  18(1):015012, 2009.
+
+\bibitem{rapaport2004}
+Dennis~C Rapaport and Dennis C~Rapaport Rapaport.
+\newblock {\em The art of molecular dynamics simulation}.
+\newblock Cambridge university press, 2004.
+
+\bibitem{peterson1986}
+NL~Peterson.
+\newblock Diffusion mechanisms and structural effects in grain boundaries.
+\newblock {\em Journal of Vacuum Science \& Technology A: Vacuum, Surfaces, and
+  Films}, 4(6):3066--3070, 1986.
+
+\bibitem{keblinski1999}
+P~Keblinski, D~Wolf, SR~Phillpot, and H~Gleiter.
+\newblock Self-diffusion in high-angle fcc metal grain boundaries by molecular
+  dynamics simulation.
+\newblock {\em Philosophical Magazine A}, 79(11):2735--2761, 1999.
+
+\bibitem{riet2021}
+Adriaan~A Riet, James~A Van~Orman, and Daniel~J Lacks.
+\newblock A molecular dynamics study of grain boundary diffusion in mgo.
+\newblock {\em Geochimica et Cosmochimica Acta}, 292:203--216, 2021.
+
+\bibitem{koju2020}
+RK~Koju and Y~Mishin.
+\newblock Atomistic study of grain-boundary segregation and grain-boundary
+  diffusion in al-mg alloys.
+\newblock {\em Acta Materialia}, 201:596--603, 2020.
+
+\bibitem{suzuki2005}
+A~Suzuki and Yu~Mishin.
+\newblock Atomic mechanisms of grain boundary diffusion: Low versus high
+  temperatures.
+\newblock {\em Journal of materials science}, 40:3155--3161, 2005.
+
+\bibitem{cooper2021}
+Michael William~Donald Cooper, Kyle~A Gamble, Laurent Capolungo, Christopher
+  Matthews, DA~Andersson, Benjamin Beeler, Christopher~Richard Stanek, and
+  Kallie Metzger.
+\newblock Irradiation-enhanced diffusion and diffusion-limited creep in
+  {U}$_3${S}i$_{2}$.
+\newblock {\em Journal of Nuclear Materials}, 555:153129, 2021.
+
+\bibitem{popov2022}
+VV~Popov, ME~Stupak, and MG~Urazaliev.
+\newblock Atomistic simulation of grain boundaries in niobium: Structure,
+  energy, point defects and grain-boundary self-diffusion.
+\newblock {\em Journal of Phase Equilibria and Diffusion}, 43(4):401--408,
+  2022.
+
+\bibitem{park2023}
+Gyuchul Park, Benjamin Beeler, and Maria~A Okuniewski.
+\newblock Computational determination of a primary diffusion mode in
+  $\gamma$u-10mo under irradiation.
+\newblock {\em Journal of Nuclear Materials}, 574:154137, 2023.
+
+\bibitem{mishin2015}
+Yuri Mishin.
+\newblock An atomistic view of grain boundary diffusion.
+\newblock In {\em Defect and Diffusion Forum}, volume 363, pages 1--11. Trans
+  Tech Publ, 2015.
+
+\bibitem{smirnova2013}
+DE~Smirnova, A~Yu Kuksin, SV~Starikov, VV~Stegailov, Z~Insepov, J~Rest, and
+  AM~Yacout.
+\newblock A ternary eam interatomic potential for u--mo alloys with xenon.
+\newblock {\em Modelling and Simulation in Materials Science and Engineering},
+  21(3):035011, 2013.
+
+\bibitem{mishin1997}
+Yu~Mishin, Chr Herzig, J~Bernardini, and W~Gust.
+\newblock Grain boundary diffusion: fundamentals to recent developments.
+\newblock {\em International materials reviews}, 42(4):155--178, 1997.
+
+\bibitem{heitjans2006}
+Paul Heitjans and J{\"o}rg K{\"a}rger.
+\newblock {\em Diffusion in condensed matter: methods, materials, models}.
+\newblock Springer Science \& Business Media, 2006.
+
+\bibitem{jana2017}
+Saumyadeep Jana, Nicole Overman, Tamas Varga, Curt Lavender, and Vineet~V
+  Joshi.
+\newblock Phase transformation kinetics in rolled u-10{\'a}wt.\% mo foil:
+  Effect of post-rolling heat treatment and prior $\gamma$-umo grain size.
+\newblock {\em Journal of Nuclear Materials}, 496:215--226, 2017.
+
+\bibitem{di2021}
+FG~Di~Lemma, J~Burns, JW~Madden, AJ~Winston, AB~Robinson, JF~Jue, DD~Keiser,
+  and JI~Cole.
+\newblock Texture analyses and microstructural evolution in monolithic u-mo
+  nuclear fuel.
+\newblock {\em Journal of Nuclear Materials}, 544:152677, 2021.
+
+\bibitem{winning2010}
+Myrjam Winning, AD~Rollett, G{\"u}nter Gottstein, DJ~Srolovitz, A~Lim, and
+  LS~Shvindlerman.
+\newblock Mobility of low-angle grain boundaries in pure metals.
+\newblock {\em Philosophical Magazine}, 90(22):3107--3128, 2010.
+
+\bibitem{winning2005}
+Myrjam Winning and Anthony~D Rollett.
+\newblock Transition between low and high angle grain boundaries.
+\newblock {\em Acta materialia}, 53(10):2901--2907, 2005.
+
+\end{thebibliography}

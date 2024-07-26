@@ -1,0 +1,554 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  30 APR 2024 14:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count179
+\l__pdf_internal_box=\box47
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex))) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count180
+)
+\@bls=\dimen138
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+\c@tnote=\count189
+\c@fnote=\count190
+\c@cnote=\count191
+\c@ead=\count192
+\c@author=\count193
+\@eadauthor=\toks16
+\c@affn=\count194
+\absbox=\box48
+\elsarticlehighlightsbox=\box49
+\elsarticlegrabsbox=\box50
+\keybox=\box51
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box52
+\els@boxb=\box53
+\leftMargin=\dimen144
+\@enLab=\toks17
+\@sep=\skip49
+\@@sep=\skip50
+
+(./main.spl) (/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count195
+)
+\splwrite=\write3
+\openout3 = `main.spl'.
+
+\appnamewidth=\dimen145
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen146
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen147
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count196
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count197
+\leftroot@=\count198
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count199
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen148
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip16
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks19
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks20
+\eqnshift@=\dimen149
+\alignsep@=\dimen150
+\tagshift@=\dimen151
+\tagwidth@=\dimen152
+\totwidth@=\dimen153
+\lineht@=\dimen154
+\@envbody=\toks21
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen155
+\captionmargin@=\dimen156
+\captionwidth=\dimen157
+\caption@tempdima=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: elsarticle document class detected.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption-elsarticle.sto
+File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
+ the elsarticle document class (AR)
+))
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count276
+\c@subtable=\count277
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
+\Gm@bindingoffset=\dimen162
+\Gm@wd@mp=\dimen163
+\Gm@odd@mp=\dimen164
+\Gm@even@mp=\dimen165
+\Gm@layoutwidth=\dimen166
+\Gm@layoutheight=\dimen167
+\Gm@layouthoffset=\dimen168
+\Gm@layoutvoffset=\dimen169
+\Gm@dimlist=\toks23
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen182
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+)
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen183
+\scratchbox=\box56
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen184
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[1
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3]
+<configurations_labelled.jpg, id=23, 717.882pt x 365.2044pt>
+File: configurations_labelled.jpg Graphic file (type jpg)
+<use configurations_labelled.jpg>
+Package pdftex.def Info: configurations_labelled.jpg  used on input line 156.
+(pdftex.def)             Requested size: 377.62642pt x 192.10854pt.
+ [4 <./configurations_labelled.jpg>] [5] [6]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+<basal_jumps_1b_1bb.jpg, id=42, 936.6192pt x 444.2196pt>
+File: basal_jumps_1b_1bb.jpg Graphic file (type jpg)
+<use basal_jumps_1b_1bb.jpg>
+Package pdftex.def Info: basal_jumps_1b_1bb.jpg  used on input line 300.
+(pdftex.def)             Requested size: 468.30846pt x 222.10925pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pyramidal_jumps_1b_1bb.jpg, id=43, 888.921pt x 447.5922pt>
+File: pyramidal_jumps_1b_1bb.jpg Graphic file (type jpg)
+<use pyramidal_jumps_1b_1bb.jpg>
+Package pdftex.def Info: pyramidal_jumps_1b_1bb.jpg  used on input line 307.
+(pdftex.def)             Requested size: 444.45941pt x 223.79555pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9 <./basal_jumps_1b_1bb.jpg> <./pyramidal_jumps_1b_1bb.jpg>]
+<self_diff_updated.jpg, id=50, 2099.2026pt x 1577.4132pt>
+File: self_diff_updated.jpg Graphic file (type jpg)
+<use self_diff_updated.jpg>
+Package pdftex.def Info: self_diff_updated.jpg  used on input line 342.
+(pdftex.def)             Requested size: 377.62642pt x 283.75363pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10]
+<diffusivities_Q_updated.jpg, id=54, 2926.935pt x 2106.9114pt>
+File: diffusivities_Q_updated.jpg Graphic file (type jpg)
+<use diffusivities_Q_updated.jpg>
+Package pdftex.def Info: diffusivities_Q_updated.jpg  used on input line 355.
+(pdftex.def)             Requested size: 472.03123pt x 339.78107pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./self_diff_updated.jpg>] [12 <./diffusivities_Q_updated.jpg>]
+<drag_pdc_basal_axial_updated.jpg, id=63, 2938.98pt x 2156.055pt>
+File: drag_pdc_basal_axial_updated.jpg Graphic file (type jpg)
+<use drag_pdc_basal_axial_updated.jpg>
+Package pdftex.def Info: drag_pdc_basal_axial_updated.jpg  used on input line 4
+04.
+(pdftex.def)             Requested size: 472.03123pt x 346.2589pt.
+ [13]
+[14 <./drag_pdc_basal_axial_updated.jpg>]
+<pdc_av_updated.jpg, id=71, 2306.3766pt x 1723.3986pt>
+File: pdc_av_updated.jpg Graphic file (type jpg)
+<use pdc_av_updated.jpg>
+Package pdftex.def Info: pdc_av_updated.jpg  used on input line 425.
+(pdftex.def)             Requested size: 377.62642pt x 282.16586pt.
+ [15 <./pdc_av_updated.jpg>]
+<ce_nd_diff_exp_updated.jpg, id=75, 2208.0894pt x 1658.8374pt>
+File: ce_nd_diff_exp_updated.jpg Graphic file (type jpg)
+<use ce_nd_diff_exp_updated.jpg>
+Package pdftex.def Info: ce_nd_diff_exp_updated.jpg  used on input line 439.
+(pdftex.def)             Requested size: 377.62642pt x 283.69452pt.
+ [16 <./ce_nd_diff_exp_updated.jpg>]
+<nd_diff_zr_vs_alphaU_updated.jpg, id=79, 2359.8564pt x 1772.5422pt>
+File: nd_diff_zr_vs_alphaU_updated.jpg Graphic file (type jpg)
+<use nd_diff_zr_vs_alphaU_updated.jpg>
+Package pdftex.def Info: nd_diff_zr_vs_alphaU_updated.jpg  used on input line 4
+52.
+(pdftex.def)             Requested size: 377.62642pt x 283.63959pt.
+ [17 <./nd_diff_zr_vs_alphaU_updated.jpg>] [18]
+[19] [20]
+<nn_convergence.jpg, id=93, 2811.303pt x 2110.7658pt>
+File: nn_convergence.jpg Graphic file (type jpg)
+<use nn_convergence.jpg>
+Package pdftex.def Info: nn_convergence.jpg  used on input line 536.
+(pdftex.def)             Requested size: 472.03123pt x 354.38078pt.
+ [21 <./nn_convergence.jpg>]
+<nn_convergence_2nd_shell.jpg, id=97, 2811.303pt x 2110.7658pt>
+File: nn_convergence_2nd_shell.jpg Graphic file (type jpg)
+<use nn_convergence_2nd_shell.jpg>
+Package pdftex.def Info: nn_convergence_2nd_shell.jpg  used on input line 545.
+(pdftex.def)             Requested size: 449.81767pt x 337.72943pt.
+ [22 <./nn_convergence_2nd_shell.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23]
+<diff_all.jpg, id=104, 2326.6122pt x 1747.4886pt>
+File: diff_all.jpg Graphic file (type jpg)
+<use diff_all.jpg>
+Package pdftex.def Info: diff_all.jpg  used on input line 632.
+(pdftex.def)             Requested size: 465.31421pt x 349.49153pt.
+ [24] [25 <./diff_all.jpg>] (./main.bbl [26
+
+] [27]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+87.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+[]\OT1/cmr/m/n/12 R. Agar-wal, D. R. Trin-kle, Ex-act Model of Vacancy-Mediated
+ So-lute
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 251--258
+\OT1/cmr/m/n/12 Trans-port in Mag-ne-sium, Phys-i-cal Re-view Let-ters 118 (10)
+ (2017) 105901.
+ []
+
+[28] [29]
+Underfull \hbox (badness 1648) in paragraph at lines 358--366
+[]\OT1/cmr/m/n/12 L. Messina, T. Schuler, M. Nas-tar, M.-C. Marinica, P. Ols-so
+n, So-lute dif-fu-
+ []
+
+[30]
+Underfull \hbox (badness 1776) in paragraph at lines 460--467
+[]\OT1/cmr/m/n/12 G. Kresse, J. Hafner, Ab ini-tio molec-u-lar dy-nam-ics for l
+iq-uid met-als, Phys-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 460--467
+\OT1/cmr/m/n/12 i-cal Re-view B 47 (1) (1993) 558--561, pub-lisher: Amer-i-can 
+Phys-i-cal So-ci-ety.
+ []
+
+[31]
+Overfull \hbox (73.5283pt too wide) in paragraph at lines 540--548
+\OT1/cmr/m/n/12 URL \OT1/cmtt/m/n/12 https://www.degruyter.com/document/doi/10.
+1524/zkri.220.5.567.65075/html?lang=en 
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 550--557
+[]\OT1/cmr/m/n/12 J. Horv^^Sath, F. Dy-ment, H. Mehrer, Anoma-lous self-diffusi
+on in a sin-gle crys-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 568--576
+\OT1/cmr/m/n/12 face dif-fu-sion of neodymium in alpha-uranium: Ab ini-tio cal-
+cu-la-tions and ki-
+ []
+
+) [32] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 7506 strings out of 478994
+ 128574 string characters out of 5858184
+ 469474 words of memory out of 5000000
+ 24886 multiletter control sequences out of 15000+600000
+ 417147 words of font info for 77 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,10n,88p,2436b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-sup
+er/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (32 pages, 9317846 bytes).
+PDF statistics:
+ 201 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
