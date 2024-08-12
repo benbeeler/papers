@@ -1,0 +1,1708 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  5 AUG 2024 16:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**marked.tex
+(./marked.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count179
+\l__pdf_internal_box=\box47
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex))) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count180
+)
+\@bls=\dimen138
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+\c@tnote=\count189
+\c@fnote=\count190
+\c@cnote=\count191
+\c@ead=\count192
+\c@author=\count193
+\@eadauthor=\toks16
+\c@affn=\count194
+\absbox=\box48
+\elsarticlehighlightsbox=\box49
+\elsarticlegrabsbox=\box50
+\keybox=\box51
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box52
+\els@boxb=\box53
+\leftMargin=\dimen144
+\@enLab=\toks17
+\@sep=\skip49
+\@@sep=\skip50
+
+(./marked.spl) (/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count195
+)
+\splwrite=\write3
+\openout3 = `marked.spl'.
+
+\appnamewidth=\dimen145
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count196
+\output=\toks18
+\linenoprevgraf=\count197
+\linenumbersep=\dimen146
+\linenumberwidth=\dimen147
+\c@linenumber=\count198
+\c@pagewiselinenumber=\count199
+\c@LN@truepage=\count266
+\c@internallinenumber=\count267
+\c@internallinenumbers=\count268
+\quotelinenumbersep=\dimen148
+\bframerule=\dimen149
+\bframesep=\dimen150
+\bframebox=\box54
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count271
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count272
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen152
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count273
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count277
+\c@bookmark@seq@number=\count278
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip53
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count282
+\float@exts=\toks20
+\float@box=\box55
+\@float@everytoks=\toks21
+\@floatcapt=\box56
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen163
+\captionmargin@=\dimen164
+\captionwidth=\dimen165
+\caption@tempdima=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: elsarticle document class detected.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption-elsarticle.sto
+File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
+ the elsarticle document class (AR)
+))
+\c@KVtest=\count283
+\sf@farskip=\skip54
+\sf@captopadj=\dimen170
+\sf@capskip=\skip55
+\sf@nearskip=\skip56
+\c@subfigure=\count284
+\c@subfigure@save=\count285
+\c@lofdepth=\count286
+\c@subtable=\count287
+\c@subtable@save=\count288
+\c@lotdepth=\count289
+\sf@top=\skip57
+\sf@bottom=\skip58
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count290
+\c@@ppsavesec=\count291
+\c@@ppsaveapp=\count292
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count293
+\LTcapwidth=\dimen171
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@cols=\count294
+\LT@rows=\count295
+\c@LT@tables=\count296
+\c@LT@chunks=\count297
+\LT@p@ftn=\toks22
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen172
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen173
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box61
+\strutbox@=\box62
+\big@size=\dimen174
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks24
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks25
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
+\@envbody=\toks26
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `subfig' support loaded on input line 3164.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count310
+\multirow@dima=\skip67
+\bigstrutjot=\dimen181
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen182
+\lightrulewidth=\dimen183
+\cmidrulewidth=\dimen184
+\belowrulesep=\dimen185
+\belowbottomsep=\dimen186
+\aboverulesep=\dimen187
+\abovetopsep=\dimen188
+\cmidrulesep=\dimen189
+\cmidrulekern=\dimen190
+\defaultaddspace=\dimen191
+\@cmidla=\count311
+\@cmidlb=\count312
+\@aboverulesep=\dimen192
+\@belowrulesep=\dimen193
+\@thisruleclass=\count313
+\@lastruleclass=\count314
+\@thisrulewidth=\dimen194
+)
+LaTeX Info: Redefining \bf on input line 25.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/oberdiek/settobox.sty
+Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
+)
+)
+\DIFdelgraphicsbox=\box63
+\DIFdelgraphicswidth=\skip68
+\DIFdelgraphicsheight=\skip69
+LaTeX Info: Redefining \DIFaddbegin on input line 75.
+LaTeX Info: Redefining \DIFaddend on input line 76.
+LaTeX Info: Redefining \DIFdelbegin on input line 77.
+LaTeX Info: Redefining \DIFdelend on input line 78.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 83.
+LaTeX Info: Redefining \DIFaddendFL on input line 84.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 85.
+LaTeX Info: Redefining \DIFdelendFL on input line 86.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count315
+\lst@gtempboxa=\box64
+\lst@token=\toks28
+\lst@length=\count316
+\lst@currlwidth=\dimen195
+\lst@column=\count317
+\lst@pos=\count318
+\lst@lostspace=\dimen196
+\lst@width=\dimen197
+\lst@newlines=\count319
+\lst@lineno=\count320
+\lst@maxwidth=\dimen198
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count321
+\lst@skipnumbers=\count322
+\lst@framebox=\box65
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(./marked.aux)
+\openout1 = `marked.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count323
+\scratchdimen=\dimen199
+\scratchbox=\box66
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen256
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks30
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 109.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count329
+)
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
+ (./marked.out) (./marked.out)
+\@outlinefile=\write5
+\openout5 = `marked.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 109.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 109
+.
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 109.
+Package gensymb Info: Using \Omega for \ohm on input line 109.
+
+Package gensymb Warning: Not defining \micro.
+
+\c@lstlisting=\count330
+
+Package natbib Warning: Citation `hofman1997' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `WILLIAMS2020107016' on page 1 undefined on in
+put line 127.
+
+
+Package natbib Warning: Citation `1993_Rest' on page 1 undefined on input line 
+127.
+
+
+Package natbib Warning: Citation `YAO2020152536' on page 1 undefined on input l
+ine 127.
+
+
+Package natbib Warning: Citation `THOMAS2023154443' on page 1 undefined on inpu
+t line 127.
+
+
+Package natbib Warning: Citation `hofman1996' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `beeler2013' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `ma15124106' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `ma15124106' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `MAHBUBA2021153072' on page 1 undefined on inp
+ut line 127.
+
+
+Package natbib Warning: Citation `Huang_2011' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `beeler2010' on page 1 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `henley2014advances' on page 1 undefined on in
+put line 127.
+
+
+Package natbib Warning: Citation `beeler_mahbuba_wang_jokisaari_2021' on page 1
+ undefined on input line 127.
+
+
+Overfull \hbox (2.22221pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 128.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 128.
+
+[1
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `thermal_alpha' on page 2 undefined on input l
+ine 129.
+
+
+Package natbib Warning: Citation `1964_AngermanandCaskey' on page 2 undefined o
+n input line 129.
+
+
+Package natbib Warning: Citation `ma15124106' on page 2 undefined on input line
+ 129.
+
+
+Package natbib Warning: Citation `leggett_report' on page 2 undefined on input 
+line 129.
+
+
+Package natbib Warning: Citation `2020_Rez' on page 2 undefined on input line 1
+29.
+
+
+Package natbib Warning: Citation `2020_JOKISAARI' on page 2 undefined on input 
+line 129.
+
+
+Package natbib Warning: Citation `NORDLUND2018450' on page 2 undefined on input
+ line 132.
+
+
+Package natbib Warning: Citation `SWAMINATHAN20102843_SiC_GB_radiation' on page
+ 2 undefined on input line 132.
+
+
+Package natbib Warning: Citation `osti_1616821' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `stoller' on page 2 undefined on input line 13
+2.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `chao' on page 2 undefined on input line 132.
+
+
+Package natbib Warning: Citation `Tungsten' on page 2 undefined on input line 1
+32.
+
+
+Package natbib Warning: Citation `ZHANG2020100726' on page 2 undefined on input
+ line 132.
+
+
+Package natbib Warning: Citation `SWAMINATHAN20102843_SiC_GB_radiation' on page
+ 2 undefined on input line 132.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `Uberuaga_2013_MgO' on page 2 undefined on inp
+ut line 132.
+
+
+Package natbib Warning: Citation `Tungsten' on page 2 undefined on input line 1
+32.
+
+
+Package natbib Warning: Citation `Uberuaga2015' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `ma9020105_Void_denuded_zone' on page 2 undefi
+ned on input line 132.
+
+
+Package natbib Warning: Citation `ZHANG2020100726' on page 2 undefined on input
+ line 132.
+
+
+Package natbib Warning: Citation `PhysRevB.84.174105_Xe_UO2' on page 2 undefine
+d on input line 134.
+
+
+Package natbib Warning: Citation `met12050763_Xe_Uo2' on page 2 undefined on in
+put line 134.
+
+
+Package natbib Warning: Citation `PhysRevB.81.174111_Xe_UO2_clus' on page 2 und
+efined on input line 134.
+
+
+Package natbib Warning: Citation `beelerUSi' on page 2 undefined on input line 
+134.
+
+
+Package natbib Warning: Citation `lipnitskii2011' on page 2 undefined on input 
+line 136.
+
+
+Package natbib Warning: Citation `balluffi1996' on page 2 undefined on input li
+ne 136.
+
+
+Package natbib Warning: Citation `calhoun' on page 2 undefined on input line 13
+6.
+
+
+Package natbib Warning: Citation `MCFADDEN202066_creep' on page 2 undefined on 
+input line 136.
+
+
+Package natbib Warning: Citation `Nabarro' on page 2 undefined on input line 13
+6.
+
+
+Package natbib Warning: Citation `coble' on page 2 undefined on input line 136.
+
+
+
+Package natbib Warning: Citation `1970_langdon' on page 2 undefined on input li
+ne 136.
+
+
+Package natbib Warning: Citation `MISHIN_gb_diff' on page 2 undefined on input 
+line 136.
+
+
+Package natbib Warning: Citation `GB_deformation' on page 2 undefined on input 
+line 136.
+
+
+Package natbib Warning: Citation `GB_deformation' on page 2 undefined on input 
+line 136.
+
+
+Package natbib Warning: Citation `GATES197455' on page 2 undefined on input lin
+e 136.
+
+
+Package natbib Warning: Citation `MISHIN_gb_diff' on page 2 undefined on input 
+line 136.
+
+
+Package natbib Warning: Citation `GB_deformation' on page 2 undefined on input 
+line 136.
+
+
+Package natbib Warning: Citation `calhoun' on page 2 undefined on input line 13
+6.
+
+
+Package natbib Warning: Citation `MD_GBS' on page 2 undefined on input line 136
+.
+
+[2]
+
+Package natbib Warning: Citation `Herzig2005' on page 3 undefined on input line
+ 138.
+
+
+Package natbib Warning: Citation `Hirth1972' on page 3 undefined on input line 
+138.
+
+
+Package natbib Warning: Citation `calhoun' on page 3 undefined on input line 13
+8.
+
+
+Package natbib Warning: Citation `calhoun' on page 3 undefined on input line 13
+8.
+
+
+Package natbib Warning: Citation `Marquardt:2011:10.1007/s00410-011-0622-7' on 
+page 3 undefined on input line 138.
+
+
+Package natbib Warning: Citation `WANG2023154289' on page 3 undefined on input 
+line 138.
+
+
+Package natbib Warning: Citation `beeler_mahbuba_wang_jokisaari_2021' on page 3
+ undefined on input line 138.
+
+
+Package natbib Warning: Citation `STARIKOV2018451' on page 3 undefined on input
+ line 138.
+
+[3]
+
+Package natbib Warning: Citation `STARIKOV2018451' on page 4 undefined on input
+ line 144.
+
+
+Package natbib Warning: Citation `plimpton1995' on page 4 undefined on input li
+ne 144.
+
+
+Package natbib Warning: Citation `MAHBUBA2021153072' on page 4 undefined on inp
+ut line 147.
+
+
+Package natbib Warning: Citation `MAHBUBA2021153072' on page 4 undefined on inp
+ut line 171.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.172 
+      ]
+<1_Picture1.png, id=114, 777.90625pt x 331.2375pt>
+File: 1_Picture1.png Graphic file (type png)
+<use 1_Picture1.png>
+Package pdftex.def Info: 1_Picture1.png  used on input line 185.
+(pdftex.def)             Requested size: 328.82707pt x 140.01845pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5]
+
+Package natbib Warning: Citation `keblinski1999self' on page 6 undefined on inp
+ut line 204.
+
+
+Package natbib Warning: Citation `USi_diffusion' on page 6 undefined on input l
+ine 204.
+
+
+Package natbib Warning: Citation `ovito' on page 6 undefined on input line 211.
+
+
+
+Package natbib Warning: Citation `keblinski1999self' on page 6 undefined on inp
+ut line 211.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.212 
+       <./1_Picture1.png>] [7]
+<2_A_500_Inter.png, id=151, 625.245pt x 537.864pt>
+File: 2_A_500_Inter.png Graphic file (type png)
+<use 2_A_500_Inter.png>
+Package pdftex.def Info: 2_A_500_Inter.png  used on input line 240.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<2_B_500_Inter.png, id=152, 625.245pt x 537.864pt>
+File: 2_B_500_Inter.png Graphic file (type png)
+<use 2_B_500_Inter.png>
+Package pdftex.def Info: 2_B_500_Inter.png  used on input line 241.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<2_C_500_Inter.png, id=153, 625.245pt x 537.864pt>
+File: 2_C_500_Inter.png Graphic file (type png)
+<use 2_C_500_Inter.png>
+Package pdftex.def Info: 2_C_500_Inter.png  used on input line 242.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<3_A_500_Vacan.png, id=154, 625.245pt x 522.753pt>
+File: 3_A_500_Vacan.png Graphic file (type png)
+<use 3_A_500_Vacan.png>
+Package pdftex.def Info: 3_A_500_Vacan.png  used on input line 253.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<3_B_500_Vacan.png, id=155, 625.245pt x 522.753pt>
+File: 3_B_500_Vacan.png Graphic file (type png)
+<use 3_B_500_Vacan.png>
+Package pdftex.def Info: 3_B_500_Vacan.png  used on input line 254.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<3_C_500_Vacan.png, id=156, 626.34pt x 522.753pt>
+File: 3_C_500_Vacan.png Graphic file (type png)
+<use 3_C_500_Vacan.png>
+Package pdftex.def Info: 3_C_500_Vacan.png  used on input line 255.
+(pdftex.def)             Requested size: 144.54pt x 120.62949pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.264 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.264 
+       <./2_A_500_Inter.png> <./2_B_500_Inter.png> <./2_C_500_Inter.png> <./3_A
+_500_Vacan.png> <./3_B_500_Vacan.png> <./3_C_500_Vacan.png>]
+<4_A_SE.png, id=178, 442.599pt x 580.131pt>
+File: 4_A_SE.png Graphic file (type png)
+<use 4_A_SE.png>
+Package pdftex.def Info: 4_A_SE.png  used on input line 270.
+(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
+<4_B_SE.png, id=179, 443.475pt x 580.131pt>
+File: 4_B_SE.png Graphic file (type png)
+<use 4_B_SE.png>
+Package pdftex.def Info: 4_B_SE.png  used on input line 271.
+(pdftex.def)             Requested size: 162.6075pt x 212.71535pt.
+<4_C_SE.png, id=180, 442.599pt x 580.131pt>
+File: 4_C_SE.png Graphic file (type png)
+<use 4_C_SE.png>
+Package pdftex.def Info: 4_C_SE.png  used on input line 272.
+(pdftex.def)             Requested size: 162.6075pt x 213.1314pt.
+
+Overfull \hbox (38.46744pt too wide) in paragraph at lines 270--272
+ [][][][][][] 
+ []
+
+
+Package natbib Warning: Citation `Tungsten' on page 9 undefined on input line 2
+77.
+
+
+Package natbib Warning: Citation `MISHIN_gb_diff' on page 9 undefined on input 
+line 279.
+
+
+Package natbib Warning: Citation `Nabarro' on page 9 undefined on input line 27
+9.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.280 
+       <./4_A_SE.png> <./4_B_SE.png> <./4_C_SE.png>]
+
+Package natbib Warning: Citation `WILLIAMS201545' on page 10 undefined on input
+ line 281.
+
+
+Package natbib Warning: Citation `MAHBUBA2021153072' on page 10 undefined on in
+put line 287.
+
+[10]
+<5_weighted_SI.png, id=203, 365.292pt x 372.3pt>
+File: 5_weighted_SI.png Graphic file (type png)
+<use 5_weighted_SI.png>
+Package pdftex.def Info: 5_weighted_SI.png  used on input line 295.
+(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
+<5_weighted_SV.png, id=204, 365.292pt x 372.3pt>
+File: 5_weighted_SV.png Graphic file (type png)
+<use 5_weighted_SV.png>
+Package pdftex.def Info: 5_weighted_SV.png  used on input line 296.
+(pdftex.def)             Requested size: 180.67499pt x 184.1442pt.
+<6_A_IL.png, id=206, 447.636pt x 604.221pt>
+File: 6_A_IL.png Graphic file (type png)
+<use 6_A_IL.png>
+Package pdftex.def Info: 6_A_IL.png  used on input line 329.
+(pdftex.def)             Requested size: 162.6075pt x 219.49239pt.
+<6_B_IL.png, id=207, 445.665pt x 604.221pt>
+File: 6_B_IL.png Graphic file (type png)
+<use 6_B_IL.png>
+Package pdftex.def Info: 6_B_IL.png  used on input line 330.
+(pdftex.def)             Requested size: 162.6075pt x 220.46045pt.
+<6_C_IL.png, id=208, 447.636pt x 604.221pt>
+File: 6_C_IL.png Graphic file (type png)
+<use 6_C_IL.png>
+Package pdftex.def Info: 6_C_IL.png  used on input line 331.
+(pdftex.def)             Requested size: 162.6075pt x 219.49239pt.
+
+Overfull \hbox (38.46744pt too wide) in paragraph at lines 329--331
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.341 
+       <./5_weighted_SI.png> <./5_weighted_SV.png>]
+<7_weighted_IL_SI.png, id=221, 366.168pt x 378.213pt>
+File: 7_weighted_IL_SI.png Graphic file (type png)
+<use 7_weighted_IL_SI.png>
+Package pdftex.def Info: 7_weighted_IL_SI.png  used on input line 351.
+(pdftex.def)             Requested size: 180.67499pt x 186.6187pt.
+<7_weighted_IL_SV.png, id=222, 366.168pt x 378.213pt>
+File: 7_weighted_IL_SV.png Graphic file (type png)
+<use 7_weighted_IL_SV.png>
+Package pdftex.def Info: 7_weighted_IL_SV.png  used on input line 352.
+(pdftex.def)             Requested size: 180.67499pt x 186.6187pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.357 \FloatBarrier
+                    <./6_A_IL.png> <./6_B_IL.png> <./6_C_IL.png>] [13pdfTeX war
+ning (ext4): destination with the same identifier (name{figure.7}) has been alr
+eady used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.366 
+       <./7_weighted_IL_SI.png> <./7_weighted_IL_SV.png>]
+<8_A1_diffusion.png, id=246, 437.562pt x 298.059pt>
+File: 8_A1_diffusion.png Graphic file (type png)
+<use 8_A1_diffusion.png>
+Package pdftex.def Info: 8_A1_diffusion.png  used on input line 372.
+(pdftex.def)             Requested size: 162.6075pt x 110.76674pt.
+<8_B1_diffusion.png, id=247, 442.599pt x 291.051pt>
+File: 8_B1_diffusion.png Graphic file (type png)
+<use 8_B1_diffusion.png>
+Package pdftex.def Info: 8_B1_diffusion.png  used on input line 373.
+(pdftex.def)             Requested size: 162.6075pt x 106.92775pt.
+<8_C1_diffusion.png, id=248, 435.591pt x 291.051pt>
+File: 8_C1_diffusion.png Graphic file (type png)
+<use 8_C1_diffusion.png>
+Package pdftex.def Info: 8_C1_diffusion.png  used on input line 374.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+
+Overfull \hbox (38.46744pt too wide) in paragraph at lines 372--374
+ [][][][][][] 
+ []
+
+
+Package natbib Warning: Citation `aniso_self_diff' on page 14 undefined on inpu
+t line 381.
+
+
+Package natbib Warning: Citation `WANG2023154289' on page 14 undefined on input
+ line 381.
+
+<9_A2_diffusion.png, id=254, 436.467pt x 289.08pt>
+File: 9_A2_diffusion.png Graphic file (type png)
+<use 9_A2_diffusion.png>
+Package pdftex.def Info: 9_A2_diffusion.png  used on input line 388.
+(pdftex.def)             Requested size: 162.6075pt x 107.69896pt.
+<9_B2_diffusion.png, id=255, 435.591pt x 291.051pt>
+File: 9_B2_diffusion.png Graphic file (type png)
+<use 9_B2_diffusion.png>
+Package pdftex.def Info: 9_B2_diffusion.png  used on input line 389.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+<9_C2_diffusion.png, id=256, 435.591pt x 291.051pt>
+File: 9_C2_diffusion.png Graphic file (type png)
+<use 9_C2_diffusion.png>
+Package pdftex.def Info: 9_C2_diffusion.png  used on input line 390.
+(pdftex.def)             Requested size: 162.6075pt x 108.6509pt.
+
+Overfull \hbox (38.46744pt too wide) in paragraph at lines 388--390
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `SiC_HE' on page 14 undefined on input line 39
+5.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.396 
+       <./8_A1_diffusion.png> <./8_B1_diffusion.png> <./8_C1_diffusion.png>]
+<10_final2.png, id=274, 522.753pt x 435.591pt>
+File: 10_final2.png Graphic file (type png)
+<use 10_final2.png>
+Package pdftex.def Info: 10_final2.png  used on input line 423.
+(pdftex.def)             Requested size: 202.35622pt x 168.6103pt.
+<10_final1.png, id=275, 520.782pt x 435.591pt>
+File: 10_final1.png Graphic file (type png)
+<use 10_final1.png>
+Package pdftex.def Info: 10_final1.png  used on input line 424.
+(pdftex.def)             Requested size: 202.35622pt x 169.25502pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `WANG2023154289' on page 15 undefined on input
+ line 430.
+
+
+Package natbib Warning: Citation `KIM200617' on page 15 undefined on input line
+ 430.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.431 
+       <./9_A2_diffusion.png> <./9_B2_diffusion.png> <./9_C2_diffusion.png>]
+<11_A_diffusion.png, id=291, 529.98pt x 589.11pt>
+File: 11_A_diffusion.png Graphic file (type png)
+<use 11_A_diffusion.png>
+Package pdftex.def Info: 11_A_diffusion.png  used on input line 437.
+(pdftex.def)             Requested size: 156.03543pt x 173.44756pt.
+<11_B_diffusion.png, id=292, 514.869pt x 590.205pt>
+File: 11_B_diffusion.png Graphic file (type png)
+<use 11_B_diffusion.png>
+Package pdftex.def Info: 11_B_diffusion.png  used on input line 438.
+(pdftex.def)             Requested size: 151.30368pt x 173.44756pt.
+<11_C_diffusion.png, id=293, 514.869pt x 588.015pt>
+File: 11_C_diffusion.png Graphic file (type png)
+<use 11_C_diffusion.png>
+Package pdftex.def Info: 11_C_diffusion.png  used on input line 439.
+(pdftex.def)             Requested size: 151.86932pt x 173.44756pt.
+
+Overfull \hbox (9.85338pt too wide) in paragraph at lines 437--439
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<12_migration.png, id=298, 822.07124pt x 361.35pt>
+File: 12_migration.png Graphic file (type png)
+<use 12_migration.png>
+Package pdftex.def Info: 12_migration.png  used on input line 452.
+(pdftex.def)             Requested size: 216.81pt x 95.29965pt.
+
+Package natbib Warning: Citation `WANG2023154289' on page 16 undefined on input
+ line 453.
+
+
+Package natbib Warning: Citation `WANG2023154289' on page 16 undefined on input
+ line 453.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `WANG2023154289' on page 16 undefined on input
+ line 457.
+
+
+Package natbib Warning: Citation `wirth2011' on page 16 undefined on input line
+ 457.
+
+
+Package natbib Warning: Citation `WANG2023154289' on page 16 undefined on input
+ line 457.
+
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.458 
+       <./10_final2.png> <./10_final1.png>]
+
+Package natbib Warning: Citation `coble' on page 17 undefined on input line 462
+.
+
+
+Package natbib Warning: Citation `USi_diffusion' on page 17 undefined on input 
+line 462.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.463 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.463 
+       <./11_A_diffusion.png> <./11_B_diffusion.png> <./11_C_diffusion.png> <./
+12_migration.png>]
+
+Package natbib Warning: Citation `WANG2023154289' on page 18 undefined on input
+ line 469.
+
+
+Package natbib Warning: Citation `USi_diffusion' on page 18 undefined on input 
+line 469.
+
+
+Package natbib Warning: Citation `calhoun' on page 18 undefined on input line 4
+76.
+
+
+Package natbib Warning: Citation `tschopp2012probing' on page 18 undefined on i
+nput line 494.
+
+[18]
+<13_SE_GB.png, id=336, 438.438pt x 445.665pt>
+File: 13_SE_GB.png Graphic file (type png)
+<use 13_SE_GB.png>
+Package pdftex.def Info: 13_SE_GB.png  used on input line 498.
+(pdftex.def)             Requested size: 216.81pt x 220.39064pt.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 19 undefined on input l
+ine 503.
+
+
+Package natbib Warning: Citation `bai_cu_gb_with_interstitial_inter' on page 19
+ undefined on input line 503.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 19 undefined on input l
+ine 503.
+
+
+Package natbib Warning: Citation `MAHBUBA2021153072' on page 19 undefined on in
+put line 503.
+
+
+Package natbib Warning: Citation `Popov2022' on page 19 undefined on input line
+ 503.
+
+
+Package natbib Warning: Citation `Novoselov2014' on page 19 undefined on input 
+line 503.
+
+
+Package natbib Warning: Citation `beelerUSi' on page 19 undefined on input line
+ 503.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 19 undefined on input l
+ine 505.
+
+
+Package natbib Warning: Citation `bai_cu_gb_with_interstitial_inter' on page 19
+ undefined on input line 505.
+
+
+Package natbib Warning: Citation `bai_cu_inter' on page 19 undefined on input l
+ine 505.
+
+
+Package natbib Warning: Citation `tschopp2012probing' on page 19 undefined on i
+nput line 505.
+
+
+Package natbib Warning: Citation `beeler2019' on page 19 undefined on input lin
+e 505.
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.506 
+       <./13_SE_GB.png>]
+
+Package natbib Warning: Citation `MOHAMMADZADEH201756' on page 20 undefined on 
+input line 510.
+
+
+Package natbib Warning: Citation `Suzuki2003' on page 20 undefined on input lin
+e 510.
+
+
+Package natbib Warning: Citation `diffusion_compare' on page 20 undefined on in
+put line 510.
+
+
+Package natbib Warning: Citation `cu_nb' on page 20 undefined on input line 510
+.
+
+<14_1_2.png, id=346, 575.97pt x 568.086pt>
+File: 14_1_2.png Graphic file (type png)
+<use 14_1_2.png>
+Package pdftex.def Info: 14_1_2.png  used on input line 516.
+(pdftex.def)             Requested size: 211.38832pt x 208.4982pt.
+<14_3.png, id=347, 582.102pt x 579.036pt>
+File: 14_3.png Graphic file (type png)
+<use 14_3.png>
+Package pdftex.def Info: 14_3.png  used on input line 517.
+(pdftex.def)             Requested size: 211.38832pt x 210.27287pt.
+
+Package natbib Warning: Citation `diffusion_compare' on page 20 undefined on in
+put line 518.
+
+
+Package natbib Warning: Citation `cu_nb' on page 20 undefined on input line 518
+.
+
+
+Package natbib Warning: Citation `Suzuki2003' on page 20 undefined on input lin
+e 518.
+
+
+Package natbib Warning: Citation `COOPER2021153129' on page 20 undefined on inp
+ut line 518.
+
+
+Package natbib Warning: Citation `diffusion_compare' on page 20 undefined on in
+put line 518.
+
+
+Package natbib Warning: Citation `diffusion_compare' on page 20 undefined on in
+put line 518.
+
+
+Package natbib Warning: Citation `cu_nb' on page 20 undefined on input line 518
+.
+
+
+Package natbib Warning: Citation `Suzuki2003' on page 20 undefined on input lin
+e 518.
+
+
+Package natbib Warning: Citation `COOPER2021153129' on page 20 undefined on inp
+ut line 518.
+
+
+Package natbib Warning: Citation `diffusion_compare' on page 20 undefined on in
+put line 518.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `AginCu' on page 20 undefined on input line 52
+3.
+
+
+Package natbib Warning: Citation `Suzuki2003' on page 20 undefined on input lin
+e 525.
+
+
+Package natbib Warning: Citation `Suzuki2003' on page 20 undefined on input lin
+e 525.
+
+
+Package natbib Warning: Citation `cu_nb' on page 20 undefined on input line 525
+.
+
+
+Package natbib Warning: Citation `Popov2022' on page 20 undefined on input line
+ 525.
+
+
+Package natbib Warning: Citation `MOHAMMADZADEH201756' on page 20 undefined on 
+input line 525.
+
+
+Package natbib Warning: Citation `compansation' on page 20 undefined on input l
+ine 528.
+
+
+Package natbib Warning: Citation `Mendelev2005' on page 20 undefined on input l
+ine 528.
+
+[20]
+<15_compensation.png, id=356, 437.562pt x 395.295pt>
+File: 15_compensation.png Graphic file (type png)
+<use 15_compensation.png>
+Package pdftex.def Info: 15_compensation.png  used on input line 533.
+(pdftex.def)             Requested size: 234.8775pt x 212.19548pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `recent_review' on page 21 undefined on input 
+line 540.
+
+
+Package natbib Warning: Citation `DILEMMA2020152467' on page 21 undefined on in
+put line 540.
+
+
+Package natbib Warning: Citation `osti_1469797' on page 21 undefined on input l
+ine 540.
+
+
+Package natbib Warning: Citation `ROBINSON1973293' on page 21 undefined on inpu
+t line 540.
+
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.541 
+       <./14_1_2.png> <./14_3.png>]
+
+Package natbib Warning: Citation `COOPER2021153129' on page 22 undefined on inp
+ut line 542.
+
+
+Package natbib Warning: Citation `DESAI20084489' on page 22 undefined on input 
+line 542.
+
+
+Package natbib Warning: Citation `DESAI20084489' on page 22 undefined on input 
+line 542.
+
+
+Package natbib Warning: Citation `YAMAKOV200261_Pd_creep' on page 22 undefined 
+on input line 542.
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.545 \section{Conclusion}
+                           <./15_compensation.png>] [23]
+<A_300_Inter.png, id=378, 625.245pt x 523.848pt>
+File: A_300_Inter.png Graphic file (type png)
+<use A_300_Inter.png>
+Package pdftex.def Info: A_300_Inter.png  used on input line 570.
+(pdftex.def)             Requested size: 144.54pt x 121.09798pt.
+<B_300_Inter.png, id=379, 625.245pt x 523.848pt>
+File: B_300_Inter.png Graphic file (type png)
+<use B_300_Inter.png>
+Package pdftex.def Info: B_300_Inter.png  used on input line 571.
+(pdftex.def)             Requested size: 144.54pt x 121.09798pt.
+<C_300_Inter.png, id=380, 625.245pt x 523.848pt>
+File: C_300_Inter.png Graphic file (type png)
+<use C_300_Inter.png>
+Package pdftex.def Info: C_300_Inter.png  used on input line 571.
+(pdftex.def)             Requested size: 144.54pt x 121.09798pt.
+<A_400_Inter.png, id=381, 625.245pt x 537.864pt>
+File: A_400_Inter.png Graphic file (type png)
+<use A_400_Inter.png>
+Package pdftex.def Info: A_400_Inter.png  used on input line 572.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<B_400_Inter.png, id=382, 625.245pt x 537.864pt>
+File: B_400_Inter.png Graphic file (type png)
+<use B_400_Inter.png>
+Package pdftex.def Info: B_400_Inter.png  used on input line 573.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<C_400_Inter.png, id=383, 625.245pt x 537.864pt>
+File: C_400_Inter.png Graphic file (type png)
+<use C_400_Inter.png>
+Package pdftex.def Info: C_400_Inter.png  used on input line 574.
+(pdftex.def)             Requested size: 144.54pt x 124.33806pt.
+<A_600_Inter.png, id=384, 625.245pt x 536.988pt>
+File: A_600_Inter.png Graphic file (type png)
+<use A_600_Inter.png>
+Package pdftex.def Info: A_600_Inter.png  used on input line 575.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<B_600_Inter.png, id=385, 625.245pt x 536.988pt>
+File: B_600_Inter.png Graphic file (type png)
+<use B_600_Inter.png>
+Package pdftex.def Info: B_600_Inter.png  used on input line 576.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<C_600_Inter.png, id=386, 625.245pt x 536.988pt>
+File: C_600_Inter.png Graphic file (type png)
+<use C_600_Inter.png>
+Package pdftex.def Info: C_600_Inter.png  used on input line 577.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 \caption
+              {Average formation energy of an interstitial at different temp...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 ...bars here show twice the standard error.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.578 ...bars here show twice the standard error.}
+                                                   [24 <./A_300_Inter.png> <./B
+_300_Inter.png> <./C_300_Inter.png> <./A_400_Inter.png> <./B_400_Inter.png> <./
+C_400_Inter.png> <./A_600_Inter.png> <./B_600_Inter.png> <./C_600_Inter.png>]
+<A_300_Vacan.png, id=410, 625.245pt x 536.988pt>
+File: A_300_Vacan.png Graphic file (type png)
+<use A_300_Vacan.png>
+Package pdftex.def Info: A_300_Vacan.png  used on input line 587.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<B_300_Vacan.png, id=411, 625.245pt x 536.988pt>
+File: B_300_Vacan.png Graphic file (type png)
+<use B_300_Vacan.png>
+Package pdftex.def Info: B_300_Vacan.png  used on input line 588.
+(pdftex.def)             Requested size: 144.54pt x 124.13556pt.
+<C_300_Vacan.png, id=412, 626.34pt x 535.893pt>
+File: C_300_Vacan.png Graphic file (type png)
+<use C_300_Vacan.png>
+Package pdftex.def Info: C_300_Vacan.png  used on input line 589.
+(pdftex.def)             Requested size: 144.54pt x 123.66165pt.
+<A_400_Vacan.png, id=413, 625.245pt x 522.753pt>
+File: A_400_Vacan.png Graphic file (type png)
+<use A_400_Vacan.png>
+Package pdftex.def Info: A_400_Vacan.png  used on input line 590.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<B_400_Vacan.png, id=414, 625.245pt x 522.753pt>
+File: B_400_Vacan.png Graphic file (type png)
+<use B_400_Vacan.png>
+Package pdftex.def Info: B_400_Vacan.png  used on input line 591.
+(pdftex.def)             Requested size: 144.54pt x 120.84485pt.
+<C_400_Vacan.png, id=415, 626.34pt x 522.753pt>
+File: C_400_Vacan.png Graphic file (type png)
+<use C_400_Vacan.png>
+Package pdftex.def Info: C_400_Vacan.png  used on input line 592.
+(pdftex.def)             Requested size: 144.54pt x 120.62949pt.
+<A_600_Vacan.png, id=416, 625.245pt x 525.819pt>
+File: A_600_Vacan.png Graphic file (type png)
+<use A_600_Vacan.png>
+Package pdftex.def Info: A_600_Vacan.png  used on input line 593.
+(pdftex.def)             Requested size: 144.54pt x 121.55362pt.
+<B_600_Vacan.png, id=417, 625.245pt x 525.819pt>
+File: B_600_Vacan.png Graphic file (type png)
+<use B_600_Vacan.png>
+Package pdftex.def Info: B_600_Vacan.png  used on input line 594.
+(pdftex.def)             Requested size: 144.54pt x 121.55362pt.
+<C_600_Vacan.png, id=418, 626.34pt x 525.819pt>
+File: C_600_Vacan.png Graphic file (type png)
+<use C_600_Vacan.png>
+Package pdftex.def Info: C_600_Vacan.png  used on input line 595.
+(pdftex.def)             Requested size: 144.54pt x 121.33699pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.596 \caption
+              { Average formation energy ($E_{\mathrm{f}}$) of a vacancy at ...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.596 ...rror bars show twice the standard error.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.596 ...rror bars show twice the standard error.}
+                                                   [25 <./A_300_Vacan.png> <./B
+_300_Vacan.png> <./C_300_Vacan.png> <./A_400_Vacan.png> <./B_400_Vacan.png> <./
+C_400_Vacan.png> <./A_600_Vacan.png> <./B_600_Vacan.png> <./C_600_Vacan.png>]pd
+fTeX warning (ext4): destination with the same identifier (name{table.1}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.609     \caption
+                  {Calculated migration energy of the Arrhenius fit of self-...
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.609 ...d in \Cref{fig:Migra}. \label{tab:migra}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{table.1}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.609 ...d in \Cref{fig:Migra}. \label{tab:migra}}
+                                                   [26pdfTeX warning (ext4): de
+stination with the same identifier (name{table.2}) has been already used, dupli
+cate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.685 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.3
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.685 
+      ] [27pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.693 \newpage
+              ] (./marked.bbl [28] [29] [30] [31] [32] [33] [34] [35])
+
+Package natbib Warning: There were undefined citations.
+
+[36] (./marked.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package rerunfilecheck Info: File `marked.out' has not changed.
+(rerunfilecheck)             Checksum: 779E6D08B8A14524ED54E8320A4278ED;3299.
+ ) 
+Here is how much of TeX's memory you used:
+ 15434 strings out of 478994
+ 246023 string characters out of 5858184
+ 566100 words of memory out of 5000000
+ 32449 multiletter control sequences out of 15000+600000
+ 410357 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,11n,88p,2309b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on marked.pdf (36 pages, 11424479 bytes).
+PDF statistics:
+ 1021 PDF objects out of 1200 (max. 8388607)
+ 845 compressed objects within 9 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+
