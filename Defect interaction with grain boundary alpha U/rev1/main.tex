@@ -53,7 +53,7 @@ The focus of the current study is to use classical molecular dynamics to explore
 
 \section{Computational Details}\label{sec:comp}
 
-The U-Mo angular dependent potential (ADP) from Starikov \cite{STARIKOV2018451} is used in the classical molecular dynamics simulations utilizing the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) \cite{plimpton1995}. This interatomic potential reasonably predicts a number of properties in $\alpha$-U, $\gamma$-U, and $\gamma$-U-Mo alloys. A Nos\'{e}-Hoover barostat is implemented for the anisotropic relaxation of the system in all directions with a damping factor of 0.1 ps. For temperature control, either a Nos\'{e}-Hoover or a Langevin thermostat is utilized (depending on the calculated properties) with a relaxation time (or damping time) of 0.1 ps. When the volume and energy of the system reach equilibrium (i.e., oscillating around a given value), the values of observable parameters (energy and volume) are collected. %Systems are equilibrated for 200 ps, and energies are averaged over the final 50 ps. 
+The U-Mo angular dependent potential (ADP) from Starikov \cite{STARIKOV2018451} is used in the classical molecular dynamics simulations utilizing the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) \cite{plimpton1995}. This interatomic potential reasonably predicts a number of properties in $\alpha$-U, $\gamma$-U, and $\gamma$-U-Mo alloys. A Nos\'{e}-Hoover barostat is implemented for the anisotropic relaxation of the system in all directions with a damping factor of 0.1 ps. For temperature control, either a Nos\'{e}-Hoover or a Langevin thermostat is utilized (depending on the calculated properties) with a relaxation time (or damping time) of 0.1 ps. When the volume and energy of the system reach equilibrium (i.e., oscillating around a given value), the values of observable parameters (energy and volume) are collected.
 
 
 \par From previous work \cite{MAHBUBA2021153072}, the authors have determined the grain boundary energy ($E_{\mathrm{gb}}$) of a number of symmetric tilt grain boundaries (STGB) in $\alpha$-U at 500 K. We have classified STGBs into three categories: tilt axis $\langle$1 0 0$\rangle$, shear plane (0 0 1) (denoted as type A); tilt axis $\langle$0 0 1$\rangle$, shear plane (0 1 0) (denoted as type B); and tilt axis $\langle$0 0 1$\rangle$, shear plane (1 0 0) (denoted as type C). The same nomenclature will be utilized here when discussing STGBs in $\alpha$-U. For the choice of which GBs to investigate, both a high-energy and low-energy GB from each of the A, B, and C types are selected. The listed orientations are provided in \Cref{tab:STGB}, where low-energy GBs are denoted by a 1 (e.g., A1), and high-energy GBs are denoted by a 2 (e.g., C2). 
@@ -108,9 +108,7 @@ E_{\mathrm{s}}(r)_{\mathrm{i/v}} = -E_{\mathrm{f}}(r)_{\mathrm{i/v}} + E_{f,i/v}
 \noindent where $E_{f}^{bulk}$ is the formation energy of a point defect in the bulk $\alpha$-U system and $E_f(r)_{i/v}$ is the formation energy of a defect in a bi-crystal $\alpha$-U system at a distance $r$ from the GB. In this formulation, a positive $E_{\mathrm{s}}$ indicates an attraction of the point defect to the GB, while a negative $E_{\mathrm{s}}$ indicates that it is thermodynamically unfavorable to form a point defect adjacent to the grain boundary. The  $l_{\mathrm{int}}$ is the length at which the $E_{\mathrm{s}}(r)$ becomes zero, indicating that there is no interaction between the defect and the GB.  
 
 \subsection{Diffusion in Grain Boundaries}\label{sec:comp2}
-\par Self-diffusion along grain boundaries is calculated via MD simulations 
-%utilizing the differential method (\Cref{eq:ein}). In order to perform this method, 
-by relaxing a grain boundary in an NPT ensemble as described in \cref{sec:comp1}. This relaxed structure is further evolved by keeping the volume fixed for 3~ns to 5.5~ns, depending on the temperature of interest, with higher temperatures using shorter relaxation times. During these diffusion calculations, the Nos\'{e}-Hoover thermostat is implemented to mitigate the impact of switching from an NPT to an NVT ensemble. Due to the implementation of the Langevin thermostat, converting from an NPT to an NVT ensemble generates some residual stress within the system which is avoided via the exclusive use of the Nos\'{e}-Hoover thermostat/barostat. The differences in thermostat/barostat should make no difference in the actual simulation behavior, but this distinction is included here for completeness. 
+\par Self-diffusion along grain boundaries is calculated via MD simulations by relaxing a grain boundary in an NPT ensemble as described in \cref{sec:comp1}. This relaxed structure is further evolved by keeping the volume fixed for 3~ns to 5.5~ns, depending on the temperature of interest, with higher temperatures using shorter relaxation times. During these diffusion calculations, the Nos\'{e}-Hoover thermostat is implemented to mitigate the impact of switching from an NPT to an NVT ensemble. Due to the implementation of the Langevin thermostat, converting from an NPT to an NVT ensemble generates some residual stress within the system which is avoided via the exclusive use of the Nos\'{e}-Hoover thermostat/barostat. The differences in thermostat/barostat should make no difference in the actual simulation behavior, but this distinction is included here for completeness. 
 
 The mean squared displacement (MSD) of the atoms around the GB (considering a spatial bin centered at the GB in the middle of the simulation box) is calculated as a function of time to obtain diffusion coefficients. To obtain statistically significant results, six different simulations are performed at each temperature. The number of atoms in the diffusivity simulations varies between 6,000 to 10,000 depending on the GB type. The GB area varies between 700 - 1300 {\AA${^2}$}. The GB spatial bin thickness ($l_{\mathrm{sb}}$) is related to the GB structure (structural width of GB \cite{keblinski1999self} obtained from the common neighbor analysis at the specific temperature) and valued as 16 {\AA} to 20 {\AA}. The MSD is only recorded for atoms within a thickness of $l_{\mathrm{sb}}$ related to the GB structure and denoted by $MSD_{\mathrm{sb}}$. After the simulations, the GB MSD is modified via the inclusion of the GB thickness ($\delta$) as in \Cref{eq:dim} \cite{USi_diffusion}, 
 %
@@ -178,12 +176,14 @@ In this section, the interaction of an interstitial and a vacancy with six diffe
 
 The $E_{\mathrm{s}}$ is higher for high-energy GBs than for low-energy GBs at a given temperature; that is, high-energy GBs are stronger sinks for point defects than low-energy GBs. For instance, at 500 K the $E_{\mathrm{s}}$ for an interstitial is 7.7 times higher for an A2 GB than for an A1 GB. In the case of type C GBs, the high-energy GB has a 6.2 times higher $E_{\mathrm{s}}$ for an interstitial. Interestingly, most lower energy GBs do not show segregation for vacancies, that is, they do not attract vacancies; as the only lower energy GB that shows segregation for a vacancy is the B1 GB, a similar comparison for vacancies is only valid for type B GBs. For type B GBs, the high-energy GB shows a $E_{\mathrm{s}}$ that is 1.5 times and 4.4 times higher than the low-energy GB for an interstitial and a vacancy, respectively. There is no statistically significant interaction of vacancies with either A1 or C1 GBs. According to GB segregation theory \cite{MISHIN_gb_diff}, when the $E_{\mathrm{s}}$ decreases, the misfit between the point defects and the GB core increases compared to the misfit between point defects and the bulk crystal. As coherent twin boundaries have less atomic misfit, it is expected that the $E_{\mathrm{s}}$ should be lower, that is, it is less energetically favorable to fit an additional atom into a well-ordered grain boundary with little free volume available. These results show that point defect segregation in GBs is more biased for high-energy GBs than low-energy GBs, and indicate that very low formation energy GBs act as poor point defect sinks. This result also supports the results available in the literature, that usually twins and coherent boundaries are not effective sinks for point defects \cite{Nabarro}. Furthermore, this shows that the segregation energy is more strongly dependent upon the  $E_{\mathrm{gb}}$  than on the temperature or even the defect type. Within the studied temperature range, high-energy GBs have on average a 2.5 times higher $E_{\mathrm{s}}$ for interstitials than the low-energy GBs in $\alpha$-U STGBs. For vacancies, the $E_{\mathrm{s}}$ in high-energy GBs is approximately 3 times that of the low-energy GBs.
 
-The average segregation energy of the point defect at the GB core is calculated considering a weighted average depending on GB energies. In this method, the probability of the presence of a GB depends on its formation energy \cite{WILLIAMS201545}. The weighted value of the formation energies of the GBs from the same type (for example, in the case of type A GBs, only the formation energy of GB A1 and A2) are used to determine the weighted-average properties such, as E$_\mathrm{s}$, interaction distance, etc. A similar approach is applied for the type B and type C GBs. This method is noted as the ``weighted average" method for the rest of the article and uses the following equation:
+The average segregation energy of the point defect at the GB core is calculated considering a weighted average depending on GB energies. In this method, the probability of the presence of a GB depends on its formation energy \cite{WILLIAMS201545}. The weighted value of the formation energies of the GBs from the same type (for example, in the case of type A GBs, only the formation energy of GB A1 and A2) are used to determine the weighted-average properties, such as E$_\mathrm{s}$, interaction distance, etc. A similar approach is applied for the type B and type C GBs. This method is noted as the "weighted average" method for the rest of the article and uses the following equation:
+
 \begin{equation}
 \label{eq:weight}
-E_{s,x,y}^{WA} = \frac{E_{gb,x}^{1}}{E_{gb,x}^{1}+E_{gb,x}^{2}} \times E_{s,y}^{1} + \frac{E_{gb,x}^{2}}{E_{gb,x}^{1}+E_{gb,x}^{2}} \times E_{s,y}^{2}
-\end{equation} 
-\noindent where $x$ denotes GB type, $y$ denotes point defect type, and superscript $1/2$ denotes low and high energy GB, respectively. The $E_{\mathrm{gb, x}}^{1 or 2}$ is GB formation energy for different types of GBs at different temperatures is taken from Mahbuba \textit{et.al} (2021) \cite{MAHBUBA2021153072}. The results of this method are shown in Fig.~\ref{fig:SE} and indicate that there is no statistically significant difference in the grain boundary types when weighting by the $E_{\mathrm{gb}}$. There is also no dependence on the temperature of the system. Thus, there is an average $E_{\mathrm{gb}}$-weighted vacancy and interstitial segregation energy for $\alpha$-U, which is found to be 0.52 eV and 0.91 eV, respectively. It should be noted that these averaged values are only obtained from a small number of symmetric tilt GBs, and thus may not be representative of a true microstructural average encompassing a wide array of GBs. Non-symmetric tilt GBs are expected to have higher energies than the GBs studied here, and their individual $E_{\mathrm{s}}$ should follow the trends in \Cref{fig:SE_GB}. It is anticipated that the inclusion of such GBs will not affect this weighted average. Thus, this is a reasonable approximation given the trends of segregation energies with respect to orientation that have been observed in this work. 
+E_{s,x,y}^{WA} = \frac{E_{gb,x}^{2}}{E_{gb,x}^{1}+E_{gb,x}^{2}} \times E_{s,y}^{1} + \frac{E_{gb,x}^{1}}{E_{gb,x}^{1}+E_{gb,x}^{2}} \times E_{s,y}^{2}
+\end{equation}
+
+\noindent where $x$ denotes GB type, $y$ denotes point defect type, and superscript $1/2$ denotes low and high energy GB, respectively. The $E_{\mathrm{gb, x}}^{1/2}$ is GB formation energy for different types of GBs at different temperatures is taken from Mahbuba \textit{et.al} (2021) \cite{MAHBUBA2021153072}. The results of this method are shown in Fig.~\ref{fig:SE} and indicate that there is no statistically significant difference in the grain boundary types when weighting by the $E_{\mathrm{gb}}$. There is also no dependence on the temperature of the system. Thus, there is an average $E_{\mathrm{gb}}$-weighted vacancy and interstitial segregation energy for $\alpha$-U, which is found to be 0.33 eV and 0.87 eV, respectively. It should be noted that these averaged values are only obtained from a small number of symmetric tilt GBs, and thus may not be representative of a true microstructural average encompassing a wide array of GBs. Non-symmetric tilt GBs are expected to have higher energies than the GBs studied here, and their individual $E_{\mathrm{s}}$ should follow the trends in \Cref{fig:SE_GB}. It is anticipated that the inclusion of such GBs will not affect this weighted average. Thus, this is a reasonable approximation given the trends of segregation energies with respect to orientation that have been observed in this work.
 
 
 \begin{figure}[h!]
@@ -198,7 +198,7 @@ E_{s,x,y}^{WA} = \frac{E_{gb,x}^{1}}{E_{gb,x}^{1}+E_{gb,x}^{2}} \times E_{s,y}^{
 \FloatBarrier
 
 \subsubsection{Interaction Lengths}
-\par A parameter related to the $E_{\mathrm{s}}$ is the  $l_{\mathrm{int}}$ of a point defect with the GB. This length is the distance at which the $E_{\mathrm{s}}$ becomes zero, which dictates up to what distance there is a tendency for point defects to segregate into the GB. As the studied system has symmetries along the tilt axis, the $l_{\mathrm{int}}$ reported here should be doubled when used in larger length-scale modeling. In \Cref{fig:Int}, the interaction length is plotted as a function of temperature. One general trend observed for all GB types is that an interstitial exhibits a larger  $l_{\mathrm{int}}$ from the GB core than a vacancy, with a ratio of up to 2.4 times greater for the high-energy GBs (A2, B2, and C2). Among the studied GBs, the maximum  $l_{\mathrm{int}}$ of 23~{\AA} is observed for the B1 GB at 600 K (considering all temperatures). Type A GBs have relatively smaller interaction lengths than type C and B. 
+\par A parameter related to the $E_{\mathrm{s}}$ is the  $l_{\mathrm{int}}$ of a point defect with the GB. This length is the distance at which the $E_{\mathrm{s}}$ becomes zero, which dictates up to what distance there is a tendency for point defects to segregate into the GB. As the studied system has symmetries along the tilt axis, the $l_{\mathrm{int}}$ reported here should be doubled when used in larger length-scale modeling. In \Cref{fig:Int}, the interaction length is plotted as a function of temperature. One general trend observed for all GB types is that an interstitial exhibits a larger  $l_{\mathrm{int}}$ from the GB core than a vacancy, with a ratio of up to 2.4 times greater for the high-energy GBs (A2, B2, and C2). Among the studied GBs, the maximum  $l_{\mathrm{int}}$ of 23~{\AA} is observed for the B1 GB at 600 K (considering all temperatures). Type A GBs have relatively smaller interaction lengths than types B and C. 
 
 \begin{figure}[h!]
 \centering
@@ -213,7 +213,7 @@ E_{s,x,y}^{WA} = \frac{E_{gb,x}^{1}}{E_{gb,x}^{1}+E_{gb,x}^{2}} \times E_{s,y}^{
 
 
 
-\par Using the same weighted averaging technique considered for $E_{\mathrm{s}}$ of point defects, the weighted average $l_{\mathrm{int}}$ of a vacancy and an interstitial is determined, and the data is plotted in figure \Cref{fig:IL}. Once again there is no discernible difference in the  $l_{\mathrm{int}}$ as a function of temperature. However, there does appear to be a minor difference between GB types. Shorter interaction lengths are observed for Type A GBs with interstitials, while longer ILs are observed for Type B GBs with vacancies. However, the differences in the $l_{\mathrm{int}}$ of different GB types are not statistically significant, and thus we report a single energy-weighted value of the $l_{\mathrm{int}}$ for interstitials and vacancies of 7.8 {\AA} and 5 {\AA}, respectively. As stated previously, when using the average interaction length of $\alpha$-U GBs at larger length scales, the values reported here should be doubled. After doubling, the $l_{\mathrm{int}}$ for interstitials and vacancies are 15.6 {\AA} and 10 {\AA}, respectively, slightly smaller than the $l_{\mathrm{sb}}$ (related to the GB structure as mentioned in \ref{sec:comp2}). 
+\par Using the same weighted averaging technique considered for $E_{\mathrm{s}}$ of point defects, the weighted average $l_{\mathrm{int}}$ of a vacancy and an interstitial is determined, and the data is plotted in figure \Cref{fig:IL}. Once again there is no discernible difference in the  $l_{\mathrm{int}}$ as a function of temperature. However, there does appear to be a minor difference between GB types. Shorter interaction lengths are observed for Type A GBs with interstitials, while longer ILs are observed for Type B GBs with vacancies. However, the differences in the $l_{\mathrm{int}}$ of different GB types are not statistically significant, and thus we report a single energy-weighted value of the $l_{\mathrm{int}}$ for interstitials and vacancies of 5.89 {\AA} and 3.22 {\AA}, respectively. As stated previously, when using the average interaction length of $\alpha$-U GBs at larger length scales, the values reported here should be doubled. After doubling, the $l_{\mathrm{int}}$ for interstitials and vacancies are 11.78 {\AA} and 6.44 {\AA}, respectively, slightly smaller than the $l_{\mathrm{sb}}$ (related to the GB structure as mentioned in \ref{sec:comp2}). 
 
 
 \begin{figure}[h!]
@@ -232,7 +232,7 @@ Diffusion requires both energy (from lattice vibrations) and a pathway to the ta
 
 \subsubsection{Low-Energy Grain Boundaries}
 
-\par The diffusivity along low-energy GBs is shown in \Cref{fig:Dif_fit1} with an accompanying Arrhenius fit. Included error bars represent one standard error of the mean. The three low-energy GBs exhibit higher self-diffusivity in the presence of an interstitial compared to an added vacancy. The self-diffusion of GB+V and GB+I of A1 and B1 GBs tend to converge as the temperature increases, due to the lower migration energy for the GB+I case. On the other hand, self-diffusivity for the lowest formation energy GB considered in the current work, C1, maintains an approximately constant ratio (~2.3) between GB+V and GB+I condition. One reason for this might be the type of diffusion path. For GB+V diffusion of A1, B1, and C1 GBs, two-dimensional diffusion was observed. This means that diffusion occurs all along the grain boundary plane. A similar diffusion pathway is followed for the GB+I of A1 and B1 GBs, but not the C1 GB. In contrast, the C1 GB demonstrates a ring diffusion mechanism for an interstitial where the rings are aligned parallel to the $\langle$0 0 1$\rangle$ tilt axis and on the (100) shear plane. These rings may hinder faster GB+I diffusion at lower temperatures. For the GB+V case, the A1 GB shows the lowest diffusivity, while the B1 has the highest diffusivity below 600 K and C1 has the highest above 600 K. For the GB+I case, B1 always possesses a higher diffusivity than the other low-energy GBs. It should be noted that while vacancies did not display significant binding with A1 and C1 GBs, the diffusion in the GB of vacancies remains 2D, indicating that vacancies remain within the GB. This is likely due to the reduced migration barrier along the GB plane, making it less likely for vacancies to jump into the bulk.
+\par The diffusivity along low-energy GBs is shown in \Cref{fig:Dif_fit1} with an accompanying Arrhenius fit. The included error bars represent one standard error of the mean. The three low-energy GBs exhibit higher self-diffusivity in the presence of an interstitial compared to an added vacancy. The self-diffusion of GB+V and GB+I of A1 and B1 GBs tend to converge as the temperature increases, due to the lower migration energy for the GB+I case. On the other hand, self-diffusivity for the lowest formation energy GB considered in the current work, C1, maintains an approximately constant ratio (2.3) between the GB+V and GB+I conditions. One reason for this might be the type of diffusion path. For GB+V diffusion of A1, B1, and C1 GBs, two-dimensional diffusion was observed. This means that diffusion occurs all along the grain boundary plane. A similar diffusion pathway is followed for the GB+I of A1 and B1 GBs, but not the C1 GB. In contrast, the C1 GB demonstrates a ring diffusion mechanism for an interstitial where the rings are aligned parallel to the $\langle$0 0 1$\rangle$ tilt axis and on the (100) shear plane. An image illustrating these diffusion paths is included in the appendix, Figure~\ref{fig:diffusion_path}(a, b, c). These rings may hinder faster GB+I diffusion at lower temperatures. For the GB+V case, the A1 GB shows the lowest diffusivity, while the B1 has the highest diffusivity below 600 K and C1 has the highest above 600 K. For the GB+I case, B1 always possesses a higher diffusivity than the other low-energy GBs. It should be noted that while vacancies did not display significant binding with A1 and C1 GBs, the diffusion in the GB of vacancies remains 2D, indicating that vacancies remain within the GB. This is likely due to the reduced migration barrier along the GB plane, making it less likely for vacancies to jump into the bulk.
 
 \begin{figure}[h!]
 \centering
@@ -245,7 +245,7 @@ Diffusion requires both energy (from lattice vibrations) and a pathway to the ta
 
 \subsubsection{High-Energy Grain Boundaries}
 
-\par The diffusion coefficients for the high-energy GBs are shown in \Cref{fig:Dif_fit2}. Diffusion in the high-energy grain boundaries displays a unique behavior compared to that of the low-energy grain boundaries. Pipe diffusion (1-D diffusion) is observed in the A2 and C2 GBs, where the pipes are oriented normal to the shear plane. Thus, for the A2 GB, the pipe axis is parallel to the [001] direction and for the C2 GB it is parallel to the [100] direction. Pipe diffusion is not observed for the B2 GB, which has the shear plane normal to the [010] direction. From experimental studies, the self-diffusion of $\alpha$-U atoms in the [100] and [001] directions is about 20 times higher than that of the [010] direction at 900 K \cite{aniso_self_diff}. One of the reasons for the slow diffusivity in the [010] direction is the stacking of the corrugated planes in the [010] direction. Thus, it appears that some of the anisotropic characteristics of the bulk self-diffusion in $\alpha$-U may transfer to the study of grain boundary diffusion. A recent MD study \cite{WANG2023154289} on point defect diffusivity through bulk $\alpha$-U shows that for interstitials, [100] is the slowest diffusion direction, whereas for vacancies, it is [010] direction. As the high-energy GBs contain more disorder and thus void space, this pipe diffusion behavior might be occurring due to the presence of vacancies within the GB core.
+\par The diffusion coefficients for the high-energy GBs are shown in \Cref{fig:Dif_fit2}. Diffusion in the high-energy grain boundaries displays a unique behavior compared to that of the low-energy grain boundaries. Pipe diffusion (1-D diffusion) is observed in the A2 and C2 GBs, where the pipes are oriented normal to the shear plane. Thus, for the A2 GB, the pipe axis is parallel to the [001] direction and for the C2 GB it is parallel to the [100] direction. An image illustrating these diffusion paths is included in the appendix, Figure~\ref{fig:diffusion_path}(d, e, f). Pipe diffusion is not observed for the B2 GB, which has the shear plane normal to the [010] direction. From experimental studies, the self-diffusion of $\alpha$-U atoms in the [100] and [001] directions is about 20 times higher than that of the [010] direction at 900 K \cite{aniso_self_diff}. One of the reasons for the slow diffusivity in the [010] direction is the stacking of the corrugated planes in the [010] direction. Thus, it appears that some of the anisotropic characteristics of the bulk self-diffusion in $\alpha$-U may transfer to the study of grain boundary diffusion. A recent MD study \cite{WANG2023154289} on point defect diffusivity through bulk $\alpha$-U shows that for interstitials, [100] is the slowest diffusion direction, whereas for vacancies, it is [010] direction. As the high-energy GBs contain more disorder and thus void space, this pipe diffusion behavior might be occurring due to the presence of vacancies within the GB core.
 
 \begin{figure}[h!]
 \centering
@@ -264,17 +264,17 @@ Considering the equal probability of the three GB self-diffusion conditions (GB,
 
 \begin{equation}
 \label{eq:type}
-D_{GB,A} = 7.05 \times 10^{-10} \exp\left(\frac{-0.272}{k_{B} T}\right)
+D_{GB,A} = 8.71 \times 10^{-10} \exp\left(\frac{-0.23}{k_{B} T}\right)
 \end{equation}
 
 \begin{equation}
 \label{eq:type1}
-D_{GB,B} = 7.92 \times 10^{-10} \exp\left(\frac{-0.248}{k_{B} T}\right)
+D_{GB,B} = 2.15 \times 10^{-9} \exp\left(\frac{-0.23}{k_{B} T}\right)
 \end{equation}
 
 \begin{equation}
 \label{eq:type2}
-D_{GB,C} = 1.44 \times 10^{-10} \exp\left(\frac{-0.124}{k_{B} T}\right)
+D_{GB,C} = 6.18 \times 10^{-10} \exp\left(\frac{-0.17}{k_{B} T}\right)
 \end{equation}
 
 \begin{figure}[h!]
@@ -296,20 +296,16 @@ The GB self-diffusion results are compared with interstitial, vacancy, and self-
 \label{fig:Dif}
 \end{figure}
 
-
-
-
 Both the migration energy ($E_{\mathrm{m}}$) and the pre-exponential factor of the Arrhenius relation are the parameters of interest and can be determined from the diffusion coefficients displayed in the prior section. The determined $E_{\mathrm{m}}$ are displayed in \Cref{fig:Migra} and are also tabulated in the Appendix in \Cref{tab:migra} for all studied GBs and defect conditions. Similarly, pre-exponential constants are tabulated in the Appendix in \Cref{tab:pre} for all studied GBs and defect conditions. From \Cref{fig:Migra}, grain boundaries with added vacancies (GB+V) typically display higher $E_{\mathrm{m}}$ than other studied systems (GB or GB+I). The highest $E_{\mathrm{m}}$ was observed for the A1 GB, with a value of 0.626 $\pm$ 0.006 eV. Systems with added interstitials are generally equal to or lower in $E_{\mathrm{m}}$ than the systems with an added vacancy or no vacancy defects. The minimum $E_{\mathrm{m}}$ was observed for the C2 GB, with a value of 0.09 $\pm$ 0.02 eV. There is not a clear trend in $E_{\mathrm{m}}$ when comparing high-energy to low-energy GBs. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width = 3in]{12_migration.png}\
-\caption{Migration energy for grain boundary diffusion in the A1, A2, B1, B2, C1, and C2 grain boundaries in $\alpha$-U for three separate defect conditions. GB: no added defects, GB+I: added interstitial, GB+V: added vacancy. Error bars represent the maximum and minimum migration energy. Red and green horizontal lines represent migration energy for a vacancy and an interstitial through bulk $\alpha$-U \cite{WANG2023154289}, respectively.}
+\caption{Migration energy for grain boundary diffusion in the A1, A2, B1, B2, C1, and C2 grain boundaries in $\alpha$-U for three separate defect conditions. GB: no added defects, GB+I: added interstitial, GB+V: added vacancy. Error bars represent the maximum and minimum migration energy. Red and green horizontal lines represent migration energy for a vacancy and an interstitial, respectively, through bulk $\alpha$-U from MD calculations \cite{WANG2023154289}.}
 \label{fig:Migra}
 \end{figure}
 
 Prior molecular dynamics \cite{WANG2023154289} and density functional theory \cite{wirth2011} studies have found that the $E_{\mathrm{m}}$ for bulk interstitial diffusion is in the range of 0.2 - 0.4 eV, and the $E_{\mathrm{m}}$ for bulk vacancy diffusion is in the range of 0.3 - 0.4 eV, with specific directions exhibiting higher $E_{\mathrm{m}}$. \Cref{fig:Migra} shows that the magnitude of the $E_{\mathrm{m}}$ for GB diffusion varies from 0.1 eV to 0.6 eV, which is in line with these prior computational studies on $E_{\mathrm{m}}$ of point defects in the bulk, albeit with a slightly lower minimum value. Comparing the pre-factor for point defect diffusion to GB self-diffusion \cite{WANG2023154289}, the pre-factor obtained in this work is two to three orders of magnitude lower than for point defect diffusion. Thus, the difference in the formation energy of a defect species in the bulk versus at a grain boundary is the predominant factor in the accelerated GB diffusion compared to the bulk.
-
 
 \subsection{Coble creep}
 
@@ -331,10 +327,10 @@ The pre-factor $A_{cr,x,y}$ and the creep activation energy $E_{cr,x,y}$ for dif
 
 \begin{equation}
 \label{eq:coble2}
-\dot{\epsilon}_{Coble} =\frac{\sigma}{T d^{3}} 3.269 \times 10^{-22} \exp\left(\frac{-0.221}{k_{B} T}\right)
+\dot{\epsilon}_{Coble} =\frac{\sigma}{T d^{3}} 8.65 \times 10^{-23} \exp\left(\frac{-0.215}{k_{B} T}\right)
 \end{equation}
 
-
+\noindent where the stress is in units of $MPa$, the temperature in units of $K$, and the grain size in units of $nm$, a prefactor in units of $\frac{K-nm^{3}}{MPa-s}$, and the Coble creep rate in units of $s^{-1}$. 
 
 \FloatBarrier
 
@@ -387,14 +383,13 @@ The compensation law, or Meyer-Neldel rule (MNR), is a fundamental property in m
 
 \subsection{Coble creep}
 
-Within the operating temperature and pressure of metallic fuel, Coble creep in $\alpha$-U is one of the most dominant deformation mechanism. To get an estimate of what will be Coble creep rate in the actual reactor condition, Coble creep rate is calculated. For the operating conditions of metallic fuel \cite{recent_review} with a temperature ranging between 500 K to 750 K, gas/plenum pressure of 5 MPa, and average grain size of 0.55 $\mu$m \ (according to the TEM analysis of the irradiated sample C from Di Lemma \cite{DILEMMA2020152467}), the Coble creep rate of $\alpha$-U is calculated to be 8.06 $\times$ 10$^{-2}$ s$^{-1}$ to 2.22 $\times$ 10$^{-1}$ s$^{-1}$. The typical grain size in metallic UZr fuel is 10-20 $\mu$m \cite{osti_1469797}; for this grain size under similar pressure, the Coble creep of $\alpha$-U is estimated as 1.34 $\times$ 10$^{-5}$ s$^{-1}$ to 1.68 $\times$ 10$^{-6}$ s$^{-1}$. Other historic experimental data \cite{ROBINSON1973293} from compression tests on $\alpha$-U creep show a steady-state creep rate in the order of 10$^{-2}$ and 10$^{-6}$, but the creep mechanism is not Coble creep, as the normal stress exponent is between 4 to 6, implying dislocation climb. 
+Within the operating temperature and pressure of metallic fuel, Coble creep in $\alpha$-U is one of the most dominant deformation mechanism. To get an estimate of what will be Coble creep rate in the actual reactor condition, the Coble creep rate is calculated. For the operating conditions of metallic fuel \cite{recent_review} with a temperature ranging between 500 K to 750 K, gas/plenum pressure of 5 MPa, and average grain size of 0.55 $\mu$m \ (according to the TEM analysis of the irradiated sample C from Di Lemma \cite{DILEMMA2020152467}), the Coble creep rate of $\alpha$-U is calculated to be 8.06 $\times$ 10$^{-2}$ s$^{-1}$ to 2.22 $\times$ 10$^{-1}$ s$^{-1}$. The typical grain size in metallic UZr fuel is 10-20 $\mu$m \cite{osti_1469797}; for this grain size under similar pressure, the Coble creep of $\alpha$-U is estimated as 1.34 $\times$ 10$^{-5}$ s$^{-1}$ to 1.68 $\times$ 10$^{-6}$ s$^{-1}$. Other historic experimental data \cite{ROBINSON1973293} from compression tests on $\alpha$-U creep show a steady-state creep rate in the order of 10$^{-2}$ and 10$^{-6}$, but the creep mechanism is not Coble creep, as the normal stress exponent is between 4 to 6, implying dislocation climb. 
 
 Similar pressure, temperature, and grain size are considered to compare Coble creep results with other uranium-based systems. The diffusional creep rate of $\alpha$-U GBs is significantly higher than that of U$_\mathrm{3}$Si$_\mathrm{2}$ (approximately 10$^{5}$ time at 750 K). For U$_\mathrm{3}$Si$_\mathrm{2}$, the Coble creep rate is limited by the Si defects, but in our study, there are no extrinsic species to be considered. Moreover, in U$_\mathrm{3}$Si$_\mathrm{2}$ \cite{COOPER2021153129} the GB width is considered to be 1 nm, and the studied temperature range is 1200 K to 1600 K. In order to compare results, the data must be extrapolated to lower temperatures by assuming that the diffusion parameters will remain the same at lower temperatures, which may not be the case. Although both materials are uranium-based and a similar methodology is utilized, because of the alloying of U with Si, the Coble creep rate is drastically decreased. Comparing the activation energy for the diffusional creep rate of $\alpha$-U with polycrystalline UO$_\mathrm{2}$ \cite{DESAI20084489}, $\alpha$-U has approximately an order of magnitude lower activation energy (0.221 eV) than UO$_\mathrm{2}$ (3.86 eV \cite{DESAI20084489}). The activation energy for GB diffusional creep of polycrystalline Pd is calculated as 0.61 eV \cite{YAMAKOV200261_Pd_creep}, which is in the similar order of magnitude of $\alpha$-U. In the case of UO$_2$, the Coble creep rate is limited by the diffusion of U atoms. Under a stress of 5 MPa and with a grain size of 15 $\mu$m, the diffusional creep rate of $\alpha$-U and U$_\mathrm{3}$Si$_\mathrm{2}$ is approximately 10$^{11}$ and 10$^{5}$ higher, respectively, than UO$_\mathrm{2}$ at 750 K.  
 
 
 \section{Conclusion}
-The interaction of interstitials and vacancies with six symmetric tilt grain boundaries in $\alpha$-U and self-diffusion along those grain boundaries have been explored utilizing molecular dynamics simulations. $\alpha$-U GBs are classified based on the shear plane orientation: type A, type B, and type C, with two GBs from each of the types considered in the current study. We find that GBs of $\alpha$-U are biased sinks for interstitials compared to vacancies. The segregation energies of both point defect types follow an increasing linear trend with the $E_{\mathrm{gb}}$, in that segregation is preferable at higher energy grain boundaries. Two low-energy GBs show no interaction with vacancies. Both the interaction length and the segregation energy are effectively temperature-independent over the studied temperature range. %Average GB interaction properties with point defect for three different type GBs are calculated using both simple averaging and weighted averaging technique. Neither segregation energy nor the interaction length are function of temperature. 
-The self-diffusivity of GBs was calculated as a function of temperature, including systems with an added defect. High-energy GBs show approximately four times faster diffusivity compared to low-energy GBs, and the presence of point defects at the GB slightly enhances the diffusivity for high-energy GBs. The GB diffusivity of $\alpha$-U is lower than that of other pure metals while it is higher than that of U$_3$Si$_2$, which is the only other metallic U compound for which there is data against which to compare. Finally, the results from the self-diffusivity were used to calculate the Coble creep equation for $\alpha$-U for the first time.
+The interaction of interstitials and vacancies with six symmetric tilt grain boundaries in $\alpha$-U and self-diffusion along those grain boundaries have been explored utilizing molecular dynamics simulations. $\alpha$-U GBs are classified based on the shear plane orientation: type A, type B, and type C, with two GBs from each of the types considered in the current study. We find that GBs of $\alpha$-U are biased sinks for interstitials compared to vacancies. The segregation energies of both point defect types follow an increasing linear trend with the $E_{\mathrm{gb}}$, in that segregation is preferable at higher energy grain boundaries. Two low-energy GBs show no interaction with vacancies. Both the interaction length and the segregation energy are effectively temperature-independent over the studied temperature range. The self-diffusivity of GBs was calculated as a function of temperature, including systems with an added defect. High-energy GBs show approximately four times faster diffusivity compared to low-energy GBs, and the presence of point defects at the GB slightly enhances the diffusivity for high-energy GBs. The GB diffusivity of $\alpha$-U is lower than that of other pure metals while it is higher than that of U$_3$Si$_2$, which is the only other metallic U compound for which there is data against which to compare. Finally, the results from the self-diffusivity were used to calculate the Coble creep equation for $\alpha$-U for the first time.
 
 This study provided the first investigation of point defect interactions with grain boundaries and is the first study of grain boundary diffusion in metallic pure U. Results from this study can be implemented in kinetic Monte Carlo, rate-theory, and phase-field modeling methodologies to develop and improve mechanistic fuel performance modeling of metallic-fueled advanced nuclear reactors, and further elucidate the fundamental irradiation response behavior of $\alpha$-U. 
  
@@ -412,6 +407,15 @@ Work supported through the INL Laboratory Directed Research and Development (LDR
 \setlength{\arrayrulewidth}{.5mm}
 \setlength{\tabcolsep}{12pt}
 \renewcommand{\arraystretch}{1.0}
+
+The crystal structure of $\alpha$-U is included in \Cref{fig:alphaU_struct} for reference.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{alphaU_struct.png}
+\caption{The crystal structure of $\alpha$-U.}
+\label{fig:alphaU_struct}
+\end{figure}
 
 The formation energy of an interstitial as a function of distance from a GB is shown in \Cref{fig:Seg_inter} for all six types of grain boundaries at 300, 400, and 600 K.
 
@@ -495,6 +499,18 @@ C2 & 4E-10 & 1.6E-9 & 2E-10 \\
 \end{table}
 }
 
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width = 3in]{A1_GB_I.png}} 
+\subfloat[]{\includegraphics[width = 3in]{B1_GB_I.png}}\\ 
+\subfloat[]{\includegraphics[width = 3in]{C1_GB_I.png}}
+\subfloat[]{\includegraphics[width = 3in]{A2_GB_I.png}}\\ 
+\subfloat[]{\includegraphics[width = 3in]{B2_GB_I.png}} 
+\subfloat[]{\includegraphics[width = 3in]{C2_GB_I.png}}\\
+\caption{Gray trajectory lines of the atoms of the simulation box containing (a) A1, (b) B1, (c) C1, (d) A2, (e) B2, and (f) C2 GBs at 650 K for a time period of 4 ns. Results are shown for the GB+I (GB self-diffusion in the presence of interstitial) condition. Atoms with red color are the atoms that are considered during the MSD calculation. Both red and purple atoms are alpha-U atoms. Ring diffusion is observed in C1 GB parallel to the shear plane (010). Pipe diffusion is observed in A2 and C2 GBs along the normal of the respective shear planes (001) and (100).}
+\label{fig:diffusion_path}
+\end{figure}
+
 The Arrhenius fitting parameters for the grain boundary width times the grain boundary diffusion coefficient, $\delta$D$_\mathrm{GB}$, of three types of GBs in $\alpha$-U are shown in \Cref{tab:widthanddiff}.
 
 \begin{table}[h!]
@@ -522,12 +538,13 @@ The Arrhenius fitting parameters for Coble creep for the three types of GBs in $
 \begin{tabular}{|c|c|c|}
 \hline
 \multicolumn{1}{|c}{Grain boundary}
-& \multicolumn{1}{|c}{Creep activation energy (eV) } & \multicolumn{1}{c|}{Pre-factor (s$^{-1}$/($\frac{Pa}{m^3}$)) } \\
+& \multicolumn{1}{|c}{Creep activation energy (eV) } & \multicolumn{1}{c|}{ Pre-factor ($\frac{K-nm^{3}}{MPa-s} $) } \\
+
 \hline
 
-A & 0.272 & 2.69 $\times$ 10$^{-22}$ \\
-B & 0.248 & 2.84 $\times$ 10$^{-22}$ \\
-C & 0.124 & 5.16 $\times$ 10$^{-23}$ \\
+A & 0.226 & 4.76 $\times$ 10$^{-23}$ \\
+B & 0.231 & 1.91 $\times$ 10$^{-22}$ \\
+C & 0.181 & 4.26 $\times$ 10$^{-23}$ \\
 
 \hline
 \end{tabular}
