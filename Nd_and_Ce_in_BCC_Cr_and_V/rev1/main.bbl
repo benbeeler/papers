@@ -1,0 +1,542 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{hofman_metallic_1997}
+G.~L. Hofman, L.~C. Walters, T.~H. Bauer,
+  \href{https://www.sciencedirect.com/science/article/pii/0149197096000054}{Metallic
+  fast reactor fuels}, Progress in Nuclear Energy 31~(1) (1997) 83--110.
+\newblock \href {https://doi.org/10.1016/0149-1970(96)00005-4}
+  {\path{doi:10.1016/0149-1970(96)00005-4}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0149197096000054}
+
+\bibitem{pahl_experimental_1990}
+R.~G. Pahl, D.~L. Porter, C.~E. Lahm, G.~L. Hofman,
+  \href{https://doi.org/10.1007/BF02647233}{Experimental studies of
+  {U}-{Pu}-{Zr} fast reactor fuel pins in the experimental breeder reactor-ll},
+  Metallurgical Transactions A 21~(7) (1990) 1863--1870.
+\newblock \href {https://doi.org/10.1007/BF02647233}
+  {\path{doi:10.1007/BF02647233}}.
+\newline\urlprefix\url{https://doi.org/10.1007/BF02647233}
+
+\bibitem{matthews_fuel-cladding_2017}
+C.~Matthews, C.~Unal, J.~Galloway, D.~D. Keiser, S.~L. Hayes,
+  \href{https://www.tandfonline.com/doi/full/10.1080/00295450.2017.1323535}{Fuel-{Cladding}
+  {Chemical} {Interaction} in {U}-{Pu}-{Zr} {Metallic} {Fuels}: {A} {Critical}
+  {Review}}, Nuclear Technology 198~(3) (2017) 231--259.
+\newblock \href {https://doi.org/10.1080/00295450.2017.1323535}
+  {\path{doi:10.1080/00295450.2017.1323535}}.
+\newline\urlprefix\url{https://www.tandfonline.com/doi/full/10.1080/00295450.2017.1323535}
+
+\bibitem{keiser_fuel_2019}
+D.~D. Keiser,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311518310602}{Fuel
+  cladding chemical interaction in metallic sodium fast reactor fuels: {A}
+  historical perspective}, Journal of Nuclear Materials 514 (2019) 393--398.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2018.09.045}
+  {\path{doi:10.1016/j.jnucmat.2018.09.045}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311518310602}
+
+\bibitem{harp_scanning_2017}
+J.~M. Harp, D.~L. Porter, B.~D. Miller, T.~L. Trowbridge, W.~J. Carmack,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311517306529}{Scanning
+  electron microscopy examination of a {Fast} {Flux} {Test} {Facility}
+  irradiated {U}-{10Zr} fuel cross section clad with {HT}-9}, Journal of
+  Nuclear Materials 494 (2017) 227--239.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2017.07.040}
+  {\path{doi:10.1016/j.jnucmat.2017.07.040}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311517306529}
+
+\bibitem{thomas2021nano}
+J.~Thomas, F.~Teng, D.~Murray, M.~A. Okuniewski, Nano-mechanical property
+  assessment of a neutron-irradiated ht-9 steel cladding and a fuel-cladding
+  chemical interaction region of a uranium--10 wt\% zirconium nuclear fuel, MRS
+  Advances (2021) 1--6\href
+  {https://doi.org/https://doi.org/10.1557/s43580-021-00179-x}
+  {\path{doi:https://doi.org/10.1557/s43580-021-00179-x}}.
+
+\bibitem{crawford_performance_1993}
+D.~C. Crawford, C.~E. Lahm, H.~Tsai, R.~G. Pahl,
+  \href{https://www.sciencedirect.com/science/article/pii/002231159390212H}{Performance
+  of {U}-{Pu}-{Zr} fuel cast into zirconium molds}, Journal of Nuclear
+  Materials 204 (1993) 157--164.
+\newblock \href {https://doi.org/10.1016/0022-3115(93)90212-H}
+  {\path{doi:10.1016/0022-3115(93)90212-H}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/002231159390212H}
+
+\bibitem{ryu_performance_2009}
+H.~J. Ryu, B.~O. Lee, S.~J. Oh, J.~H. Kim, C.~B. Lee,
+  \href{https://www.sciencedirect.com/science/article/pii/S002231150900419X}{Performance
+  of {FCCI} barrier foils for {U}–{Zr}–{X} metallic fuel}, Journal of
+  Nuclear Materials 392~(2) (2009) 206--212.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2009.03.011}
+  {\path{doi:10.1016/j.jnucmat.2009.03.011}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S002231150900419X}
+
+\bibitem{beausoleil_fast_2022}
+G.~L. Beausoleil, L.~Capriotti, B.~J. Curnutt, R.~S. Fielding, S.~L. Hayes,
+  D.~M. Wachs, \href{https://www.osti.gov/biblio/1903603}{{FAST} irradiations
+  and initial post irradiation examinations – {Part} {I}}, Arab Gulf Journal
+  of Scientific Research (1989) 54~(11), institution: Idaho National Laboratory
+  (INL), Idaho Falls, ID (United States) Number: INL/JOU-22-66174-Rev000
+  Publisher: Korean Nuclear Society (Aug. 2022).
+\newblock \href {https://doi.org/10.1016/j.net.2022.07.008}
+  {\path{doi:10.1016/j.net.2022.07.008}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/1903603}
+
+\bibitem{kim_performance_2009}
+J.~H. Kim, H.~J. Ryu, J.~H. Baek, S.~J. Oh, B.~O. Lee, C.~B. Lee, Y.~S. Yoon,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311509007715}{Performance
+  of a diffusion barrier under a fuel–clad chemical interaction ({FCCI})},
+  Journal of Nuclear Materials 394~(2) (2009) 144--150.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2009.08.018}
+  {\path{doi:10.1016/j.jnucmat.2009.08.018}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311509007715}
+
+\bibitem{jee_improvement_2013}
+S.~H. Jee, K.~S. Lee, J.~H. Kim, Y.~S. Yoon,
+  \href{https://www.sciencedirect.com/science/article/pii/S1567173913002976}{Improvement
+  of the zirconium diffusion barrier between lanthanide ({La}–{Ce}) and a
+  clad material by hydrothermal crystallization}, Current Applied Physics
+  13~(9) (2013) 1995--2000.
+\newblock \href {https://doi.org/10.1016/j.cap.2013.08.005}
+  {\path{doi:10.1016/j.cap.2013.08.005}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1567173913002976}
+
+\bibitem{lee_effect_2015}
+K.~S. Lee, I.~Y. Kim, W.~Lee, Y.~S. Yoon,
+  \href{https://doi.org/10.1007/s12540-015-4433-7}{Effect of {Zr} thin film on
+  {Zr} foil as a {FCCI} barrier between lanthanide ({La}-{Ce}) and clad
+  material}, Metals and Materials International 21~(3) (2015) 498--503.
+\newblock \href {https://doi.org/10.1007/s12540-015-4433-7}
+  {\path{doi:10.1007/s12540-015-4433-7}}.
+\newline\urlprefix\url{https://doi.org/10.1007/s12540-015-4433-7}
+
+\bibitem{yang_fcci_2010}
+S.~W. Yang, H.~J. Ryu, J.~H. Kim, B.~O. Lee, C.~B. Lee,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311510001364}{{FCCI}
+  barrier performance of electroplated {Cr} for metallic fuel}, Journal of
+  Nuclear Materials 401~(1) (2010) 98--103.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2010.04.004}
+  {\path{doi:10.1016/j.jnucmat.2010.04.004}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311510001364}
+
+\bibitem{oh_comparative_2024}
+J.~M. Oh, D.~Kim, S.~Yoo, S.~H. Kim, T.~Yim, M.~Lee, S.~Yeo, J.~H. Kim,
+  \href{https://www.sciencedirect.com/science/article/pii/S0029549324002024}{Comparative
+  study of {Cr}-coating and {Zr}-lining method on inner surface of {HT9}
+  cladding to mitigate {Fuel}-{Cladding} chemical interaction}, Nuclear
+  Engineering and Design 421 (2024) 113102.
+\newblock \href {https://doi.org/10.1016/j.nucengdes.2024.113102}
+  {\path{doi:10.1016/j.nucengdes.2024.113102}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0029549324002024}
+
+\bibitem{lo_vanadium_2014}
+W.-Y. Lo, Y.~Yang,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311514001792}{Vanadium
+  diffusion coating on {HT}-9 cladding for mitigating the fuel cladding
+  chemical interactions}, Journal of Nuclear Materials 451~(1) (2014) 137--142.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2014.03.052}
+  {\path{doi:10.1016/j.jnucmat.2014.03.052}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311514001792}
+
+\bibitem{lee_vanadium_2012}
+K.-S. Lee, S.-H. Leea, D.~J. Kalitaa, S.-P. Wooa, J.-H. Kimb, J.-H.~B.
+  Young-Soo, Vanadium as barrier to {Prevent} {Inter}-diffusion between
+  {Metallic} {Fuel} and {Clad} {Material}, Transactions of the Korean Nuclear
+  Society Autumn Meeting (2012) [2 p.].
+
+\bibitem{OH2024113102}
+J.~M. Oh, D.~Kim, S.~Yoo, S.~H. Kim, T.~Yim, M.~Lee, S.~Yeo, J.~H. Kim,
+  \href{https://www.sciencedirect.com/science/article/pii/S0029549324002024}{Comparative
+  study of cr-coating and zr-lining method on inner surface of ht9 cladding to
+  mitigate fuel-cladding chemical interaction}, Nuclear Engineering and Design
+  421 (2024) 113102.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.nucengdes.2024.113102}
+  {\path{doi:https://doi.org/10.1016/j.nucengdes.2024.113102}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0029549324002024}
+
+\bibitem{HIRSCHHORN2025113811}
+J.~Hirschhorn, L.~Aagesen, C.~Jiang, G.~Beausoleil,
+  \href{https://www.sciencedirect.com/science/article/pii/S0029549324009117}{Development
+  and preliminary validation of a mechanistic multiscale model for
+  fuel-cladding chemical interaction in metallic nuclear fuels}, Nuclear
+  Engineering and Design 432 (2025) 113811.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.nucengdes.2024.113811}
+  {\path{doi:https://doi.org/10.1016/j.nucengdes.2024.113811}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0029549324009117}
+
+\bibitem{mantina2009first}
+M.~Mantina, Y.~Wang, L.~Chen, Z.~Liu, C.~Wolverton, First principles impurity
+  diffusion coefficients, Acta Materialia 57~(14) (2009) 4102--4108.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2009.05.006}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2009.05.006}}.
+
+\bibitem{huang2010calculation}
+S.~Huang, D.~L. Worthington, M.~Asta, V.~Ozolins, G.~Ghosh, P.~K. Liaw,
+  Calculation of impurity diffusivities in $\alpha$-fe using first-principles
+  methods, Acta Materialia 58~(6) (2010) 1982--1993.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2009.11.041}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2009.11.041}}.
+
+\bibitem{becquart2012solute}
+C.~Becquart, C.~Domain, Solute--point defect interactions in bcc systems: Focus
+  on first principles modelling in w and rpv steels, Current Opinion in Solid
+  State and Materials Science 16~(3) (2012) 115--125.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.cossms.2012.01.001}
+  {\path{doi:https://doi.org/10.1016/j.cossms.2012.01.001}}.
+
+\bibitem{messina_exact_2014}
+L.~Messina, M.~Nastar, T.~Garnier, C.~Domain, P.~Olsson,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.90.104203}{Exact \textit{ab
+  initio} transport coefficients in bcc {Fe} - {X} ( {X} = {Cr} , {Cu} , {Mn} ,
+  {Ni} , {P} , {Si} ) dilute alloys}, Physical Review B 90~(10) (2014) 104203.
+\newblock \href {https://doi.org/10.1103/PhysRevB.90.104203}
+  {\path{doi:10.1103/PhysRevB.90.104203}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.90.104203}
+
+\bibitem{leclaire1970solvent}
+A.~Le~Claire, Solvent self-diffusion in dilute bcc solid solutions,
+  Philosophical Magazine 21~(172) (1970) 819--832.
+\newblock \href {https://doi.org/https://doi.org/10.1080/14786437008238468}
+  {\path{doi:https://doi.org/10.1080/14786437008238468}}.
+
+\bibitem{van_der_ven_first_2005}
+A.~Van~der Ven, G.~Ceder,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.94.045901}{First
+  {Principles} {Calculation} of the {Interdiffusion} {Coefficient} in {Binary}
+  {Alloys}}, Physical Review Letters 94~(4) (2005) 045901, publisher: American
+  Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.94.045901}
+  {\path{doi:10.1103/PhysRevLett.94.045901}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.94.045901}
+
+\bibitem{nastar_self-consistent_2000}
+M.~Nastar, V.~Y. Dobretsov, G.~Martin,
+  \href{https://doi.org/10.1080/01418610008212047}{Self-consistent formulation
+  of configurational kinetics close to equilibrium: {The} phenomenological
+  coefficients for diffusion in crystalline solids}, Philosophical Magazine A
+  80~(1) (2000) 155--184, publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/01418610008212047.
+\newblock \href {https://doi.org/10.1080/01418610008212047}
+  {\path{doi:10.1080/01418610008212047}}.
+\newline\urlprefix\url{https://doi.org/10.1080/01418610008212047}
+
+\bibitem{nastar_mean_2005}
+M.~Nastar,
+  \href{http://www.tandfonline.com/doi/abs/10.1080/14786430500228390}{A mean
+  field theory for diffusion in a dilute multi-component alloy: a new model for
+  the effect of solutes on self-diffusion}, Philosophical Magazine 85~(32)
+  (2005) 3767--3794.
+\newblock \href {https://doi.org/10.1080/14786430500228390}
+  {\path{doi:10.1080/14786430500228390}}.
+\newline\urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/14786430500228390}
+
+\bibitem{aagesen_jr_physics-based_2022}
+L.~K. Aagesen~Jr., C.~Jiang, \href{https://www.osti.gov/biblio/1892317}{A
+  physics-based model of cladding wastage layer formation rate}, Tech. Rep.
+  INL/RPT-22-69107-Rev000, Idaho National Laboratory (INL), Idaho Falls, ID
+  (United States) (Aug. 2022).
+\newblock \href {https://doi.org/10.2172/1892317} {\path{doi:10.2172/1892317}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/1892317}
+
+\bibitem{aagesen_mechanistic_2023}
+J.~Aagesen, J.~A. Hirschhorn, C.~Jiang,
+  \href{https://www.osti.gov/biblio/1999521}{Mechanistic {FCCI} model for
+  {BISON}}, Tech. Rep. INL/RPT-23-74500-Rev000, Idaho National Laboratory
+  (INL), Idaho Falls, ID (United States) (Aug. 2023).
+\newblock \href {https://doi.org/10.2172/1999521} {\path{doi:10.2172/1999521}}.
+\newline\urlprefix\url{https://www.osti.gov/biblio/1999521}
+
+\bibitem{yang_significant_2023}
+C.~Yang, J.~Tian, H.~Guan, Z.~Liu, X.~Pan, S.~Huang,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S1359646223000295}{Significant
+  difference of lanthanide fission products diffusion in {Cr} and
+  \${\textbackslash}alpha\$-{Fe}: {An} atomic-level study}, Scripta Materialia
+  227 (2023) 115304.
+\newblock \href {https://doi.org/10.1016/j.scriptamat.2023.115304}
+  {\path{doi:10.1016/j.scriptamat.2023.115304}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S1359646223000295}
+
+\bibitem{bocquet_migration_2017}
+J.-L. Bocquet, C.~Barouh, C.-C. Fu,
+  \href{http://link.aps.org/doi/10.1103/PhysRevB.95.214108}{Migration mechanism
+  for oversized solutes in cubic lattices: {The} case of yttrium in iron},
+  Physical Review B 95~(21) (2017) 214108.
+\newblock \href {https://doi.org/10.1103/PhysRevB.95.214108}
+  {\path{doi:10.1103/PhysRevB.95.214108}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevB.95.214108}
+
+\bibitem{shousha2024first}
+S.~Shousha, B.~Beeler, L.~K. Aagesen, G.~L. Beausoleil~II, M.~A. Okuniewski,
+  First-principles investigation of lanthanides diffusion in hcp zirconium via
+  vacancy-mediated transport, Journal of Nuclear Materials 601 (2024) 155310.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2024.155310}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2024.155310}}.
+
+\bibitem{MESSINA201328}
+L.~Messina, Z.~Chang, P.~Olsson,
+  \href{https://www.sciencedirect.com/science/article/pii/S0168583X13002164}{Ab
+  initio modelling of vacancy–solute dragging in dilute irradiated iron-based
+  alloys}, Nuclear Instruments and Methods in Physics Research Section B: Beam
+  Interactions with Materials and Atoms 303 (2013) 28--32, proceedings of the
+  11th Computer Simulation of Radiation Effects in Solids (COSIRES) Conference
+  Santa Fe, New Mexico, USA, July 24-29, 2012.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.nimb.2013.01.049}
+  {\path{doi:https://doi.org/10.1016/j.nimb.2013.01.049}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0168583X13002164}
+
+\bibitem{vineyard_frequency_1957}
+G.~H. Vineyard,
+  \href{https://www.sciencedirect.com/science/article/pii/0022369757900598}{Frequency
+  factors and isotope effects in solid state rate processes}, Journal of
+  Physics and Chemistry of Solids 3~(1) (1957) 121--127.
+\newblock \href {https://doi.org/10.1016/0022-3697(57)90059-8}
+  {\path{doi:10.1016/0022-3697(57)90059-8}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/0022369757900598}
+
+\bibitem{wu_high-throughput_2016}
+H.~Wu, T.~Mayeshiba, D.~Morgan,
+  \href{https://www.nature.com/articles/sdata201654}{High-throughput ab-initio
+  dilute solute diffusion database}, Scientific Data 3~(1) (2016) 160054,
+  publisher: Nature Publishing Group.
+\newblock \href {https://doi.org/10.1038/sdata.2016.54}
+  {\path{doi:10.1038/sdata.2016.54}}.
+\newline\urlprefix\url{https://www.nature.com/articles/sdata201654}
+
+\bibitem{allnatt_atomic_2003}
+A.~R. Allnatt, A.~B. Lidiard, Atomic {Transport} in {Solids}, Cambridge
+  University Press, 2003, google-Books-ID: 4h440dido0wC.
+
+\bibitem{schuler_kineclue_2020}
+T.~Schuler, L.~Messina, M.~Nastar,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0927025619304902}{{KineCluE}:
+  {A} kinetic cluster expansion code to compute transport coefficients beyond
+  the dilute limit}, Computational Materials Science 172 (2020) 109191.
+\newblock \href {https://doi.org/10.1016/j.commatsci.2019.109191}
+  {\path{doi:10.1016/j.commatsci.2019.109191}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0927025619304902}
+
+\bibitem{shousha_vacancy-mediated_2024}
+S.~Shousha, S.~B. Kadambi, B.~Beeler, B.~Kombaiah,
+  \href{https://link.aps.org/doi/10.1103/PhysRevMaterials.8.083605}{Vacancy-mediated
+  transport and segregation tendencies of solutes in fcc nickel under
+  diffusional creep: A density functional theory study}, Phys. Rev. Mater. 8
+  (2024) 083605.
+\newblock \href {https://doi.org/10.1103/PhysRevMaterials.8.083605}
+  {\path{doi:10.1103/PhysRevMaterials.8.083605}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevMaterials.8.083605}
+
+\bibitem{messina_solute_2020}
+L.~Messina, T.~Schuler, M.~Nastar, M.-C. Marinica, P.~Olsson,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S1359645420302251}{Solute
+  diffusion by self-interstitial defects and radiation-induced segregation in
+  ferritic {Fe}–{X} ({X}={Cr}, {Cu}, {Mn}, {Ni}, {P}, {Si}) dilute alloys},
+  Acta Materialia 191 (2020) 166--185.
+\newblock \href {https://doi.org/10.1016/j.actamat.2020.03.038}
+  {\path{doi:10.1016/j.actamat.2020.03.038}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S1359645420302251}
+
+\bibitem{marwick_segregation_1978}
+A.~D. Marwick, \href{https://dx.doi.org/10.1088/0305-4608/8/9/008}{Segregation
+  in irradiated alloys: {The} inverse {Kirkendall} effect and the effect of
+  constitution on void swelling}, Journal of Physics F: Metal Physics 8~(9)
+  (1978) 1849.
+\newblock \href {https://doi.org/10.1088/0305-4608/8/9/008}
+  {\path{doi:10.1088/0305-4608/8/9/008}}.
+\newline\urlprefix\url{https://dx.doi.org/10.1088/0305-4608/8/9/008}
+
+\bibitem{kresse_ab_1993}
+G.~Kresse, J.~Hafner,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.47.558}{Ab initio molecular
+  dynamics for liquid metals}, Physical Review B 47~(1) (1993) 558--561,
+  publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.47.558}
+
+\bibitem{kresse_efficient_1996}
+G.~Kresse, J.~Furthmüller,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}{Efficient iterative
+  schemes for ab initio total-energy calculations using a plane-wave basis
+  set}, Physical Review B 54~(16) (1996) 11169--11186, publisher: American
+  Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.54.11169}
+
+\bibitem{perdew_generalized_1996}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.77.3865}{Generalized
+  {Gradient} {Approximation} {Made} {Simple}}, Physical Review Letters 77~(18)
+  (1996) 3865--3868, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.77.3865}
+  {\path{doi:10.1103/PhysRevLett.77.3865}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.77.3865}
+
+\bibitem{methfessel_high-precision_1989}
+M.~Methfessel, A.~T. Paxton,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.40.3616}{High-precision
+  sampling for {Brillouin}-zone integration in metals}, Physical Review B
+  40~(6) (1989) 3616--3621, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.40.3616}
+  {\path{doi:10.1103/PhysRevB.40.3616}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.40.3616}
+
+\bibitem{henkelman_climbing_2000}
+G.~Henkelman, B.~P. Uberuaga, H.~Jónsson,
+  \href{https://doi.org/10.1063/1.1329672}{A climbing image nudged elastic band
+  method for finding saddle points and minimum energy paths}, The Journal of
+  Chemical Physics 113~(22) (2000) 9901--9904.
+\newblock \href {https://doi.org/10.1063/1.1329672}
+  {\path{doi:10.1063/1.1329672}}.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1329672}
+
+\bibitem{hafner_ab-initio_2008}
+J.~Hafner,
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.21057}{Ab-initio
+  simulations of materials using {VASP}: {Density}-functional theory and
+  beyond}, Journal of Computational Chemistry 29~(13) (2008) 2044--2078,
+  \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.21057.
+\newblock \href {https://doi.org/10.1002/jcc.21057}
+  {\path{doi:10.1002/jcc.21057}}.
+\newline\urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.21057}
+
+\bibitem{nguyen_bcc_2006}
+D.~Nguyen-Manh, A.~P. Horsfield, S.~L. Dudarev,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.73.020101}{Self-interstitial
+  atom defects in bcc transition metals: Group-specific trends}, Phys. Rev. B
+  73 (2006) 020101.
+\newblock \href {https://doi.org/10.1103/PhysRevB.73.020101}
+  {\path{doi:10.1103/PhysRevB.73.020101}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.73.020101}
+
+\bibitem{SHANG2016128}
+S.-L. Shang, B.-C. Zhou, W.~Y. Wang, A.~J. Ross, X.~L. Liu, Y.-J. Hu, H.-Z.
+  Fang, Y.~Wang, Z.-K. Liu,
+  \href{https://www.sciencedirect.com/science/article/pii/S1359645416300829}{A
+  comprehensive first-principles study of pure elements: Vacancy formation and
+  migration energies and self-diffusion coefficients}, Acta Materialia 109
+  (2016) 128--141.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2016.02.031}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2016.02.031}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1359645416300829}
+
+\bibitem{BOEV201714}
+A.~Boev, D.~Aksyonov, A.~Kartamyshev, V.~Maksimenko, I.~Nelasov, A.~Lipnitskii,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022311516312417}{Interaction
+  of ti and cr atoms with point defects in bcc vanadium: A dft study}, Journal
+  of Nuclear Materials 492 (2017) 14--21.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2017.04.046}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2017.04.046}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022311516312417}
+
+\bibitem{fattahpour_understanding_2022}
+S.~Fattahpour, A.~Davariashtiyani, S.~Kadkhodaei,
+  \href{https://link.aps.org/doi/10.1103/PhysRevMaterials.6.023803}{Understanding
+  the role of anharmonic phonons in diffusion of bcc metals}, Physical Review
+  Materials 6~(2) (2022) 023803, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevMaterials.6.023803}
+  {\path{doi:10.1103/PhysRevMaterials.6.023803}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevMaterials.6.023803}
+
+\bibitem{DENG201655}
+L.~Deng, X.~Zhang, J.~Tang, H.~Deng, S.~Xiao, W.~Hu,
+  \href{https://www.sciencedirect.com/science/article/pii/S0925838815316418}{First-principles
+  study of the binding preferences and diffusion behaviors of solutes in
+  vanadium alloys}, Journal of Alloys and Compounds 660 (2016) 55--61.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jallcom.2015.11.085}
+  {\path{doi:https://doi.org/10.1016/j.jallcom.2015.11.085}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0925838815316418}
+
+\bibitem{varvenne_point_2013}
+C.~Varvenne, F.~Bruneval, M.-C. Marinica, E.~Clouet,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.88.134102}{Point defect
+  modeling in materials: {Coupling} ab initio and elasticity approaches},
+  Physical Review B 88~(13) (2013) 134102, publisher: American Physical
+  Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.88.134102}
+  {\path{doi:10.1103/PhysRevB.88.134102}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.88.134102}
+
+\bibitem{varvenne_elastic_2017}
+C.~Varvenne, E.~Clouet,
+  \href{https://link.aps.org/doi/10.1103/PhysRevB.96.224103}{Elastic dipoles of
+  point defects from atomistic simulations}, Physical Review B 96~(22) (2017)
+  224103.
+\newblock \href {https://doi.org/10.1103/PhysRevB.96.224103}
+  {\path{doi:10.1103/PhysRevB.96.224103}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.96.224103}
+
+\bibitem{mundy1976isotope}
+J.~Mundy, C.~Tse, W.~McFall, Isotope effect in chromium self-diffusion,
+  Physical Review B 13~(6) (1976) 2349.
+\newblock \href {https://doi.org/https://doi.org/10.1103/PhysRevB.13.2349}
+  {\path{doi:https://doi.org/10.1103/PhysRevB.13.2349}}.
+
+\bibitem{mundy1981self}
+J.~Mundy, H.~Hoff, J.~Pelleg, S.~Rothman, L.~Nowicki, F.~Schmidt,
+  Self-diffusion in chromium, Physical Review B 24~(2) (1981) 658.
+\newblock \href {https://doi.org/https://doi.org/10.1103/PhysRevB.24.658}
+  {\path{doi:https://doi.org/10.1103/PhysRevB.24.658}}.
+
+\bibitem{ullmaier1991atomic}
+H.~Ullmaier, P.~Ehrhart, P.~Jung, H.~Schultz, Atomic defects in metals/atomare
+  fehlstellen in metallen, Numerical Data and Functional Relationships in
+  Science and Technology--New Series/Condensed Matter, Springer, Berlin
+  Heidelberg (1991).
+\newblock \href {https://doi.org/https://doi.org/10.1007/b37800}
+  {\path{doi:https://doi.org/10.1007/b37800}}.
+
+\bibitem{segel1997vanadium}
+V.~Segel, J.~Pelleg, Vanadium diffusion in v-co dilute alloys, Philosophical
+  Magazine A 76~(6) (1997) 1203--1214.
+\newblock \href {https://doi.org/https://doi.org/10.1080/01418619708214223}
+  {\path{doi:https://doi.org/10.1080/01418619708214223}}.
+
+\bibitem{bacon1969magnetic}
+G.~Bacon, N.~Cowlam, Magnetic studies of annealed and alloyed chromium by
+  neutron diffraction, Journal of Physics C: Solid State Physics 2~(2) (1969)
+  238.
+\newblock \href {https://doi.org/10.1088/0022-3719/2/2/306}
+  {\path{doi:10.1088/0022-3719/2/2/306}}.
+
+\bibitem{helmreich_diffusion_2014}
+G.~W. Helmreich, \href{https://hdl.handle.net/1969.1/186992}{Diffusion {Study}
+  on {Measuring} and {Mitigating} the {Interactions} between {Neodymium} and
+  {Steel} {Cladding} {Materials}}, {PhD} {Thesis}, Texas A$\&$M University
+  (2014).
+\newline\urlprefix\url{https://hdl.handle.net/1969.1/186992}
+
+\bibitem{pruthi1984solute}
+D.~Pruthi, R.~Agarwala, Solute and solvent diffusion in v-zr alloys,
+  Philosophical Magazine A 49~(2) (1984) 263--271.
+\newblock \href {https://doi.org/https://doi.org/10.1080/01418618408234927}
+  {\path{doi:https://doi.org/10.1080/01418618408234927}}.
+
+\bibitem{fedorov1971diffusion}
+G.~B. Fedorov, E.~A. Smirnov, F.~I. Zhomov, V.~N. Gusev, S.~A. Paraev,
+  \href{https://doi.org/10.1007/BF01165601}{Diffusion of uranium in refractory
+  {BCC} metals}, Soviet Atomic Energy 31~(5) (1971) 1280--1282.
+\newblock \href {https://doi.org/10.1007/BF01165601}
+  {\path{doi:10.1007/BF01165601}}.
+\newline\urlprefix\url{https://doi.org/10.1007/BF01165601}
+
+\bibitem{rahm2016atomic}
+M.~Rahm, R.~Hoffmann, N.~Ashcroft, Atomic and ionic radii of elements 1--96,
+  Chemistry--A European Journal 22~(41) (2016) 14625--14632.
+\newblock \href {https://doi.org/https://doi.org/10.1002/chem.201602949}
+  {\path{doi:https://doi.org/10.1002/chem.201602949}}.
+
+\bibitem{janotti2004solute}
+A.~Janotti, M.~Kr{\v{c}}mar, C.~Fu, R.~Reed, Solute diffusion in metals: larger
+  atoms can move faster, Physical Review Letters 92~(8) (2004) 085901.
+\newblock \href {https://doi.org/https://doi.org/10.1103/PhysRevLett.92.085901}
+  {\path{doi:https://doi.org/10.1103/PhysRevLett.92.085901}}.
+
+\end{thebibliography}
