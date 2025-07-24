@@ -1,0 +1,210 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Wallenius2020}
+J.~Wallenius, Nitride fuels, Comprehensive Nuclear Materials 5 (2020) 88--101.
+\newblock \href {https://doi.org/10.1016/B978-0-12-803581-8.11694-7}
+  {\path{doi:10.1016/B978-0-12-803581-8.11694-7}}.
+
+\bibitem{Uno2020}
+M.~Uno, T.~Nishi, M.~Takano, Thermodynamic and thermophysical properties of the
+  actinide nitrides, Comprehensive Nuclear Materials: Second Edition (2020)
+  202--231\href {https://doi.org/10.1016/B978-0-12-803581-8.11749-7}
+  {\path{doi:10.1016/B978-0-12-803581-8.11749-7}}.
+
+\bibitem{AFLOW}
+S.~Curtarolo, W.~Setyawan, G.~L. Hart, M.~Jahnatek, R.~V. Chepulskii, R.~H.
+  Taylor, S.~Wang, J.~Xue, K.~Yang, O.~Levy, M.~J. Mehl, H.~T. Stokes, D.~O.
+  Demchenko, D.~Morgan, {AFLOW}: An automatic framework for high-throughput
+  materials discovery, Computational Materials Science 58 (2012).
+\newblock \href {https://doi.org/10.1016/j.commatsci.2012.02.005}
+  {\path{doi:10.1016/j.commatsci.2012.02.005}}.
+
+\bibitem{Hayes1990I}
+S.~L. Hayes, J.~K. Thomas, K.~L. Peddicord, Material property correlations for
+  uranium mononitride {I}. physical properties, Journal of Nuclear Materials
+  171 (1990) 262--270.
+
+\bibitem{Hayes1990IV}
+S.~L. Hayes, J.~K. Thomas, K.~L. Peddicord, Material property correlations for
+  uranium mononitride {IV}. thermodynamic properties, Journal of Nuclear
+  Materials 171 (1990) 300--318.
+
+\bibitem{Curry1965}
+N.~A. Curry, An investigation of the magnetic structure of uranium nitride by
+  neutron diffraction, in: Proceedings of the Physical Society, Vol.~86, 1965.
+\newblock \href {https://doi.org/10.1088/0370-1328/86/6/304}
+  {\path{doi:10.1088/0370-1328/86/6/304}}.
+
+\bibitem{Samsel2007}
+M.~Samsel-Czekała, E.~Talik, P.~De, R.~Troć, H.~Misiorek, C.~Sułkowski,
+  Electronic structure and magnetic and transport properties of
+  single-crystalline {UN}, Physical Review B 76 (2007) 144426.
+\newblock \href {https://doi.org/10.1103/PhysRevB.76.144426}
+  {\path{doi:10.1103/PhysRevB.76.144426}}.
+
+\bibitem{Abrikosov2016}
+I.~A. Abrikosov, A.~V. Ponomareva, P.~Steneteg, S.~A. Barannikova, B.~Alling,
+  Recent progress in simulations of the paramagnetic state of magnetic
+  materials (2016).
+\newblock \href {https://doi.org/10.1016/j.cossms.2015.07.003}
+  {\path{doi:10.1016/j.cossms.2015.07.003}}.
+
+\bibitem{Steneteg2012}
+P.~Steneteg, B.~Alling, I.~A. Abrikosov, Equation of state of paramagnetic
+  {CrN} from ab initio molecular dynamics, Physical Review B - Condensed Matter
+  and Materials Physics 85 (2012).
+\newblock \href {https://doi.org/10.1103/PhysRevB.85.144404}
+  {\path{doi:10.1103/PhysRevB.85.144404}}.
+
+\bibitem{Gyorffy1985}
+B.~L. Gyorffy, A.~J. Pindor, J.~Staunton, G.~M. Stocks, H.~Winter, A
+  first-principles theory of ferromagnetic phase transitions in metals, Journal
+  of Physics F: Metal Physics 15 (1985).
+\newblock \href {https://doi.org/10.1088/0305-4608/15/6/018}
+  {\path{doi:10.1088/0305-4608/15/6/018}}.
+
+\bibitem{Giustino2014}
+F.~Giustino, Materials Modelling using Density Functional Theory: Properties
+  and Predictions, 1st Edition, Oxford University Press, 2014.
+
+\bibitem{Kotliar2004}
+G.~Kotliar, D.~Vollhardt, Strongly correlated materials: Insights from
+  dynamical mean-field theory (2004).
+\newblock \href {https://doi.org/10.1063/1.1712502}
+  {\path{doi:10.1063/1.1712502}}.
+
+\bibitem{Liu2019}
+H.~Liu, A.~Claisse, S.~C. Middleburgh, P.~Olsson, Choosing the correct strong
+  correlation correction for {U$_3$Si$_2$}: Influence of magnetism, Journal of
+  Nuclear Materials 527 (2019).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2019.151828}
+  {\path{doi:10.1016/j.jnucmat.2019.151828}}.
+
+\bibitem{Shousha2024}
+S.~Shousha, B.~Beeler, Magnetism and finite-temperature effects in {UZr$_2$}: A
+  density functional theory analysis, Journal of Nuclear Materials 595 (2024)
+  155037.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2024.155037}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2024.155037}}.
+
+\bibitem{Mozafari2016}
+E.~Mozafari, N.~Shulumba, P.~Steneteg, B.~Alling, I.~A. Abrikosov,
+  Finite-temperature elastic constants of paramagnetic materials within the
+  disordered local moment picture from ab initio molecular dynamics
+  calculations, Physical Review B 94 (2016).
+\newblock \href {https://doi.org/10.1103/PhysRevB.94.054111}
+  {\path{doi:10.1103/PhysRevB.94.054111}}.
+
+\bibitem{Alling2016}
+B.~Alling, F.~Körmann, B.~Grabowski, A.~Glensk, I.~A. Abrikosov,
+  J.~Neugebauer, Strong impact of lattice vibrations on electronic and magnetic
+  properties of paramagnetic {Fe} revealed by disordered local moments
+  molecular dynamics, Physical Review B 93 (2016).
+\newblock \href {https://doi.org/10.1103/PhysRevB.93.224411}
+  {\path{doi:10.1103/PhysRevB.93.224411}}.
+
+\bibitem{Kocevski2022I}
+V.~Kocevski, D.~A. Rehn, M.~W.~D. Cooper, D.~A. Andersson, First-principles
+  investigation of uranium mononitride ({UN}): Effect of magnetic ordering,
+  spin-orbit interactions and exchange correlation functional, Journal of
+  Nuclear Materials 559 (2022).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2021.153401}
+  {\path{doi:10.1016/j.jnucmat.2021.153401}}.
+
+\bibitem{Claisse2016b}
+A.~Claisse, M.~Klipfel, N.~Lindbom, M.~Freyss, P.~Olsson, {GGA$+U$} study of
+  uranium mononitride: A comparison of the {U}-ramping and occupation matrix
+  schemes and incorporation energies of fission products, Journal of Nuclear
+  Materials 478 (2016) 119--124.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2016.06.007}
+  {\path{doi:10.1016/j.jnucmat.2016.06.007}}.
+
+\bibitem{Kocevski2023}
+V.~Kocevski, D.~A. Rehn, A.~J. Terricabras, A.~van Veelen, M.~W. Cooper, S.~W.
+  Paisner, S.~C. Vogel, J.~T. White, D.~A. Andersson, Finite temperature
+  properties of uranium mononitride, Journal of Nuclear Materials 576 (2023)
+  154241.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2023.154241}
+  {\path{doi:10.1016/j.jnucmat.2023.154241}}.
+
+\bibitem{Kresse1993}
+G.~Kresse, J.~Hafner, Ab initio molecular dynamics for liquid metals, Physical
+  Review B 47 (1993).
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+
+\bibitem{Kresse1996a}
+G.~Kresse, J.~Furthmüller, Efficiency of ab-initio total energy calculations
+  for metals and semiconductors using a plane-wave basis set, Computational
+  Materials Science 6 (1996).
+\newblock \href {https://doi.org/10.1016/0927-0256(96)00008-0}
+  {\path{doi:10.1016/0927-0256(96)00008-0}}.
+
+\bibitem{Kresse1996b}
+G.~Kresse, J.~Furthmüller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Physical Review B -
+  Condensed Matter and Materials Physics 54 (1996).
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+
+\bibitem{Perdew1996}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof, Generalized gradient approximation made
+  simple, Physical Review Letters 77 (1996).
+\newblock \href {https://doi.org/10.1103/PhysRevLett.77.3865}
+  {\path{doi:10.1103/PhysRevLett.77.3865}}.
+
+\bibitem{Methfessel1989}
+M.~Methfessel, A.~T. Paxton, High-precision sampling for {Brillouin-zone}
+  integration in metals, Physical Review B 40 (1989).
+\newblock \href {https://doi.org/10.1103/PhysRevB.40.3616}
+  {\path{doi:10.1103/PhysRevB.40.3616}}.
+
+\bibitem{Yang2021}
+L.~Yang, N.~Kaltsoyannis, Incorporation of {Kr} and {Xe} in uranium
+  mononitride: A density functional theory study, Journal of Physical Chemistry
+  C 125 (2021) 26999--27008.
+\newblock \href {https://doi.org/10.1021/acs.jpcc.1c08523}
+  {\path{doi:10.1021/acs.jpcc.1c08523}}.
+
+\bibitem{Gopal1966}
+E.~S.~R. Gopal, Specific Heats at Low Temperatures, Springer US, 1966.
+\newblock \href {https://doi.org/10.1007/978-1-4684-9081-7_4}
+  {\path{doi:10.1007/978-1-4684-9081-7_4}}.
+
+\bibitem{AbdulHameed2024}
+M.~AbdulHameed, B.~Beeler, C.~O. Galvin, M.~W. Cooper, Assessment of uranium
+  nitride interatomic potentials, Journal of Nuclear Materials (2024)
+  155247\href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2024.155247}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2024.155247}}.
+
+\bibitem{NUPDOWN}
+VASP, \href{https://www.vasp.at/wiki/index.php/NUPDOWN}{{NUPDOWN} - {VASP}
+  {Wiki}}.
+\newline\urlprefix\url{https://www.vasp.at/wiki/index.php/NUPDOWN}
+
+\bibitem{Gryaznov2012}
+D.~Gryaznov, E.~Heifets, E.~Kotomin, The first-principles treatment of the
+  electron-correlation and spin-orbital effects in uranium mononitride nuclear
+  fuels, Physical Chemistry Chemical Physics 14 (2012) 4482--4490.
+\newblock \href {https://doi.org/10.1039/c2cp40297a}
+  {\path{doi:10.1039/c2cp40297a}}.
+
+\bibitem{Shorikov2005}
+A.~O. Shorikov, A.~V. Lukoyanov, M.~A. Korotin, V.~I. Anisimov, Magnetic state
+  and electronic structure of the $\delta$ and $\alpha$ phases of metallic {Pu}
+  and its compounds, Physical Review B - Condensed Matter and Materials Physics
+  72 (2005).
+\newblock \href {https://doi.org/10.1103/PhysRevB.72.024458}
+  {\path{doi:10.1103/PhysRevB.72.024458}}.
+
+\bibitem{MAGMOM}
+VASP, \href{https://www.vasp.at/wiki/index.php/MAGMOM}{{MAGMOM} - {VASP}
+  {Wiki}}.
+\newline\urlprefix\url{https://www.vasp.at/wiki/index.php/MAGMOM}
+
+\end{thebibliography}
