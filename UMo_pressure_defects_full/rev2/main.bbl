@@ -1,0 +1,394 @@
+\begin{thebibliography}{10}
+
+\bibitem{umo_qual_plan}
+K.~Daum, C.~Miller, B.~Durtschi, and J.~Cole.
+\newblock U-10mo monolithic fuel qualification plan.
+\newblock Technical Report INL/EXT-13-30238 rev2, Idaho National Laboratory,
+  2021.
+
+\bibitem{meyer2014}
+M.~Meyer, J.~Gan, J.~Jue, D.~Keiser, E.~Perez, A.~Robinson, D.~Wachs,
+  N.~Woolstenhulme, G.~Hofman, and Y.~Kim.
+\newblock Irradiation performation of u-mo monolithic fuel.
+\newblock {\em Nucl. Eng. Tech.}, 46:169, 2014.
+
+\bibitem{ryu2014}
+HO~JIN RYU and YEON~SOO KIM.
+\newblock Influence of fuel-matrix interaction on the breakaway swelling of
+  u-mo dispersion fuel in al.
+\newblock {\em Nuclear Engineering and Technology}, 46(2):159--168, 2014.
+
+\bibitem{robinson2021}
+A.B. Robinson, W.J. Williams, W.A. Hanson, B.H. Rabin, N.J. Lybeck, and M.K.
+  Meyer.
+\newblock Swelling of u-mo monolithic fuel: Developing a predictive swelling
+  correlation under research reactor conditions.
+\newblock {\em Journal of Nuclear Materials}, 544:152703, 2021.
+
+\bibitem{smith2023}
+Charlyne Smith, Kaustubh Bawane, Daniele Salvato, Mukesh Bachhav, Dennis
+  Keiser, Brandon Miller, Jian Gan, Jan-Fong Jue, Dong Choe, Paul Gilbreath,
+  and William Hanson.
+\newblock Early self-organization of fission gas bubble superlattice formation
+  in neutron-irradiated monolithic u-10mo fuels.
+\newblock {\em Journal of Nuclear Materials}, 578:154358, 2023.
+
+\bibitem{gan2015}
+J.~Gan, D.D. Keiser, B.D. Miller, A.B. Robinson, D.M. Wachs, and M.K. Meyer.
+\newblock Thermal stability of fission gas bubble superlattice in irradiated
+  u–10mo fuel.
+\newblock {\em Journal of Nuclear Materials}, 464:1--5, 2015.
+
+\bibitem{smith2022}
+Charlyne~A. Smith, Sudipta Biswas, Brandon~D. Miller, Boopathy Kombaiah, David
+  Frazer, Dennis~D. Keiser, and Assel Aitkaliyeva.
+\newblock High burnup structure formation in u-mo fuels.
+\newblock {\em Journal of Nuclear Materials}, 563:153617, 2022.
+
+\bibitem{hu2021}
+Shenyang Hu and Benjamin Beeler.
+\newblock Gas bubble evolution in polycrystalline umo fuels under
+  elastic-plastic deformation: A phase-field model with crystal-plasticity.
+\newblock {\em Frontiers in Materials}, 8, 2021.
+
+\bibitem{jian2019}
+Xiaobin Jian, Feng Yan, Xiangzhe Kong, and Shurong Ding.
+\newblock Effects of u-mo irradiation creep coefficient on the mesoscale
+  mechanical behavior in u-mo/al monolithic fuel plates.
+\newblock {\em Nuclear Materials and Energy}, 21:100706, 2019.
+
+\bibitem{ozaltun2023}
+Hakan Ozaltun, James~I. Cole, and Barry~H. Rabin.
+\newblock {Thermomechanical Performance Assessment of U-Mo Monolithic Fuel
+  Plates With Zircaloy Cladding}.
+\newblock {\em Journal of Nuclear Engineering and Radiation Science},
+  10(2):021601, 11 2023.
+
+\bibitem{kim2013}
+Y.~Kim, G.~Hofman, J.~Cheon, A.~Robinson, and D.~Wachs.
+\newblock Fission induced swelling and creep of {U-Mo} alloy fuel.
+\newblock {\em J. Nucl. Mater.}, 437:37, 2013.
+
+\bibitem{xmiao2021}
+Xiaoxiao Mao, Xiaobin Jian, Jingyu Zhang, Feng Yan, Shurong Ding, Yongzhong
+  Huo, Haoyu Wang, Lin Zhang, and Yuanming Li.
+\newblock Effects of u-mo irradiation creep performance on the
+  thermo-mechanical coupling behavior in u-mo/al monolithic fuel assemblies.
+\newblock {\em Frontiers in Energy Research}, 9, 2021.
+
+\bibitem{ye2018}
+B.~Ye, G.~Hofman, A.~Leenaers, A.~Bergeron, V.~Kuzminov, S.~Van den Berghe,
+  Y.S. Kim, and H.~Wallin.
+\newblock A modelling study of the inter-diffusion layer formation in {U-Mo/Al}
+  dispersion fuel plates at high power.
+\newblock {\em J. Nucl. Mater.}, 499:191, 2018.
+
+\bibitem{hu2017a}
+S.~Hu, V.~Joshi, and C.~Lavender.
+\newblock A rate-theory--phase-field model of irradiation-induced
+  recrystallization in {UMo} nuclear fuels.
+\newblock {\em JOM}, 69:2554, 2017.
+
+\bibitem{dudarev2010}
+S.~L. Dudarev, M.~R. Gilbert, K.~Arakawa, H.~Mori, Z.~Yao, M.~L. Jenkins, and
+  P.~M. Derlet.
+\newblock Langevin model for real-time brownian dynamics of interacting
+  nanodefects in irradiated metals.
+\newblock {\em Phys. Rev. B}, 81:224107, Jun 2010.
+
+\bibitem{ye2023}
+Bei Ye, Aaron Oaks, Shenyang Hu, Benjamin Beeler, Jeff Rest, Zhi-Gang Mei, and
+  Abdellatif Yacout.
+\newblock Integrated simulation of u-10mo monolithic fuel swelling behavior.
+\newblock {\em Journal of Nuclear Materials}, 583:154542, 2023.
+
+\bibitem{freysoldt2014}
+Christoph Freysoldt, Blazej Grabowski, Tilmann Hickel, J\"org Neugebauer, Georg
+  Kresse, Anderson Janotti, and Chris~G. Van~de Walle.
+\newblock First-principles calculations for point defects in solids.
+\newblock {\em Rev. Mod. Phys.}, 86:253--305, Mar 2014.
+
+\bibitem{bacon1980}
+D.J. Bacon, D.M. Barnett, and R.O. Scattergood.
+\newblock Anisotropic continuum theory of lattice defects.
+\newblock {\em Progress in Materials Science}, 23:51--262, 1980.
+
+\bibitem{park2021}
+Gyuchul Park, Benjamin Beeler, and Maria~A. Okuniewski.
+\newblock An atomistic study of defect energetics and diffusion with respect to
+  composition and temperature in $\gamma$u and $\gamma$u-mo alloys.
+\newblock {\em Journal of Nuclear Materials}, 552:152970, 2021.
+
+\bibitem{starikov2018}
+S.V. Starikov, L.N. Kolotova, A.Yu. Kuksin, D.E. Smirnova, and V.I. Tseplyaev.
+\newblock Atomistic simulation of cubic and tetragonal phases of u-mo alloy:
+  Structure and thermodynamic properties.
+\newblock {\em Journal of Nuclear Materials}, 499:451 -- 463, 2018.
+
+\bibitem{smirnova2015}
+D.~Smirnova, A.~Kuksin, and S.~Starikov.
+\newblock Investigation of point defects diffusion in bcc uranium and {U-Mo}
+  alloys.
+\newblock {\em J. Nucl. Mater.}, 458:304, 2015.
+
+\bibitem{smirnovaADP}
+D.~Smirnova, A.~Kuksin, S.~Starikov, and V.~Stegailov.
+\newblock Atomistic modeling of the self-diffusion in gamma u and gamma u-mo.
+\newblock {\em Phys. Met. and Metall.}, 116:445, 2015.
+
+\bibitem{beelerMRSadv}
+B.~Beeler, Y.~Zhang, ATM~J. Hasan, G.~Park, S.~Hu, and Z.-G. Mei.
+\newblock Analyzing the effect of pressure on the properties of point defects
+  in $\gamma$u–mo through atomistic simulations.
+\newblock {\em MRS Advances}, 8:6, 2023.
+
+\bibitem{chen2019}
+Elton~Y. Chen, Chaitanya Deo, and Rémi Dingreville.
+\newblock Atomistic simulations of temperature and direction dependent
+  threshold displacement energies in $\alpha$- and $\gamma$-uranium.
+\newblock {\em Computational Materials Science}, 157:75--86, 2019.
+
+\bibitem{beelerTDE}
+Benjamin Beeler, Yongfeng Zhang, Maria Okuniewski, and Chaitanya Deo.
+\newblock Calculation of the displacement energy of $\alpha$ and $\gamma$
+  uranium.
+\newblock {\em Journal of Nuclear Materials}, 508:181--194, 2018.
+
+\bibitem{miao2015}
+Yinbin Miao, Benjamin Beeler, Chaitanya Deo, Michael~I. Baskes, Maria~A.
+  Okuniewski, and James~F. Stubbins.
+\newblock Defect structures induced by high-energy displacement cascades in
+  $\gamma$ uranium.
+\newblock {\em Journal of Nuclear Materials}, 456:1--6, 2015.
+
+\bibitem{starikov2011}
+Sergey~V. Starikov, Zeke Insepov, Jeffrey Rest, Alexey~Yu. Kuksin, Genri~E.
+  Norman, Vladimir~V. Stegailov, and Alexey~V. Yanilkin.
+\newblock Radiation-induced damage and evolution of defects in mo.
+\newblock {\em Phys. Rev. B}, 84:104109, Sep 2011.
+
+\bibitem{ouyang2021}
+Wenhong Ouyang, Wensheng Lai, Jiahao Li, Jianbo Liu, and Baixin Liu.
+\newblock Atomic simulations of u-mo under irradiation: A new angular dependent
+  potential.
+\newblock {\em Metals}, 11(7), 2021.
+
+\bibitem{tian2014}
+Xiao-Feng Tian, Hong-Xing Xiao, Rui Tang, and Chun-Hai Lu.
+\newblock Molecular dynamics simulation of displacement cascades in u–mo
+  alloys.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 321:24--29, 2014.
+
+\bibitem{kolotova2017}
+L.N. Kolotova and S.V. Starikov.
+\newblock Atomistic simulation of defect formation and structure transitions in
+  u-mo alloys in swift heavy ion irradiation.
+\newblock {\em Journal of Nuclear Materials}, 495:111--117, 2017.
+
+\bibitem{hu2020}
+Shenyang Hu, Wahyu Setyawan, Benjamin~W. Beeler, Jian Gan, and Douglas~E
+  Burkes.
+\newblock Defect cluster and nonequilibrium gas bubble associated growth in
+  irradiated umo fuels – a cluster dynamics and phase field model.
+\newblock {\em Journal of Nuclear Materials}, 542:152441, 2020.
+
+\bibitem{gao2001}
+F~Gao, D.J Bacon, P.E.J Flewitt, and T.A Lewis.
+\newblock The influence of strain on defect generation by displacement cascades
+  in $\alpha$-iron.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 180(1):187--193, 2001.
+\newblock Computer Simulation of Radiation Effects in Solids.
+
+\bibitem{miyashiro2011}
+S.~Miyashiro, S.~Fujita, and T.~Okita.
+\newblock Md simulations to evaluate the influence of applied normal stress or
+  deformation on defect production rate and size distribution of clusters in
+  cascade process for pure cu.
+\newblock {\em Journal of Nuclear Materials}, 415(1):1--4, 2011.
+
+\bibitem{beeler2015}
+B.~Beeler, M.~Asta, P.~Hosemann, and N.~Gronbech-Jensen.
+\newblock Effects of applied strain on radiation damage generation in
+  body-centered cubic iron.
+\newblock {\em J. Nucl. Mater.}, 459:159, 2015.
+
+\bibitem{abusham2018}
+M.~Abu-Shams and I.~Shabib.
+\newblock Primary radiation damage of fe-10\%cr models under uniaxial, biaxial,
+  and hydrostatic pressure using md simulation.
+\newblock {\em Journal of Nuclear Materials}, 509:335--342, 2018.
+
+\bibitem{plimpton1995}
+S.~Plimpton.
+\newblock Fast parallel algorithms for short-range molecular dynamics.
+\newblock {\em J. Comp. Phys.}, 117:1--19, 1995.
+
+\bibitem{LAMMPS}
+A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown,
+  P.~S. Crozier, P.~J. in~'t Veld, A.~Kohlmeyer, S.~G. Moore, T.~D. Nguyen,
+  R.~Shan, M.~J. Stevens, J.~Tranchida, C.~Trott, and S.~J. Plimpton.
+\newblock {LAMMPS} - a flexible simulation tool for particle-based materials
+  modeling at the atomic, meso, and continuum scales.
+\newblock {\em Comp. Phys. Comm.}, 271:108171, 2022.
+
+\bibitem{beelerumoxe}
+Benjamin Beeler and Yongfeng Zhang.
+\newblock The reconciliation and validation of a combined interatomic potential
+  for the description of xe in $\gamma$u-mo.
+\newblock {\em Frontiers in Nuclear Engineering}, 2, 2023.
+
+\bibitem{starikov2023}
+S.~Starikov and D.~Smirnova.
+\newblock Details of structure transformations in pure uranium and u-mo alloys:
+  Insights from classical atomistic simulation.
+\newblock {\em Journal of Nuclear Materials}, 576:154265, 2023.
+
+\bibitem{kolotova2020}
+Lada Kolotova and Ilia Gordeev.
+\newblock Structure and phase transition features of monoclinic and tetragonal
+  phases in u–mo alloys.
+\newblock {\em Crystals}, 10(6), 2020.
+
+\bibitem{wang2023}
+Yuhao Wang, Benjamin Beeler, and Andrea Jokisaari.
+\newblock An atomistic study of fundamental bulk and defect properties in
+  $\alpha$-uranium.
+\newblock {\em Journal of Nuclear Materials}, 576:154289, 2023.
+
+\bibitem{mahbuba2025}
+Khadija Mahbuba, Benjamin Beeler, and Andrea Jokisaari.
+\newblock Grain boundary self-diffusion and point defect interactions in
+  $\alpha$-u via molecular dynamics.
+\newblock {\em Journal of Nuclear Materials}, 604:155521, 2025.
+
+\bibitem{hasan2024}
+ATM~Jahid Hasan and Benjamin Beeler.
+\newblock Calculation of grain boundary diffusion coefficients in $\gamma$u-mo
+  using atomistic simulations.
+\newblock {\em Journal of Nuclear Materials}, 598:155190, 2024.
+
+\bibitem{chaney2021}
+D.~Chaney, A.~Castellano, A.~Bosak, J.~Bouchet, F.~Bottin, B.~Dorado,
+  L.~Paolasini, S.~Rennie, C.~Bell, R.~Springell, and G.~H. Lander.
+\newblock Tuneable correlated disorder in alloys.
+\newblock {\em Phys. Rev. Mater.}, 5:035004, Mar 2021.
+
+\bibitem{soderlind2012}
+P.~Soderling, B.~Grabowski, L.~Yang, A.~Landa, T.~Bjorkman, P.~Souvatis, and
+  O.~Eriksson.
+\newblock High-temperature phonon stabilization of ! -uranium from relativistic
+  first-principles theory.
+\newblock {\em Phys. Rev. B}, 85:060301, 2012.
+
+\bibitem{meyer2002}
+M.~Meyer, G.~Hofman, S.~Hayes, C.~Clark, T.~Wiencek, J.~Snelgrove, R.~Strain,
+  and K.~Kim.
+\newblock Low-temperature irradiation behavior of uranium-molybdenum alloy
+  dispersion fuel.
+\newblock {\em J. Nucl. Mater.}, 304:221, 2002.
+
+\bibitem{zhang2021}
+Yongfeng Zhang, Anus Manzoor, Chao Jiang, Dilpuneet Aidhy, and Daniel Schwen.
+\newblock A statistical approach for atomistic calculations of vacancy
+  formation energy and chemical potentials in concentrated solid-solution
+  alloys.
+\newblock {\em Computational Materials Science}, 190:110308, 2021.
+
+\bibitem{park2023}
+Gyuchul Park, Benjamin Beeler, and Maria~A. Okuniewski.
+\newblock Computational determination of a primary diffusion mode in
+  $\gamma$u-10mo under irradiation.
+\newblock {\em Journal of Nuclear Materials}, 574:154137, 2023.
+
+\bibitem{Jin2021}
+Miaomiao Jin, Yipeng Gao, Chao Jiang, and Jian Gan.
+\newblock Defect dynamics in $\gamma$-u, mo, and their alloys.
+\newblock {\em Journal of Nuclear Materials}, 549:152893, 2021.
+
+\bibitem{kraftmakher1998}
+Yaakov Kraftmakher.
+\newblock Equilibrium vacancies and thermophysical properties of metals.
+\newblock {\em Physics Reports}, 299(2):79--188, 1998.
+
+\bibitem{varvenne2017}
+C.~Varvenne and E.~Clouet.
+\newblock Elastic dipoles of point defects from atomistic simulations.
+\newblock {\em Physical Review B}, 96:224103, 2017.
+
+\bibitem{zbl}
+J.~Ziegler, J.~Biersack, and U.~Littmark.
+\newblock {\em Stopping and Ranges of Ions in Matter}.
+\newblock Pergamon Press, 1985.
+
+\bibitem{yu2024}
+Lin-Chieh Yu, Shuxiang Zhou, Miaomiao Jin, Marat Khafizov, David Hurley, and
+  Yongfeng Zhang.
+\newblock Establishing the temperature and orientation dependence of the
+  threshold displacement energy in tho2 via molecular dynamics simulations.
+\newblock {\em Nuclear Materials and Energy}, 41:101774, 2024.
+
+\bibitem{melting1}
+Xinwei Wang, Mengxin Yang, Xiaoqian Gai, Yibo Sun, Bohan Cao, Jiajin Chen, Min
+  Liang, Fubo Tian, and Liang Li.
+\newblock A comprehensive investigation on the accuracy and efficiency of
+  methods for melting temperature calculation using molecular dynamics
+  simulations.
+\newblock {\em Journal of Molecular Liquids}, 395:123924, 2024.
+
+\bibitem{melting2}
+YangChun Zou, ShiKai Xiang, and ChengDa Dai.
+\newblock Investigation on the efficiency and accuracy of methods for
+  calculating melting temperature by molecular dynamics simulation.
+\newblock {\em Computational Materials Science}, 171:109156, 2020.
+
+\bibitem{u-mo_phase_diagram}
+H.~Okamoto.
+\newblock Mo-u (molybdenum-uranium).
+\newblock {\em Journal of Phase Equilibria and Diffusion}, 33(6):497--497,
+  2012.
+
+\bibitem{beeler2016}
+B.~Beeler, M.~Asta, P.~Hosemann, and N.~Gronbech-Jensen.
+\newblock Effect of strain and temperature on the threshold displacement energy
+  in body-centered cubic iron.
+\newblock {\em J. Nucl. Mater.}, 474:113, 2016.
+
+\bibitem{beeler2010}
+B.~Beeler, B.~Good, S.~Rashkeev, C.~Deo, M.~Baskes, and M.~Okuniewski.
+\newblock First principles calculations for defects in {U}.
+\newblock {\em J. Phys.: Cond. Mat.}, 22:505703, 2010.
+
+\bibitem{crowdion}
+Francois Willaime and Carlo Massobrio.
+\newblock A molecular dynamics study of zirconium based on an n-body potential:
+  Hcp/bcc phase transformation and diffusion mechanisms in the bcc-phase.
+\newblock {\em MRS Online Proceedings Library}, 193(1):295--300, 1990.
+
+\bibitem{umo_prelim_report2017}
+M.~Meyer, B.~Rabin, J.~Cole, I.~Glagolenko, W.~Jones, J-F. Jue, Jr. D.~Keiser,
+  C.~Miller, G.~Moore, H.~Ozaltun, F.~Rice, A.~Robinson, J.~Smith, D.~Wachs,
+  W.~Williams, and N.~Woolstenhulme.
+\newblock Preliminary report on {U-Mo} monolithic fuel for research reactors.
+\newblock Technical Report INL/EXT-17-40975, Idaho National Laboratory, 2017.
+
+\bibitem{norgett1975}
+M.~Norgett, M.~Robinson, and L.~Torrens.
+\newblock A proposed method of calculating displacement dose rates.
+\newblock {\em Nucl. Eng. Design}, 33:50--54, 1975.
+
+\bibitem{kinchin1955}
+G~H Kinchin and R~S Pease.
+\newblock The displacement of atoms in solids by radiation.
+\newblock {\em Reports on Progress in Physics}, 18(1):1, jan 1955.
+
+\bibitem{nordlund2018}
+K.~Nordlund, S.~Zinkle, A.~Sand, F.~Granberg, R.~Averback, R.~Stoller,
+  T.~Suzudo, L.~Malerba, F.~Banhart, W.~Weber, F.~Willaime, S.~Dudarev, and
+  D.~Simeone.
+\newblock mproving atomic displacement and replacement calculations with
+  physically realistic damage models.
+\newblock {\em Nature Communications}, 9:1084, 2018.
+
+\end{thebibliography}

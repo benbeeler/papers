@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Methods}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Creep mechanisms}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Diffusional creep}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Results}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Direct simulation of Coble creep}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Parameter-based Coble creep model}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.2.1}{GB diffusivity}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Grain-boundary width}{subsection.3.2}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Vacancy volume}{subsection.3.2}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Comparison of Creep Predictions}{subsection.3.2}% 11
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 12
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 13
+\BOOKMARK [1][-]{section.6}{Acknowledgements}{}% 14
+\BOOKMARK [1][-]{appendix.A}{Derivation of the diffusional GB width formula}{}% 15
