@@ -1,0 +1,414 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Wallenius2020}
+J.~Wallenius, Nitride fuels, Comprehensive Nuclear Materials 5 (2020) 88--101.
+\newblock \href {https://doi.org/10.1016/B978-0-12-803581-8.11694-7}
+  {\path{doi:10.1016/B978-0-12-803581-8.11694-7}}.
+
+\bibitem{Uno2020}
+M.~Uno, T.~Nishi, M.~Takano, Thermodynamic and thermophysical properties of the
+  actinide nitrides, Comprehensive Nuclear Materials: Second Edition (2020)
+  202--231\href {https://doi.org/10.1016/B978-0-12-803581-8.11749-7}
+  {\path{doi:10.1016/B978-0-12-803581-8.11749-7}}.
+
+\bibitem{AbdulHameed2024b}
+M.~AbdulHameed, B.~Beeler, A.~Claisse, Atomistic investigation of plastic
+  deformation and dislocation motion in uranium mononitride, Applied Sciences
+  15 (2024) 2666.
+\newblock \href {https://doi.org/https://doi.org/10.3390/app15052666}
+  {\path{doi:https://doi.org/10.3390/app15052666}}.
+
+\bibitem{AbdulHameed2024c}
+M.~AbdulHameed, B.~Beeler, C.~O. Galvin, M.~W. Cooper, N.~Elamrawy, A.~Claisse,
+  Molecular-dynamics study of diffusional creep in uranium mononitride (2025).
+\newblock \href {https://doi.org/https://doi.org/10.48550/arXiv.2503.03231}
+  {\path{doi:https://doi.org/10.48550/arXiv.2503.03231}}.
+
+\bibitem{Rizk2025}
+J.~T. Rizk, M.~W. Cooper, P.-C.~A. Simon, A.~J. Schneider, D.~A. Andersson,
+  S.~R. Novascone, C.~Matthews, Mechanistic nuclear fuel performance modeling
+  of uranium nitride, Journal of Nuclear Materials 606 (2025) 155604.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2024.155604}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2024.155604}}.
+
+\bibitem{Ronchi1975}
+C.~Ronchi, C.~Sari, Swelling analysis of highly rated {MX-type} {LMFBR} fuels.
+  {I}. {Restructuring} and porosity behaviour, Journal of Nuclear Materials 58
+  (1975).
+\newblock \href {https://doi.org/10.1016/0022-3115(75)90100-2}
+  {\path{doi:10.1016/0022-3115(75)90100-2}}.
+
+\bibitem{Ronchi1978}
+C.~Ronchi, I.~L. Ray, H.~Thiele, J.~van~de Laar, Swelling analysis of
+  highly-rated {MX-type} {LMFBR} fuels: {II}. {Microscopic} swelling behaviour,
+  Journal of Nuclear Materials 74 (1978).
+\newblock \href {https://doi.org/10.1016/0022-3115(78)90359-8}
+  {\path{doi:10.1016/0022-3115(78)90359-8}}.
+
+\bibitem{Rogozkin2003}
+B.~D. Rogozkin, N.~M. Stepennova, A.~A. Proshkin, Mononitride fuel for fast
+  reactors, Atomic Energy 95 (2003).
+\newblock \href {https://doi.org/10.1023/B:ATEN.0000007886.86817.32}
+  {\path{doi:10.1023/B:ATEN.0000007886.86817.32}}.
+
+\bibitem{Schuler2017}
+T.~Schuler, D.~A. Lopes, A.~Claisse, P.~Olsson, Transport properties of {C} and
+  {O} in {UN} fuels, Physical Review B 95 (2017).
+\newblock \href {https://doi.org/10.1103/PhysRevB.95.094117}
+  {\path{doi:10.1103/PhysRevB.95.094117}}.
+
+\bibitem{Zinkle1987a}
+S.~J. Zinkle, L.~E. Seitzman, W.~G. Wolfer, Stability of vacancy clusters in
+  metals: {I}. energy calculations for pure metals, Philosophical Magazine A 55
+  (1987).
+
+\bibitem{Zinkle1987b}
+S.~J. Zinkle, W.~G. Wolfer, G.~L. Kulcinski, L.~E. Seitzman, Stability of
+  vacancy clusters in metals: {II}. effect of oxygen and helium on void
+  formation in metals, Philosophical Magazine A 55 (1987).
+
+\bibitem{Zinkle1990}
+S.~J. Zinkle, E.~H. Lee, Effect of oxygen on vacancy cluster morphology in
+  metals, Metallurgical Transactions A 21 (1990).
+\newblock \href {https://doi.org/10.1007/BF02656525}
+  {\path{doi:10.1007/BF02656525}}.
+
+\bibitem{Igata1998}
+N.~Igata, A.~Ryazanov, D.~N. Korolev, Effect of light impurities on the early
+  stage of swelling in austenitic stainless steel, Journal of Nuclear Materials
+  258-263 (1998).
+\newblock \href {https://doi.org/10.1016/S0022-3115(98)00404-8}
+  {\path{doi:10.1016/S0022-3115(98)00404-8}}.
+
+\bibitem{Kotomin2008}
+E.~A. Kotomin, Y.~A. Mastrikov, First principles modeling of oxygen impurities
+  in {UN} nuclear fuels, Journal of Nuclear Materials 377 (2008) 492--495.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2008.04.015}
+  {\path{doi:10.1016/j.jnucmat.2008.04.015}}.
+
+\bibitem{Kotomin2009}
+E.~A. Kotomin, Y.~A. Mastrikov, S.~N. Rashkeev, P.~V. Uffelen, Implementing
+  first principles calculations of defect migration in a fuel performance code
+  for {UN} simulations, Journal of Nuclear Materials 393 (2009) 292--299.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2009.06.016}
+  {\path{doi:10.1016/j.jnucmat.2009.06.016}}.
+
+\bibitem{Zhukovskii2009JNM}
+Y.~F. Zhukovskii, D.~Bocharov, E.~A. Kotomin, Chemisorption of molecular oxygen
+  on the {UN} (001) surface: Ab initio calculations, Journal of Nuclear
+  Materials 393 (2009).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2009.07.010}
+  {\path{doi:10.1016/j.jnucmat.2009.07.010}}.
+
+\bibitem{Zhukovskii2009SS}
+Y.~F. Zhukovskii, D.~Bocharov, E.~A. Kotomin, R.~A. Evarestov, A.~V. Bandura,
+  First principles calculations of oxygen adsorption on the {UN} (001) surface,
+  Surface Science 603 (2009).
+\newblock \href {https://doi.org/10.1016/j.susc.2008.10.019}
+  {\path{doi:10.1016/j.susc.2008.10.019}}.
+
+\bibitem{Bocharov2011JNM}
+D.~Bocharov, D.~Gryaznov, Y.~F. Zhukovskii, E.~A. Kotomin, Ab initio modeling
+  of oxygen impurity atom incorporation into uranium mononitride surface and
+  sub-surface vacancies, Journal of Nuclear Materials 416 (2011).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2010.11.090}
+  {\path{doi:10.1016/j.jnucmat.2010.11.090}}.
+
+\bibitem{Bocharov2011SS}
+D.~Bocharov, D.~Gryaznov, Y.~F. Zhukovskii, E.~A. Kotomin, {DFT} calculations
+  of point defects on {UN} (001) surface, Surface Science 605 (2011) 396--400.
+\newblock \href {https://doi.org/10.1016/j.susc.2010.11.007}
+  {\path{doi:10.1016/j.susc.2010.11.007}}.
+
+\bibitem{Bocharov2013}
+D.~Bocharov, D.~Gryaznov, Y.~F. Zhukovskii, E.~A. Kotomin, Ab initio
+  simulations of oxygen interaction with surfaces and interfaces in uranium
+  mononitride, Journal of Nuclear Materials 435 (2013).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2012.12.031}
+  {\path{doi:10.1016/j.jnucmat.2012.12.031}}.
+
+\bibitem{Lopes2016}
+D.~A. Lopes, A.~Claisse, P.~Olsson, Ab-initio study of {C} and {O} impurities
+  in uranium nitride, Journal of Nuclear Materials 478 (2016).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2016.06.008}
+  {\path{doi:10.1016/j.jnucmat.2016.06.008}}.
+
+\bibitem{Zergoug2018}
+T.~Zergoug, S.~E. Abaidia, A.~Nedjar, Oxygen diffusion and migration in clean
+  and defective uranium nitride ({UN}) (001) surfaces, Computational Materials
+  Science 144 (2018).
+\newblock \href {https://doi.org/10.1016/j.commatsci.2017.12.003}
+  {\path{doi:10.1016/j.commatsci.2017.12.003}}.
+
+\bibitem{Sikorski2021}
+E.~L. Sikorski, B.~J. Jaques, L.~Li, First-principles magnetic treatment of the
+  uranium nitride (100) surface and effect on corrosion initiation, Journal of
+  Applied Physics 130 (2021).
+\newblock \href {https://doi.org/10.1063/5.0056904}
+  {\path{doi:10.1063/5.0056904}}.
+
+\bibitem{Kocevski2022I}
+V.~Kocevski, D.~A. Rehn, M.~W.~D. Cooper, D.~A. Andersson, First-principles
+  investigation of uranium mononitride ({UN}): Effect of magnetic ordering,
+  spin-orbit interactions and exchange correlation functional, Journal of
+  Nuclear Materials 559 (2022).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2021.153401}
+  {\path{doi:10.1016/j.jnucmat.2021.153401}}.
+
+\bibitem{Lyubimov2014}
+D.~Y. Lyubimov, A.~V. Androsov, G.~S. Bulatov, K.~N. Gedgovd, Thermodynamic
+  modeling of oxygen dissolution in uranium mononitride at 900-1400 {K},
+  Radiochemistry 56 (2014).
+\newblock \href {https://doi.org/10.1134/S1066362214050087}
+  {\path{doi:10.1134/S1066362214050087}}.
+
+\bibitem{Mishchenko2021}
+Y.~Mishchenko, K.~D. Johnson, D.~Jädernäs, J.~Wallenius, D.~A. Lopes, Uranium
+  nitride advanced fuel: an evaluation of the oxidation resistance of coated
+  and doped grains, Journal of Nuclear Materials 556 (2021).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2021.153249}
+  {\path{doi:10.1016/j.jnucmat.2021.153249}}.
+
+\bibitem{Kresse1993}
+G.~Kresse, J.~Hafner, Ab initio molecular dynamics for liquid metals, Physical
+  Review B 47 (1993).
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+
+\bibitem{Kresse1996a}
+G.~Kresse, J.~Furthmüller, Efficiency of ab-initio total energy calculations
+  for metals and semiconductors using a plane-wave basis set, Computational
+  Materials Science 6 (1996).
+\newblock \href {https://doi.org/10.1016/0927-0256(96)00008-0}
+  {\path{doi:10.1016/0927-0256(96)00008-0}}.
+
+\bibitem{Kresse1996b}
+G.~Kresse, J.~Furthmüller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Physical Review B -
+  Condensed Matter and Materials Physics 54 (1996).
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+
+\bibitem{Perdew1996}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof, Generalized gradient approximation made
+  simple, Physical Review Letters 77 (1996).
+\newblock \href {https://doi.org/10.1103/PhysRevLett.77.3865}
+  {\path{doi:10.1103/PhysRevLett.77.3865}}.
+
+\bibitem{Kresse1999}
+G.~Kresse, D.~Joubert, From ultrasoft pseudopotentials to the projector
+  augmented-wave method, Physical Review B - Condensed Matter and Materials
+  Physics 59 (1999).
+\newblock \href {https://doi.org/10.1103/PhysRevB.59.1758}
+  {\path{doi:10.1103/PhysRevB.59.1758}}.
+
+\bibitem{Methfessel1989}
+M.~Methfessel, A.~T. Paxton, High-precision sampling for {Brillouin-zone}
+  integration in metals, Physical Review B 40 (1989).
+\newblock \href {https://doi.org/10.1103/PhysRevB.40.3616}
+  {\path{doi:10.1103/PhysRevB.40.3616}}.
+
+\bibitem{Monkhorst1976}
+H.~J. Monkhorst, J.~D. Pack, Special points for {Brillouin-zone} integrations,
+  Physical Review B 13 (1976).
+\newblock \href {https://doi.org/10.1103/PhysRevB.13.5188}
+  {\path{doi:10.1103/PhysRevB.13.5188}}.
+
+\bibitem{Henkelman2000a}
+G.~Henkelman, H.~Jónsson, Improved tangent estimate in the nudged elastic band
+  method for finding minimum energy paths and saddle points, Journal of
+  Chemical Physics 113 (2000).
+\newblock \href {https://doi.org/10.1063/1.1323224}
+  {\path{doi:10.1063/1.1323224}}.
+
+\bibitem{Henkelman2000b}
+G.~Henkelman, B.~P. Uberuaga, H.~Jónsson, Climbing image nudged elastic band
+  method for finding saddle points and minimum energy paths, Journal of
+  Chemical Physics 113 (2000).
+\newblock \href {https://doi.org/10.1063/1.1329672}
+  {\path{doi:10.1063/1.1329672}}.
+
+\bibitem{Stukowski2010}
+A.~Stukowski, Visualization and analysis of atomistic simulation data with
+  {OVITO}--the open visualization tool, Modelling and Simulation in Materials
+  Science and Engineering 18 (2010).
+\newblock \href {https://doi.org/10.1088/0965-0393/18/1/015012}
+  {\path{doi:10.1088/0965-0393/18/1/015012}}.
+
+\bibitem{Momma2008}
+K.~Momma, F.~Izumi, {VESTA}: A three-dimensional visualization system for
+  electronic and structural analysis, Journal of Applied Crystallography 41
+  (2008).
+\newblock \href {https://doi.org/10.1107/S0021889808012016}
+  {\path{doi:10.1107/S0021889808012016}}.
+
+\bibitem{AbdulHameed2024}
+M.~AbdulHameed, B.~Beeler, C.~O. Galvin, M.~W. Cooper, Assessment of uranium
+  nitride interatomic potentials, Journal of Nuclear Materials (2024)
+  155247\href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2024.155247}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2024.155247}}.
+
+\bibitem{Huang2020}
+G.~Y. Huang, G.~Pastore, B.~D. Wirth, First-principles study of intrinsic point
+  defects and {Xe} impurities in uranium monocarbide, Journal of Applied
+  Physics 128 (2020).
+\newblock \href {https://doi.org/10.1063/5.0021951}
+  {\path{doi:10.1063/5.0021951}}.
+
+\bibitem{Yang2021}
+L.~Yang, N.~Kaltsoyannis, Incorporation of {Kr} and {Xe} in uranium
+  mononitride: A density functional theory study, Journal of Physical Chemistry
+  C 125 (2021) 26999--27008.
+\newblock \href {https://doi.org/10.1021/acs.jpcc.1c08523}
+  {\path{doi:10.1021/acs.jpcc.1c08523}}.
+
+\bibitem{Woodward1998}
+C.~Woodward, S.~Kajihara, L.~H. Yang, Site preferences and formation energies
+  of substitutional {Si}, {Nb}, {Mo}, {Ta}, and {W} solid solutions in {L1$_0$}
+  {Ti-Al}, Physical Review B 57 (1998).
+
+\bibitem{Finnis2005}
+M.~W. Finnis, A.~Y. Lozovoi, A.~Alavi, The oxidation of {NiAl}: What can we
+  learn from ab initio calculations? (2005).
+\newblock \href {https://doi.org/10.1146/annurev.matsci.35.101503.091652}
+  {\path{doi:10.1146/annurev.matsci.35.101503.091652}}.
+
+\bibitem{Mansur1983}
+L.~K. Mansur, W.~A. Coghlan, Mechanisms of helium interaction with radiation
+  effects in metals and alloys: A review, Journal of Nuclear Materials 119
+  (1983).
+\newblock \href {https://doi.org/10.1016/0022-3115(83)90047-8}
+  {\path{doi:10.1016/0022-3115(83)90047-8}}.
+
+\bibitem{Saha2018}
+U.~Saha, K.~Devan, A.~Bachchan, G.~Pandikumar, S.~Ganesan, Neutron radiation
+  damage studies in the structural materials of a 500 {MWe} fast breeder
+  reactor using {DPA} cross-sections from {ENDF/B-VII.1}, Pramana - Journal of
+  Physics 90 (2018).
+\newblock \href {https://doi.org/10.1007/s12043-018-1536-y}
+  {\path{doi:10.1007/s12043-018-1536-y}}.
+
+\bibitem{Surh2004}
+M.~Surh, J.~Sturgeon, W.~Wolfer, Incubation period for void swelling and its
+  dependence on temperature, dose rate, and dislocation structure evolution,
+  in: Effects of Radiation on Materials: 21st International Symposium, ASTM
+  International, 2004.
+\newblock \href {https://doi.org/10.1520/STP11245S}
+  {\path{doi:10.1520/STP11245S}}.
+
+\bibitem{Sargeant2021}
+E.~Sargeant, F.~Illas, P.~Rodríguez, F.~Calle-Vallejo, Importance of the
+  gas-phase error correction for {O2} when using {DFT} to model the oxygen
+  reduction and evolution reactions, Journal of Electroanalytical Chemistry 896
+  (2021).
+\newblock \href {https://doi.org/10.1016/j.jelechem.2021.115178}
+  {\path{doi:10.1016/j.jelechem.2021.115178}}.
+
+\bibitem{Linstrom2024}
+P.~J. Linstrom, W.~G. Mallard, \href{https://doi.org/10.18434/T4D303}{NIST
+  Chemistry WebBook, NIST Standard Reference Database Number 69}, National
+  Institute of Standards and Technology, 2024.
+\newblock \href {https://doi.org/10.18434/T4D303} {\path{doi:10.18434/T4D303}}.
+\newline\urlprefix\url{https://doi.org/10.18434/T4D303}
+
+\bibitem{Kroger1956}
+F.~A. Kröger, H.~J. Vink, Relations between the concentrations of
+  imperfections in crystalline solids, Solid State Physics - Advances in
+  Research and Applications 3 (1956).
+\newblock \href {https://doi.org/10.1016/S0081-1947(08)60135-6}
+  {\path{doi:10.1016/S0081-1947(08)60135-6}}.
+
+\bibitem{Cooper2023}
+M.~W. Cooper, J.~Rizk, C.~Matthews, V.~Kocevski, G.~T. Craven, T.~Gibson, D.~A.
+  Andersson, Simulations of self- and {Xe} diffusivity in uranium mononitride
+  including chemistry and irradiation effects, Journal of Nuclear Materials 587
+  (2023).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2023.154685}
+  {\path{doi:10.1016/j.jnucmat.2023.154685}}.
+
+\bibitem{Kocevski2022II}
+V.~Kocevski, M.~W. Cooper, A.~J. Claisse, D.~A. Andersson, Development and
+  application of a uranium mononitride ({UN}) potential: Thermomechanical
+  properties and {Xe} diffusion, Journal of Nuclear Materials 562 (2022).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2022.153553}
+  {\path{doi:10.1016/j.jnucmat.2022.153553}}.
+
+\bibitem{Claisse2016}
+A.~Claisse, T.~Schuler, D.~A. Lopes, P.~Olsson, Transport properties in dilute
+  {UN(X)} solid solutions ({X = Xe, Kr}), Physical Review B 94 (2016).
+\newblock \href {https://doi.org/10.1103/PhysRevB.94.174302}
+  {\path{doi:10.1103/PhysRevB.94.174302}}.
+
+\bibitem{Olander2017}
+D.~R. Olander, A.~T. Motta, Light Water Reactor Materials Volume I:
+  Fundamentals, American Nuclear Society, 2017.
+
+\bibitem{Laughlin2014}
+D.~E. Laughlin, K.~Hono (Eds.), Physical Metallurgy, 5th Edition, Vol.~1,
+  Elsevier, 2014.
+
+\bibitem{Turos1990}
+A.~Turos, S.~Fritz, H.~Matzke, Defects in ion-implanted uranium nitride,
+  Physical Review B 41 (1990).
+\newblock \href {https://doi.org/10.1103/PhysRevB.41.3968}
+  {\path{doi:10.1103/PhysRevB.41.3968}}.
+
+\bibitem{Johnson2018}
+K.~D. Johnson, D.~A. Lopes, Grain growth in uranium nitride prepared by spark
+  plasma sintering, Journal of Nuclear Materials 503 (2018).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2018.02.041}
+  {\path{doi:10.1016/j.jnucmat.2018.02.041}}.
+
+\bibitem{Nichenko2014}
+S.~Nichenko, D.~Staicu, Thermal conductivity of porous {UO$_2$}: Molecular
+  dynamics study, Journal of Nuclear Materials 454 (2014).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2014.08.009}
+  {\path{doi:10.1016/j.jnucmat.2014.08.009}}.
+
+\bibitem{Matzke1986}
+H.~Matzke, Science of advanced {LMFBR} fuels, Elsevier Science Publishers B.V.,
+  1986.
+
+\bibitem{Colin1983}
+M.~Colin, M.~Coquerelle, I.~L. Ray, C.~Ronchi, C.~T. Walker, H.~Blank, The
+  sodium-bonding pin concept for advanced fuels. {Part} {I}: Swelling of
+  carbide fuel up to 12% burnup, Nuclear Technology 63 (1983).
+\newblock \href {https://doi.org/10.13182/NT83-A33271}
+  {\path{doi:10.13182/NT83-A33271}}.
+
+\bibitem{Javed1972}
+N.~A. Javed, Oxygen solubility in uranium mononitride phase, Journal of the
+  Less Common Metals 29 (1972).
+\newblock \href {https://doi.org/10.1016/0022-5088(72)90186-5}
+  {\path{doi:10.1016/0022-5088(72)90186-5}}.
+
+\bibitem{Jain1993}
+G.~C. Jain, C.~Ganguly, Experimental evaluation of oxygen solubility in {UN},
+  {PuN} and {(U,~Pu)N}, Journal of Nuclear Materials 202 (1993).
+\newblock \href {https://doi.org/10.1016/0022-3115(93)90394-E}
+  {\path{doi:10.1016/0022-3115(93)90394-E}}.
+
+\bibitem{Konovalov2016}
+I.~I. Konovalov, B.~A. Tarasov, E.~M. Glagovsky, Structural-phase state and
+  creep of mixed nitride fuel, in: IOP Conference Series: Materials Science and
+  Engineering, Vol. 130, 2016.
+\newblock \href {https://doi.org/10.1088/1757-899X/130/1/012030}
+  {\path{doi:10.1088/1757-899X/130/1/012030}}.
+
+\bibitem{Jaques2015}
+B.~J. Jaques, J.~Watkins, J.~R. Croteau, G.~A. Alanko, B.~Tyburska-Püschel,
+  M.~Meyer, P.~Xu, E.~J. Lahoda, D.~P. Butt, Synthesis and sintering of
+  {UN-UO$_2$} fuel composites, Journal of Nuclear Materials 466 (2015).
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2015.06.029}
+  {\path{doi:10.1016/j.jnucmat.2015.06.029}}.
+
+\bibitem{Olander2021}
+D.~R. Olander, A.~T. Motta, Light Water Reactor Materials Volume II:
+  Applications, American Nuclear Society, 2021.
+
+\end{thebibliography}
