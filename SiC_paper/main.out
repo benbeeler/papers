@@ -1,0 +1,21 @@
+\BOOKMARK [0][-]{section*.2}{Modeling of silver transport in cubic SiC: Integrating molecular dynamics, bounds averaging, and uncertainty quantification}{}% 2
+\BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
+\BOOKMARK [1][-]{section*.3}{Introduction}{section*.2}% 3
+\BOOKMARK [1][-]{section*.4}{Methodology}{section*.2}% 4
+\BOOKMARK [2][-]{section*.5}{Effective diffusivity model}{section*.4}% 5
+\BOOKMARK [2][-]{section*.7}{Existing data on GB types and Ag diffusion in SiC}{section*.4}% 6
+\BOOKMARK [2][-]{section*.9}{Ag diffusion in 3 and 9 GBs}{section*.4}% 7
+\BOOKMARK [3][-]{section*.10}{Atomic models of 3 and 9 GBs}{section*.9}% 8
+\BOOKMARK [3][-]{section*.12}{GB construction and diffusivity calculation}{section*.9}% 9
+\BOOKMARK [2][-]{section*.14}{Bayesian calibration}{section*.4}% 10
+\BOOKMARK [2][-]{section*.16}{Local sensitivity analysis}{section*.4}% 11
+\BOOKMARK [1][-]{section*.17}{Results}{section*.2}% 12
+\BOOKMARK [2][-]{section*.18}{Atomistic mechanism of Ag diffusion}{section*.17}% 13
+\BOOKMARK [2][-]{section*.21}{Bayesian calibration}{section*.17}% 14
+\BOOKMARK [2][-]{section*.25}{Effective diffusivity model}{section*.17}% 15
+\BOOKMARK [2][-]{section*.28}{Local sensitivity analysis}{section*.17}% 16
+\BOOKMARK [1][-]{section*.30}{Discussion}{section*.2}% 17
+\BOOKMARK [1][-]{section*.31}{Conclusions}{section*.2}% 18
+\BOOKMARK [1][-]{section*.32}{Acknowledgments}{section*.2}% 19
+\BOOKMARK [1][-]{section*.33}{Derivation of D5}{section*.2}% 20
+\BOOKMARK [1][-]{section*.34}{References}{section*.2}% 21

@@ -1,0 +1,559 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{hofman_metallic_1997}
+G.~L. Hofman, L.~C. Walters, T.~H. Bauer, Metallic fast reactor fuels, Progress
+  in Nuclear Energy 31~(1) (1997) 83--110.
+\newblock \href {https://doi.org/10.1016/0149-1970(96)00005-4}
+  {\path{doi:10.1016/0149-1970(96)00005-4}}.
+
+\bibitem{pahl_experimental_1990}
+R.~G. Pahl, D.~L. Porter, C.~E. Lahm, G.~L. Hofman, Experimental studies of
+  {U}-{Pu}-{Zr} fast reactor fuel pins in the experimental breeder reactor-ll,
+  Metallurgical Transactions A 21~(7) (1990) 1863--1870.
+\newblock \href {https://doi.org/10.1007/BF02647233}
+  {\path{doi:10.1007/BF02647233}}.
+
+\bibitem{thomas_nano-mechanical_2021}
+J.~Thomas, F.~Teng, D.~Murray, M.~A. Okuniewski, Nano-mechanical property
+  assessment of a neutron-irradiated {HT}-9 steel cladding and a fuel-cladding
+  chemical interaction region of a uranium–10 wt\% zirconium nuclear fuel,
+  MRS Advances 6~(47) (2021) 1048--1053.
+\newblock \href {https://doi.org/10.1557/s43580-021-00179-x}
+  {\path{doi:10.1557/s43580-021-00179-x}}.
+
+\bibitem{matthews_fuel-cladding_2017}
+C.~Matthews, C.~Unal, J.~Galloway, D.~D. Keiser, S.~L. Hayes, Fuel-{Cladding}
+  {Chemical} {Interaction} in {U}-{Pu}-{Zr} {Metallic} {Fuels}: {A} {Critical}
+  {Review}, Nuclear Technology 198~(3) (2017) 231--259.
+\newblock \href {https://doi.org/10.1080/00295450.2017.1323535}
+  {\path{doi:10.1080/00295450.2017.1323535}}.
+
+\bibitem{keiser_fuel-cladding_2006}
+D.~D. Keiser, Fuel-cladding interaction layers in irradiated {U}-{ZR} and
+  {U}-{PU}-{ZR} fuel elements., Tech. Rep. ANL-NT-240, Argonne National Lab.
+  (ANL), Argonne, IL (United States) (Jan. 2006).
+\newblock \href {https://doi.org/10.2172/885496} {\path{doi:10.2172/885496}}.
+
+\bibitem{harp_scanning_2017}
+J.~M. Harp, D.~L. Porter, B.~D. Miller, T.~L. Trowbridge, W.~J. Carmack,
+  Scanning electron microscopy examination of a {Fast} {Flux} {Test} {Facility}
+  irradiated {U}-{10Zr} fuel cross section clad with {HT}-9, Journal of Nuclear
+  Materials 494 (2017) 227--239.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2017.07.040}
+  {\path{doi:10.1016/j.jnucmat.2017.07.040}}.
+
+\bibitem{keiser2009development}
+D.~Keiser~Jr, The development of fuel cladding chemical interaction zones in
+  irradiated u-zr and u-pu-zr fuel elements with stainless steel cladding,
+  Nuclear Reactors, Nuclear Fusion and Fusion Engineering (Eds., A. Aasen and
+  P. Olsson), Nova Science Publishers, Hauppauge, NY (2009) 163--194.
+
+\bibitem{cohen1993fuel}
+A.~Cohen, H.~Tsai, L.~Neimark, Fuel/cladding compatibility in
+  u-19pu-10zr/ht9-clad fuel at elevated temperatures, Journal of Nuclear
+  Materials 204 (1993) 244--251.
+\newblock \href {https://doi.org/10.1016/0022-3115(93)90223-L}
+  {\path{doi:10.1016/0022-3115(93)90223-L}}.
+
+\bibitem{aagesen_jr_physics-based_2022}
+L.~K. Aagesen~Jr., C.~Jiang, A physics-based model of cladding wastage layer
+  formation rate, Tech. Rep. INL/RPT-22-69107-Rev000, Idaho National Laboratory
+  (INL), Idaho Falls, ID (United States) (Aug. 2022).
+\newblock \href {https://doi.org/10.2172/1892317} {\path{doi:10.2172/1892317}}.
+
+\bibitem{aagesen_mechanistic_2023}
+L.~Aagesen, J.~Hirschhorn, C.~Jiang, Mechanistic {FCCI} model for {BISON},
+  Tech. Rep. INL/RPT-23-74500-Rev000, Idaho National Laboratory (INL), Idaho
+  Falls, ID (United States) (Aug. 2023).
+\newblock \href {https://doi.org/10.2172/1999521} {\path{doi:10.2172/1999521}}.
+
+\bibitem{INAGAKI2013574}
+K.~Inagaki, T.~Ogata, Reaction of lanthanide elements with fe–cr alloy,
+  Journal of Nuclear Materials 441~(1) (2013) 574--578.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2013.04.046}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2013.04.046}}.
+
+\bibitem{JERRED2020152387}
+N.~D. Jerred, R.~Khanal, M.~T. Benson, R.~D. Mariani, S.~Choudhury, I.~Charit,
+  Nd, sbnd and sb3nd4 and their interactions with the cladding alloy ht9,
+  Journal of Nuclear Materials 541 (2020) 152387.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jnucmat.2020.152387}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2020.152387}}.
+
+\bibitem{helmreich_diffusion_2014}
+G.~W. Helmreich, Diffusion {Study} on {Measuring} and {Mitigating} the
+  {Interactions} between {Neodymium} and {Steel} {Cladding} {Materials}, {PhD}
+  {Thesis}, Texas A$\&$M University (2014).
+
+\bibitem{huang2012interdiffusion}
+K.~Huang, Y.~Park, A.~Ewh, B.~Sencer, J.~Kennedy, K.~Coffey, Y.~Sohn,
+  Interdiffusion and reaction between uranium and iron, Journal of Nuclear
+  materials 424~(1-3) (2012) 82--88.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2012.02.004}
+  {\path{doi:10.1016/j.jnucmat.2012.02.004}}.
+
+\bibitem{chen2015intermetallic}
+T.~Chen, T.~A. Smith, J.~G. Gigax, D.~Chen, R.~Balerio, L.~Shao, B.~H. Sencer,
+  J.~R. Kennedy, Intermetallic formation and interdiffusion in diffusion
+  couples made of uranium and single crystal iron, Journal of Nuclear Materials
+  467 (2015) 82--88.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2015.05.026}
+  {\path{doi:10.1016/j.jnucmat.2015.05.026}}.
+
+\bibitem{ryu_performance_2009}
+H.~J. Ryu, B.~O. Lee, S.~J. Oh, J.~H. Kim, C.~B. Lee, Performance of {FCCI}
+  barrier foils for {U}–{Zr}–{X} metallic fuel, Journal of Nuclear
+  Materials 392~(2) (2009) 206--212.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2009.03.011}
+  {\path{doi:10.1016/j.jnucmat.2009.03.011}}.
+
+\bibitem{kim_performance_2009}
+J.~H. Kim, H.~J. Ryu, J.~H. Baek, S.~J. Oh, B.~O. Lee, C.~B. Lee, Y.~S. Yoon,
+  Performance of a diffusion barrier under a fuel–clad chemical interaction
+  ({FCCI}), Journal of Nuclear Materials 394~(2) (2009) 144--150.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2009.08.018}
+  {\path{doi:10.1016/j.jnucmat.2009.08.018}}.
+
+\bibitem{jee_improvement_2013}
+S.~H. Jee, K.~S. Lee, J.~H. Kim, Y.~S. Yoon, Improvement of the zirconium
+  diffusion barrier between lanthanide ({La}–{Ce}) and a clad material by
+  hydrothermal crystallization, Current Applied Physics 13~(9) (2013)
+  1995--2000.
+
+\bibitem{OH2024113102}
+J.~M. Oh, D.~Kim, S.~Yoo, S.~H. Kim, T.~Yim, M.~Lee, S.~Yeo, J.~H. Kim,
+  Comparative study of cr-coating and zr-lining method on inner surface of ht9
+  cladding to mitigate fuel-cladding chemical interaction, Nuclear Engineering
+  and Design 421 (2024) 113102.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.nucengdes.2024.113102}
+  {\path{doi:https://doi.org/10.1016/j.nucengdes.2024.113102}}.
+
+\bibitem{messina_exact_2014}
+L.~Messina, M.~Nastar, T.~Garnier, C.~Domain, P.~Olsson, Exact \textit{ab
+  initio} transport coefficients in bcc {Fe} - {X} ( {X} = {Cr} , {Cu} , {Mn} ,
+  {Ni} , {P} , {Si} ) dilute alloys, Physical Review B 90~(10) (2014) 104203.
+\newblock \href {https://doi.org/10.1103/PhysRevB.90.104203}
+  {\path{doi:10.1103/PhysRevB.90.104203}}.
+
+\bibitem{murali_bcc_fe_2015}
+D.~Murali, M.~Posselt, M.~Schiwarth, First-principles calculation of defect
+  free energies: General aspects illustrated in the case of bcc fe, Phys. Rev.
+  B 92 (2015) 064103.
+\newblock \href {https://doi.org/10.1103/PhysRevB.92.064103}
+  {\path{doi:10.1103/PhysRevB.92.064103}}.
+
+\bibitem{versteylen_first-principles_2017}
+C.~D. Versteylen, N.~H. van Dijk, M.~H.~F. Sluiter, First-principles analysis
+  of solute diffusion in dilute bcc {Fe}-\${\textbackslash}mathit\{{X}\}\$
+  alloys, Physical Review B 96~(9) (2017) 094105, publisher: American Physical
+  Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.96.094105}
+  {\path{doi:10.1103/PhysRevB.96.094105}}.
+
+\bibitem{leclaire1970}
+A.~D.~L. Claire, Solvent self-diffusion in dilute b.c.c. solid solutions, The
+  Philosophical Magazine: A Journal of Theoretical Experimental and Applied
+  Physics 21~(172) (1970) 819--832.
+\newblock \href {https://doi.org/10.1080/14786437008238468}
+  {\path{doi:10.1080/14786437008238468}}.
+
+\bibitem{nastar_self-consistent_2000}
+M.~Nastar, V.~Y. Dobretsov, G.~Martin, Self-consistent formulation of
+  configurational kinetics close to equilibrium: {The} phenomenological
+  coefficients for diffusion in crystalline solids, Philosophical Magazine A
+  80~(1) (2000) 155--184, publisher: Taylor \& Francis.
+\newblock \href {https://doi.org/10.1080/01418610008212047}
+  {\path{doi:10.1080/01418610008212047}}.
+
+\bibitem{nastar_mean_2005}
+M.~Nastar, A mean field theory for diffusion in a dilute multi-component alloy:
+  a new model for the effect of solutes on self-diffusion, Philosophical
+  Magazine 85~(32) (2005) 3767--3794.
+\newblock \href {https://doi.org/10.1080/14786430500228390}
+  {\path{doi:10.1080/14786430500228390}}.
+
+\bibitem{schuler_kineclue_2020}
+T.~Schuler, L.~Messina, M.~Nastar, {KineCluE}: {A} kinetic cluster expansion
+  code to compute transport coefficients beyond the dilute limit, Computational
+  Materials Science 172 (2020) 109191.
+\newblock \href {https://doi.org/10.1016/j.commatsci.2019.109191}
+  {\path{doi:10.1016/j.commatsci.2019.109191}}.
+
+\bibitem{schuler_transport_2016}
+T.~Schuler, M.~Nastar, Transport properties of dilute $\alpha$-{F}e({X}) solid
+  solutions ({X} = {C}, {N}, {O}), Physical Review B 93~(22) (2016) 224101,
+  publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.93.224101}
+  {\path{doi:10.1103/PhysRevB.93.224101}}.
+
+\bibitem{bocquet_migration_2017}
+J.-L. Bocquet, C.~Barouh, C.-C. Fu, Migration mechanism for oversized solutes
+  in cubic lattices: {The} case of yttrium in iron, Physical Review B 95~(21)
+  (2017) 214108.
+\newblock \href {https://doi.org/10.1103/PhysRevB.95.214108}
+  {\path{doi:10.1103/PhysRevB.95.214108}}.
+
+\bibitem{yang_significant_2023}
+C.~Yang, J.~Tian, H.~Guan, Z.~Liu, X.~Pan, S.~Huang, Significant difference of
+  lanthanide fission products diffusion in {Cr} and
+  \${\textbackslash}alpha\$-{Fe}: {An} atomic-level study, Scripta Materialia
+  227 (2023) 115304.
+\newblock \href {https://doi.org/10.1016/j.scriptamat.2023.115304}
+  {\path{doi:10.1016/j.scriptamat.2023.115304}}.
+
+\bibitem{lin2024first}
+S.-Y. Lin, X.-J. Li, L.-B. Jiang, X.-J. Wu, H.-Q. Yin, Y.~Ma, W.-G. Liu,
+  First-principles study on the diffusion behavior of {C}s and {I} in cr
+  coating, Nuclear Science and Techniques 35~(6) (2024) 100.
+\newblock \href {https://doi.org/10.1007/s41365-024-01460-y}
+  {\path{doi:10.1007/s41365-024-01460-y}}.
+
+\bibitem{wang2022small}
+Y.~Wang, D.~M. Frazer, F.~Cappia, F.~Teng, D.~J. Murray, T.~Yao, C.~D. Judge,
+  J.~M. Harp, L.~Capriotti, Small-scale mechanical testing and characterization
+  of fuel cladding chemical interaction between ht9 cladding and advanced
+  u-based metallic fuel alloy, Journal of Nuclear Materials 566 (2022) 153754.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2022.153754}
+  {\path{doi:10.1016/j.jnucmat.2022.153754}}.
+
+\bibitem{wang2024transmission}
+Y.~Wang, J.~Burns, T.~Yao, L.~Capriotti, Transmission electron microscopy
+  characterization of fuel cladding chemical interaction (fcci) in
+  atr-irradiated ht9 clad u-10m (10m= 5mo-4.3 ti-0.7 zr wt\%) metallic fuel,
+  Journal of Nuclear Materials 599 (2024) 155209.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2024.155209}
+  {\path{doi:10.1016/j.jnucmat.2024.155209}}.
+
+\bibitem{shousha2024first}
+S.~Shousha, B.~Beeler, L.~K. Aagesen, G.~L. Beausoleil~II, M.~A. Okuniewski,
+  First-principles investigation of lanthanides diffusion in hcp zirconium via
+  vacancy-mediated transport, Journal of Nuclear Materials 601 (2024) 155310.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2024.155310}
+  {\path{doi:10.1016/j.jnucmat.2024.155310}}.
+
+\bibitem{shousha_cr}
+S.~Shousha, B.~Beeler, L.~K. Aagesen, G.~L.~B. II, M.~A. Okuniewski,
+  First-principles investigation of cerium and neodymium diffusion in bcc
+  chromium and vanadium via vacancy-mediated transport, Journal of Nuclear
+  Materials (2025) 156125\href
+  {https://doi.org/https://doi.org/10.1016/j.jnucmat.2025.156125}
+  {\path{doi:https://doi.org/10.1016/j.jnucmat.2025.156125}}.
+
+\bibitem{taylor2024directly}
+S.~D. Taylor, A.~A. Kohnert, S.~V. Lambeets, K.~H. Yano, E.~K. Still, P.~G.
+  Simonnin, P.~Hosemann, B.~P. Uberuaga, T.~C. Kaspar, D.~K. Schreiber,
+  Directly resolving surface vs. lattice self-diffusion in iron at the
+  nanoscale using in situ atom probe capabilities, Materialia 34 (2024) 102078.
+\newblock \href {https://doi.org/10.1016/j.mtla.2024.102078}
+  {\path{doi:10.1016/j.mtla.2024.102078}}.
+
+\bibitem{allnatt_atomic_2003}
+A.~R. Allnatt, A.~B. Lidiard, Atomic {Transport} in {Solids}, Cambridge
+  University Press, 2003, google-Books-ID: 4h440dido0wC.
+
+\bibitem{shousha_vacancy-mediated_2024}
+S.~Shousha, S.~B. Kadambi, B.~Beeler, B.~Kombaiah, Vacancy-mediated transport
+  and segregation tendencies of solutes in fcc nickel under diffusional creep:
+  A density functional theory study, Phys. Rev. Mater. 8 (2024) 083605.
+\newblock \href {https://doi.org/10.1103/PhysRevMaterials.8.083605}
+  {\path{doi:10.1103/PhysRevMaterials.8.083605}}.
+
+\bibitem{messina_solute_2020}
+L.~Messina, T.~Schuler, M.~Nastar, M.-C. Marinica, P.~Olsson, Solute diffusion
+  by self-interstitial defects and radiation-induced segregation in ferritic
+  {Fe}–{X} ({X}={Cr}, {Cu}, {Mn}, {Ni}, {P}, {Si}) dilute alloys, Acta
+  Materialia 191 (2020) 166--185.
+\newblock \href {https://doi.org/10.1016/j.actamat.2020.03.038}
+  {\path{doi:10.1016/j.actamat.2020.03.038}}.
+
+\bibitem{marwick_segregation_1978}
+A.~D. Marwick, Segregation in irradiated alloys: {The} inverse {Kirkendall}
+  effect and the effect of constitution on void swelling, Journal of Physics F:
+  Metal Physics 8~(9) (1978) 1849.
+\newblock \href {https://doi.org/10.1088/0305-4608/8/9/008}
+  {\path{doi:10.1088/0305-4608/8/9/008}}.
+
+\bibitem{kresse_ab_1993}
+G.~Kresse, J.~Hafner, Ab initio molecular dynamics for liquid metals, Physical
+  Review B 47~(1) (1993) 558--561, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.47.558}
+  {\path{doi:10.1103/PhysRevB.47.558}}.
+
+\bibitem{kresse_efficient_1996}
+G.~Kresse, J.~Furthmüller, Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set, Physical Review B
+  54~(16) (1996) 11169--11186, publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.54.11169}
+  {\path{doi:10.1103/PhysRevB.54.11169}}.
+
+\bibitem{perdew_generalized_1996}
+J.~P. Perdew, K.~Burke, M.~Ernzerhof, Generalized {Gradient} {Approximation}
+  {Made} {Simple}, Physical Review Letters 77~(18) (1996) 3865--3868,
+  publisher: American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.77.3865}
+  {\path{doi:10.1103/PhysRevLett.77.3865}}.
+
+\bibitem{methfessel_high-precision_1989}
+M.~Methfessel, A.~T. Paxton, High-precision sampling for {Brillouin}-zone
+  integration in metals, Physical Review B 40~(6) (1989) 3616--3621, publisher:
+  American Physical Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.40.3616}
+  {\path{doi:10.1103/PhysRevB.40.3616}}.
+
+\bibitem{tran2016surface}
+R.~Tran, Z.~Xu, B.~Radhakrishnan, D.~Winston, W.~Sun, K.~A. Persson, S.~P. Ong,
+  Surface energies of elemental crystals, Scientific data 3~(1) (2016) 1--13.
+\newblock \href {https://doi.org/10.1038/sdata.2016.80}
+  {\path{doi:10.1038/sdata.2016.80}}.
+
+\bibitem{zheng_grain_2020}
+H.~Zheng, X.-G. Li, R.~Tran, C.~Chen, M.~Horton, D.~Winston, K.~A. Persson,
+  S.~P. Ong, Grain boundary properties of elemental metals, Acta Materialia 186
+  (2020) 40--49.
+\newblock \href {https://doi.org/10.1016/j.actamat.2019.12.030}
+  {\path{doi:10.1016/j.actamat.2019.12.030}}.
+
+\bibitem{messina_systematic_2016}
+L.~Messina, M.~Nastar, N.~Sandberg, P.~Olsson, Systematic electronic-structure
+  investigation of substitutional impurity diffusion and flux coupling in bcc
+  iron, Physical Review B 93~(18) (2016) 184302, publisher: American Physical
+  Society.
+\newblock \href {https://doi.org/10.1103/PhysRevB.93.184302}
+  {\path{doi:10.1103/PhysRevB.93.184302}}.
+
+\bibitem{henkelman_climbing_2000}
+G.~Henkelman, B.~P. Uberuaga, H.~Jónsson, A climbing image nudged elastic band
+  method for finding saddle points and minimum energy paths, The Journal of
+  Chemical Physics 113~(22) (2000) 9901--9904.
+\newblock \href {https://doi.org/10.1063/1.1329672}
+  {\path{doi:10.1063/1.1329672}}.
+
+\bibitem{vineyard_frequency_1957}
+G.~H. Vineyard, Frequency factors and isotope effects in solid state rate
+  processes, Journal of Physics and Chemistry of Solids 3~(1) (1957) 121--127.
+\newblock \href {https://doi.org/10.1016/0022-3697(57)90059-8}
+  {\path{doi:10.1016/0022-3697(57)90059-8}}.
+
+\bibitem{Li_magnetic_2021}
+K.~Li, C.-C. Fu, A.~Schneider, Effects of magnetic excitations and transitions
+  on vacancy formation: Cases of fcc fe and ni compared to bcc fe, Phys. Rev. B
+  104 (2021) 104406.
+\newblock \href {https://doi.org/10.1103/PhysRevB.104.104406}
+  {\path{doi:10.1103/PhysRevB.104.104406}}.
+
+\bibitem{choudhury2011ab}
+S.~Choudhury, L.~Barnard, J.~Tucker, T.~Allen, B.~Wirth, M.~Asta, D.~Morgan,
+  Ab-initio based modeling of diffusion in dilute bcc fe--ni and fe--cr alloys
+  and implications for radiation induced segregation, Journal of Nuclear
+  Materials 411~(1-3) (2011) 1--14.
+\newblock \href {https://doi.org/10.1016/j.jnucmat.2010.12.231}
+  {\path{doi:10.1016/j.jnucmat.2010.12.231}}.
+
+\bibitem{kittel2018introduction}
+C.~Kittel, P.~McEuen, Introduction to solid state physics, John Wiley \& Sons,
+  2018.
+
+\bibitem{schepper_positron1983}
+L.~De~Schepper, D.~Segers, L.~Dorikens-Vanpraet, M.~Dorikens, G.~Knuyt, L.~M.
+  Stals, P.~Moser, Positron annihilation on pure and carbon-doped
+  $\ensuremath{\alpha}$-iron in thermal equilibrium, Phys. Rev. B 27 (1983)
+  5257--5269.
+\newblock \href {https://doi.org/10.1103/PhysRevB.27.5257}
+  {\path{doi:10.1103/PhysRevB.27.5257}}.
+
+\bibitem{tapasa2007computer}
+K.~Tapasa, A.~Barashev, D.~Bacon, Y.~N. Osetsky, Computer simulation of carbon
+  diffusion and vacancy--carbon interaction in $\alpha$-iron, Acta materialia
+  55~(1) (2007) 1--11.
+\newblock \href {https://doi.org/10.1016/j.actamat.2006.05.029}
+  {\path{doi:10.1016/j.actamat.2006.05.029}}.
+
+\bibitem{SHANG2016128}
+S.-L. Shang, B.-C. Zhou, W.~Y. Wang, A.~J. Ross, X.~L. Liu, Y.-J. Hu, H.-Z.
+  Fang, Y.~Wang, Z.-K. Liu, A comprehensive first-principles study of pure
+  elements: Vacancy formation and migration energies and self-diffusion
+  coefficients, Acta Materialia 109 (2016) 128--141.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2016.02.031}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2016.02.031}}.
+
+\bibitem{lubbehusen1990self}
+M.~L{\"u}bbehusen, H.~Mehrer, Self-diffusion in $\alpha$-iron: The influence of
+  dislocations and the effect of the magnetic phase transition, Acta
+  Metallurgica et Materialia 38~(2) (1990) 283--292.
+\newblock \href {https://doi.org/10.1016/0956-7151(90)90058-O}
+  {\path{doi:10.1016/0956-7151(90)90058-O}}.
+
+\bibitem{hettich1977self}
+G.~Hettich, H.~Mehrer, K.~Maier, Self-diffusion in ferromagnetic $\alpha$-iron,
+  Scripta Metallurgica 11~(9) (1977) 795--802.
+\newblock \href {https://doi.org/10.1016/0036-9748(77)90078-3}
+  {\path{doi:10.1016/0036-9748(77)90078-3}}.
+
+\bibitem{satta1998vacancy}
+A.~Satta, F.~Willaime, S.~de~Gironcoli, Vacancy self-diffusion parameters in
+  tungsten: Finite electron-temperature lda calculations, Physical Review B
+  57~(18) (1998) 11184.
+\newblock \href {https://doi.org/10.1103/PhysRevB.57.11184}
+  {\path{doi:10.1103/PhysRevB.57.11184}}.
+
+\bibitem{sandberg2015modeling}
+N.~Sandberg, Z.~Chang, L.~Messina, P.~Olsson, P.~Korzhavyi, Modeling of the
+  magnetic free energy of self-diffusion in bcc fe, Physical Review B 92~(18)
+  (2015) 184102.
+\newblock \href {https://doi.org/10.1103/PhysRevB.92.184102}
+  {\path{doi:10.1103/PhysRevB.92.184102}}.
+
+\bibitem{jonsson1992ferromagnetic}
+B.~J{\"o}nsson, On ferromagnetic ordering and lattice diffusion-a simple
+  model/uber ferromagnetische ordnung und gitterdiffusion ein einfaches modell,
+  International Journal of Materials Research 83~(5) (1992) 349--355.
+\newblock \href {https://doi.org/https://doi.org/10.1515/ijmr-1992-830512}
+  {\path{doi:https://doi.org/10.1515/ijmr-1992-830512}}.
+
+\bibitem{hillert1978model}
+M.~Hillert, M.~Jarl, A model for alloying in ferromagnetic metals, Calphad
+  2~(3) (1978) 227--238.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0364-5916(78)90011-1}
+  {\path{doi:https://doi.org/10.1016/0364-5916(78)90011-1}}.
+
+\bibitem{GAO2016316}
+X.~Gao, H.~Ren, C.~Li, H.~Wang, Y.~Ji, H.~Tan, First-principles calculations of
+  rare earth (y, la and ce) diffusivities in bcc fe, Journal of Alloys and
+  Compounds 663 (2016) 316--320.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.jallcom.2015.12.129}
+  {\path{doi:https://doi.org/10.1016/j.jallcom.2015.12.129}}.
+
+\bibitem{wang2010single}
+C.~Wang, Y.~Yang, Y.~Zhang, Y.~Jia, A single vacancy diffusion near a {F}e (1 1
+  0) surface: A molecular dynamics study, Computational materials science
+  50~(2) (2010) 291--294.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.commatsci.2010.08.017}
+  {\path{doi:https://doi.org/10.1016/j.commatsci.2010.08.017}}.
+
+\bibitem{wang2012molecular}
+C.~Wang, Z.~Qin, Y.~Zhang, Q.~Sun, Y.~Jia, A molecular dynamics simulation of
+  self-diffusion on fe surfaces, Applied surface science 258~(10) (2012)
+  4294--4300.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.apsusc.2011.12.084}
+  {\path{doi:https://doi.org/10.1016/j.apsusc.2011.12.084}}.
+
+\bibitem{balluffi1982grain}
+R.~W. Balluffi, Grain boundary diffusion mechanisms in metals, Metallurgical
+  Transactions B 13 (1982) 527–553.
+\newblock \href {https://doi.org/https://doi.org/10.1007/BF02650011}
+  {\path{doi:https://doi.org/10.1007/BF02650011}}.
+
+\bibitem{peterson1983grain}
+N.~Peterson, Grain-boundary diffusion in metals, International metals reviews
+  28~(1) (1983) 65--91.
+\newblock \href {https://doi.org/https://doi.org/10.1179/imtr.1983.28.1.65}
+  {\path{doi:https://doi.org/10.1179/imtr.1983.28.1.65}}.
+
+\bibitem{klotsman1990impurity}
+S.~Klotsman, Impurity states and diffusion in metal grain boundaries, Soviet
+  Physics Uspekhi 33~(1) (1990) 55.
+\newblock \href {https://doi.org/10.1070/PU1990v033n01ABEH002405}
+  {\path{doi:10.1070/PU1990v033n01ABEH002405}}.
+
+\bibitem{kwok1981}
+T.~Kwok, P.~S. Ho, S.~Yip, R.~W. Balluffi, P.~D. Bristowe, A.~Brokman, Evidence
+  for vacancy mechanism in grain boundary diffusion in bcc iron: A
+  molecular-dynamics study, Phys. Rev. Lett. 47 (1981) 1148--1151.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.47.1148}
+  {\path{doi:10.1103/PhysRevLett.47.1148}}.
+
+\bibitem{inoue2007grain}
+A.~Inoue, H.~Nitta, Y.~Iijima, Grain boundary self-diffusion in high purity
+  iron, Acta materialia 55~(17) (2007) 5910--5916.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2007.06.041}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2007.06.041}}.
+
+\bibitem{kochaev2024atomistic}
+A.~Kochaev, P.~L’vov, Atomistic modeling of impurity diffusion in the grain
+  boundary of {$\Sigma$}3 (112) in bcc iron, Physics of Metals and
+  Metallography 125~(11) (2024) 1250--1257.
+\newblock \href {https://doi.org/10.1134/S0031918X24602415}
+  {\path{doi:10.1134/S0031918X24602415}}.
+
+\bibitem{torres2000diffusion}
+D.~Torres, R.~Perez, F.~Dyment, Diffusion of tin in $\alpha$-iron, Acta
+  materialia 48~(11) (2000) 2925--2931.
+\newblock \href {https://doi.org/https://doi.org/10.1016/S1359-6454(00)00074-4}
+  {\path{doi:https://doi.org/10.1016/S1359-6454(00)00074-4}}.
+
+\bibitem{herzig2002niobium}
+C.~Herzig, J.~Geise, S.~Divinski, Niobium bulk and grain boundary diffusion in
+  alpha-iron, International Journal of Materials Research 93~(12) (2002)
+  1180--1187.
+\newblock \href {https://doi.org/https://doi.org/10.1515/ijmr-2002-0205}
+  {\path{doi:https://doi.org/10.1515/ijmr-2002-0205}}.
+
+\bibitem{brandes2013smithells}
+E.~A. Brandes, G.~Brook, Smithells metals reference book, Elsevier, 2013.
+
+\bibitem{janotti2004solute}
+A.~Janotti, M.~Kr{\v{c}}mar, C.~Fu, R.~Reed, Solute diffusion in metals: larger
+  atoms can move faster, Physical Review Letters 92~(8) (2004) 085901.
+\newblock \href {https://doi.org/10.1103/PhysRevLett.92.085901}
+  {\path{doi:10.1103/PhysRevLett.92.085901}}.
+
+\bibitem{neumann2011self}
+G.~Neumann, C.~Tuijn, Self-diffusion and impurity diffusion in pure metals:
+  handbook of experimental data, Vol.~14, Elsevier, 2011.
+
+\bibitem{de1967fissiographie}
+F.~De~Keroulas, J.~Mory, Y.~Qu{\'e}r{\'e}, La fissiographie: Diffusion de
+  l'uranium en dilution quasi infinie dans le titane et le fer, Journal of
+  Nuclear Materials 22~(3) (1967) 276--284.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0022-3115(67)90045-1}
+  {\path{doi:https://doi.org/10.1016/0022-3115(67)90045-1}}.
+
+\bibitem{bernardini1982role}
+J.~Bernardini, P.~Gas, E.~D. Hondros, M.~Seah, The role of solute segregation
+  in grain boundary diffusion, Proceedings of the Royal Society of London. A.
+  Mathematical and Physical Sciences 379~(1776) (1982) 159--178.
+\newblock \href {https://doi.org/https://doi.org/10.1098/rspa.1982.0011}
+  {\path{doi:https://doi.org/10.1098/rspa.1982.0011}}.
+
+\bibitem{hansel1985effects}
+H.~H{\"a}nsel, L.~Stratmann, H.~Keller, H.~Grabke, Effects of the grain
+  boundary segregants p, s, c and n on the grain boundary self-diffusivity in
+  $\alpha$-iron, Acta Metallurgica 33~(4) (1985) 659--665.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0001-6160(85)90029-X}
+  {\path{doi:https://doi.org/10.1016/0001-6160(85)90029-X}}.
+
+\bibitem{schmidt2012grain}
+H.~Schmidt, S.~Chakravarty, M.~Jiang, E.~H{\"u}ger, P.~Parida, T.~Geue,
+  J.~Stahn, U.~Tietze, D.~Lott, Grain boundary self-diffusion in fe films with
+  a stable nanostructure, Journal of Materials Science 47 (2012) 4087--4092.
+\newblock \href {https://doi.org/10.1007/s10853-012-6262-0}
+  {\path{doi:10.1007/s10853-012-6262-0}}.
+
+\bibitem{chakravarty2009self}
+S.~Chakravarty, H.~Schmidt, U.~Tietze, D.~Lott, N.~Lalla, A.~Gupta,
+  Self-diffusion and defect annihilation in nanocrystalline fe films probed by
+  neutron reflectometry, Physical Review B—Condensed Matter and Materials
+  Physics 80~(1) (2009) 014111.
+\newblock \href {https://doi.org/10.1103/PhysRevB.80.014111}
+  {\path{doi:10.1103/PhysRevB.80.014111}}.
+
+\bibitem{kochaev_anisotropic_2023}
+A.~I. Kochaev, P.~E. L’vov, Anisotropic diffusion in symmetric tilt grain
+  boundaries in bcc iron: {A} {DFT} study, Materialia 32 (2023) 101953.
+\newblock \href {https://doi.org/10.1016/j.mtla.2023.101953}
+  {\path{doi:10.1016/j.mtla.2023.101953}}.
+
+\bibitem{starikov2020study}
+S.~Starikov, M.~Mrovec, R.~Drautz, Study of grain boundary self-diffusion in
+  iron with different atomistic models, Acta Materialia 188 (2020) 560--569.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.actamat.2020.02.027}
+  {\path{doi:https://doi.org/10.1016/j.actamat.2020.02.027}}.
+
+\end{thebibliography}
