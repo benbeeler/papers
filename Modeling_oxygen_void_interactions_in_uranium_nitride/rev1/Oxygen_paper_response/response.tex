@@ -1,0 +1,333 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+
+\title{Response to Reviewer Comments}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+We thank the reviewers for their time and comments. The paper has been conceptually strengthened and gained in clarity due to their insights. Below all comments are addressed, and each comment has been correspondingly addressed in the revised manuscript. 
+
+
+\section*{Reviewer 1}
+
+\color{blue}
+
+This manuscript presents a novel DFT study of oxygen impurity effects on void surface energies in uranium nitride, addressing an important practical problem for nuclear fuel performance. The work demonstrates that oxygen segregation---particularly at substitutional nitrogen sites---reduces surface energy in a size- and temperature-dependent manner, potentially explaining breakaway swelling onset. However, several methodological limitations require substantial revision: (1) absence of DFT+U treatment for U $5f$ electrons raises quantitative accuracy concerns; (2) planar surface calculations used to represent curved voids neglect important curvature effects at small sizes; (3) lack of electronic structure analysis leaves fundamental mechanisms unexplained; (4) connection to experimental swelling remains qualitative rather than quantitative. With appropriate revisions, this work could make a valuable contribution.
+
+\color{black}
+
+\subsection*{Comment 1: DFT methodology and validation}
+
+\color{blue}
+
+1. DFT Methodology and Validation:
+
+The use of plain PBE-GGA without Hubbard $U$ corrections for uranium $5f$ electrons is problematic for actinide systems. While citing Kocevski et al. on DFT+U instabilities, PBE also has known accuracy issues.
+\\
+
+Required: (a) Systematic validation of PBE against experimental UN properties (lattice parameter $\sim$4.889 \AA, bulk modulus $\sim$200-220 GPa); (b) Sensitivity analysis showing how key results change with U$\text{eff}$ = 1--2 eV; (c) Your clean surface energy (1.59 J/m$^2$) needs comparison with literature/experiment.
+
+\color{black}
+
+
+\subsubsection*{(a--b) On the use of PBE and DFT+$U$ sensitivity}
+
+We appreciate the reviewer's concern regarding the treatment of uranium $5f$ electrons, and acknowledge its requirement in certain uranium compounds, such as UO$_2$ and U$_3$Si$_2$. However, as demonstrated by Kocevski et al. \cite{Kocevski2022I}, the application of DFT+$U$ corrections to UN yields negative phonon frequencies, indicating a dynamically unstable structure. This instability propagates into defect energetics, rendering results obtained with DFT+$U$ physically unreliable. Therefore, a sensitivity analysis with respect to $U_\text{eff}$ would not provide any valuable insight, since the underlying methodology produces an unphysical ground state.
+\\
+
+While PBE-GGA has its own well-documented limitations, the cumulative body of DFT studies on UN, particularly the systematic benchmarking by Kocevski et al. across multiple exchange-correlation functionals, has established PBE as the best available functional for UN within the DFT framework. Crucially, PBE correctly captures the metallic character of UN, which is essential for accurately describing its electronic structure and, by extension, defect behavior.
+\\
+
+Comprehensive validation of PBE-predicted UN properties (lattice parameter, bulk modulus, elastic constants, and phonon spectra) against experiment has been carried out in prior studies by the LANL MST-8 group and collaborators, e.g., \cite{Kocevski2022I,Kocevski2023,Cooper2023}. We have confirmed these benchmarks in our own preliminary tests. Reproducing this extensive validation is beyond the scope of the present work, which takes the established PBE description of UN as its starting point and investigates oxygen-vacancy interactions as a next step. Justification for the absence of the Hubbard U term has been included. 
+
+\subsubsection*{(c) Surface energy comparison}
+
+We thank the reviewer for this suggestion. We have added the following to the revised manuscript:
+
+\textcolor{red}{``Our calculated pristine surface energy of approximately 1.59 J/m$^2$ falls within the range of 1.22--1.70 J/m$^2$ reported by Bocharov \textit{et al.} \cite{Bocharov2011SS}. To our knowledge, no experimental measurements of UN surface energy currently exist, making this computational comparison the only benchmark available.''}
+
+\subsection*{Comment 2: Void modeling approach}
+
+\color{blue}
+
+2. Void Modeling Approach Needs Clarification:
+
+Critical issue: You calculate planar UN(001) slabs and use geometric relationships (Eq. 7) to extrapolate to voids, but this is not clearly stated in the abstract. For small voids ($R_v \sim$ 1 nm), Gibbs-Thomson curvature effects can change surface energy by $\sim$100\%, yet this is not discussed.
+\\
+
+Required: (a) State approximation clearly in abstract/intro; (b) Validate by explicitly modeling at least one small void ($\sim$1.5 nm) and comparing with planar result; (c) Discuss when Gibbs-Thomson corrections become important; (d) Address faceting---real voids have \{110\}, \{111\} faces too.
+\\
+
+\color{black}
+
+
+We thank the reviewer for highlighting this assumption. The following paragraphs have been added to the discussion section, which thoroughly discuss curvature effects and faceting. As clarified in the following paragraphs, the absolute value of the planar surface energy is not relevant to the calculation of $\Delta \sigma$ and thus we choose not to include it in the abstract.
+\\
+
+
+\color{red}
+
+
+``Another limitation of the present model is that all surface properties are derived from planar (001) slab calculations, whereas real voids may expose higher-index facets such as $\{110\}$ and $\{111\}$, and exhibit curvature effects at small radii. Regarding curvature, if the total energy of a spherical void is written as \cite{Tolman1949,Chhapadia2011,Wang2021}:
+\begin{equation}
+E_v = 4 \pi R_v^2 \, \sigma \, \left(1 + \frac{\delta}{R_v} \right)    
+\end{equation}
+where $\delta$ is a Tolman-like length on the order of $\sim 1$~nm, the correction to the absolute surface energy (equal to $\delta/R_v$) is substantial for the smallest voids considered here: 100\% at $R_v$ = 1~nm, 50\% at $R_v$ = 2~nm, diminishing to 10\% at $R_v$ = 10~nm and 4\% at $R_v = 25$~nm. However, the central quantity predicted by our model is not $\sigma$ itself but the change in surface energy, $\Delta\sigma$, due to oxygen adsorption. As demonstrated in the derivation of Eq. 7, the pristine surface energy cancels identically: $\Delta\sigma$ depends only on adsorption energies ($E_\mathrm{ad}$), defect formation energies ($E_f$), defect concentrations, and kinetic correction factors, none of which are functions of $\sigma$. Curvature corrections to the absolute surface energy therefore do not propagate into the predicted $\Delta\sigma$, and the conclusions regarding oxygen-induced surface energy reduction remain quantitatively unchanged irrespective of the curvature model adopted.
+\\
+
+Regarding faceting, the (001) surface is the most stable low-index surface of UN and is expected to dominate the equilibrium shape of voids in rocksalt-structured compounds. While $\{110\}$ and $\{111\}$ facets may be present, particularly in non-equilibrium or irradiation-produced voids, their contribution to the total void surface area is expected to be secondary. In principle, the oxygen adsorption energies on these higher-index surfaces may differ from those on the (001) surface, which would introduce facet-dependent corrections to $\Delta\sigma$. Quantifying these corrections would require dedicated slab calculations for each facet orientation, which is beyond the scope of the present work. Nevertheless, because the dominant contribution to $\Delta\sigma$ arises from the segregation of oxygen into surface nitrogen vacancies (O$_\mathrm{N}^{(\mathrm{s})}$), which is governed primarily by the local coordination environment of the nitrogen sublattice rather than the global surface orientation, we expect the qualitative trends reported here to be robust across facets. A systematic investigation of facet-dependent adsorption energies and their impact on void stabilization is a natural extension of this work.'' \color{black}
+
+
+\subsection*{Comment 3: Missing electronic structure analysis}
+
+\color{blue}
+
+3. Missing Electronic Structure Analysis:
+
+You show $\mathrm{O_N^{(s)}}$ reduces surface energy more than $\mathrm{O_i^{(s)}}$ but provide no explanation of WHY at the electronic/bonding level.
+\\
+
+Required: (a) Density of states showing O $2p$ interaction with U $5f$, N $2p$; (b) Charge density difference plots around O; (c) Bader charge analysis; (d) Physical mechanism explanation for $\mathrm{O_N}$ preference.
+\\
+
+\color{black}
+
+
+We thank the reviewer for this comment. We have added the following paragraph to Section~3.2, immediately after the presentation of the adsorption energies in Table~6:
+
+\color{red}
+
+
+``The energetic preference of $\mathrm{O_N^{(s)}}$ over $\mathrm{O}_i^{\mathrm{(s)}}$ (Table~6) can be understood from the electronic structure analyses of oxygen on UN surfaces reported in~\cite{Bocharov2011JNM, Zhukovskii2009SS, Zhukovskii2009JNM}. In the NaCl structure, a nitrogen sublattice site is coordinated entirely by uranium atoms. Projected density of states (DOS) calculations show that oxygen at such a site on the surface has its $2p$ states partly mixed with U~$5f$ states, while the N~$2p$ band position remains insensitive to the presence of oxygen~\cite{Bocharov2011JNM,Zhukovskii2009JNM}. This indicates that the relevant bonding interaction is between oxygen and its nearest-neighbor uranium atoms rather than with nitrogen, consistent with the formation of O-U bonds reported by Bocharov~\cite{Bocharov2011JNM}. Bader charge analysis confirms a substantial charge transfer to the oxygen atom in the $\mathrm{O_N^{(s)}}$ site~\cite{Bocharov2011JNM}. The hollow interstitial site, by contrast, places oxygen between both U and N surface atoms rather than exclusively among uranium nearest neighbors (see Fig.~1). Since the nitrogen neighbors do not contribute significantly to bonding, the reduced uranium coordination at the hollow site results in weaker O~$2p$-U~$5f$ hybridization compared to $\mathrm{O_N^{(s)}}$. Charge density difference maps confirm that the bonding perturbation around oxygen in a nitrogen site is spatially localized and directed along the O--U bonds~\cite{Bocharov2011JNM}. These findings establish that the O~$2p$-U~$5f$ hybridization and charge transfer enabled by the uranium coordination shell at nitrogen sublattice sites is the electronic origin of the stronger adsorption of $\mathrm{O_N^{(s)}}$ and, consequently, its dominant role in reducing the surface energy of voids in UN.''
+\\
+
+\color{black}
+
+
+The qualitative conclusions of the cited studies, in particular, the energetic ordering of oxygen defect types, are fully consistent with our results. We note, however, that the absolute defect energies reported across these studies cannot be directly compared with ours or with each other, as each employs a different oxygen chemical potential formulation: Refs.~\cite{Zhukovskii2009SS} and \cite{Zhukovskii2009JNM} reference a free O atom and an O$_2$ molecule, respectively; Refs.~\cite{Bocharov2011JNM} and \cite{Bocharov2011SS} use O$_2$, N$_2$, and $\alpha$-U based references with differing conventions; and Ref.~\cite{Bocharov2013} adopts the Finnis et al. \cite{Finnis2005} oxide-based method. In the present work, the Finnis et al. oxide method is used only to report the tabulated incorporation and adsorption energies for comparison purposes. The actual oxygen chemical potential employed in the $\Delta\sigma$ model is defined relative to the dominant bulk impurity $\mathrm{O_N^{(b)}}$ (Eq.~16), which is temperature- and concentration-dependent and more physically faithful to the setting of oxygen pre-existing in UN as an impurity. This choice shifts all energies relative to those in the literature, precluding direct numerical comparison while preserving the relative energetic ordering.\\
+
+The primary contribution of this work is the thermodynamic $\Delta\sigma$ model that connects oxygen segregation to void surface energy reduction, not the DFT calculations themselves, which serve as inputs to the model. Reproducing the full electronic structure analysis already available in the literature would substantially increase the volume of a manuscript that is already large, without altering the conclusions. We have instead cited these studies and summarized their key findings in the new paragraph added to Section~3.2.
+
+
+\subsection*{Comment 4: Temperature model and swelling connection}
+
+\color{blue}
+
+4. Temperature Model and Swelling Connection:
+
+The three-regime $T$-behavior is interesting, but void nucleation time $t$ = 42 hours (from stainless steel data) is poorly justified for UN. The claim that O effect ``reconciles mechanistic model with experiments'' needs quantification.\\
+
+Required: (a) UN-specific justification for $t$ or sensitivity analysis ($t$ = 10, 42, 100 hrs); (b) Show swelling model equations explicitly; (c) Calculate $\Delta G^*_\text{nucleation}$ reduction numerically (with your $\Delta \sigma = -0.4$ J/m$^2$, this gives $\sim$2$\times$ barrier reduction); (d) Overlay predicted $\Delta \sigma(T)$ with experimental swelling onset temperatures from refs [6,7].
+
+\color{black}
+
+
+\subsubsection*{(a) Sensitivity analysis with respect to $t$}
+
+We thank the reviewer for raising this point. The following text has been added to the discussion section:
+
+\color{red} ``To assess sensitivity to this parameter, we note that $\alpha_i \propto \sqrt{t}$ (Eq.~8), so that $|\Delta \sigma|$ in the kinetically limited regime scales as $\sqrt{t}$. Varying $t$ from 10 to 100 hours, $|\Delta \sigma|$ decreases by $\sim$51\% for $t = 10$~hours and increases by $\sim$54\% for $t = 100$~hours, relative to the baseline $t = 42$~hours. Importantly, the temperature at which $|\Delta \sigma|$ is maximized is independent of $t$, because the kinetic correction $\alpha_i$ shifts the magnitude but not the balance point between the anti-Arrhenius segregation ratio $[\text{O}_\text{N}^{(\text{s})}]/[\text{O}_\text{N}^{(\text{b})}]$ and the Arrhenius diffusivity $D_i$. Thus, the qualitative conclusions---that $|\Delta \sigma|$ peaks in the 1300--1700~K range for $R_v = 1$~nm---are robust to the choice of $t$ within physically reasonable bounds.''
+
+\color{black}
+
+\subsubsection*{(b--c) Void nucleation barrier reduction}
+
+The following paragraph has been added to the discussion section to explicitly show how the predicted $\Delta \sigma$ translates into a reduction in the classical nucleation barrier:
+
+\color{red}
+
+
+``To quantify the impact of oxygen-induced surface energy reduction on void nucleation, we invoke classical nucleation theory. The free energy barrier for homogeneous void nucleation is \cite{Fultz2020}:
+\begin{equation}
+\Delta G^* = \frac{16 \pi \sigma^3}{3 (\Delta g_v)^2},
+\end{equation}
+where $\Delta g_v$ is the volumetric free energy driving force for void formation. Since $\Delta G^* \sim \sigma^3$, the ratio of nucleation barriers with and without oxygen is:
+\begin{equation}
+\frac{\Delta G^*_\text{O}}{\Delta G^*_\text{clean}} = \left( \frac{\sigma_\text{clean} + \Delta \sigma}{\sigma_\text{clean}} \right)^3 = \left( 1 + \frac{\Delta \sigma}{\sigma_\text{clean}} \right)^3.
+\end{equation}
+For $\sigma_\text{clean} = 1.59$~J/m$^2$ and $\Delta \sigma \approx -0.4$~J/m$^2$ (intermediate stoichiometry, $w_\text{O} = 1500$~ppm, $R_v = 1$~nm), this gives $\sigma_\text{O} \approx 1.19$~J/m$^2$ and:
+\begin{equation}
+\frac{\Delta G^*_\text{O}}{\Delta G^*_\text{clean}} = \left( \frac{1.19}{1.59} \right)^3 \approx 0.42,
+\end{equation}
+corresponding to a $\sim$58\% reduction in the nucleation barrier. This substantial lowering of $\Delta G^*$ translates into a dramatically increased nucleation rate, $J \sim \exp(-\Delta G^*/kT)$ \cite{Fultz2020}, consistent with the experimentally observed enhancement of void swelling in oxygen-contaminated UN.''
+
+\color{black}
+
+\subsubsection*{(d) Overlay with experimental swelling onset temperatures}
+
+We have added a vertical shaded region to Fig.~6 indicating the experimentally reported onset temperature range for breakaway swelling in UN ($\sim$1423--1623~K), based on the irradiation data of Ronchi \textit{et al.}~\cite{Ronchi1978}. The coincidence of the $|\Delta \sigma|$ peak with this temperature window is now visually explicit.
+
+\subsection*{Specific questions}
+
+\subsubsection*{Q1: Ground-state UN properties and DFT+$U$ sensitivity}
+
+\color{blue}
+
+What are ground-state UN properties ($a_0$, $B_0$, $\Delta H_f$) calculated with your PBE parameters vs. experiment? How do key results change with DFT+$U$?\\
+
+\color{black}
+
+
+Our DFT calculations adopt the same computational settings as Kocevski \textit{et al.}~\cite{Kocevski2022I} (PBE functional, PAW potentials, FM ordering, 520~eV cutoff), as stated in Section~2.1. The validation of these settings against experimental UN properties---including lattice parameter, bulk modulus, elastic constants, and phonon spectra---was carried out systematically in that work, and we refer the reviewer there for the detailed benchmarking. As discussed in our response to Comment~1, a DFT+$U$ sensitivity analysis is not meaningful for UN because DFT+$U$ produces imaginary phonon frequencies and a dynamically unstable ground state~\cite{Kocevski2022I}.
+
+\subsubsection*{Q2: Insensitivity of $\Delta \sigma$ to porosity}
+
+\color{blue}
+For the claim ``$\Delta \sigma$ largely insensitive to porosity'': Eq.~7 shows $\Delta \sigma \propto (1-p)/p \cdot R_v$ --- this varies 5$\times$ from $p$ = 5\% to 20\%. Please clarify what you mean and demonstrate explicitly.\\
+\color{black}
+
+
+We thank the reviewer for this question. The apparent $p$-dependence in the prefactor of Eq.~7 is misleading when examined in isolation, because $p$ also enters the segregation ratio through the surface site concentrations. When traced through the full set of equations, these factors cancel almost entirely. The following paragraph has been added after Eq.~36 to demonstrate this explicitly:
+
+\color{red}
+
+
+``The near-independence of $|\Delta \sigma|$ from porosity can now be understood analytically. From Eq.~32, the segregation ratio $[\text{O}_\text{N}^{(\text{s})}] / [\text{O}_\text{N}^{(\text{b})}]$ is proportional to $[v_\text{N}^{(\text{s})}] / [v_\text{N}^{(\text{b})}]$. The surface vacancy concentration $[v_\text{N}^{(\text{s})}]$ is, in turn, proportional to $[\text{N}_\text{N}^{(\text{s})}]$ via Eq.~27, and $[\text{N}_\text{N}^{(\text{s})}] \propto (p/(1-p)) \cdot a/R_v$ from Eq.~28. Substituting into Eq.~36, the factor $p/(1-p)$ arising from the segregation ratio cancels the factor $(1-p)/p$ in the geometric prefactor $\eta$, leaving a residual porosity dependence of only $(1-p)$. This factor varies by merely $\sim$16\% across $p = 5$--20\%, which explains the weak porosity dependence observed in Fig.~8.''
+
+\color{black}
+
+\subsubsection*{Q3: Explicit small void model}
+
+\color{blue}
+Can you explicitly model one small void ($\sim$50 vacancies, $\sim$1.5 nm) to validate the planar surface extrapolation?\\
+\color{black}
+
+
+Explicitly modeling a $\sim$1.5~nm void in UN would require a supercell containing $\sim$2000--3000 atoms (to accommodate $\sim$50 vacancies while maintaining sufficient surrounding bulk). Spin-polarized DFT calculations at this size with the U-14 PAW pseudopotential are prohibitively expensive. Typically, DFT calculations are limited to less than 500 atoms at most, and the computational expense scales by \textit{N}$^3$, where \textit{N} is the number of electrons. Moreover, as argued in our response to Comment~2, the quantity $\Delta \sigma$ does not depend on the absolute surface energy $\sigma$, so curvature corrections to $\sigma$ do not propagate into the predicted $\Delta \sigma$.
+
+% What could in principle change at small void sizes are the local adsorption energies at curved facets. However, the local coordination environment of an $\text{O}_\text{N}^{(\text{s})}$ site---four nearest-neighbor U atoms in the NaCl structure---is preserved at the facets of even a $\sim$50-vacancy void, since these facets are atomically flat (001)-type terraces at the scale of 1--2 lattice constants. We therefore expect the adsorption energetics to be well-represented by our planar slab calculations for the void sizes of interest.
+
+\subsubsection*{Q4: Oxygen levels and breakaway swelling temperature in Ronchi \textit{et al.}}
+
+\color{blue}
+What were the actual O impurity levels in the Ronchi et al. UN samples you reference for swelling? At what temperature did breakaway swelling occur in those experiments? \\
+
+\color{black}
+
+
+The oxygen concentration ($w_\text{O} = 1800$~ppm) is stated in Section~3.3 in connection with the parametric analysis of Fig.~8. The breakaway swelling onset temperature is addressed by the following paragraph added to Section~3.3:
+
+\color{red}
+
+
+``Ronchi \textit{et al.}~\cite{Ronchi1978} reported the breakaway swelling critical temperature $T_c$ for mixed nitrides in the interval 1473--1573~K, with an uncertainty of $\pm$50~K. This range, shown as a shaded band in Fig.~6, overlaps with the temperature of maximum $|\Delta \sigma|$ predicted by our model. The mechanistic modeling by Rizk \textit{et al.}~\cite{Rizk2025} corroborates this picture, attributing the breakaway transition in UN to a change in the gas atom diffusion mechanism occurring around 1500~K. Noting that the range of operating temperatures in liquid metal-cooled fast reactors is 800--2000~K~\cite{Turos1990}, these findings highlight oxygen adsorption as a critical factor in facilitating void nucleation under conditions typical of reactor environments.''
+
+\color{black}
+
+\subsubsection*{Q5: Numerical $\Delta G^*$ calculation}
+
+\color{blue}
+Please provide numerical calculation: With $\sigma = 1.59$~J/m$^2$ (clean) vs. $1.2$~J/m$^2$ (with O), how much does void nucleation barrier $\Delta G^*$ change? (Classical theory: $\Delta G^* \propto \sigma^3$)\\
+\color{black}
+
+
+This has been addressed in our response to Comment~4 (b--c). Specifically, $\Delta G^*_\text{O} / \Delta G^*_\text{clean} = (1.19/1.59)^3 \approx 0.42$, corresponding to a $\sim$58\% reduction in the nucleation barrier. The explicit calculation has been added to the discussion section.
+
+\subsection*{Minor issues}
+
+\color{blue}
+Figure 6 (key result): Add error bars, consistent axis labels, overlay experimental swelling onset $T$.\\
+\color{black}
+
+
+The model is deterministic for a given set of input parameters; formal error bars are not applicable. Uncertainty quantification would require propagating uncertainties in the DFT-derived energies, which is beyond the present scope. We have instead provided a sensitivity analysis with respect to $t$ (Comment~4a) and demonstrated the parametric dependence on $w_\text{O}$, $p$, and $R_v$ in Figs.~6 and 8. Axis labels have been made consistent across all panels. As noted in our response to Comment~4d, a vertical shaded region indicating the experimental breakaway swelling onset temperature has been overlaid on Fig.~6b.\\
+
+\color{blue}
+Table 6: Specify O coverage (1/9 ML?) for adsorption energy calculations.\\
+\color{black}
+
+We thank the reviewer for this suggestion. The coverage is $\theta = 1/9$~ML for all stable adsorption sites, corresponding to one O atom on one side of the $3 \times 3$ surface unit cell. As noted in the text, the adsorption energy is unchanged when O is placed on both sides of the slab, confirming the absence of polarity effects. The caption of Table~6 has been updated to:
+
+\color{red} ``Adsorption energy of oxygen into sites on the symmetric 6-layer slab model of the UN (001) surface at a coverage of $\theta = 1/9$~ML (one O atom on one side of the $3 \times 3$ surface unit cell). These values correspond to $\mu_\text{O} = -4.18$~eV, which is calculated according to the Finnis \textit{et al.}~\cite{Finnis2005} oxide method.''\\
+\color{black}
+
+\color{blue}
+Move Figures 3--5, C.9 to Supplementary Information---these are supplementary quality.\\
+\color{black}
+
+Figs.~3 and 4 present the relative defect concentrations that directly enter the $\Delta \sigma$ expression (Eq.~7) and we believe that they are essential for understanding the model's physical basis, and thus prefer to retain them in the main text. We have moved Fig.~5 (oxygen diffusivity) and the temperature-dependent adsorption energy figures to the Supplementary Information, as suggested.\\
+
+\color{blue}
+Figure C.10 (O chemical potential vs. $T$) should be in main text---essential for understanding $T$-dependence.\\
+\color{black}
+
+We agree with the reviewer. The oxygen chemical potential figure has been moved to Section~3.2, immediately before the discussion of temperature-dependent adsorption energies.\\
+
+\color{blue}
+Add void size study: Need $\geq$5 discrete sizes (currently only 1 \& 10 nm) to establish scaling law $\Delta \sigma(R_v)$.\\
+\color{black}
+
+The manuscript presents $\Delta \sigma(T)$ curves at $R_v = 1$~nm and $R_v = 10$~nm (Figs.~6b,d), and the parametric analysis at $R_v = 25$~nm (Fig.~8), spanning over an order of magnitude in void radius. The analytical origin of this scaling is made explicit by the simplified expression in Eq.~36, as discussed in our response to Q2, where the net dependence $|\Delta \sigma| \sim 1/R_v$ emerges from the cancellation of competing geometric and kinetic factors. Thus, we believe that these three data points, together with the analytical derivation, sufficiently establish the scaling law without the need for additional figures.\\
+
+
+\color{blue}
+Missing references: McLean (1957) segregation theory; Russell (1971) void nucleation; recent UN irradiation data.\\
+\color{black}
+
+The McLean reference has been added to the introduction, where impurity segregation to void surfaces is discussed. For the classical nucleation barrier, we cite the textbook by Fultz~\cite{Fultz2020}. Recent UN irradiation data from Mishchenko \textit{et al.}~\cite{Mishchenko2021} was already cited in the manuscript.\\
+
+\section*{Reviewer 2}
+
+\color{blue}
+
+This paper presents a first-principles-based thermodynamic model quantifying the interaction of oxygen impurities with voids and fission gas bubbles in uranium nitride (UN). Using DFT calculations (VASP, PBE/GGA), the authors parametrize a defect chemistry framework that tracks oxygen segregation to void surfaces and computes the resulting reduction in surface energy, $|\Delta \sigma|$. The key finding is that substitutional oxygen on surface nitrogen sites is the dominant driver of surface energy reduction, which is most pronounced for small voids ($R_v$ = 1--10 nm) at intermediate temperatures (1300--1700 K), coinciding with the onset of breakaway swelling in UN. The model provides a mechanistic explanation for the experimentally observed dependence of swelling on oxygen content, and offers a physically grounded reconciliation of the discrepancy between the DFT-calculated surface energy and the empirical value used by Rizk et al. in their swelling model. The paper addresses an important and timely problem, the overall framework is well-constructed, and the authors present with commendable honesty the limitations of their work in the discussion section. I recommend acceptance subject to the following comments.
+
+\color{black}
+
+\subsection*{Comment 1: Curvature corrections}
+
+\color{blue}
+The surface energy and adsorption energies are calculated for the planar (001) surface only. The model then applies these values to spherical voids of nanometer scale, where curvature effects on both surface energy and adsorption geometry may be significant---particularly for the smallest voids ($R_v$ = 1 nm) that are claimed to show the largest $|\Delta \sigma|$. The authors acknowledge this limitation only in passing. A more explicit discussion is needed of how curvature corrections might affect the results, and whether the planar approximation is expected to over- or underestimate $|\Delta \sigma|$ for the void sizes considered.\\
+\color{black}
+
+We thank the reviewer for this comment. A thorough discussion of curvature effects and faceting has been added to the discussion section. As detailed in our response to Reviewer~1, Comment~2, the central quantity predicted by our model is $\Delta \sigma$, not $\sigma$ itself. The pristine surface energy cancels identically in the derivation of Eq.~7, so curvature corrections to $\sigma$ do not propagate into $\Delta \sigma$. We refer the reviewer to the new text quoted in the response to Reviewer~1, Comment~2, which addresses this matter in full.
+
+\subsection*{Comment 2: Crystal structure and supercell size}
+
+\color{blue}
+The crystallographic structure of UN (NaCl-type, space group $Fm\bar{3}m$) and the total number of atoms in the supercell used for bulk and surface calculations should be explicitly stated in the methodology section.\\
+\color{black}
+
+We thank the reviewer for this suggestion. The relevant sentence in Section~2.1 has been revised to:
+
+\color{red} ``UN adopts the NaCl structure (space group $Fm\bar{3}m$). $3 \times 3 \times 3$ supercells of ferromagnetic (FM) UN, containing 54 formula units (108 atoms), are used to model bulk UN and to study the properties of defects and impurities. To study surface properties, 6-layer and 8-layer symmetric slabs based on the same $3 \times 3$ surface unit cell are used, containing 216 and 288 atoms, respectively, where the vacuum gap in each is twice the length of the slab along the $z$-direction.''
+\color{black}
+
+\subsection*{Comment 3: Self-contained appendices}
+
+\color{blue}
+The appendices are difficult to follow without constant cross-referencing with the main text. In particular, Appendix B is cited in the main text before Appendix A, yet relies on notation introduced in the latter. The authors should ensure that all quantities are defined locally within each appendix, even if they are also defined elsewhere. For instance, in Appendix A, the physical meaning of $[\text{N}_\text{N}^{(\text{s})}]$ and $[v_i^{(\text{s})}]$ should be stated explicitly.
+\\
+
+Making the appendices self-contained would significantly improve the readability and reproducibility of the derivations.\\
+\color{black}
+
+We agree with the reviewer and have made the following changes:
+
+\begin{enumerate}[label=(\arabic*)]
+    \item A forward reference to Appendix~A has been added where Appendix~B is first cited (at Eq.~7):
+
+    \color{red} ``...which is derived in Appendix~B (using geometric identities derived in Appendix~A):'' \color{black}
+
+    \item The following preamble has been added to Appendix~A:
+
+    \color{red} ``In the following, $a$ denotes the UN lattice constant, $p$ the porosity (void volume fraction), $R_v$ the average void radius, and $V_0$ the total system volume. $[\text{N}_\text{N}^{(\text{s})}]$ is the site fraction of nitrogen atoms on void surfaces, and $[v_i^{(\text{s})}]$ is the site fraction of vacant interstitial sites on void surfaces, both expressed per formula unit.'' \color{black}
+
+    \item The following preamble has been added to Appendix~B:
+
+    \color{red} ``Here, $\sigma_0$ is the pristine surface energy, $E_\text{ad}$ the adsorption energy, $E_f$ the defect formation energy, $N_\text{ad}$ the number of adsorbed atoms, $A$ the total surface area, and $\mu_\text{ad}$ the chemical potential of the adsorbate. $[\text{O}_\text{N}^{(\text{s})}]$ and $[\text{O}_i^{(\text{s})}]$ denote the site fractions of substitutional and interstitial oxygen on void surfaces, respectively, while $[\text{O}_\text{N}^{(\text{b})}]$ is the site fraction of substitutional oxygen in the bulk.'' \color{black}
+\end{enumerate}
+
+\bibliographystyle{unsrt}
+\bibliography{ref}
+
+\end{document}
