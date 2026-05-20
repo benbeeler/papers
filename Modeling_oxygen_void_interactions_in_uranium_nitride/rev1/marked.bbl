@@ -220,6 +220,11 @@ M.~Methfessel, A.~T. Paxton, High-precision sampling for {Brillouin-zone}
 \newblock \href {https://doi.org/10.1103/PhysRevB.40.3616}
   {\path{doi:10.1103/PhysRevB.40.3616}}.
 
+\bibitem{Hayes1990I}
+S.~L. Hayes, J.~K. Thomas, K.~L. Peddicord, Material property correlations for
+  uranium mononitride {I}. physical properties, Journal of Nuclear Materials
+  171 (1990) 262--270.
+
 \bibitem{Monkhorst1976}
 H.~J. Monkhorst, J.~D. Pack, Special points for {Brillouin-zone} integrations,
   Physical Review B 13 (1976).

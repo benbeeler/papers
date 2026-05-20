@@ -5,45 +5,45 @@ The style file: elsarticle-num.bst
 Database file #1: ref.bib
 Warning--empty pages in Surh2004
 Warning--empty pages in Konovalov2016
-You've used 68 entries,
+You've used 69 entries,
             2952 wiz_defined-function locations,
-            1139 strings with 18484 characters,
-and the built_in function-call counts, 18956 in all, are:
-= -- 1943
-> -- 698
+            1145 strings with 18635 characters,
+and the built_in function-call counts, 19249 in all, are:
+= -- 1971
+> -- 708
 < -- 4
-+ -- 277
-- -- 209
-* -- 1186
-:= -- 2766
-add.period$ -- 125
-call.type$ -- 68
-change.case$ -- 65
++ -- 281
+- -- 212
+* -- 1207
+:= -- 2807
+add.period$ -- 126
+call.type$ -- 69
+change.case$ -- 66
 chr.to.int$ -- 6
-cite$ -- 70
-duplicate$ -- 554
-empty$ -- 2096
-format.name$ -- 270
-if$ -- 5091
+cite$ -- 71
+duplicate$ -- 562
+empty$ -- 2128
+format.name$ -- 274
+if$ -- 5167
 int.to.chr$ -- 0
-int.to.str$ -- 68
-missing$ -- 73
-newline$ -- 271
-num.names$ -- 69
-pop$ -- 346
+int.to.str$ -- 69
+missing$ -- 74
+newline$ -- 274
+num.names$ -- 70
+pop$ -- 351
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1444
+skip$ -- 1462
 stack$ -- 0
-substring$ -- 205
-swap$ -- 185
+substring$ -- 226
+swap$ -- 186
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 80
-width$ -- 70
-write$ -- 712
+while$ -- 82
+width$ -- 71
+write$ -- 720
 (There were 2 warnings)

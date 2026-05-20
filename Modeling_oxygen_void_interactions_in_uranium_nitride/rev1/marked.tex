@@ -1,7 +1,7 @@
 \documentclass[preprint,12pt,sort&compress]{elsarticle}
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL old.tex    Mon Apr 13 15:27:08 2026
-%DIF ADD main.tex   Mon Apr 13 15:27:29 2026
+%DIF DEL old.tex    Fri May  8 18:35:12 2026
+%DIF ADD main.tex   Fri May  8 18:37:01 2026
 \usepackage[utf8]{inputenc}
 \usepackage{color}
 \usepackage{graphicx}
@@ -22,12 +22,19 @@
 \usepackage{comment}
 \usepackage[T1]{fontenc}
 \usepackage{anyfontsize}
-% \usepackage{newtxtext, newtxmath}
+%DIF 22c22
+%DIF < % \usepackage{newtxtext, newtxmath}
+%DIF -------
+%\usepackage{newtxtext, newtxmath} %DIF > 
+%DIF -------
 \newcommand{\?}{\stackrel{?}{=}}
 \usepackage{tablefootnote}
 \usepackage{float}
 \usepackage{enumitem}
 \setlist{itemsep=0pt, topsep=0pt}
+%DIF 28a28
+\usepackage{booktabs} %DIF > 
+%DIF -------
 
 % \usepackage{nomencl}
 % \makenomenclature
@@ -141,7 +148,7 @@
 
 \begin{abstract}
 
-Oxygen impurities in uranium nitride (UN) are reported to influence its swelling behavior under irradiation, yet the underlying mechanism remains unknown. In this work, we develop a first-principles model that quantifies the interaction of oxygen with voids and fission gas bubbles in UN, leading to a reduction in surface energy that can promote swelling. The analysis reveals that segregation of substitutional oxygen at surface nitrogen sites is the primary driver of surface energy reduction, $|\Delta \sigma|$, while oxygen in surface hollow sites plays a minor and sometimes counteracting role. $|\Delta \sigma|$ is most pronounced for small cavities ($R_v$ = 1--10 nm) at intermediate temperatures that coincide with the onset of breakaway swelling in UN. Larger voids require higher temperatures for oxygen adsorption to significantly lower their surface energy. The temperature dependence of $|\Delta \sigma|$ exhibits three regimes: negligible reduction at low temperatures due to sluggish oxygen diffusion, a maximum at intermediate temperatures where oxygen incorporation is optimal, and a decline at high temperatures due to enhanced bulk solubility. A parametric analysis reveals that $|\Delta \sigma|$ depends strongly on both oxygen concentration and cavity size, but is largely insensitive to porosity. Our results suggest that oxygen-induced surface energy reduction is essential for reconciling the mechanistic swelling model of UN with experimental observations.
+Oxygen impurities in uranium nitride (UN) are reported to influence its swelling behavior under irradiation, yet the underlying mechanism remains unknown. In this work, we develop a first-principles model that quantifies the interaction of oxygen with voids and fission gas bubbles in UN, leading to a reduction in surface energy that can promote swelling. The analysis reveals that segregation of substitutional oxygen at surface nitrogen sites is the primary driver of surface energy reduction, $|\Delta \sigma|$, while oxygen in surface hollow sites plays a minor and sometimes counteracting role. $|\Delta \sigma|$ is most pronounced for small cavities ($R_v$ = 1--10 nm) at intermediate temperatures that coincide with the onset of breakaway swelling in UN. Larger voids require higher temperatures for oxygen adsorption to significantly lower their surface energy. The temperature dependence of $|\Delta \sigma|$ exhibits three regimes: negligible reduction at low temperatures due to sluggish oxygen diffusion, a maximum at intermediate temperatures where oxygen incorporation is optimal, and a decline at high temperatures due to enhanced bulk solubility. A parametric analysis reveals that $|\Delta \sigma|$ depends strongly on both oxygen concentration and cavity size, but \DIFdelbegin \DIFdel{is largely insensitive to }\DIFdelend \DIFaddbegin \DIFadd{only weakly on }\DIFaddend porosity. Our results suggest that oxygen-induced surface energy reduction is essential for reconciling the mechanistic swelling model of UN with experimental observations.
 
 \end{abstract}
 
@@ -158,7 +165,7 @@ Uranium nitride \sep Oxygen segregation \sep Surface energy reduction \sep Void 
 \section{Introduction}
 \label{intro}
 
-Uranium nitride (UN) is considered a highly promising fuel for fast nuclear reactors, space reactors, and potentially commercial light water reactors, due to its high uranium density and high thermal conductivity relative to UO$_2$ \cite{Wallenius2020, Uno2020}. However, early use of UN was limited by issues such as rapid oxidation in air, poor tolerance to water and steam, difficulty in sintering, and the need for nitrogen enrichment with N-15 due to the high neutron absorption of N-14 \cite{Wallenius2020, Uno2020}. Furthermore, many aspects of its behavior at high temperatures and under irradiation remain poorly understood, with scarce experimental data and incomplete mechanistic pictures \cite{Wallenius2020, Uno2020}. Several studies have sought to address this knowledge gap by, for instance, offering an atomistic-level understanding of the deformation mechanisms in UN \DIFdelbegin \DIFdel{\cite{AbdulHameed2024b, AbdulHameed2024c}}\DIFdelend \DIFaddbegin \DIFadd{\cite{AbdulHameed2024b, AbdulHameed2025}}\DIFaddend , which play a critical role in pellet–clad mechanical interactions. Additionally, a mechanistic multiscale model has been developed to describe its swelling behavior \cite{Rizk2025}.
+Uranium nitride (UN) is considered a \DIFdelbegin \DIFdel{highly }\DIFdelend promising fuel for fast nuclear reactors, space reactors, and potentially commercial light water reactors, due to its high uranium density and high thermal conductivity relative to UO$_2$ \cite{Wallenius2020, Uno2020}. However, early use of UN was limited by issues such as rapid oxidation in air, poor tolerance to water and steam, difficulty in sintering, and the need for nitrogen enrichment with N-15 due to the high neutron absorption of N-14 \cite{Wallenius2020, Uno2020}. Furthermore, many aspects of its behavior at high temperatures and under irradiation remain poorly understood, with scarce experimental data and incomplete mechanistic pictures \cite{Wallenius2020, Uno2020}. Several studies have sought to address this knowledge gap by, for instance, offering an atomistic-level understanding of the deformation mechanisms in UN \DIFdelbegin \DIFdel{\cite{AbdulHameed2024b, AbdulHameed2024c}}\DIFdelend \DIFaddbegin \DIFadd{\cite{AbdulHameed2024b, AbdulHameed2025}}\DIFaddend , which play a critical role in pellet–clad mechanical interactions. Additionally, a mechanistic multiscale model has been developed to describe its swelling behavior \cite{Rizk2025}.
 
 UN experiences pronounced swelling driven by the growth of fission gas bubbles to sizes larger than those observed in UO$_2$ \cite{Ronchi1975, Ronchi1978, Rizk2025}, making dimensional stability a key concern for this fuel. The mechanistic model by Rizk \textit{et al.} \cite{Rizk2025} gives a multiscale description of fission-gas swelling and release in UN, coupling atomistic defect data to the BISON finite-element framework via the Simple Integrated Fission Gas Release and Swelling (SIFGRS) model. Their calculations, however, employed a constant void/bubble surface energy derived for oxygen-free UN.
 
@@ -185,7 +192,10 @@ In this work, we use DFT data to parametrize a thermodynamic model based on defe
 DFT calculations performed in this work utilize the Vienna Ab-initio Simulation Package (VASP) \cite{Kresse1993, Kresse1996a, Kresse1996b} using the Perdew-Burke-Ernzerhof (PBE) \cite{Perdew1996} generalized gradient approximation (GGA) to the exchange-correlation (XC) functional. The pseudopotential models of uranium, nitrogen, and oxygen are based on the projector augmented wave (PAW) method \cite{Kresse1999} where the valence electron configuration of U is $6s^2$ $6p^6$ $6d^2$ $5f^2$ $7s^2$ (14 electrons), that of N is $2s^2$ $2p^3$ (5 electrons), and that of O is $2s^2$ $2p^4$ (6 electrons). Methfessel and Paxton’s smearing method \cite{Methfessel1989} of the first order is used with a width of 0.1 eV to determine the partial occupancies for each wavefunction.
 \DIFaddbegin 
 
-\DIFadd{UN adopts the NaCl structure (space group $Fm\bar{3}m$). }\DIFaddend $3 \times 3 \times 3$ supercells of ferromagnetic (FM) UN\DIFaddbegin \DIFadd{, containing 54 formula units (108 atoms), }\DIFaddend are used to model bulk UN and to study the properties of defects and impurities. To study surface properties, 6-layer and 8-layer symmetric slabs \DIFdelbegin \DIFdel{of FM UN }\DIFdelend \DIFaddbegin \DIFadd{based on the same $3 \times 3$ surface unit cell }\DIFaddend are used, \DIFaddbegin \DIFadd{containing 216 and 288 atoms, respectively, }\DIFaddend where the vacuum gap in each is twice the length of the slab along the $z$-direction. It was shown by Kocevski \textit{et al.}
+\DIFadd{UN adopts the NaCl structure (space group $Fm\bar{3}m$). }\DIFaddend $3 \times 3 \times 3$ supercells of ferromagnetic (FM) UN\DIFaddbegin \DIFadd{, containing 108 formula units (216 atoms), }\DIFaddend are used to model bulk UN and to study the properties of defects and impurities. \DIFaddbegin \DIFadd{The relaxed lattice parameter is $a_0$ = 4.861~\AA\ with a site-projected uranium magnetic moment of $\mu_\text{U} = 1.21 \mu_\text{B}$, reproducing the PBE FM benchmarks of Kocevski \textit{et al.} \cite{Kocevski2022I} and deviating by $-0.6$\% from the experimental value of 4.89 \AA\ \cite{Hayes1990I}.
+}
+
+\DIFaddend To study surface properties, 6-layer and 8-layer symmetric slabs \DIFdelbegin \DIFdel{of FM UN }\DIFdelend \DIFaddbegin \DIFadd{based on the same $3 \times 3$ surface unit cell }\DIFaddend are used, \DIFaddbegin \DIFadd{containing 216 and 288 atoms, respectively, }\DIFaddend where the vacuum gap in each is twice the length of the slab along the $z$-direction. It was shown by Kocevski \textit{et al.}
 \cite{Kocevski2022I} that the FM ordering provides a suitable model of UN at 0 K. Brillouin zone sampling is performed using Monkhorst-Pack \cite{Monkhorst1976} $3 \times 3 \times 3$ and $3 \times 3 \times 1$ \textit{k}-point meshes for the $3 \times 3 \times 3$ supercells and the symmetric slabs, respectively. In all energy minimization calculations, we set the cutoff energy of the plane-wave basis as 520 eV, the electronic relaxation convergence criterion as $10^{-4}$ eV, and the ionic relaxation convergence criterion as $10^{-2}$ eV/\AA. The nudged elastic band (NEB) method \cite{Henkelman2000a} with the climbing image algorithm \cite{Henkelman2000b} is used to calculate the migration energies of O$_i$ and $\{\text{O}_\text{N} \! : \! v_\text{N}\}$. The structures and ionic minimization trajectories are visualized using OVITO \cite{Stukowski2010} and VESTA \cite{Momma2008}.
 
 % Equations
@@ -292,6 +302,8 @@ and rearranging \cref{Eq:muPO2,Eq:Kmu}, it can be easily shown that the oxygen c
 \end{equation}
 
 \subsection{Oxygen diffusivity}
+\DIFaddbegin \label{Sec:Diff}
+\DIFaddend 
 
 The diffusivity of oxygen impurities is also explored in this work. The diffusivity of a defect $d$ is calculated from:
 \begin{equation}
@@ -403,7 +415,7 @@ To find the relative concentration $[ \text{O}_\text{N}^\text{(s)} ] / [ \text{O
 \subsection{Defect energetics}
 \label{Sec:DefE}
 
-The formation energies of U and N vacancies in UN are shown in \cref{Tab:EfVN}. The bulk formation energies compare very well with those calculated by Yang and Kaltsoyannis \cite{Yang2021} and Kocevski \textit{et al.} \cite{Kocevski2022I}. It is noticed that there is a consistent difference of about 0.76 eV between N vacancy formation on the surface and in the bulk, independent of stoichiometry. This difference is termed the segregation energy of the N vacancy. It is easier to form an N vacancy on the surface than in the bulk, and the number of $v_\text{N}^\text{(s)}$ sites is limited by the available surface area.
+The formation energies of U and N vacancies in UN are shown in \cref{Tab:EfVN}. The bulk formation energies compare very well with those calculated by Yang and Kaltsoyannis \cite{Yang2021} and Kocevski \textit{et al.} \cite{Kocevski2022I}\DIFaddbegin \DIFadd{, which acts as a validation of our DFT model}\DIFaddend . It is noticed that there is a consistent difference of about 0.76 eV between N vacancy formation on the surface and in the bulk, independent of stoichiometry. This difference is termed the segregation energy of the N vacancy. It is easier to form an N vacancy on the surface than in the bulk, and the number of $v_\text{N}^\text{(s)}$ sites is limited by the available surface area.
 
 \begin{table}[h!]
 \scriptsize
@@ -572,7 +584,7 @@ Above-N site                                     & $-2.77$ \\
 %DIF >  This behavior is due to the different reference states of oxygen in both cases.
 \DIFaddbegin 
 
-\DIFadd{The energetic preference of $\mathrm{O_N^{(s)}}$ over $\mathrm{O}_i^{\mathrm{(s)}}$ (\cref{Tab:Ead}) can be understood from the electronic structure analyses of oxygen on UN surfaces reported in~\cite{Bocharov2011JNM, Zhukovskii2009SS, Zhukovskii2009JNM}. In the NaCl structure, a nitrogen sublattice site is coordinated entirely by uranium atoms. Projected density of states (DOS) calculations show that oxygen at such a site on the surface has its $2p$ states partly mixed with U~$5f$ states, while the N~$2p$ band position remains insensitive to the presence of oxygen~\cite{Bocharov2011JNM, Zhukovskii2009JNM}. This indicates that the relevant bonding interaction is between oxygen and its nearest-neighbor uranium atoms rather than with nitrogen, consistent with the formation of O-U bonds reported in~\cite{Bocharov2011JNM}. Bader charge analysis confirms a substantial charge transfer to the oxygen atom in the $\mathrm{O_N^{(s)}}$ site~\cite{Bocharov2011JNM}. The hollow interstitial site, by contrast, places oxygen between both U and N surface atoms rather than exclusively among uranium nearest neighbors (see \cref{Fig:Oad-2}). Since the nitrogen neighbors do not contribute significantly to bonding, the reduced uranium coordination at the hollow site results in weaker O~$2p$-U~$5f$ hybridization compared to $\mathrm{O_N^{(s)}}$. Charge density difference maps confirm that the bonding perturbation around oxygen in a nitrogen site is spatially localized and directed along the O-U bonds~\cite{Bocharov2011JNM}. These findings establish that the O~$2p$-U~$5f$ hybridization and charge transfer enabled by the uranium coordination shell at nitrogen sublattice sites is the electronic origin of the stronger adsorption of $\mathrm{O_N^{(s)}}$ and, consequently, its dominant role in reducing the surface energy of voids in UN.
+\DIFadd{The energetic preference of $\mathrm{O_N^{(s)}}$ over $\mathrm{O}_i^{\mathrm{(s)}}$ (\cref{Tab:Ead}) can be understood from the electronic structure analyses of oxygen on UN surfaces reported in~\cite{Bocharov2011JNM, Zhukovskii2009SS, Zhukovskii2009JNM}. In the NaCl structure, a nitrogen sublattice site is coordinated entirely by uranium atoms. Projected density of states (DOS) calculations~\cite{Bocharov2011JNM,Zhukovskii2009JNM} show that oxygen at such a site on the surface has its $2p$ states partly mixed with U~$5f$ states, while the N~$2p$ band position remains insensitive to the presence of oxygen. This indicates that the relevant bonding interaction is between oxygen and its nearest-neighbor uranium atoms rather than with nitrogen, consistent with the formation of O-U bonds reported in~\cite{Bocharov2011JNM}. Bader charge analysis~\cite{Bocharov2011JNM} confirms a substantial charge transfer to the oxygen atom in the $\mathrm{O_N^{(s)}}$ site. The hollow interstitial site, by contrast, places oxygen between both U and N surface atoms rather than exclusively among uranium nearest neighbors (see \cref{Fig:Oad-2}). Since the nitrogen neighbors do not contribute significantly to bonding, the reduced uranium coordination at the hollow site results in weaker O~$2p$-U~$5f$ hybridization compared to $\mathrm{O_N^{(s)}}$. Charge density difference maps~\cite{Bocharov2011JNM} confirm that the bonding perturbation around oxygen in a nitrogen site is spatially localized and directed along the O-U bonds. These findings establish that the O~$2p$-U~$5f$ hybridization and charge transfer enabled by the uranium coordination shell at nitrogen sublattice sites is the electronic origin of the stronger adsorption of $\mathrm{O_N^{(s)}}$ and, consequently, its dominant role in reducing the surface energy of voids in UN.
 }
 
 \DIFaddend \begin{figure}[h!]
@@ -664,7 +676,22 @@ It is important to note that we assume $ \text{O}_\text{N}^\text{(s)} $ defects 
 }\DIFdelend \DIFaddbegin \DIFadd{(1300--1700~K), coinciding with the breakaway swelling regime in nitride fuels. Ronchi \textit{et al.}~\cite{Ronchi1978} reported the breakaway swelling critical temperature $T_c$ for mixed nitrides in the interval 1473--1573~K, with an uncertainty of $\pm$50~K. This range, shown as a shaded band in \cref{Fig:Delta_sigma}, overlaps with the temperature of maximum $|\Delta \sigma|$ predicted by our model. The mechanistic modeling by Rizk \textit{et al.}~\cite{Rizk2025} corroborates this picture, attributing the breakaway transition in UN to a change in the gas atom diffusion mechanism occurring around 1500~K. Noting that the range of operating temperatures in liquid metal-cooled fast reactors is 800--2000~K~\cite{Turos1990}, these findings highlight oxygen adsorption as a critical factor in facilitating void nucleation under conditions typical of reactor environments.
 }\DIFaddend 
 
-The oxygen effect on stabilizing voids is more significant at intermediate temperatures due to the balance between oxygen solubility and kinetics. At very high temperatures, the increased oxygen solubility in the bulk results in a preference for oxygen to remain in the bulk rather than adsorb onto the void surfaces. The temperature that corresponds to the maximum surface energy reduction is the same for each stoichiometric condition, independent of porosity and oxygen concentration (\cref{Fig:500_0.05_1,Fig:1500_0.05_1,Fig:3000_5_1}). This stems from the fact that the kinetic factors, $\alpha_i$, have no dependence on either porosity or oxygen concentration. The kinetic factors, however, depend on the average pore radius, i.e., $\alpha_i \sim 1/\lambda_v \sim 1/R_v$. As shown in \cref{Fig:1500_0.05_1,Fig:1500_0.05_10}, increasing $R_v$ from 1 nm to 10 nm shifts the temperature of maximum surface energy reduction by about 200 K to the right, and slightly decreases the overall magnitude of $\Delta \sigma$. This indicates that larger voids require higher temperatures for oxygen adsorption to meaningfully lower their surface energy. Nevertheless, even at elevated temperatures, the reduction in surface energy for larger voids remains smaller than that for smaller voids at the same porosity and oxygen concentration. Thus, oxygen-induced surface stabilization is most effective for small cavities, i.e., during the early stages of void nucleation and bubble growth.
+The \DIFdelbegin \DIFdel{oxygen effect on stabilizing voids is more significant at intermediate temperatures due to the balance between oxygen solubility and kinetics . At very }\DIFdelend \DIFaddbegin \DIFadd{temperature dependence of $|\Delta\sigma|$ is governed by the competition between oxygen adsorption kinetics and bulk solubility. At low temperatures, diffusion is too slow for significant oxygen transport to void surfaces; at }\DIFaddend high temperatures, the increased \DIFdelbegin \DIFdel{oxygen solubility in the bulk results in a preference for oxygen to remain in }\DIFdelend \DIFaddbegin \DIFadd{bulk solubility of oxygen disfavors surface segregation. As a result, $|\Delta\sigma|$ exhibits a maximum at an intermediate temperature $T_\text{peak}$.
+}
+
+\DIFadd{A closed-form expression for this peak temperature is derived in \ref{App:Tpeak} by analyzing the piecewise monotonicity of $|\Delta\sigma|(T)$. The maximum coincides with the kinetic saturation temperature $T^*$ at which oxygen diffusion first reaches the mean void spacing within the nucleation time, i.e., $\sqrt{D_1(T^*)\,t} = \lambda_v$. Solving this condition yields:
+}\begin{equation}
+\DIFadd{T_\text{peak} = \frac{E_m + E_f(v_\text{N}^{(\text{b})})}{k\,\ln\!\left[\dfrac{f\,z\,\lambda^2\,\nu\,t}{6\,c_\text{O}\,\lambda_v^2}\right]},
+\label{Eq:TpeakMain}
+}\end{equation}
+\DIFadd{where $f$ is the correlation factor, $z$ the coordination number, $\lambda$ the jump distance, and $\nu$ the attempt frequency for }\DIFaddend the \DIFdelbegin \DIFdel{bulk rather than adsorb onto the void surfaces. The temperature that corresponds to the maximum surface energy reduction is the same for each stoichiometric condition, independent of porosity and oxygen concentration (\cref{Fig:500_0.05_1,Fig:1500_0.05_1,Fig:3000_5_1}).
+This stems from the fact that the kinetic factors, $\alpha_i$, have no dependence on either porosity or oxygen concentration. The kinetic factors, however, depend on the average pore radius, i.e., $\alpha_i \sim 1/\lambda_v \sim 1/R_v$. As shown in \cref{Fig:1500_0.05_1,Fig:1500_0.05_10}}\DIFdelend \DIFaddbegin \DIFadd{$\{\text{O}_\text{N} \! : \! v_\text{N}\}$ mechanism (defined in \cref{Sec:Diff}), and $\lambda_v = n_v^{-1/3}$ is the mean free path between voids. The full derivation is given in \ref{App:Tpeak}. Because $R_v$}\DIFaddend , \DIFaddbegin \DIFadd{$p$, $c_\text{O}$, and $t$ enter only through the logarithm, $T_\text{peak}$ is controlled primarily by the activation energy scale $E_m + E_f(v_\text{N}^{(\text{b})})$ and is only weakly sensitive to microstructural parameters and oxygen concentration.
+}
+
+\DIFadd{The weak dependence of $|\Delta\sigma|$ on porosity is also explained analytically in \ref{App:Tpeak:Porosity}. The leading $(1-p)/p$ factor in the geometric prefactor of \cref{Eq:DeltaSigma1} is exactly canceled by an opposing $p/(1-p)$ factor arising from the surface nitrogen site fraction (\cref{Eq:NNs1}) that enters the segregation ratio (\cref{Eq:ONs_ONb}). The residual porosity dependence is only $1/[\text{N}_\text{N}^{(\text{b})}] \approx 1$, since $[\text{N}_\text{N}^{(\text{s})}] \ll 1$ for the void sizes of interest. Furthermore, at $T_\text{peak}$, the kinetic factor is saturated ($\alpha_1 = 1$), so the $p^{1/3}$ dependence of $\alpha_1$ does not contribute at the peak. Numerical evaluation confirms that the peak $|\Delta\sigma|$ varies by less than 10\% across $p = 5$--20\% for $R_v = 25$~nm (\cref{Tab:App:por}).
+}
+
+\DIFadd{The dependence on void size is more significant. Since $\lambda_v \sim R_v / p^{1/3}$, larger voids increase the denominator of \cref{Eq:TpeakMain}, shifting $T_\text{peak}$ to higher temperatures. This also reduces the peak magnitude of $|\Delta\sigma|$ because the segregation drive is weaker at higher temperatures. For example, }\DIFaddend increasing $R_v$ from 1\DIFaddbegin \DIFadd{~}\DIFaddend nm to 10\DIFdelbegin \DIFdel{nm shifts the temperature of maximum surface energy reduction by about 200 K to the right, and slightly decreases the overall magnitude of $\Delta \sigma$. This indicates that larger voids require higher temperatures for oxygen adsorption to meaningfully lower their surface energy. Nevertheless, even at elevated temperatures, the reduction in surface energy for larger voids remains smaller than that for smaller voids at the same porosity and oxygen concentration. Thus, oxygen-induced surface stabilization is }\DIFdelend \DIFaddbegin \DIFadd{~nm shifts $T_\text{peak}$ upward by approximately 180~K (\cref{Fig:1500_0.05_1,Fig:1500_0.05_10}). Note this 180~K upward shift observed from the figures can be reproduced quantitatively using \cref{Eq:TpeakMain}, which validates \cref{Eq:TpeakMain}. Oxygen-induced surface stabilization is therefore }\DIFaddend most effective for small \DIFdelbegin \DIFdel{cavities, i.e., }\DIFdelend \DIFaddbegin \DIFadd{voids }\DIFaddend during the early stages of \DIFdelbegin \DIFdel{void nucleation and bubble }\DIFdelend \DIFaddbegin \DIFadd{nucleation and }\DIFaddend growth.
 
 % \begin{figure}[h!]
 %     \centering
@@ -771,12 +798,14 @@ Given that the effect of nitrogen vacancies on surface energy reduction is negli
 where $c_\text{O}$ is the atomic fraction of oxygen, $\Omega = a^3/8$ is the atomic volume of the matrix (inverse of the atomic number density), $p$ is the porosity, and $R_v$ is the average void radius. The geometric factor $\eta$ captures the matrix-to-void volume ratio, $(1-p)/p$, and the void volume-to-surface ratio, $R_v/3$. That is, $\eta$ represents the average matrix volume per unit void surface area: $(V_\text{matrix}/V_\text{void}) \times (V_\text{void}/A_\text{void}) = V_\text{matrix} / A_\text{void}$, and gives a length scale that quantifies an effective thickness of matrix material 
 supplying each unit of void surface. The kinetic correction factor $\alpha_1$ accounts for the finite diffusivity of oxygen within the void nucleation timescale (refer to \cref{Eq:alpha}). Finally, $E_\text{seg}^\text{eff}$ represents the net energy gain per oxygen atom that segregates to the void surface. This formulation makes explicit that the surface energy reduction is governed by the interplay of thermodynamics, kinetics, and microstructural geometry, and scales linearly with the number of oxygen atoms that successfully reach and adsorb on the available void surface area. Note that the temperature dependence of $|\Delta \sigma|$ is contained in the anti-Arrhenius term $[\text{O}_\text{N}^{(\text{s})}] / [\text{O}_\text{N}^{(\text{b})}]$ and $\alpha_1 \sim \sqrt{D_1}$.
 
-\DIFaddbegin \DIFadd{The near-independence of $|\Delta \sigma|$ from porosity can now be understood analytically. From \cref{Eq:ONs_ONb}, the segregation ratio $[\text{O}_\text{N}^{(\text{s})}] / [\text{O}_\text{N}^{(\text{b})}]$ is proportional to $[v_\text{N}^{(\text{s})}] / [v_\text{N}^{(\text{b})}]$. The surface vacancy concentration $[v_\text{N}^{(\text{s})}]$ is, in turn, proportional to $[\text{N}_\text{N}^{(\text{s})}]$ via \cref{Eq:VN-VNs}, and $[\text{N}_\text{N}^{(\text{s})}] \sim (p/(1-p)) \cdot a/R_v$ from \cref{Eq:NNs1}. Substituting into \cref{Eq:DeltaSigmaSimple}, the factor $p/(1-p)$ arising from the segregation ratio cancels the factor $(1-p)/p$ in the geometric prefactor $\eta$, leaving a residual porosity dependence of only $(1-p)$. This factor varies by merely $\sim$16\% across $p = 5$--20\%, which explains the weak porosity dependence observed in \cref{Fig:p_w_plot}.
-}
+%DIF >  The near-independence of $|\Delta \sigma|$ from porosity can now be understood analytically. From \cref{Eq:ONs_ONb}, the segregation ratio $[\text{O}_\text{N}^{(\text{s})}] / [\text{O}_\text{N}^{(\text{b})}]$ is proportional to $[v_\text{N}^{(\text{s})}] / [v_\text{N}^{(\text{b})}]$. The surface vacancy concentration $[v_\text{N}^{(\text{s})}]$ is, in turn, proportional to $[\text{N}_\text{N}^{(\text{s})}]$ via \cref{Eq:VN-VNs}, and $[\text{N}_\text{N}^{(\text{s})}] \sim (p/(1-p)) \cdot a/R_v$ from \cref{Eq:NNs1}. Substituting into \cref{Eq:DeltaSigmaSimple}, the factor $p/(1-p)$ arising from the segregation ratio cancels the factor $(1-p)/p$ in the geometric prefactor $\eta$, leaving a residual porosity dependence of only $(1-p)$. This factor varies by merely $\sim$16\% across $p = 5$--20\%, which explains the weak porosity dependence observed in \cref{Fig:p_w_plot}.
+\DIFaddbegin 
+
+
 
 \DIFaddend For the reference case of $w_\text{O}$ = 1500 ppm, $p$ = 5\%, and $R_v$ = 1 nm, $|\Delta \sigma|$ is found to be around 0.4~J/m$^2$, occurring within the temperature interval 1300--1700~K (see \cref{Fig:1500_0.05_1}). To assess the sensitivity of $|\Delta \sigma|$ to key parameters, we vary $w_\text{O}$ and $p$ while holding $R_v$ fixed at 25 nm, which is a typical size for both dislocations and intergranular bubbles \cite{Colin1983}. It has been shown that dislocation bubbles dominate bubble swelling in UN \cite{Ronchi1975,Ronchi1978,Rizk2025}. Although the assumptions of our methodology are more representative of bulk voids, we assume that the same surface energy reduction mechanism applies to intragranular (bulk and dislocation) and intergranular bubbles.
 
-\Cref{Fig:p_w_plot} represents the maximum $|\Delta \sigma|$, which occurs at intermediate stoichiometric conditions. As explained earlier, because $R_v$ is kept fixed, the temperature at which this maximum occurs is the same (1800 K in the case of $R_v$ = 25 nm), independent of $w_\text{O}$ or $p$. The color map reveals that $|\Delta \sigma|$ is nearly independent of porosity. The vertical red line marks the oxygen concentration in UN samples from Ronchi \textit{et al.} ($w_\text{O} = 1800$ ppm) \cite{Ronchi1975,Ronchi1978}, used by Rizk \textit{et al.} \cite{Rizk2025} to validate their swelling model. Fission gas bubbles with an average radius of 25~nm are predicted to experience a reduction in surface energy of about 0.3--0.4~J/m$^2$, approximately 20\% of our calculated surface energy in the oxygen-free case.
+\Cref{Fig:p_w_plot} represents the maximum $|\Delta \sigma|$, which occurs at intermediate stoichiometric conditions. As explained earlier, because $R_v$ is kept fixed, the temperature at which this maximum occurs is \DIFdelbegin \DIFdel{the same (1800 K in the case of }\DIFdelend \DIFaddbegin \DIFadd{approximately the same for all $(w_\text{O}, p)$ combinations shown, varying only between $\sim$1620 and $\sim$1750~K for }\DIFaddend $R_v$ = 25\DIFdelbegin \DIFdel{nm), independent of }\DIFdelend \DIFaddbegin \DIFadd{~nm at intermediate stoichiometry. This weak dependence on }\DIFaddend $w_\text{O}$ \DIFdelbegin \DIFdel{or }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend $p$ \DIFaddbegin \DIFadd{follows from \cref{Eq:TpeakMain}, where both parameters enter only through a logarithm}\DIFaddend . The color map reveals that $|\Delta \sigma|$ is \DIFdelbegin \DIFdel{nearly independent of porosity }\DIFdelend \DIFaddbegin \DIFadd{weakly dependent on porosity for $R_v$ = 25 nm}\DIFaddend . The vertical red line marks the oxygen concentration in UN samples from Ronchi \textit{et al.} ($w_\text{O} = 1800$ ppm) \cite{Ronchi1975,Ronchi1978}, used by Rizk \textit{et al.} \cite{Rizk2025} to validate their swelling model. Fission gas bubbles with an average radius of 25~nm are predicted to experience a reduction in surface energy of about 0.3--0.4~J/m$^2$, approximately 20\% of our calculated surface energy in the oxygen-free case.
 
 % This observation, however, requires some explanation. According to \cref{Eq:DeltaSigmaSimple}, $|\Delta \sigma| \sim c_\text{O} R_v$, i.e., increasing $R_v$ at fixed porosity reduces the total internal surface area available for oxygen segregation, which would naively suggest a lower required bulk oxygen concentration to maintain the same surface coverage, and hence the same $|\Delta \sigma|$. However, this geometric scaling is offset by two competing effects. First, the site availability for oxygen segregation decreases with increasing $R_v$, as the surface nitrogen vacancy concentration scales inversely with void radius, i.e., $[v_\text{N}^\text{(s)}] \sim [\text{N}_\text{N}^\text{(s)}] \sim 1/R_v$ (see \cref{Eq:VN-VNs,Eq:NNs1}). Second, the kinetic correction factor $\alpha_1 \sim 1/\lambda_v \sim 1/R_v$ (see \cref{Eq:alpha}). This is reasonable since fewer, and therefore farther apart, voids make it harder for an O atom to reach a surface within the nucleation time. These effects collectively result in a net scaling of $|\Delta \sigma| \sim c_{\text{O}} / R_v$, such that maintaining a constant surface energy reduction requires increasing $c_\text{O}$ (or equivalently $w_\text{O}$) as $R_v$ is increased.
 
@@ -785,7 +814,7 @@ supplying each unit of void surface. The kinetic correction factor $\alpha_1$ ac
     \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.5\textwidth]{p_w_abs_gradual_plot_2_5e-08.png}
 %DIFDELCMD <     %%%
 \DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.5\textwidth]{p_w_abs_gradual_plot_2.5e-08.png}
-    \DIFaddendFL \caption{(Color online) Maximum surface energy reduction, $|\Delta \sigma|$ as a function of porosity and oxygen concentration under intermediate stoichiometry for a fixed bubble radius $R_v$ = 25 nm, typical of dislocation and grain-boundary bubbles. The red line marks $w_\text{O}$ = 1800 ppm, the oxygen concentration in UN samples from Ronchi \textit{et al.} \cite{Ronchi1975,Ronchi1978}, used by Rizk \textit{et al.} \cite{Rizk2025} to validate their swelling model. Because $R_v$ is constant, all maxima in $|\Delta \sigma|$ occur at the same temperature.}
+    \DIFaddendFL \caption{(Color online) Maximum surface energy reduction, $|\Delta \sigma|$ as a function of porosity and oxygen concentration under intermediate stoichiometry for a fixed bubble radius $R_v$ = 25 nm, typical of dislocation and grain-boundary bubbles. The red line marks $w_\text{O}$ = 1800 ppm, the oxygen concentration in UN samples from Ronchi \textit{et al.} \cite{Ronchi1975,Ronchi1978}, used by Rizk \textit{et al.} \cite{Rizk2025} to validate their swelling model.\DIFdelbeginFL \DIFdelFL{Because $R_v$ is constant, all maxima in $|\Delta \sigma|$ occur at the same temperature.}\DIFdelendFL }
     \label{Fig:p_w_plot}
 \end{figure}
 
@@ -829,7 +858,7 @@ This study presents a novel model that integrates first-principles calculations 
 %DIF >  More broadly, $T_c$ in MX-type fuels decreases with increasing burnup: for carbides, Colin \textit{et al.}~\cite{Colin1983} showed that $T_c$ decreases from $\sim$1150~K at low burnup to $\sim$1000~K at 11~at.\%, reflecting the fact that a higher fission gas inventory allows the critical gas concentration for accelerated bubble growth to be reached at progressively lower temperatures. For nitrides, $T_c$ is 200--300~K higher than for carbides at comparable burnup~\cite{Ronchi1978}. Thus, the coincidence between our predicted $|\Delta \sigma|$ peak and the experimentally reported $T_c$ range is expected to persist across burnup.
 \DIFaddbegin 
 
-\DIFaddend The model provides predictive capabilities by mapping the dependence of surface energy reduction on key physical parameters, including temperature, porosity, void radius, and oxygen concentration. Parametric analysis reveals that surface energy reduction is strongly influenced by oxygen concentration and void radius, while being nearly independent of porosity. In particular, small bulk voids and bubbles experience a significant stabilization effect from oxygen at intermediate temperatures, highlighting the role of oxygen in the early stages of void or fission gas bubble formation. These insights may provide a physically grounded explanation for the association between oxygen content and accelerated swelling observed in experimental studies of mixed uranium carbide/nitride fuels~\cite{Rogozkin2003}. Furthermore, the generality of the approach allows for its extension to other materials systems and integration into mesoscale models and fuel performance codes, offering a path toward multiscale modeling of chemically assisted swelling in nuclear materials.
+\DIFaddend The model provides predictive capabilities by mapping the dependence of surface energy reduction on key physical parameters, including temperature, porosity, void radius, and oxygen concentration. Parametric analysis reveals that surface energy reduction is strongly influenced by oxygen concentration and void radius, while being \DIFdelbegin \DIFdel{nearly independent of }\DIFdelend \DIFaddbegin \DIFadd{weakly dependent on }\DIFaddend porosity. In particular, small bulk voids and bubbles experience a significant stabilization effect from oxygen at intermediate temperatures, highlighting the role of oxygen in the early stages of void or fission gas bubble formation. These insights may provide a physically grounded explanation for the association between oxygen content and accelerated swelling observed in experimental studies of mixed uranium carbide/nitride fuels~\cite{Rogozkin2003}. Furthermore, the generality of the approach allows for its extension to other materials systems and integration into mesoscale models and fuel performance codes, offering a path toward multiscale modeling of chemically assisted swelling in nuclear materials.
 
 Rizk \textit{et al.} adopted a surface energy of 1.11 J/m$^2$, computed using the empirical potential developed by Kocevski \textit{et al.} \cite{Kocevski2022II}. In contrast, our DFT calculations yield a higher value of 1.59 J/m$^2$ for a planar surface. This 0.48 J/m$^2$ discrepancy, neglecting curvature corrections, likely stems from the known tendency of the Kocevski potential to underestimate defect energetics in UN~\cite{AbdulHameed2024}, a limitation that appears to manifest here as well. Substituting $\sigma$ = 1.59 J/m$^2$ into the model of Rizk \textit{et al.} would suppress both fission gas swelling and release, necessitating recalibration of other model parameters to preserve agreement with experiment. This discrepancy highlights the need for a mechanism that lowers surface energy in irradiated UN. We propose that oxygen adsorption at bubble surfaces fulfills this role, enabling the levels of swelling and gas release observed experimentally. A reduction in surface energy thus appears essential to reconcile the mechanistic model with experimental data. Notably, the oxygen concentration reported by Ronchi \textit{et al.} ($w_\text{O}$ = 1800 ppm) corresponds to a predicted surface energy reduction of 0.3--0.4 J/m$^2$, closely matching the gap between our DFT value and that used by Rizk \textit{et al.}
 
@@ -850,7 +879,10 @@ Rizk \textit{et al.} adopted a surface energy of 1.11 J/m$^2$, computed using th
 
 \DIFaddend % An elevated surface energy would have significant consequences for the thermodynamic and kinetic evolution of fission gas bubbles in the mechanistic model. The equilibrium internal pressure of a bubble, given by the modified Young–Laplace relation $P_{\text{eq}} = 2\sigma / R_v - s_h$, scales linearly with $\sigma$. Thus, increasing the surface energy raises the equilibrium pressure required for mechanical stability at a given radius, resulting in more severe over-pressurization for the same gas content. This, in turn, enhances the driving force for vacancy absorption while simultaneously increasing the energetic penalty associated with surface formation. The net effect is a suppression of bubble nucleation and growth, particularly for dislocation-mediated intragranular bubbles that dominate swelling near the breakaway temperature. Moreover, grain boundary bubbles, which are already over-pressurized in the model, would experience even greater resistance to expansion, thereby delaying interconnection and fission gas release. These effects would collectively shift the Vitanza-type release threshold to higher temperatures and burnups, leading to unrealistically low gas release predictions and artificial retention of gas within the fuel matrix. 
 
-Despite its contributions, the present model includes several simplifications that merit further investigation. First, the surface adsorption energy of oxygen is assumed to be independent of surface coverage, which may not hold at high impurity concentrations where impurity-impurity interactions become significant. Additionally, configurational and vibrational entropy contributions are neglected, which may affect the temperature dependence of defect formation and migration energies, particularly at elevated temperatures. Further, the kinetic parameter used to model oxygen segregation is introduced in an \textit{ad hoc} manner, limiting the model's capability to capture time-dependent or rate-limited processes. \DIFdelbegin \DIFdel{Finally, the }\DIFdelend \DIFaddbegin \DIFadd{To assess sensitivity to this parameter, we note that $\alpha_i \sim \sqrt{t}$ (\cref{Eq:alpha}), so that $|\Delta \sigma|$ in the kinetically limited regime scales as $\sqrt{t}$. Varying $t$ from 10 to 100 hours, $|\Delta \sigma|$ decreases by $\sim$51\% for $t = 10$~hours and increases by $\sim$54\% for $t = 100$~hours, relative to the baseline $t = 42$~hours. Importantly, the temperature at which $|\Delta \sigma|$ is maximized is independent of $t$, because the kinetic correction $\alpha_i$ shifts the magnitude but not the balance point between the anti-Arrhenius segregation ratio $[\text{O}_\text{N}^{(\text{s})}]/[\text{O}_\text{N}^{(\text{b})}]$ and the Arrhenius diffusivity $D_i$. Thus, the qualitative conclusions---that $|\Delta \sigma|$ peaks in the 1300--1700~K range for $R_v = 1$~nm---are robust to the choice of $t$ within physically reasonable bounds.
+Despite its contributions, the present model includes several simplifications that merit further investigation. First, the surface adsorption energy of oxygen is assumed to be independent of surface coverage, which may not hold at high impurity concentrations where impurity-impurity interactions become significant. Additionally, configurational and vibrational entropy contributions are neglected, which may affect the temperature dependence of defect formation and migration energies, particularly at elevated temperatures.
+\DIFaddbegin 
+
+\DIFaddend Further, the kinetic parameter used to model oxygen segregation is introduced in an \textit{ad hoc} manner, limiting the model's capability to capture time-dependent or rate-limited processes. \DIFdelbegin \DIFdel{Finally, the }\DIFdelend \DIFaddbegin \DIFadd{To assess sensitivity to this parameter, we note that $\alpha_i \sim \sqrt{t}$ (\cref{Eq:alpha}), so that $|\Delta \sigma|$ in the kinetically limited regime scales as $\sqrt{t}$. Varying $t$ from 10 to 100 hours, $|\Delta \sigma|$ decreases by $\sim$51\% for $t = 10$~hours and increases by $\sim$54\% for $t = 100$~hours, relative to the baseline $t = 42$~hours. Note that the temperature at which $|\Delta \sigma|$ is maximized also depends on $t$ but only logarithmically (through \cref{Eq:TpeakMain}), giving a downward shift of approximately 80~K over the order-of-magnitude range $t = 10$--100~hours for the reference case of $R_v$ = 1~nm, $w_\text{O}$ = 1500 ppm, and $p$ = 0.05.
 }
 
 \DIFadd{Also, the }\DIFaddend influence of sinks such as grain boundaries and second-phase precipitates, which may trap oxygen or alter defect transport, is also not incorporated.
@@ -862,7 +894,7 @@ Despite its contributions, the present model includes several simplifications th
 \DIFadd{where $\delta$ is a Tolman-like length on the order of $\sim 1$~nm, the correction to the absolute surface energy (equal to $\delta/R_v$) is substantial for the smallest voids considered here: 100\% at $R_v$ = 1~nm, 50\% at $R_v$ = 2~nm, diminishing to 10\% at $R_v$ = 10~nm and 4\% at $R_v = 25$~nm. However, the central quantity predicted by our model is not $\sigma$ itself but the change in surface energy, $\Delta\sigma$, due to oxygen adsorption. As demonstrated in the derivation of \cref{Eq:DeltaSigma1}, the pristine surface energy cancels identically: $\Delta\sigma$ depends only on adsorption energies ($E_\mathrm{ad}$), defect formation energies ($E_f$), defect concentrations, and kinetic correction factors, none of which are functions of $\sigma$. Curvature corrections to the absolute surface energy therefore do not propagate into the predicted $\Delta\sigma$, and the conclusions regarding oxygen-induced surface energy reduction remain quantitatively unchanged irrespective of the curvature model adopted.
 }
 
-\DIFadd{Regarding faceting, the (001) surface is the most stable low-index surface of UN and is expected to dominate the equilibrium shape of voids in rocksalt-structured compounds. While $\{110\}$ and $\{111\}$ facets may be present, particularly in non-equilibrium or irradiation-produced voids, their contribution to the total void surface area is expected to be secondary. In principle, the oxygen adsorption energies on these higher-index surfaces may differ from those on the (001) surface, which would introduce facet-dependent corrections to $\Delta\sigma$. Quantifying these corrections would require dedicated slab calculations for each facet orientation, which is beyond the scope of the present work. Nevertheless, because the dominant contribution to $\Delta\sigma$ arises from the segregation of oxygen into surface nitrogen vacancies (O$_\mathrm{N}^{(\mathrm{s})}$), which is governed primarily by the local coordination environment of the nitrogen sublattice rather than the global surface orientation, we expect the qualitative trends reported here to be robust across facets. A systematic investigation of facet-dependent adsorption energies and their impact on void stabilization is a natural extension of this work.
+\DIFadd{Regarding faceting, the (001) surface is the most stable low-index surface of UN \cite{Zhukovskii2009SS} and is expected to dominate the equilibrium shape of voids in rocksalt-structured compounds. While $\{110\}$ and $\{111\}$ facets may be present, particularly in non-equilibrium or irradiation-produced voids, their contribution to the total void surface area is expected to be secondary. In principle, the oxygen adsorption energies on these higher-index surfaces may differ from those on the (001) surface, which would introduce facet-dependent corrections to $\Delta\sigma$. Quantifying these corrections would require dedicated slab calculations for each facet orientation, which is beyond the scope of the present work. Nevertheless, because the dominant contribution to $\Delta\sigma$ arises from the segregation of oxygen into surface nitrogen vacancies (O$_\mathrm{N}^{(\mathrm{s})}$), which is governed primarily by the local coordination environment of the nitrogen sublattice rather than the global surface orientation, we expect the qualitative trends reported here to be robust across facets. A systematic investigation of facet-dependent adsorption energies and their impact on void stabilization is a natural extension of this work.
 }
 
 \DIFaddend A further limitation is that the current model isolates oxygen as the sole impurity species. In reality, fission products and other impurities, such as carbon, krypton, and xenon, may co-segregate or interact with oxygen, altering the energetics and morphology of vacancy clusters. Notably, our calculations indicate that substitutional oxygen on nitrogen sites binds to uranium-site vacancies and noble gas atoms (i.e., Kr$_\text{U}$, Xe$_\text{U}$) with energies around $-0.4$~eV. Whether this binding promotes the stabilization of voids or instead alters gas mobility and clustering behavior is not yet fully understood. Future studies should assess how such interactions affect oxygen-assisted swelling in fission environments.
@@ -877,7 +909,7 @@ Key findings can be summarized as follows. Substitutional oxygen on nitrogen sur
 \begin{itemize}
     \item \textit{Oxygen concentration ($w_\text{O}$):} The surface energy reduction scales linearly with oxygen content.
     \item \textit{Void radius ($R_v$):} $|\Delta \sigma|$ is most pronounced for small voids. Larger voids require higher temperatures to reach meaningful oxygen coverage and experience a slightly smaller $|\Delta \sigma|$.
-    \item \textit{Porosity ($p$):} The surface energy reduction is found to be largely insensitive to porosity.
+    \item \textit{Porosity ($p$):} The surface energy reduction is found to be \DIFdelbegin \DIFdel{largely insensitive to }\DIFdelend \DIFaddbegin \DIFadd{weakly dependent on }\DIFaddend porosity.
     \end{itemize}
 
 \vspace{0.5cm}
@@ -889,11 +921,11 @@ For small voids and bubbles ($R_v$ = 1--10 nm), $|\Delta \sigma|$ exhibits three
     \item \textit{High temperatures:} $|\Delta \sigma|$ decreases due to enhanced bulk solubility, which disfavors surface segregation.
     \end{itemize}
 
-The reduction in surface energy can be approximately expressed as:
-\[
-|\Delta \sigma| \approx \eta \, n_\text{O} \, \alpha_1 \, |E_\text{seg}^\text{eff}|,
-\]
-where $\eta$ is a geometric factor that depends on $p$ and $R_v$, $n_\text{O}$ is the oxygen number density, $\alpha_1$ is a kinetic correction factor, and $E_\text{seg}^\text{eff}$ is the effective segregation energy. The reduction in $\sigma$ lowers the thermodynamic barrier for void and bubble formation. For the reference case of $w_\text{O}$ = 1800 ppm in UN \cite{Ronchi1975}, our model predicts a surface energy reduction of about 0.3--0.4 J/m$^2$ for dislocation and grain-boundary bubbles. This aligns closely with the discrepancy between our DFT-calculated surface energy (1.59 J/m$^2$) and the value adopted by Rizk \textit{et al.} \cite{Rizk2025} in their swelling model (1.11 J/m$^2$). The oxygen-induced reduction in $\sigma$ thus can offer a mechanistic explanation for the experimentally observed levels of swelling and fission gas release in UN. % Weak binding between $\text{O}_\text{N}^\text{(b)}$ and uranium vacancies ($v_\text{U}$) or noble gas atoms ($\text{Kr}_\text{U}$ and $\text{Xe}_\text{U}$) may contribute to the stabilization of void embryos.
+The reduction in surface energy can be approximately expressed as \DIFdelbegin \DIFdel{:
+}\[
+\DIFdel{|\Delta \sigma| \approx \eta \, n_\text{O} \, \alpha_1 \, |E_\text{seg}^\text{eff}|,
+}\]%DIFAUXCMD
+\DIFdelend \DIFaddbegin \DIFadd{$|\Delta \sigma| \approx \eta \, n_\text{O} \, \alpha_1 \, |E_\text{seg}^\text{eff}|$ (\cref{Eq:DeltaSigmaSimple}), }\DIFaddend where $\eta$ is a geometric factor that depends on $p$ and $R_v$, $n_\text{O}$ is the oxygen number density, $\alpha_1$ is a kinetic correction factor, and $E_\text{seg}^\text{eff}$ is the effective segregation energy. The \DIFaddbegin \DIFadd{peak temperature is given by \cref{Eq:TpeakMain}. The }\DIFaddend reduction in $\sigma$ lowers the thermodynamic barrier for void and bubble formation. For the reference case of $w_\text{O}$ = 1800 ppm in UN \cite{Ronchi1975}, our model predicts a surface energy reduction of about 0.3--0.4 J/m$^2$ for dislocation and grain-boundary bubbles. This aligns closely with the discrepancy between our DFT-calculated surface energy (1.59 J/m$^2$) and the value adopted by Rizk \textit{et al.} \cite{Rizk2025} in their swelling model (1.11 J/m$^2$). The oxygen-induced reduction in $\sigma$ thus can offer a mechanistic explanation for the experimentally observed levels of swelling and fission gas release in UN. % Weak binding between $\text{O}_\text{N}^\text{(b)}$ and uranium vacancies ($v_\text{U}$) or noble gas atoms ($\text{Kr}_\text{U}$ and $\text{Xe}_\text{U}$) may contribute to the stabilization of void embryos.
 
 Overall, this work provides a physically rigorous model for incorporating oxygen effects into mechanistic swelling models of UN. The framework is extendable to other chemical impurities such as carbon and can be integrated into mesoscale and fuel performance models to predict chemically-assisted bubble swelling in nuclear fuels.
 
@@ -1043,7 +1075,288 @@ where $D_i$ is the diffusivity of the relevant defect, $t$ is the void nucleatio
 
 \FloatBarrier
 
-\section{Supplementary information}
+\DIFaddbegin \section{\DIFadd{Closed-form expression for the temperature of maximum $|\Delta \sigma|$}}
+\label{App:Tpeak}
+
+\DIFadd{This appendix derives a closed-form expression for the temperature at which $|\Delta \sigma|$ is maximized. The derivation proceeds in four steps: we first state the assumptions, then factor the reduced $|\Delta \sigma|(T)$ into terms with known monotonicity, establish piecewise monotonicity on either side of a kinetic saturation temperature~$T^*$, and conclude that $T_\text{peak} = T^*$. The closed-form result for $T^*$ is given in \cref{Eq:App:TstarFormula}, and its implications for the weak porosity dependence of $|\Delta \sigma|$ are discussed in \ref{App:Tpeak:Porosity}.
+}
+
+\subsection{\DIFadd{Assumptions}}
+\label{App:Tpeak:Assumptions}
+
+\DIFadd{The derivation rests on the following assumptions, each consistent with the modeling choices in \cref{Sec:Oxygen}:
+}\begin{enumerate}[label=(\roman*)]
+    \item \DIFadd{\textit{Dominant channel.} Only the $\text{O}_\text{N}^{(\text{s})}$ term in \cref{Eq:DeltaSigma1} is retained; the $\text{O}_i^{(\text{s})}$ and $v_\text{N}^{(\text{s})}$ contributions are neglected. This is justified by \cref{Fig:D}, where $\Delta \sigma(\text{O}_\text{N}^{(\text{s})})$ dominates by at least an order of magnitude.
+    }\item \DIFadd{\textit{Fixed stoichiometry.} The vacancy formation energies $E_f(v_\text{N}^{(\text{b})})$ and $E_f(v_\text{N}^{(\text{s})})$ are held at their values for a given stoichiometric condition.
+    }\item \DIFadd{\textit{Dilute defects.} Concentrations follow Arrhenius statistics with unit prefactor, e.g., $[v_\text{N}^{(\text{b})}] = \exp[-E_f(v_\text{N}^{(\text{b})})/(kT)]$ and $[\text{O}_\text{N}^{(\text{b})}] \approx c_\text{O}$.
+    }\item \DIFadd{\textit{Single transport channel.} The kinetic correction $\alpha_1$ is computed from the $\{\text{O}_\text{N} : v_\text{N}\}$ diffusivity (\cref{Sec:Oxygen}).
+    }\item \DIFadd{\textit{Existence of $T^*$.} The argument of the logarithm in \cref{Eq:App:TstarFormula} must exceed unity, which is verified for all parameter combinations considered in this work.
+}\end{enumerate}
+
+\subsection{\DIFadd{Factorized form}}
+\label{App:Tpeak:Factorization}
+
+\DIFadd{Retaining only the dominant $\text{O}_\text{N}^{(\text{s})}$ term, \cref{Eq:DeltaSigma1} takes the form:
+}\begin{equation}
+\DIFadd{|\Delta \sigma|(T) = \underbrace{\frac{8}{3}\frac{1-p}{p}\frac{R_v}{a^3}\,c_\text{O}}_{\displaystyle\mathcal{P}}\;\alpha_1(T)\;g(T)\;|E_\text{ad}(T)|,
+\label{Eq:App:Factorization}
+}\end{equation}
+\DIFadd{where $\mathcal{P}$ is a $T$-independent prefactor. Three factors carry temperature dependence: the kinetic correction $\alpha_1$, the segregation ratio $g \equiv [\text{O}_\text{N}^{(\text{s})}]/[\text{O}_\text{N}^{(\text{b})}]$, and the adsorption energy $E_\text{ad}$ evaluated with respect to the impurity chemical potential (\cref{Sec:uO}). We now derive the explicit $T$-dependence of each.
+}
+
+\paragraph{\DIFadd{Kinetic factor}} \DIFadd{The kinetic correction $\alpha_1(T) = \min[\sqrt{D_1(T)\,t}/\lambda_v,\; 1]$ (\cref{Eq:alpha}) is continuous but non-differentiable at the \emph{saturation temperature} $T^*$ defined by $\sqrt{D_1(T^*)\,t} = \lambda_v$. The effective oxygen diffusivity via the $\{\text{O}_\text{N} : v_\text{N}\}$ mechanism is:
+}\begin{equation}
+\DIFadd{D_1(T) = f\,\frac{[v_\text{N}^{(\text{b})}]}{c_\text{O}}\,D_{\{\text{O}_\text{N}:v_\text{N}\}} = \frac{f\,z\,\lambda^2\,\nu}{6\,c_\text{O}}\,\exp\!\left[-\frac{E_m + E_f(v_\text{N}^{(\text{b})})}{kT}\right],
+\label{Eq:App:D1}
+}\end{equation}
+\DIFadd{where the second equality uses $D_d = \frac{1}{6}z\lambda^2\nu\exp[-E_m/(kT)]$ and $[v_\text{N}^{(\text{b})}] = \exp[-E_f(v_\text{N}^{(\text{b})})/(kT)]$. In the unsaturated regime ($T < T^*$):
+}\begin{equation}
+\DIFadd{\alpha_1(T) = C_\alpha\,\exp\!\left[-\frac{E_m + E_f(v_\text{N}^{(\text{b})})}{2kT}\right], \quad C_\alpha \equiv \frac{1}{\lambda_v}\sqrt{\frac{f\,z\,\lambda^2\,\nu\,t}{6\,c_\text{O}}}.
+\label{Eq:App:alpha1Unsat}
+}\end{equation}
+
+\paragraph{\DIFadd{Segregation factor}} \DIFadd{Combining \cref{Eq:ONs_ONb} with the $K_5$ equilibrium (\cref{Eq:VN-VNs}):
+}
+
+\begin{align}
+\DIFadd{g(T) = }& \DIFadd{\frac{[\text{N}_\text{N}^{(\text{s})}]}{[\text{N}_\text{N}^{(\text{b})}]}\,\exp\!\left[+\frac{E_\text{seg}}{kT}\right], }\\
+\DIFadd{E_\text{seg} \equiv }& \DIFadd{-\bigl[E_f(v_\text{N}^{(\text{s})}) - E_f(v_\text{N}^{(\text{b})}) + E_\text{ad}(\text{O}_\text{N}^{(\text{s})}) - E_\text{inc}(\text{O}_\text{N}^{(\text{b})})\bigr],
+\label{Eq:App:gT}
+}\end{align}
+
+\DIFadd{where both $E_\text{ad}$ and $E_\text{inc}$ in the definition of $E_\text{seg}$ contain $\mu_\text{O}$, which cancels in their difference. That is, $E_\text{seg}$ is independent of the choice of oxygen reference state and is constructed entirely from raw DFT total-energy differences. Note that the prefactor $[\text{N}_\text{N}^{(\text{s})}]/[\text{N}_\text{N}^{(\text{b})}]$ is $T$-independent.
+}
+
+%DIF >  The segregation factor $g(T)$ therefore carries no chemical-potential dependence, and the explicit $T$-dependence associated with the impurity reference enters solely through $E_\text{ad}(T)$, as derived below. This separation avoids double-counting of chemical-potential contributions.
+
+\DIFadd{Substituting the DFT values from \cref{Tab:EfVN,Tab:Einc,Tab:Ead}:
+}\begin{equation}
+\DIFadd{E_\text{seg} = -\bigl[(-0.76) + (0.43)\bigr] = 0.33~\text{eV},
+\label{Eq:App:EsegValue}
+}\end{equation}
+\DIFadd{where the segregation energy of $v_\text{N}$ is $E_f(v_\text{N}^{(\text{s})}) - E_f(v_\text{N}^{(\text{b})}) = -0.76$~eV (\cref{Tab:EfVN}) and $E_\text{ad}(\text{O}_\text{N}^{(\text{s})}) - E_\text{inc}(\text{O}_\text{N}^{(\text{b})}) = -6.80 - (-7.23) = 0.43$~eV (\cref{Tab:Ead,Tab:Einc}). Both differences are stoichiometry-independent, so $E_\text{seg} = 0.33$~eV for all conditions.
+}
+
+\paragraph{\DIFadd{Adsorption-energy factor}} \DIFadd{From the definition of the adsorption energy (\cref{Eq:Ead}), the adsorption energy referred to the impurity chemical potential is:
+}\begin{equation}
+\DIFadd{E_\text{ad}(T) = \frac{1}{N_\text{ad}}\bigl(E_\text{surf+ad} - E_\text{surf}\bigr) - \mu_\text{O}(T),
+}\end{equation}
+\DIFadd{where $\frac{1}{N_\text{ad}}(E_\text{surf+ad} - E_\text{surf})$ is the raw (reference-free) adsorption energy, a $T$-independent quantity obtained directly from DFT slab calculations. From \cref{Eq:OxygenTruePot}, using $[\text{O}_\text{N}^{(\text{b})}] \approx c_\text{O}$ and $[v_\text{N}^{(\text{b})}] = \exp[-E_f(v_\text{N}^{(\text{b})})/(kT)]$:
+}\begin{equation}
+\DIFadd{\mu_\text{O}(T) = E(\text{O}_\text{N}) - E(v_\text{N}) + E_f(v_\text{N}^{(\text{b})}) + kT\ln c_\text{O}.
+\label{Eq:App:muOimp}
+}\end{equation}
+\DIFadd{Substituting:
+}\begin{equation}
+\DIFadd{E_\text{ad}(T) = \underbrace{\frac{1}{N_\text{ad}}\bigl(E_\text{surf+ad} - E_\text{surf}\bigr) - E(\text{O}_\text{N}) + E(v_\text{N}) - E_f(v_\text{N}^{(\text{b})})}_{\displaystyle\equiv\,E_\text{ad}^{(0)},\ T\text{-independent}} - kT \ln c_\text{O}.
+\label{Eq:App:EadImpExplicit}
+}\end{equation}
+\DIFadd{Note that $E_\text{ad}^{(0)}$ is built entirely from raw DFT total energies and the vacancy formation energy; no oxygen chemical potential appears. Since $E_\text{ad} < 0$ (favorable adsorption) and $\ln c_\text{O} < 0$ (dilute impurity), the magnitude $|E_\text{ad}(T)| = -E_\text{ad}^{(0)} + kT\ln c_\text{O}$ is strictly \emph{decreasing} in $T$ (also see \cref{Fig:EduO}), with $d|E_\text{ad}|/dT = k\ln c_\text{O} < 0$.
+}
+
+\subsection{\DIFadd{Piecewise monotonicity and peak location}}
+\label{App:Tpeak:Monotonicity}
+
+\DIFadd{The function $|\Delta \sigma|(T)$ is continuous but not differentiable at $T = T^*$. We establish its monotonicity separately on each side.
+}
+
+\subsubsection{\DIFadd{Unsaturated regime (}\texorpdfstring{$T < T^*$}{T < T*}\DIFadd{)}}
+
+\DIFadd{Substituting \cref{Eq:App:alpha1Unsat,Eq:App:gT,Eq:App:EadImpExplicit} into \cref{Eq:App:Factorization} and taking the logarithmic derivative:
+}\begin{equation}
+\DIFadd{\frac{d}{dT}\ln|\Delta \sigma| = \underbrace{\frac{1}{kT^2}\!\left[\frac{E_m + E_f(v_\text{N}^{(\text{b})})}{2} - E_\text{seg}\right]}_{\displaystyle > 0 \text{ if \cref{Eq:App:Inequality} holds}} + \underbrace{\frac{k\ln c_\text{O}}{|E_\text{ad}(T)|}}_{\displaystyle < 0}.
+\label{Eq:App:LogDerivUnsat}
+}\end{equation}
+\DIFadd{The first term is positive provided:
+}\begin{equation}
+\DIFadd{E_m + E_f(v_\text{N}^{(\text{b})}) > 2\,E_\text{seg}.
+\label{Eq:App:Inequality}
+}\end{equation}
+\DIFadd{The second term is negative since $\ln c_\text{O} < 0$. The sign of the sum determines whether $|\Delta \sigma|$ is increasing or decreasing. The inequality \cref{Eq:App:Inequality} is verified in \ref{App:Tpeak:Verification}, where it is shown to be satisfied with a margin of $\sim$2--2.5~eV for all stoichiometric conditions. Furthermore, a numerical evaluation over the full physically relevant parameter domain ($T \in [800, 2500]$~K, $w_\text{O} \in [500, 3000]$~ppm, all three stoichiometries) confirms that the positive first term dominates the negative second term, so the sum in \cref{Eq:App:LogDerivUnsat} is strictly positive throughout the unsaturated regime.
+}
+
+\subsubsection{\DIFadd{Saturated regime (}\texorpdfstring{$T > T^*$}{T > T*}\DIFadd{)}}
+
+\DIFadd{In this regime $\alpha_1 = 1$, so:
+}\begin{equation}
+\DIFadd{\frac{d}{dT}\ln|\Delta \sigma| = -\frac{E_\text{seg}}{kT^2} + \frac{k\ln c_\text{O}}{|E_\text{ad}(T)|}.
+\label{Eq:App:LogDerivSat}
+}\end{equation}
+\DIFadd{Both terms are negative ($E_\text{seg} > 0$ and $\ln c_\text{O} < 0$), so $|\Delta \sigma|$ is \emph{strictly decreasing} for $T > T^*$, unconditionally. This conclusion is independent of the kinetic model.
+}
+
+\subsubsection{\DIFadd{Peak location}}
+
+\DIFadd{Since $|\Delta \sigma|$ is strictly increasing for $T < T^*$ and strictly decreasing for $T > T^*$, continuity implies:
+}\begin{equation}
+\DIFadd{T_\text{peak} = T^*.
+\label{Eq:App:TpeakIsTstar}
+}\end{equation}
+\DIFadd{Because $T^*$ is a kink (non-differentiable point) of $|\Delta \sigma|(T)$, this result is obtained via piecewise monotonicity rather than by setting a derivative to zero.
+}
+
+\subsection{\DIFadd{Verification of the monotonicity condition}}
+\label{App:Tpeak:Verification}
+
+\DIFadd{The inequality \cref{Eq:App:Inequality} is evaluated for each stoichiometric condition using the DFT values in \cref{Tab:EfVN} and the migration energy $E_m = 3.06$~eV:
+}\begin{table}
+\footnotesize
+\centering
+\begin{tabular}{lccc}
+\hline
+ & \DIFaddFL{U-rich }& \DIFaddFL{Intermediate }& \DIFaddFL{N-rich }\\
+\hline
+\DIFaddFL{$E_m + E_f(v_\text{N}^{(\text{b})})$ }[\DIFaddFL{eV}] & \DIFaddFL{4.70 }& \DIFaddFL{5.19 }& \DIFaddFL{5.68 }\\
+\DIFaddFL{$2E_\text{seg}$ }[\DIFaddFL{eV}] & \DIFaddFL{0.66 }& \DIFaddFL{0.66 }& \DIFaddFL{0.66 }\\
+\DIFaddFL{$\tfrac{1}{2}[E_m + E_f(v_\text{N}^{(\text{b})})] - E_\text{seg}$ }[\DIFaddFL{eV}] & \DIFaddFL{2.02 }& \DIFaddFL{2.27 }& \DIFaddFL{2.51 }\\
+\hline
+\end{tabular}
+\end{table}
+\DIFadd{The margin of $\sim$2--2.5~eV in the first term of \cref{Eq:App:LogDerivUnsat} ensures strong separation from the competing negative term. The negative contribution is bounded in magnitude by $k|\ln c_\text{O}|/|E_\text{ad}|$. For $c_\text{O} \sim 10^{-3}$--$10^{-2}$ and $|E_\text{ad}| \gtrsim 1$~eV, this term is $\lesssim 6 \times 10^{-4}$~K$^{-1}$. In contrast, the first term remains $\gtrsim 10^{-3}$~K$^{-1}$ over $T$ = 800--2500~K, and thus dominates throughout the range of interest.
+}
+
+\subsection{\DIFadd{Closed-form expression for }\texorpdfstring{$T^*$}{T*}}
+\label{App:Tpeak:Formula}
+
+\DIFadd{Solving $\sqrt{D_1(T^*)\,t} = \lambda_v$ using \cref{Eq:App:D1}:
+}\begin{equation}
+\DIFadd{T_\text{peak} = T^* = \frac{E_m + E_f(v_\text{N}^{(\text{b})})}{k\,\ln\!\left[\dfrac{f\,z\,\lambda^2\,\nu\,t}{6\,c_\text{O}\,\lambda_v^2}\right]}.
+\label{Eq:App:TstarFormula}
+}\end{equation}
+\DIFadd{Substituting $\lambda_v = (4\pi R_v^3 / 3p)^{1/3}$:
+}\begin{equation}
+\DIFadd{T_\text{peak} = \frac{E_m + E_f(v_\text{N}^{(\text{b})})}{k\,\ln\!\left[\dfrac{f\,z\,\lambda^2\,\nu\,t}{6\,c_\text{O}}\left(\dfrac{3p}{4\pi R_v^3}\right)^{2/3}\right]}.
+\label{Eq:App:TstarExplicit}
+}\end{equation}
+\DIFadd{The formula is meaningful only when the argument of the logarithm exceeds unity, i.e., when $f\,z\,\lambda^2\,\nu\,t > 6\,c_\text{O}\,\lambda_v^2$. Physically, this means oxygen must be capable of diffusing at least one void spacing within the nucleation time; otherwise $\alpha_1 < 1$ throughout the accessible temperature range and no kinetic saturation occurs. For the parameter ranges in this work ($R_v \in \{1, 10, 25\}$~nm, $p \in [0.05, 0.20]$, $w_\text{O} \in [500, 3000]$~ppm), this condition is satisfied at all relevant temperatures.
+}
+
+\subsection{\DIFadd{Dependence of }\texorpdfstring{$T_\text{peak}$}{Tpeak} \DIFadd{on the nucleation time }\texorpdfstring{$t$}{t}}
+\label{App:Tpeak:tdep}
+
+\DIFadd{\cref{Eq:App:TstarExplicit} makes explicit that $t$ enters the expression for $T_\text{peak}$ only through a logarithm. Differentiating with respect to $\ln t$:
+}\begin{equation}
+\DIFadd{\frac{dT_\text{peak}}{d\ln t}
+=
+-\frac{E_m + E_f(v_\text{N}^{(\text{b})})}{
+k\left[\ln\!\left(A_0 t / \lambda_v^2\right)\right]^2
+}
+=
+-\frac{k\,T_\text{peak}^2}{E_m + E_f(v_\text{N}^{(\text{b})})},
+\label{Eq:App:dTpeak_dlogt}
+}\end{equation}
+\DIFadd{where $A_0 \equiv f z \lambda^2 \nu / (6 c_\text{O})$. Thus increasing $t$ lowers $T_\text{peak}$, but only weakly. For an order-of-magnitude change in $t$:
+}\begin{equation}
+\DIFadd{\Delta T_\text{peak}
+\approx
+-\frac{k\,T_\text{peak}^2}{E_m + E_f(v_\text{N}^{(\text{b})})}\,\ln 10.
+\label{Eq:App:deltaTpeak}
+}\end{equation}
+
+\DIFadd{Taking $E_m + E_f(v_\text{N}^{(\text{b})}) = 5.19$~eV (intermediate stoichiometry) and $T_\text{peak} = 1448$~K (the expected value for $R_v$ = 1 nm, $w_\text{O}$ = 1500 ppm, $p$ = 0.05) gives:
+}\begin{equation}
+\DIFadd{\Delta T_\text{peak} \approx -80~\text{K}.
+}\end{equation}
+\DIFadd{This confirms that $T_\text{peak}$ is only logarithmically sensitive to the nucleation time.
+}
+
+\subsection{\DIFadd{Numerical validation and parametric trends}}
+\label{App:Tpeak:Validation}
+
+\DIFadd{\Cref{Eq:App:TstarFormula} was compared against direct numerical maximization of the full $|\Delta \sigma|(T)$ from \cref{Eq:DeltaSigma1} (including the $\text{O}_i^{(\text{s})}$ and $v_\text{N}^{(\text{s})}$ contributions) for a grid of parameter combinations at intermediate stoichiometry:
+}
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\caption{\DIFaddFL{Comparison of $T_\text{peak}$ from the closed-form expression (\cref{Eq:App:TstarFormula}) and from direct numerical maximization of the full $|\Delta \sigma|(T)$ (\cref{Eq:DeltaSigma1}), at intermediate stoichiometry.}}
+\label{Tab:App:Tpeak}
+\begin{tabular}{lccc}
+\hline
+ & \DIFaddFL{$T_\text{peak}$ (formula) }[\DIFaddFL{K}] & \DIFaddFL{$T_\text{peak}$ (numerical) }[\DIFaddFL{K}] & \DIFaddFL{Difference }[\DIFaddFL{K}] \\
+\hline
+\DIFaddFL{$R_v = 1$ nm,  $w_\text{O} = 1500$ ppm, $p = 0.05$ }& \DIFaddFL{1447 }& \DIFaddFL{1448 }& \DIFaddFL{$<1$ }\\
+\DIFaddFL{$R_v = 1$ nm,  $w_\text{O} = 1500$ ppm, $p = 0.20$ }& \DIFaddFL{1416 }& \DIFaddFL{1416 }& \DIFaddFL{$<1$ }\\
+\DIFaddFL{$R_v = 10$ nm, $w_\text{O} = 1500$ ppm, $p = 0.05$ }& \DIFaddFL{1627 }& \DIFaddFL{1627 }& \DIFaddFL{$<1$ }\\
+\DIFaddFL{$R_v = 25$ nm, $w_\text{O} = 1800$ ppm, $p = 0.05$ }& \DIFaddFL{1721 }& \DIFaddFL{1721 }& \DIFaddFL{$<1$ }\\
+\DIFaddFL{$R_v = 25$ nm, $w_\text{O} = 1800$ ppm, $p = 0.20$ }& \DIFaddFL{1676 }& \DIFaddFL{1677 }& \DIFaddFL{$<1$ }\\
+\DIFaddFL{$R_v = 25$ nm, $w_\text{O} = 1500$ ppm, $p = 0.05$ }& \DIFaddFL{1712 }& \DIFaddFL{1712 }& \DIFaddFL{$<1$ }\\
+\hline
+\end{tabular}
+\end{table}
+
+\DIFadd{Agreement is within 1~K in all cases, confirming that the neglected $\text{O}_i^{(\text{s})}$ and $v_\text{N}^{(\text{s})}$ contributions shift the peak negligibly for the DFT parameter set used here.
+}
+
+\DIFadd{\Cref{Eq:App:TstarExplicit} yields the following parametric trends, consistent with \cref{Fig:Delta_sigma}:
+}\begin{itemize}
+    \item \DIFadd{\textit{Increasing $R_v$} increases $\lambda_v$, decreasing the logarithm and therefore increasing $T_\text{peak}$. The $\sim$180~K upward shift from $R_v = 1$~nm to $R_v = 10$~nm reported in \cref{Sec:Oxygen} is reproduced quantitatively.
+    }\item \DIFadd{\textit{Increasing $p$} decreases $\lambda_v$ and slightly decreases $T_\text{peak}$. The effect is weak because $p$ enters through a logarithm.
+    }\item \DIFadd{\textit{Increasing $c_\mathrm{O}$} increases the denominator of the logarithm's argument and slightly increases $T_\text{peak}$; again, the effect is logarithmic and weak.
+    }\item \DIFadd{\textit{Stoichiometry} enters the numerator through $E_f(v_\text{N}^{(\text{b})})$: N-rich conditions (higher $E_f$) shift $T_\text{peak}$ upward.
+}\end{itemize}
+
+\subsection{\DIFadd{Consequence for the porosity dependence of }\texorpdfstring{$|\Delta \sigma|$}{|Delta sigma|}}
+\label{App:Tpeak:Porosity}
+
+\DIFadd{The prefactor of \cref{Eq:DeltaSigma1} contains the factor $(1-p)/p$, which varies by nearly $4.75\times$ between $p = 5\%$ and $p = 20\%$. Yet the peak $|\Delta \sigma|$ varies far more weakly (\cref{Fig:p_w_plot}). This subsection explains why.
+}
+
+\DIFadd{From \cref{Eq:DeltaSigmaSimple}, the peak $|\Delta\sigma|$ (evaluated at $T_\text{peak}$ where $\alpha_1 = 1$ by \cref{Eq:App:TpeakIsTstar}) can be written as:
+}\begin{equation}
+\DIFadd{|\Delta\sigma|_\text{peak} = \frac{8}{3} \frac{c_\text{O}}{a^3} \underbrace{\frac{(1-p)}{p} R_v}_{\eta'} \times \underbrace{\frac{[\text{N}_\text{N}^{(\text{s})}]}{[\text{N}_\text{N}^{(\text{b})}]}}_{\text{from } g(T)} \times \exp\!\left(\frac{E_\text{seg}}{kT_\text{peak}}\right) \times |E_\text{ad}(T_\text{peak})|,
+\label{Eq:App:DsigPeak}
+}\end{equation}
+\DIFadd{where $[\text{N}_\text{N}^{(\text{s})}] = \frac{3}{2}(p/(1-p))(a/R_v)$ from \cref{Eq:NNs1}. The product of the two underbraced factors simplifies as:
+}\begin{equation}
+\DIFadd{\frac{(1-p)}{p} R_v \times \frac{\frac{3}{2}\frac{p}{1-p}\frac{a}{R_v}}{[\text{N}_\text{N}^{(\text{b})}]} = \frac{3a/2}{[\text{N}_\text{N}^{(\text{b})}]},
+\label{Eq:App:cancel}
+}\end{equation}
+\DIFadd{where the factors $(1-p)/p$ and $p/(1-p)$ cancel exactly, and $R_v$ cancels as well. The only remnant is $1/[\text{N}_\text{N}^{(\text{b})}] = 1/(1 - [\text{N}_\text{N}^{(\text{s})}])$, which is close to unity because $[\text{N}_\text{N}^{(\text{s})}] \ll 1$ for the void sizes of interest. Substituting back:
+}\begin{equation}
+\DIFadd{|\Delta\sigma|_\text{peak} = \frac{4 c_\text{O}}{a^2} \times \frac{1}{[\text{N}_\text{N}^{(\text{b})}]} \times \exp\!\left(\frac{E_\text{seg}}{kT_\text{peak}}\right) \times |E_\text{ad}(T_\text{peak})|.
+\label{Eq:App:DsigPeakReduced}
+}\end{equation}
+\DIFadd{The prefactor $4c_\text{O}/a^2$ is independent of both $p$ and $R_v$. Thus, the peak $|\Delta\sigma|$ depends on porosity only through two weak channels:
+}\begin{enumerate}[label=(\alph*)]
+\item \DIFadd{The thermodynamic residual $1/[\text{N}_\text{N}^{(\text{b})}]$ deviates from unity only when $[\text{N}_\text{N}^{(\text{s})}] = \frac{3}{2}(p/(1-p))(a/R_v)$ is non-negligible. For $R_v = 25$~nm, this residual varies by less than 1\% across $p = 5$--20\%; for $R_v = 1$~nm, it varies by 18\%.
+}\item \DIFadd{Increasing $p$ reduces $\lambda_v$ (voids are closer together), so the kinetic saturation condition $\sqrt{D_1 t} = \lambda_v$ is met at a lower temperature. From \cref{Eq:App:TstarExplicit}:
+}\begin{equation}
+\DIFadd{T_\text{peak} \sim \frac{1}{\ln\!\left(\ldots\, p^{2/3} \,\ldots\right)},
+}\end{equation}
+\DIFadd{so $T_\text{peak}$ responds only logarithmically to changes in $p$. Over $p = 5$--20\%, the downward shift is only 31~K for $R_v = 1$~nm and 44~K for $R_v = 25$~nm. This lower $T_\text{peak}$ increases $\exp(E_\text{seg}/kT_\text{peak})$ (stronger segregation drive at lower temperature), which slightly raises $|\Delta\sigma|_\text{peak}$.
+}\end{enumerate}
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\caption{\DIFaddFL{Porosity dependence of the peak $|\Delta \sigma|$ at two void radii ($w_\text{O} = 1500$~ppm, intermediate stoichiometry). Each row is evaluated at that porosity's own $T_\text{peak}$ from \cref{Eq:App:TstarFormula}.}}
+\label{Tab:App:por}
+\begin{tabular}{lcccc}
+\hline
+& \DIFaddFL{$p$ }[\DIFaddFL{\%}] & \DIFaddFL{$T_\text{peak}$ }[\DIFaddFL{K}] & \DIFaddFL{$1/[\text{N}_\text{N}^{(\text{b})}]$ }& \DIFaddFL{$|\Delta\sigma|$ variation }\\
+\hline
+\multirow{4}{*}{$R_v = 1$ nm}
+& \DIFaddFL{5  }& \DIFaddFL{1448 }& \DIFaddFL{1.040 }& \DIFaddFL{--- }\\
+& \DIFaddFL{10 }& \DIFaddFL{1432 }& \DIFaddFL{1.088 }& \DIFaddFL{$+8\%$ }\\
+& \DIFaddFL{15 }& \DIFaddFL{1423 }& \DIFaddFL{1.148 }& \DIFaddFL{$+17\%$ }\\
+& \DIFaddFL{20 }& \DIFaddFL{1416 }& \DIFaddFL{1.223 }& \DIFaddFL{$+26\%$ }\\
+\hline
+\multirow{4}{*}{$R_v = 25$ nm}
+& \DIFaddFL{5  }& \DIFaddFL{1713 }& \DIFaddFL{1.002 }& \DIFaddFL{--- }\\
+& \DIFaddFL{10 }& \DIFaddFL{1690 }& \DIFaddFL{1.003 }& \DIFaddFL{$+4\%$ }\\
+& \DIFaddFL{15 }& \DIFaddFL{1678 }& \DIFaddFL{1.005 }& \DIFaddFL{$+7\%$ }\\
+& \DIFaddFL{20 }& \DIFaddFL{1669 }& \DIFaddFL{1.007 }& \DIFaddFL{$+8\%$ }\\
+\hline
+\end{tabular}
+\end{table}
+
+\DIFadd{\Cref{Tab:App:por} quantifies both effects for $w_\text{O} = 1500$~ppm at intermediate stoichiometry. The variation column reports the total change in $|\Delta\sigma|_\text{peak}$ (from \cref{Eq:App:DsigPeakReduced}) relative to $p = 5\%$. For $R_v = 25$~nm (the conditions of \cref{Fig:p_w_plot}), the total change in peak $|\Delta\sigma|$ from $p = 5\%$ to $p = 20\%$ is only 8\%, almost entirely from channel~(b). For $R_v = 1$~nm, the total change is 26\%, with 18\% from channel~(a) and 7\% from channel~(b). In both cases, the peak $|\Delta\sigma|$ changes by at most a factor of 1.3 over a fourfold increase in porosity, far smaller than the factor of 4.75 that the na\"ive $(1-p)/p$ scaling would suggest.
+}
+
+\FloatBarrier
+
+\DIFaddend \section{Supplementary information}
 \label{App3}
 
 % \printnomenclature
@@ -1069,7 +1382,7 @@ where $D_i$ is the diffusivity of the relevant defect, $t$ is the void nucleatio
     \centering
     \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.45\textwidth]{uO.png}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.5\textwidth]{DO.png}
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.45\textwidth]{DO.png}
     \DIFaddendFL \caption{\DIFdelbeginFL \DIFdelFL{Oxygen chemical potential as calculated based on \cref{Eq:OxygenTruePot}}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{(Color online) Diffusivity of oxygen impurities in bulk UN by the defects $ \{\text{O}_\text{N} \! : \! v_\text{N}\} $ and $ \text{O}_i $ under U-rich (blue), Intermediate (orange), and N-rich (green) conditions}\DIFaddendFL .}
     \DIFdelbeginFL %DIFDELCMD < \label{Fig:uO}
 %DIFDELCMD < %%%

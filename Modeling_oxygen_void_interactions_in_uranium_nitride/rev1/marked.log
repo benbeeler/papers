@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  13 APR 2026 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  8 MAY 2026 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,7 +532,27 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count311
 \enitdp@description=\count312
 )
-LaTeX Info: Redefining \bf on input line 39.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen193
+\lightrulewidth=\dimen194
+\cmidrulewidth=\dimen195
+\belowrulesep=\dimen196
+\belowbottomsep=\dimen197
+\aboverulesep=\dimen198
+\abovetopsep=\dimen199
+\cmidrulesep=\dimen256
+\cmidrulekern=\dimen257
+\defaultaddspace=\dimen258
+\@cmidla=\count313
+\@cmidlb=\count314
+\@aboverulesep=\dimen259
+\@belowrulesep=\dimen260
+\@thisruleclass=\count315
+\@lastruleclass=\count316
+\@thisrulewidth=\dimen261
+)
+LaTeX Info: Redefining \bf on input line 46.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/oberdiek/settobox.sty
 Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
@@ -541,33 +561,33 @@ Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
 \DIFdelgraphicsbox=\box62
 \DIFdelgraphicswidth=\skip74
 \DIFdelgraphicsheight=\skip75
-LaTeX Info: Redefining \DIFaddbegin on input line 89.
-LaTeX Info: Redefining \DIFaddend on input line 90.
-LaTeX Info: Redefining \DIFdelbegin on input line 91.
-LaTeX Info: Redefining \DIFdelend on input line 92.
-LaTeX Info: Redefining \DIFaddbeginFL on input line 97.
-LaTeX Info: Redefining \DIFaddendFL on input line 98.
-LaTeX Info: Redefining \DIFdelbeginFL on input line 99.
-LaTeX Info: Redefining \DIFdelendFL on input line 100.
+LaTeX Info: Redefining \DIFaddbegin on input line 96.
+LaTeX Info: Redefining \DIFaddend on input line 97.
+LaTeX Info: Redefining \DIFdelbegin on input line 98.
+LaTeX Info: Redefining \DIFdelend on input line 99.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 104.
+LaTeX Info: Redefining \DIFaddendFL on input line 105.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 106.
+LaTeX Info: Redefining \DIFdelendFL on input line 107.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count313
+\lst@mode=\count317
 \lst@gtempboxa=\box63
 \lst@token=\toks30
-\lst@length=\count314
-\lst@currlwidth=\dimen193
-\lst@column=\count315
-\lst@pos=\count316
-\lst@lostspace=\dimen194
-\lst@width=\dimen195
-\lst@newlines=\count317
-\lst@lineno=\count318
-\lst@maxwidth=\dimen196
+\lst@length=\count318
+\lst@currlwidth=\dimen262
+\lst@column=\count319
+\lst@pos=\count320
+\lst@lostspace=\dimen263
+\lst@width=\dimen264
+\lst@newlines=\count321
+\lst@lineno=\count322
+\lst@maxwidth=\dimen265
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count319
-\lst@skipnumbers=\count320
+\c@lstnumber=\count323
+\lst@skipnumbers=\count324
 \lst@framebox=\box64
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
@@ -578,37 +598,37 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (./marked.aux)
 \openout1 = `marked.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen197
+\scratchcounter=\count325
+\scratchdimen=\dimen266
 \scratchbox=\box65
-\nofMPsegments=\count322
-\nofMParguments=\count323
+\nofMPsegments=\count326
+\nofMParguments=\count327
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen198
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen267
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -653,7 +673,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 123.
+Package hyperref Info: Link coloring ON on input line 130.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -664,11 +684,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count327
+\c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 123.
-LaTeX Info: Redefining \pageref on input line 123.
-LaTeX Info: Redefining \nameref on input line 123.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
  (./marked.out) (./marked.out)
 \@outlinefile=\write5
 \openout5 = `marked.out'.
@@ -678,23 +698,23 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `default' on line 123.
+Package chemgreek Info: Activating mapping `default' on line 130.
 
-\c@lstlisting=\count328
-LaTeX Font Info:    Trying to load font information for U+msa on input line 144
+\c@lstlisting=\count332
+LaTeX Font Info:    Trying to load font information for U+msa on input line 151
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 144
+LaTeX Font Info:    Trying to load font information for U+msb on input line 151
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-52.
+59.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -705,42 +725,54 @@ Overfull \hbox (2.61049pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 154.
+(hyperref)                removing `\<def>-command' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 154.
+(hyperref)                removing `\cnotenum' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 154.
+(hyperref)                removing `\<def>-command' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 154.
+(hyperref)                removing `\@corref' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 154.
+(hyperref)                removing `\<def>-command' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 154.
+(hyperref)                removing `\cnotenum' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 154.
+(hyperref)                removing `\<def>-command' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 154.
+(hyperref)                removing `\@corref' on input line 161.
 
 [1
 
 
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex: pop empty color page stack 0
+
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-58.
+65.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -750,246 +782,308 @@ File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9] [10] [11]
-<Oad-3.png, id=369, 5779.5925pt x 5781.6pt>
+<Oad-3.png, id=421, 5779.5925pt x 5781.6pt>
 File: Oad-3.png Graphic file (type png)
 <use Oad-3.png>
-Package pdftex.def Info: Oad-3.png  used on input line 536.
+Package pdftex.def Info: Oad-3.png  used on input line 548.
 (pdftex.def)             Requested size: 211.38832pt x 211.37512pt.
-<uO.png, id=373, 448.25467pt x 361.35pt>
+<uO.png, id=425, 448.25467pt x 361.35pt>
 File: uO.png Graphic file (type png)
 <use uO.png>
-Package pdftex.def Info: uO.png  used on input line 564.
+Package pdftex.def Info: uO.png  used on input line 576.
 (pdftex.def)             Requested size: 211.38832pt x 170.40244pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./Oad-3.png>]
-<EadONs.png, id=400, 445.09286pt x 361.35pt>
+<EadONs.png, id=451, 445.09286pt x 361.35pt>
 File: EadONs.png Graphic file (type png)
 <use EadONs.png>
-Package pdftex.def Info: EadONs.png  used on input line 581.
+Package pdftex.def Info: EadONs.png  used on input line 593.
 (pdftex.def)             Requested size: 225.4804pt x 183.06201pt.
-<EadOis.png, id=401, 438.49823pt x 361.35pt>
+<EadOis.png, id=452, 438.49823pt x 361.35pt>
 File: EadOis.png Graphic file (type png)
 <use EadOis.png>
-Package pdftex.def Info: EadOis.png  used on input line 587.
+Package pdftex.def Info: EadOis.png  used on input line 599.
 (pdftex.def)             Requested size: 225.4804pt x 185.81337pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13 <./uO.png>]
-<Oi_ON.png, id=426, 449.97108pt x 363.42776pt>
+<Oi_ON.png, id=478, 449.97108pt x 363.42776pt>
 File: Oi_ON.png Graphic file (type png)
 <use Oi_ON.png>
-Package pdftex.def Info: Oi_ON.png  used on input line 605.
+Package pdftex.def Info: Oi_ON.png  used on input line 617.
 (pdftex.def)             Requested size: 225.4804pt x 182.1127pt.
-<ONVN_ON.png, id=427, 449.33873pt x 363.42776pt>
+<ONVN_ON.png, id=479, 449.33873pt x 363.42776pt>
 File: ONVN_ON.png Graphic file (type png)
 <use ONVN_ON.png>
-Package pdftex.def Info: ONVN_ON.png  used on input line 611.
+Package pdftex.def Info: ONVN_ON.png  used on input line 623.
 (pdftex.def)             Requested size: 225.4804pt x 182.37334pt.
- [14 <./EadONs.png> <./EadOis.png> <./Oi_ON.png> <./ONVN_ON.png>]
-<Ois_ONb.png, id=444, 443.64746pt x 363.42776pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Ois_ONb.png, id=483, 443.64746pt x 363.42776pt>
 File: Ois_ONb.png Graphic file (type png)
 <use Ois_ONb.png>
-Package pdftex.def Info: Ois_ONb.png  used on input line 626.
+Package pdftex.def Info: Ois_ONb.png  used on input line 638.
 (pdftex.def)             Requested size: 225.4804pt x 184.70798pt.
-<ONs_ONb.png, id=445, 438.49823pt x 363.42776pt>
+<ONs_ONb.png, id=484, 438.49823pt x 363.42776pt>
 File: ONs_ONb.png Graphic file (type png)
 <use ONs_ONb.png>
-Package pdftex.def Info: ONs_ONb.png  used on input line 632.
+Package pdftex.def Info: ONs_ONb.png  used on input line 644.
 (pdftex.def)             Requested size: 225.4804pt x 186.88179pt.
-<Ois_ONs.png, id=446, 443.46678pt x 363.42776pt>
+<Ois_ONs.png, id=485, 443.46678pt x 363.42776pt>
 File: Ois_ONs.png Graphic file (type png)
 <use Ois_ONs.png>
-Package pdftex.def Info: Ois_ONs.png  used on input line 638.
+Package pdftex.def Info: Ois_ONs.png  used on input line 650.
 (pdftex.def)             Requested size: 225.4804pt x 184.78561pt.
- [15 <./Ois_ONb.png> <./ONs_ONb.png> <./Ois_ONs.png>] [16]
-<Delta_sigma_0.05_500.0_1e-09.png, id=473, 441.20834pt x 361.35pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./EadONs.png> <./EadOis.png>] [15 <./Oi_ON.png> <./ONVN_ON.png>] [16 <./Oi
+s_ONb.png> <./ONs_ONb.png> <./Ois_ONs.png>]
+<Delta_sigma_0.05_500.0_1e-09.png, id=535, 441.20834pt x 361.35pt>
 File: Delta_sigma_0.05_500.0_1e-09.png Graphic file (type png)
 <use Delta_sigma_0.05_500.0_1e-09.png>
-Package pdftex.def Info: Delta_sigma_0.05_500.0_1e-09.png  used on input line 6
-81.
+Package pdftex.def Info: Delta_sigma_0.05_500.0_1e-09.png  used on input line 7
+08.
 (pdftex.def)             Requested size: 225.4804pt x 184.6665pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 681--682
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 708--709
 [][][] 
  []
 
-<Delta_sigma_0.05_1500.0_1e-09.png, id=474, 441.20834pt x 361.35pt>
+<Delta_sigma_0.05_1500.0_1e-09.png, id=536, 441.20834pt x 361.35pt>
 File: Delta_sigma_0.05_1500.0_1e-09.png Graphic file (type png)
 <use Delta_sigma_0.05_1500.0_1e-09.png>
 Package pdftex.def Info: Delta_sigma_0.05_1500.0_1e-09.png  used on input line 
-689.
+716.
 (pdftex.def)             Requested size: 225.4804pt x 184.6665pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 689--690
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 716--717
 [][][] 
  []
 
-<Delta_sigma_0.05_3000.0_1e-09.png, id=475, 441.20834pt x 361.35pt>
+<Delta_sigma_0.05_3000.0_1e-09.png, id=537, 441.20834pt x 361.35pt>
 File: Delta_sigma_0.05_3000.0_1e-09.png Graphic file (type png)
 <use Delta_sigma_0.05_3000.0_1e-09.png>
 Package pdftex.def Info: Delta_sigma_0.05_3000.0_1e-09.png  used on input line 
-697.
+724.
 (pdftex.def)             Requested size: 225.4804pt x 184.6665pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 697--698
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 724--725
 [][][] 
  []
 
-<Delta_sigma_0.05_1500.0_1e-08.png, id=476, 441.20834pt x 361.35pt>
+<Delta_sigma_0.05_1500.0_1e-08.png, id=538, 441.20834pt x 361.35pt>
 File: Delta_sigma_0.05_1500.0_1e-08.png Graphic file (type png)
 <use Delta_sigma_0.05_1500.0_1e-08.png>
 Package pdftex.def Info: Delta_sigma_0.05_1500.0_1e-08.png  used on input line 
-704.
+731.
 (pdftex.def)             Requested size: 225.4804pt x 184.6665pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 704--705
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 731--732
 [][][] 
  []
 
-[17 <./Delta_sigma_0.05_500.0_1e-09.png> <./Delta_sigma_0.05_1500.0_1e-09.png> 
-<./Delta_sigma_0.05_3000.0_1e-09.png> <./Delta_sigma_0.05_1500.0_1e-08.png>]
-<Delta1.png, id=502, 445.09286pt x 361.35pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17]
+<Delta1.png, id=564, 445.09286pt x 361.35pt>
 File: Delta1.png Graphic file (type png)
 <use Delta1.png>
-Package pdftex.def Info: Delta1.png  used on input line 746.
+Package pdftex.def Info: Delta1.png  used on input line 773.
 (pdftex.def)             Requested size: 225.4804pt x 183.06201pt.
-<Delta2.png, id=503, 450.78412pt x 361.35pt>
+<Delta2.png, id=565, 450.78412pt x 361.35pt>
 File: Delta2.png Graphic file (type png)
 <use Delta2.png>
-Package pdftex.def Info: Delta2.png  used on input line 752.
+Package pdftex.def Info: Delta2.png  used on input line 779.
 (pdftex.def)             Requested size: 225.4804pt x 180.74623pt.
-<Delta3.png, id=504, 457.4691pt x 325.03433pt>
+<Delta3.png, id=566, 457.4691pt x 325.03433pt>
 File: Delta3.png Graphic file (type png)
 <use Delta3.png>
-Package pdftex.def Info: Delta3.png  used on input line 758.
+Package pdftex.def Info: Delta3.png  used on input line 785.
 (pdftex.def)             Requested size: 225.4804pt x 160.20557pt.
 
-[18 <./Delta1.png> <./Delta2.png> <./Delta3.png>]
-<p_w_abs_gradual_plot_2.5e-08.png, id=532, 512.93633pt x 393.8715pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18 <./Delta_sigma_0.05_500.0_1e-09.png> <./Delta_sigma_0.05_1500.0_1e-09.png> 
+<./Delta_sigma_0.05_3000.0_1e-09.png> <./Delta_sigma_0.05_1500.0_1e-08.png>]
+[19 <./Delta1.png> <./Delta2.png> <./Delta3.png>]
+<p_w_abs_gradual_plot_2.5e-08.png, id=600, 512.93633pt x 393.8715pt>
 File: p_w_abs_gradual_plot_2.5e-08.png Graphic file (type png)
 <use p_w_abs_gradual_plot_2.5e-08.png>
-Package pdftex.def Info: p_w_abs_gradual_plot_2.5e-08.png  used on input line 7
-87.
+Package pdftex.def Info: p_w_abs_gradual_plot_2.5e-08.png  used on input line 8
+16.
 (pdftex.def)             Requested size: 234.8775pt x 180.35971pt.
+ Excluding 'comment' comment.
+[20 <./p_w_abs_gradual_plot_2.5e-08.png>] [21] [22] [23] [24]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 938.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 938.
+
+[25] [26] [27]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1078.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 1078.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 1078.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1078.
+
+[28]
+Overfull \hbox (31.53423pt too wide) in paragraph at lines 1111--1113
+\T1/cmr/bx/n/12 where the sec-ond equal-ity uses $\OML/cmm/m/it/12 D[] \OT1/cmr
+/m/n/12 = []\OML/cmm/m/it/12 z^^U[]^^W []\OT1/cmr/m/n/12 [\OMS/cmsy/m/n/12 ^^@\
+OML/cmm/m/it/12 E[]=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 kT\OT1/cmr/m/n/12 )]$ \T1
+/cmr/bx/n/12 and $\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ] = [][\
+OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v[]\OT
+1/cmr/m/n/12 )\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 kT\OT1/cmr/m/
+n/12 )]$\T1/cmr/bx/n/12 .
+ []
+
+[29]
+Overfull \hbox (10.24834pt too wide) in paragraph at lines 1143--1145
+\T1/cmr/bx/n/12 independent quan-tity ob-tained di-rectly from DFT slab cal-cu-
+la-tions. From [][]Eq. (16)[][],
+ []
+
+[30] [31]
+Overfull \hbox (26.82681pt too wide) in paragraph at lines 1274--1286
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Excluding 'comment' comment. [19] [20 <./p_w_abs_gradual_plot_2.5e-08.png>]
-[21] [22] [23]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 906.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 906.
-
-[24] [25] [26] [27]
-<VN.png, id=658, 449.88075pt x 363.42776pt>
+[32] [33]
+<VN.png, id=843, 449.88075pt x 363.42776pt>
 File: VN.png Graphic file (type png)
 <use VN.png>
-Package pdftex.def Info: VN.png  used on input line 1054.
+Package pdftex.def Info: VN.png  used on input line 1367.
 (pdftex.def)             Requested size: 211.38832pt x 170.76671pt.
-<VNs.png, id=659, 449.70007pt x 363.42776pt>
+<VNs.png, id=844, 449.70007pt x 363.42776pt>
 File: VNs.png Graphic file (type png)
 <use VNs.png>
-Package pdftex.def Info: VNs.png  used on input line 1060.
+Package pdftex.def Info: VNs.png  used on input line 1373.
 (pdftex.def)             Requested size: 211.38832pt x 170.83879pt.
-<DO.png, id=664, 457.92079pt x 418.17229pt>
-File: DO.png Graphic file (type png)
-<use DO.png>
-Package pdftex.def Info: DO.png  used on input line 1072.
-(pdftex.def)             Requested size: 234.8775pt x 214.49014pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28 <./VN.png> <./VNs.png>] (./marked.bbl [29 <./DO.png>] [30] [31] [32]
-[33]) [34] (./marked.aux)
+<DO.png, id=849, 457.92079pt x 418.17229pt>
+File: DO.png Graphic file (type png)
+<use DO.png>
+Package pdftex.def Info: DO.png  used on input line 1385.
+(pdftex.def)             Requested size: 211.38832pt x 193.04431pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34] (./marked.bbl [35 <./VN.png> <./VNs.png> <./DO.png>] [36] [37] [38]
+[39] [40]) [41] (./marked.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `marked.out' has not changed.
-(rerunfilecheck)             Checksum: 66BF05901B8E54F0D0C047D83233C4E1;2763.
+(rerunfilecheck)             Checksum: DCD604F1278F0303FBE4C6FD8EF6AE01;5634.
  ) 
 Here is how much of TeX's memory you used:
- 18068 strings out of 478994
- 295685 string characters out of 5858184
- 641729 words of memory out of 5000000
- 35023 multiletter control sequences out of 15000+600000
+ 18266 strings out of 478994
+ 298861 string characters out of 5858184
+ 646752 words of memory out of 5000000
+ 35161 multiletter control sequences out of 15000+600000
  431192 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,88p,1860b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,14n,88p,1859b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/cm-super/sfss0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/cm-super/sfti0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
-c/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
--super/sftt1200.pfb>
-Output written on marked.pdf (34 pages, 10966443 bytes).
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/cm-super/sfbx0600.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/cm-super/sfss0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/cm-super/sfti0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
+-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-s
+uper/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
+er/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super
+/sftt1200.pfb>
+Output written on marked.pdf (41 pages, 11102294 bytes).
 PDF statistics:
- 981 PDF objects out of 1000 (max. 8388607)
- 844 compressed objects within 9 object streams
- 206 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1198 PDF objects out of 1200 (max. 8388607)
+ 1042 compressed objects within 11 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
