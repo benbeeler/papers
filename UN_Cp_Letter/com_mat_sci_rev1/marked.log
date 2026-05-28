@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  25 MAY 2026 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  25 MAY 2026 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**marked.tex
+(./marked.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/elsarticle/elsarticle.cls
@@ -88,7 +88,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@sep=\skip49
 \@@sep=\skip50
 
-(./main.spl) (/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+(./marked.spl) (/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
@@ -96,11 +96,10 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count195
 )
 \splwrite=\write3
-\openout3 = `main.spl'.
+\openout3 = `marked.spl'.
 
 \appnamewidth=\dimen145
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
@@ -548,7 +547,50 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 Package: algpseudocode 
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./main.aux
+)
+LaTeX Info: Redefining \bf on input line 40.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/oberdiek/settobox.sty
+Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
+)
+)
+\DIFdelgraphicsbox=\box61
+\DIFdelgraphicswidth=\skip76
+\DIFdelgraphicsheight=\skip77
+LaTeX Info: Redefining \DIFaddbegin on input line 90.
+LaTeX Info: Redefining \DIFaddend on input line 91.
+LaTeX Info: Redefining \DIFdelbegin on input line 92.
+LaTeX Info: Redefining \DIFdelend on input line 93.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 98.
+LaTeX Info: Redefining \DIFaddendFL on input line 99.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 100.
+LaTeX Info: Redefining \DIFdelendFL on input line 101.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count319
+\lst@gtempboxa=\box62
+\lst@token=\toks30
+\lst@length=\count320
+\lst@currlwidth=\dimen192
+\lst@column=\count321
+\lst@pos=\count322
+\lst@lostspace=\dimen193
+\lst@width=\dimen194
+\lst@newlines=\count323
+\lst@lineno=\count324
+\lst@maxwidth=\dimen195
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count325
+\lst@skipnumbers=\count326
+\lst@framebox=\box63
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(./marked.aux
 
 LaTeX Warning: Label `Fig:C_def' multiply defined.
 
@@ -556,39 +598,39 @@ LaTeX Warning: Label `Fig:C_def' multiply defined.
 LaTeX Warning: Label `Fig:C_def@cref' multiply defined.
 
 )
-\openout1 = `main.aux'.
+\openout1 = `marked.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
-\scratchdimen=\dimen192
-\scratchbox=\box61
-\nofMPsegments=\count320
-\nofMParguments=\count321
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count322
-\MPscratchDim=\dimen193
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count327
+\scratchdimen=\dimen196
+\scratchbox=\box64
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen197
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -632,7 +674,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 124.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -643,35 +685,37 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count325
+\c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
- (./main.out) (./main.out)
+LaTeX Info: Redefining \ref on input line 124.
+LaTeX Info: Redefining \pageref on input line 124.
+LaTeX Info: Redefining \nameref on input line 124.
+ (./marked.out) (./marked.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
+\openout5 = `marked.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `default' on line 32.
+Package chemgreek Info: Activating mapping `default' on line 124.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
-
+\c@lstlisting=\count334
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141
+.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141
+.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+49.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -682,105 +726,159 @@ Overfull \hbox (2.61049pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 59.
+(hyperref)                removing `\<def>-command' on input line 151.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 59.
+(hyperref)                removing `\cnotenum' on input line 151.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 59.
+(hyperref)                removing `\<def>-command' on input line 151.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 59.
+(hyperref)                removing `\@corref' on input line 151.
 
 [1
 
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <GraphicalAbstract.drawio.png, id=48, 6383.85pt x 2168.1pt>
 File: GraphicalAbstract.drawio.png Graphic file (type png)
 <use GraphicalAbstract.drawio.png>
-Package pdftex.def Info: GraphicalAbstract.drawio.png  used on input line 72.
+Package pdftex.def Info: GraphicalAbstract.drawio.png  used on input line 165.
 (pdftex.def)             Requested size: 469.75502pt x 159.5238pt.
 
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 165--166
+ [][] 
+ []
+
 [2 <./GraphicalAbstract.drawio.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7
-9.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+72.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [3] [4]
-<DN.png, id=116, 498.57266pt x 389.44496pt>
+<DN.png, id=117, 498.57266pt x 389.44496pt>
 File: DN.png Graphic file (type png)
 <use DN.png>
-Package pdftex.def Info: DN.png  used on input line 110.
+Package pdftex.def Info: DN.png  used on input line 206.
 (pdftex.def)             Requested size: 211.38832pt x 165.11673pt.
-<FrenkelConc.png, id=117, 495.41084pt x 388.99327pt>
+<FrenkelConc.png, id=118, 495.41084pt x 388.99327pt>
 File: FrenkelConc.png Graphic file (type png)
 <use FrenkelConc.png>
-Package pdftex.def Info: FrenkelConc.png  used on input line 116.
+Package pdftex.def Info: FrenkelConc.png  used on input line 212.
 (pdftex.def)             Requested size: 211.38832pt x 165.98175pt.
  [5 <./DN.png> <./FrenkelConc.png>] [6]
-<C_def_vs_C_anharm+def.png, id=160, 497.2176pt x 340.21103pt>
+<C_def_vs_C_anharm+def.png, id=161, 497.2176pt x 340.21103pt>
 File: C_def_vs_C_anharm+def.png Graphic file (type png)
 <use C_def_vs_C_anharm+def.png>
-Package pdftex.def Info: C_def_vs_C_anharm+def.png  used on input line 173.
+Package pdftex.def Info: C_def_vs_C_anharm+def.png  used on input line 280.
 (pdftex.def)             Requested size: 225.4804pt x 154.28232pt.
-<total_C_P.png, id=161, 499.02435pt x 340.3917pt>
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 280--281
+ [][][] 
+ []
+
+<total_C_P.png, id=162, 499.02435pt x 340.3917pt>
 File: total_C_P.png Graphic file (type png)
 <use total_C_P.png>
-Package pdftex.def Info: total_C_P.png  used on input line 180.
+Package pdftex.def Info: total_C_P.png  used on input line 289.
 (pdftex.def)             Requested size: 225.4804pt x 153.8033pt.
- [7 <./C_def_vs_C_anharm+def.png> <./total_C_P.png>] [8] [9] (./main.bbl [10] [
-11]) [12] (./main.aux)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 289--290
+ [][][] 
+ []
+
+
+Overfull \hbox (21.65308pt too wide) in paragraph at lines 301--303
+[]\T1/cmr/bx/n/12 For the Ko-cevski po-ten-tial[]\T1/cmr/m/n/12 , [][][]$\OML/c
+mm/m/it/12 C[]$ \T1/cmr/bx/n/12 re-mains much smaller, in-creas-ing from 0.61[]
+ \T1/cmr/m/n/12 J/(mol-
+ []
+
+[7 <./C_def_vs_C_anharm+def.png> <./total_C_P.png>] [8] [9] (./marked.bbl
+[10] [11]) [12] (./marked.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `marked.out' has not changed.
 (rerunfilecheck)             Checksum: B764D505E86AE4A60546C48C7E872FEF;523.
  ) 
 Here is how much of TeX's memory you used:
- 16299 strings out of 478994
- 269172 string characters out of 5858184
- 604645 words of memory out of 5000000
- 33430 multiletter control sequences out of 15000+600000
- 426013 words of font info for 87 fonts, out of 8000000 for 9000
+ 17707 strings out of 478994
+ 289433 string characters out of 5858184
+ 625964 words of memory out of 5000000
+ 34820 multiletter control sequences out of 15000+600000
+ 427493 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,88p,1520b,560s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,9n,88p,1543b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (12 pages, 3165139 bytes).
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt1200.pfb>
+Output written on marked.pdf (12 pages, 3213373 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  61 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

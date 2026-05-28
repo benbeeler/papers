@@ -19,7 +19,7 @@
 \usepackage{comment}
 \usepackage[T1]{fontenc}
 \usepackage{anyfontsize}
-% \usepackage{newtxtext, newtxmath}
+%\usepackage{newtxtext, newtxmath}
 \newcommand{\?}{\stackrel{?}{=}}
 \usepackage{tablefootnote}
 \usepackage{float}
@@ -44,10 +44,9 @@
 \address[inl]{Idaho National Laboratory, Idaho Falls, ID 83415, USA}
 \address[unsw]{School of Mechanical and Manufacturing Engineering, UNSW Sydney, Sydney, NSW 2052, Australia}
 
-
 \begin{abstract}
 
-The high-temperature heat capacity of uranium mononitride (UN) remains uncertain due to conflicting measurements and models above $\sim$1700~K. To assess whether intrinsic defect formation contributes to the observed superlinear behavior of $C_P(T)$, we perform large-scale molecular dynamics simulations using two interatomic potentials to quantify nitrogen diffusion and Frenkel-pair populations from 1800--2600~K. Both models show increasing anion mobility, but the Tseplyaev potential yields substantially larger Frenkel concentrations, producing a defect heat-capacity contribution of up to $\sim$10~J/(mol-K). This defect-driven term is consistent with the curvature seen in historical correlations and recent \textit{ab initio} results, suggesting that nitrogen sublattice disorder provides a plausible intrinsic mechanism for the high-temperature heat capacity of UN.
+The high-temperature heat capacity of uranium mononitride (UN) remains uncertain due to conflicting measurements and models above $\sim$1700~K. To assess whether intrinsic defect formation contributes to the observed superlinear behavior of $C_P(T)$, we perform large-scale molecular dynamics simulations using two interatomic potentials to quantify nitrogen diffusion and Frenkel-pair populations from 1800--2600~K. Both models show increasing anion mobility, but the Tseplyaev potential yields substantially larger Frenkel concentrations, producing a defect heat-capacity contribution of up to $\sim$10~J/(mol-K). This defect-driven term contributes to the nonlinear high-temperature response, suggesting that nitrogen sublattice disorder provides a plausible intrinsic mechanism for part of the heat-capacity increase in UN.
 
 \end{abstract}
 
@@ -57,6 +56,24 @@ Uranium nitride \sep Molecular dynamics \sep Specific heat capacity \sep Frenkel
 
 \end{frontmatter}
 
+\newpage
+
+\section*{Highlights}
+\begin{itemize}
+
+\item MD simulations reveal nitrogen Frenkel-pair formation in UN above 1800 K
+\item Defect heat capacity reaches $\sim$10 J/(mol-K) at 2600 K for Tseplyaev potential
+\item Anion sublattice disorder is proposed as a mechanism for superlinear $C_P(T)$
+
+\end{itemize}
+
+\section*{Graphical Abstract}
+\begin{center}
+\includegraphics[width=\textwidth]{GraphicalAbstract.drawio.png}
+\end{center}
+
+\newpage
+
 \linenumbers
 
 \section{Introduction}
@@ -65,19 +82,25 @@ The specific heat, $C_P$, of uranium mononitride (UN) is not yet conclusively es
 
 A central complication arises from the composition of the Conway-Flagella samples, which contained roughly 20~wt.\% UO$_2$. Because UO$_2$ exhibits a premelting (superionic) transition driven by oxygen Frenkel defects~\cite{Pavlov2017,Cooper2014}, any attempt to extract a UN-specific enthalpy from mixed-material calorimetry requires subtracting a defect-rich UO$_2$ contribution whose behavior changes rapidly with temperature \cite{Hayes1990IV}. While the specific heat capacity extracted from Conway-Flagella enthalpy measurements agrees with other datasets at moderate temperature \cite{Hayes1990IV}, it develops a strong upward curvature when extrapolated above $\sim$1700~K. Given the known defect thermodynamics of UO$_2$ \cite{Pavlov2017,Cooper2014}, this trend could plausibly reflect the UO$_2$ component rather than the intrinsic response of UN \cite{Galvin2023}.
 
-Theoretical predictions also diverge. Early \textit{ab initio} molecular dynamics (AIMD) simulations reported an nearly perfectly linear $C_{P}(T)$~\cite{Kocevski2023}. Classical molecular dynamics (MD) using the angular-dependent potential (ADP) of Tseplyaev and Starikov~\cite{Kuksin2016,Tseplyaev2016} reproduced a steep increase in $C_P(T)$ consistent with the Hayes correlation~\cite{AbdulHameed2024}. The embedded atom method (EAM) potential of Kocevski \textit{et al.}~\cite{Kocevski2022II} also predicts a nearly linear $C_P(T)$ at high temperatures \cite{AbdulHameed2024}. Recent AIMD simulations combined with the disorded local moment (DLM) method predict a $T^{2}$-like increase in $C_P(T)$~\cite{AbdulHameed2025}. This result is significant because AIMD+DLM is a first-principles method that treats both lattice dynamics and magnetic disorder on equal footing. The fact that a high-accuracy \textit{ab initio} calculation yields a moderate, $T^{2}$-like increase suggests that while the anomaly is likely less dramatic than the historical correlation implies, there is independent evidence that a nonlinear increase in $C_{P}(T)$ is an intrinsic feature of UN at high temperatures.
+Theoretical predictions also diverge. Early \textit{ab initio} molecular dynamics (AIMD) simulations reported a nearly perfectly linear $C_{P}(T)$~\cite{Kocevski2023}. Classical molecular dynamics (MD) using the angular-dependent potential (ADP) of Tseplyaev and Starikov~\cite{Kuksin2016,Tseplyaev2016} produced a steep increase in $C_P(T)$ consistent with the Hayes correlation~\cite{AbdulHameed2024}. The embedded atom method (EAM) potential of Kocevski \textit{et al.}~\cite{Kocevski2022II} also predicts a nearly linear $C_P(T)$ at high temperatures \cite{AbdulHameed2024}. Recent AIMD simulations combined with the disordered local moment (DLM) method predict a $T^{2}$-like increase in $C_P(T)$~\cite{AbdulHameed2025}. This result is significant because AIMD+DLM is a first-principles method that treats both lattice dynamics and magnetic disorder on equal footing. The fact that a high-accuracy \textit{ab initio} calculation yields a moderate, $T^{2}$-like increase suggests that while the anomaly is likely less dramatic than the historical correlation implies, there is independent evidence that a nonlinear increase in $C_{P}(T)$ is an intrinsic feature of UN at high temperatures.
 
 The unresolved question is not only the magnitude of the heat capacity but the physical origin of its temperature dependence. Galvin \textit{et al.} \cite{Galvin2023} argued that current data support two plausible interpretations: either the Kocevski potential correctly predicts an asymptotically linear high-temperature heat capacity and the Conway-Flagella curvature is extrinsic, likely influenced by UO$_2$ in the samples, or the stronger rise seen with the Tseplyaev potential reflects an intrinsic mechanism in UN that has not yet been experimentally confirmed. They also suggested that strong anharmonicity, phonon softening, or even partial UN decomposition could contribute to the observed rise in $C_P(T)$ if defect mechanisms alone are insufficient.
+
+These considerations frame two useful reference behaviors for intrinsic UN: the Hayes correlation, which reflects the strongest curvature inferred from the Conway-Flagella enthalpy dataset, and the more moderate nonlinear increase obtained from recent AIMD+DLM calculations. Agreement with the Hayes correlation trend can therefore be interpreted as evidence that anion disorder \emph{can} generate heat-capacity contributions of the required scale, but it does not uniquely establish the intrinsic UN behavior because the Conway-Flagella samples contained substantial UO$_2$.
 
 A useful reference is the defect thermodynamics of UO$_2$, where oxygen Frenkel pairs proliferate as the temperature approaches the superionic transition, producing large excess contributions to both enthalpy and heat capacity~\cite{Pavlov2017}. MD simulations by Cooper \textit{et al.}~\cite{Cooper2014} demonstrated that oxygen diffusion increases sharply and $C_{P}(T)$ exhibits a broad anomaly near 2700~K as the anion sublattice disorders. Because Conway–Flagella's samples contained enough UO$_2$ to contribute significantly to the measured enthalpy, it is plausible that the reconstructed UN correlation inherited part of this defect-driven curvature. However, the nonlinear $T^{2}$-like behavior obtained in recent AIMD+DLM simulations~\cite{AbdulHameed2025} suggests that a degree of intrinsic anion–sublattice softening may also occur in UN. This raises the question whether nitrogen Frenkel-pair formation in UN could contribute to UN's $C_P(T)$ analogous to that observed in UO$_2$.
 
 \section{Computational details}
 
-To address this question, we performed classical MD simulations of UN using two interatomic potentials: the Tseplyaev angular-dependent potential \cite{Tseplyaev2016} and the Kocevski EAM potential. All calculations eutilize the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) software package \cite{Plimpton1995, Thompson2022} using a 1 fs time step, with periodic boundary conditions (PBCs) applied in all directions. The OVITO software package \cite{Stukowski2010} is used for supercell visualization and analysis. All simulations employ a $50 \times 50 \times 50$ supercell ($10^6$ atoms), allowing us to sample both transport and point-defect statistics over the  temperature range of 1800--2600~K. For diffusivity calculations, the supercells are equilibrated in the \textit{NPT} ensemble and then evolved for a total of 5~ns. The self-diffusion coefficients are obtained from the long-time limit of the mean-squared displacement, MSD,
+To address this question, we performed classical MD simulations of UN using two interatomic potentials: the Tseplyaev angular-dependent potential \cite{Tseplyaev2016} and the Kocevski EAM potential. All calculations utilize the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) software package \cite{Plimpton1995, Thompson2022} using a 1 fs time step, with periodic boundary conditions (PBCs) applied in all directions. The OVITO software package \cite{Stukowski2010} is used for supercell visualization and analysis. All simulations employ a $50 \times 50 \times 50$ supercell ($10^6$ atoms), allowing us to sample both transport and point-defect statistics over the  temperature range of 1800--2600~K.
+
+We note that melting temperatures obtained from direct-heating MD of perfect crystals generally overestimate the thermodynamic melting point due to superheating and the solid-liquid interface nucleation barrier \cite{Alavi2006, Zhang2012}. We therefore cite thermodynamic melting points from our prior void-induced melting simulations~\cite{AbdulHameed2024}: $T_m \approx 2700$~K for the Tseplyaev potential and $T_m \approx 3100$~K for the Kocevski potential. All simulations here remain within the solid-phase stability window of both potentials. Although the Tseplyaev results at 2600 K approach that model's thermodynamic melting range, the Tseplyaev potential remains crystalline up to $\sim$3000 K in perfect-supercell heating because of expected hysteresis.
+
+For diffusivity calculations, the supercells are equilibrated in the \textit{NPT} ensemble and then evolved for a total of 5~ns. The self-diffusion coefficients are obtained from the long-time limit of the mean-squared displacement, MSD,
 \begin{equation}
 D = \lim_{t\rightarrow\infty}\frac{\langle \Delta r^{2}(t) \rangle}{6t},
 \end{equation}
-using the slope over the final 3~ns of each trajectory. No defects were inserted in any of these simulations, and all contributions to the MSD originate from spontaneously produced Frenkel pairs. In all cases, uranium remained effectively immobile on these timescales, while nitrogen exhibited increasingly rapid motion with temperature. We note that these are transient, dynamically formed vacancy–interstitial pairs identified from instantaneous snapshots rather than static, equilibrium Frenkel defects in the classical thermodynamic sense; the term ``Frenkel pair'' is used throughout for convenience. The the goal of this direct MD-based defect count is to estimate the defect contribution to $C_P(T)$ in UN without \textit{a priori} assumptions about defect equilibrium or the functional form of defect concentration.
+using the slope over the final 3~ns of each trajectory. No defects were inserted in any of these simulations, and all contributions to the MSD originate from spontaneously produced Frenkel pairs. In all cases, uranium remained effectively immobile on these timescales, while nitrogen exhibited increasingly rapid motion with temperature. We note that these are transient, dynamically formed vacancy–interstitial pairs identified from instantaneous snapshots rather than quenched or static Frenkel defects in the classical thermodynamic sense. The term ``Frenkel pair'' is used throughout for convenience. The goal of this direct MD-based defect count is to estimate the defect contribution to $C_P(T)$ in UN without \textit{a priori} assumptions about defect equilibrium or the functional form of defect concentration.
 
 \section{Results}
 
@@ -94,21 +117,26 @@ using the slope over the final 3~ns of each trajectory. No defects were inserted
 \caption{}
 \label{Fig:C}
 \end{subfigure}
-\caption{(Color online) (\textbf{a}) Nitrogen self-diffusion coefficients obtained from MSD analysis. (\textbf{b}) Nitrogen Frenkel-pair concentrations extracted using Wigner–Seitz defect analysis over 200~ps trajectories. Data points denote temporal averages over the post-equilibration sampling window, and error bars represent the standard deviation obtained from time averaging. The equilibrium concentration is based on Frenkel-pair formation energy of 4.5 eV calculated elsewhere using DFT and 0 K MD \cite{Yang2021,Kocevski2022I,AbdulHameed2024}.}
+\caption{(Color online) (\textbf{a}) Nitrogen self-diffusion coefficients obtained from MSD analysis. (\textbf{b}) Nitrogen Frenkel-pair concentrations extracted using Wigner–Seitz defect analysis over 200~ps trajectories. Data points denote temporal averages over the post-equilibration sampling window, and error bars represent one temporal standard deviation in linear concentration units and may appear asymmetric on the logarithmic scale. The equilibrium concentration is based on Frenkel-pair formation energy of 4.5 eV calculated elsewhere using DFT and 0 K MD \cite{Yang2021,Kocevski2022I,AbdulHameed2024}.}
 \end{figure*}
 
-\cref{Fig:D} summarizes the nitrogen self-diffusion coefficients for both potentials. For the Tseplyaev potential, the nitrogen diffusivity, $D_\text{N}$, is essentially zero at temperatures below 1800~K and then increases sharply, rising from $3.7\times10^{-15}$~m$^{2}$/s at 1900~K to $3.4\times10^{-11}$~m$^{2}$/s at 2600~K, spanning nearly four orders of magnitude. The Kocevski potential yields the same qualitative trend but with systematically smaller values, typically one order of magnitude lower across the entire range, with $D_\text{N}$ approaching $4.1 \times 10^{-12}$~m$^{2}$/s at 2600~K. The increasing nitrogen transport above 1800--1900~K, especially for the Tseplyaev potential, coincides with the temperature range where the Conway-Flagella enthalpy data start deviating from an approximately linear trend into a pronounced nonlinear increase. This suggests that the same microscopic process responsible for the rapid growth of nitrogen mobility---namely, the onset of significant anion-sublattice disorder and Frenkel-pair formation---may also underlie the excess enthalpy that produces the apparent high-temperature anomaly in the empirical heat capacity.
+\cref{Fig:D} summarizes the nitrogen self-diffusion coefficients for both potentials. For the Tseplyaev potential, the nitrogen diffusivity, $D_\text{N}$, is essentially zero at temperatures below 1800~K and then increases sharply, rising from $3.7\times10^{-15}$~m$^{2}$/s at 1900~K to $3.4\times10^{-11}$~m$^{2}$/s at 2600~K, spanning nearly four orders of magnitude. The Kocevski potential yields the same qualitative trend but with systematically smaller values, typically one order of magnitude lower across the entire range, with $D_\text{N}$ approaching $4.1 \times 10^{-12}$~m$^{2}$/s at 2600~K. The increasing nitrogen transport above 1800--1900~K, especially for the Tseplyaev potential, coincides with the temperature range where the Conway-Flagella enthalpy data start deviating from an approximately linear trend into a pronounced nonlinear increase. This suggests that the same microscopic process responsible for the rapid growth of nitrogen mobility---namely, the onset of significant anion-sublattice disorder and Frenkel-pair formation---may also underlie the excess enthalpy that produces the apparent high-temperature anomaly in the empirical heat capacity. To confirm that the 2600~K state remains solid and that the observed anion mobility and concentration are not a pre-melting artifact, we examined radial distribution functions at 2600~K and found them consistent with a crystalline solid (no liquid-like collapse of higher-neighbor peaks) for either potential.
 
 To more directly quantify point-defect formation, we analyzed nitrogen Frenkel-pair concentrations using the Wigner-Seitz (WS) defect analysis implemented in OVITO \cite{Stukowski2010}. In this method, a defect-free reference lattice defines the positions of ideal sites, each associated with a Wigner-Seitz cell, i.e., the region of space closer to that site than to any other. For a given instantaneous configuration, each atom is assigned to the nearest reference site. Sites with occupancy zero correspond to vacancies, while sites with occupancy greater than one indicate interstitial defects. This nearest-site mapping provides a robust, topology-based identification of point defects. For each temperature, we simulated for 200~ps, recorded snapshots every 10~ps, and applied the WS analysis to all configurations after the first 10~ps to ensure equilibration. The reported Frenkel-pair concentrations correspond to the time-averaged mean over the sampled configurations, and the associated error bars represent the standard deviation over the temporal sampling window.
 
-The resulting nitrogen Frenkel-pair concentrations, $c_{\mathrm{FP}}(T)$, are shown in \cref{Fig:C}. For the Tseplyaev potential, $c_{\mathrm{FP}}$ increases from $5\times10^{-8}$ at 1800~K to $8.6\times10^{-4}$ at 2600~K. Fitting an Arrhenius form,
+Here, $n_{\mathrm{FP}}(T)$ is the total number of nitrogen Frenkel pairs in the MD supercell, obtained from the number of nitrogen WS vacancies. The plotted concentration is normalized by the total number of atoms,
+\begin{equation}
+c_{\mathrm{FP}}(T)=\frac{n_{\mathrm{FP}}(T)}{N_{\mathrm{atoms}}}.
+\end{equation}
+This definition affects only the concentration normalization and the Arrhenius prefactor, but not $C_{\mathrm{def}}$, which is evaluated from the absolute Frenkel-pair count $n_{\mathrm{FP}}(T)$ in \cref{Eq:C_def}.
+
+The resulting nitrogen Frenkel-pair concentrations, $c_{\mathrm{FP}}(T)$, are shown in \cref{Fig:C}. For the Tseplyaev potential, $c_{\mathrm{FP}}$ increases from $5\times10^{-8}$ at 1800~K to $8.6\times10^{-4}$ at 2600~K. Fitting an Arrhenius form \cite{Olander2017},
 \begin{equation}
 c_{\mathrm{FP}}(T) = A \exp\!\left[-\frac{Q}{k_{\mathrm{B}}T}\right],
 \end{equation}
 yields an effective activation energy $Q_{\mathrm{ADP}} = 4.97$~eV, while the Kocevski potential produces a lower activation energy, $Q_{\mathrm{EAM}} = 3.79$~eV, and lower defect populations at all temperatures. Thus, the Tseplyaev potential generates nitrogen Frenkel concentrations large enough to potentially alter the thermodynamics.
 
-% not only reproduces DFT formation energies more faithfully, but it also 
-% in good agreement with reported DFT and MD values for the nitrogen Frenkel pair formation energy ($4.5$--$5.0$~eV) \cite{Kocevski2022I,AbdulHameed2024}.
+% not only reproduces DFT formation energies more faithfully, but it also in good agreement with reported DFT and MD values for the nitrogen Frenkel pair formation energy ($4.5$--$5.0$~eV) \cite{Kocevski2022I,AbdulHameed2024}.
 
 Frenkel-pair formation contributes an additional term to the heat capacity \cite{Szwarc1969,Pavlov2017}:
 \begin{equation}
@@ -116,20 +144,58 @@ C_{\mathrm{def}}(T) = \frac{1}{n_{\mathrm{moles}}} \frac{\partial}{\partial T} \
 \approx \frac{Q_\text{FP}}{n_{\mathrm{moles}}} \frac{\partial n_{\mathrm{FP}}}{\partial T}.
 \label{Eq:C_def}
 \end{equation}
-In practice, we evaluate $C_{\mathrm{def}}(T)$ directly from the Frenkel-pair populations obtained by the WS analysis for both interatomic potentials. We assume a formation enthalpy $Q$ = 4.5~eV, consistent with both the DFT estimates \cite{Yang2021,Kocevski2022I} and the $T \rightarrow 0$~K Frenkel pair formation energies of both the Tseplyaev and Kocevski potentials~\cite{AbdulHameed2024}. The temperature derivative in \cref{Eq:C_def} is computed using centered finite differences applied to the simulated defect populations.
+In practice, we evaluate $C_{\mathrm{def}}(T)$ directly from the Frenkel-pair populations obtained by the WS analysis for both interatomic potentials. We assume a formation enthalpy $Q_\text{FP}$ = 4.5~eV, consistent with both the DFT estimates \cite{Yang2021,Kocevski2022I} and the $T \rightarrow 0$~K Frenkel pair formation energies of both the Tseplyaev and Kocevski potentials~\cite{AbdulHameed2024}. The temperature derivative in \cref{Eq:C_def} is computed using centered finite differences applied to the simulated defect populations. Here, $n_{\mathrm{moles}}$ is the number of moles of UN formula units in the simulation cell.
 
-\begin{figure*}[h!]
- \centering
- \includegraphics[width=0.5\textwidth]{C_def.png}
- \caption{Defect-induced heat-capacity contribution $C_{\mathrm{def}}(T)$ computed from Wigner-Seitz Frenkel-pair statistics using both the Tseplyaev and Kocevski interatomic potentials.}
- \label{Fig:C_def}
-\end{figure*}
+% \begin{figure*}[h!]
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{C_def.png}
+%  \caption{Defect-induced heat-capacity contribution $C_{\mathrm{def}}(T)$ computed from Wigner-Seitz Frenkel-pair statistics using both the Tseplyaev and Kocevski interatomic potentials.}
+%  \label{Fig:C_def}
+% \end{figure*}
 
-The resulting $C_{\mathrm{def}}(T)$ curves are shown in \cref{Fig:C_def}. For the Tseplyaev potential, $C_{\mathrm{def}}$ reaches $\sim$10~J/(mol-K) at 2600~K, whereas for the Kocevski potential it remains on the order of 1~J/(mol-K) at the same temperature. Thus, the order-of-magnitude difference in Frenkel-pair concentration between the two potentials translates into an order-of-magnitude difference in the defect contribution to the heat capacity. This might provide an explanation for why the Tseplyaev potential reproduces the strong curvature of the Hayes correlation, while the Kocevski potential yields a nearly linear $C_{P}(T)$: the latter underestimates the magnitude of the Frenkel-pair contribution and therefore fails to reproduce the superlinear component in $C_P(T)$.
+% The resulting $C_{\mathrm{def}}(T)$ curves and their comparison with $C_{\mathrm{anharm+def}}$ are shown in \cref{Fig:C_def}. For the Tseplyaev potential, $C_{\mathrm{def}}$ reaches $\sim$10~J/(mol-K) at 2600~K, whereas for the Kocevski potential it remains on the order of 1~J/(mol-K) at the same temperature. Thus, the order-of-magnitude difference in Frenkel-pair concentration between the two potentials translates into an order-of-magnitude difference in the defect contribution to the heat capacity. This might provide an explanation for why the Tseplyaev potential reproduces the strong curvature of the Hayes correlation, while the Kocevski potential yields a nearly linear $C_{P}(T)$: the latter underestimates the magnitude of the Frenkel-pair contribution and therefore fails to reproduce the superlinear component in $C_P(T)$.
 
-A key observation is that the temperature range in which both the nitrogen diffusivity and Frenkel-pair concentration increase most rapidly (roughly 1800--2000~K) coincides with the onset of deviations from a purely phononic heat capacity in experiment and AIMD+DLM. This parallel behavior strongly suggests that UN undergoes a form of anion-sublattice disordering crossover at high temperature, qualitatively analogous to the oxygen superionic transition in UO$_2$.
+To connect the directly counted Frenkel-pair population with the heat-capacity response, we compare three quantities. First, the total constant-pressure heat capacity, $C_P$, is written as
+\begin{equation}
+C_P = C_{\mathrm{lat}} + C_{\mathrm{elec}},
+\end{equation}
+where $C_{\mathrm{lat}}$ is the MD lattice heat capacity and $C_{\mathrm{elec}}$ is the electronic heat-capacity contribution, following our previous assessment of these potentials~\cite{AbdulHameed2024}. Second, we define a residual lattice term, $C_{\mathrm{anharm+def}}$, by subtracting the constant-volume heat capacity, $C_V$, and the thermal-expansion contribution, $C_{\mathrm{exp}}$, from $C_{\mathrm{lat}}$:
+\begin{equation}
+C_{\mathrm{anharm+def}} = C_{\mathrm{lat}} - C_V - C_{\mathrm{exp}}.
+\label{Eq:C_anharm_def}
+\end{equation}
+Here, $C_{\mathrm{anharm+def}}$ represents the part of the lattice heat capacity that remains after removing the constant-volume and expansion contributions. The $C_{\mathrm{lat}}$, $C_V$, and $C_{\mathrm{exp}}$ terms were obtained from fits generated from the MD data reported in our previous assessment~\cite{AbdulHameed2024}. We label this residual $C_{\mathrm{anharm+def}}$ because the high-temperature MD trajectories allow Frenkel pairs to form spontaneously. Therefore, the residual contains both non-expansive anharmonic lattice contributions and defect-generation contributions. Finally, we compare this residual with the independently estimated defect heat capacity, $C_{\mathrm{def}}(T)$, obtained from the WS Frenkel-pair populations using \cref{Eq:C_def}.
 
-% In the Tseplyaev potential description, nitrogen remains localized at low temperature, then progressively explores interstitial configurations, increasing both defect concentration and mobility and thereby enhancing $C_P(T)$.
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{C_def_vs_C_anharm+def.png}
+    \caption{}
+    \label{Fig:C_def}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{total_C_P.png}
+    \caption{}
+    \label{Fig:total_C_P} 
+\end{subfigure}
+\caption{(Color online) (\textbf{a}) Comparison of $C_{\mathrm{def}}(T)$ with the residual lattice term $C_{\mathrm{anharm+def}}$. (\textbf{b}) Total $C_P(T)$ for both interatomic potentials and the Hayes correlation presented for reference.}
+\label{Fig:C_def}
+\end{figure}
+
+The resulting $C_{\mathrm{def}}(T)$ curves and their comparison with $C_{\mathrm{anharm+def}}$ are shown in \cref{Fig:C_def}. For the Tseplyaev potential, $C_{\mathrm{def}}$ remains small below 2400~K but increases rapidly at the highest temperatures, reaching 3.39~J/(mol-K) at 2500~K and 9.94~J/(mol-K) at 2600~K. These values correspond to 3.4\% and 9.1\% of the total $C_P$, respectively. The corresponding $C_{\mathrm{anharm+def}}$ values are 22.78 and 29.04~J/(mol-K), so the directly counted Frenkel-pair term accounts for approximately 15\% of the residual at 2500~K and 34\% at 2600~K. 
+
+For the Kocevski potential, $C_{\mathrm{def}}$ remains much smaller, increasing from 0.61~J/(mol-K) at 2500~K to 1.30~J/(mol-K) at 2600~K. These values correspond to 0.9\% and 1.8\% of the total $C_P$, respectively. The corresponding $C_{\mathrm{anharm+def}}$ values are 4.30 and 5.05~J/(mol-K), so $C_{\mathrm{def}}$ accounts for approximately 14\% of the residual at 2500~K and 26\% at 2600~K. Thus, although the defect term is not the entire heat capacity or the entire residual, it becomes a substantial fraction of the high-temperature nonlinear contribution.
+
+This comparison provides a possible explanation for why the Tseplyaev potential produces a stronger nonlinear heat-capacity response than the Kocevski potential. The Tseplyaev potential generates a rapidly increasing Frenkel-pair contribution at high temperature, whereas the Kocevski potential gives both a smaller residual lattice contribution and a smaller explicitly counted defect term.
+
+The difference between the two potentials likely reflects their different functional forms and fitting targets. The Tseplyaev angular-dependent potential has previously been found to better describe energetic quantities such as heat capacity and point-defect formation energies, whereas the Kocevski EAM potential better reproduces structural and elastic properties but is less reliable for defect energetics~\cite{AbdulHameed2024}. These differences lead to different nitrogen vacancy-interstitial free-energy landscapes and therefore different Frenkel-pair populations at high temperature.
+
+The onset of nitrogen mobility also coincides with the onset of nonlinear heat-capacity growth. As shown in \cref{Fig:D}, $D_\mathrm{N}$ remains negligible below approximately 1800~K and then increases rapidly above 1800--1900~K. The Frenkel-pair concentration follows the same trend, indicating that nitrogen transport is coupled to spontaneous anion-disorder formation. This temperature range overlaps with the onset of nonlinear growth in the Hayes heat-capacity correlation and with the high-temperature departure from lower-temperature behavior in the AIMD+DLM results. This correspondence supports the interpretation that nitrogen Frenkel-pair formation and anion-sublattice disorder contribute to the intrinsic nonlinear component of $C_P(T)$ in UN.
+
+Because UN is metallic, $C_{\mathrm{elec}}$ is not negligible. Using $C_{\mathrm{elec}}=\gamma T$, with $\gamma=3.7\times10^{-3}$~J~mol$^{-1}$~K$^{-2}$ \cite{Samsel2007}, gives $C_{\mathrm{elec}}\approx 9.6$~J/(mol-K) at 2600~K. However, this contribution is linear in $T$, whereas the high-temperature increase in $C_P$ is strongly nonlinear. Therefore, $C_{\mathrm{elec}}$ can shift the magnitude of $C_P$, but it cannot explain the curvature. 
 
 Our results therefore support a defect-driven interpretation of the high-temperature heat capacity of UN: nitrogen Frenkel-pair formation and associated sublattice disorder provide a plausible intrinsic mechanism for the observed superlinear $C_P(T)$. The calculated $C_{\mathrm{def}}(T)$ should be regarded as qualitative, since the defect populations are sensitive to the choice of interatomic potential and \cref{Eq:C_def} is a simplified estimate. Nevertheless, the order-of-magnitude difference in Frenkel-pair concentration between the two potentials produces a correspondingly large difference in the defect contribution to the heat capacity. Thus, while the Tseplyaev potential predicts defect populations large enough to reproduce the curvature in the Hayes correlation and the Kocevski potential yields a much weaker response, the true intrinsic behavior of UN potentially lies between these limits.
 
@@ -139,7 +205,7 @@ This hypothesis is experimentally testable. High-purity UN samples with carefull
 
 In this work, we used MD simulations with two interatomic potentials to investigate whether intrinsic nitrogen Frenkel-pair formation contributes to the high-temperature heat capacity of UN. Both potentials predict increasing nitrogen Frenkel-pair concentrations and diffusivities above 1800~K, but the Tseplyaev potential yields defect populations roughly an order of magnitude larger than the Kocevski potential across the entire temperature range. This difference translates directly into the thermodynamic response: $C_\text{def}$ reaches $\sim$10~J/(mol$\cdot$K) for the Tseplyaev potential at 2600~K but remains near $\sim$1~J/(mol$\cdot$K) for the Kocevski potential.
 
-These results offer an atomistic explanation for the divergent heat-capacity predictions of the two potentials. When Frenkel pairs form in appreciable concentrations, the associated defect enthalpy produces a superlinear contribution to $C_P(T)$; when defect populations remain small, the heat capacity is dominated by lattice vibrations and remains nearly linear. This behavior resembles the defect-driven anomalies in UO$_2$, suggesting that UN may undergo a similar anion-sublattice disordering crossover at high temperature. Resolving the quantitative magnitude of this effect will require high-temperature calorimetry and tracer-diffusion measurements on high-purity UN samples.
+These results offer an atomistic explanation for the divergent heat-capacity predictions of the two potentials. When Frenkel pairs form in appreciable concentrations, the associated defect enthalpy contributes a nonlinear component to $C_P(T)$; when defect populations remain small, the heat capacity is dominated by lattice, electronic, expansion, and anharmonic contributions and remains closer to linear over the simulated temperature range. This behavior resembles the defect-driven anomalies in UO$_2$, suggesting that UN may undergo a similar anion-sublattice disordering crossover at high temperature. Resolving the quantitative magnitude of this effect will require high-temperature calorimetry and tracer-diffusion measurements on high-purity UN samples.
 
 \section{Discussion}
 
@@ -157,6 +223,10 @@ For a bulk modulus of the linear form $B(T) = B_0(1 - \alpha T)$, this simplifie
 S_\text{FP} = Q_\text{FP} \ \alpha,
 \end{equation}
 independent of $B_0$. Using the temperature coefficient $\alpha = 2.375\times10^{-5}$~K$^{-1}$ for UN~\cite{Hayes1990II} and $Q_\text{FP} = 4.5$~eV gives $S_\text{FP} \approx 1.07\times10^{-4}$~eV/K~$\approx 1.24 \ k_B$. The corresponding Boltzmann prefactor is $\exp(S_\text{FP}/(2k_B)) \approx 1.86$, meaning that including entropy would uniformly scale the equilibrium Frenkel-pair concentration by a factor of approximately 1.86 at all temperatures, which is negligible relative to the order-of-magnitude difference in $c_\text{FP}$ between the two interatomic potentials. By comparison, Pavlov \textit{et al.}~\cite{Pavlov2017} used a formation entropy of $S_\text{FP} \approx 8.5 \ k_B$ for oxygen Frenkel pairs in UO$_2$, yielding $\exp(S_\text{FP}/(2k_B)) \approx 69.11$, roughly two orders of magnitude larger than the UN value.
+
+Another limitation is that the present simulations consider only stoichiometric UN. Real samples may deviate slightly from ideal stoichiometry, which could shift the onset of anion-sublattice disorder. Nitrogen-deficient UN contains pre-existing nitrogen vacancies that may enhance vacancy-mediated transport, while nitrogen-rich UN may favor interstitial-type disorder. Quantifying these effects requires dedicated off-stoichiometric simulations and is left for future work.
+
+Finally, the agreement between the Tseplyaev potential and the Hayes correlation should be interpreted as mechanistic consistency rather than a unique validation of the intrinsic UN heat-capacity curve. The Conway--Flagella enthalpy data underlying the Hayes correlation were obtained from samples containing substantial UO$_2$, which could influence the reconstructed high-temperature $C_P(T)$. The recent AIMD+DLM result, which predicts a more moderate nonlinear increase, remains an important first-principles reference for high-purity UN.
 
 \section*{Acknowledgments}
 
