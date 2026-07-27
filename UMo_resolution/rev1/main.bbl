@@ -1,0 +1,305 @@
+\begin{thebibliography}{10}
+
+\bibitem{meyer2014}
+M.K. Meyer, J.~Gan, J.F. Jue, D.D. Keiser, E.~Perez, A.~Robinson, D.M. Wachs,
+  N.~Woolstenhulme, G.L. Hofman, and Y.S. Kim.
+\newblock Irradiation performance of u-mo monolithic fuel.
+\newblock {\em Nuclear Engineering and Technology}, 46(2):169--182, 2014.
+
+\bibitem{beeler2018gb}
+Benjamin Beeler, Yongfeng Zhang, and Yipeng Gao.
+\newblock An atomistic study of grain boundaries and surfaces in $\gamma$u-mo.
+\newblock {\em Journal of Nuclear Materials}, 507:248--257, 2018.
+
+\bibitem{annualreport2021}
+Benjamin~W Beeler, James~I Cole, Sourabh~Bhagwan Kadambi, Linu Malakkal,
+  Larry~K Aagesen~Jr, Gerard Hofman, ATM~Jahid Hasan, Shenyang Hu, Curt
+  Lavender, Sean Masengale, et~al.
+\newblock Microstructural-level fuel performance modeling of u mo monolithic
+  fuel.
+\newblock Technical Report INL/EXT-21-65319, Idaho National Lab.(INL), Idaho
+  Falls, ID (United States), 2021.
+
+\bibitem{ye2023}
+Bei Ye, Aaron Oaks, Shenyang Hu, Benjamin Beeler, Jeff Rest, Zhi-Gang Mei, and
+  Abdellatif Yacout.
+\newblock Integrated simulation of u-10mo monolithic fuel swelling behavior.
+\newblock {\em Journal of Nuclear Materials}, page 154542, 2023.
+
+\bibitem{olander2006re}
+DR~Olander and D~Wongsawaeng.
+\newblock Re-solution of fission gas--a review: Part i. intragranular bubbles.
+\newblock {\em Journal of nuclear materials}, 354(1-3):94--109, 2006.
+
+\bibitem{parfitt2008}
+David~C Parfitt and Robin~W Grimes.
+\newblock Predicted mechanisms for radiation enhanced helium resolution in
+  uranium dioxide.
+\newblock {\em Journal of Nuclear Materials}, 381(3):216--222, 2008.
+
+\bibitem{nelson1969}
+RS~Nelson.
+\newblock The stability of gas bubbles in an irradiation environment.
+\newblock {\em Journal of Nuclear Materials}, 31(2):153--161, 1969.
+
+\bibitem{turnbull1971}
+JA~Turnbull.
+\newblock The distribution of intragranular fission gas bubbles in uo2 during
+  irradiation.
+\newblock {\em Journal of Nuclear Materials}, 38(2):203--212, 1971.
+
+\bibitem{setyawan2018}
+Wahyu Setyawan, Michael~WD Cooper, Kenneth~J Roche, Richard~J Kurtz, Blas~P
+  Uberuaga, David~A Andersson, and Brian~D Wirth.
+\newblock Atomistic model of xenon gas bubble re-solution rate due to thermal
+  spike in uranium oxide.
+\newblock {\em Journal of Applied Physics}, 124(7), 2018.
+
+\bibitem{schwen2009md}
+Daniel Schwen, M~Huang, P~Bellon, and RS~Averback.
+\newblock Molecular dynamics simulation of intragranular xe bubble re-solution
+  in uo2.
+\newblock {\em Journal of Nuclear Materials}, 392(1):35--39, 2009.
+
+\bibitem{huang2010md}
+M~Huang, D~Schwen, and Robert~S Averback.
+\newblock Molecular dynamic simulation of fission fragment induced thermal
+  spikes in uo2: Sputtering and bubble re-solution.
+\newblock {\em Journal of nuclear materials}, 399(2-3):175--180, 2010.
+
+\bibitem{govers2012}
+K~Govers, CL~Bishop, DC~Parfitt, SE~Lemehov, M~Verwerft, and RW~Grimes.
+\newblock Molecular dynamics study of xe bubble re-solution in uo2.
+\newblock {\em Journal of Nuclear Materials}, 420(1-3):282--290, 2012.
+
+\bibitem{matthews2015}
+Christopher Matthews, Daniel Schwen, and Andrew~C Klein.
+\newblock Radiation re-solution of fission gas in non-oxide nuclear fuel.
+\newblock {\em Journal of Nuclear Materials}, 457:273--278, 2015.
+
+\bibitem{mao2025}
+Wenlue Mao, Jinli Cao, Xinfu He, Yonggang Li, Qirong Zheng, Wen Yang, and
+  Qi~Luo.
+\newblock Monte carlo simulation of intragranular xe bubble re-solution in uzr
+  nuclear fuels.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 560:165623, 2025.
+
+\bibitem{ronchi1986}
+C~Ronchi and PT~Elton.
+\newblock Radiation re-solution of fission gas in uranium dioxide and carbide.
+\newblock {\em Journal of Nuclear Materials}, 140(3):228--244, 1986.
+
+\bibitem{jarrin2021}
+Thomas Jarrin, Antoine Jay, Nicolas Richard, and Anne H{\'e}~meryck.
+\newblock Coping with the stochasticity of collision cascades in molecular
+  dynamics simulations.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 500:1--9, 2021.
+
+\bibitem{stoller2000}
+Roger~E Stoller.
+\newblock The influence of pka direction on displacement cascade evolution.
+\newblock {\em MRS Online Proceedings Library}, 650:351--356, 2000.
+
+\bibitem{wang1994}
+Z~G Wang, C~Dufour, E~Paumier, and M~Toulemonde.
+\newblock The se sensitivity of metals under swift-heavy-ion irradiation: a
+  transient thermal process.
+\newblock {\em Journal of Physics: Condensed Matter}, 6(34):6733, aug 1994.
+
+\bibitem{toulemonde2002}
+M.~Toulemonde, W.~Assmann, C.~Trautmann, and F.~Gr\"uner.
+\newblock Jetlike component in sputtering of lif induced by swift heavy ions.
+\newblock {\em Phys. Rev. Lett.}, 88:057602, Jan 2002.
+
+\bibitem{patra2019}
+Paramita Patra, S.~A. Khan, M.~Bala, D.~K. Avasthi, and S.~K. Srivastava.
+\newblock Assessing a thermal spike model of swift heavy ion–matter
+  interactions via pd1-xnix/si interface mixing.
+\newblock {\em Phys. Chem. Chem. Phys.}, 21:16634--16646, 2019.
+
+\bibitem{duffy2006}
+DM~Duffy and AM~Rutherford.
+\newblock Including the effects of electronic stopping and electron--ion
+  interactions in radiation damage simulations.
+\newblock {\em Journal of Physics: Condensed Matter}, 19(1):016207, 2006.
+
+\bibitem{rutherford2007}
+AM~Rutherford and DM~Duffy.
+\newblock The effect of electron--ion interactions on radiation damage
+  simulations.
+\newblock {\em Journal of Physics: Condensed Matter}, 19(49):496201, 2007.
+
+\bibitem{kim2008}
+Yeon~Soo Kim, G~Hofman, J~Rest, GV~Shevlyakov, and SSCR RIAR.
+\newblock Characterization of intergranular fission gas bubbles in u-mo fuel.
+\newblock Technical report, Argonne National Laboratory (ANL), 2008.
+
+\bibitem{drobny2021}
+Jon~T Drobny and Davide Curreli.
+\newblock Rustbca: A high-performance binary-collision-approximation code for
+  ion-material interactions.
+\newblock {\em Journal of Open Source Software}, 6(64):3298, 2021.
+
+\bibitem{varelas1970}
+C~Varelas and J~Biersack.
+\newblock Reflection of energetic particles from atomic or ionic chains in
+  single crystals.
+\newblock {\em Nuclear Instruments and Methods}, 79(2):213--218, 1970.
+
+\bibitem{moller1984}
+W~M{\"o}ller and W~Eckstein.
+\newblock Tridyn—a trim simulation code including dynamic composition
+  changes.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 2(1-3):814--818, 1984.
+
+\bibitem{eckstein2013}
+Wolfgang Eckstein.
+\newblock {\em Computer simulation of ion-solid interactions}, volume~10.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem{lammps}
+A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown,
+  P.~S. Crozier, P.~J. in~'t Veld, A.~Kohlmeyer, S.~G. Moore, T.~D. Nguyen,
+  R.~Shan, M.~J. Stevens, J.~Tranchida, C.~Trott, and S.~J. Plimpton.
+\newblock {LAMMPS} - a flexible simulation tool for particle-based materials
+  modeling at the atomic, meso, and continuum scales.
+\newblock {\em Comp. Phys. Comm.}, 271:108171, 2022.
+
+\bibitem{smirnova2013}
+D~E Smirnova, A~Yu Kuksin, S~V Starikov, V~V Stegailov, Z~Insepov, J~Rest, and
+  A~M Yacout.
+\newblock A ternary eam interatomic potential for u–mo alloys with xenon.
+\newblock {\em Modelling and Simulation in Materials Science and Engineering},
+  21(3):035011, mar 2013.
+
+\bibitem{starikov2018}
+S.V. Starikov, L.N. Kolotova, A.Yu. Kuksin, D.E. Smirnova, and V.I. Tseplyaev.
+\newblock Atomistic simulation of cubic and tetragonal phases of u-mo alloy:
+  Structure and thermodynamic properties.
+\newblock {\em Journal of Nuclear Materials}, 499:451--463, 2018.
+
+\bibitem{beelerADP}
+B.~Beeler and Y.~Zhang.
+\newblock The reconciliation and validation of a combined interatomic potential
+  for the description of xe in $\gamma$u-mo.
+\newblock {\em Frontiers in Nuclear Engineering}, \textit{under review}, 2018.
+
+\bibitem{norman2013}
+G.~E. Norman, S.~V. Starikov, V.~V. Stegailov, I.~M. Saitov, and P.~A.
+  Zhilyaev.
+\newblock Atomistic modeling of warm dense matter in the two-temperature state.
+\newblock {\em Contrib.\ Plasma Phys.}, 53(2):129--139, 2013.
+
+\bibitem{pisarev2014}
+V.~V. Pisarev and S.~V. Starikov.
+\newblock Atomistic simulation of ion track formation in {UO$_2$}.
+\newblock {\em J.~Phys.\ Condens.\ Matter}, 26(47):475401, 2014.
+
+\bibitem{chen2006}
+JK~Chen, DY~Tzou, and JE~Beraun.
+\newblock A semiclassical two-temperature model for ultrafast laser heating.
+\newblock {\em International journal of heat and mass transfer},
+  49(1-2):307--316, 2006.
+
+\bibitem{kolotova2017}
+LN~Kolotova and SV~Starikov.
+\newblock Atomistic simulation of defect formation and structure transitions in
+  u-mo alloys in swift heavy ion irradiation.
+\newblock {\em Journal of Nuclear Materials}, 495:111--117, 2017.
+
+\bibitem{li2017}
+Zi~Li, Cong Wang, Jize Zhao, Wei Kang, and Ping Zhang.
+\newblock Theoretical study on electron--phonon coupling factor and
+  electron--ion nonequilibrium process in uranium.
+\newblock {\em Physics of Plasmas}, 24(2), 2017.
+
+\bibitem{beeler2018disp}
+Benjamin Beeler, Yongfeng Zhang, Maria Okuniewski, and Chaitanya Deo.
+\newblock Calculation of the displacement energy of $\alpha$ and $\gamma$
+  uranium.
+\newblock {\em Journal of Nuclear Materials}, 508:181--194, 2018.
+
+\bibitem{burkes2010}
+Douglas~E Burkes, Cynthia~A Papesch, Andrew~P Maddison, Thomas Hartmann, and
+  Francine~J Rice.
+\newblock Thermo-physical properties of du--10 wt.\% mo alloys.
+\newblock {\em Journal of Nuclear Materials}, 403(1-3):160--166, 2010.
+
+\bibitem{schulthess2022}
+Jason~L Schulthess, Tsvetoslav~R Pavlov, Michael~P Heighes, Cynthia~A Adkins,
+  Chuting Tan, M~Craig Marshall, William~Alexander Hanson, Jeffrey~J Giglio,
+  and James~I Cole.
+\newblock Recent progress in u-10mo mechanical and thermophysical property
+  characterization.
+\newblock Technical report, Idaho National Laboratory (INL), Idaho Falls, ID
+  (United States), 2022.
+
+\bibitem{mills1995}
+Robert~William Mills.
+\newblock {\em Fission product yield evaluation}.
+\newblock PhD thesis, University of Birmingham, 1995.
+
+\bibitem{phillips2010}
+AM~Phillips, GS~Mickum, and DE~Burkes.
+\newblock Thermophysical properties of u-10mo alloy.
+\newblock Technical report, Idaho National Laboratory (INL), 2010.
+
+\bibitem{beeler2020improved}
+Benjamin Beeler, Shenyang Hu, Yongfeng Zhang, and Yipeng Gao.
+\newblock A improved equation of state for xe gas bubbles in $\gamma$u-mo
+  fuels.
+\newblock {\em Journal of Nuclear Materials}, 530:151961, 2020.
+
+\bibitem{bussi2007}
+Giovanni Bussi, Davide Donadio, and Michele Parrinello.
+\newblock Canonical sampling through velocity rescaling.
+\newblock {\em The Journal of chemical physics}, 126(1), 2007.
+
+\bibitem{ovito}
+Alexander Stukowski.
+\newblock Visualization and analysis of atomistic simulation data with
+  ovito--the open visualization tool.
+\newblock {\em Modelling and simulation in materials science and engineering},
+  18(1):015012, 2009.
+
+\bibitem{olander1975}
+Donald~R Olander.
+\newblock Fundamental aspects of nuclear reactor fuel elements: solutions to
+  problems.
+\newblock Technical report, California Univ., Berkeley (USA). Dept. of Nuclear
+  Engineering, 1975.
+
+\bibitem{salvato2018}
+Daniele Salvato, A~Leenaers, Sven Van~den Berghe, and Christophe Detavernier.
+\newblock Pore pressure estimation in irradiated umo.
+\newblock {\em Journal of Nuclear Materials}, 510:472--483, 2018.
+
+\bibitem{ronchi1981}
+C~Ronchi.
+\newblock Extrapolated equation of state for rare gases at high temperatures
+  and densities.
+\newblock {\em Journal of Nuclear Materials}, 96(3):314--328, 1981.
+
+\bibitem{vispy}
+Luke Campagnola, Almar Klein, Eric Larson, Cyrille Rossant, and Nicolas~P
+  Rougier.
+\newblock Vispy: harnessing the gpu for fast, high-level visualization.
+\newblock In {\em Proceedings of the 14th Python in Science Conference}, 2015.
+
+\bibitem{fritsch1984}
+Frederick~N Fritsch and Judy Butland.
+\newblock A method for constructing local monotone piecewise cubic
+  interpolants.
+\newblock {\em SIAM journal on scientific and statistical computing},
+  5(2):300--304, 1984.
+
+\bibitem{hasan2024gb}
+ATM~Jahid Hasan and Benjamin Beeler.
+\newblock Calculation of grain boundary diffusion coefficients in $\gamma $u-mo
+  using atomistic simulations.
+\newblock {\em Journal of Nuclear Materials}, page 155190, 2024.
+
+\end{thebibliography}
